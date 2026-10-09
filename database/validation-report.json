@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-10-09",
+  "result": "passed",
+  "total": 844,
+  "text": 202,
+  "image": 642,
+  "sources": [
+    {
+      "id": "src-visual642",
+      "expected": 642,
+      "actual": 642
+    },
+    {
+      "id": "src-template99",
+      "expected": 99,
+      "actual": 99
+    },
+    {
+      "id": "src-shortcut50",
+      "expected": 50,
+      "actual": 50
+    },
+    {
+      "id": "src-mode33",
+      "expected": 33,
+      "actual": 33
+    },
+    {
+      "id": "src-thinking20",
+      "expected": 20,
+      "actual": 20
+    }
+  ],
+  "duplicate_groups": 36,
+  "task_descriptions_without_full_template": 55,
+  "unreviewed_image_translations": 639,
+  "checks": [
+    "來源逐檔筆數",
+    "總筆數與成果分檔",
+    "ID 唯一",
+    "必要欄位非空",
+    "分類與成果一致",
+    "來源參照存在",
+    "每筆原文行號定位",
+    "逐筆結構與 schema 一致",
+    "所有關聯 ID 存在",
+    "占位欄位與提示原文一致",
+    "重複群組雙向參照"
+  ],
+  "notes": [
+    "35 組來源實際只有 33 組。",
+    "未將宣傳文字、作者介紹、平台價目或嵌入影片匯入指令項目。",
+    "未虛構實測成果、案例、場景、目標或平台相容性。",
+    "相同名稱保留各版本，待語義審查。"
+  ]
+}

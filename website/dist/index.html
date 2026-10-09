@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="從使用場景與完成目標探索文字、圖片提示詞，收藏方法並取得創作靈感。">
+  <title>指令所｜提示詞與靈感查詢器</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%236349e8'/%3E%3Cpath d='M10 9L5 16L10 23M22 9L27 16L22 23M18 7L14 25' stroke='white' stroke-width='2.5' fill='none'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="header"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true">/</span><span>指令所<small>PROMPT ATELIER</small></span></a><span class="header-note">一個好指令，讓想法更進一步。</span><button class="saved-nav" data-view="saved"><span aria-hidden="true">♡</span> 我的收藏 <span id="saved-count">0</span></button></header>
+  <main class="workspace">
+    <aside class="sidebar">
+      <p class="nav-label">探索資料庫</p>
+      <nav aria-label="主要導覽" id="navigation">
+        <button class="nav-item active" data-view="library"><span aria-hidden="true">▦</span> 全部指令 <small>844</small></button>
+        <button class="nav-item" data-view="cases"><span aria-hidden="true">✧</span> 靈感案例</button>
+        <button class="nav-item" data-view="scenes"><span aria-hidden="true">▤</span> 使用場景</button>
+        <button class="nav-item" data-view="goals"><span aria-hidden="true">◎</span> 完成目標</button>
+      </nav>
+      <div class="sidebar-divider"></div>
+      <p class="nav-label">成果類型</p>
+      <div class="type-switch" role="group" aria-label="成果類型"><button data-type="text" class="selected" aria-pressed="true">文字 <span>202</span></button><button data-type="image" aria-pressed="false">圖片 <span>642</span></button></div>
+      <div id="category-section"><div class="category-heading"><p class="nav-label">內容分類</p><button id="clear-category" class="quiet-button">清除</button></div><div id="categories" class="category-list"></div></div>
+      <div class="sidebar-foot"><span class="small-mark">/</span><p>收藏一個方法，<br>開啟下一個想法。</p><small>資料更新 2026.10.09</small></div>
+    </aside>
+    <section class="content">
+      <div class="intro"><div><p class="eyebrow" id="eyebrow">THE PROMPT LIBRARY</p><h1 id="page-title">你想完成什麼？</h1><p id="page-description">找到合適的方法，讓下一步更有方向。</p></div><div class="collection-note"><strong id="total-number">202</strong><span id="total-label">文字指令</span></div></div>
+      <form class="search-form" role="search" id="search-form"><span class="search-icon" aria-hidden="true"></span><label class="sr-only" for="search">搜尋指令、用途或關鍵字</label><input type="search" id="search" placeholder="搜尋用途、中文名稱或英文指令…" autocomplete="off"><kbd aria-hidden="true">/</kbd><button type="submit">搜尋</button></form>
+      <div id="quick-tags" class="quick-tags" aria-label="常用搜尋"></div>
+      <div class="result-toolbar"><div class="result-heading"><h2 id="section-title">探索文字指令</h2><span id="result-count" aria-live="polite">載入中</span></div><label id="sort-control" class="sort-control">排序 <select id="sort"><option value="recommended">推薦順序</option><option value="name">名稱排序</option><option value="source">依資料來源</option></select></label></div>
+      <div id="active-filters" class="active-filters"></div>
+      <div id="grid" class="card-grid" aria-busy="true"><article class="state-card"><h3>正在載入指令</h3><p>準備你的靈感資料庫。</p></article></div>
+      <div id="load-section" class="load-section" hidden><p id="shown-count"></p><button id="load-more" class="outline-button">載入更多指令</button></div>
+      <footer class="content-footer"><span>指令所 · 文字與圖片，各有靈感。</span><span>提示詞是方法，成果來自你的情境與素材。</span></footer>
+    </section>
+  </main>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><div id="detail-content"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p>請開啟瀏覽器 JavaScript，以使用搜尋與指令卡片。</p></noscript>
+</body>
+</html>

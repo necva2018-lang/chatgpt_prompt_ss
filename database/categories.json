@@ -1,0 +1,542 @@
+[
+  {
+    "id": "img-3683f0be511d",
+    "output_type": "image",
+    "name": "廣告與行銷活動（Advertising And Campaign）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-f2b33199cd80",
+    "output_type": "image",
+    "name": "攝影與燈光指引（Camera And Lighting Directions）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-43e2fcd64a78",
+    "output_type": "image",
+    "name": "場景與世界轉換（Scenes And World Transformation）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-5a7657b1e1b3",
+    "output_type": "image",
+    "name": "學習與解說（Learning And Explanation）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-7b79b148fd09",
+    "output_type": "image",
+    "name": "零售與產品展示（Retail And Product Presentation）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-afa3b00a73c3",
+    "output_type": "image",
+    "name": "想像世界與材質風格（Imagined Worlds And Material Styles）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-e02be9f1c5b3",
+    "output_type": "image",
+    "name": "近期產品與行銷活動代碼（Recent Product And Campaign Codes）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-058f8a27351d",
+    "output_type": "image",
+    "name": "產品專屬創意方向（Product-Specific Creative Directions）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-d4f403904f3d",
+    "output_type": "image",
+    "name": "最新技術解說代碼（Latest Technical Explanation Codes）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-e3a6e93a08b6",
+    "output_type": "image",
+    "name": "新產品與行銷活動捷徑（New Product And Campaign Shortcuts）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-77d113580427",
+    "output_type": "image",
+    "name": "已測試並使用的代碼（Codes Tested And Used）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-2c426ba54b45",
+    "output_type": "image",
+    "name": "工程與機構（Engineering And Mechanism）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-bbfaed0b9485",
+    "output_type": "image",
+    "name": "創意與產品方向（Creative And Product Directions）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-7b2852558adb",
+    "output_type": "image",
+    "name": "核心視覺揭示（Core Visual Reveals）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-65a9907672e7",
+    "output_type": "image",
+    "name": "技術製圖（Technical Drafting）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-1231c88983b1",
+    "output_type": "image",
+    "name": "機制與功能（Mechanism And Function）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-0fcc17a6f535",
+    "output_type": "image",
+    "name": "流程與操作說明（Process And Instruction）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-548f33847e42",
+    "output_type": "image",
+    "name": "維修、保養與安全（Repair, Maintenance, And Safety）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-03ae5d837dd4",
+    "output_type": "image",
+    "name": "控制、狀態與電力（Controls, Status, And Power）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-bbea6cb32178",
+    "output_type": "image",
+    "name": "連接性與相容性（Connectivity And Compatibility）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-05323cb5bec0",
+    "output_type": "image",
+    "name": "比例、比較與配置（Scale, Comparison, And Placement）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-96af02812adc",
+    "output_type": "image",
+    "name": "人類與動物解剖（Human And Animal Anatomy）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-6f2a83258339",
+    "output_type": "image",
+    "name": "攝影與透視（Camera And Perspective）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-d3d0ba8296f8",
+    "output_type": "image",
+    "name": "光線與光學表現（Light And Optical Behavior）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-d3aaa70f605f",
+    "output_type": "image",
+    "name": "傳統與工藝風格（Traditional And Craft Styles）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-1595a84dcb10",
+    "output_type": "image",
+    "name": "設計與出版（Design And Publishing）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-30ce90d6b2cb",
+    "output_type": "image",
+    "name": "數位與資料視圖（Digital And Data Views）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-9c0561ee0b90",
+    "output_type": "image",
+    "name": "環境與世界觀建構（Environment And Worldbuilding）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-3e2ac4e94e59",
+    "output_type": "image",
+    "name": "材質與表面轉換（Material And Surface Transformation）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-925288e948ff",
+    "output_type": "image",
+    "name": "動態、時間與變化（Motion, Time, And Change）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-dbc58b3f15cd",
+    "output_type": "image",
+    "name": "日常情境與產品使用（Everyday Context And Product Use）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-93d655350ae4",
+    "output_type": "image",
+    "name": "標註與解說（Annotation And Explanation）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-c42de2c28da6",
+    "output_type": "image",
+    "name": "環境、狀況與檢查（Environment, Condition, And Inspection）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "img-85dcffd5a758",
+    "output_type": "image",
+    "name": "科學與感官視圖（Scientific And Sensory Views）",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-313cf0d2d09b",
+    "output_type": "text",
+    "name": "寫作與改寫",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-253e9605bc2e",
+    "output_type": "text",
+    "name": "摘要與資料整理",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-730fb21ed514",
+    "output_type": "text",
+    "name": "研究與查證",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-0913655e5991",
+    "output_type": "text",
+    "name": "創意與內容企劃",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-883731342800",
+    "output_type": "text",
+    "name": "商業與行銷",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-3d697e5ae406",
+    "output_type": "text",
+    "name": "學習與教學",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-9e1121321460",
+    "output_type": "text",
+    "name": "資料分析與決策",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-d96d5d37446d",
+    "output_type": "text",
+    "name": "程式開發",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-b50765dc5ae2",
+    "output_type": "text",
+    "name": "效率、自動化與品質檢查",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-88b3d1fd6ee0",
+    "output_type": "text",
+    "name": "思考與分析類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-b4479adbacb7",
+    "output_type": "text",
+    "name": "程式與進階應用",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-1a9dd118c987",
+    "output_type": "text",
+    "name": "精簡與重寫類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-fae7d93c0937",
+    "output_type": "text",
+    "name": "語氣與表達類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-e5b2479994e1",
+    "output_type": "text",
+    "name": "比較與決策類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-f7d39e620761",
+    "output_type": "text",
+    "name": "創意與發想類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-b4b7b5173f61",
+    "output_type": "text",
+    "name": "學習與理解類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-318d6958ee8f",
+    "output_type": "text",
+    "name": "工作與溝通類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-7f3cd69a08a0",
+    "output_type": "text",
+    "name": "主力思考方法",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-56207b0d5b34",
+    "output_type": "text",
+    "name": "思考挑戰類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-ebd4af592750",
+    "output_type": "text",
+    "name": "深度思考類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-423a2a0e6e60",
+    "output_type": "text",
+    "name": "內容創作類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-9ed9cc8b0b08",
+    "output_type": "text",
+    "name": "商業經營類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-6994f1f7725f",
+    "output_type": "text",
+    "name": "學習引導類",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-93d9dac9c143",
+    "output_type": "text",
+    "name": "補充思考方法",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-30ed43ce5338",
+    "output_type": "text",
+    "name": "自創角色模式",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  },
+  {
+    "id": "txt-d20557a51f91",
+    "output_type": "text",
+    "name": "文字任務",
+    "origin": "source_category",
+    "scenario_ids": [],
+    "goal_ids": [],
+    "extensions": {}
+  }
+]

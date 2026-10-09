@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:prompt-library:record:1.1.0",
+  "title": "指令紀錄 v1.1.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "output_type", "title", "command", "aliases", "summary", "category_ids", "scenario_ids", "goal_ids", "tags", "prompt", "usage", "examples", "case_ids", "media", "image_links", "related_ids", "duplicate_group_ids", "source_refs", "quality", "created_at", "updated_at", "extensions"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "output_type": {"enum": ["text", "image"]},
+    "title": {"type": "string", "minLength": 1},
+    "command": {"type": "string", "minLength": 1},
+    "aliases": {"$ref": "#/$defs/stringArray"},
+    "summary": {"type": "string", "minLength": 1},
+    "category_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+    "scenario_ids": {"$ref": "#/$defs/stringArray"},
+    "goal_ids": {"$ref": "#/$defs/stringArray"},
+    "tags": {"$ref": "#/$defs/stringArray"},
+    "prompt": {
+      "type": "object", "additionalProperties": false,
+      "required": ["text", "language", "type", "origin", "variables"],
+      "properties": {
+        "text": {"type": "string", "minLength": 1},
+        "language": {"type": "string", "minLength": 1},
+        "type": {"enum": ["template", "instruction", "task_description"]},
+        "origin": {"enum": ["source", "editorial"]},
+        "variables": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["key", "label", "token", "required", "default"],
+            "properties": {
+              "key": {"type": "string"}, "label": {"type": "string"}, "token": {"type": "string"},
+              "required": {"type": ["boolean", "null"]}, "default": {"type": ["string", "null"]}
+            }
+          }
+        }
+      }
+    },
+    "usage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["input_requirements", "steps", "notes", "source_detail"],
+      "properties": {
+        "input_requirements": {"type": "array", "items": {"type": "object", "required": ["kind", "description", "origin"], "properties": {"kind": {"type": "string"}, "description": {"type": "string"}, "origin": {"type": "string"}}}},
+        "steps": {"$ref": "#/$defs/stringArray"},
+        "notes": {"$ref": "#/$defs/stringArray"},
+        "source_detail": {"type": ["string", "null"]}
+      }
+    },
+    "examples": {"type": "array", "items": {"type": "object", "required": ["kind", "text", "origin", "result"], "properties": {"kind": {"enum": ["input_prompt"]}, "text": {"type": "string"}, "origin": {"enum": ["source", "editorial"]}, "result": {"type": ["string", "null"]}}}},
+    "case_ids": {"$ref": "#/$defs/stringArray"},
+    "media": {"type": "array", "items": {"type": "object", "required": ["id", "kind", "path", "alt", "origin"], "properties": {"id": {"type": "string"}, "kind": {"enum": ["image", "text_card"]}, "path": {"type": "string"}, "alt": {"type": "string"}, "origin": {"type": "string"}}}},
+    "image_links": {
+      "type": "object", "additionalProperties": false,
+      "required": ["cover_url", "reference_urls", "result_urls", "gallery_urls"],
+      "properties": {
+        "cover_url": {"type": ["string", "null"]},
+        "reference_urls": {"$ref": "#/$defs/stringArray"},
+        "result_urls": {"$ref": "#/$defs/stringArray"},
+        "gallery_urls": {"$ref": "#/$defs/stringArray"}
+      }
+    },
+    "related_ids": {"$ref": "#/$defs/stringArray"},
+    "duplicate_group_ids": {"$ref": "#/$defs/stringArray"},
+    "source_refs": {
+      "type": "array", "minItems": 1,
+      "items": {"type": "object", "additionalProperties": false, "required": ["source_id", "item_number", "line_start", "line_end", "raw_excerpt"], "properties": {"source_id": {"type": "string"}, "item_number": {"type": "integer", "minimum": 1}, "line_start": {"type": "integer", "minimum": 1}, "line_end": {"type": "integer", "minimum": 1}, "raw_excerpt": {"type": "string", "minLength": 1}}}
+    },
+    "quality": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "tested", "review_flags", "notes"],
+      "properties": {
+        "status": {"enum": ["imported", "reviewed", "published", "archived"]},
+        "tested": {"type": "boolean"},
+        "review_flags": {"$ref": "#/$defs/stringArray"},
+        "notes": {"$ref": "#/$defs/stringArray"}
+      }
+    },
+    "created_at": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "updated_at": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "extensions": {"type": "object"}
+  },
+  "$defs": {
+    "stringArray": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}
+  }
+}

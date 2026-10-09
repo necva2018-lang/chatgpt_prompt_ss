@@ -1,0 +1,401 @@
+[
+  {
+    "id": "dup-001",
+    "normalized_key": "image:luxuryedition",
+    "record_ids": [
+      "src-visual642-002",
+      "src-visual642-152"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-002",
+    "normalized_key": "image:technicaldrawing",
+    "record_ids": [
+      "src-visual642-081",
+      "src-visual642-414"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-003",
+    "normalized_key": "image:explodedview",
+    "record_ids": [
+      "src-visual642-153",
+      "src-visual642-289"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-004",
+    "normalized_key": "image:motionfreeze",
+    "record_ids": [
+      "src-visual642-154",
+      "src-visual642-244"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-005",
+    "normalized_key": "image:floating3d",
+    "record_ids": [
+      "src-visual642-162",
+      "src-visual642-297"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-006",
+    "normalized_key": "image:rimlight",
+    "record_ids": [
+      "src-visual642-165",
+      "src-visual642-519"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-007",
+    "normalized_key": "image:manufacturingsteps",
+    "record_ids": [
+      "src-visual642-262",
+      "src-visual642-342"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-008",
+    "normalized_key": "text:shorten",
+    "record_ids": [
+      "src-template99-001",
+      "src-shortcut50-014"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-009",
+    "normalized_key": "text:email",
+    "record_ids": [
+      "src-template99-007",
+      "src-shortcut50-034"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-010",
+    "normalized_key": "text:compare",
+    "record_ids": [
+      "src-template99-015",
+      "src-shortcut50-020"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-011",
+    "normalized_key": "text:brainstorm",
+    "record_ids": [
+      "src-template99-034",
+      "src-shortcut50-022"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-012",
+    "normalized_key": "text:analogy",
+    "record_ids": [
+      "src-template99-040",
+      "src-shortcut50-028"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-013",
+    "normalized_key": "text:story",
+    "record_ids": [
+      "src-template99-042",
+      "src-shortcut50-016"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-014",
+    "normalized_key": "text:persona",
+    "record_ids": [
+      "src-template99-045",
+      "src-shortcut50-048"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-015",
+    "normalized_key": "text:socratic",
+    "record_ids": [
+      "src-template99-057",
+      "src-shortcut50-049",
+      "src-thinking20-005"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-016",
+    "normalized_key": "text:feynman",
+    "record_ids": [
+      "src-template99-062",
+      "src-thinking20-004"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-017",
+    "normalized_key": "text:rootcause",
+    "record_ids": [
+      "src-template99-071",
+      "src-shortcut50-005"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-018",
+    "normalized_key": "text:risk",
+    "record_ids": [
+      "src-template99-072",
+      "src-shortcut50-019"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-019",
+    "normalized_key": "text:redteam",
+    "record_ids": [
+      "src-template99-076",
+      "src-mode33-001",
+      "src-thinking20-006"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-020",
+    "normalized_key": "text:explaincode",
+    "record_ids": [
+      "src-template99-078",
+      "src-shortcut50-041"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-021",
+    "normalized_key": "text:debug",
+    "record_ids": [
+      "src-template99-079",
+      "src-shortcut50-040"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-022",
+    "normalized_key": "text:refactor",
+    "record_ids": [
+      "src-template99-081",
+      "src-shortcut50-042"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-023",
+    "normalized_key": "text:checklist",
+    "record_ids": [
+      "src-template99-092",
+      "src-shortcut50-032"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-024",
+    "normalized_key": "text:template",
+    "record_ids": [
+      "src-template99-093",
+      "src-shortcut50-033"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-025",
+    "normalized_key": "text:firstprinciples",
+    "record_ids": [
+      "src-shortcut50-006",
+      "src-mode33-013",
+      "src-thinking20-001"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-026",
+    "normalized_key": "text:human",
+    "record_ids": [
+      "src-shortcut50-010",
+      "src-mode33-023"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-027",
+    "normalized_key": "text:decisionmatrix",
+    "record_ids": [
+      "src-shortcut50-018",
+      "src-mode33-016"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-028",
+    "normalized_key": "text:tldr",
+    "record_ids": [
+      "src-shortcut50-031",
+      "src-thinking20-008"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-029",
+    "normalized_key": "text:pareto",
+    "record_ids": [
+      "src-mode33-002",
+      "src-thinking20-009"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-030",
+    "normalized_key": "text:lindymode",
+    "record_ids": [
+      "src-mode33-005",
+      "src-thinking20-019"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-031",
+    "normalized_key": "text:devilsadvocate",
+    "record_ids": [
+      "src-mode33-007",
+      "src-thinking20-002"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-032",
+    "normalized_key": "text:premortem",
+    "record_ids": [
+      "src-mode33-009",
+      "src-thinking20-013"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-033",
+    "normalized_key": "text:inversion",
+    "record_ids": [
+      "src-mode33-010",
+      "src-thinking20-012"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-034",
+    "normalized_key": "text:secondorderthinking",
+    "record_ids": [
+      "src-mode33-014",
+      "src-thinking20-003"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-035",
+    "normalized_key": "text:steelman",
+    "record_ids": [
+      "src-mode33-017",
+      "src-thinking20-011"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  },
+  {
+    "id": "dup-036",
+    "normalized_key": "text:ceomode",
+    "record_ids": [
+      "src-mode33-024",
+      "src-thinking20-015"
+    ],
+    "status": "needs_semantic_review",
+    "action": "retain_all",
+    "notes": "僅名稱正規化相同；可能不同用途或不同來源版本，未自動合併。"
+  }
+]

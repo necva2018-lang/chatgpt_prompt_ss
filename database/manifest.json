@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.1.0",
+  "updated_at": "2026-10-09",
+  "language": "zh-TW",
+  "record_counts": {
+    "total": 844,
+    "text": 202,
+    "image": 642
+  },
+  "files": {
+    "text": "text-prompts.json",
+    "image": "image-prompts.json",
+    "sources": "sources.json",
+    "categories": "categories.json",
+    "scenarios": "scenarios.json",
+    "goals": "goals.json",
+    "cases": "cases.json",
+    "duplicate_groups": "duplicate-groups.json",
+    "schema": "record.schema.json"
+  },
+  "classification_policy": "依預期成果分類；文字與圖片嚴格分檔，同名不代表相同用途。",
+  "extensions": {}
+}

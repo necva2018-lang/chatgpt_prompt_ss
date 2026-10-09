@@ -1,0 +1,16 @@
+{
+  "name": "prompt-atelier",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "以卡片呈現的文字與圖片指令查詢器",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node website/server.cjs",
+    "build": "node website/sync-data.cjs",
+    "validate:data": "node database/validate-database.cjs",
+    "test": "node --test website/tests/library.test.mjs",
+    "check": "npm run validate:data && npm test",
+    "export:github": "node scripts/export-github.cjs"
+  }
+}

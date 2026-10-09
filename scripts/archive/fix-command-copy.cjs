@@ -1,0 +1,14 @@
+const fs=require('fs');
+let app=fs.readFileSync('website/dist/app.js','utf8');
+app=app.replace('if(r)copy(r.prompt.text,b);','if(r)copy(r.command,b);');
+app=app.replace("else if((b.id==='copy-detail'||'copyActive'in b.dataset)&&selected)copy(applyVariables(selected.prompt,variableValues()),b);", "else if('copyActive'in b.dataset&&selected)copy(selected.command,b);\n  else if(b.id==='copy-detail'&&selected)copy(applyVariables(selected.prompt,variableValues()),b,'提示內容');");
+app=app.replace("async function copy(text, button) {", "async function copy(text, button, kind='指令') {");
+app=app.replace("toast('已複製完整指令');", "toast('已複製'+kind+'：'+(kind==='指令'?text:'完整提示內容'));");
+app=app.replaceAll("${r.prompt.type==='task_description'?'複製用途說明':'複製指令'}",'複製指令');
+const top='id="copy-detail"';
+const start=app.indexOf(top),end=app.indexOf('</button>',start);
+app=app.slice(0,start)+app.slice(start,end).replace('複製指令','複製提示詞')+app.slice(end);
+app=app.replace("(r.prompt.type==='task_description'?'複製用途說明':'複製指令')", "'複製指令'");
+app=app.replace('複製完整內容，包含已填入的欄位', "'+esc(r.command)+'");
+fs.writeFileSync('website/dist/app.js',app);
+console.log('複製指令只複製 command；提示詞使用獨立按鈕。');

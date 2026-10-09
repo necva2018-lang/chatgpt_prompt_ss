@@ -1,0 +1,10 @@
+node_modules/
+artifacts/
+website/.sites-runtime/
+website/.openai/hosting.json
+*.tar
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

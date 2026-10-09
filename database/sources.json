@@ -1,0 +1,42 @@
+[
+  {
+    "id": "src-visual642",
+    "title": "400-plus-codes-v2-中文解析 1",
+    "path": "Data Pool/400-plus-codes-v2-中文解析 1.md",
+    "sha256": "001c1876c81e1b425e09e37eb74fa0463c53079c47b1956b31587fcc7195aa5d",
+    "expected_record_count": 642,
+    "actual_record_count": 642
+  },
+  {
+    "id": "src-template99",
+    "title": "ChatGPT 指令大全：99 個實用提示詞範本，從寫作、研究到工作自動化一次整理",
+    "path": "Data Pool/ChatGPT 指令大全：99 個實用提示詞範本，從寫作、研究到工作自動化一次整理.md",
+    "sha256": "e6fd52f81c8a7e8003e36d3c166da63791f8b29846b38eb4775b06d42afdd525",
+    "expected_record_count": 99,
+    "actual_record_count": 99
+  },
+  {
+    "id": "src-shortcut50",
+    "title": "GPT 50 個超實用「隱藏指令」：不用再寫一大串 Prompt，各種場合情境都適用｜效率基地",
+    "path": "Data Pool/GPT 50 個超實用「隱藏指令」：不用再寫一大串 Prompt，各種場合情境都適用｜效率基地.md",
+    "sha256": "5b0745c0ab214f17a995fec88e797cb20d4bdcc34d03b81476ca78d3b2ab8ce2",
+    "expected_record_count": 50,
+    "actual_record_count": 50
+  },
+  {
+    "id": "src-mode33",
+    "title": "ChatGPT 神秘指令完整清單：5 個必學 + 30 個進階版（直接複製貼上就能用）",
+    "path": "Data Pool/ChatGPT 神秘指令完整清單：5 個必學 + 30 個進階版（直接複製貼上就能用）.md",
+    "sha256": "ea818ebd4b0cb2cf376abdd23da824199d978663f7148cbae308c894cc9a8572",
+    "expected_record_count": 33,
+    "actual_record_count": 33
+  },
+  {
+    "id": "src-thinking20",
+    "title": "ChatGPT 隱藏指令 完整版 20 組｜讓它變專業，別再附和你",
+    "path": "Data Pool/ChatGPT 隱藏指令 完整版 20 組｜讓它變專業，別再附和你.md",
+    "sha256": "905bcad2997ee245a8f971e6087a07ab957bde09ebe6ee33415731a854201c1c",
+    "expected_record_count": 20,
+    "actual_record_count": 20
+  }
+]
