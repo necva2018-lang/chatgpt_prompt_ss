@@ -8,3 +8,5 @@ website/.openai/hosting.json
 !.env.example
 .DS_Store
 Thumbs.db
+output/media/
+output/imagegen/

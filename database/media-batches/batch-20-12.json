@@ -1,0 +1,1522 @@
+{
+  "version": 1,
+  "id": "batch-20-12",
+  "cases": [
+    {
+      "id": "case-outsole-xray-01",
+      "prompt_id": "src-visual642-225",
+      "command": "/outsole xray",
+      "title": "運動鞋外底透視概念",
+      "description": "運動鞋外底透視概念（AI案例示範）",
+      "result_text": "運動鞋外底透視概念",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-12/outsole-xray.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /outsole xray: Reveal hidden construction with a luminous outsole xray. Reference image supplies subject identity only. Luminous X-ray-style conceptual study inspired by exterior shoe silhouette. Show translucent upper shell, one flat removable insole above one solid cup-shaped outsole, all distinctly visible in cyan glow. No air units, batteries or invented multilayer technology. Include title CONCEPT STUDY. Explicitly an illustrative generic construction concept, not a scan or verified construction of the branded reference. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. Use only the title CONCEPT STUDY. No other text, labels, dots, leader lines or arrows. Show upper translucent with visible internal insole and solid cup outsole below; clean illustrative concept.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Luminous X-ray-style conceptual study inspired by exterior shoe silhouette. Show translucent upper shell, one flat removable insole above one solid cup-shaped outsole, all distinctly visible in cyan glow. No air units, batteries or invented multilayer technology. Include title CONCEPT STUDY. Explicitly an illustrative generic construction concept, not a scan or verified construction of the branded reference.",
+        "effect": "運動鞋外底透視概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:07:04.873Z",
+        "source_instruction": "Reveal hidden construction with a luminous outsole xray.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "79cc6d5e548a3c4021d3d5081d2f65cbe6e2ccac5b70ec9d9ead0dec72bea713",
+        "applied_prompt_sha256": "0fbaa66006f7e82da404f5562bcdbc83ce2d09fc0ca00e6fa8bcdadc45d6de9f",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.nike.com/a/parts-of-shoe-anatomy"
+          ],
+          "notes": "核對鞋面、鞋墊與外底的一般部件關係。僅為概念透視，非來源品牌鞋款掃描；不得畫出氣墊或特殊中底技術。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鞋面側紋與低筒輪廓保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Luminous X-ray-style conceptual study inspired by exterior shoe silhouette. Show translucent upper shell, one flat removable insole above one solid cup-shaped outsole, all distinctly visible in cyan glow. No air units, batteries or invented multilayer technology. Include title CONCEPT STUDY. Explicitly an illustrative generic construction concept, not a scan or verified construction of the branded reference.",
+            "observed": "青藍發光透明鞋面呈現透視效果。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋外底透視概念",
+            "observed": "單片鞋墊與杯形外底分離，構造關係清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "無額外氣墊或特殊科技部件。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "標題 CONCEPT STUDY 清楚，沒有錯誤引線，為一般概念示意。",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "第一版鞋面標示引線終點落在空白區，移除非必要標註以避免錯誤定位。",
+          "at": "2026-10-09T11:06:13.522Z"
+        }
+      ]
+    },
+    {
+      "id": "case-color-shock-01",
+      "prompt_id": "src-visual642-226",
+      "command": "/color shock",
+      "title": "運動鞋高能色彩衝擊",
+      "description": "運動鞋高能色彩衝擊（AI案例示範）",
+      "result_text": "運動鞋高能色彩衝擊",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-12/color-shock.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /color shock: Create a bold high-energy color shock treatment. Reference image supplies subject identity only. One hero white black-striped gum-soled shoe bursts through bold cyan magenta yellow paint splashes and graphic color blocks; high energy diagonal composition, shoe intact and no extra shoes. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "One hero white black-striped gum-soled shoe bursts through bold cyan magenta yellow paint splashes and graphic color blocks; high energy diagonal composition, shoe intact and no extra shoes.",
+        "effect": "運動鞋高能色彩衝擊",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:07:56.380Z",
+        "source_instruction": "Create a bold high-energy color shock treatment.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "36e4113756f45e7c74bd0de9c77e44a54f70cb294c8b624a597a0b9cb34db591",
+        "applied_prompt_sha256": "80a60152443689b68af456c2bd6ddeb40e886f55a0f7c6fb6a8a123786eba1c5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑三條紋與棕色外底完整保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One hero white black-striped gum-soled shoe bursts through bold cyan magenta yellow paint splashes and graphic color blocks; high energy diagonal composition, shoe intact and no extra shoes.",
+            "observed": "青、洋紅與黃色塊充滿背景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋高能色彩衝擊",
+            "observed": "彩色顏料飛濺環繞單一主鞋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "斜向鞋身構圖呈現高能衝擊。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有多餘鞋款或額外廣告文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-parts-map-01",
+      "prompt_id": "src-visual642-227",
+      "command": "/parts map",
+      "title": "運動鞋可見零件地圖",
+      "description": "運動鞋可見零件地圖（AI案例示範）",
+      "result_text": "運動鞋可見零件地圖",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-12/parts-map.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /parts map: Arrange and label the subject's main parts in one clear map. Reference image supplies subject identity only. Clear educational map of visible exterior shoe parts. Center one side view with three enlarged isolated exterior detail crops around it: LACES, UPPER, OUTSOLE. Exactly three labels and three leader lines pointing precisely to lace, upper sidewall above sole, and brown outsole. No hidden construction. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Clear educational map of visible exterior shoe parts. Center one side view with three enlarged isolated exterior detail crops around it: LACES, UPPER, OUTSOLE. Exactly three labels and three leader lines pointing precisely to lace, upper sidewall above sole, and brown outsole. No hidden construction.",
+        "effect": "運動鞋可見零件地圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:09:08.264Z",
+        "source_instruction": "Arrange and label the subject's main parts in one clear map.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "3950df73d2e019d5997deea3f152c2b2f57a2d944f3924ed6002294f2c683309",
+        "applied_prompt_sha256": "50da36d3fddadcc9d090f83d10d1a5a569bdb2804855bfd7968e77411c1b0ad3",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.nike.com/a/parts-of-shoe-anatomy"
+          ],
+          "notes": "核對 LACES、UPPER、OUTSOLE 名稱；三個引線須落在可見外部部件。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑條紋與棕色外底輪廓保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Clear educational map of visible exterior shoe parts. Center one side view with three enlarged isolated exterior detail crops around it: LACES, UPPER, OUTSOLE. Exactly three labels and three leader lines pointing precisely to lace, upper sidewall above sole, and brown outsole. No hidden construction.",
+            "observed": "中心鞋搭配三個局部放大圓圖。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋可見零件地圖",
+            "observed": "LACES 引線落在白色鞋帶上。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "UPPER 引線指鞋面，OUTSOLE 指棕色外底。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "三個英文標籤正確且沒有額外內部結構。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-exploded-blueprint-01",
+      "prompt_id": "src-visual642-228",
+      "command": "/exploded blueprint",
+      "title": "水瓶瓶蓋分解藍圖",
+      "description": "水瓶瓶蓋分解藍圖（AI案例示範）",
+      "result_text": "水瓶瓶蓋分解藍圖",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-12/exploded-blueprint.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /exploded blueprint: Combine an exploded view with a technical blueprint. Reference image supplies subject identity only. Technical blueprint conceptual exploded view of exactly TWO main visible parts: green BOTTLE BODY and black LOOP CAP floating directly above the open mouth along a dashed assembly axis. Thin cyan linework dark navy background, two correct labels. No hidden insulation or gasket dimensions; title CONCEPT STUDY. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Technical blueprint conceptual exploded view of exactly TWO main visible parts: green BOTTLE BODY and black LOOP CAP floating directly above the open mouth along a dashed assembly axis. Thin cyan linework dark navy background, two correct labels. No hidden insulation or gasket dimensions; title CONCEPT STUDY.",
+        "effect": "水瓶瓶蓋分解藍圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:09:51.566Z",
+        "source_instruction": "Combine an exploded view with a technical blueprint.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "3c498b70f563ff4038b62fe8ba1e8d5aa7b6e6f776ae70d653931bd359289112",
+        "applied_prompt_sha256": "29266e6ee4f2634c81176691bf3b1c21ffe210d71e77ae7384f6add716071fcb",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.hydroflask.com/blog/product-recommendations/fit-chart"
+          ],
+          "notes": "一般瓶蓋與瓶身分離組裝概念，僅兩主部件，不推測保溫層或密封零件。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶身與黑色環形蓋維持來源身份。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Technical blueprint conceptual exploded view of exactly TWO main visible parts: green BOTTLE BODY and black LOOP CAP floating directly above the open mouth along a dashed assembly axis. Thin cyan linework dark navy background, two correct labels. No hidden insulation or gasket dimensions; title CONCEPT STUDY.",
+            "observed": "深藍網格與青色線條呈現藍圖。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶瓶蓋分解藍圖",
+            "observed": "兩個主部件沿垂直中心軸分離。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "LOOP CAP 與 BOTTLE BODY 引線落在正確部件。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT STUDY 明確，未加入未知保溫層或尺寸。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-function-flow-01",
+      "prompt_id": "src-visual642-229",
+      "command": "/function flow",
+      "title": "水瓶裝填與倒水流程",
+      "description": "水瓶裝填與倒水流程（AI案例示範）",
+      "result_text": "水瓶裝填與倒水流程",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-12/function-flow.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /function flow: Show inputs, internal stages, and outputs with arrows. Reference image supplies subject identity only. Three-panel educational flow, exactly left to right: 1 FILL open upright bottle receives blue water; 2 STORE cutaway shows water held within one simple chamber and cap closed; 3 POUR uncapped tilted bottle pours water into clear glass. Two arrows between panels, output clearly exits mouth. Generic storage function concept, no filters or pumps or temperature claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. REQUIRED: Large readable titles at top of each of the three panels, exactly 1 FILL, 2 STORE, 3 POUR. Leave generous header whitespace. All three titles must appear.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Three-panel educational flow, exactly left to right: 1 FILL open upright bottle receives blue water; 2 STORE cutaway shows water held within one simple chamber and cap closed; 3 POUR uncapped tilted bottle pours water into clear glass. Two arrows between panels, output clearly exits mouth. Generic storage function concept, no filters or pumps or temperature claims.",
+        "effect": "水瓶裝填與倒水流程",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:11:36.960Z",
+        "source_instruction": "Show inputs, internal stages, and outputs with arrows.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "e428ed209dcc682cf4527281f0695bfa56fb1e966b0222a24f3b75d07bb094ab",
+        "applied_prompt_sha256": "eb9d3a3d490eca22130855a7df1dd87701e921fb04faeaa63d9c2dd398187d40",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.hydroflask.com/blog/product-recommendations/fit-chart"
+          ],
+          "notes": "水瓶一般裝填、容納與開蓋倒水操作示意，不描述未知內部科技。倒水出口須為瓶口。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "三格綠瓶與黑提蓋身份一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Three-panel educational flow, exactly left to right: 1 FILL open upright bottle receives blue water; 2 STORE cutaway shows water held within one simple chamber and cap closed; 3 POUR uncapped tilted bottle pours water into clear glass. Two arrows between panels, output clearly exits mouth. Generic storage function concept, no filters or pumps or temperature claims.",
+            "observed": "依序呈現裝水、封蓋儲存切面與傾倒。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶裝填與倒水流程",
+            "observed": "水從瓶口流入玻璃杯，方向正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩個箭頭皆從左指右，步驟關係清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "1 FILL、2 STORE、3 POUR 完整正確，無濾芯或泵浦。",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "首版缺少三步驟編號與標題。",
+          "at": "2026-10-09T11:10:48.526Z"
+        }
+      ]
+    },
+    {
+      "id": "case-assembly-steps-01",
+      "prompt_id": "src-visual642-230",
+      "command": "/assembly steps",
+      "title": "紙盒四步折疊組裝",
+      "description": "紙盒四步折疊組裝（AI案例示範）",
+      "result_text": "紙盒四步折疊組裝",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-12/assembly-steps.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /assembly steps: Build the subject through clear numbered assembly stages. Reference image supplies subject identity only. Four numbered panels 1 2 3 4 showing generic hinged-lid mint paper carton from flat scored blank to raised sidewalls to folded bottom tabs to finished closed cube with leaf. Clear progression arrows left to right. Title CONCEPT ASSEMBLY; not actual factory dieline and no dimensions. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. CRITICAL ordered progression: panel 1 fully flat blank; panel 2 ONLY rear and two side walls raised, FRONT WALL STILL FLAT ON TABLE; panel 3 all four walls fully raised and bottom tabs folded, LID OPEN; panel 4 lid closed leaf cube. Panels 2 and 3 must not be reversed. Read in two-by-two grid 1 top left 2 top right 3 bottom left 4 bottom right. No extra arrows required. PANEL 3 MUST have a FULL HEIGHT FRONT WALL, equal height to side walls, hiding the interior floor. It is the same finished cube as panel 4 but with rear hinged lid up. Do not draw low front lip or open-front tray. Four distinct proper stages.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four numbered panels 1 2 3 4 showing generic hinged-lid mint paper carton from flat scored blank to raised sidewalls to folded bottom tabs to finished closed cube with leaf. Clear progression arrows left to right. Title CONCEPT ASSEMBLY; not actual factory dieline and no dimensions.",
+        "effect": "紙盒四步折疊組裝",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:14:17.506Z",
+        "source_instruction": "Build the subject through clear numbered assembly stages.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "ee96784117ebe78e748d3c1037b2ac3d1ee406cc9afc358ded2546e0a77469e3",
+        "applied_prompt_sha256": "990a9f585e73e7fef274c29026e91b3a3895f3607de24e52f6c21e066588395e",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/technical-information/fefco-code"
+          ],
+          "notes": "一般紙盒折疊組裝概念，不宣稱來源盒的工廠刀模或尺寸；四步從平面至成盒。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠盒與成品葉片圖案保持一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four numbered panels 1 2 3 4 showing generic hinged-lid mint paper carton from flat scored blank to raised sidewalls to folded bottom tabs to finished closed cube with leaf. Clear progression arrows left to right. Title CONCEPT ASSEMBLY; not actual factory dieline and no dimensions.",
+            "observed": "四格編號1至4完整，概念組裝標題清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒四步折疊組裝",
+            "observed": "第1格平面展開，第2格前壁仍平放。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "第3格四面成盒且蓋開，第4格關蓋成品。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "步驟由展開至完成單向進展，無倒序或尺寸規格。",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "首版第2格已成盒但第3格前壁反而放下，階段倒序。",
+          "at": "2026-10-09T11:12:35.431Z"
+        },
+        {
+          "attempt": 2,
+          "reason": "修正版第3格前壁仍過低，要求完整高度開蓋盒。",
+          "at": "2026-10-09T11:13:28.322Z"
+        }
+      ]
+    },
+    {
+      "id": "case-material-layers-01",
+      "prompt_id": "src-visual642-231",
+      "command": "/material layers",
+      "title": "紙盒瓦楞材料分層示意",
+      "description": "紙盒瓦楞材料分層示意（AI案例示範）",
+      "result_text": "紙盒瓦楞材料分層示意",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-12/material-layers.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /material layers: Peel apart and label the subject's material layers. Reference image supplies subject identity only. Conceptual corrugated variant of mint leaf box: assembled box on left, exactly three separated sheets on right stacked vertically: flat TOP LINER, wavy FLUTING, flat BOTTOM LINER. Clear leaders correct to each layer; title CORRUGATED CONCEPT. Not asserting source box actual material. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. Critical: middle FLUTING is ONE SINGLE wavy corrugated paper sheet only, with no attached flat backing beneath it. Exactly three paper sheets total: flat top, standalone thin wave, flat bottom. Wide air gaps between all three.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Conceptual corrugated variant of mint leaf box: assembled box on left, exactly three separated sheets on right stacked vertically: flat TOP LINER, wavy FLUTING, flat BOTTOM LINER. Clear leaders correct to each layer; title CORRUGATED CONCEPT. Not asserting source box actual material.",
+        "effect": "紙盒瓦楞材料分層示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:16:21.110Z",
+        "source_instruction": "Peel apart and label the subject's material layers.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "0426f465a9ce1fe471d0a47e3928f2e38c8850fb237343e2a1a93b1273b10a93",
+        "applied_prompt_sha256": "81d524e9f41bd0f4326b8d6aac1b8a9202fdd31d8e497c14e5eb6273fdc15bd8",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/about-fefco/more-what-corrugated"
+          ],
+          "notes": "FEFCO確認 linerboard 與 fluting 結構；圖須兩平面liner中夾一波浪fluting。明示瓦楞概念變體，不宣稱原盒材質。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠葉片盒保留來源外觀。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Conceptual corrugated variant of mint leaf box: assembled box on left, exactly three separated sheets on right stacked vertically: flat TOP LINER, wavy FLUTING, flat BOTTOM LINER. Clear leaders correct to each layer; title CORRUGATED CONCEPT. Not asserting source box actual material.",
+            "observed": "右側三張紙層獨立分離。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒瓦楞材料分層示意",
+            "observed": "上、下為平面襯紙，中間為單張波浪芯紙。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "TOP LINER、FLUTING、BOTTOM LINER 引線正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CORRUGATED CONCEPT 明確，未宣稱原盒實際材質。",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "首版中間波浪芯紙下似有額外平面背紙，要求獨立單張波浪芯紙。",
+          "at": "2026-10-09T11:15:20.375Z"
+        }
+      ]
+    },
+    {
+      "id": "case-component-labels-01",
+      "prompt_id": "src-visual642-232",
+      "command": "/component labels",
+      "title": "水瓶外觀部件標註",
+      "description": "水瓶外觀部件標註（AI案例示範）",
+      "result_text": "水瓶外觀部件標註",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-12/component-labels.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /component labels: Connect each important component to a concise label. Reference image supplies subject identity only. One upright bottle with exactly four concise labels HANDLE, CAP, BODY, BASE. Leader lines terminate respectively on black loop, cylindrical black cap, green cylindrical body, bottom edge. Clear white background, no hidden structures or specifications. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "One upright bottle with exactly four concise labels HANDLE, CAP, BODY, BASE. Leader lines terminate respectively on black loop, cylindrical black cap, green cylindrical body, bottom edge. Clear white background, no hidden structures or specifications.",
+        "effect": "水瓶外觀部件標註",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:17:06.682Z",
+        "source_instruction": "Connect each important component to a concise label.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "c33749faa36b24e9cbf30af93758b2eced9af7030494ab913e78d01ff9f5b35b",
+        "applied_prompt_sha256": "25a40da0b8ecde38f00d661c97ceb65ff40fc3b9c7162fb9b29e33695302a532",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.hydroflask.com/shop/accessories/caps-and-lids"
+          ],
+          "notes": "只核對可見提環、瓶蓋、瓶身與底部，不推測內部構造。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色瓶身與黑色環形蓋完整保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One upright bottle with exactly four concise labels HANDLE, CAP, BODY, BASE. Leader lines terminate respectively on black loop, cylindrical black cap, green cylindrical body, bottom edge. Clear white background, no hidden structures or specifications.",
+            "observed": "白色背景使四個部件標示清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶外觀部件標註",
+            "observed": "HANDLE 指提環，CAP 指黑色瓶蓋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "BODY 指綠色瓶身，BASE 指底緣。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "四個英文標籤正確，無隱藏結構或規格宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-process-sequence-01",
+      "prompt_id": "src-visual642-233",
+      "command": "/process sequence",
+      "title": "紙盒包裝操作順序",
+      "description": "紙盒包裝操作順序（AI案例示範）",
+      "result_text": "紙盒包裝操作順序",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-12/process-sequence.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /process sequence: Show the subject's process as ordered visual stages. Reference image supplies subject identity only. Exactly three left-to-right numbered panels: 1 OPEN empty mint leaf cube with lid up; 2 PLACE a single small wooden cube inserted into open box by hand; 3 CLOSE lid down on same box. Two forward arrows, consistent same mint carton, no invented mechanisms. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Exactly three left-to-right numbered panels: 1 OPEN empty mint leaf cube with lid up; 2 PLACE a single small wooden cube inserted into open box by hand; 3 CLOSE lid down on same box. Two forward arrows, consistent same mint carton, no invented mechanisms.",
+        "effect": "紙盒包裝操作順序",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:17:55.018Z",
+        "source_instruction": "Show the subject's process as ordered visual stages.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "82afd81ee5cf2e2dbddf382de797a58c9837c6dc20224d7bf390141336b8cfa3",
+        "applied_prompt_sha256": "13bf68599023c0869dec87299b4617c355f37016349ecbf528552929d6b26fea",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/technical-information/fefco-code"
+          ],
+          "notes": "一般盒子開啟、放入物件、關閉的操作示意，不宣稱實際生產流程。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠葉片紙盒三格保持一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Exactly three left-to-right numbered panels: 1 OPEN empty mint leaf cube with lid up; 2 PLACE a single small wooden cube inserted into open box by hand; 3 CLOSE lid down on same box. Two forward arrows, consistent same mint carton, no invented mechanisms.",
+            "observed": "第1格開蓋空盒，第2格手放入單一木方塊。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒包裝操作順序",
+            "observed": "第3格關蓋完成，操作本意清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩個右向箭頭連接三個編號階段。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "編號1至3正確，手指與物件互動合理。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mechanism-map-01",
+      "prompt_id": "src-visual642-234",
+      "command": "/mechanism map",
+      "title": "水瓶旋蓋作用示意",
+      "description": "水瓶旋蓋作用示意（AI案例示範）",
+      "result_text": "水瓶旋蓋作用示意",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-12/mechanism-map.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /mechanism map: Map the hidden mechanism and its cause-and-effect links. Reference image supplies subject identity only. Generic threaded screw-cap mechanism study based on exterior bottle, title CONCEPT MECHANISM. Enlarged cutaway of bottle neck and cap with matching helical threads engaged. Clockwise curved arrow beside cap labeled TURN; downward arrow beside cap labeled LOWER; callout THREADS points at matching mating neck-cap threads. No gears pumps spring or insulation. Concept not verified model internals. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. CRITICAL use flat 2D SECTION DRAWING for enlarged neck and cap. Cap is hollow FEMALE socket with threads on its INNER WALL ONLY; bottle neck is MALE tube with threads on its OUTER WALL ONLY. Show cap enclosing neck with interlocking matching teeth. No downward male threaded shaft on cap. Diagram section rather than photographic exploded rendering.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Generic threaded screw-cap mechanism study based on exterior bottle, title CONCEPT MECHANISM. Enlarged cutaway of bottle neck and cap with matching helical threads engaged. Clockwise curved arrow beside cap labeled TURN; downward arrow beside cap labeled LOWER; callout THREADS points at matching mating neck-cap threads. No gears pumps spring or insulation. Concept not verified model internals.",
+        "effect": "水瓶旋蓋作用示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:19:48.887Z",
+        "source_instruction": "Map the hidden mechanism and its cause-and-effect links.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "a559d70fea33ce9d874cabb3d4cb7ef08530cea7d42c882378aa1b63428539a2",
+        "applied_prompt_sha256": "7453be26674499f6da441d659cb21c75fbf7403165a0c8bf5bc3333725c58e2e",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.hydroflask.com/blog/product-recommendations/fit-chart"
+          ],
+          "notes": "官方說明瓶蓋為螺紋旋緊；圖僅一般螺紋將旋轉轉為軸向位移的概念，非來源瓶真實內部。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶與環形蓋外觀保持一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Generic threaded screw-cap mechanism study based on exterior bottle, title CONCEPT MECHANISM. Enlarged cutaway of bottle neck and cap with matching helical threads engaged. Clockwise curved arrow beside cap labeled TURN; downward arrow beside cap labeled LOWER; callout THREADS points at matching mating neck-cap threads. No gears pumps spring or insulation. Concept not verified model internals.",
+            "observed": "放大剖面呈現瓶蓋內螺紋與瓶頸外螺紋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶旋蓋作用示意",
+            "observed": "蓋包覆瓶頸，內外牙方向可配合。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "TURN 曲箭頭與 LOWER 下箭頭表達旋轉及軸向移動。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "THREADS 指向螺紋，CONCEPT MECHANISM 明確，無額外機構。",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "首版瓶蓋下方呈外螺紋，與瓶頸外螺紋無法配合；改為內外螺紋剖面。",
+          "at": "2026-10-09T11:18:49.672Z"
+        }
+      ]
+    },
+    {
+      "id": "case-motion-diagram-01",
+      "prompt_id": "src-visual642-235",
+      "command": "/motion diagram",
+      "title": "紙盒掀蓋運動圖",
+      "description": "紙盒掀蓋運動圖（AI案例示範）",
+      "result_text": "紙盒掀蓋運動圖",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-12/motion-diagram.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /motion diagram: Explain movement with ghosted positions and trajectory arrows. Reference image supplies subject identity only. One mint leaf box with hinged rear lid shown at three ghosted angular positions closed, halfway, fully raised; one curved trajectory arrow around rear hinge, single fixed box body. No extra detached lids or axes, white technical illustration background. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "One mint leaf box with hinged rear lid shown at three ghosted angular positions closed, halfway, fully raised; one curved trajectory arrow around rear hinge, single fixed box body. No extra detached lids or axes, white technical illustration background.",
+        "effect": "紙盒掀蓋運動圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:20:46.635Z",
+        "source_instruction": "Explain movement with ghosted positions and trajectory arrows.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "c7063ac1995600952001bcf73dee4d19407d9d6d66583dc8f6ab8b6e3ddcb4b6",
+        "applied_prompt_sha256": "1cf89b60bd2d4f000b36e4c86f410ad4c2d39b8df6ec594f1289ee3b20fe4409",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/technical-information/fefco-code"
+          ],
+          "notes": "一般後緣連接盒蓋旋轉開啟概念，單一盒身與相同鉸接軸，非自由漂移盒蓋。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠葉片盒單一固定盒身清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One mint leaf box with hinged rear lid shown at three ghosted angular positions closed, halfway, fully raised; one curved trajectory arrow around rear hinge, single fixed box body. No extra detached lids or axes, white technical illustration background.",
+            "observed": "盒蓋以關閉、半開、全開三個重影角度呈現。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒掀蓋運動圖",
+            "observed": "三個角度沿後側連接位置旋轉。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "弧形虛線箭頭表示掀蓋軌跡。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無多餘盒身或完全分離盒蓋，符合運動解說。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-construction-logic-01",
+      "prompt_id": "src-visual642-236",
+      "command": "/construction logic",
+      "title": "帆布提袋接縫與支撐",
+      "description": "帆布提袋接縫與支撐（AI案例示範）",
+      "result_text": "帆布提袋接縫與支撐",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-12/construction-logic.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /construction logic: Reveal the joints, seams, supports, and structural logic. Reference image supplies subject identity only. Cream canvas tote brown handles on white background with closeup circle for handle attachment seam and another for bottom corner seam. Exactly three labels HANDLE SEAM, SIDE SEAM, BASE with leaders landing visibly on sewn joins and bottom. Explain visible construction only, no hidden reinforcement claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Cream canvas tote brown handles on white background with closeup circle for handle attachment seam and another for bottom corner seam. Exactly three labels HANDLE SEAM, SIDE SEAM, BASE with leaders landing visibly on sewn joins and bottom. Explain visible construction only, no hidden reinforcement claims.",
+        "effect": "帆布提袋接縫與支撐",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:21:55.103Z",
+        "source_instruction": "Reveal the joints, seams, supports, and structural logic.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "d37c2bfbf23ae376f536297fc90ddfa6166c5dd39ea4d44e6a177ecd046c94da",
+        "applied_prompt_sha256": "9c429604e3409c7ae323921d7334c26dbfd93e9f2c92b0d82a379b1c357055f8",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.janome.com/inspire/projects/embroider-a-cure-tote-bag/",
+            "https://www.janome.com/inspire/projects/simple-quilted-tote/"
+          ],
+          "notes": "Janome教學確認提袋側縫、底縫與提把縫接。只核對參考圖可見接縫位置，不推測隱藏補強、承重性能或尺寸。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油帆布袋與棕色提把保留來源身份。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Cream canvas tote brown handles on white background with closeup circle for handle attachment seam and another for bottom corner seam. Exactly three labels HANDLE SEAM, SIDE SEAM, BASE with leaders landing visibly on sewn joins and bottom. Explain visible construction only, no hidden reinforcement claims.",
+            "observed": "三個局部圓圖展示提把、側縫與底角。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布提袋接縫與支撐",
+            "observed": "HANDLE SEAM 引線落於提把縫接處。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "SIDE SEAM 與 BASE 分別指向側縫與底角。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "英文標籤正確，未標示未知承重或隱藏補強。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-pourshot-12-01",
+      "prompt_id": "src-visual642-237",
+      "command": "/pourshot",
+      "title": "水瓶戲劇性傾注",
+      "description": "水瓶戲劇性傾注（AI案例示範）",
+      "result_text": "水瓶戲劇性傾注",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-12/pourshot-12.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /pourshot: Freeze a dramatic liquid pour around the subject. Reference image supplies subject identity only. Open green bottle tilted at 45 degrees pours a single continuous clear water stream into a glass, frozen splash curves around product; detached black loop cap on table, dark studio bright rimlight. Water exits open mouth, not cap or sidewall. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Open green bottle tilted at 45 degrees pours a single continuous clear water stream into a glass, frozen splash curves around product; detached black loop cap on table, dark studio bright rimlight. Water exits open mouth, not cap or sidewall.",
+        "effect": "水瓶戲劇性傾注",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:22:59.582Z",
+        "source_instruction": "Freeze a dramatic liquid pour around the subject.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "2c80362e5df9b42c0ec40c753bc1e8aef938851c869a561331c57adef646c546",
+        "applied_prompt_sha256": "3f793f3318a37151b64c4d0070da55885e41aceb64557a021f5b75cb4d704297",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色瓶與黑環形蓋身份維持一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Open green bottle tilted at 45 degrees pours a single continuous clear water stream into a glass, frozen splash curves around product; detached black loop cap on table, dark studio bright rimlight. Water exits open mouth, not cap or sidewall.",
+            "observed": "瓶子傾斜且開蓋，瓶蓋置於桌面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶戲劇性傾注",
+            "observed": "單一連續水流從瓶口進入玻璃杯。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶周圍飛濺水花定格，光影鮮明。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有從封閉蓋或側壁出水，符合傾注本意。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-liquidslice-12-01",
+      "prompt_id": "src-visual642-238",
+      "command": "/liquidslice",
+      "title": "水瓶透明切面液體層",
+      "description": "水瓶透明切面液體層（AI案例示範）",
+      "result_text": "水瓶透明切面液體層",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-12/liquidslice-12.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /liquidslice: Slice through a liquid-filled subject to reveal fluid layers. Reference image supplies subject identity only. Artistic conceptual cutaway of green bottle side exposing three horizontal immiscible-looking colored fluid bands blue amber and pale cream, cap closed. Clearly fantasy layered-liquid visualization, title FLUID STUDY, no drink ingredients health or real composition claim. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Artistic conceptual cutaway of green bottle side exposing three horizontal immiscible-looking colored fluid bands blue amber and pale cream, cap closed. Clearly fantasy layered-liquid visualization, title FLUID STUDY, no drink ingredients health or real composition claim.",
+        "effect": "水瓶透明切面液體層",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:23:55.519Z",
+        "source_instruction": "Slice through a liquid-filled subject to reveal fluid layers.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "af32a14c703d8eac2b44e4bff0813038b20953c62c22da3a5cf45e9d04b9584c",
+        "applied_prompt_sha256": "6aec3ac74befcffc7b26e6a2821af83345438f8ec3920387d175b7611e684d6b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶與黑環形蓋保留來源身份。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Artistic conceptual cutaway of green bottle side exposing three horizontal immiscible-looking colored fluid bands blue amber and pale cream, cap closed. Clearly fantasy layered-liquid visualization, title FLUID STUDY, no drink ingredients health or real composition claim.",
+            "observed": "瓶身切面露出內部液體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶透明切面液體層",
+            "observed": "上藍、中琥珀、下乳白三層色帶分明。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "液面橫向分層，符合液體切面藝術概念。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "FLUID STUDY 正確，沒有成分或健康宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-evolution-12-01",
+      "prompt_id": "src-visual642-239",
+      "command": "/evolution",
+      "title": "紙盒材質演變四階段",
+      "description": "紙盒材質演變四階段（AI案例示範）",
+      "result_text": "紙盒材質演變四階段",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-12/evolution-12.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /evolution: Show the subject transforming through clear evolutionary stages. Reference image supplies subject identity only. Four left-to-right stages of same leaf cube: wireframe cube, folded plain paper cube, mint leaf finished carton, luminous crystal cube. Consistent scale aligned row with subtle arrows. Artistic transformation, not biological or actual manufacturing history. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four left-to-right stages of same leaf cube: wireframe cube, folded plain paper cube, mint leaf finished carton, luminous crystal cube. Consistent scale aligned row with subtle arrows. Artistic transformation, not biological or actual manufacturing history.",
+        "effect": "紙盒材質演變四階段",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:24:46.203Z",
+        "source_instruction": "Show the subject transforming through clear evolutionary stages.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "0302f664d55dd3b00f832b8476cb6dfe9f524ab9245d2ee6d734bc18adbe3ec9",
+        "applied_prompt_sha256": "b425b0b950ffe1edb8e965b8588427b2343b70ef3abae5a08d8ff7ae1040e2db",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "四個相同尺度立方主體排列成一列。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four left-to-right stages of same leaf cube: wireframe cube, folded plain paper cube, mint leaf finished carton, luminous crystal cube. Consistent scale aligned row with subtle arrows. Artistic transformation, not biological or actual manufacturing history.",
+            "observed": "依序為線框、素紙、薄荷葉片盒與晶體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒材質演變四階段",
+            "observed": "三個箭頭連接清楚的材質演變階段。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "葉片識別於成品與晶體階段延續。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "屬藝術材質轉化，沒有實際製造或生物演化宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-tinyfactory-12-01",
+      "prompt_id": "src-visual642-240",
+      "command": "/tinyfactory",
+      "title": "紙盒微型運作工廠",
+      "description": "紙盒微型運作工廠（AI案例示範）",
+      "result_text": "紙盒微型運作工廠",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-12/tinyfactory-12.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /tinyfactory: Turn the subject into a miniature working factory. Reference image supplies subject identity only. Mint leaf carton transformed into fantastical miniature factory with cutaway conveyor carrying tiny mint cubes, tiny workers operating stations and small chimneys. Clearly fantasy diorama, not actual product manufacturing. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Mint leaf carton transformed into fantastical miniature factory with cutaway conveyor carrying tiny mint cubes, tiny workers operating stations and small chimneys. Clearly fantasy diorama, not actual product manufacturing.",
+        "effect": "紙盒微型運作工廠",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:25:48.873Z",
+        "source_instruction": "Turn the subject into a miniature working factory.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "54c1085ab550364cbfa72fffe063643053270b042014a6e52639400da520e113",
+        "applied_prompt_sha256": "4f2c302f3b30711369f5e7a887896c69540d11af0c07910961770c3c1c732317",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠葉片盒轉為工廠外殼。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Mint leaf carton transformed into fantastical miniature factory with cutaway conveyor carrying tiny mint cubes, tiny workers operating stations and small chimneys. Clearly fantasy diorama, not actual product manufacturing.",
+            "observed": "切面中可見兩層輸送帶與工作站。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒微型運作工廠",
+            "observed": "薄荷綠方塊沿輸送帶傳送與裝箱。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "微小工人、梯子及煙囪構成運作感。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "畫面為幻想微縮模型，無真實製造流程宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-tinycrew-12-01",
+      "prompt_id": "src-visual642-241",
+      "command": "/tinycrew",
+      "title": "運動鞋微型協作團隊",
+      "description": "運動鞋微型協作團隊（AI案例示範）",
+      "result_text": "運動鞋微型協作團隊",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-12/tinycrew-12.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /tinycrew: Add a coordinated tiny crew working around the subject. Reference image supplies subject identity only. One giant source shoe on studio platform with coordinated miniature crew: workers brush outsole, sew visible lace area, inspect upper using magnifier; tiny ladders and tools arranged coherently. Fantasy miniature scene, no injury, shoe intact. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "One giant source shoe on studio platform with coordinated miniature crew: workers brush outsole, sew visible lace area, inspect upper using magnifier; tiny ladders and tools arranged coherently. Fantasy miniature scene, no injury, shoe intact.",
+        "effect": "運動鞋微型協作團隊",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:26:44.692Z",
+        "source_instruction": "Add a coordinated tiny crew working around the subject.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "6d1d00e4547d46c7bb024d9755ed78632ac56db7f3fba4d115644acdec2aad20",
+        "applied_prompt_sha256": "a1c4ada44f5a0dcbc0d0c16a4c91c1b1b2c9723ae3607a9c40fa529dc54e1357",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑條紋與棕色外底完整保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One giant source shoe on studio platform with coordinated miniature crew: workers brush outsole, sew visible lace area, inspect upper using magnifier; tiny ladders and tools arranged coherently. Fantasy miniature scene, no injury, shoe intact.",
+            "observed": "微小團隊圍繞巨大鞋款在平台協作。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋微型協作團隊",
+            "observed": "有人刷外底、處理鞋帶並以放大鏡檢查鞋面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "梯子、工具車與工作站位置合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "鞋身完整，無受傷畫面，符合微型團隊本意。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-materialize-12-01",
+      "prompt_id": "src-visual642-242",
+      "command": "/materialize",
+      "title": "機甲由光粒子凝聚",
+      "description": "機甲由光粒子凝聚（AI案例示範）",
+      "result_text": "機甲由光粒子凝聚",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-12/materialize-12.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /materialize: Show the subject assembling from particles, ingredients, or light. Reference image supplies subject identity only. Robot assembling from cyan glowing particles and angular fragments rising from floor; left foot and legs solid, torso mostly formed, one arm partially particle cloud. Preserve head and blue white yellow red armor identity, clear formation direction. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Robot assembling from cyan glowing particles and angular fragments rising from floor; left foot and legs solid, torso mostly formed, one arm partially particle cloud. Preserve head and blue white yellow red armor identity, clear formation direction.",
+        "effect": "機甲由光粒子凝聚",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:27:50.196Z",
+        "source_instruction": "Show the subject assembling from particles, ingredients, or light.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "3a8da4365122381af17e30f22b284380815e2eb71ee828b8989aa560bcbab0b4",
+        "applied_prompt_sha256": "af44f1248448e5e466987e6eaf190d901bf7b0bb96f37a3e0200412a6ed0598a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲頭部與藍白紅黃裝甲身份清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Robot assembling from cyan glowing particles and angular fragments rising from floor; left foot and legs solid, torso mostly formed, one arm partially particle cloud. Preserve head and blue white yellow red armor identity, clear formation direction.",
+            "observed": "青藍光粒子由地面光圈向上延伸。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲由光粒子凝聚",
+            "observed": "一側身體已成實體，另一側碎片部分凝聚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "碎片沿身體輪廓排列，呈形成中的狀態。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有爆炸損毀語境，符合光粒子具象化概念。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-dematerialize-12-01",
+      "prompt_id": "src-visual642-243",
+      "command": "/dematerialize",
+      "title": "機甲化為光粒子",
+      "description": "機甲化為光粒子（AI案例示範）",
+      "result_text": "機甲化為光粒子",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-12/dematerialize-12.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /dematerialize: Show the subject dissolving into particles, fragments, or light. Reference image supplies subject identity only. Robot dissolving into glowing blue particles drifting to upper right; left half intact recognizable head torso left leg, right arm and right side breaking into fragments. Clear dissolution trail, not explosion damage, fantasy visual. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Robot dissolving into glowing blue particles drifting to upper right; left half intact recognizable head torso left leg, right arm and right side breaking into fragments. Clear dissolution trail, not explosion damage, fantasy visual.",
+        "effect": "機甲化為光粒子",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:29:06.323Z",
+        "source_instruction": "Show the subject dissolving into particles, fragments, or light.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "8e03b1b7726ea1c14ad51d9764dbfd7e84c9a44586d3d7c5fdbb7461f9b6175c",
+        "applied_prompt_sha256": "1d7be5103b6944238ec3b8004b507a29edbae05115aa1323b858985c240e67b2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲頭部、左側裝甲與配色可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Robot dissolving into glowing blue particles drifting to upper right; left half intact recognizable head torso left leg, right arm and right side breaking into fragments. Clear dissolution trail, not explosion damage, fantasy visual.",
+            "observed": "右側身體逐漸轉為青藍粒子碎片。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲化為光粒子",
+            "observed": "粒子拖尾向右上方延伸並離開主體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "實體與消散區之間有漸變，效果方向明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有爆炸火焰或傷害畫面，符合消散概念。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-motionfreeze-12-01",
+      "prompt_id": "src-visual642-244",
+      "command": "/motionfreeze",
+      "title": "麥片盒高速動態定格",
+      "description": "麥片盒高速動態定格（AI案例示範）",
+      "result_text": "麥片盒高速動態定格",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-12/motionfreeze-12.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /motionfreeze: Freeze fast action, flying pieces, and particles in midair. Reference image supplies subject identity only. Yellow-orange tiger-striped cereal carton floating at dynamic tilt amid frozen cereal flakes, milk splash and a few strawberries; clear crisp midair particles and single intact hero carton, no unintended text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Yellow-orange tiger-striped cereal carton floating at dynamic tilt amid frozen cereal flakes, milk splash and a few strawberries; clear crisp midair particles and single intact hero carton, no unintended text.",
+        "effect": "麥片盒高速動態定格",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T11:30:03.413Z",
+        "source_instruction": "Freeze fast action, flying pieces, and particles in midair.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "3e6525cbb5196200dc3bbea34d20dcf9f93837e303478b6d48d3520304458add",
+        "applied_prompt_sha256": "2c94c29679002216e3016f07f8bdd430d84b15320b7dcd27ede8f4a4013e3864",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橙虎紋麥片盒與碗圖身份保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Yellow-orange tiger-striped cereal carton floating at dynamic tilt amid frozen cereal flakes, milk splash and a few strawberries; clear crisp midair particles and single intact hero carton, no unintended text.",
+            "observed": "單一主盒動態傾斜漂浮。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片盒高速動態定格",
+            "observed": "穀片、牛奶飛濺與草莓同時停在空中。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "近景粒子清晰且前後景有景深。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有額外產品或文字，符合高速定格效果。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1511 @@
+{
+  "version": 1,
+  "id": "batch-20-24",
+  "cases": [
+    {
+      "id": "case-charge-24-01",
+      "prompt_id": "src-visual642-465",
+      "command": "/chargingports",
+      "title": "行動電源充電連接概念",
+      "description": "行動電源充電連接概念（AI案例示範）",
+      "result_text": "行動電源充電連接概念",
+      "reference": "output/imagegen/batch-20-24/bank-reference.png",
+      "result": "output/imagegen/batch-20-24/charge-24.png",
+      "applied_prompt": "Square simple charging-direction diagram. Reference blue power bank right, white USB-C wall charger left, one black USB-C cable connects charger to oval USB-C port of bank. Title CHARGING INPUT CONCEPT. Label USB-C INPUT with leader to bank oval port. Show exactly ONE large orange straight arrow above cable, pointing LEFT TO RIGHT from charger toward bank. No arrows on cable, no curved arrows, no reverse arrows. USB-A bank port unused. Cable continuous and plugged into correct ports. Original /chargingports: Identify charging connections and direction.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-24/bank-reference.png",
+        "sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio reference photo of one fictional unbranded compact power bank, matte slate blue rounded rectangular body, short end facing camera shows exactly two visible ports: one USB-C oval socket and one USB-A rectangular socket. Four small white charge indicator dots on top near edge. No screen no text no symbols no brand. Beside it one short black USB-C to USB-C cable neatly looped. Three-quarter view clean pale gray background, realistic consumer product web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title CHARGING PORTS CONCEPT. Slate blue power bank at right, generic USB-C charger at left, continuous USB-C cable connects charger to bank oval USB-C port. Orange arrow follows cable from charger INTO bank. Callout USB-C INPUT to oval port. USB-A port unused.",
+        "effect": "行動電源充電連接概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:19:33.926Z",
+        "source_instruction": "Identify charging connections and direction.",
+        "reference_sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "result_sha256": "a22b5247da1c1d79f4a530fc04f642d7d29937f2bc97a716f102001fb7634115",
+        "applied_prompt_sha256": "bdaba621ca92c52cf0e5191cee20da57e812a29b849a9ab0fa358fd082801453",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.usb.org/sites/default/files/D1T1-2%20-%20USB%20Type-C%20System%20Overview.pdf",
+            "https://compliance.usb.org/index.asp?Format=Standard&UpdateFile=USBC"
+          ],
+          "notes": "USB-C可有供電與受電角色，形狀吻合不代表所有協議相容；此處雙向USB-C/USB-A輸出為虛構設計，無功率或快充保證。轉接圖僅顯示A母到C公的正確機械配對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍色行動電源兩埠與USB-C線一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title CHARGING PORTS CONCEPT. Slate blue power bank at right, generic USB-C charger at left, continuous USB-C cable connects charger to bank oval USB-C port. Orange arrow follows cable from charger INTO bank. Callout USB-C INPUT to oval port. USB-A port unused.",
+            "observed": "充電器接行動電源示範",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "行動電源充電連接概念",
+            "observed": "單橙箭頭從充電器向行動電源輸入",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "USB-C接頭連接橢圓埠，USB-A閒置，線材連續",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "USB-C INPUT引線正確，概念標題清楚無功率宣稱",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "線上箭頭有一個反向指向充電器，充電方向矛盾",
+          "applied_prompt": "Create a square web-quality website example. Title CHARGING PORTS CONCEPT. Slate blue power bank at right, generic USB-C charger at left, continuous USB-C cable connects charger to bank oval USB-C port. Orange arrow follows cable from charger INTO bank. Callout USB-C INPUT to oval port. USB-A port unused. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /chargingports: Identify charging connections and direction.",
+          "result": "output/imagegen/batch-20-24/charge-24-repair-before-1.png"
+        }
+      ]
+    },
+    {
+      "id": "case-access-24-01",
+      "prompt_id": "src-visual642-466",
+      "command": "/batteryaccess",
+      "title": "感應燈電池艙開啟概念",
+      "description": "感應燈電池艙開啟概念（AI案例示範）",
+      "result_text": "感應燈電池艙開啟概念",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-24/access-24.png",
+      "applied_prompt": "Square three-panel rear battery-access concept illustration for white rounded wall light. Title BATTERY ACCESS CONCEPT. 1 SWITCH OFF rear view closed rectangular cover and side switch OFF. 2 REMOVE COVER rectangular cover clearly separated outward to the right of its opening, one horizontal arrow rightward; no up/down sliding. 3 OPEN COMPARTMENT rear view empty two-AA tray, exactly two parallel empty cylindrical channels with small springs at bottom left and top right, no batteries or polarity text. Removed cover lies flat beside product. Only title and three step headings. Fictional battery compartment design. Original /batteryaccess: Show how to reach the battery compartment.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title BATTERY ACCESS CONCEPT. Three numbered diagrams rear view light 1 SWITCH OFF, 2 SLIDE COVER DOWN with down arrow, 3 OPEN COMPARTMENT shows two-AA battery tray. Cover detached below. Fictional rear battery design; no charging.",
+        "effect": "感應燈電池艙開啟概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:21:07.502Z",
+        "source_instruction": "Show how to reach the battery compartment.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "4b5c9720f6824aa83712e11d6e9c016d13995fbf0d40f3f7f73519fa4b3c3a2e",
+        "applied_prompt_sha256": "34d325ba758e50470c4b01b6319f88ca1571dcbbf5138f4ed6fba54581c4fd45",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://energizer.com/about-batteries/battery-care/"
+          ],
+          "notes": "電池須遵循艙內極性符號；兩AA艙與滑蓋為虛構概念，非參考產品拆解。凸端正極、平端負極，方向另目視。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色壁燈後殼及兩槽AA概念艙",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title BATTERY ACCESS CONCEPT. Three numbered diagrams rear view light 1 SWITCH OFF, 2 SLIDE COVER DOWN with down arrow, 3 OPEN COMPARTMENT shows two-AA battery tray. Cover detached below. Fictional rear battery design; no charging.",
+            "observed": "三步電池艙開啟示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈電池艙開啟概念",
+            "observed": "關機、拆蓋、露出空槽順序清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "第二欄蓋板向右移出且箭頭向右；第三欄蓋板分離，兩槽與彈簧配置一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "三個步驟與概念標題可讀；新版空槽未放電池，無極性誤導",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "滑蓋位移與箭頭不一致，電池端子細節混亂",
+          "applied_prompt": "Create a square web-quality website example. Title BATTERY ACCESS CONCEPT. Three numbered diagrams rear view light 1 SWITCH OFF, 2 SLIDE COVER DOWN with down arrow, 3 OPEN COMPARTMENT shows two-AA battery tray. Cover detached below. Fictional rear battery design; no charging. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /batteryaccess: Show how to reach the battery compartment.",
+          "result": "output/imagegen/batch-20-24/access-24-repair-before-1.png"
+        }
+      ]
+    },
+    {
+      "id": "case-battery-24-01",
+      "prompt_id": "src-visual642-467",
+      "command": "/batteryplacement",
+      "title": "電池放置極性概念",
+      "description": "電池放置極性概念（AI案例示範）",
+      "result_text": "電池放置極性概念",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-24/battery-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title BATTERY PLACEMENT CONCEPT. Enlarged two-slot AA tray. Left battery plus nub TOP, flat minus BOTTOM; right battery flat minus TOP, plus nub BOTTOM. Clear + and - symbols at respective slot ends. Small lamp thumbnail. No charger. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /batteryplacement: Show battery position and orientation.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title BATTERY PLACEMENT CONCEPT. Enlarged two-slot AA tray. Left battery plus nub TOP, flat minus BOTTOM; right battery flat minus TOP, plus nub BOTTOM. Clear + and - symbols at respective slot ends. Small lamp thumbnail. No charger.",
+        "effect": "電池放置極性概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:21:52.592Z",
+        "source_instruction": "Show battery position and orientation.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "cd788fa96daa2f0950bafd38d459c0512165545fee9acfa63e6647264f6517f8",
+        "applied_prompt_sha256": "a4907a7de9be6dfe74dd07be57341f6b82567d9ada3230f14e2e56a8e1bd042f",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://energizer.com/about-batteries/battery-care/"
+          ],
+          "notes": "電池須遵循艙內極性符號；兩AA艙與滑蓋為虛構概念，非參考產品拆解。凸端正極、平端負極，方向另目視。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "兩AA電池槽與白色壁燈概念一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title BATTERY PLACEMENT CONCEPT. Enlarged two-slot AA tray. Left battery plus nub TOP, flat minus BOTTOM; right battery flat minus TOP, plus nub BOTTOM. Clear + and - symbols at respective slot ends. Small lamp thumbnail. No charger.",
+            "observed": "放大極性安裝示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "電池放置極性概念",
+            "observed": "左電池正極向上、右電池正極向下",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "凸端與+、平端與-一致；彈簧在負端，兩槽方向相反",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "四個槽端正負號清楚，概念標題不當真實型號拆解",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-ports-24-01",
+      "prompt_id": "src-visual642-468",
+      "command": "/portlabels",
+      "title": "行動電源輸入輸出埠概念",
+      "description": "行動電源輸入輸出埠概念（AI案例示範）",
+      "result_text": "行動電源輸入輸出埠概念",
+      "reference": "output/imagegen/batch-20-24/bank-reference.png",
+      "result": "output/imagegen/batch-20-24/ports-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title PORT LABELS CONCEPT. Closeup bank short edge with exactly two ports: oval USB-C labeled USB-C IN / OUT, rectangular USB-A labeled USB-A OUT. Thin leaders correctly end at corresponding socket. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /portlabels: Label every input and output port.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-24/bank-reference.png",
+        "sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio reference photo of one fictional unbranded compact power bank, matte slate blue rounded rectangular body, short end facing camera shows exactly two visible ports: one USB-C oval socket and one USB-A rectangular socket. Four small white charge indicator dots on top near edge. No screen no text no symbols no brand. Beside it one short black USB-C to USB-C cable neatly looped. Three-quarter view clean pale gray background, realistic consumer product web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title PORT LABELS CONCEPT. Closeup bank short edge with exactly two ports: oval USB-C labeled USB-C IN / OUT, rectangular USB-A labeled USB-A OUT. Thin leaders correctly end at corresponding socket.",
+        "effect": "行動電源輸入輸出埠概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:22:44.560Z",
+        "source_instruction": "Label every input and output port.",
+        "reference_sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "result_sha256": "90fe3b1e9ff58cc48ec3abd2ea71e1902ab150894639f137b883e7fa9d3040fa",
+        "applied_prompt_sha256": "6cae5735c15eb96df6c329265e05b8bac89d85b5121a95cc9b6da2672483afd9",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.usb.org/sites/default/files/D1T1-2%20-%20USB%20Type-C%20System%20Overview.pdf",
+            "https://compliance.usb.org/index.asp?Format=Standard&UpdateFile=USBC"
+          ],
+          "notes": "USB-C可有供電與受電角色，形狀吻合不代表所有協議相容；此處雙向USB-C/USB-A輸出為虛構設計，無功率或快充保證。轉接圖僅顯示A母到C公的正確機械配對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍色行動電源正面兩個埠一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title PORT LABELS CONCEPT. Closeup bank short edge with exactly two ports: oval USB-C labeled USB-C IN / OUT, rectangular USB-A labeled USB-A OUT. Thin leaders correctly end at corresponding socket.",
+            "observed": "接頭近照標註",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "行動電源輸入輸出埠概念",
+            "observed": "橢圓USB-C與長方USB-A兩埠完整標示",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩條引線分別指對應插座，沒有其他未標示埠",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "USB-C IN / OUT及USB-A OUT正確可讀，概念標題保留",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-route-24-01",
+      "prompt_id": "src-visual642-469",
+      "command": "/cablerouting",
+      "title": "桌面USB線路規劃",
+      "description": "桌面USB線路規劃（AI案例示範）",
+      "result_text": "桌面USB線路規劃",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-24/route-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title CABLE ROUTING. Fan right on desk, laptop left. One continuous black USB cable from fan rear follows rear desk edge through two cable clips into laptop USB-A socket. No crossing center workspace, smooth bend no sharp kink. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /cablerouting: Show the cleanest cable paths.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title CABLE ROUTING. Fan right on desk, laptop left. One continuous black USB cable from fan rear follows rear desk edge through two cable clips into laptop USB-A socket. No crossing center workspace, smooth bend no sharp kink.",
+        "effect": "桌面USB線路規劃",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:23:35.366Z",
+        "source_instruction": "Show the cleanest cable paths.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "63b4c3f6a9ad6ecb076164ac761921ff52a5cb01d7130f4a6fb316a58b14a0ac",
+        "applied_prompt_sha256": "f4d511f2f44de59a7593f0a1f8301bd3f4176d1e122be7c2d4f7d2ae5b2c3e78",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "避免阻塞風扇氣流、線材避免受損；空間配置為示例，不給真實型號未核實的最小距離。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "參考奶油桌扇接筆電USB",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title CABLE ROUTING. Fan right on desk, laptop left. One continuous black USB cable from fan rear follows rear desk edge through two cable clips into laptop USB-A socket. No crossing center workspace, smooth bend no sharp kink.",
+            "observed": "桌面線路規劃場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌面USB線路規劃",
+            "observed": "黑線沿後桌緣以兩個線夾固定",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "線由筆電USB連續到桌扇後方，中央工作區不被穿越，彎曲平順",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CABLE ROUTING標題可讀，無多餘數值與品牌",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-wire-24-01",
+      "prompt_id": "src-visual642-470",
+      "command": "/wiringpath",
+      "title": "低壓燈具功能配線概念",
+      "description": "低壓燈具功能配線概念（AI案例示範）",
+      "result_text": "低壓燈具功能配線概念",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-24/wire-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title LOW-VOLTAGE WIRING CONCEPT. Three simple blocks BATTERY, CONTROLLER, LED in row. Red positive wire BATTERY + to CONTROLLER + to LED +, black return wire BATTERY - to CONTROLLER - to LED -. Separate blue signal wire PIR SENSOR to CONTROLLER. Block diagram not actual product circuit, no mains. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /wiringpath: Visualize electrical wires and their destinations.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title LOW-VOLTAGE WIRING CONCEPT. Three simple blocks BATTERY, CONTROLLER, LED in row. Red positive wire BATTERY + to CONTROLLER + to LED +, black return wire BATTERY - to CONTROLLER - to LED -. Separate blue signal wire PIR SENSOR to CONTROLLER. Block diagram not actual product circuit, no mains.",
+        "effect": "低壓燈具功能配線概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:24:25.323Z",
+        "source_instruction": "Visualize electrical wires and their destinations.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "d74d066c57095eb04dacf5fc41af2f4ce95feead95f7cb2ef2a43e71a36932c0",
+        "applied_prompt_sha256": "dc65bdcb6e066eb19418dde2db348de08db3a050d46916e1d3d5974debecb773",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "電池、控制器、LED與PIR為功能方塊，紅黑正負與藍訊號僅圖例，不是實際配線或可施工電路。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "電池、控制器、LED與PIR四個功能組件",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title LOW-VOLTAGE WIRING CONCEPT. Three simple blocks BATTERY, CONTROLLER, LED in row. Red positive wire BATTERY + to CONTROLLER + to LED +, black return wire BATTERY - to CONTROLLER - to LED -. Separate blue signal wire PIR SENSOR to CONTROLLER. Block diagram not actual product circuit, no mains.",
+            "observed": "低壓功能配線概念圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "低壓燈具功能配線概念",
+            "observed": "紅正、黑負線連接電池控制器LED；藍線連PIR與控制器",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "正負端符號與紅黑線一致，藍線獨立；控制器用燈形外殼作功能占位，不是實際電路",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "四個標籤及CONCEPT標題清楚，沒有市電接線",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-connect-24-01",
+      "prompt_id": "src-visual642-471",
+      "command": "/connectionmap",
+      "title": "行動電源連接示意",
+      "description": "行動電源連接示意（AI案例示範）",
+      "result_text": "行動電源連接示意",
+      "reference": "output/imagegen/batch-20-24/bank-reference.png",
+      "result": "output/imagegen/batch-20-24/connect-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title CONNECTION MAP CONCEPT. Power bank left, USB-C cable center, smartphone right. One continuous cable connects bank USB-C to phone USB-C. Labels POWER BANK, USB-C CABLE, PHONE. Arrow from bank to phone. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /connectionmap: Map how parts connect to one another.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-24/bank-reference.png",
+        "sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio reference photo of one fictional unbranded compact power bank, matte slate blue rounded rectangular body, short end facing camera shows exactly two visible ports: one USB-C oval socket and one USB-A rectangular socket. Four small white charge indicator dots on top near edge. No screen no text no symbols no brand. Beside it one short black USB-C to USB-C cable neatly looped. Three-quarter view clean pale gray background, realistic consumer product web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title CONNECTION MAP CONCEPT. Power bank left, USB-C cable center, smartphone right. One continuous cable connects bank USB-C to phone USB-C. Labels POWER BANK, USB-C CABLE, PHONE. Arrow from bank to phone.",
+        "effect": "行動電源連接示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:25:12.297Z",
+        "source_instruction": "Map how parts connect to one another.",
+        "reference_sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "result_sha256": "b6edabdb201db0f0eeb0c8677e8381ade6bacf588eee664db6c6ac6fef2b9349",
+        "applied_prompt_sha256": "e350f751496bed127b1419fe7d50988c3c833711929640db80016bad4d1cf514",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.usb.org/sites/default/files/D1T1-2%20-%20USB%20Type-C%20System%20Overview.pdf",
+            "https://compliance.usb.org/index.asp?Format=Standard&UpdateFile=USBC"
+          ],
+          "notes": "USB-C可有供電與受電角色，形狀吻合不代表所有協議相容；此處雙向USB-C/USB-A輸出為虛構設計，無功率或快充保證。轉接圖僅顯示A母到C公的正確機械配對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍色行動電源與手機",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title CONNECTION MAP CONCEPT. Power bank left, USB-C cable center, smartphone right. One continuous cable connects bank USB-C to phone USB-C. Labels POWER BANK, USB-C CABLE, PHONE. Arrow from bank to phone.",
+            "observed": "USB-C充電連接概念",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "行動電源連接示意",
+            "observed": "連續線材將兩裝置連接，箭頭從電源向手機",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "USB-C插入電源橢圓埠及手機底部，USB-A未使用",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "三個名稱與USB-C CABLE可讀；左名稱位於電源下方，短線落在線材附近，主體關係仍明確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-compatible-24-01",
+      "prompt_id": "src-visual642-472",
+      "command": "/compatibilitycheck",
+      "title": "USB接頭配合檢查",
+      "description": "USB接頭配合檢查（AI案例示範）",
+      "result_text": "USB接頭配合檢查",
+      "reference": "output/imagegen/batch-20-24/bank-reference.png",
+      "result": "output/imagegen/batch-20-24/compatible-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title CONNECTOR FIT CHECK. Two panels left USB-C oval male plug aligns with matching oval USB-C socket green check FITS. Right rectangular USB-A male plug beside oval USB-C socket red cross DOES NOT FIT, no insertion. Matching shapes explicit, no power protocol claim. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /compatibilitycheck: Show which parts or devices work together.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-24/bank-reference.png",
+        "sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio reference photo of one fictional unbranded compact power bank, matte slate blue rounded rectangular body, short end facing camera shows exactly two visible ports: one USB-C oval socket and one USB-A rectangular socket. Four small white charge indicator dots on top near edge. No screen no text no symbols no brand. Beside it one short black USB-C to USB-C cable neatly looped. Three-quarter view clean pale gray background, realistic consumer product web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title CONNECTOR FIT CHECK. Two panels left USB-C oval male plug aligns with matching oval USB-C socket green check FITS. Right rectangular USB-A male plug beside oval USB-C socket red cross DOES NOT FIT, no insertion. Matching shapes explicit, no power protocol claim.",
+        "effect": "USB接頭配合檢查",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:26:02.123Z",
+        "source_instruction": "Show which parts or devices work together.",
+        "reference_sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "result_sha256": "816c495a3b82eca239319c113277d89a452bd12c25fe7a91374a8f504aa2f95a",
+        "applied_prompt_sha256": "f550b7ed254cb590435a077694c4226517b71a66929dc1e2eb04ffbcae682ac6",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.usb.org/sites/default/files/D1T1-2%20-%20USB%20Type-C%20System%20Overview.pdf",
+            "https://compliance.usb.org/index.asp?Format=Standard&UpdateFile=USBC"
+          ],
+          "notes": "USB-C可有供電與受電角色，形狀吻合不代表所有協議相容；此處雙向USB-C/USB-A輸出為虛構設計，無功率或快充保證。轉接圖僅顯示A母到C公的正確機械配對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍色行動電源與USB-C、USB-A接頭",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title CONNECTOR FIT CHECK. Two panels left USB-C oval male plug aligns with matching oval USB-C socket green check FITS. Right rectangular USB-A male plug beside oval USB-C socket red cross DOES NOT FIT, no insertion. Matching shapes explicit, no power protocol claim.",
+            "observed": "左右機械配合比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "USB接頭配合檢查",
+            "observed": "左橢圓接頭與橢圓插座綠勾，右長方接頭對橢圓插座紅叉",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩條虛線均定位USB-C插座，右接頭未強行插入",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "FITS與DOES NOT FIT清楚，未宣稱電氣協議相容",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-accessory-24-01",
+      "prompt_id": "src-visual642-473",
+      "command": "/accessoryfit",
+      "title": "水瓶護底套裝配",
+      "description": "水瓶護底套裝配（AI案例示範）",
+      "result_text": "水瓶護底套裝配",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-24/accessory-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title ACCESSORY FIT. Three frames bottle above detached olive boot, bottle moving down into boot, assembled bottle with boot snug around bottom. Downward arrows and labels ALIGN, SLIDE IN, FITTED. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /accessoryfit: Demonstrate how an accessory attaches.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title ACCESSORY FIT. Three frames bottle above detached olive boot, bottle moving down into boot, assembled bottle with boot snug around bottom. Downward arrows and labels ALIGN, SLIDE IN, FITTED.",
+        "effect": "水瓶護底套裝配",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:26:47.513Z",
+        "source_instruction": "Demonstrate how an accessory attaches.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "867644c1e85693704dd3abb334115c37c932013cf5ec8388ae600aa15f4ea94c",
+        "applied_prompt_sha256": "e4c997744441d0cb1815dd3be9ba718eddc6f462d0ae36eb3c084229cea5ada1",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鼠尾草水瓶黑蓋與橄欖護底套一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title ACCESSORY FIT. Three frames bottle above detached olive boot, bottle moving down into boot, assembled bottle with boot snug around bottom. Downward arrows and labels ALIGN, SLIDE IN, FITTED.",
+            "observed": "三欄配件安裝示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶護底套裝配",
+            "observed": "對準、向下滑入、完整套合三步",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶底與護底套同軸、口徑容納瓶身，兩箭頭向下",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "ALIGN、SLIDE IN、FITTED可讀，無裝配瑕疵",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-adapter-24-01",
+      "prompt_id": "src-visual642-474",
+      "command": "/adaptermatch",
+      "title": "桌扇USB轉接頭匹配",
+      "description": "桌扇USB轉接頭匹配（AI案例示範）",
+      "result_text": "桌扇USB轉接頭匹配",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-24/adapter-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title ADAPTER MATCH CONCEPT. Left fan USB-A male plug, center adapter USB-A female socket on left and USB-C male on right, right laptop USB-C female socket. Exploded horizontal alignment arrows left to right. Labels USB-A PLUG, USB-A TO USB-C ADAPTER, USB-C PORT. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /adaptermatch: Show the correct adapter or connector.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title ADAPTER MATCH CONCEPT. Left fan USB-A male plug, center adapter USB-A female socket on left and USB-C male on right, right laptop USB-C female socket. Exploded horizontal alignment arrows left to right. Labels USB-A PLUG, USB-A TO USB-C ADAPTER, USB-C PORT.",
+        "effect": "桌扇USB轉接頭匹配",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:27:38.907Z",
+        "source_instruction": "Show the correct adapter or connector.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "6b3eec757cc069686369c73767458c13448d136ff75631560f9390eb8109a44a",
+        "applied_prompt_sha256": "54a89d9e96c55d274147fbf83dee573b14caa2e5be17c64517a7cb278e3af9c0",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.usb.org/sites/default/files/D1T1-2%20-%20USB%20Type-C%20System%20Overview.pdf",
+            "https://compliance.usb.org/index.asp?Format=Standard&UpdateFile=USBC"
+          ],
+          "notes": "USB-C可有供電與受電角色，形狀吻合不代表所有協議相容；此處雙向USB-C/USB-A輸出為虛構設計，無功率或快充保證。轉接圖僅顯示A母到C公的正確機械配對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "參考桌扇黑色USB-A線與筆電",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title ADAPTER MATCH CONCEPT. Left fan USB-A male plug, center adapter USB-A female socket on left and USB-C male on right, right laptop USB-C female socket. Exploded horizontal alignment arrows left to right. Labels USB-A PLUG, USB-A TO USB-C ADAPTER, USB-C PORT.",
+            "observed": "分離對位轉接示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇USB轉接頭匹配",
+            "observed": "USB-A公頭、A母轉C公轉接器、C插座順序正確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩個箭頭向右，各端形狀及公母吻合，無強插",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "USB-A PLUG、USB-A TO USB-C ADAPTER、USB-C PORT清楚，概念標題保留",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mount-24-01",
+      "prompt_id": "src-visual642-475",
+      "command": "/mountingoptions",
+      "title": "感應燈安裝方式概念",
+      "description": "感應燈安裝方式概念（AI案例示範）",
+      "result_text": "感應燈安裝方式概念",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-24/mount-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title MOUNTING OPTIONS CONCEPT. Two panels same lamp: WALL BRACKET mounted on wall using rear bracket, DESK STAND lamp supported upright by simple separate stand on desk. Concept alternatives, no included accessory claim. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /mountingoptions: Compare available mounting methods.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title MOUNTING OPTIONS CONCEPT. Two panels same lamp: WALL BRACKET mounted on wall using rear bracket, DESK STAND lamp supported upright by simple separate stand on desk. Concept alternatives, no included accessory claim.",
+        "effect": "感應燈安裝方式概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:28:24.220Z",
+        "source_instruction": "Compare available mounting methods.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "922db07aae305e5fff54b0a0b597ff97408dac2c9967cbaa8588c40773d14e39",
+        "applied_prompt_sha256": "cc38bed257324104928874eceaf66343ea1598f6101efa9a6617ef502df1f6f0",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "壁掛支架與桌面支架是虛構安裝選項，非隨附清單，不提供建築或電氣施工指示。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款白色感應燈兩個場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title MOUNTING OPTIONS CONCEPT. Two panels same lamp: WALL BRACKET mounted on wall using rear bracket, DESK STAND lamp supported upright by simple separate stand on desk. Concept alternatives, no included accessory claim.",
+            "observed": "壁掛與桌面支架概念對照",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈安裝方式概念",
+            "observed": "左後支架固定壁面、右獨立底座支撐直立",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩個支撐與機身接觸合理，沒有懸浮",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "WALL BRACKET與DESK STAND及CONCEPT可讀，沒有隨附物品宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-organize-24-01",
+      "prompt_id": "src-visual642-476",
+      "command": "/cableorganization",
+      "title": "充電線收納配置",
+      "description": "充電線收納配置（AI案例示範）",
+      "result_text": "充電線收納配置",
+      "reference": "output/imagegen/batch-20-24/bank-reference.png",
+      "result": "output/imagegen/batch-20-24/organize-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title CABLE ORGANIZATION. Top-down desk flatlay power bank and three separate cables in smooth loops, each with reusable strap. Labels USB-C TO USB-C, USB-A TO USB-C, USB-A EXTENSION on correct matching plugs. No tangled crossing cables. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /cableorganization: Arrange cables in a clean, understandable layout.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-24/bank-reference.png",
+        "sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio reference photo of one fictional unbranded compact power bank, matte slate blue rounded rectangular body, short end facing camera shows exactly two visible ports: one USB-C oval socket and one USB-A rectangular socket. Four small white charge indicator dots on top near edge. No screen no text no symbols no brand. Beside it one short black USB-C to USB-C cable neatly looped. Three-quarter view clean pale gray background, realistic consumer product web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title CABLE ORGANIZATION. Top-down desk flatlay power bank and three separate cables in smooth loops, each with reusable strap. Labels USB-C TO USB-C, USB-A TO USB-C, USB-A EXTENSION on correct matching plugs. No tangled crossing cables.",
+        "effect": "充電線收納配置",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:29:35.373Z",
+        "source_instruction": "Arrange cables in a clean, understandable layout.",
+        "reference_sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "result_sha256": "55f7a635af3acd50da192b94d3b71e2f49e41d8c317c014789b90245811203df",
+        "applied_prompt_sha256": "7ae9ab9ecad494e84b01180355c2aba07ba79d027a68352a6acf06b91783aa24",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.usb.org/sites/default/files/D1T1-2%20-%20USB%20Type-C%20System%20Overview.pdf",
+            "https://compliance.usb.org/index.asp?Format=Standard&UpdateFile=USBC"
+          ],
+          "notes": "USB-C可有供電與受電角色，形狀吻合不代表所有協議相容；此處雙向USB-C/USB-A輸出為虛構設計，無功率或快充保證。轉接圖僅顯示A母到C公的正確機械配對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍色行動電源與三條黑線",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title CABLE ORGANIZATION. Top-down desk flatlay power bank and three separate cables in smooth loops, each with reusable strap. Labels USB-C TO USB-C, USB-A TO USB-C, USB-A EXTENSION on correct matching plugs. No tangled crossing cables.",
+            "observed": "俯視整齊桌面配置",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "充電線收納配置",
+            "observed": "三條線各自迴圈束帶排列，不互相糾纏",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "左C公C公、中A公C公、右A母A公與下方標示一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "三種線名稱清楚，無多餘埠或接頭錯誤",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-store-24-01",
+      "prompt_id": "src-visual642-477",
+      "command": "/storagefit",
+      "title": "帆布袋收納適配",
+      "description": "帆布袋收納適配（AI案例示範）",
+      "result_text": "帆布袋收納適配",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-24/store-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title STORAGE FIT. Open shelf cubby with tote folded flat neatly inside, brown handles tucked on top. Left small inset full tote, arrow to folded bag in cubby. Nothing protrudes outside cubby. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /storagefit: Show how the item fits into storage.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title STORAGE FIT. Open shelf cubby with tote folded flat neatly inside, brown handles tucked on top. Left small inset full tote, arrow to folded bag in cubby. Nothing protrudes outside cubby.",
+        "effect": "帆布袋收納適配",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:30:44.538Z",
+        "source_instruction": "Show how the item fits into storage.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "2443f59b022dac49adb9aba5775751a997cb160fa8c3f7c6d0bf6a44bcce0375",
+        "applied_prompt_sha256": "5f8ff51a6dbbf20deff82fb301596735881783607e66fcbe48a18d0fad746fb5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布袋棕色提把一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title STORAGE FIT. Open shelf cubby with tote folded flat neatly inside, brown handles tucked on top. Left small inset full tote, arrow to folded bag in cubby. Nothing protrudes outside cubby.",
+            "observed": "開放收納格內整齊摺疊",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋收納適配",
+            "observed": "左完整袋縮圖轉向格內摺平袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "摺袋與提把都在格內，周圍有餘隙不外凸",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "STORAGE FIT及方向箭頭清楚，無尺寸宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-case-24-01",
+      "prompt_id": "src-visual642-478",
+      "command": "/carrycase",
+      "title": "行動電源旅行收納盒",
+      "description": "行動電源旅行收納盒（AI案例示範）",
+      "result_text": "行動電源旅行收納盒",
+      "reference": "output/imagegen/batch-20-24/bank-reference.png",
+      "result": "output/imagegen/batch-20-24/case-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title TRAVEL CASE. Open compact zipped hard case with fitted slate-blue power bank recess and separate mesh pocket for coiled USB-C cable. Bank fully within foam compartment, no pressure on connectors. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /carrycase: Place the item into a practical travel case.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-24/bank-reference.png",
+        "sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio reference photo of one fictional unbranded compact power bank, matte slate blue rounded rectangular body, short end facing camera shows exactly two visible ports: one USB-C oval socket and one USB-A rectangular socket. Four small white charge indicator dots on top near edge. No screen no text no symbols no brand. Beside it one short black USB-C to USB-C cable neatly looped. Three-quarter view clean pale gray background, realistic consumer product web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title TRAVEL CASE. Open compact zipped hard case with fitted slate-blue power bank recess and separate mesh pocket for coiled USB-C cable. Bank fully within foam compartment, no pressure on connectors.",
+        "effect": "行動電源旅行收納盒",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:31:31.710Z",
+        "source_instruction": "Place the item into a practical travel case.",
+        "reference_sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "result_sha256": "c3ecb2192826b6699238b7ec0d0f32968b8e0c1ef8350d37285b3ddfea6a30b2",
+        "applied_prompt_sha256": "75b57993eb600b19ab45535f3001518cee39625fbff5b277c954c6ee1901ea2d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍色雙埠行動電源與USB-C線一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title TRAVEL CASE. Open compact zipped hard case with fitted slate-blue power bank recess and separate mesh pocket for coiled USB-C cable. Bank fully within foam compartment, no pressure on connectors.",
+            "observed": "打開拉鍊旅行硬盒",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "行動電源旅行收納盒",
+            "observed": "電源置泡棉凹槽、線材分開網袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "電源完全在槽內，接頭前有空間；線材不擠壓插座",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "TRAVEL CASE標題可讀，無品牌或隨附宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-space-24-01",
+      "prompt_id": "src-visual642-479",
+      "command": "/spaceplan",
+      "title": "桌扇周圍空間規劃",
+      "description": "桌扇周圍空間規劃（AI案例示範）",
+      "result_text": "桌扇周圍空間規劃",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-24/space-24.png",
+      "applied_prompt": "Square realistic high-angle desk space planning illustration. Title DESK SPACE PLAN. Reference cream fan rear-right, laptop left, notebook center-front. Fan has generous unobstructed open desk area around front and rear. Pale blue dashed outline indicates reserved empty area around fan labeled CLEAR SPACE. Black cable neatly clipped along rear desk edge. No airflow arrows, no directional arrows, no streams, no numeric distance. Paper and plants outside clear space. Original /spaceplan: Optimize the available space around the subject.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title DESK SPACE PLAN. Top-down desk fan at rear right, laptop left, notebook center. Clear pale-blue open zone in front and behind fan indicated by arrows AIRFLOW. Cable clipped along rear edge, no paper blocking grille. No numeric clearance requirement.",
+        "effect": "桌扇周圍空間規劃",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:33:14.383Z",
+        "source_instruction": "Optimize the available space around the subject.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "61c341c33bf5a5bccff3055b6b6cbb5753ea94f9204720c9dbbbe35e103cc995",
+        "applied_prompt_sha256": "5bd037abb7b68be2d4a2b7dd595c9b6b8852bc928c7c4ea468ee44f1998295bc",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "避免阻塞風扇氣流、線材避免受損；空間配置為示例，不給真實型號未核實的最小距離。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油桌扇與筆電文具",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title DESK SPACE PLAN. Top-down desk fan at rear right, laptop left, notebook center. Clear pale-blue open zone in front and behind fan indicated by arrows AIRFLOW. Cable clipped along rear edge, no paper blocking grille. No numeric clearance requirement.",
+            "observed": "整齊桌面空間規劃",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇周圍空間規劃",
+            "observed": "淺藍虛線區保留桌扇周圍空白",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "筆電、紙張及植物均在保留區外，線材固定後緣，沒有錯誤氣流箭頭",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "DESK SPACE PLAN及CLEAR SPACE可讀，未指定型號最小距離",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "桌扇前後氣流箭頭同向外散，後側方向錯誤",
+          "applied_prompt": "Create a square web-quality website example. Title DESK SPACE PLAN. Top-down desk fan at rear right, laptop left, notebook center. Clear pale-blue open zone in front and behind fan indicated by arrows AIRFLOW. Cable clipped along rear edge, no paper blocking grille. No numeric clearance requirement. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /spaceplan: Optimize the available space around the subject.",
+          "result": "output/imagegen/batch-20-24/space-24-repair-before-1.png"
+        }
+      ]
+    },
+    {
+      "id": "case-scale-24-01",
+      "prompt_id": "src-visual642-480",
+      "command": "/scalecomparison",
+      "title": "水瓶與手部尺度比較",
+      "description": "水瓶與手部尺度比較（AI案例示範）",
+      "result_text": "水瓶與手部尺度比較",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-24/scale-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title SCALE REFERENCE. Adult hand holds reference sage bottle around body with fingers plausible, bottle cap and full base visible. Neutral table backdrop, no dimensions or real capacity claims. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /scalecomparison: Compare size with a hand, person, or object.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title SCALE REFERENCE. Adult hand holds reference sage bottle around body with fingers plausible, bottle cap and full base visible. Neutral table backdrop, no dimensions or real capacity claims.",
+        "effect": "水瓶與手部尺度比較",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:33:52.431Z",
+        "source_instruction": "Compare size with a hand, person, or object.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "72316a07be3e3801a859567dc6cd65c131c52425a0b0d57740eb07ed44726454",
+        "applied_prompt_sha256": "5dbc2694d08dbab4f533e640065a7fa94b3422ce950e3325df45017a4623bc46",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鼠尾草水瓶黑提環蓋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title SCALE REFERENCE. Adult hand holds reference sage bottle around body with fingers plausible, bottle cap and full base visible. Neutral table backdrop, no dimensions or real capacity claims.",
+            "observed": "成人手握瓶的尺度參考",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶與手部尺度比較",
+            "observed": "完整瓶與手同框便於大小比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "手指數量姿勢合理，瓶底與蓋完整可見，握持關係自然",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SCALE REFERENCE可讀，未標示未量測尺寸或容量",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-sizes-24-01",
+      "prompt_id": "src-visual642-481",
+      "command": "/sizecomparison",
+      "title": "三種水瓶大小比較",
+      "description": "三種水瓶大小比較（AI案例示範）",
+      "result_text": "三種水瓶大小比較",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-24/sizes-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title SIZE COMPARISON CONCEPT. Three sage bottles with black loop lids on same baseline from left SMALL, MEDIUM, LARGE. Same proportional style, visibly increasing heights and widths. No capacity or real SKU claims. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /sizecomparison: Place several items beside each other by size.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title SIZE COMPARISON CONCEPT. Three sage bottles with black loop lids on same baseline from left SMALL, MEDIUM, LARGE. Same proportional style, visibly increasing heights and widths. No capacity or real SKU claims.",
+        "effect": "三種水瓶大小比較",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:35:04.472Z",
+        "source_instruction": "Place several items beside each other by size.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "1e6d7295516dd68def2440d2497aff479a63ecb523a08d2ad1c57ed24cf7ad85",
+        "applied_prompt_sha256": "3e20ccd7680894c9c5c9690e97040d2b026e4cd5c6d02e70ae93ec69bba73c0f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "三個同款鼠尾草水瓶黑蓋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title SIZE COMPARISON CONCEPT. Three sage bottles with black loop lids on same baseline from left SMALL, MEDIUM, LARGE. Same proportional style, visibly increasing heights and widths. No capacity or real SKU claims.",
+            "observed": "小中大設計比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "三種水瓶大小比較",
+            "observed": "高度與寬度由左到右明顯增加",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶底同基準線，外觀款式一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SMALL、MEDIUM、LARGE與CONCEPT標題清楚，無實際容量SKU宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-ratio-24-01",
+      "prompt_id": "src-visual642-482",
+      "command": "/proportionmap",
+      "title": "水瓶尺寸比例概念",
+      "description": "水瓶尺寸比例概念（AI案例示範）",
+      "result_text": "水瓶尺寸比例概念",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-24/ratio-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title PROPORTION CONCEPT. Front orthographic stylized sage bottle with black cap, schematic total height exactly three equal grid units and body width one unit. Dimension brackets HEIGHT: 3 UNITS vertical and WIDTH: 1 UNIT horizontal. Subtitle H:W = 3:1. Concept design not measured original. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /proportionmap: Show ratios between important dimensions.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title PROPORTION CONCEPT. Front orthographic stylized sage bottle with black cap, schematic total height exactly three equal grid units and body width one unit. Dimension brackets HEIGHT: 3 UNITS vertical and WIDTH: 1 UNIT horizontal. Subtitle H:W = 3:1. Concept design not measured original.",
+        "effect": "水瓶尺寸比例概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:35:57.135Z",
+        "source_instruction": "Show ratios between important dimensions.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "2edadb34836260759d75771b781a0a7e80eae339e60b3d1b75a7051a27234844",
+        "applied_prompt_sha256": "197c7f1d3308132c0c2f9cd6bfa5e0f6a5a6050df8ffddc6fb72540a2feb81d8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "正面鼠尾草水瓶與黑蓋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title PROPORTION CONCEPT. Front orthographic stylized sage bottle with black cap, schematic total height exactly three equal grid units and body width one unit. Dimension brackets HEIGHT: 3 UNITS vertical and WIDTH: 1 UNIT horizontal. Subtitle H:W = 3:1. Concept design not measured original.",
+            "observed": "尺寸比例概念圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶尺寸比例概念",
+            "observed": "高度分為三個近等單位，寬一單位，比例約3比1",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "垂直括線由提環頂到底，水平括線在瓶身最寬處，網格近正方",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "3 UNITS、1 UNIT、H:W = 3:1與CONCEPT可讀，為設計比例非原圖實測",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-fit-24-01",
+      "prompt_id": "src-visual642-483",
+      "command": "/fitcheck",
+      "title": "水瓶護底套尺寸適配",
+      "description": "水瓶護底套尺寸適配（AI案例示範）",
+      "result_text": "水瓶護底套尺寸適配",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-24/fit-24.png",
+      "applied_prompt": "Create a square web-quality website example. Title FIT CHECK CONCEPT. Two panels LEFT FITS bottle seated inside matching olive boot snug, RIGHT TOO NARROW bottle above much narrower boot unable to enter with red cross. Clear contrasting width, no squeezing or broken body. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /fitcheck: Show whether two parts or objects fit together.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title FIT CHECK CONCEPT. Two panels LEFT FITS bottle seated inside matching olive boot snug, RIGHT TOO NARROW bottle above much narrower boot unable to enter with red cross. Clear contrasting width, no squeezing or broken body.",
+        "effect": "水瓶護底套尺寸適配",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:36:49.589Z",
+        "source_instruction": "Show whether two parts or objects fit together.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "3c852073206e755051a0ab88cfaba609e4fa816a2fb6e7d8435a697e30d0075b",
+        "applied_prompt_sha256": "bb8af757b4229c518a257671d390cd736ed5f5801b74a7e9291a3ab4b8118f98",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "兩個鼠尾草瓶與橄欖護底套",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title FIT CHECK CONCEPT. Two panels LEFT FITS bottle seated inside matching olive boot snug, RIGHT TOO NARROW bottle above much narrower boot unable to enter with red cross. Clear contrasting width, no squeezing or broken body.",
+            "observed": "左右配合比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶護底套尺寸適配",
+            "observed": "左瓶套合配綠勾，右窄護套不能容納瓶底配紅叉",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "右護套口徑明顯窄於瓶身且保持分離，左護套貼合",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "FITS、TOO NARROW及概念標題清楚，無強行擠壓",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-clear-24-01",
+      "prompt_id": "src-visual642-484",
+      "command": "/clearancecheck",
+      "title": "桌扇前後淨空檢查",
+      "description": "桌扇前後淨空檢查（AI案例示範）",
+      "result_text": "桌扇前後淨空檢查",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-24/clear-24.png",
+      "applied_prompt": "Square side-profile diagram reference cream USB fan faces RIGHT centered on a completely EMPTY wide pale wooden desk against blank plain light wall. Absolutely no plants, pots, books, curtains, pens, laptop, window or any other objects anywhere. Only fan and its continuous unplugged USB cable along bottom edge. Title CLEARANCE CHECK CONCEPT. Dashed empty rectangle behind fan LEFT and dashed empty rectangle in front RIGHT both labeled KEEP CLEAR. Blue arrows LEFT to RIGHT entering rear then leaving front, all arrows same direction. No numeric distances. Original /clearancecheck: Show the free space required around the item.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title CLEARANCE CHECK CONCEPT. Side profile fan faces right on clear desk. Blue arrows rear left toward fan and fan toward right. Dashed open zones behind and in front marked KEEP CLEAR. No books or curtains within dashed zones, no fixed numeric distances.",
+        "effect": "桌扇前後淨空檢查",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:38:40.311Z",
+        "source_instruction": "Show the free space required around the item.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "b23d69eff7f83dbf79e7b0497eea9098bfbe37dbbb3c0d5162ef42a5f88a1753",
+        "applied_prompt_sha256": "5c2e911f3b64dd0838b30f8fc2716b81da3fd961927707d7ea1b3e699ef04018",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "避免阻塞風扇氣流、線材避免受損；空間配置為示例，不給真實型號未核實的最小距離。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油桌扇側面與完整USB線一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title CLEARANCE CHECK CONCEPT. Side profile fan faces right on clear desk. Blue arrows rear left toward fan and fan toward right. Dashed open zones behind and in front marked KEEP CLEAR. No books or curtains within dashed zones, no fixed numeric distances.",
+            "observed": "空桌與素牆前後淨空圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇前後淨空檢查",
+            "observed": "前後虛線空區皆標KEEP CLEAR",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "所有藍箭頭由左後進入、向右前方離開，保留區內無其他物件",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念標題可讀，未編造最小距離；成果為橫幅網頁比例",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "後側KEEP CLEAR區內仍出現盆栽，淨空標示與物件矛盾",
+          "applied_prompt": "Create a square web-quality website example. Title CLEARANCE CHECK CONCEPT. Side profile fan faces right on clear desk. Blue arrows rear left toward fan and fan toward right. Dashed open zones behind and in front marked KEEP CLEAR. No books or curtains within dashed zones, no fixed numeric distances. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /clearancecheck: Show the free space required around the item.",
+          "result": "output/imagegen/batch-20-24/clear-24-repair-before-1.png"
+        }
+      ]
+    }
+  ]
+}

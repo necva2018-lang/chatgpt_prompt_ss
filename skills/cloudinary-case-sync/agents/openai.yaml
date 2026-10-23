@@ -1,0 +1,6 @@
+interface:
+  display_name: "Cloudinary 案例上傳與同步"
+  short_description: "依本專案進度接續小批次圖片案例，保留來源與驗證記錄"
+  default_prompt: "使用 $cloudinary-case-sync 處理指令所專案目前的圖片案例批次。"
+policy:
+  allow_implicit_invocation: true

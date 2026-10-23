@@ -1,0 +1,1386 @@
+{
+  "version": 1,
+  "id": "batch-20-10",
+  "cases": [
+    {
+      "id": "case-citrus-sunrise-01",
+      "prompt_id": "src-visual642-185",
+      "command": "/citrus sunrise",
+      "title": "水瓶柑橘日出",
+      "description": "水瓶柑橘日出（AI案例示範）",
+      "result_text": "水瓶柑橘日出",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-10/citrus-sunrise.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /citrus sunrise: Light the subject with a radiant citrus sunrise. Reference image supplies subject identity only. Reference green bottle on a low clean pedestal at citrus sunrise; radiant orange sun low behind, sliced oranges as foreground landscape, warm golden rim light, citrus freshness visual. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference green bottle on a low clean pedestal at citrus sunrise; radiant orange sun low behind, sliced oranges as foreground landscape, warm golden rim light, citrus freshness visual.",
+        "effect": "水瓶柑橘日出",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:10:05.535Z",
+        "source_instruction": "Light the subject with a radiant citrus sunrise.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "99622cf7772eb6d07d25bdb0990c8aa3a534e69167fcb01d5a20b99745a8a9ba",
+        "applied_prompt_sha256": "f81a5953624b9adce481f97108cf450f81854300254fa3069109c5cd04c4d46c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑提環完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference green bottle on a low clean pedestal at citrus sunrise; radiant orange sun low behind, sliced oranges as foreground landscape, warm golden rim light, citrus freshness visual.",
+            "observed": "柳橙前景與遠方低日出。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶柑橘日出",
+            "observed": "金色柑橘晨光與瓶邊暖亮輪廓明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶直立石台，陰影與背光一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "柳橙切面與葉片清晰，無健康宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-orange-cascade-01",
+      "prompt_id": "src-visual642-186",
+      "command": "/orange cascade",
+      "title": "水瓶柳橙瀑流",
+      "description": "水瓶柳橙瀑流（AI案例示範）",
+      "result_text": "水瓶柳橙瀑流",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-10/orange-cascade.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /orange cascade: Flow a dramatic orange cascade around the subject. Reference image supplies subject identity only. Reference bottle upright surrounded by dramatic cascading orange juice ribbons and falling orange slices, clear downward flow and splashes, warm orange studio. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle upright surrounded by dramatic cascading orange juice ribbons and falling orange slices, clear downward flow and splashes, warm orange studio.",
+        "effect": "水瓶柳橙瀑流",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:11:21.026Z",
+        "source_instruction": "Flow a dramatic orange cascade around the subject.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "1af6a236ce36d494c0148291d5ec034f04ceb4fc9b5760713fbae0ed89ef6bc0",
+        "applied_prompt_sha256": "c5fe656a916d459f6a36332089bd6715961348cd0e16df9fc85306e344bb7bcd",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶與黑提環蓋完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle upright surrounded by dramatic cascading orange juice ribbons and falling orange slices, clear downward flow and splashes, warm orange studio.",
+            "observed": "暖橘棚拍與柳橙片。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶柳橙瀑流",
+            "observed": "橙汁帶從上方盤繞下降，底部飛濺匯聚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "液流前後環繞瓶身，主體仍可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "果肉液滴清晰，無多餘文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-juice-halo-01",
+      "prompt_id": "src-visual642-187",
+      "command": "/juice halo",
+      "title": "水瓶果汁光環",
+      "description": "水瓶果汁光環（AI案例示範）",
+      "result_text": "水瓶果汁光環",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-10/juice-halo.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /juice halo: Surround the subject with a luminous juice halo. Reference image supplies subject identity only. Reference bottle encircled by luminous translucent orange juice ring, droplets and orange slices, dark warm background, coherent halo opening. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle encircled by luminous translucent orange juice ring, droplets and orange slices, dark warm background, coherent halo opening.",
+        "effect": "水瓶果汁光環",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:12:17.978Z",
+        "source_instruction": "Surround the subject with a luminous juice halo.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "ec925f9984446807cbe367fdccc228449f5d809f456c27668f16f93022e48f9c",
+        "applied_prompt_sha256": "d6b91617da59101cc50f0ee370705ca4e770ff6e89670c12a10393b2977f85a7",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶及黑提環可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle encircled by luminous translucent orange juice ring, droplets and orange slices, dark warm background, coherent halo opening.",
+            "observed": "暗暖背景與柳橙切片。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶果汁光環",
+            "observed": "明亮透光橙汁構成完整光環。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "環繞瓶後開口明確，底部液體接地飛濺。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "水滴果肉清楚，無多餘文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-vitamin-glow-01",
+      "prompt_id": "src-visual642-188",
+      "command": "/vitamin glow",
+      "title": "水瓶活力暖光",
+      "description": "水瓶活力暖光（AI案例示範）",
+      "result_text": "水瓶活力暖光",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-10/vitamin-glow.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /vitamin glow: Light the subject with a radiant vitamin glow. Reference image supplies subject identity only. Reference bottle bathed in radiant warm citrus-orange glow, soft luminous particles and orange slices suggest vitamin-inspired vitality visually; no vitamin quantities, nutrition or health claims, not a medical diagram. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle bathed in radiant warm citrus-orange glow, soft luminous particles and orange slices suggest vitamin-inspired vitality visually; no vitamin quantities, nutrition or health claims, not a medical diagram.",
+        "effect": "水瓶活力暖光",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:13:16.656Z",
+        "source_instruction": "Light the subject with a radiant vitamin glow.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "63a16a0c464ebeb6165375d1e7fa1b51f26bc849777c6aa42503f83f02e14ad1",
+        "applied_prompt_sha256": "518b0a506d57c14292446ebcabab3a05e4e62b7736905aa145f97b2730f1cfe5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑蓋保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle bathed in radiant warm citrus-orange glow, soft luminous particles and orange slices suggest vitamin-inspired vitality visually; no vitamin quantities, nutrition or health claims, not a medical diagram.",
+            "observed": "暖色柑橘背景與漂浮柳橙。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶活力暖光",
+            "observed": "強烈金橘光澤與發光粒子呈活力視覺。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶直立接地，側後暖光與液滴一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無營養數字、健康功效或醫療標示。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-orchard-portal-01",
+      "prompt_id": "src-visual642-189",
+      "command": "/orchard portal",
+      "title": "水瓶果園傳送門",
+      "description": "水瓶果園傳送門（AI案例示範）",
+      "result_text": "水瓶果園傳送門",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-10/orchard-portal.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /orchard portal: Reveal the subject through a themed orchard portal. Reference image supplies subject identity only. Reference bottle revealed through a round portal framed by orange tree branches, leaves and ripe oranges; sunlit orchard visible through opening, studio foreground. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle revealed through a round portal framed by orange tree branches, leaves and ripe oranges; sunlit orchard visible through opening, studio foreground.",
+        "effect": "水瓶果園傳送門",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:14:14.861Z",
+        "source_instruction": "Reveal the subject through a themed orchard portal.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "eca00a2840cd6314dfd75d72090417973d746a8cdbb8d2f4f97d95d52579a7d6",
+        "applied_prompt_sha256": "61b44abf3e8cf77acf860c3efb37e5f655247a92491838f762d2c23c20caa612",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑色提環保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle revealed through a round portal framed by orange tree branches, leaves and ripe oranges; sunlit orchard visible through opening, studio foreground.",
+            "observed": "橙樹枝葉形成圓形門框，後方果園可見。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶果園傳送門",
+            "observed": "主體透過果園主題入口展示。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "圓框環繞瓶身，近枝遠園深度清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "果實葉片及光影合理，無亂碼。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-pulp-prism-01",
+      "prompt_id": "src-visual642-190",
+      "command": "/pulp prism",
+      "title": "水瓶果肉稜鏡",
+      "description": "水瓶果肉稜鏡（AI案例示範）",
+      "result_text": "水瓶果肉稜鏡",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-10/pulp-prism.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /pulp prism: Rebuild the subject as a faceted pulp prism. Reference image supplies subject identity only. Rebuild recognizable reference bottle and loop cap silhouette as faceted translucent orange-juice prism with visible suspended citrus pulp fibers inside, warm refracted light, artistic material transformation. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild recognizable reference bottle and loop cap silhouette as faceted translucent orange-juice prism with visible suspended citrus pulp fibers inside, warm refracted light, artistic material transformation.",
+        "effect": "水瓶果肉稜鏡",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:15:17.319Z",
+        "source_instruction": "Rebuild the subject as a faceted pulp prism.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "025efae38fd96186fd83786bebf16bb119af9ffd1062bc693b60619d1c439012",
+        "applied_prompt_sha256": "660da865ffbfe574187f22dc83f700074aee19006f356c6f467a92731823952d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "瓶身與提環蓋輪廓可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild recognizable reference bottle and loop cap silhouette as faceted translucent orange-juice prism with visible suspended citrus pulp fibers inside, warm refracted light, artistic material transformation.",
+            "observed": "暖光木面簡潔展示。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶果肉稜鏡",
+            "observed": "整瓶轉為透明橘色切面稜鏡，內含果肉纖維。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "蓋身分界清楚，折射投影落於桌面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "不是普通不透明瓶，果肉與折面效果明確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mint-meteor-01",
+      "prompt_id": "src-visual642-191",
+      "command": "/mint meteor",
+      "title": "薄荷盒流星變身",
+      "description": "薄荷盒流星變身（AI案例示範）",
+      "result_text": "薄荷盒流星變身",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-10/mint-meteor.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /mint meteor: Create a bold mint meteor transformation around the subject. Reference image supplies subject identity only. Reference mint-green cube with dark leaf motif becomes a bold mint meteor racing diagonally through dark sky, frosty mint-cyan trail of fresh mint leaves and ice particles, recognizable box shape at leading head. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference mint-green cube with dark leaf motif becomes a bold mint meteor racing diagonally through dark sky, frosty mint-cyan trail of fresh mint leaves and ice particles, recognizable box shape at leading head.",
+        "effect": "薄荷盒流星變身",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:16:21.027Z",
+        "source_instruction": "Create a bold mint meteor transformation around the subject.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "ce6f0909bd80c530223780b2254ee0b8956041f825dc851d53f51f9d2b992007",
+        "applied_prompt_sha256": "ad518a7a6ed5bbfdff8c4dd07795c96bc87d6e342c0b32fda859a13fe196c048",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠方盒與葉形圖案保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference mint-green cube with dark leaf motif becomes a bold mint meteor racing diagonally through dark sky, frosty mint-cyan trail of fresh mint leaves and ice particles, recognizable box shape at leading head.",
+            "observed": "太空星空與行星邊緣。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "薄荷盒流星變身",
+            "observed": "盒子作流星前端，青白尾跡含薄荷葉與冰粒。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "尾跡朝右上，主體朝左下飛行，方向一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "盒面完整，葉片冰粒清晰，未作科學數據宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-orange-orbit-01",
+      "prompt_id": "src-visual642-192",
+      "command": "/orange orbit",
+      "title": "水瓶柳橙軌道",
+      "description": "水瓶柳橙軌道（AI案例示範）",
+      "result_text": "水瓶柳橙軌道",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-10/orange-orbit.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /orange orbit: Arrange the subject in a dynamic orange orbit. Reference image supplies subject identity only. Reference bottle centered, orange slices and translucent juice droplets floating in a clear elliptical orbit around it, bright warm studio, depth foreground/background. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle centered, orange slices and translucent juice droplets floating in a clear elliptical orbit around it, bright warm studio, depth foreground/background.",
+        "effect": "水瓶柳橙軌道",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:17:15.482Z",
+        "source_instruction": "Arrange the subject in a dynamic orange orbit.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "d08d8a19dd6db36aacfb290ff0baf5a9b7dbd680d451ac7db9a99e877be1b4e3",
+        "applied_prompt_sha256": "37d4f40c575abbc8578f4d4d488abf807183d87a011ec128d82fdd7c823ae9c7",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶與黑提環蓋保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle centered, orange slices and translucent juice droplets floating in a clear elliptical orbit around it, bright warm studio, depth foreground/background.",
+            "observed": "暖色明亮棚拍。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶柳橙軌道",
+            "observed": "柳橙切片及果汁滴構成斜橢圓軌道。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "軌道前後環繞瓶身，懸浮陰影與深度清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "果肉液滴細節完整，無亂碼。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-pocket-portal-01",
+      "prompt_id": "src-visual642-193",
+      "command": "/pocket portal",
+      "title": "薄荷盒口袋傳送門",
+      "description": "薄荷盒口袋傳送門（AI案例示範）",
+      "result_text": "薄荷盒口袋傳送門",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-10/pocket-portal.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /pocket portal: Reveal the subject through a themed pocket portal. Reference image supplies subject identity only. Small reference mint cube emerges through a glowing mint-green portal inside a denim jacket pocket, pocket stitching and fabric clearly visible, product at portable pocket scale, no hand or person needed. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Small reference mint cube emerges through a glowing mint-green portal inside a denim jacket pocket, pocket stitching and fabric clearly visible, product at portable pocket scale, no hand or person needed.",
+        "effect": "薄荷盒口袋傳送門",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:18:07.909Z",
+        "source_instruction": "Reveal the subject through a themed pocket portal.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "cc1746820d8f4fe718f15471ea6b867602087b52f3e72ba8eaf641ffede4b3ba",
+        "applied_prompt_sha256": "8730ed62dae8a9d9fd250d09105eaa2138b903ccf1c1ebc2a9cb73738705c6a5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷方盒葉片標誌可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Small reference mint cube emerges through a glowing mint-green portal inside a denim jacket pocket, pocket stitching and fabric clearly visible, product at portable pocket scale, no hand or person needed.",
+            "observed": "丹寧口袋近景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "薄荷盒口袋傳送門",
+            "observed": "口袋內薄荷色發光環構成傳送門。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒子由口袋伸出，大小與口袋匹配。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "丹寧紋理縫線鈕扣清晰，無手部瑕疵。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-candy-matrix-01",
+      "prompt_id": "src-visual642-194",
+      "command": "/candy matrix",
+      "title": "薄荷盒糖果矩陣",
+      "description": "薄荷盒糖果矩陣（AI案例示範）",
+      "result_text": "薄荷盒糖果矩陣",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-10/candy-matrix.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /candy matrix: Arrange the subject inside a structured candy matrix. Reference image supplies subject identity only. Reference mint cube centered among precise structured rows and columns of mint-white square candies forming a geometric three-dimensional grid matrix, white studio, equal spacing. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference mint cube centered among precise structured rows and columns of mint-white square candies forming a geometric three-dimensional grid matrix, white studio, equal spacing.",
+        "effect": "薄荷盒糖果矩陣",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:18:58.403Z",
+        "source_instruction": "Arrange the subject inside a structured candy matrix.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "707ca70f682d8eb5af3d4b01922c90ea8b265ce52f8c0fc8c5aa78034e0cf6a7",
+        "applied_prompt_sha256": "7b050b5d0794a58ba741986c92b8cb9210548866f33839902ce5b68b4f5e8864",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷盒與葉形標誌居中。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference mint cube centered among precise structured rows and columns of mint-white square candies forming a geometric three-dimensional grid matrix, white studio, equal spacing.",
+            "observed": "白底方糖排列展示。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "薄荷盒糖果矩陣",
+            "observed": "薄荷白色方糖以規整行列形成矩陣。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "糖果立體厚度可見，等距格點環繞中央盒。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "排列整齊，未要求特定數字，無文字水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-fresh-burst-01",
+      "prompt_id": "src-visual642-195",
+      "command": "/fresh burst",
+      "title": "薄荷盒清新爆發",
+      "description": "薄荷盒清新爆發（AI案例示範）",
+      "result_text": "薄荷盒清新爆發",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-10/fresh-burst.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /fresh burst: Place the subject at the center of a fresh burst. Reference image supplies subject identity only. Reference mint cube at center of explosive radial burst of mint leaves, ice shards and transparent water droplets, clean cyan background, outward motion. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference mint cube at center of explosive radial burst of mint leaves, ice shards and transparent water droplets, clean cyan background, outward motion.",
+        "effect": "薄荷盒清新爆發",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:19:52.709Z",
+        "source_instruction": "Place the subject at the center of a fresh burst.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "7eda20db2327d96e7234b07fc059e4e3bd6262dd251da7b24094e8a3d2b8beac",
+        "applied_prompt_sha256": "4b5b074bf826aec5ec506250bde1f6c0e9c94bec5d24403a4e21ae3780b8c950",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠方盒及葉形圖案完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference mint cube at center of explosive radial burst of mint leaves, ice shards and transparent water droplets, clean cyan background, outward motion.",
+            "observed": "清青背景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "薄荷盒清新爆發",
+            "observed": "薄荷葉冰塊與水滴由中心向外放射爆發。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒子位於爆發中心，粒子前後景清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "葉紋水滴與盒邊無明顯瑕疵，無文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-micro-factory-01",
+      "prompt_id": "src-visual642-196",
+      "command": "/micro factory",
+      "title": "薄荷盒微型糖果工廠",
+      "description": "薄荷盒微型糖果工廠（AI案例示範）",
+      "result_text": "薄荷盒微型糖果工廠",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-10/micro-factory.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /micro factory: Turn the subject into a working micro factory. Reference image supplies subject identity only. Playful miniature fantasy candy factory arranged on and around an enlarged reference mint cube. Clearly connected conveyor carries mint leaves into a tiny stylized mixer, candies exit on a second conveyor toward packaging; tiny toy workers and lights make operation visible. Maintain cube exterior and leaf motif. Artistic fictional process diorama, no cutaway claiming real product internals, no technical or manufacturing accuracy claims, no labels. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Playful miniature fantasy candy factory arranged on and around an enlarged reference mint cube. Clearly connected conveyor carries mint leaves into a tiny stylized mixer, candies exit on a second conveyor toward packaging; tiny toy workers and lights make operation visible. Maintain cube exterior and leaf motif. Artistic fictional process diorama, no cutaway claiming real product internals, no technical or manufacturing accuracy claims, no labels.",
+        "effect": "薄荷盒微型糖果工廠",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:20:55.880Z",
+        "source_instruction": "Turn the subject into a working micro factory.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "14a122404b2931a43d10fe754bd7c94a7da29c59583e5bacdf17aad2631cb3bb",
+        "applied_prompt_sha256": "39b75e7e3577a326610b9b36d9d963c1d584e4c58042d243165c9b753b26cf21",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠大盒外觀與葉形標誌保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Playful miniature fantasy candy factory arranged on and around an enlarged reference mint cube. Clearly connected conveyor carries mint leaves into a tiny stylized mixer, candies exit on a second conveyor toward packaging; tiny toy workers and lights make operation visible. Maintain cube exterior and leaf motif. Artistic fictional process diorama, no cutaway claiming real product internals, no technical or manufacturing accuracy claims, no labels.",
+            "observed": "白底玩具微型工廠模型。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "薄荷盒微型糖果工廠",
+            "observed": "輸送帶、攪拌機、包裝與小工人呈運作中的工廠。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "左上薄荷進料至中央攪拌，右側糖果輸出連向下方包裝帶。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "模型細節清楚；不作真實產品內部構造或製造技術宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-onion-vortex-01",
+      "prompt_id": "src-visual642-197",
+      "command": "/onion vortex",
+      "title": "零食盒洋蔥漩渦",
+      "description": "零食盒洋蔥漩渦（AI案例示範）",
+      "result_text": "零食盒洋蔥漩渦",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-10/onion-vortex.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /onion vortex: Pull the subject into a dramatic onion vortex. Reference image supplies subject identity only. Reference yellow-orange carton swept diagonally into a dramatic swirling vortex of thin onion rings, onion slices and crispy chip pieces, dark savory golden lighting, coherent funnel. Carton is fictional visual identity only, no claims about actual contents. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference yellow-orange carton swept diagonally into a dramatic swirling vortex of thin onion rings, onion slices and crispy chip pieces, dark savory golden lighting, coherent funnel. Carton is fictional visual identity only, no claims about actual contents.",
+        "effect": "零食盒洋蔥漩渦",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:22:04.497Z",
+        "source_instruction": "Pull the subject into a dramatic onion vortex.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "24b2659a5d228fd8ae4203a89d86c64af25e80658ca6a15dc9d514e98c3cc914",
+        "applied_prompt_sha256": "acf754cc5143a640b2d4ba5deb561f4798a750bc3bf6eebcef9e9917ad635102",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橘虎紋盒完整可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference yellow-orange carton swept diagonally into a dramatic swirling vortex of thin onion rings, onion slices and crispy chip pieces, dark savory golden lighting, coherent funnel. Carton is fictional visual identity only, no claims about actual contents.",
+            "observed": "暖金深色零食場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "零食盒洋蔥漩渦",
+            "observed": "洋蔥環與切片形成明確漏斗漩渦。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主體傾斜置於漩渦前方，旋流向中心收束。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "洋蔥層理與脆片清晰，屬幻想效果無成分宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-chip-canyon-01",
+      "prompt_id": "src-visual642-198",
+      "command": "/chip canyon",
+      "title": "零食盒洋芋片峽谷",
+      "description": "零食盒洋芋片峽谷（AI案例示範）",
+      "result_text": "零食盒洋芋片峽谷",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-10/chip-canyon.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /chip canyon: Scale the subject into a monumental chip canyon. Reference image supplies subject identity only. Reference carton as hero at entrance to monumental canyon walls built from enormous stacked golden potato chips, tiny road and vehicle give scale, cinematic daylight. Fictional visual treatment, no ingredient claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference carton as hero at entrance to monumental canyon walls built from enormous stacked golden potato chips, tiny road and vehicle give scale, cinematic daylight. Fictional visual treatment, no ingredient claims.",
+        "effect": "零食盒洋芋片峽谷",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:23:11.120Z",
+        "source_instruction": "Scale the subject into a monumental chip canyon.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "6a4c60d2ff1423f0c0da3e5851c9ff2ca91e11ea979d7f5fd5ea26a1df4faf24",
+        "applied_prompt_sha256": "d8ee7a2a7b761d1e9c635cd5b211cf088e9b59807f8c28c6468cead34e51951b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橘虎紋包裝完整可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference carton as hero at entrance to monumental canyon walls built from enormous stacked golden potato chips, tiny road and vehicle give scale, cinematic daylight. Fictional visual treatment, no ingredient claims.",
+            "observed": "藍天日光下脆片峽谷。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "零食盒洋芋片峽谷",
+            "observed": "層疊巨大金色脆片形成兩側高牆。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "中央道路小車與巨大包裝形成尺度對比。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "脆片紋理清晰，無真實成分文案。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-crisp-halo-01",
+      "prompt_id": "src-visual642-199",
+      "command": "/crisp halo",
+      "title": "零食盒酥脆光環",
+      "description": "零食盒酥脆光環（AI案例示範）",
+      "result_text": "零食盒酥脆光環",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-10/crisp-halo.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /crisp halo: Surround the subject with a luminous crisp halo. Reference image supplies subject identity only. Reference carton encircled by luminous halo of golden crispy potato chip fragments, crumbs and warm glowing edges on dark background, clear ring. Fictional product visual identity, no ingredient claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference carton encircled by luminous halo of golden crispy potato chip fragments, crumbs and warm glowing edges on dark background, clear ring. Fictional product visual identity, no ingredient claims.",
+        "effect": "零食盒酥脆光環",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:24:14.509Z",
+        "source_instruction": "Surround the subject with a luminous crisp halo.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "291449bb0119e7ed855660691eea76cfb04df48a7a6cb9e49f90cc1bcd7f0584",
+        "applied_prompt_sha256": "d2dc333f8ab993c8cbcdab6ee035aaaffd43ac6c83635509d5ba8a2281aa8b71",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "虎紋黃盒保留完整圖案。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference carton encircled by luminous halo of golden crispy potato chip fragments, crumbs and warm glowing edges on dark background, clear ring. Fictional product visual identity, no ingredient claims.",
+            "observed": "暗金色產品背景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "零食盒酥脆光環",
+            "observed": "金色酥脆碎片與亮邊形成環形光暈。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "光環包圍主體，前後脆片層次清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "酥脆紋理與粉屑可辨，無成分或營養宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-seasoning-storm-01",
+      "prompt_id": "src-visual642-200",
+      "command": "/seasoning storm",
+      "title": "零食盒調味風暴",
+      "description": "零食盒調味風暴（AI案例示範）",
+      "result_text": "零食盒調味風暴",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-10/seasoning-storm.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /seasoning storm: Surround the subject with a cinematic seasoning storm. Reference image supplies subject identity only. Reference carton surrounded by cinematic storm of red paprika powder, black pepper grains, sea salt crystals and green herb flecks; spiraling fine particles and a clear hero. Fictional visual concept, no ingredient or nutritional claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference carton surrounded by cinematic storm of red paprika powder, black pepper grains, sea salt crystals and green herb flecks; spiraling fine particles and a clear hero. Fictional visual concept, no ingredient or nutritional claims.",
+        "effect": "零食盒調味風暴",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:25:14.833Z",
+        "source_instruction": "Surround the subject with a cinematic seasoning storm.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "d1c01ad52530221a8951e6f5a5a6234df52ac3939290567a03494357070fe663",
+        "applied_prompt_sha256": "59247e06834bf2117b3e38bfaadd76b7d19e469ad6fc3736988f9dd7f5aadeea",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橘虎紋盒完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference carton surrounded by cinematic storm of red paprika powder, black pepper grains, sea salt crystals and green herb flecks; spiraling fine particles and a clear hero. Fictional visual concept, no ingredient or nutritional claims.",
+            "observed": "暖金產品背景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "零食盒調味風暴",
+            "observed": "紅色調味粉與胡椒鹽晶香草形成旋風。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "風暴繞盒前後流動，主要圖案不被遮沒。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "粒子種類可辨，無成分或營養標示。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-crunch-temple-01",
+      "prompt_id": "src-visual642-201",
+      "command": "/crunch temple",
+      "title": "零食盒酥脆神殿",
+      "description": "零食盒酥脆神殿（AI案例示範）",
+      "result_text": "零食盒酥脆神殿",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-10/crunch-temple.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /crunch temple: Transform the subject into a grand crunch temple. Reference image supplies subject identity only. Transform reference carton into grand fantasy temple retaining yellow-orange facade and stripe motif; huge crunchy potato chips form columns and stairs, cereal flakes make carved ornament; tiny visitors establish scale, golden dramatic light. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Transform reference carton into grand fantasy temple retaining yellow-orange facade and stripe motif; huge crunchy potato chips form columns and stairs, cereal flakes make carved ornament; tiny visitors establish scale, golden dramatic light.",
+        "effect": "零食盒酥脆神殿",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:26:27.464Z",
+        "source_instruction": "Transform the subject into a grand crunch temple.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "a6dbc79a7d7a96ca9f37e3a9d2805e7e327ef4cbaef77e3a489d103183783198",
+        "applied_prompt_sha256": "4c807a192a684efde7e9968ab68e7a3139091eb7c88f5db48bbf13d7c9a04dfb",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橘虎紋與碗圖融入神殿立面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Transform reference carton into grand fantasy temple retaining yellow-orange facade and stripe motif; huge crunchy potato chips form columns and stairs, cereal flakes make carved ornament; tiny visitors establish scale, golden dramatic light.",
+            "observed": "宏大金色幻想建築與遊客。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "零食盒酥脆神殿",
+            "observed": "脆片柱、階梯及花飾形成酥脆神殿。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "小遊客與大門階梯尺度一致，主體轉化為建築。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "柱體拱門清楚，無歷史真實性或建築規格宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-flavor-field-01",
+      "prompt_id": "src-visual642-202",
+      "command": "/flavor field",
+      "title": "零食盒風味原野",
+      "description": "零食盒風味原野（AI案例示範）",
+      "result_text": "零食盒風味原野",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-10/flavor-field.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /flavor field: Build a living flavor field around the subject. Reference image supplies subject identity only. Reference carton at center of lush miniature flavor field with living herb plants, peppers, onion plants and golden chip-like leaves, rich vibrant daylight, fictional edible fantasy ecosystem. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference carton at center of lush miniature flavor field with living herb plants, peppers, onion plants and golden chip-like leaves, rich vibrant daylight, fictional edible fantasy ecosystem.",
+        "effect": "零食盒風味原野",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:27:32.494Z",
+        "source_instruction": "Build a living flavor field around the subject.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "ab715cf4134101e80ea6082c4b4c1e0bc8f55bf398504187860f29b2d9b685bd",
+        "applied_prompt_sha256": "2aa4601ba7663bd57484a9802710982c6349a73664e1005e6573938663d7935e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "虎紋黃盒完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference carton at center of lush miniature flavor field with living herb plants, peppers, onion plants and golden chip-like leaves, rich vibrant daylight, fictional edible fantasy ecosystem.",
+            "observed": "活植物與遠方瀑布的幻想原野。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "零食盒風味原野",
+            "observed": "香草辣椒洋蔥及脆片組成生機風味景觀。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "包裝位於中央，植物前後包圍，景深一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "葉果細節清晰，屬幻想視覺非成分宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cocoa-cosmos-01",
+      "prompt_id": "src-visual642-203",
+      "command": "/cocoa cosmos",
+      "title": "零食盒可可宇宙",
+      "description": "零食盒可可宇宙（AI案例示範）",
+      "result_text": "零食盒可可宇宙",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-10/cocoa-cosmos.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /cocoa cosmos: Build a cinematic cocoa cosmos around the subject. Reference image supplies subject identity only. Reference carton floats in cinematic dark cocoa cosmos, chocolate chunks and cocoa beans as asteroids, cocoa powder nebula swirl and warm starlight. Fictional material visual, no actual ingredient claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference carton floats in cinematic dark cocoa cosmos, chocolate chunks and cocoa beans as asteroids, cocoa powder nebula swirl and warm starlight. Fictional material visual, no actual ingredient claims.",
+        "effect": "零食盒可可宇宙",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:28:34.923Z",
+        "source_instruction": "Build a cinematic cocoa cosmos around the subject.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "8a6d9347eb97bf4feab14eb2725fbd99a235a34f271fa4a110048e17334992fd",
+        "applied_prompt_sha256": "364ee0cc2ced968230a15e15c8efc29149eb23ff9eef6463a677632243bca7f8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橘虎紋盒完整可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference carton floats in cinematic dark cocoa cosmos, chocolate chunks and cocoa beans as asteroids, cocoa powder nebula swirl and warm starlight. Fictional material visual, no actual ingredient claims.",
+            "observed": "深棕太空宇宙場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "零食盒可可宇宙",
+            "observed": "巧克力塊與可可豆為小行星，粉霧組成星雲。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主體漂浮中央，前後天體與環狀星雲有深度。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "可可豆紋理清楚，無真實成分宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-milk-planet-01",
+      "prompt_id": "src-visual642-204",
+      "command": "/milk planet",
+      "title": "零食盒牛奶星球",
+      "description": "零食盒牛奶星球（AI案例示範）",
+      "result_text": "零食盒牛奶星球",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-10/milk-planet.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /milk planet: Turn the subject into a stylized milk planet. Reference image supplies subject identity only. Turn reference carton into stylized milk planet: spherical white milk world bearing the recognizable orange tiger-stripe motif and cereal bowl emblem as surface design, ring of milk droplets and golden cereal flakes, deep blue space. Deliberate transformation into spherical planet, no separate unchanged carton needed. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Turn reference carton into stylized milk planet: spherical white milk world bearing the recognizable orange tiger-stripe motif and cereal bowl emblem as surface design, ring of milk droplets and golden cereal flakes, deep blue space. Deliberate transformation into spherical planet, no separate unchanged carton needed.",
+        "effect": "零食盒牛奶星球",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:30:10.835Z",
+        "source_instruction": "Turn the subject into a stylized milk planet.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "4f288a4156898132838e6374dbab0262339d09f60d2b0a5551afa87cdd685b41",
+        "applied_prompt_sha256": "5c28cefb8d3b72bd5e852764aca46ae18f3740e63677319bd7f4e219066a5988",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "原包裝橘色虎紋與穀片碗圖轉印於球體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Turn reference carton into stylized milk planet: spherical white milk world bearing the recognizable orange tiger-stripe motif and cereal bowl emblem as surface design, ring of milk droplets and golden cereal flakes, deep blue space. Deliberate transformation into spherical planet, no separate unchanged carton needed.",
+            "observed": "深藍星空環境。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "零食盒牛奶星球",
+            "observed": "牛奶覆蓋球體並形成液態行星環，呈風格化牛奶星球。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主體已轉為球形，星環前後包圍，無另外未變紙盒。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "白色牛奶液滴及金色穀片清晰，無天文事實宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

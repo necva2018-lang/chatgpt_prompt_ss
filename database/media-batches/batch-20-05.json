@@ -1,0 +1,1413 @@
+{
+  "version": 1,
+  "id": "batch-20-05",
+  "cases": [
+    {
+      "id": "case-ancientworld-01",
+      "prompt_id": "src-visual642-085",
+      "command": "/ancientworld",
+      "title": "運動鞋置入古代文明想像",
+      "description": "運動鞋置入古代文明想像（AI案例示範）",
+      "result_text": "運動鞋置入古代文明想像",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-05/ancientworld.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /ancientworld: Reimagine the subject inside an ancient civilization. Reference image supplies subject identity only. Reimagine reference sneaker as monumental artifact in an imagined ancient stone courtyard with columns, carved steps, clay vessels and small robed figures. Clearly fictional civilization, not an archaeological reconstruction. Warm sun, recognizable shoe as centerpiece. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reimagine reference sneaker as monumental artifact in an imagined ancient stone courtyard with columns, carved steps, clay vessels and small robed figures. Clearly fictional civilization, not an archaeological reconstruction. Warm sun, recognizable shoe as centerpiece. No text.",
+        "effect": "運動鞋置入古代文明想像",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:00:37.428Z",
+        "source_instruction": "Reimagine the subject inside an ancient civilization.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "33732a277c314373f07d24d3a37ac6811875cd70c49bb571b9d5cecc47617ef3",
+        "applied_prompt_sha256": "1cfcf494dcde140d1e374757d54e1460bebf9e7b421ae417c8ca4668b16296be",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "運動鞋輪廓黑條灰鞋頭保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reimagine reference sneaker as monumental artifact in an imagined ancient stone courtyard with columns, carved steps, clay vessels and small robed figures. Clearly fictional civilization, not an archaeological reconstruction. Warm sun, recognizable shoe as centerpiece. No text.",
+            "observed": "想像古代石造庭院、柱廊與陶器清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋置入古代文明想像",
+            "observed": "鞋子轉為巨型古代雕刻文物。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "長袍人物提供巨型比例，鞋居中央台座。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字、水印，未聲稱真實考古還原。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-timewarp-01",
+      "prompt_id": "src-visual642-086",
+      "command": "/timewarp",
+      "title": "水瓶穿越時間扭曲",
+      "description": "水瓶穿越時間扭曲（AI案例示範）",
+      "result_text": "水瓶穿越時間扭曲",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-05/timewarp.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /timewarp: Stretch the subject through a dramatic distortion of time. Reference image supplies subject identity only. Reference bottle stretched through a dramatic spiraling time tunnel: central bottle intact, sequential ghosted silhouettes trail and elongate around curved spacetime ribbons, daylight fragments transition into starry night. Show actual time distortion, not simply motion blur. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle stretched through a dramatic spiraling time tunnel: central bottle intact, sequential ghosted silhouettes trail and elongate around curved spacetime ribbons, daylight fragments transition into starry night. Show actual time distortion, not simply motion blur. No text.",
+        "effect": "水瓶穿越時間扭曲",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:01:38.129Z",
+        "source_instruction": "Stretch the subject through a dramatic distortion of time.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "e020023b752909c40706aab27f94debc53e8f993af37f982f27e9fefbfa94ecf",
+        "applied_prompt_sha256": "417b0c026f08775a97c7c524b8eeded0d9780f04d92e12cae0bdd30ad2f336a8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑提環蓋身份保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle stretched through a dramatic spiraling time tunnel: central bottle intact, sequential ghosted silhouettes trail and elongate around curved spacetime ribbons, daylight fragments transition into starry night. Show actual time distortion, not simply motion blur. No text.",
+            "observed": "日夜星空交織的時間隧道清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶穿越時間扭曲",
+            "observed": "瓶身拉長、殘影序列與螺旋光帶呈現扭曲。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "重複輪廓沿彎曲時間軌跡延伸。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印，主體完整可辨。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-hologramworld-01",
+      "prompt_id": "src-visual642-087",
+      "command": "/hologramworld",
+      "title": "機甲公仔全息世界",
+      "description": "機甲公仔全息世界（AI案例示範）",
+      "result_text": "機甲公仔全息世界",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-05/hologramworld.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /hologramworld: Transform the subject into a luminous holographic world. Reference image supplies subject identity only. Transform reference blue white yellow robot and entire miniature surrounding city into luminous cyan and violet holographic projections. Translucent segmented light contours, scan lines, particle grids and glowing projection base. Entire robot recognizable, no solid ordinary city. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Transform reference blue white yellow robot and entire miniature surrounding city into luminous cyan and violet holographic projections. Translucent segmented light contours, scan lines, particle grids and glowing projection base. Entire robot recognizable, no solid ordinary city. No text.",
+        "effect": "機甲公仔全息世界",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:02:35.628Z",
+        "source_instruction": "Transform the subject into a luminous holographic world.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "79fb7658db4ad4ff641c16a1fcaefbc801c1558d6a9a2331ed50569d9eede372",
+        "applied_prompt_sha256": "0eab2660a8be95934e4cb6f88ef27b14ca85a1d0b90e2d23cdff76cc62824066",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲輪廓與裝甲身份保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Transform reference blue white yellow robot and entire miniature surrounding city into luminous cyan and violet holographic projections. Translucent segmented light contours, scan lines, particle grids and glowing projection base. Entire robot recognizable, no solid ordinary city. No text.",
+            "observed": "整個城市與機甲成全息投影。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲公仔全息世界",
+            "observed": "半透明青紫光線、網格與粒子效果明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "投影基座、機甲與城市一致空間。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印，四肢完整。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-plushworld-01",
+      "prompt_id": "src-visual642-088",
+      "command": "/plushworld",
+      "title": "運動鞋絨毛微型世界",
+      "description": "運動鞋絨毛微型世界（AI案例示範）",
+      "result_text": "運動鞋絨毛微型世界",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-05/plushworld.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /plushworld: Rebuild the subject as a soft plush miniature world. Reference image supplies subject identity only. Rebuild reference sneaker as soft stuffed plush with stitched fabric black stripes and fuzzy white upper, surrounded by miniature plush hills, stitched felt trees and cotton clouds. Everything soft textile, toy scale. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild reference sneaker as soft stuffed plush with stitched fabric black stripes and fuzzy white upper, surrounded by miniature plush hills, stitched felt trees and cotton clouds. Everything soft textile, toy scale. No text.",
+        "effect": "運動鞋絨毛微型世界",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:03:33.838Z",
+        "source_instruction": "Rebuild the subject as a soft plush miniature world.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "bd7f97879bf27e5e00efd8cae0962ba2facd584d19146c90b9ee503c7b2d04db",
+        "applied_prompt_sha256": "a6242aecd8946e614e8dad6ac17f109d90f506d7104a258c763ca089543a0cab",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鞋款黑條白身棕底身份保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild reference sneaker as soft stuffed plush with stitched fabric black stripes and fuzzy white upper, surrounded by miniature plush hills, stitched felt trees and cotton clouds. Everything soft textile, toy scale. No text.",
+            "observed": "絨毛微型丘陵樹木與雲完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋絨毛微型世界",
+            "observed": "鞋與環境皆毛絨布料可見縫線。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "玩具尺度與場景接觸合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印，鞋完整。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-origamiworld-01",
+      "prompt_id": "src-visual642-089",
+      "command": "/origamiworld",
+      "title": "帆布袋摺紙世界",
+      "description": "帆布袋摺紙世界（AI案例示範）",
+      "result_text": "帆布袋摺紙世界",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-05/origamiworld.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /origamiworld: Fold the subject and scene into an origami world. Reference image supplies subject identity only. Rebuild reference cream tote with brown handles entirely as folded paper, angular crease geometry; surrounding trees, houses and ground also origami with visible paper folds. Keep recognizable bag silhouette, cream and caramel palette. No fabric. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild reference cream tote with brown handles entirely as folded paper, angular crease geometry; surrounding trees, houses and ground also origami with visible paper folds. Keep recognizable bag silhouette, cream and caramel palette. No fabric. No text.",
+        "effect": "帆布袋摺紙世界",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:04:32.094Z",
+        "source_instruction": "Fold the subject and scene into an origami world.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "3cc1f79375b68a0c60c800ccf878f2bc1ec567a48c8867f4e891c382a94a6e4b",
+        "applied_prompt_sha256": "1880e6f619296440083a10d5cd3d0748c4441478daa0f4559d3378085dd53561",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白袋身與棕提把輪廓保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild reference cream tote with brown handles entirely as folded paper, angular crease geometry; surrounding trees, houses and ground also origami with visible paper folds. Keep recognizable bag silhouette, cream and caramel palette. No fabric. No text.",
+            "observed": "摺紙樹木房屋地面完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋摺紙世界",
+            "observed": "袋與環境均紙材折面，無布料混用。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "摺痕與幾何面連貫，袋完整落地。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印與額外物件。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-floatingisland-01",
+      "prompt_id": "src-visual642-090",
+      "command": "/floatingisland",
+      "title": "機甲公仔漂浮島",
+      "description": "機甲公仔漂浮島（AI案例示範）",
+      "result_text": "機甲公仔漂浮島",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-05/floatingisland.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /floatingisland: Place the subject on a believable floating island. Reference image supplies subject identity only. Reference robot standing upright on one floating rocky island with grass and small trees. Entire island suspended visibly above clouds with exposed underside, dangling roots, distant islands and shadows suggesting depth. Robot complete recognizable, physically grounded on island. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference robot standing upright on one floating rocky island with grass and small trees. Entire island suspended visibly above clouds with exposed underside, dangling roots, distant islands and shadows suggesting depth. Robot complete recognizable, physically grounded on island. No text.",
+        "effect": "機甲公仔漂浮島",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:05:28.818Z",
+        "source_instruction": "Place the subject on a believable floating island.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "96280379f51ba03d236d86d56bbb79864303b282b64604502153d62770bef482",
+        "applied_prompt_sha256": "d2e5a64ccc547dc4b3740248632cbcd1ddbc5176e7738353e76536fb1256eac2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲外觀與色彩保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference robot standing upright on one floating rocky island with grass and small trees. Entire island suspended visibly above clouds with exposed underside, dangling roots, distant islands and shadows suggesting depth. Robot complete recognizable, physically grounded on island. No text.",
+            "observed": "漂浮岩島與遠方群島清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲公仔漂浮島",
+            "observed": "底部岩層根系暴露且四周懸空。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "機甲雙腳落在島面，島與雲層有空間深度。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印，主體完整。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-bottleworld-01",
+      "prompt_id": "src-visual642-091",
+      "command": "/bottleworld",
+      "title": "透明瓶中的紙盒花園世界",
+      "description": "透明瓶中的紙盒花園世界（AI案例示範）",
+      "result_text": "透明瓶中的紙盒花園世界",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-05/bottleworld.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /bottleworld: Build a miniature world inside a transparent bottle. Reference image supplies subject identity only. Build a miniature moss garden village around tiny mint leaf carton INSIDE one transparent glass bottle with cork. Entire bottle visible, glass boundary and reflections clear, tiny trees footpath and cottage contained within. Reference carton appears as miniature central pavilion. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Build a miniature moss garden village around tiny mint leaf carton INSIDE one transparent glass bottle with cork. Entire bottle visible, glass boundary and reflections clear, tiny trees footpath and cottage contained within. Reference carton appears as miniature central pavilion. No text.",
+        "effect": "透明瓶中的紙盒花園世界",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:06:30.879Z",
+        "source_instruction": "Build a miniature world inside a transparent bottle.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "6d75f89c4c044e71f1169ee5b0ee8779aaed1211f71ad0dd7f723ee96bdedad7",
+        "applied_prompt_sha256": "1729755985c655f023c38b88ff3d90104f97a8f676ae3836c0fec223ffbb010f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "葉形綠盒作為瓶內中心主體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Build a miniature moss garden village around tiny mint leaf carton INSIDE one transparent glass bottle with cork. Entire bottle visible, glass boundary and reflections clear, tiny trees footpath and cottage contained within. Reference carton appears as miniature central pavilion. No text.",
+            "observed": "透明瓶內有微型村落花園。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "透明瓶中的紙盒花園世界",
+            "observed": "玻璃邊界、瓶塞與折射清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒、樹、橋、房舍皆在瓶內，微縮比例明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印，整瓶可見。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mushroomworld-01",
+      "prompt_id": "src-visual642-092",
+      "command": "/mushroomworld",
+      "title": "運動鞋超現實蘑菇世界",
+      "description": "運動鞋超現實蘑菇世界（AI案例示範）",
+      "result_text": "運動鞋超現實蘑菇世界",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-05/mushroomworld.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /mushroomworld: Reimagine the subject inside a surreal mushroom world. Reference image supplies subject identity only. Reference sneaker resting on moss in a surreal world of towering bioluminescent mushrooms, small glowing spores, distant fantastical mushroom houses. Mushroom scale clearly much larger than shoe. Recognizable shoe complete. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference sneaker resting on moss in a surreal world of towering bioluminescent mushrooms, small glowing spores, distant fantastical mushroom houses. Mushroom scale clearly much larger than shoe. Recognizable shoe complete. No text.",
+        "effect": "運動鞋超現實蘑菇世界",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:07:28.516Z",
+        "source_instruction": "Reimagine the subject inside a surreal mushroom world.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "47c6954f69554e1a8d131a948097d30b364630811bd55bd5f1b7054394d80b30",
+        "applied_prompt_sha256": "5bce8786b758225bef237f8b222179c05380cdc3a34cf6f0f45e8747bdafc3a6",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑條灰鞋頭身份保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference sneaker resting on moss in a surreal world of towering bioluminescent mushrooms, small glowing spores, distant fantastical mushroom houses. Mushroom scale clearly much larger than shoe. Recognizable shoe complete. No text.",
+            "observed": "巨大發光蘑菇與蘑菇村落構成世界。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋超現實蘑菇世界",
+            "observed": "孢子光點與生物光效果清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "蘑菇遠大於鞋，鞋完整落在苔地。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-meltworld-01",
+      "prompt_id": "src-visual642-093",
+      "command": "/meltworld",
+      "title": "紙盒與場景流體融化",
+      "description": "紙盒與場景流體融化（AI案例示範）",
+      "result_text": "紙盒與場景流體融化",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-05/meltworld.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /meltworld: Melt the subject and scene into a fluid world. Reference image supplies subject identity only. Reference mint carton and surrounding studio floor visibly melting into flowing mint-green and cream liquid ribbons and glossy puddles. Upper part remains recognizable cube and leaf artwork, lower corners drip and flow into ground. Both product and scene transform. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference mint carton and surrounding studio floor visibly melting into flowing mint-green and cream liquid ribbons and glossy puddles. Upper part remains recognizable cube and leaf artwork, lower corners drip and flow into ground. Both product and scene transform. No text.",
+        "effect": "紙盒與場景流體融化",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:08:29.080Z",
+        "source_instruction": "Melt the subject and scene into a fluid world.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "e02a19c7858e120d96b93c39e3c3f54f8f82a5b4c0e7fd2e834672c878ef73d2",
+        "applied_prompt_sha256": "686639b409e1403192424dfbccb302452fc83c8f612a8dadf7d906adf00573ea",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色葉形紙盒上部身份保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference mint carton and surrounding studio floor visibly melting into flowing mint-green and cream liquid ribbons and glossy puddles. Upper part remains recognizable cube and leaf artwork, lower corners drip and flow into ground. Both product and scene transform. No text.",
+            "observed": "產品與背景共同流體化。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒與場景流體融化",
+            "observed": "盒角下垂融入綠白液體與光澤波紋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "產品底部連續融入地面，轉換關係清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mercuryworld-01",
+      "prompt_id": "src-visual642-094",
+      "command": "/mercuryworld",
+      "title": "機甲液態金屬世界",
+      "description": "機甲液態金屬世界（AI案例示範）",
+      "result_text": "機甲液態金屬世界",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-05/mercuryworld.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /mercuryworld: Rebuild the subject in a reflective liquid-metal world. Reference image supplies subject identity only. Rebuild robot and surrounding miniature terrain entirely in reflective silver liquid-metal material, smooth flowing metallic pools and ripples. Preserve robot silhouette and armor details, now mirror silver. Artistic liquid-metal fantasy only. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild robot and surrounding miniature terrain entirely in reflective silver liquid-metal material, smooth flowing metallic pools and ripples. Preserve robot silhouette and armor details, now mirror silver. Artistic liquid-metal fantasy only. No text.",
+        "effect": "機甲液態金屬世界",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:09:33.660Z",
+        "source_instruction": "Rebuild the subject in a reflective liquid-metal world.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "c19c361c8978917b203acab0906980cdd4853c4836be201e326de4b25eef0001",
+        "applied_prompt_sha256": "343c688e3034a8d31b7a5aafeac66b40b557985aff817c0767ff200a7a32464b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲輪廓裝甲保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild robot and surrounding miniature terrain entirely in reflective silver liquid-metal material, smooth flowing metallic pools and ripples. Preserve robot silhouette and armor details, now mirror silver. Artistic liquid-metal fantasy only. No text.",
+            "observed": "整體銀色液態金屬世界完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲液態金屬世界",
+            "observed": "鏡面反射、波紋與金屬液滴明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "機甲與環境材質一致，雙腳接觸金屬液面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印，四肢完整。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-fabricworld-01",
+      "prompt_id": "src-visual642-095",
+      "command": "/fabricworld",
+      "title": "紙盒全布料世界",
+      "description": "紙盒全布料世界（AI案例示範）",
+      "result_text": "紙盒全布料世界",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-05/fabricworld.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /fabricworld: Construct the subject and scene entirely from fabric. Reference image supplies subject identity only. Construct reference carton and whole forest setting entirely from fabric: mint quilted cube with appliqué darkgreen leaf, stitched felt ground and trees, woven sky backdrop. Visible seams, soft weave texture everywhere, no real cardboard foliage or stone. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Construct reference carton and whole forest setting entirely from fabric: mint quilted cube with appliqué darkgreen leaf, stitched felt ground and trees, woven sky backdrop. Visible seams, soft weave texture everywhere, no real cardboard foliage or stone. No text.",
+        "effect": "紙盒全布料世界",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:10:35.761Z",
+        "source_instruction": "Construct the subject and scene entirely from fabric.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "f37b5b814fc655a63ab583aa6968f25f5e44ecdecc74b1ece054c5de49b93909",
+        "applied_prompt_sha256": "18fbbab2293c5295f29da6ba807559d34c9aff5a051dec3f99a1e0b6b149da6e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠盒與葉形輪廓保持。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Construct reference carton and whole forest setting entirely from fabric: mint quilted cube with appliqué darkgreen leaf, stitched felt ground and trees, woven sky backdrop. Visible seams, soft weave texture everywhere, no real cardboard foliage or stone. No text.",
+            "observed": "森林與背景完整布料化。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒全布料世界",
+            "observed": "織紋、縫線、貼布葉與絎縫清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主體與環境材質一致且接觸自然。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印或紙石材質混用。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-glitchorganism-01",
+      "prompt_id": "src-visual642-096",
+      "command": "/glitchorganism",
+      "title": "機甲融合數位故障生物",
+      "description": "機甲融合數位故障生物（AI案例示範）",
+      "result_text": "機甲融合數位故障生物",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-05/glitchorganism.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /glitchorganism: Fuse the subject with a living digital glitch organism. Reference image supplies subject identity only. Reference robot fused with a living abstract digital glitch organism: branching luminous pixel tendrils and cellular code membranes integrated into armor, glowing cyan-magenta clusters, lively organic growth. Recognizable robot torso and limbs, no gore, no merely flat screen overlay. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference robot fused with a living abstract digital glitch organism: branching luminous pixel tendrils and cellular code membranes integrated into armor, glowing cyan-magenta clusters, lively organic growth. Recognizable robot torso and limbs, no gore, no merely flat screen overlay. No text.",
+        "effect": "機甲融合數位故障生物",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:11:38.255Z",
+        "source_instruction": "Fuse the subject with a living digital glitch organism.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "29dc4a7bec0403c17c4c1024a4c15eab100992f6b2eb33c8c941fd274b9b5b48",
+        "applied_prompt_sha256": "bf2e1b4f900e7a09393f03dc9887eae844745d88de2447e4a9b29d525096b6e8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲顏色與輪廓保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference robot fused with a living abstract digital glitch organism: branching luminous pixel tendrils and cellular code membranes integrated into armor, glowing cyan-magenta clusters, lively organic growth. Recognizable robot torso and limbs, no gore, no merely flat screen overlay. No text.",
+            "observed": "數位故障生物與裝甲融合。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲融合數位故障生物",
+            "observed": "發光細胞網、像素觸鬚與分枝生長清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "觸鬚連接裝甲裂隙而非平面覆蓋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印或血腥，四肢完整。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-dimensionleak-01",
+      "prompt_id": "src-visual642-097",
+      "command": "/dimensionleak",
+      "title": "帆布袋滲出異次元",
+      "description": "帆布袋滲出異次元（AI案例示範）",
+      "result_text": "帆布袋滲出異次元",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-05/dimensionleak.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /dimensionleak: Let another dimension leak through the subject and scene. Reference image supplies subject identity only. Reference tote on ordinary cafe table; glowing geometric tear through bag opening and surrounding air lets another dimension visibly leak out as floating impossible stairways, luminous fragments and inverted miniature landscape. Ordinary room and alternate world simultaneously visible. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference tote on ordinary cafe table; glowing geometric tear through bag opening and surrounding air lets another dimension visibly leak out as floating impossible stairways, luminous fragments and inverted miniature landscape. Ordinary room and alternate world simultaneously visible. No text.",
+        "effect": "帆布袋滲出異次元",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:15:38.235Z",
+        "source_instruction": "Let another dimension leak through the subject and scene.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "4572928e99fd76254a3bea8bac200c82ac8e1ef5b30ef265d782a36fec81c1e1",
+        "applied_prompt_sha256": "21a001d09e9278608d055a7a940fcfe38ae5a7648853433187fb4c37f4886234",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布袋及棕色雙提把保留可辨識外型。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference tote on ordinary cafe table; glowing geometric tear through bag opening and surrounding air lets another dimension visibly leak out as floating impossible stairways, luminous fragments and inverted miniature landscape. Ordinary room and alternate world simultaneously visible. No text.",
+            "observed": "袋身發光裂口湧出階梯、浮島與雲霧，異世界越出袋外。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋滲出異次元",
+            "observed": "室內桌面與背景仍清楚，形成現實與異次元交界。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "裂口、浮島與透視一致，主體完整且無明顯失真。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字與額外品牌，適合案例展示。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-realitypeel-01",
+      "prompt_id": "src-visual642-098",
+      "command": "/realitypeel",
+      "title": "剝開現實的紙盒世界",
+      "description": "剝開現實的紙盒世界（AI案例示範）",
+      "result_text": "剝開現實的紙盒世界",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-05/realitypeel.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /realitypeel: Peel back reality to expose another world underneath. Reference image supplies subject identity only. Reference mint carton in ordinary white studio; a large corner of the studio surface and background is visibly peeled back like thick paper, revealing a deep starry ocean world underneath. Curled lifted reality sheet with visible edge; box remains recognizable beside the peel. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference mint carton in ordinary white studio; a large corner of the studio surface and background is visibly peeled back like thick paper, revealing a deep starry ocean world underneath. Curled lifted reality sheet with visible edge; box remains recognizable beside the peel. No text.",
+        "effect": "剝開現實的紙盒世界",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:16:26.292Z",
+        "source_instruction": "Peel back reality to expose another world underneath.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "6afc0ac36091b06b0138a3a1e3e9ba754f00826a277593a57f649979a6512585",
+        "applied_prompt_sha256": "b28d8c1d553ab168f8b9be419d52402ec98eeb79570da6921af700d988da129c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠立方紙盒與深色葉形圖案保持完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference mint carton in ordinary white studio; a large corner of the studio surface and background is visibly peeled back like thick paper, revealing a deep starry ocean world underneath. Curled lifted reality sheet with visible edge; box remains recognizable beside the peel. No text.",
+            "observed": "白色現實表層被捲起，露出星空海洋異世界。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "剝開現實的紙盒世界",
+            "observed": "紙張剝離邊界明確，盒子置於原白色場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "曲面紙邊、海浪及盒體透視清晰自然。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有額外文字或浮水印，主體易辨識。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cloudgarden-01",
+      "prompt_id": "src-visual642-099",
+      "command": "/cloudgarden",
+      "title": "帆布袋周圍雲朵花園",
+      "description": "帆布袋周圍雲朵花園（AI案例示範）",
+      "result_text": "帆布袋周圍雲朵花園",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-05/cloudgarden.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /cloudgarden: Grow a dreamy garden from clouds around the subject. Reference image supplies subject identity only. Reference cream tote centered in a dreamy garden grown from clouds: fluffy cloud flowers on soft cloud stems, cloud leaves and billowing hedges surrounding bag, pastel sky. Keep bag identity, flowers unmistakably cloud material. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference cream tote centered in a dreamy garden grown from clouds: fluffy cloud flowers on soft cloud stems, cloud leaves and billowing hedges surrounding bag, pastel sky. Keep bag identity, flowers unmistakably cloud material. No text.",
+        "effect": "帆布袋周圍雲朵花園",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:17:07.298Z",
+        "source_instruction": "Grow a dreamy garden from clouds around the subject.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "e20f02fe400197450487c7717d22e964e5e22074464d572cd9cef44108797548",
+        "applied_prompt_sha256": "a580fc4c15a60e86d5f3c6ec0411c78226a80d61fc1991378aed6538c7ee6c5b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布袋與棕色提把保留原產品輪廓。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference cream tote centered in a dreamy garden grown from clouds: fluffy cloud flowers on soft cloud stems, cloud leaves and billowing hedges surrounding bag, pastel sky. Keep bag identity, flowers unmistakably cloud material. No text.",
+            "observed": "周圍花瓣、莖葉與地面均呈蓬鬆雲朵花園造型。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋周圍雲朵花園",
+            "observed": "粉彩天空與雲花環繞產品，夢幻園景清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "提把結構完整，布面與雲花材質區別清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無多餘文字，主體位置適合網站展示。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-crystalforest-01",
+      "prompt_id": "src-visual642-100",
+      "command": "/crystalforest",
+      "title": "機甲發光水晶森林",
+      "description": "機甲發光水晶森林（AI案例示範）",
+      "result_text": "機甲發光水晶森林",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-05/crystalforest.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /crystalforest: Place the subject inside a luminous crystal forest. Reference image supplies subject identity only. Reference robot in a luminous forest of tall faceted quartz crystal trees with branching crystal limbs, teal-violet inner glow and crystalline ground. Full robot clear among trees, magical depth and volumetric light. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference robot in a luminous forest of tall faceted quartz crystal trees with branching crystal limbs, teal-violet inner glow and crystalline ground. Full robot clear among trees, magical depth and volumetric light. No text.",
+        "effect": "機甲發光水晶森林",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:17:59.497Z",
+        "source_instruction": "Place the subject inside a luminous crystal forest.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "f42ed595d21d514a514c07b2077cb66802b29f744b0a502e0db973e1aeca1f12",
+        "applied_prompt_sha256": "4670479775b269735d37189711d8e7a2e4477750803c6d458e043c1c00574b62",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍白機器人全身及紅黃裝甲細節可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference robot in a luminous forest of tall faceted quartz crystal trees with branching crystal limbs, teal-violet inner glow and crystalline ground. Full robot clear among trees, magical depth and volumetric light. No text.",
+            "observed": "高大晶體樹幹分枝與晶面地表構成水晶森林。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲發光水晶森林",
+            "observed": "青紫透光晶體包圍主體，森林縱深明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "四肢完整，反射與透光材質清晰。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無額外文字，主體與環境層次分明。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-crystalrain-01",
+      "prompt_id": "src-visual642-101",
+      "command": "/crystalrain",
+      "title": "運動鞋晶體雨",
+      "description": "運動鞋晶體雨（AI案例示範）",
+      "result_text": "運動鞋晶體雨",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-05/crystalrain.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /crystalrain: Surround the subject with falling crystalline rain. Reference image supplies subject identity only. Reference sneaker centered on wet reflective dark ground, surrounded by falling translucent faceted crystal droplets with vertical streaks; distinct diamond-like droplets in foreground and background. Crystals visibly falling, not static crystal forest. Shoe complete. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference sneaker centered on wet reflective dark ground, surrounded by falling translucent faceted crystal droplets with vertical streaks; distinct diamond-like droplets in foreground and background. Crystals visibly falling, not static crystal forest. Shoe complete. No text.",
+        "effect": "運動鞋晶體雨",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:18:50.596Z",
+        "source_instruction": "Surround the subject with falling crystalline rain.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "829447d18d26ea1afbc59f514a306aab097389d8648268c82a125b9d9ee3c6aa",
+        "applied_prompt_sha256": "19f4c7b24372ef904d1ef3231d185223ab82b8f9060b81c078ab411bf5da1cb9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋、黑色三條紋與棕色鞋底完整可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference sneaker centered on wet reflective dark ground, surrounded by falling translucent faceted crystal droplets with vertical streaks; distinct diamond-like droplets in foreground and background. Crystals visibly falling, not static crystal forest. Shoe complete. No text.",
+            "observed": "切面水晶雨滴伴隨下落線條遍布空中。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋晶體雨",
+            "observed": "鞋子位於濕潤反射地面，符合降雨場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "雨滴折射、地面反光與鞋材質清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無額外文字，鞋身清晰且沒有被晶體遮蔽。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-dreamlagoon-01",
+      "prompt_id": "src-visual642-102",
+      "command": "/dreamlagoon",
+      "title": "水瓶與夢幻潟湖",
+      "description": "水瓶與夢幻潟湖（AI案例示範）",
+      "result_text": "水瓶與夢幻潟湖",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-05/dreamlagoon.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /dreamlagoon: Place the subject beside a surreal dreamlike lagoon. Reference image supplies subject identity only. Reference bottle as hero on smooth pale stone BESIDE a surreal turquoise lagoon with floating lily islands, curved moon, misty pastel mountains and impossible luminous reflections. Bottle is at lagoon edge, not underwater. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle as hero on smooth pale stone BESIDE a surreal turquoise lagoon with floating lily islands, curved moon, misty pastel mountains and impossible luminous reflections. Bottle is at lagoon edge, not underwater. No text.",
+        "effect": "水瓶與夢幻潟湖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:19:38.361Z",
+        "source_instruction": "Place the subject beside a surreal dreamlike lagoon.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "8089dd343b25311069a62e175d117b96f66b578c501df749bc38af0f09cf9246",
+        "applied_prompt_sha256": "5336d94a8b820a049cc7a4e9dfa7ded280d189964e600a4d5608b2717d87270a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色瓶身與黑色環形瓶蓋完整保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle as hero on smooth pale stone BESIDE a surreal turquoise lagoon with floating lily islands, curved moon, misty pastel mountains and impossible luminous reflections. Bottle is at lagoon edge, not underwater. No text.",
+            "observed": "碧綠潟湖、睡蓮島、奇幻月亮與薄霧形成夢幻場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶與夢幻潟湖",
+            "observed": "瓶子立於岸邊岩石，清楚位於水面以上。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶體透視與接地陰影合理，水面倒影一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有文字或浮水印，瓶身清晰突出。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-floatingmeadow-01",
+      "prompt_id": "src-visual642-103",
+      "command": "/floatingmeadow",
+      "title": "天空漂浮草甸中的帆布袋",
+      "description": "天空漂浮草甸中的帆布袋（AI案例示範）",
+      "result_text": "天空漂浮草甸中的帆布袋",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-05/floatingmeadow.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /floatingmeadow: Set the subject in a meadow floating in the sky. Reference image supplies subject identity only. Reference tote sitting in flowering grassy meadow floating in the sky; wide view shows edge of turf and exposed dangling roots underneath above clouds, wildflowers around bag. Whole bag visible, meadow distinct from rocky island. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference tote sitting in flowering grassy meadow floating in the sky; wide view shows edge of turf and exposed dangling roots underneath above clouds, wildflowers around bag. Whole bag visible, meadow distinct from rocky island. No text.",
+        "effect": "天空漂浮草甸中的帆布袋",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:20:27.719Z",
+        "source_instruction": "Set the subject in a meadow floating in the sky.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "ca0299320f3a22d5e7f7b4e5fd65364aa47d5502bf80dd217c9f468d6ee790a2",
+        "applied_prompt_sha256": "6244622349963ac4f126e9841495e374ecae31fa9cd93c1c6490ee93211ec195",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白布袋與棕色雙提把完整呈現。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference tote sitting in flowering grassy meadow floating in the sky; wide view shows edge of turf and exposed dangling roots underneath above clouds, wildflowers around bag. Whole bag visible, meadow distinct from rocky island. No text.",
+            "observed": "開花草甸漂浮雲海之上，底部土層與垂根明顯。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "天空漂浮草甸中的帆布袋",
+            "observed": "草花包圍產品，遠方浮空草甸增加天空場景縱深。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "布袋落地於草面，草根與陰影細節合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字或浮水印，產品完整易辨識。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-liquidsunset-01",
+      "prompt_id": "src-visual642-104",
+      "command": "/liquidsunset",
+      "title": "紙盒場景融入液態夕陽",
+      "description": "紙盒場景融入液態夕陽（AI案例示範）",
+      "result_text": "紙盒場景融入液態夕陽",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-05/liquidsunset.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /liquidsunset: Melt the scene into a glowing liquid sunset. Reference image supplies subject identity only. Reference mint carton on shore, entire sky and ground melting into glowing orange-pink-gold liquid sunset waves, flowing sun reflections and viscous gradients. Lower box softly blends into liquid while upper leaf face remains recognizable. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference mint carton on shore, entire sky and ground melting into glowing orange-pink-gold liquid sunset waves, flowing sun reflections and viscous gradients. Lower box softly blends into liquid while upper leaf face remains recognizable. No text.",
+        "effect": "紙盒場景融入液態夕陽",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:21:05.675Z",
+        "source_instruction": "Melt the scene into a glowing liquid sunset.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "c608c6a2fa9f1f3d2857b5c1cb4a73745c689c1e7cd41d569937d7ae597fe849",
+        "applied_prompt_sha256": "9b21a3daa36c21033dab56ed77c87a26544faec78c8012c8156710ddb64735ea",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠紙盒的葉形圖案及上半盒體可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference mint carton on shore, entire sky and ground melting into glowing orange-pink-gold liquid sunset waves, flowing sun reflections and viscous gradients. Lower box softly blends into liquid while upper leaf face remains recognizable. No text.",
+            "observed": "盒體底邊與周圍環境融入橙金粉色流動夕陽液面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒場景融入液態夕陽",
+            "observed": "遠處落日與液態波紋呈現夕陽世界核心效果。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒面結構清晰，底部融化過渡與液面反射一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無額外文字，產品與效果都突出。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

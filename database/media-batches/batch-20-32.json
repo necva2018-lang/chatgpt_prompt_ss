@@ -1,0 +1,1374 @@
+{
+  "version": 1,
+  "id": "batch-20-32",
+  "cases": [
+    {
+      "id": "case-rain-32-01",
+      "prompt_id": "src-visual642-625",
+      "command": "/rainstreaks",
+      "title": "雨痕視角",
+      "description": "雨痕視角（AI案例示範）",
+      "result_text": "雨痕視角",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-32/rain-32.png",
+      "applied_prompt": "Create a square web-quality website example. Photographic house viewed through a window with long diagonal rain streaks and beads across foreground glass. House still recognizable, stormy daylight. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /rainstreaks: Show rain streaking across the view.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Photographic house viewed through a window with long diagonal rain streaks and beads across foreground glass. House still recognizable, stormy daylight. No text.",
+        "effect": "雨痕視角",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:29:37.230Z",
+        "source_instruction": "Show rain streaking across the view.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "947b90fac42b5e9939ab28de2a21af16c04796b5a56d47d3738c5ea95a9a0b30",
+        "applied_prompt_sha256": "452e42a682b1e7120693aa52c845c6c868b88566c6d5a7e3009d3d79dc2de8da",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色兩層灰頂住宅可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photographic house viewed through a window with long diagonal rain streaks and beads across foreground glass. House still recognizable, stormy daylight. No text.",
+            "observed": "前景玻璃水滴與斜向雨痕覆蓋視野",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "雨痕視角",
+            "observed": "雨線明顯且住宅仍清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "玻璃水滴在前住宅在後，透視合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，屋頂門窗連貫",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-worn-32-01",
+      "prompt_id": "src-visual642-626",
+      "command": "/timeworn",
+      "title": "久用磨損",
+      "description": "久用磨損（AI案例示範）",
+      "result_text": "久用磨損",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-32/worn-32.png",
+      "applied_prompt": "Create a square web-quality website example. Photograph the reference tote heavily aged with faded canvas, frayed edges, dirt marks and scuffed brown handles; retain silhouette. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /timeworn: Make the subject aged and heavily used.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Photograph the reference tote heavily aged with faded canvas, frayed edges, dirt marks and scuffed brown handles; retain silhouette. No text.",
+        "effect": "久用磨損",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:30:15.228Z",
+        "source_instruction": "Make the subject aged and heavily used.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "3a8ac5f82b39927244b4d32a570c2fcc29f338222a3100df92285bdaae228eeb",
+        "applied_prompt_sha256": "ee32a4b732238a3dee29d689e0ff16e58636353dc688866aec9652bbe329e756",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米色帆布袋棕提把身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photograph the reference tote heavily aged with faded canvas, frayed edges, dirt marks and scuffed brown handles; retain silhouette. No text.",
+            "observed": "舊袋置桌面日常場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "久用磨損",
+            "observed": "褪色污漬毛邊及提把磨耗清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "提把縫接與袋身體積合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，磨耗集中邊緣且無多餘物件",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-excavation-32-01",
+      "prompt_id": "src-visual642-627",
+      "command": "/archaeological",
+      "title": "挖掘出土",
+      "description": "挖掘出土（AI案例示範）",
+      "result_text": "挖掘出土",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-32/excavation-32.png",
+      "applied_prompt": "Create a square web-quality website example. Fictional excavation photograph: reference bottle partially buried in a square soil trench, dusty and scratched, a small brush beside it. Clearly contemporary bottle, no ancient provenance claim. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /archaeological: Present the subject like an excavation find.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Fictional excavation photograph: reference bottle partially buried in a square soil trench, dusty and scratched, a small brush beside it. Clearly contemporary bottle, no ancient provenance claim. No text.",
+        "effect": "挖掘出土",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:30:54.982Z",
+        "source_instruction": "Present the subject like an excavation find.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "b975b7673e3217e8463d5ee2185850de280ec9bccf3698f0ff295ba499b1d9ad",
+        "applied_prompt_sha256": "befa28b2bb6e97237e48fec9cbb346bd4246c17a4a1d6f45c09aac495d66f8a0",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鼠尾草綠瓶黑提環蓋保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Fictional excavation photograph: reference bottle partially buried in a square soil trench, dusty and scratched, a small brush beside it. Clearly contemporary bottle, no ancient provenance claim. No text.",
+            "observed": "土坑內半埋瓶身，旁有清理刷",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "挖掘出土",
+            "observed": "呈現挖掘發現與泥土刮痕",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "土覆瓶底與邊緣，刷子尺度合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無年代文字，屬虛構出土視覺",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-damage-32-01",
+      "prompt_id": "src-visual642-628",
+      "command": "/damagecheck",
+      "title": "損傷檢視",
+      "description": "損傷檢視（AI案例示範）",
+      "result_text": "損傷檢視",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-32/damage-32.png",
+      "applied_prompt": "Create a square web-quality website example. Close product inspection of tote with a visible fabric tear and frayed strap stitching. Two red circles and precise leader labels TEAR and FRAY. Title DAMAGE CHECK. Labels point to actual defects. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /damagecheck: Highlight scratches, cracks, dents, or breaks.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Close product inspection of tote with a visible fabric tear and frayed strap stitching. Two red circles and precise leader labels TEAR and FRAY. Title DAMAGE CHECK. Labels point to actual defects.",
+        "effect": "損傷檢視",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:31:30.313Z",
+        "source_instruction": "Highlight scratches, cracks, dents, or breaks.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "deec313fce5c7e19d6bfcff879a9fd71e4ae3f275c97292af62f95237e7698d9",
+        "applied_prompt_sha256": "9b5d245e517567c7d20d08688a53ca209e9631c7792ae525ccd8dfe250f92d9b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "帆布袋及棕提把保持",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Close product inspection of tote with a visible fabric tear and frayed strap stitching. Two red circles and precise leader labels TEAR and FRAY. Title DAMAGE CHECK. Labels point to actual defects.",
+            "observed": "兩圓形放大檢視標記",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "損傷檢視",
+            "observed": "袋身破口和提把毛邊可見",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "TEAR引線指破口，FRAY指提把鬚邊",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "DAMAGE CHECK及兩標籤清楚正確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-auth-32-01",
+      "prompt_id": "src-visual642-629",
+      "command": "/authenticitycheck",
+      "title": "真偽線索示範",
+      "description": "真偽線索示範（AI案例示範）",
+      "result_text": "真偽線索示範",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-32/auth-32.png",
+      "applied_prompt": "Create a square web-quality website example. Editorial authenticity inspection demo of unbranded tote. Insets show stitching, woven material and plain tag marked DEMO. Labels STITCHING, MATERIAL, TAG. Title AUTHENTICITY REVIEW. Footer NOT A VERDICT. No genuine badge or real brand certification. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /authenticitycheck: Highlight details that indicate authenticity.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Editorial authenticity inspection demo of unbranded tote. Insets show stitching, woven material and plain tag marked DEMO. Labels STITCHING, MATERIAL, TAG. Title AUTHENTICITY REVIEW. Footer NOT A VERDICT. No genuine badge or real brand certification.",
+        "effect": "真偽線索示範",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:32:17.728Z",
+        "source_instruction": "Highlight details that indicate authenticity.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "bc1979f932910f92c8a9f8555c3c8bff738b32d3494160f68f6dc7e4de1eda4d",
+        "applied_prompt_sha256": "eb6c5921a36434b7f922507ebf54d6c9060f60602426e404bbe7650d69ec86b8",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "僅展示縫線、材質及標籤等核對位置；無品牌資料或實物鑑定，明示NOT A VERDICT。",
+          "source_urls": [
+            "https://iprr.cbp.gov/file-asset/IPR_Auth_Manual_Template?oid=00Dt00000004XM5"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "中性帆布袋身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Editorial authenticity inspection demo of unbranded tote. Insets show stitching, woven material and plain tag marked DEMO. Labels STITCHING, MATERIAL, TAG. Title AUTHENTICITY REVIEW. Footer NOT A VERDICT. No genuine badge or real brand certification.",
+            "observed": "三個檢視放大圖展示縫線織紋與標籤",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "真偽線索示範",
+            "observed": "聚焦可核對細節而非真假結論",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線對應提把、布面與袋緣區域，放大圖內容相符",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "AUTHENTICITY REVIEW、STITCHING、MATERIAL、TAG、DEMO及NOT A VERDICT可讀",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-repair-32-01",
+      "prompt_id": "src-visual642-630",
+      "command": "/repairability",
+      "title": "可修復部位",
+      "description": "可修復部位（AI案例示範）",
+      "result_text": "可修復部位",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-32/repair-32.png",
+      "applied_prompt": "Create a square photographic CONCEPT REPAIR example using reference tote. Keep cream canvas tote and brown handles. Two circular detail insets: left needle re-stitching handle attachment labeled RE-STITCH; right a neat rectangular canvas patch LARGE ENOUGH TO COVER THE ENTIRE DAMAGED AREA, stitched on all four sides onto intact surrounding cloth, labeled PATCH. Main tote shows fully covering patch with NO exposed tear, hole or frayed opening beside it. Title CONCEPT REPAIR. No other text. Original instruction /repairability: Show which parts can be repaired or replaced.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Repair concept photograph of tote with two detail insets: needle re-stitching a handle seam, fabric patch sewn over tear. Labels RE-STITCH and PATCH, title CONCEPT REPAIR. No manufacturer guarantee.",
+        "effect": "可修復部位",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:33:59.247Z",
+        "source_instruction": "Show which parts can be repaired or replaced.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "d878c1a3c47d5094ead2666b2da6186dc66b19c6093fdb938bad3353f85effc3",
+        "applied_prompt_sha256": "d1a956bc464df70bf316154f41082280554c8b7f3a827a0245033785a58c416c",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "布料補片與重新縫合為概念修復，未保證原產品可維修。",
+          "source_urls": [
+            "https://www.ifixit.com/Guide/Sew-on%2BPatch/16783"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米色袋棕提把可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Repair concept photograph of tote with two detail insets: needle re-stitching a handle seam, fabric patch sewn over tear. Labels RE-STITCH and PATCH, title CONCEPT REPAIR. No manufacturer guarantee.",
+            "observed": "兩個圓形修復細節與主袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "可修復部位",
+            "observed": "提把重縫及完整補片呈現可修部位",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "補片四邊縫於完整布面，無露出破洞，引線對應正確",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT REPAIR、RE-STITCH、PATCH可讀",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "補片僅覆蓋部分破口，左側仍露洞；改為補片完全覆蓋破損並四邊縫合。",
+          "applied_prompt": "Create a square web-quality website example. Repair concept photograph of tote with two detail insets: needle re-stitching a handle seam, fabric patch sewn over tear. Labels RE-STITCH and PATCH, title CONCEPT REPAIR. No manufacturer guarantee. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /repairability: Show which parts can be repaired or replaced.",
+          "result": "output/imagegen/batch-20-32/repair-32-repair-before-1.png"
+        }
+      ]
+    },
+    {
+      "id": "case-thermal-32-01",
+      "prompt_id": "src-visual642-631",
+      "command": "/thermalview",
+      "title": "熱分布示意",
+      "description": "熱分布示意（AI案例示範）",
+      "result_text": "熱分布示意",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-32/thermal-32.png",
+      "applied_prompt": "Create a square web-quality website example. Bottle false-color thermal map, upper half warm orange/red, lower half cool blue. Vertical legend LOW blue bottom to HIGH red top. Title SIMULATED THERMAL. No temperature numbers or performance claims. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /thermalview: Show heat distribution across the subject.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Bottle false-color thermal map, upper half warm orange/red, lower half cool blue. Vertical legend LOW blue bottom to HIGH red top. Title SIMULATED THERMAL. No temperature numbers or performance claims.",
+        "effect": "熱分布示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:34:46.049Z",
+        "source_instruction": "Show heat distribution across the subject.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "aa15137f2b2a07b27f03375ab89d5d8454f9b6751c86f96a3e8b6c3d937e4371",
+        "applied_prompt_sha256": "9bbcdedc45a3c3508882e892def4ea0eaac7fa96f610d4e0422e5f813988a00b",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "紅外線風格或熱分布僅模擬；熱像藍低紅高，不提供量測或隔熱性能宣稱。",
+          "source_urls": [
+            "https://science.nasa.gov/ems/07_infraredwaves/"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "瓶身黑提環蓋輪廓保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Bottle false-color thermal map, upper half warm orange/red, lower half cool blue. Vertical legend LOW blue bottom to HIGH red top. Title SIMULATED THERMAL. No temperature numbers or performance claims.",
+            "observed": "桌面瓶身熱分布示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "熱分布示意",
+            "observed": "上紅橙下藍呈現相對熱分布",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "右方HIGH紅端LOW藍端與瓶色一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SIMULATED THERMAL清楚，無溫度或效能數據",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-heatcamera-32-01",
+      "prompt_id": "src-visual642-632",
+      "command": "/thermalvision",
+      "title": "熱像攝影視角",
+      "description": "熱像攝影視角（AI案例示範）",
+      "result_text": "熱像攝影視角",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-32/heatcamera-32.png",
+      "applied_prompt": "Create a square web-quality website example. House in heat camera false-color view, cool purple/blue roof and warm yellow/orange windows. Legend LOW blue to HIGH red. Title SIMULATED THERMAL CAMERA. No measured temperatures. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /thermalvision: Use a heat-camera perspective.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "House in heat camera false-color view, cool purple/blue roof and warm yellow/orange windows. Legend LOW blue to HIGH red. Title SIMULATED THERMAL CAMERA. No measured temperatures.",
+        "effect": "熱像攝影視角",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:35:30.390Z",
+        "source_instruction": "Use a heat-camera perspective.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "d367927a769fb3de196c3cfc42265bfb479921c4cd6e60771030864eaae341b8",
+        "applied_prompt_sha256": "1da27352fd34e50dd971b5c9533a833a1d0a1105772dea7d42afb4ddf9a60316",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "紅外線風格或熱分布僅模擬；熱像藍低紅高，不提供量測或隔熱性能宣稱。",
+          "source_urls": [
+            "https://science.nasa.gov/ems/07_infraredwaves/"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "兩層住宅門窗屋頂輪廓保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "House in heat camera false-color view, cool purple/blue roof and warm yellow/orange windows. Legend LOW blue to HIGH red. Title SIMULATED THERMAL CAMERA. No measured temperatures.",
+            "observed": "全景偽色熱像",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "熱像攝影視角",
+            "observed": "屋頂藍紫窗戶橙紅，熱像視角明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "橫向色階LOW藍HIGH紅與影像一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SIMULATED THERMAL CAMERA可讀，無實測溫度",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-infrared-32-01",
+      "prompt_id": "src-visual642-633",
+      "command": "/infrared",
+      "title": "紅外線風格",
+      "description": "紅外線風格（AI案例示範）",
+      "result_text": "紅外線風格",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-32/infrared-32.png",
+      "applied_prompt": "Create a square web-quality website example. Near infrared style photograph of house, white bright foliage and dark sky, monochrome silvery tones. Title IR STYLE and subtitle SIMULATED. No heat map. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /infrared: Use infrared-style imaging.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Near infrared style photograph of house, white bright foliage and dark sky, monochrome silvery tones. Title IR STYLE and subtitle SIMULATED. No heat map.",
+        "effect": "紅外線風格",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:36:14.232Z",
+        "source_instruction": "Use infrared-style imaging.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "671ce4a02c48551ce0ad86f6d0d4875dbcba2efeb178e4b8185aa7403b06a264",
+        "applied_prompt_sha256": "f27a854eabb987348d407fe3d22b054e3f98c1ee3856cee8e6ec3a0def275c7c",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "紅外線風格或熱分布僅模擬；熱像藍低紅高，不提供量測或隔熱性能宣稱。",
+          "source_urls": [
+            "https://science.nasa.gov/ems/07_infraredwaves/"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "住宅輪廓保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Near infrared style photograph of house, white bright foliage and dark sky, monochrome silvery tones. Title IR STYLE and subtitle SIMULATED. No heat map.",
+            "observed": "黑白近紅外線風格戶外場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紅外線風格",
+            "observed": "植被銀白天空暗，無熱色圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "住宅窗門與環境透視一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "IR STYLE及SIMULATED明確，無量測宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-night-32-01",
+      "prompt_id": "src-visual642-634",
+      "command": "/nightvision",
+      "title": "綠色夜視",
+      "description": "綠色夜視（AI案例示範）",
+      "result_text": "綠色夜視",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-32/night-32.png",
+      "applied_prompt": "Create a square web-quality website example. House at night through green monochrome night vision, grain and subtle vignette. Entire scene green/black, not thermal colors. Text NIGHT VISION and SIMULATED. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /nightvision: Use a green night-vision view.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "House at night through green monochrome night vision, grain and subtle vignette. Entire scene green/black, not thermal colors. Text NIGHT VISION and SIMULATED.",
+        "effect": "綠色夜視",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:36:50.432Z",
+        "source_instruction": "Use a green night-vision view.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "978300c1f5853d0b0c30ddeb91f21d9f27c64b50a6a3940f2956b7ad7cd79b5b",
+        "applied_prompt_sha256": "7c6154088f10b689b347235977a667693d09c2f731c865220e1a7df5ab0eed58",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "綠色夜視為風格模擬，未與熱像或產品性能混同。",
+          "source_urls": [
+            "https://www.army.mil/article/219674/"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "住宅構造保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "House at night through green monochrome night vision, grain and subtle vignette. Entire scene green/black, not thermal colors. Text NIGHT VISION and SIMULATED.",
+            "observed": "夜間綠色單色視圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "綠色夜視",
+            "observed": "顆粒、暗角與綠黑夜視效果明顯",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "門窗及住宅比例正常，無偽色熱圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "NIGHT VISION與SIMULATED可讀",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-ultrasound-32-01",
+      "prompt_id": "src-visual642-635",
+      "command": "/ultrasound",
+      "title": "超音波模擬",
+      "description": "超音波模擬（AI案例示範）",
+      "result_text": "超音波模擬",
+      "reference": "output/imagegen/batch-20-16/body-reference.png",
+      "result": "output/imagegen/batch-20-32/ultrasound-32.png",
+      "applied_prompt": "Create a square web-quality website example. Medical ultrasound-style grayscale fan sector on black with speckled soft-tissue phantom texture and one dark fluid-like oval with bright boundary. Small neutral mannequin inset for context. Text SIMULATED ULTRASOUND and PHANTOM. No diagnosis, fetus, anatomical labels or measurements. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /ultrasound: Use a medical ultrasound-style view.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/body-reference.png",
+        "sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: scientific-educational. Neutral reference of one generic adult human mannequin silhouette standing front view, arms slightly away from torso, hands open, both legs visible, smooth opaque light gray body with no internal organs, no facial detail no nudity detail, white background, entire head to feet visible. Symmetric anatomically ordinary proportions, no text, no logos. Square web-quality educational reference."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Medical ultrasound-style grayscale fan sector on black with speckled soft-tissue phantom texture and one dark fluid-like oval with bright boundary. Small neutral mannequin inset for context. Text SIMULATED ULTRASOUND and PHANTOM. No diagnosis, fetus, anatomical labels or measurements.",
+        "effect": "超音波模擬",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:37:36.267Z",
+        "source_instruction": "Use a medical ultrasound-style view.",
+        "reference_sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "result_sha256": "86f04097e9c794d485de5bc0479179ea76b75b4c150bc58f18124d89776a95bc",
+        "applied_prompt_sha256": "8d1d2ff87d3901cd56cfe6888e3c011f4ebb7f7fc4a3bf06eef2ee33ba86fd1c",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "超音波以聲波回波成像；畫面為虛構phantom模擬，無診斷與解剖主張。",
+          "source_urls": [
+            "https://www.fda.gov/radiation-emitting-products/medical-imaging/ultrasound-imaging"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "左上中性人體模型作參考，主要題材為超音波體模",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Medical ultrasound-style grayscale fan sector on black with speckled soft-tissue phantom texture and one dark fluid-like oval with bright boundary. Small neutral mannequin inset for context. Text SIMULATED ULTRASOUND and PHANTOM. No diagnosis, fetus, anatomical labels or measurements.",
+            "observed": "黑底灰階扇形掃描區",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "超音波模擬",
+            "observed": "散斑與暗橢圓亮邊呈超音波風格",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "掃描扇形、層狀組織及模型分區清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SIMULATED ULTRASOUND及PHANTOM，無病名解剖或量測",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-radar-32-01",
+      "prompt_id": "src-visual642-636",
+      "command": "/radarview",
+      "title": "雷達顯示",
+      "description": "雷達顯示（AI案例示範）",
+      "result_text": "雷達顯示",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-32/radar-32.png",
+      "applied_prompt": "Create a square web-quality website example. Stylized radar display with concentric range rings, green sweep wedge and small blips; a simple top-down house footprint is one target. Black background. Title SIMULATED RADAR. No real distance values. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /radarview: Present the subject like a radar display.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Stylized radar display with concentric range rings, green sweep wedge and small blips; a simple top-down house footprint is one target. Black background. Title SIMULATED RADAR. No real distance values.",
+        "effect": "雷達顯示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:38:11.740Z",
+        "source_instruction": "Present the subject like a radar display.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "712b0fa3db95997239682e48dc024da12a53b8b172b50a5390466068451a7f34",
+        "applied_prompt_sha256": "4a7c0d7fd8edee54a3c6db909b28cac08a723929c29d3be57c074a20769dbcd7",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "雷達以無線電波回波偵測；畫面僅模擬掃描顯示，非實測位置。",
+          "source_urls": [
+            "https://www.noaa.gov/jetstream/doppler/how-radar-works"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "住宅屋頂俯視圖作中心目標",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Stylized radar display with concentric range rings, green sweep wedge and small blips; a simple top-down house footprint is one target. Black background. Title SIMULATED RADAR. No real distance values.",
+            "observed": "綠色黑底圓形雷達介面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "雷達顯示",
+            "observed": "距離環掃描扇區與亮點符合雷達顯示",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "同心環與掃描扇以同一中心構成",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SIMULATED RADAR，無數值距離或實測主張",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-sonar-32-01",
+      "prompt_id": "src-visual642-637",
+      "command": "/sonar",
+      "title": "聲納回波示意",
+      "description": "聲納回波示意（AI案例示範）",
+      "result_text": "聲納回波示意",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-32/sonar-32.png",
+      "applied_prompt": "Square underwater sonar educational illustration using reference green bottle on seafloor at right and transducer at upper left. Exactly TWO arrows. First: solid yellow line starts at transducer WITHOUT arrowhead there, ending with ONE arrowhead at bottle, label SOUND PULSE. Second: dashed white line starts at bottle WITHOUT arrowhead there, ending with ONE arrowhead at transducer, label ECHO. Keep arrows separated, not double-headed. Sound arcs may be shown without arrows. Title SIMULATED SONAR. No numbers or other text. Original instruction /sonar: Show distance and objects through sound.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Underwater sound-ranging educational diagram: transducer upper left sends a solid arrow SOUND PULSE diagonally toward reference bottle submerged at right; a separate dashed arrow ECHO returns from bottle to transducer. Seafloor below, sound wave arcs. Title SIMULATED SONAR. No numeric distances.",
+        "effect": "聲納回波示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T07:39:45.510Z",
+        "source_instruction": "Show distance and objects through sound.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "20f63d7b1a9388981532f929e5224be32dd5a63dfe8ee75ed9c16558e7188d19",
+        "applied_prompt_sha256": "cf7a95b815e10210d54e7704bc330cc4be17c79f3041e3bcbaedae0dc63163b5",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "聲納由聲脈衝及返回回波示意，無真實距離數據。",
+          "source_urls": [
+            "https://oceanservice.noaa.gov/education/tutorial_nautical_charts/nautical_charts06_tools_6b.html"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑提蓋位於水下海床",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Underwater sound-ranging educational diagram: transducer upper left sends a solid arrow SOUND PULSE diagonally toward reference bottle submerged at right; a separate dashed arrow ECHO returns from bottle to transducer. Seafloor below, sound wave arcs. Title SIMULATED SONAR. No numeric distances.",
+            "observed": "左上探頭右下瓶構成聲納示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "聲納回波示意",
+            "observed": "黃色聲脈衝指向瓶，白虛線回波返探頭",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩線各一箭頭方向正確，聲波弧與路徑分離",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SIMULATED SONAR、SOUND PULSE與ECHO清楚，無測距數字",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "實線聲脈衝有雙箭頭，應僅由探頭指向瓶；回波虛線僅指回探頭。",
+          "applied_prompt": "Create a square web-quality website example. Underwater sound-ranging educational diagram: transducer upper left sends a solid arrow SOUND PULSE diagonally toward reference bottle submerged at right; a separate dashed arrow ECHO returns from bottle to transducer. Seafloor below, sound wave arcs. Title SIMULATED SONAR. No numeric distances. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /sonar: Show distance and objects through sound.",
+          "result": "output/imagegen/batch-20-32/sonar-32-repair-before-1.png"
+        }
+      ]
+    },
+    {
+      "id": "case-magnet-32-01",
+      "prompt_id": "src-visual642-638",
+      "command": "/magneticfield",
+      "title": "磁力線示意",
+      "description": "磁力線示意（AI案例示範）",
+      "result_text": "磁力線示意",
+      "reference": "output/imagegen/batch-20-32/magnet-reference.png",
+      "result": "output/imagegen/batch-20-32/magnet-32.png",
+      "applied_prompt": "Create a square web-quality website example. Scientific schematic, bar magnet front-on horizontal red N left blue S right. Four smooth external curved field lines, two above and two below, each with ONE arrow pointing from left N to right S along external path. Curves emerge from left end and enter right end, never cross. Text MAGNETIC FIELD and SCHEMATIC. No inside arrows. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /magneticfield: Visualize magnetic field lines.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-32/magnet-reference.png",
+        "sha256": "7ab61fb348a289456e09145a076e4cfca89e35e679774b9832cfe3184b13bf63",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio product photograph of a simple straight rectangular bar magnet, red left half with a clear white N, blue right half with a clear white S. Three-quarter view on a neutral white background, believable metal edges. No other text or objects. Reference material for a scientific diagram."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Scientific schematic, bar magnet front-on horizontal red N left blue S right. Four smooth external curved field lines, two above and two below, each with ONE arrow pointing from left N to right S along external path. Curves emerge from left end and enter right end, never cross. Text MAGNETIC FIELD and SCHEMATIC. No inside arrows.",
+        "effect": "磁力線示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T20:48:19.477Z",
+        "source_instruction": "Visualize magnetic field lines.",
+        "reference_sha256": "7ab61fb348a289456e09145a076e4cfca89e35e679774b9832cfe3184b13bf63",
+        "result_sha256": "7508238b93086cfac430cb9289c2f1acf9589a7ddf6a29c8e7146ae5e304967e",
+        "applied_prompt_sha256": "9a80c3a1b03f2767b71185ca126efdafbef4064a1fd15fa221b1f1ec5caec2eb",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "磁鐵外部磁力線從N到S，線不交叉，為示意非測量。",
+          "source_urls": [
+            "https://openstax.org/books/university-physics-volume-2/pages/11-2-magnetic-fields-and-lines"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紅N左藍S右的條形磁鐵",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Scientific schematic, bar magnet front-on horizontal red N left blue S right. Four smooth external curved field lines, two above and two below, each with ONE arrow pointing from left N to right S along external path. Curves emerge from left end and enter right end, never cross. Text MAGNETIC FIELD and SCHEMATIC. No inside arrows.",
+            "observed": "磁鐵外圍四條閉合示意場線",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "磁力線示意",
+            "observed": "上方及下方箭頭均沿外部由N指向S",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "場線不交叉且起止端接近兩極位置",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "MAGNETIC FIELD及SCHEMATIC正確，無多餘字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-spectrogram-32-01",
+      "prompt_id": "src-visual642-639",
+      "command": "/spectrogram",
+      "title": "聲音頻譜示意",
+      "description": "聲音頻譜示意（AI案例示範）",
+      "result_text": "聲音頻譜示意",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-32/spectrogram-32.png",
+      "applied_prompt": "Create a square web-quality website example. Synthetic spectrogram: chart horizontal axis TIME, vertical FREQUENCY, colorful horizontal harmonic bands changing through time. Color legend RELATIVE POWER with LOW blue and HIGH yellow. Small reference fan inset. Title SIMULATED SPECTROGRAM. No numerical frequencies or recorded-data claim. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /spectrogram: Represent sound as frequencies and color.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Synthetic spectrogram: chart horizontal axis TIME, vertical FREQUENCY, colorful horizontal harmonic bands changing through time. Color legend RELATIVE POWER with LOW blue and HIGH yellow. Small reference fan inset. Title SIMULATED SPECTROGRAM. No numerical frequencies or recorded-data claim.",
+        "effect": "聲音頻譜示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T20:48:58.691Z",
+        "source_instruction": "Represent sound as frequencies and color.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "87e8f8cdd202b7a9bfa3e390d3b22895114dc72fa1f487c6c31464323efc3a70",
+        "applied_prompt_sha256": "27e39b485a896bb23c42c3d69a0105bd3fedc3b8bfb216e7c61db8887ac5fe46",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "頻譜圖橫軸時間、縱軸頻率、色彩表示相對功率；未使用真實風扇錄音。",
+          "source_urls": [
+            "https://www.mathworks.com/help/signal/ref/spectrogram.html"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "風扇小圖作聲音來源參考",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Synthetic spectrogram: chart horizontal axis TIME, vertical FREQUENCY, colorful horizontal harmonic bands changing through time. Color legend RELATIVE POWER with LOW blue and HIGH yellow. Small reference fan inset. Title SIMULATED SPECTROGRAM. No numerical frequencies or recorded-data claim.",
+            "observed": "以時間橫軸頻率縱軸呈現彩色頻譜",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "聲音頻譜示意",
+            "observed": "橫向諧波帶隨時間略變，藍低黃高",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "小風扇位於圖表角落不遮主要資料區",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SIMULATED SPECTROGRAM、TIME、FREQUENCY、RELATIVE POWER及LOW/HIGH可讀",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-wave-32-01",
+      "prompt_id": "src-visual642-640",
+      "command": "/soundwave",
+      "title": "音訊波形示意",
+      "description": "音訊波形示意（AI案例示範）",
+      "result_text": "音訊波形示意",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-32/wave-32.png",
+      "applied_prompt": "Create a square web-quality website example. Fan with clear audio waveform plot flowing across lower composition. Oscillations above and below horizontal baseline, horizontal TIME axis and vertical AMPLITUDE axis. Title SIMULATED AUDIO. This is an amplitude versus time graph, not spatial rings. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /soundwave: Show an audio waveform around the subject.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Fan with clear audio waveform plot flowing across lower composition. Oscillations above and below horizontal baseline, horizontal TIME axis and vertical AMPLITUDE axis. Title SIMULATED AUDIO. This is an amplitude versus time graph, not spatial rings.",
+        "effect": "音訊波形示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T20:49:44.787Z",
+        "source_instruction": "Show an audio waveform around the subject.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "1bf12874f1201f99118b494df27b9323173e7667e181507e993331c7b6a58659",
+        "applied_prompt_sha256": "c116644f993a4f9d3453134633e048ab643e34483a7aa107528674784d0d0195",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "波形為振幅對時間，合成示意，未聲稱真實錄音。",
+          "source_urls": [
+            "https://www.mathworks.com/help/audio/ug/plot-large-audio-files.html"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白青綠桌上風扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Fan with clear audio waveform plot flowing across lower composition. Oscillations above and below horizontal baseline, horizontal TIME axis and vertical AMPLITUDE axis. Title SIMULATED AUDIO. This is an amplitude versus time graph, not spatial rings.",
+            "observed": "風扇上方下方呈音訊振幅對時間圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "音訊波形示意",
+            "observed": "中心基線上下振盪，TIME橫軸AMPLITUDE縱軸",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "圖表與風扇同框且無混為空間聲波",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SIMULATED AUDIO、TIME與AMPLITUDE可讀",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-smell-32-01",
+      "prompt_id": "src-visual642-641",
+      "command": "/smellmap",
+      "title": "氣味擴散示意",
+      "description": "氣味擴散示意（AI案例示範）",
+      "result_text": "氣味擴散示意",
+      "reference": "output/imagegen/batch-20-15/lemon-reference.png",
+      "result": "output/imagegen/batch-20-32/smell-32.png",
+      "applied_prompt": "Square scientific infographic scent concentration schematic. Cut lemon at left releasing a plume blown right by arrow AIRFLOW. Plume is hottest red/orange immediately beside lemon and fades through yellow green to cool blue at far right. Beneath it a horizontal color legend must have red at LEFT beside HIGH on left, transitioning orange yellow green, and blue at RIGHT beside LOW on right, so legend matches the spatial plume. Text SIMULATED SCENT, AIRFLOW, HIGH, RELATIVE CONCENTRATION, LOW. No measurements. Original instruction /smellmap: Visualize the spread or concentration of a smell.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-15/lemon-reference.png",
+        "sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photo of a single whole yellow lemon beside one matching half lemon showing naturally radial pale yellow juicy segments and white pith, plain white seamless studio, no other objects, no labels, no logo, whole fruit visible, square web quality, natural accurate citrus structure."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Cut lemon with translucent odor concentration plume spreading to right, strongest red close to lemon fading orange green then blue farther away. Rightward arrow AIRFLOW. Legend RELATIVE CONCENTRATION LOW blue HIGH red. Title SIMULATED SCENT. Qualitative schematic, no measurements.",
+        "effect": "氣味擴散示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T20:51:00.615Z",
+        "source_instruction": "Visualize the spread or concentration of a smell.",
+        "reference_sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "result_sha256": "f944979fdd911744cfd61a2c5d30dfdd0d59ecdc85ca8697dc90d8245c3ba282",
+        "applied_prompt_sha256": "dbe775b0a61836b553562c0dccd4b7067d1ce5aaaa7e05e409627ba911db07e4",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "氣味濃度隨氣流傳輸擴散，僅定性示意，非經驗證濃度模型。",
+          "source_urls": [
+            "https://www.arl.noaa.gov/hysplit/"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "切面檸檬為氣味來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Cut lemon with translucent odor concentration plume spreading to right, strongest red close to lemon fading orange green then blue farther away. Rightward arrow AIRFLOW. Legend RELATIVE CONCENTRATION LOW blue HIGH red. Title SIMULATED SCENT. Qualitative schematic, no measurements.",
+            "observed": "羽流由檸檬向右擴散，氣流亦向右",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "氣味擴散示意",
+            "observed": "近源紅為高濃度，遠端藍為低濃度",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "色階方向與羽流顏色一致，箭頭指向右方",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SIMULATED SCENT、AIRFLOW及HIGH/LOW正確，定性無數值",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "圖例LOW端為藍、HIGH端為紅，與羽流近源紅高、遠端藍低的實際色彩相反。",
+          "applied_prompt": "Create a square web-quality website example. Cut lemon with translucent odor concentration plume spreading to right, strongest red close to lemon fading orange green then blue farther away. Rightward arrow AIRFLOW. Legend RELATIVE CONCENTRATION LOW blue HIGH red. Title SIMULATED SCENT. Qualitative schematic, no measurements. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /smellmap: Visualize the spread or concentration of a smell.",
+          "result": "output/imagegen/batch-20-32/smell-32-repair-before-1.png"
+        }
+      ]
+    },
+    {
+      "id": "case-electric-32-01",
+      "prompt_id": "src-visual642-642",
+      "command": "/electricalfield",
+      "title": "電場概念示意",
+      "description": "電場概念示意（AI案例示範）",
+      "result_text": "電場概念示意",
+      "reference": "output/imagegen/batch-20-24/bank-reference.png",
+      "result": "output/imagegen/batch-20-32/electric-32.png",
+      "applied_prompt": "Square clean educational electric dipole field diagram around a generic dark power bank at bottom. Above it two separate luminous spheres: red + at left and blue − at right. Exactly five smooth noncrossing field curves, each starts at the red positive sphere and ends at the blue negative sphere. Put small arrowheads ONLY along each curve pointing left-to-right from + toward −; absolutely no arrows pointing out from the negative sphere. Title SIMULATED ELECTRIC FIELD and subtitle CONCEPT. Keep power bank unlabelled; do not imply real internal field or voltage. Original instruction /electricalfield: Show electrical energy around the subject.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-24/bank-reference.png",
+        "sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio reference photo of one fictional unbranded compact power bank, matte slate blue rounded rectangular body, short end facing camera shows exactly two visible ports: one USB-C oval socket and one USB-A rectangular socket. Four small white charge indicator dots on top near edge. No screen no text no symbols no brand. Beside it one short black USB-C to USB-C cable neatly looped. Three-quarter view clean pale gray background, realistic consumer product web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Concept scientific illustration of reference power bank beneath two floating fictional electrodes, red positive sphere left, blue negative sphere right. Sparse electric field curves above and beside bank, arrowheads exclusively from positive left to negative right. Title SIMULATED ELECTRIC FIELD and small CONCEPT. No real port or voltage claims.",
+        "effect": "電場概念示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T20:52:34.994Z",
+        "source_instruction": "Show electrical energy around the subject.",
+        "reference_sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "result_sha256": "462f603eef2b10632b81b1b27a39a4a2918c7e6776222625dbbc5382f83cfc64",
+        "applied_prompt_sha256": "d73865e39258703a17dc54e0659d3fa469b4abd6c4f0205ee81222f2b3ef097f",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "電場線由正電荷指向負電荷；浮動電極為概念，不代表電源實際接點或實測。",
+          "source_urls": [
+            "https://openstax.org/books/university-physics-volume-2/pages/5-6-electric-field-lines"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "通用深藍行動電源在場線圖下方",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Concept scientific illustration of reference power bank beneath two floating fictional electrodes, red positive sphere left, blue negative sphere right. Sparse electric field curves above and beside bank, arrowheads exclusively from positive left to negative right. Title SIMULATED ELECTRIC FIELD and small CONCEPT. No real port or voltage claims.",
+            "observed": "正負電荷及電場線在上方環繞主體",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "電場概念示意",
+            "observed": "五線箭頭皆由紅色正極指向藍色負極",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "線條連續不交叉且主體清晰",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SIMULATED ELECTRIC FIELD與CONCEPT，無電壓或內部結構宣稱",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "電場圖部分箭頭從負電荷向外，方向錯誤；需統一由正電指向負電。",
+          "applied_prompt": "Create a square web-quality website example. Concept scientific illustration of reference power bank beneath two floating fictional electrodes, red positive sphere left, blue negative sphere right. Sparse electric field curves above and beside bank, arrowheads exclusively from positive left to negative right. Title SIMULATED ELECTRIC FIELD and small CONCEPT. No real port or voltage claims. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /electricalfield: Show electrical energy around the subject.",
+          "result": "output/imagegen/batch-20-32/electric-32-repair-before-1.png"
+        }
+      ]
+    }
+  ]
+}

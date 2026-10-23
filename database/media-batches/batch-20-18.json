@@ -1,0 +1,1459 @@
+{
+  "version": 1,
+  "id": "batch-20-18",
+  "cases": [
+    {
+      "id": "case-supply-18-01",
+      "prompt_id": "src-visual642-345",
+      "command": "/supplychain",
+      "title": "紙盒概念供應鏈",
+      "description": "紙盒概念供應鏈（AI案例示範）",
+      "result_text": "紙盒概念供應鏈",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-18/supply-18.png",
+      "applied_prompt": "Create a square web-quality website example. Five stages left to right: PAPER MATERIALS paper rolls -> BOARD FACTORY corrugator -> BOX ASSEMBLY folding -> LOGISTICS delivery truck -> CUSTOMER receiving green leaf box. Title CONCEPT SUPPLY CHAIN. No geography or brand claims. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /supplychain: Map materials, factories, assembly, logistics, and customer.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Five stages left to right: PAPER MATERIALS paper rolls -> BOARD FACTORY corrugator -> BOX ASSEMBLY folding -> LOGISTICS delivery truck -> CUSTOMER receiving green leaf box. Title CONCEPT SUPPLY CHAIN. No geography or brand claims.",
+        "effect": "紙盒概念供應鏈",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:44:02.806Z",
+        "source_instruction": "Map materials, factories, assembly, logistics, and customer.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "cafad63c7434c7607380d6caea77886754a3ed9b032b16e79b57b5c602fe2fad",
+        "applied_prompt_sha256": "e154327512b9c787890c12ff8ab9d49315693c9b7c91416b4f3e2695f7920f69",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/technical-information/production-process"
+          ],
+          "notes": "一般紙材、紙板工廠、盒組裝、物流與客戶概念鏈，未聲稱真實供應商或地理路線。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紙材、瓦楞板工廠、綠色盒組裝、貨車與收件客戶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Five stages left to right: PAPER MATERIALS paper rolls -> BOARD FACTORY corrugator -> BOX ASSEMBLY folding -> LOGISTICS delivery truck -> CUSTOMER receiving green leaf box. Title CONCEPT SUPPLY CHAIN. No geography or brand claims.",
+            "observed": "五欄概念供應鏈",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒概念供應鏈",
+            "observed": "材料至工廠至組裝至物流至客戶完整串連",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "四箭頭由左至右，客戶手持同款葉紋綠盒",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT SUPPLY CHAIN及五階段清楚，無虛構品牌或地理來源",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-compare-18-01",
+      "prompt_id": "src-visual642-346",
+      "command": "/scalecompare",
+      "title": "桌扇熟悉物件比例比較",
+      "description": "桌扇熟悉物件比例比較（AI案例示範）",
+      "result_text": "桌扇熟悉物件比例比較",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-18/compare-18.png",
+      "applied_prompt": "Create a square web-quality website example. Reference cream teal desk fan beside standard ceramic coffee mug and one banana on same tabletop at same depth. Fan approximately twice mug height, banana about fan head width. Title ILLUSTRATIVE SCALE. No dimensions. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /scalecompare: Place the subject beside familiar objects for intuitive scale.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference cream teal desk fan beside standard ceramic coffee mug and one banana on same tabletop at same depth. Fan approximately twice mug height, banana about fan head width. Title ILLUSTRATIVE SCALE. No dimensions.",
+        "effect": "桌扇熟悉物件比例比較",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:44:54.605Z",
+        "source_instruction": "Place the subject beside familiar objects for intuitive scale.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "78075465eea92a8f06bf07706c6c11df6c1393dd792ce53faf55b0968c49a611",
+        "applied_prompt_sha256": "2f1979914fee79659c2af48c20deea7ed6f161bf7f7df5b2ab52373cc6db9c89",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油色青綠桌扇、咖啡杯及香蕉",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference cream teal desk fan beside standard ceramic coffee mug and one banana on same tabletop at same depth. Fan approximately twice mug height, banana about fan head width. Title ILLUSTRATIVE SCALE. No dimensions.",
+            "observed": "同一木桌生活比例比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇熟悉物件比例比較",
+            "observed": "熟悉杯與香蕉提供桌扇尺度參照",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "風扇約杯高兩倍，香蕉長度約扇頭寬度，均合理置桌",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "ILLUSTRATIVE SCALE清楚，未編造實測尺寸",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-levels-18-01",
+      "prompt_id": "src-visual642-347",
+      "command": "/sizelevels",
+      "title": "檸檬四層尺度解說",
+      "description": "檸檬四層尺度解說（AI案例示範）",
+      "result_text": "檸檬四層尺度解說",
+      "reference": "output/imagegen/batch-20-15/lemon-reference.png",
+      "result": "output/imagegen/batch-20-18/levels-18.png",
+      "applied_prompt": "Create a square web-quality website example. Four connected zoom panels: WHOLE lemon, SEGMENT one citrus segment, CELLS schematic plant cells with walls, WATER MOLECULE ball model with ONE red oxygen sphere joined to TWO white hydrogen spheres bent V. Exactly four panels. Title CONCEPT SCALE LEVELS. No numeric magnifications. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /sizelevels: Show subject, component, microscopic structure, and molecular level.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-15/lemon-reference.png",
+        "sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photo of a single whole yellow lemon beside one matching half lemon showing naturally radial pale yellow juicy segments and white pith, plain white seamless studio, no other objects, no labels, no logo, whole fruit visible, square web quality, natural accurate citrus structure."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four connected zoom panels: WHOLE lemon, SEGMENT one citrus segment, CELLS schematic plant cells with walls, WATER MOLECULE ball model with ONE red oxygen sphere joined to TWO white hydrogen spheres bent V. Exactly four panels. Title CONCEPT SCALE LEVELS. No numeric magnifications.",
+        "effect": "檸檬四層尺度解說",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:45:46.195Z",
+        "source_instruction": "Show subject, component, microscopic structure, and molecular level.",
+        "reference_sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "result_sha256": "63f65a899c7ef584df6cd76a501b296052f62b7434ef17cf214418a34ce17d02",
+        "applied_prompt_sha256": "06c8c97389bf5d11bc836aed996d4ecb95ff25ca69e5fdcd0ecb1f16ea4c4217",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://blumwald.ucdavis.edu/sites/g/files/dgvnsk6161/files/inline-files/sadka%20et%20al.2019.Frontiers.pdf",
+            "https://www.usgs.gov/media/images/water-isotopes-diagram"
+          ],
+          "notes": "檸檬果瓣為植物組織，細胞及水分子圖為概念尺度解說；水分子須一氧二氫，非真實顯微或倍率。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "檸檬、果瓣、細胞示意及水分子",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four connected zoom panels: WHOLE lemon, SEGMENT one citrus segment, CELLS schematic plant cells with walls, WATER MOLECULE ball model with ONE red oxygen sphere joined to TWO white hydrogen spheres bent V. Exactly four panels. Title CONCEPT SCALE LEVELS. No numeric magnifications.",
+            "observed": "四格概念尺度解說",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬四層尺度解說",
+            "observed": "整體至組件至微觀至分子逐級放大",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "四區以放大取樣框連接；水分子一紅氧球連兩白氫球呈彎折",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT SCALE LEVELS與四區標籤清楚，無假倍率或實際顯微聲稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-then-18-01",
+      "prompt_id": "src-visual642-348",
+      "command": "/thenandnow",
+      "title": "桌扇舊款與新款設計比較",
+      "description": "桌扇舊款與新款設計比較（AI案例示範）",
+      "result_text": "桌扇舊款與新款設計比較",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-18/then-18.png",
+      "applied_prompt": "Create a square web-quality website example. Two equal panels OLD CONCEPT vintage metal desk fan with bulky circular base and metal grille, NEW CONCEPT reference cream teal USB desk fan. Matched view and size. Title DESIGN COMPARISON. No dates no claims of actual product history. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /thenandnow: Compare an older generation with the current design.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Two equal panels OLD CONCEPT vintage metal desk fan with bulky circular base and metal grille, NEW CONCEPT reference cream teal USB desk fan. Matched view and size. Title DESIGN COMPARISON. No dates no claims of actual product history.",
+        "effect": "桌扇舊款與新款設計比較",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:46:34.359Z",
+        "source_instruction": "Compare an older generation with the current design.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "0b5677309bb4b4dde22f2025b191363f295ef51e9ef385288553ef6bab9135b2",
+        "applied_prompt_sha256": "63cd28083fd6823fa6073157a6522e0bd6147cd3cdb731e08a4529e9d7f7059a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "老式金屬桌扇與新款奶油色青綠桌扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Two equal panels OLD CONCEPT vintage metal desk fan with bulky circular base and metal grille, NEW CONCEPT reference cream teal USB desk fan. Matched view and size. Title DESIGN COMPARISON. No dates no claims of actual product history.",
+            "observed": "左右等分白底設計比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇舊款與新款設計比較",
+            "observed": "舊款粗厚金屬底座與新款USB簡潔外觀對比",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩扇視角與大小相近，舊左新右，保持同類產品",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "DESIGN COMPARISON及OLD CONCEPT NEW CONCEPT清楚，不捏造歷史年份",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-good-18-01",
+      "prompt_id": "src-visual642-349",
+      "command": "/goodvsbad",
+      "title": "陶瓷杯完整與裂損對照",
+      "description": "陶瓷杯完整與裂損對照（AI案例示範）",
+      "result_text": "陶瓷杯完整與裂損對照",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-18/good-18.png",
+      "applied_prompt": "Create a square web-quality website example. Two equal panels GOOD intact sage ceramic cup with green check; DEFECT cracked same cup with red cross and visibly branching crack on side. Same angle and lighting. No liquid or health statements. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /goodvsbad: Compare correct use or construction with a defective example.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Two equal panels GOOD intact sage ceramic cup with green check; DEFECT cracked same cup with red cross and visibly branching crack on side. Same angle and lighting. No liquid or health statements.",
+        "effect": "陶瓷杯完整與裂損對照",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:47:16.594Z",
+        "source_instruction": "Compare correct use or construction with a defective example.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "22d24cb81d8e3105b83b4004f3167fb7593932f6b5628530a672e5bb33f9e597",
+        "applied_prompt_sha256": "419e23d80a2f7d8e78945282c330d64a4ef758e1fd89eeae068f1045e5a40411",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款綠色陶瓷杯左右對照",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Two equal panels GOOD intact sage ceramic cup with green check; DEFECT cracked same cup with red cross and visibly branching crack on side. Same angle and lighting. No liquid or health statements.",
+            "observed": "等分白底及一致視角光線",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯完整與裂損對照",
+            "observed": "完整杯與有分岔裂縫的缺陷杯比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "左完整配綠勾，右裂損配紅叉，差異落在杯壁而非換物件",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "以清楚勾叉取代GOOD DEFECT文字亦明確傳達正反本意，無健康宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-failure-18-01",
+      "prompt_id": "src-visual642-350",
+      "command": "/failuremode",
+      "title": "帆布袋縫線失效位置",
+      "description": "帆布袋縫線失效位置（AI案例示範）",
+      "result_text": "帆布袋縫線失效位置",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-18/failure-18.png",
+      "applied_prompt": "Create a square web-quality website example. Reference tote whole view with red circle around handle attachment seam; close-up clearly shows pulled thread and opened handle stitching, not broken fabric unrelated location. Title SEAM FAILURE CONCEPT. Label HANDLE SEAM. No statistics. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /failuremode: Show where and how the object commonly fails.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference tote whole view with red circle around handle attachment seam; close-up clearly shows pulled thread and opened handle stitching, not broken fabric unrelated location. Title SEAM FAILURE CONCEPT. Label HANDLE SEAM. No statistics.",
+        "effect": "帆布袋縫線失效位置",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:48:01.278Z",
+        "source_instruction": "Show where and how the object commonly fails.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "25cb9ce11e14edc23227cf2eccba7de80f73927e71d361b0352eb6f5a87c317c",
+        "applied_prompt_sha256": "d06e3f62b85ebdf5e4fc5be82e46f085285b28c7d75dac13690b93b371ead4f8",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.coats.com/en/industries/composites/faqs/"
+          ],
+          "notes": "縫線失效受線材、張力等因素影響；示例只指出可見提把開縫，不聲稱特定產品缺陷率或確定失效原因。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米色帆布袋與棕色提把",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference tote whole view with red circle around handle attachment seam; close-up clearly shows pulled thread and opened handle stitching, not broken fabric unrelated location. Title SEAM FAILURE CONCEPT. Label HANDLE SEAM. No statistics.",
+            "observed": "整體袋身及接點放大特寫",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋縫線失效位置",
+            "observed": "提把縫線鬆脫與開縫失效示例",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "紅圈落在提把接縫，放大框顯示同一處開縫及拉出線頭",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SEAM FAILURE CONCEPT及HANDLE SEAM清楚，不聲稱實物缺陷率",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-logic-18-01",
+      "prompt_id": "src-visual642-351",
+      "command": "/designlogic",
+      "title": "桌扇設計用途標註",
+      "description": "桌扇設計用途標註（AI案例示範）",
+      "result_text": "桌扇設計用途標註",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-18/logic-18.png",
+      "applied_prompt": "Create a square web-quality website example. Concept feature annotations around reference fan: GRILLE -> BLADE GUARD, TILT PIVOT -> AIM AIRFLOW, WIDE BASE -> SUPPORT. Three leaders point to actual grille, side pivot and base. Title DESIGN LOGIC. Do not claim certified safety. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /designlogic: Label features and explain why each design choice exists.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Concept feature annotations around reference fan: GRILLE -> BLADE GUARD, TILT PIVOT -> AIM AIRFLOW, WIDE BASE -> SUPPORT. Three leaders point to actual grille, side pivot and base. Title DESIGN LOGIC. Do not claim certified safety.",
+        "effect": "桌扇設計用途標註",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:49:20.563Z",
+        "source_instruction": "Label features and explain why each design choice exists.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "006a8ca066eaadc26d675482dc59d45b0f125109a3129c87ec0db5e5604d0298",
+        "applied_prompt_sha256": "332bc18c566acb4c4ea77f9ffb9150125e9317790b4023ad8961c53203bb81b9",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers"
+          ],
+          "notes": "網罩、支架樞軸、底座對應一般物理用途，概念說明非認證或實測。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油色青綠桌扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Concept feature annotations around reference fan: GRILLE -> BLADE GUARD, TILT PIVOT -> AIM AIRFLOW, WIDE BASE -> SUPPORT. Three leaders point to actual grille, side pivot and base. Title DESIGN LOGIC. Do not claim certified safety.",
+            "observed": "白底設計用途標註",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇設計用途標註",
+            "observed": "三項說明解釋網罩、轉軸與寬底座用途",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "BLADE GUARD指網罩，AIM AIRFLOW指側樞軸，SUPPORT指底座",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "DESIGN LOGIC與三段英文清楚合理，僅一般用途未宣稱認證",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-hero-18-01",
+      "prompt_id": "src-visual642-352",
+      "command": "/hero",
+      "title": "陶瓷杯乾淨主視覺",
+      "description": "陶瓷杯乾淨主視覺（AI案例示範）",
+      "result_text": "陶瓷杯乾淨主視覺",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-18/hero-18.png",
+      "applied_prompt": "Create a square web-quality website example. One sage green ceramic tumbler hero shot centered on warm ivory studio surface with gentle shadow and dramatic soft side light. Clean focal point, no props no text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /hero: Create a clean hero image with the subject as the focal point.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "One sage green ceramic tumbler hero shot centered on warm ivory studio surface with gentle shadow and dramatic soft side light. Clean focal point, no props no text.",
+        "effect": "陶瓷杯乾淨主視覺",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:50:06.480Z",
+        "source_instruction": "Create a clean hero image with the subject as the focal point.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "42ccb67c09c60e170cec36ba940a58012bf026c02d81ada8365c86512c8acd1c",
+        "applied_prompt_sha256": "131b2c077795948f54a0e87a6b3718e81b169713767dcee7ca5a36f517b44f27",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色陶瓷杯單一主體",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One sage green ceramic tumbler hero shot centered on warm ivory studio surface with gentle shadow and dramatic soft side light. Clean focal point, no props no text.",
+            "observed": "暖米色乾淨棚拍",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯乾淨主視覺",
+            "observed": "主體成為畫面明確焦點",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "杯體完整居中、柔和側光與右側陰影合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字、道具或水印，杯口及釉面清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-macro-18-01",
+      "prompt_id": "src-visual642-353",
+      "command": "/macro",
+      "title": "帆布編織極近細節",
+      "description": "帆布編織極近細節（AI案例示範）",
+      "result_text": "帆布編織極近細節",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-18/macro-18.png",
+      "applied_prompt": "Create a square web-quality website example. Extreme close-up of reference tote cream woven fabric and black stitched seam, crisp fibers and stitch tension, tiny section of bag contour for identity. No text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /macro: Show extreme close-up texture and fine detail.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Extreme close-up of reference tote cream woven fabric and black stitched seam, crisp fibers and stitch tension, tiny section of bag contour for identity. No text.",
+        "effect": "帆布編織極近細節",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:50:55.829Z",
+        "source_instruction": "Show extreme close-up texture and fine detail.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "807ab2313e8f0d21afff9d30759ec18ab4586dd100144bd50a365ea47cfa0473",
+        "applied_prompt_sha256": "f99d6fadfe746d00c3a3602ea6880485340a920fc710b390b23b117f49a6efed",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "帆布袋米色編織及棕色提把縫線",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Extreme close-up of reference tote cream woven fabric and black stitched seam, crisp fibers and stitch tension, tiny section of bag contour for identity. No text.",
+            "observed": "極近距離材質拍攝",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布編織極近細節",
+            "observed": "纖維紋理、交叉縫線與細節清楚放大",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "保留提把接縫及袋口輪廓供識別，景深自然",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "原素材棕色縫線保留，未按任意黑線改變材質身份；無文字水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-materials-18-01",
+      "prompt_id": "src-visual642-354",
+      "command": "/materials",
+      "title": "陶瓷與釉層材質展示",
+      "description": "陶瓷與釉層材質展示（AI案例示範）",
+      "result_text": "陶瓷與釉層材質展示",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-18/materials-18.png",
+      "applied_prompt": "Create a square web-quality website example. Reference cup beside two small material swatches: cream ceramic core chip labeled CERAMIC and glossy sage glaze-coated ceramic chip labeled GLAZE. Clearly glaze is coating on ceramic, not separate thick plastic material. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /materials: Identify and showcase the subject's key materials.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference cup beside two small material swatches: cream ceramic core chip labeled CERAMIC and glossy sage glaze-coated ceramic chip labeled GLAZE. Clearly glaze is coating on ceramic, not separate thick plastic material.",
+        "effect": "陶瓷與釉層材質展示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:54:06.558Z",
+        "source_instruction": "Identify and showcase the subject's key materials.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "fe05b1627b620f1c25483767c370552b35ba157f011c321e09ccdde80d20b393",
+        "applied_prompt_sha256": "69b0b3a1eceec01e8e19692f3dde15e7fa226872a2ff25e7a8947ef98f2c4bb3",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://ceramicartsnetwork.org/daily/article/an-introduction-to-slip-casting-ceramics-with-multi-piece-molds/"
+          ],
+          "notes": "陶瓷坯與表面釉層，釉示例為覆在陶瓷上，不當作厚塑膠。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鼠尾草綠陶瓷杯與來源外形一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference cup beside two small material swatches: cream ceramic core chip labeled CERAMIC and glossy sage glaze-coated ceramic chip labeled GLAZE. Clearly glaze is coating on ceramic, not separate thick plastic material.",
+            "observed": "白底材質展示，右側兩塊樣片。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷與釉層材質展示",
+            "observed": "陶瓷本體與釉層的視覺差異清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "CERAMIC與GLAZE文字對應樣片，釉層描述為陶瓷表面薄塗層。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "杯口、空心杯內與綠色釉面清楚，無品牌混淆。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-texture-18-01",
+      "prompt_id": "src-visual642-355",
+      "command": "/texture",
+      "title": "紙盒紙纖維觸感",
+      "description": "紙盒紙纖維觸感（AI案例示範）",
+      "result_text": "紙盒紙纖維觸感",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-18/texture-18.png",
+      "applied_prompt": "Create a square web-quality website example. Close crop of reference sage paper box corner with tactile fine paper fibers and folded seam, soft grazing light reveals grain and emboss-free leaf print edge. No text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /texture: Emphasize surface texture, grain, and tactile detail.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Close crop of reference sage paper box corner with tactile fine paper fibers and folded seam, soft grazing light reveals grain and emboss-free leaf print edge. No text.",
+        "effect": "紙盒紙纖維觸感",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:54:33.091Z",
+        "source_instruction": "Emphasize surface texture, grain, and tactile detail.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "aae0038eb6bcfc49cbfd6a2467677e39118c7bf71d4e517690896886939a840e",
+        "applied_prompt_sha256": "b9e60e75ded3edb2626977e6249103ed116e7d5de2ecd6ec54ba0fcf61b6358a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色葉紋紙盒延續來源。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Close crop of reference sage paper box corner with tactile fine paper fibers and folded seam, soft grazing light reveals grain and emboss-free leaf print edge. No text.",
+            "observed": "近拍盒角與摺邊。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒紙纖維觸感",
+            "observed": "斜光凸顯細紙纖維。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "葉紋印刷沿盒面、接縫位於轉角。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字，紙面顆粒與摺口清楚。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-scale-18-01",
+      "prompt_id": "src-visual642-356",
+      "command": "/scale",
+      "title": "陶瓷杯手持生活尺寸",
+      "description": "陶瓷杯手持生活尺寸（AI案例示範）",
+      "result_text": "陶瓷杯手持生活尺寸",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-18/scale-18.png",
+      "applied_prompt": "Create a square web-quality website example. Adult hand naturally holds reference handleless sage tumbler above kitchen tabletop, all fingers coherent and believable grip, standard drinking cup proportion. No numeric measurements no text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /scale: Communicate the subject's real-world size clearly.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Adult hand naturally holds reference handleless sage tumbler above kitchen tabletop, all fingers coherent and believable grip, standard drinking cup proportion. No numeric measurements no text.",
+        "effect": "陶瓷杯手持生活尺寸",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:55:03.279Z",
+        "source_instruction": "Communicate the subject's real-world size clearly.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "6d892941dcbdbc58f75e56988d4ff7c6c28f025b7a872ef2a368e79e2da3812d",
+        "applied_prompt_sha256": "c9efd657a85216773ce47a7220661b4dec974635dab35273b650cd88c241086f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "來源綠色無把陶瓷杯。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Adult hand naturally holds reference handleless sage tumbler above kitchen tabletop, all fingers coherent and believable grip, standard drinking cup proportion. No numeric measurements no text.",
+            "observed": "成人手握杯的廚房場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯手持生活尺寸",
+            "observed": "手掌提供直觀大小參考。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "手指環繞杯壁且接觸自然。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有尺寸數字，杯口與手部輪廓合理。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-silhouette-18-01",
+      "prompt_id": "src-visual642-357",
+      "command": "/silhouette",
+      "title": "桌扇清晰黑色剪影",
+      "description": "桌扇清晰黑色剪影（AI案例示範）",
+      "result_text": "桌扇清晰黑色剪影",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-18/silhouette-18.png",
+      "applied_prompt": "Create a square web-quality bold solid black silhouette of the reference desk fan on pure white. Entire circular fan head filled solid black, no visible blades or grille interior openings. Preserve short stand, rounded base and curved USB cable. No text or shading. Original instruction /silhouette: Reduce the subject to a bold recognizable silhouette.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Solid black silhouette of complete reference desk fan on white background, circular grille represented only outer outline solid head, short support round base and curved cable silhouette; recognizable fan shape. No labels.",
+        "effect": "桌扇清晰黑色剪影",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:56:23.243Z",
+        "source_instruction": "Reduce the subject to a bold recognizable silhouette.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "d8fe50128bd5cbfa96e8a2557d51e9820048c6f1b4e1d50085ccc5d9712637a7",
+        "applied_prompt_sha256": "e9428e0dcd243e52214f501d7235987c94f09822e5ad1e3a5864cd08113500c0",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "圓頭短柱圓底座USB桌扇辨識清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Solid black silhouette of complete reference desk fan on white background, circular grille represented only outer outline solid head, short support round base and curved cable silhouette; recognizable fan shape. No labels.",
+            "observed": "純白背景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇清晰黑色剪影",
+            "observed": "修正後頭部為實心黑色輪廓。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "支架底座與電線相連合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無內部葉片空隙或文字，完成剪影簡化。",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "初稿保留葉片空隙，未達實心輪廓要求",
+          "applied_prompt": "Create a square web-quality website example. Solid black silhouette of complete reference desk fan on white background, circular grille represented only outer outline solid head, short support round base and curved cable silhouette; recognizable fan shape. No labels. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /silhouette: Reduce the subject to a bold recognizable silhouette.",
+          "result": "output/imagegen/batch-20-18/silhouette-18-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-outline-18-01",
+      "prompt_id": "src-visual642-358",
+      "command": "/outline",
+      "title": "陶瓷杯簡潔輪廓",
+      "description": "陶瓷杯簡潔輪廓（AI案例示範）",
+      "result_text": "陶瓷杯簡潔輪廓",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-18/outline-18.png",
+      "applied_prompt": "Create a square web-quality website example. Clean thin dark green explanatory contour drawing of reference cup, elliptical open rim, tapered walls and curved bottom. Plain white, no shading no filled areas no text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /outline: Trace the subject with a clean explanatory outline.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Clean thin dark green explanatory contour drawing of reference cup, elliptical open rim, tapered walls and curved bottom. Plain white, no shading no filled areas no text.",
+        "effect": "陶瓷杯簡潔輪廓",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:56:48.015Z",
+        "source_instruction": "Trace the subject with a clean explanatory outline.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "0bb606e89a085df7a91ebaed0a12c969dd9edf72081748534d78ff8dc97a58bb",
+        "applied_prompt_sha256": "6de150e0a01c6bffc5e02fdd89691ea6139f741fbfe3d704248ed4f4542b55ea",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "無把錐形杯輪廓保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Clean thin dark green explanatory contour drawing of reference cup, elliptical open rim, tapered walls and curved bottom. Plain white, no shading no filled areas no text.",
+            "observed": "白底單一杯形。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯簡潔輪廓",
+            "observed": "深綠細線僅描繪外形。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "橢圓杯口、雙線厚度與弧形底部相連。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無陰影填色與多餘標示。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-wire-18-01",
+      "prompt_id": "src-visual642-359",
+      "command": "/wireframe",
+      "title": "機甲幾何線框",
+      "description": "機甲幾何線框（AI案例示範）",
+      "result_text": "機甲幾何線框",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-18/wire-18.png",
+      "applied_prompt": "Create a square web-quality website example. Reference blue yellow robot transformed into precise cyan geometric wireframe mesh over dark navy background. Preserve head torso shoulder arms legs proportions, no solid textures. Concept mesh not actual manufacturing CAD. No text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /wireframe: Reveal the underlying geometric wireframe.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference blue yellow robot transformed into precise cyan geometric wireframe mesh over dark navy background. Preserve head torso shoulder arms legs proportions, no solid textures. Concept mesh not actual manufacturing CAD. No text.",
+        "effect": "機甲幾何線框",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:57:20.281Z",
+        "source_instruction": "Reveal the underlying geometric wireframe.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "58fe1dac343d61f7679ddaaa60ed56b57e58dc836b19e6a2a208ca79342321ba",
+        "applied_prompt_sha256": "c1c2abd4198d2d3a8c6308c56df575513e180b86944e7e573ad62232c6b8d2d0",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "來源機器人頭甲肩甲與粗大靴型可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference blue yellow robot transformed into precise cyan geometric wireframe mesh over dark navy background. Preserve head torso shoulder arms legs proportions, no solid textures. Concept mesh not actual manufacturing CAD. No text.",
+            "observed": "深藍底完整站姿。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲幾何線框",
+            "observed": "青色網格描出立體表面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "網格沿頭身肢體曲面連續。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有實際CAD或測量宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-transparent-18-01",
+      "prompt_id": "src-visual642-360",
+      "command": "/transparent",
+      "title": "陶瓷杯透明外觀示意",
+      "description": "陶瓷杯透明外觀示意（AI案例示範）",
+      "result_text": "陶瓷杯透明外觀示意",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-18/transparent-18.png",
+      "applied_prompt": "Create a square web-quality website example. Reference tumbler exterior made translucent sage glasslike material while preserving same tapered form and rim, reveal empty hollow inside and continuous closed bottom. White studio. Artistic transparent material transformation, no engineering claims or text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /transparent: Make the exterior transparent while preserving form.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference tumbler exterior made translucent sage glasslike material while preserving same tapered form and rim, reveal empty hollow inside and continuous closed bottom. White studio. Artistic transparent material transformation, no engineering claims or text.",
+        "effect": "陶瓷杯透明外觀示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:57:54.345Z",
+        "source_instruction": "Make the exterior transparent while preserving form.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "cd587236b7bb2172149fb6c5681cb97ae1b96e9380c4f82469e33c320cfefae3",
+        "applied_prompt_sha256": "a3e0fee6eacdbe9f60380e5bf1e19eafc9bc09ad9ffb8e3df2fd3745fc45c9d5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "杯形與來源相同的無把錐形杯。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference tumbler exterior made translucent sage glasslike material while preserving same tapered form and rim, reveal empty hollow inside and continuous closed bottom. White studio. Artistic transparent material transformation, no engineering claims or text.",
+            "observed": "白底展示。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯透明外觀示意",
+            "observed": "材質改為帶綠色透明玻璃感。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "空心杯內與封閉底部清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有虛構機械構造與文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-ghost-18-01",
+      "prompt_id": "src-visual642-361",
+      "command": "/ghosted",
+      "title": "桌扇隱藏馬達淡影",
+      "description": "桌扇隱藏馬達淡影（AI案例示範）",
+      "result_text": "桌扇隱藏馬達淡影",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-18/ghost-18.png",
+      "applied_prompt": "Create a square web-quality website example. Reference fan normal cream grille and teal blades remain dominant, hidden generic motor behind blade center and shaft shown as faint pale blue ghosted structures through partially translucent rear housing. Title CONCEPT GHOST VIEW. No extra gears. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /ghosted: Show hidden parts as faint ghosted structures.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference fan normal cream grille and teal blades remain dominant, hidden generic motor behind blade center and shaft shown as faint pale blue ghosted structures through partially translucent rear housing. Title CONCEPT GHOST VIEW. No extra gears.",
+        "effect": "桌扇隱藏馬達淡影",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:58:32.442Z",
+        "source_instruction": "Show hidden parts as faint ghosted structures.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "04a4ed85420423884d288f0da4f315543bd085f97ff6c95ac421cf2bd8fa0ab5",
+        "applied_prompt_sha256": "ae4c0a7c737cb13381ca5571e61a44dd887379e37b71c6f8959f817317081f79",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers"
+          ],
+          "notes": "馬達位於葉輪軸後的概念淡影，不冒稱真實拆機構造。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米色青葉USB桌扇一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference fan normal cream grille and teal blades remain dominant, hidden generic motor behind blade center and shaft shown as faint pale blue ghosted structures through partially translucent rear housing. Title CONCEPT GHOST VIEW. No extra gears.",
+            "observed": "白底概念透視標題。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇隱藏馬達淡影",
+            "observed": "後殼半透明揭示淡藍馬達與軸。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "馬達在葉輪後方，軸指向輪轂。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "正常網罩仍為主體且無額外齒輪，明示概念。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-section-18-01",
+      "prompt_id": "src-visual642-362",
+      "command": "/sectioned",
+      "title": "陶瓷杯三區標示",
+      "description": "陶瓷杯三區標示（AI案例示範）",
+      "result_text": "陶瓷杯三區標示",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-18/section-18.png",
+      "applied_prompt": "Create a square web-quality website example. Reference sage ceramic cup divided by two fine horizontal dashed boundary lines into three sections: top RIM, middle WALL, bottom BASE. Exactly three labels at matching heights, no sliced floating pieces. White background. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /sectioned: Divide the subject into clearly labeled sections.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference sage ceramic cup divided by two fine horizontal dashed boundary lines into three sections: top RIM, middle WALL, bottom BASE. Exactly three labels at matching heights, no sliced floating pieces. White background.",
+        "effect": "陶瓷杯三區標示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:59:12.994Z",
+        "source_instruction": "Divide the subject into clearly labeled sections.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "cdc76df42a8214908414f66089617be044fe791fe12e4521d8c8ef195d0d6168",
+        "applied_prompt_sha256": "90c3dd9afbc58c9f94e1ef68db0f618c4e9e8b6572e97e4645151fb185feffaf",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色陶瓷杯形一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference sage ceramic cup divided by two fine horizontal dashed boundary lines into three sections: top RIM, middle WALL, bottom BASE. Exactly three labels at matching heights, no sliced floating pieces. White background.",
+            "observed": "白底分區說明。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯三區標示",
+            "observed": "兩條水平虛線劃成三區。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "RIM在杯口、WALL在中段、BASE在底部。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "杯身完整不浮離，標示可讀。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-unwrap-18-01",
+      "prompt_id": "src-visual642-363",
+      "command": "/unwrapped",
+      "title": "紙盒六面平面展開",
+      "description": "紙盒六面平面展開（AI案例示範）",
+      "result_text": "紙盒六面平面展開",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-18/unwrap-18.png",
+      "applied_prompt": "Square image, generous white margins. Small centered flat cube net drawn precisely, no perspective. Six identical square faces of pale sage paper, each square exactly 200 by 200 conceptual units. Column has FOUR complete equal squares. To left and right of second square add one identical square each. Thus column height exactly four times square width. No glue tabs, no extra lines, no labels. Dark leaf on second square. Must show full fourth square same height as all other faces. Original instruction /unwrap: Unwrap the subject into a flattened layout, like a template or net.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Flat top-down cube packaging net with EXACTLY four equal square panels in vertical column; one equal square on LEFT and one on RIGHT of SECOND square from top. SIX total main faces, small glue tabs extra. Sage green paper, leaf logo one face. Title FLAT PACKAGING. No finished box or extra net.",
+        "effect": "紙盒六面平面展開",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:01:02.647Z",
+        "source_instruction": "Lay surfaces or packaging out as an unwrapped flat view.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "754b271fb35bd9f233d7b7caff841ea34dd07d2c82afca66cf34468deab8f0e8",
+        "applied_prompt_sha256": "6372b6c3e860d2e83547a949136b0c8338f3027eb4960a5012ce23e1a7ec8edf",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/technical-information/production-process"
+          ],
+          "notes": "方盒六面展開幾何以目視計數驗證；模切折盒一般工序核對，非實際刀模圖。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "淡綠葉紋紙盒的平面化示意。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Flat top-down cube packaging net with EXACTLY four equal square panels in vertical column; one equal square on LEFT and one on RIGHT of SECOND square from top. SIX total main faces, small glue tabs extra. Sage green paper, leaf logo one face. Title FLAT PACKAGING. No finished box or extra net.",
+            "observed": "白底俯視六面網形。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒六面平面展開",
+            "observed": "四面直排加第二面左右各一面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "修正後六面等大、可折成封閉立方體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "葉紋為簡化單葉，無膠舌與標題但原指令展開本意完整。",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "底面縮短",
+          "applied_prompt": "Create a square web-quality website example. Flat top-down cube packaging net with EXACTLY four equal square panels in vertical column; one equal square on LEFT and one on RIGHT of SECOND square from top. SIX total main faces, small glue tabs extra. Sage green paper, leaf logo one face. Title FLAT PACKAGING. No finished box or extra net. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /unwrapped: Lay surfaces or packaging out as an unwrapped flat view.",
+          "result": "output/imagegen/batch-20-18/unwrap-18-initial.png"
+        },
+        {
+          "reason": "底面仍縮短",
+          "applied_prompt": "Square web-quality packaging illustration. Top-down flat sage green cube net on white with SIX EXACTLY EQUAL SQUARE FACES: four equal square panels stacked in vertical column, one equal square attached left and one right of SECOND square. All six panels same width and height. Small glue tabs separate from main faces. Leaf motif on second square. Text FLAT PACKAGING. No finished box. Original instruction /unwrap: Unwrap the subject into a flattened layout, like a template or net.",
+          "result": "output/imagegen/batch-20-18/unwrap-18-repair1.png"
+        }
+      ],
+      "generation_note": "第二次修正以文字指定產品色彩與葉紋，未附參考圖；來源保留用於身份追溯。"
+    },
+    {
+      "id": "case-pack-18-01",
+      "prompt_id": "src-visual642-364",
+      "command": "/packaging",
+      "title": "陶瓷杯精品零售包裝",
+      "description": "陶瓷杯精品零售包裝（AI案例示範）",
+      "result_text": "陶瓷杯精品零售包裝",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-18/pack-18.png",
+      "applied_prompt": "Create a square web-quality website example. Reference sage ceramic tumbler partly seated in protective cream pulp insert inside open premium sage retail box, matching closed lid beside it with minimalist dark leaf motif. Warm studio product display, cup clearly visible, packaging fits cup. No brand text no watermark. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /packaging: Place the subject into polished retail packaging.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference sage ceramic tumbler partly seated in protective cream pulp insert inside open premium sage retail box, matching closed lid beside it with minimalist dark leaf motif. Warm studio product display, cup clearly visible, packaging fits cup. No brand text no watermark.",
+        "effect": "陶瓷杯精品零售包裝",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:01:43.925Z",
+        "source_instruction": "Place the subject into polished retail packaging.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "17872d3cff83ffbe4053442bdff13639600979e68ddf52344e6ef6aa6423ec9a",
+        "applied_prompt_sha256": "5db5751d986c5f5296a5b3a5713262084c4622c35a3463ca730d863de6a3fa2f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色無把陶瓷杯一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference sage ceramic tumbler partly seated in protective cream pulp insert inside open premium sage retail box, matching closed lid beside it with minimalist dark leaf motif. Warm studio product display, cup clearly visible, packaging fits cup. No brand text no watermark.",
+            "observed": "暖色棚拍零售包裝。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯精品零售包裝",
+            "observed": "杯子置於紙漿保護內襯，旁有配套盒蓋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "內襯貼合杯壁、杯口完整可見。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "葉紋盒蓋無文字，包裝與產品相符。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

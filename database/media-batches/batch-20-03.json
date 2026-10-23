@@ -1,0 +1,1447 @@
+{
+  "version": 1,
+  "id": "batch-20-03",
+  "cases": [
+    {
+      "id": "case-weatherchange-01",
+      "prompt_id": "src-visual642-045",
+      "command": "/weatherchange",
+      "title": "運動鞋公園場景的晴雨雪變化",
+      "description": "運動鞋公園場景的晴雨雪變化（AI案例示範）",
+      "result_text": "運動鞋公園場景的晴雨雪變化",
+      "reference": "output/imagegen/batch-20-02/park-day-reference.png",
+      "result": "output/imagegen/batch-20-03/weatherchange.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: web-quality website command example. Apply /weatherchange: Show how the scene changes under different weather. Input image is a reference for the product, scene or ingredient appearance only. Use exact park scene reference, same sneaker bench lamppost path and camera in three equal vertical panels side by side: clear sunny daylight, overcast visible rainfall with wet bench, snowy winter with visible falling snow. Preserve shoe in each. No text. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-02/park-day-reference.png",
+        "sha256": "865519a1436a8da9d0c9f2a4a5ac46849f61617708569dc89ac26ce23cb99606",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a scene reference for later day-to-night and four-season editing. Input image is product identity only. One white low-top sneaker with three black stripes, gray suede toe and brown gum sole exactly as reference, resting side-on on a weathered wooden park bench. Bright ordinary summer daytime, green deciduous trees behind, a curved park path and one classic black park lamppost clearly visible at right. Camera at shoe height, bench extends horizontally across frame, medium-wide composition showing enough setting. Product stays ordinary shoe size. No people, no advertising, no text, no extra shoes. Square web-quality photo.",
+        "parent_reference": {
+          "provided_by": "user",
+          "kind": "user_provided",
+          "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+          "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+          "authorization": {
+            "date": "2026-10-09",
+            "directory": "ex product",
+            "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+          }
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Use exact park scene reference, same sneaker bench lamppost path and camera in three equal vertical panels side by side: clear sunny daylight, overcast visible rainfall with wet bench, snowy winter with visible falling snow. Preserve shoe in each. No text.",
+        "effect": "運動鞋公園場景的晴雨雪變化",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:03:17.079Z",
+        "source_instruction": "Show how the scene changes under different weather.",
+        "reference_sha256": "865519a1436a8da9d0c9f2a4a5ac46849f61617708569dc89ac26ce23cb99606",
+        "result_sha256": "32e4a01eda98b50702da3f44d7d3fbe4b00248c7304265b702e9a4d6c8c66cda",
+        "applied_prompt_sha256": "c60cc781db3d7ca3adb5ae6e3dc66124d8b387abccd367127cc96eca4208a39d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "三格保留三條紋白鞋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Use exact park scene reference, same sneaker bench lamppost path and camera in three equal vertical panels side by side: clear sunny daylight, overcast visible rainfall with wet bench, snowy winter with visible falling snow. Preserve shoe in each. No text.",
+            "observed": "公園長椅、路徑與路燈位置對應",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋公園場景的晴雨雪變化",
+            "observed": "晴天強日照、雨絲濕地與飄雪白地清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "鞋與長椅在三格維持同一視角與比例",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "三格完整，無新增文字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-popupstore-01",
+      "prompt_id": "src-visual642-046",
+      "command": "/popupstore",
+      "title": "遊戲主機造型的快閃體驗店",
+      "description": "遊戲主機造型的快閃體驗店（AI案例示範）",
+      "result_text": "遊戲主機造型的快閃體驗店",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-03/popupstore.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: web-quality website command example. Apply /popupstore: Turn the subject into a branded pop-up store. Input image is a reference for the product, scene or ingredient appearance only. Turn console identity into a practical walk-in branded pop-up gaming store at human scale on pedestrian shopping street. Matte charcoal rounded facade resembles dock, cyan and orange vertical controller-inspired side trims, wide glazed door with people entering, demo consoles visible inside. One short invented store sign exactly PLAY LAB. Not just giant console on street. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Turn console identity into a practical walk-in branded pop-up gaming store at human scale on pedestrian shopping street. Matte charcoal rounded facade resembles dock, cyan and orange vertical controller-inspired side trims, wide glazed door with people entering, demo consoles visible inside. One short invented store sign exactly PLAY LAB. Not just giant console on street.",
+        "effect": "遊戲主機造型的快閃體驗店",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:04:33.728Z",
+        "source_instruction": "Turn the subject into a branded pop-up store.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "c03e5e1010c2a6f1e0b8cfe6589318e6e63c83abe1fbc607e93463ac17bbca7f",
+        "applied_prompt_sha256": "16701e174a2cf61bf9f6cf6860ad59fd517e407ed0c740acf289df3a66bcc6b3",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "深灰主機與藍橘控制器元素保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Turn console identity into a practical walk-in branded pop-up gaming store at human scale on pedestrian shopping street. Matte charcoal rounded facade resembles dock, cyan and orange vertical controller-inspired side trims, wide glazed door with people entering, demo consoles visible inside. One short invented store sign exactly PLAY LAB. Not just giant console on street.",
+            "observed": "步行商圈有入口及室內試玩空間",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "遊戲主機造型的快閃體驗店",
+            "observed": "主機造型轉為可進入的品牌快閃店",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "行人正在進店，門與店內桌具符合人尺度",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "PLAY LAB文字正確，無原圖廣告版面",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-streetinstallation-01",
+      "prompt_id": "src-visual642-047",
+      "command": "/streetinstallation",
+      "title": "運動鞋公共街道裝置",
+      "description": "運動鞋公共街道裝置（AI案例示範）",
+      "result_text": "運動鞋公共街道裝置",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-03/streetinstallation.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: web-quality website command example. Apply /streetinstallation: Scale the subject into a public street installation. Input image is a reference for the product, scene or ingredient appearance only. Turn exact white black-striped sneaker into a 6m-long public art installation on raised landscaped pedestrian street plinth, pedestrians and bikes establish oversized scale, footpath remains open, shoe retains gray toe and gum sole. Full installation visible, no shop or billboard. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Turn exact white black-striped sneaker into a 6m-long public art installation on raised landscaped pedestrian street plinth, pedestrians and bikes establish oversized scale, footpath remains open, shoe retains gray toe and gum sole. Full installation visible, no shop or billboard.",
+        "effect": "運動鞋公共街道裝置",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:05:50.600Z",
+        "source_instruction": "Scale the subject into a public street installation.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "41dbadd3c3df47570365fb89e2189c2a545cab97543b1e13cc494e36d5527bf7",
+        "applied_prompt_sha256": "134d48ef1756dab85b54b65ba0b01b83bdd0393cdb521874944cc5045c9eccda",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "白鞋黑條、灰頭與膠底維持",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Turn exact white black-striped sneaker into a 6m-long public art installation on raised landscaped pedestrian street plinth, pedestrians and bikes establish oversized scale, footpath remains open, shoe retains gray toe and gum sole. Full installation visible, no shop or billboard.",
+            "observed": "植栽基座位於城市步行街",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋公共街道裝置",
+            "observed": "鞋款成為高於行人的公共裝置",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "行人與自行車作比例對照，步道保持暢通",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "全鞋完整，無多餘標牌文字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-gallerywall-01",
+      "prompt_id": "src-visual642-048",
+      "command": "/gallerywall",
+      "title": "機甲公仔攝影作品的畫廊牆",
+      "description": "機甲公仔攝影作品的畫廊牆（AI案例示範）",
+      "result_text": "機甲公仔攝影作品的畫廊牆",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-03/gallerywall.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: web-quality website command example. Apply /gallerywall: Curate the subject as framed work on a gallery wall. Input image is a reference for the product, scene or ingredient appearance only. Curated contemporary gallery wall with three distinct framed photographic prints featuring the same blue white yellow robot toy from reference, full toy portrait center and close details either side. Visible frames, glazing and wall mounting, small blank caption cards. Quiet gallery bench and visitor give context. Subject must be printed inside frames, not physical toys standing beside wall. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Curated contemporary gallery wall with three distinct framed photographic prints featuring the same blue white yellow robot toy from reference, full toy portrait center and close details either side. Visible frames, glazing and wall mounting, small blank caption cards. Quiet gallery bench and visitor give context. Subject must be printed inside frames, not physical toys standing beside wall.",
+        "effect": "機甲公仔攝影作品的畫廊牆",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:06:57.252Z",
+        "source_instruction": "Curate the subject as framed work on a gallery wall.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "d9eb96b690d6da78fd345566f52f344d1f84917e806d42db85a5bbfc2120b581",
+        "applied_prompt_sha256": "d8f9e273f6002974d42ea02c07c5001e43e2f60cb116f4a97f4be287805c166f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "三張相框中同一藍白黃機甲可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Curated contemporary gallery wall with three distinct framed photographic prints featuring the same blue white yellow robot toy from reference, full toy portrait center and close details either side. Visible frames, glazing and wall mounting, small blank caption cards. Quiet gallery bench and visitor give context. Subject must be printed inside frames, not physical toys standing beside wall.",
+            "observed": "畫廊牆、長椅與觀者構成展場",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲公仔攝影作品的畫廊牆",
+            "observed": "主體以框內攝影作品展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "中間全身左右局部，相框安裝於牆面",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "三個相框及空白牌卡完整，無原圖商標版面",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-stageconcept-01",
+      "prompt_id": "src-visual642-049",
+      "command": "/stageconcept",
+      "title": "遊戲主機主題的實體舞台設計",
+      "description": "遊戲主機主題的實體舞台設計（AI案例示範）",
+      "result_text": "遊戲主機主題的實體舞台設計",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-03/stageconcept.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: web-quality website command example. Apply /stageconcept: Turn the subject into a practical stage design concept. Input image is a reference for the product, scene or ingredient appearance only. Practical buildable stage concept for gaming event inspired by reference console: rectangular raised platform, large central LED screen, two controller-shaped scenic towers with cyan and orange trim, truss-supported lights above, access stairs both sides. Wide architectural stage visualization, no floating structures. Small stagehand for scale, no brand logo or text. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Practical buildable stage concept for gaming event inspired by reference console: rectangular raised platform, large central LED screen, two controller-shaped scenic towers with cyan and orange trim, truss-supported lights above, access stairs both sides. Wide architectural stage visualization, no floating structures. Small stagehand for scale, no brand logo or text.",
+        "effect": "遊戲主機主題的實體舞台設計",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:07:50.735Z",
+        "source_instruction": "Turn the subject into a practical stage design concept.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "1aa8385d6e1ac3afbb2498024b5878c3639fbc8cb0b99ac2f28929de3afac557",
+        "applied_prompt_sha256": "c76edba0c390e044c10472f18175c57ad8fbf688fc12565e5783a08983557b22",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "主機控制器造型與藍橘配色轉為舞台元素",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Practical buildable stage concept for gaming event inspired by reference console: rectangular raised platform, large central LED screen, two controller-shaped scenic towers with cyan and orange trim, truss-supported lights above, access stairs both sides. Wide architectural stage visualization, no floating structures. Small stagehand for scale, no brand logo or text.",
+            "observed": "中央大螢幕、雙側景片與觀眾席可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "遊戲主機主題的實體舞台設計",
+            "observed": "呈現可搭建的實體遊戲活動舞台",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "台階、平台與上方燈架有支撐，工作人員提供比例",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "無浮空構件或額外品牌文案",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-dosanddonts-01",
+      "prompt_id": "src-visual642-050",
+      "command": "/dosanddonts",
+      "title": "產品攝影正確與錯誤構圖對照",
+      "description": "產品攝影正確與錯誤構圖對照（AI案例示範）",
+      "result_text": "產品攝影正確與錯誤構圖對照",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-03/dosanddonts.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /dosanddonts: Compare the correct approach with common mistakes. Input image is a reference for the product, scene or ingredient appearance only. Clean editorial infographic, two side-by-side example photos of same reference sneaker. Left DO: complete shoe visible with clear margin on neutral background. Right DON’T: shoe toe visibly cropped by photo boundary and distracting clutter behind. Exact short text title PRODUCT FRAMING; column labels DO and DON’T; captions FULL SUBJECT and CROPPED SUBJECT. Green check left, red X right, clear comparison. This is an authored composition demonstration, no product performance claim. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean editorial infographic, two side-by-side example photos of same reference sneaker. Left DO: complete shoe visible with clear margin on neutral background. Right DON’T: shoe toe visibly cropped by photo boundary and distracting clutter behind. Exact short text title PRODUCT FRAMING; column labels DO and DON’T; captions FULL SUBJECT and CROPPED SUBJECT. Green check left, red X right, clear comparison. This is an authored composition demonstration, no product performance claim.",
+        "effect": "產品攝影正確與錯誤構圖對照",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:10:33.773Z",
+        "source_instruction": "Compare the correct approach with common mistakes.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "6294ee819433e84a4e19dd6becf79e258ab487217c08d2e49b062ba6ec895e68",
+        "applied_prompt_sha256": "ffd3f5b9b066749ebf22ff01b143476a8fd7a44e4a134280786d2592d7486468",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "白色黑條紋運動鞋保持同一產品外觀。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean editorial infographic, two side-by-side example photos of same reference sneaker. Left DO: complete shoe visible with clear margin on neutral background. Right DON’T: shoe toe visibly cropped by photo boundary and distracting clutter behind. Exact short text title PRODUCT FRAMING; column labels DO and DON’T; captions FULL SUBJECT and CROPPED SUBJECT. Green check left, red X right, clear comparison. This is an authored composition demonstration, no product performance claim.",
+            "observed": "左右雙欄清楚呈現正確與錯誤構圖。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "產品攝影正確與錯誤構圖對照",
+            "observed": "左側完整鞋身留白，右側鞋頭裁切且有雜物。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "綠色勾與紅色叉分別對應 DO 與 DON'T。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "PRODUCT FRAMING、FULL SUBJECT、CROPPED SUBJECT 文字正確可讀。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-troubleshootchart-01",
+      "prompt_id": "src-visual642-051",
+      "command": "/troubleshootchart",
+      "title": "虛構遊戲關卡故障排查流程",
+      "description": "虛構遊戲關卡故障排查流程（AI案例示範）",
+      "result_text": "虛構遊戲關卡故障排查流程",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-03/troubleshootchart.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /troubleshootchart: Map symptoms to likely causes and simple fixes. Input image is a reference for the product, scene or ingredient appearance only. Clean vector-style infographic using small reference-console illustration. Fictional game demo troubleshooting, not hardware repair. Exact title DEMO TROUBLESHOOTING. Three horizontal rows with arrows connecting boxes: NO PLAYER → EMPTY SLOT → ADD PLAYER; NO SCORE → ROUND NOT STARTED → START ROUND; NO RESULT → ROUND ACTIVE → FINISH ROUND. These are explicitly authored fictional game rules. Footer FICTIONAL DEMO. Clear row separation, readable English text. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean vector-style infographic using small reference-console illustration. Fictional game demo troubleshooting, not hardware repair. Exact title DEMO TROUBLESHOOTING. Three horizontal rows with arrows connecting boxes: NO PLAYER → EMPTY SLOT → ADD PLAYER; NO SCORE → ROUND NOT STARTED → START ROUND; NO RESULT → ROUND ACTIVE → FINISH ROUND. These are explicitly authored fictional game rules. Footer FICTIONAL DEMO. Clear row separation, readable English text.",
+        "effect": "虛構遊戲關卡故障排查流程",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:11:38.203Z",
+        "source_instruction": "Map symptoms to likely causes and simple fixes.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "18843b8294ca7bfbefd4f618825331f7c7b3431dcd8efbe03d78bef922454fe9",
+        "applied_prompt_sha256": "5a1a852c4351762d602664a105b4a37e108bfb83691c7fac036370659a725ac9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "參考主機外觀清楚保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean vector-style infographic using small reference-console illustration. Fictional game demo troubleshooting, not hardware repair. Exact title DEMO TROUBLESHOOTING. Three horizontal rows with arrows connecting boxes: NO PLAYER → EMPTY SLOT → ADD PLAYER; NO SCORE → ROUND NOT STARTED → START ROUND; NO RESULT → ROUND ACTIVE → FINISH ROUND. These are explicitly authored fictional game rules. Footer FICTIONAL DEMO. Clear row separation, readable English text.",
+            "observed": "故障排查以三列問題、原因、處置呈現。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "虛構遊戲關卡故障排查流程",
+            "observed": "三列紅黃綠卡片與圖示明確區分。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "每列箭頭由問題指向原因再到處置，順序正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "九個標籤與 FICTIONAL DEMO 文字正確可讀。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-safetycheck-01",
+      "prompt_id": "src-visual642-052",
+      "command": "/safetycheck",
+      "title": "運動空間地面安全檢查",
+      "description": "運動空間地面安全檢查（AI案例示範）",
+      "result_text": "運動空間地面安全檢查",
+      "reference": "ex product/12492122_O_m.webp",
+      "result": "output/imagegen/batch-20-03/safetycheck.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /safetycheck: Mark the essential safety checks around the subject. Input image is a reference for the product, scene or ingredient appearance only. Clean illustrated safety-check board of an empty gym with recognizable reference treadmill. Mark three green numbered callouts pointing to visibly dry floor, clear walkway beside equipment, and intact even floor surface. Exact title FLOOR SAFETY CHECK; callout texts DRY FLOOR, CLEAR WALKWAY, EVEN SURFACE. Small footer GENERAL FLOOR CHECKS. No medical, machine setup, load rating or exercise instructions; no person operating machine. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/12492122_O_m.webp",
+        "sha256": "b8cbe9f8c626c4775b59662725ff62b2ff7889bbb328e56773fa5873e7fe2227",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean illustrated safety-check board of an empty gym with recognizable reference treadmill. Mark three green numbered callouts pointing to visibly dry floor, clear walkway beside equipment, and intact even floor surface. Exact title FLOOR SAFETY CHECK; callout texts DRY FLOOR, CLEAR WALKWAY, EVEN SURFACE. Small footer GENERAL FLOOR CHECKS. No medical, machine setup, load rating or exercise instructions; no person operating machine.",
+        "effect": "運動空間地面安全檢查",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:12:48.640Z",
+        "source_instruction": "Mark the essential safety checks around the subject.",
+        "reference_sha256": "b8cbe9f8c626c4775b59662725ff62b2ff7889bbb328e56773fa5873e7fe2227",
+        "result_sha256": "58bc0ccf23b2187d39016c047b501d1c5890185f09575f5dfc2f61958d770341",
+        "applied_prompt_sha256": "d2e506990cee3bd11a3342025212a6177bb6ec1d85a2c8e750c740e986f3cd8c",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "只標記乾燥地面、暢通走道及平整表面，核對OSHA 1910.22(a)、(c)。不涉及機械操作或運動醫療。",
+          "source_urls": [
+            "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.22/"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "跑步機保持黑色機體與藍色細節。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean illustrated safety-check board of an empty gym with recognizable reference treadmill. Mark three green numbered callouts pointing to visibly dry floor, clear walkway beside equipment, and intact even floor surface. Exact title FLOOR SAFETY CHECK; callout texts DRY FLOOR, CLEAR WALKWAY, EVEN SURFACE. Small footer GENERAL FLOOR CHECKS. No medical, machine setup, load rating or exercise instructions; no person operating machine.",
+            "observed": "健身房地面安全檢查主題清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動空間地面安全檢查",
+            "observed": "乾燥平整地面及機器旁空走道可見。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "三個編號標示箭頭各指向對應地面區域。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "DRY FLOOR、CLEAR WALKWAY、EVEN SURFACE 與總標題文字可讀且正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-ingredientmap-01",
+      "prompt_id": "src-visual642-053",
+      "command": "/ingredientmap",
+      "title": "檸檬飲品示範配方的食材角色",
+      "description": "檸檬飲品示範配方的食材角色（AI案例示範）",
+      "result_text": "檸檬飲品示範配方的食材角色",
+      "reference": "output/imagegen/batch-20-03/food-reference.png",
+      "result": "output/imagegen/batch-20-03/ingredientmap.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /ingredientmap: Label the main ingredients and their roles. Input image is a reference for the product, scene or ingredient appearance only. Clean top-down ingredient-map infographic. Exact title LEMONADE INGREDIENT MAP. Three ingredient bowls/jugs surrounding central glass lemonade with fine connector lines. Labels: WATER — BASE; LEMON JUICE — SOURNESS; SUGAR — SWEETNESS. Small footer EXAMPLE RECIPE. Clearly show water jug, cut lemon and juice bowl, sugar bowl. No nutritional or health claims. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-03/food-reference.png",
+        "sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a neutral ingredient reference photograph for instructional website examples: one ripe unpeeled yellow banana, one whole lemon and one lemon half, a small clear bowl of granulated white sugar, a transparent jug of water and a plain empty glass on a clean light wooden kitchen table. Natural soft daylight, realistic ordinary ingredient sizes, tidy simple background, no packaging, no labels, no claims, no text. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean top-down ingredient-map infographic. Exact title LEMONADE INGREDIENT MAP. Three ingredient bowls/jugs surrounding central glass lemonade with fine connector lines. Labels: WATER — BASE; LEMON JUICE — SOURNESS; SUGAR — SWEETNESS. Small footer EXAMPLE RECIPE. Clearly show water jug, cut lemon and juice bowl, sugar bowl. No nutritional or health claims.",
+        "effect": "檸檬飲品示範配方的食材角色",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:13:31.922Z",
+        "source_instruction": "Label the main ingredients and their roles.",
+        "reference_sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "result_sha256": "e63a0b84a19f42398e2acbea178a716cf6c3f5800e74627e4c8ee6eb2289f494",
+        "applied_prompt_sha256": "fed8b669508c30628bf157f36a54ee9c481b7cc217a741383ad57275a20832d2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "檸檬、水與糖保留參考食材外觀。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean top-down ingredient-map infographic. Exact title LEMONADE INGREDIENT MAP. Three ingredient bowls/jugs surrounding central glass lemonade with fine connector lines. Labels: WATER — BASE; LEMON JUICE — SOURNESS; SUGAR — SWEETNESS. Small footer EXAMPLE RECIPE. Clearly show water jug, cut lemon and juice bowl, sugar bowl. No nutritional or health claims.",
+            "observed": "中央檸檬飲料與三項食材構成食材圖解。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬飲品示範配方的食材角色",
+            "observed": "三種色碼標籤搭配照片清楚辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "各連線精準指向水、檸檬汁與糖，中央成品可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "標題及 BASE、SOURNESS、SWEETNESS、EXAMPLE RECIPE 正確可讀。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-recipeflow-01",
+      "prompt_id": "src-visual642-054",
+      "command": "/recipeflow",
+      "title": "四步檸檬飲品製作流程",
+      "description": "四步檸檬飲品製作流程（AI案例示範）",
+      "result_text": "四步檸檬飲品製作流程",
+      "reference": "output/imagegen/batch-20-03/food-reference.png",
+      "result": "output/imagegen/batch-20-03/recipeflow.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /recipeflow: Turn a recipe into a simple visual sequence. Input image is a reference for the product, scene or ingredient appearance only. Clean illustrated recipe sequence, four equal numbered panels connected left to right with arrows. Exact title SIMPLE LEMONADE. Panel text: 1 SQUEEZE LEMON; 2 ADD SUGAR; 3 ADD WATER; 4 STIR AND SERVE. Show citrus pressed into jug, spoon adding sugar, water poured, finished glass with stirring spoon. Footer EXAMPLE RECIPE. No heat, raw animal foods or health claims. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-03/food-reference.png",
+        "sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a neutral ingredient reference photograph for instructional website examples: one ripe unpeeled yellow banana, one whole lemon and one lemon half, a small clear bowl of granulated white sugar, a transparent jug of water and a plain empty glass on a clean light wooden kitchen table. Natural soft daylight, realistic ordinary ingredient sizes, tidy simple background, no packaging, no labels, no claims, no text. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean illustrated recipe sequence, four equal numbered panels connected left to right with arrows. Exact title SIMPLE LEMONADE. Panel text: 1 SQUEEZE LEMON; 2 ADD SUGAR; 3 ADD WATER; 4 STIR AND SERVE. Show citrus pressed into jug, spoon adding sugar, water poured, finished glass with stirring spoon. Footer EXAMPLE RECIPE. No heat, raw animal foods or health claims.",
+        "effect": "四步檸檬飲品製作流程",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:14:39.033Z",
+        "source_instruction": "Turn a recipe into a simple visual sequence.",
+        "reference_sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "result_sha256": "d94873f1f06c82e85c264bfbd9adbe14ead23de2cac2036ed1eaaeb0a729db3b",
+        "applied_prompt_sha256": "d52ce5eb2cf275feeb91668c31b0b992e3509bca0c2e188f52386efce68939dc",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "檸檬、糖、水與玻璃容器對應參考食材。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean illustrated recipe sequence, four equal numbered panels connected left to right with arrows. Exact title SIMPLE LEMONADE. Panel text: 1 SQUEEZE LEMON; 2 ADD SUGAR; 3 ADD WATER; 4 STIR AND SERVE. Show citrus pressed into jug, spoon adding sugar, water poured, finished glass with stirring spoon. Footer EXAMPLE RECIPE. No heat, raw animal foods or health claims.",
+            "observed": "四格食譜流程完整呈現榨汁至供應。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "四步檸檬飲品製作流程",
+            "observed": "每格照片動作與標題一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "1至4由左向右以三個箭頭連接且順序正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "SIMPLE LEMONADE、四步驟及 EXAMPLE RECIPE 拼字正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-nutritionlabel-01",
+      "prompt_id": "src-visual642-055",
+      "command": "/nutritionlabel",
+      "title": "香蕉主要營養資訊摘要",
+      "description": "香蕉主要營養資訊摘要（AI案例示範）",
+      "result_text": "香蕉主要營養資訊摘要",
+      "reference": "output/imagegen/batch-20-03/food-reference.png",
+      "result": "output/imagegen/batch-20-03/nutritionlabel.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /nutritionlabel: Summarize the main nutrition facts in a clear panel. Input image is a reference for the product, scene or ingredient appearance only. Clean nutrition summary panel beside one banana illustration, white background black type with yellow accent. Exact text only: BANANA; 1 medium (126 g); Calories 110; Total fat 0 g; Carbohydrate 30 g; Fiber 3 g; Sugars 19 g; Protein 1 g; Source: FDA. Main nutrient rows aligned, generous legibility. This is an educational summary of FDA raw fruit chart, not a complete regulatory Nutrition Facts label. No percent daily values or health claims. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-03/food-reference.png",
+        "sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a neutral ingredient reference photograph for instructional website examples: one ripe unpeeled yellow banana, one whole lemon and one lemon half, a small clear bowl of granulated white sugar, a transparent jug of water and a plain empty glass on a clean light wooden kitchen table. Natural soft daylight, realistic ordinary ingredient sizes, tidy simple background, no packaging, no labels, no claims, no text. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean nutrition summary panel beside one banana illustration, white background black type with yellow accent. Exact text only: BANANA; 1 medium (126 g); Calories 110; Total fat 0 g; Carbohydrate 30 g; Fiber 3 g; Sugars 19 g; Protein 1 g; Source: FDA. Main nutrient rows aligned, generous legibility. This is an educational summary of FDA raw fruit chart, not a complete regulatory Nutrition Facts label. No percent daily values or health claims.",
+        "effect": "香蕉主要營養資訊摘要",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:15:28.288Z",
+        "source_instruction": "Summarize the main nutrition facts in a clear panel.",
+        "reference_sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "result_sha256": "d2b2eac2c505b2e4bd48d935cce374f03b1cda5f513c9c430106a4155830367e",
+        "applied_prompt_sha256": "e710f578a58ea30cb14af2361da41cf6f2e7542f3e017de3334e5a965294e212",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "依FDA Raw Fruits Poster中Banana 1 medium 126g：110 Calories、fat0g、carb30g、fiber3g、sugars19g、protein1g；教育摘要非完整法規標籤。",
+          "source_urls": [
+            "https://www.fda.gov/food/food-labeling-nutrition/raw-fruits-poster-text-version-accessible-version"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "香蕉照片與參考水果一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean nutrition summary panel beside one banana illustration, white background black type with yellow accent. Exact text only: BANANA; 1 medium (126 g); Calories 110; Total fat 0 g; Carbohydrate 30 g; Fiber 3 g; Sugars 19 g; Protein 1 g; Source: FDA. Main nutrient rows aligned, generous legibility. This is an educational summary of FDA raw fruit chart, not a complete regulatory Nutrition Facts label. No percent daily values or health claims.",
+            "observed": "營養摘要表呈現份量、熱量及五項營養數值。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "香蕉主要營養資訊摘要",
+            "observed": "黑字白底與黃色表頭清楚可讀。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "各數字逐列對應正確欄位，未混用份量。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "126g、110、脂肪0g、碳水30g、纖維3g、糖19g、蛋白質1g 與 FDA 來源皆正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-roadmap-01",
+      "prompt_id": "src-visual642-056",
+      "command": "/roadmap",
+      "title": "遊戲活動籌備里程碑路線圖",
+      "description": "遊戲活動籌備里程碑路線圖（AI案例示範）",
+      "result_text": "遊戲活動籌備里程碑路線圖",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-03/roadmap.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /roadmap: Arrange the main milestones on a simple visual roadmap. Input image is a reference for the product, scene or ingredient appearance only. Clean infographic with small reference console illustration and a single winding timeline with exactly four milestone nodes, chronological arrows. Exact title GAME EVENT ROADMAP. Nodes: 1 PLAN; 2 BUILD; 3 TEST; 4 LAUNCH. Under nodes respectively: SCOPE; DEMO; FEEDBACK; OPEN DAY. Authored fictional event plan, not actual dates or claims. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean infographic with small reference console illustration and a single winding timeline with exactly four milestone nodes, chronological arrows. Exact title GAME EVENT ROADMAP. Nodes: 1 PLAN; 2 BUILD; 3 TEST; 4 LAUNCH. Under nodes respectively: SCOPE; DEMO; FEEDBACK; OPEN DAY. Authored fictional event plan, not actual dates or claims.",
+        "effect": "遊戲活動籌備里程碑路線圖",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:16:17.604Z",
+        "source_instruction": "Arrange the main milestones on a simple visual roadmap.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "10e90feaaf3d0e519f361d1dec3dfde0be0c72b8f505f01649b4630d0a1c83b9",
+        "applied_prompt_sha256": "fd997313c47375714b198d765885ac7f1a7328ffdb352981740fe08293e057fc",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "主機外觀與參考一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean infographic with small reference console illustration and a single winding timeline with exactly four milestone nodes, chronological arrows. Exact title GAME EVENT ROADMAP. Nodes: 1 PLAN; 2 BUILD; 3 TEST; 4 LAUNCH. Under nodes respectively: SCOPE; DEMO; FEEDBACK; OPEN DAY. Authored fictional event plan, not actual dates or claims.",
+            "observed": "遊戲活動路線圖呈現規劃至開放日。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "遊戲活動籌備里程碑路線圖",
+            "observed": "四色里程碑與各自圖示清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "1PLAN、2BUILD、3TEST、4LAUNCH 按箭頭順序排列。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "SCOPE、DEMO、FEEDBACK、OPEN DAY 及標題拼字正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-comparisonmatrix-01",
+      "prompt_id": "src-visual642-057",
+      "command": "/comparisonmatrix",
+      "title": "三種示範飲品的條件比較矩陣",
+      "description": "三種示範飲品的條件比較矩陣（AI案例示範）",
+      "result_text": "三種示範飲品的條件比較矩陣",
+      "reference": "output/imagegen/batch-20-03/food-reference.png",
+      "result": "output/imagegen/batch-20-03/comparisonmatrix.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /comparisonmatrix: Compare several options across matching criteria. Input image is a reference for the product, scene or ingredient appearance only. Clean readable comparison matrix, exact title DRINK OPTIONS. Columns DRINK, LEMON, SUGAR. Three rows: WATER | NO | NO; LEMON WATER | YES | NO; LEMONADE | YES | YES. Footer EXAMPLE RECIPES. Small matching glass illustrations beside each row. These are defined sample recipes, not universal nutrition claims. No added ratings or values. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-03/food-reference.png",
+        "sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a neutral ingredient reference photograph for instructional website examples: one ripe unpeeled yellow banana, one whole lemon and one lemon half, a small clear bowl of granulated white sugar, a transparent jug of water and a plain empty glass on a clean light wooden kitchen table. Natural soft daylight, realistic ordinary ingredient sizes, tidy simple background, no packaging, no labels, no claims, no text. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean readable comparison matrix, exact title DRINK OPTIONS. Columns DRINK, LEMON, SUGAR. Three rows: WATER | NO | NO; LEMON WATER | YES | NO; LEMONADE | YES | YES. Footer EXAMPLE RECIPES. Small matching glass illustrations beside each row. These are defined sample recipes, not universal nutrition claims. No added ratings or values.",
+        "effect": "三種示範飲品的條件比較矩陣",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:17:29.811Z",
+        "source_instruction": "Compare several options across matching criteria.",
+        "reference_sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "result_sha256": "c680d07904efed8d9b1ab3ed307aedf9dddbf8f6d61a2be8c53bd2286c0d577c",
+        "applied_prompt_sha256": "528a4e9288ca9c03202ef0c40c550d2ed36a37b2be7e9abbef3301fd3f78e125",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "水、檸檬與糖照片符合食材參考。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean readable comparison matrix, exact title DRINK OPTIONS. Columns DRINK, LEMON, SUGAR. Three rows: WATER | NO | NO; LEMON WATER | YES | NO; LEMONADE | YES | YES. Footer EXAMPLE RECIPES. Small matching glass illustrations beside each row. These are defined sample recipes, not universal nutrition claims. No added ratings or values.",
+            "observed": "飲品比較矩陣含三列與兩項比較欄位。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "三種示範飲品的條件比較矩陣",
+            "observed": "表頭、分隔線與紅叉綠勾清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "水NO/NO、檸檬水YES/NO、檸檬飲YES/YES 均對應正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "DRINK OPTIONS、列欄名稱與 EXAMPLE RECIPES 文字正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-causechain-01",
+      "prompt_id": "src-visual642-058",
+      "command": "/causechain",
+      "title": "糖加入水後的步驟與結果因果鏈",
+      "description": "糖加入水後的步驟與結果因果鏈（AI案例示範）",
+      "result_text": "糖加入水後的步驟與結果因果鏈",
+      "reference": "output/imagegen/batch-20-03/food-reference.png",
+      "result": "output/imagegen/batch-20-03/causechain.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /causechain: Connect one cause through its sequence of effects. Input image is a reference for the product, scene or ingredient appearance only. Clean horizontal causal-chain infographic. Exact title FROM SUGAR TO SWEET WATER. Three large boxes connected by clear rightward arrows: ADD SUGAR → STIR → SWEET WATER. Each box has small matching image of sugar spoon over water, swirling spoon, finished clear water glass. No heat, chemical formulas, health or concentration claims. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-03/food-reference.png",
+        "sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a neutral ingredient reference photograph for instructional website examples: one ripe unpeeled yellow banana, one whole lemon and one lemon half, a small clear bowl of granulated white sugar, a transparent jug of water and a plain empty glass on a clean light wooden kitchen table. Natural soft daylight, realistic ordinary ingredient sizes, tidy simple background, no packaging, no labels, no claims, no text. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean horizontal causal-chain infographic. Exact title FROM SUGAR TO SWEET WATER. Three large boxes connected by clear rightward arrows: ADD SUGAR → STIR → SWEET WATER. Each box has small matching image of sugar spoon over water, swirling spoon, finished clear water glass. No heat, chemical formulas, health or concentration claims.",
+        "effect": "糖加入水後的步驟與結果因果鏈",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:18:13.735Z",
+        "source_instruction": "Connect one cause through its sequence of effects.",
+        "reference_sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "result_sha256": "7b4da5fcf07e1a9a9dbcfc299dadf58e958c1f6eb8f9753ae27a31db52c20a6b",
+        "applied_prompt_sha256": "3ff577559a6e55078fa87cbffd47531709dad2ef16b97334bea3138faccb9fcd",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "糖、水與玻璃杯對應參考素材。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean horizontal causal-chain infographic. Exact title FROM SUGAR TO SWEET WATER. Three large boxes connected by clear rightward arrows: ADD SUGAR → STIR → SWEET WATER. Each box has small matching image of sugar spoon over water, swirling spoon, finished clear water glass. No heat, chemical formulas, health or concentration claims.",
+            "observed": "三段因果鏈清楚呈現加糖、攪拌與甜水。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "糖加入水後的步驟與結果因果鏈",
+            "observed": "三張照片各呈現不同對應狀態。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "兩個箭頭由左至右且順序正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "FROM SUGAR TO SWEET WATER 與三項標題無錯字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-processloop-01",
+      "prompt_id": "src-visual642-059",
+      "command": "/processloop",
+      "title": "虛構遊戲活動的循環流程",
+      "description": "虛構遊戲活動的循環流程（AI案例示範）",
+      "result_text": "虛構遊戲活動的循環流程",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-03/processloop.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /processloop: Show a repeating process as a circular flow. Input image is a reference for the product, scene or ingredient appearance only. Clean circular process infographic with small console in center, exactly four nodes connected clockwise by arrowed arcs. Exact title PLAYTEST LOOP. Nodes around circle in order PLAN, BUILD, TEST, IMPROVE. Center text REPEAT. No dangling arrows, no extra stages. Authored workflow demonstration. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean circular process infographic with small console in center, exactly four nodes connected clockwise by arrowed arcs. Exact title PLAYTEST LOOP. Nodes around circle in order PLAN, BUILD, TEST, IMPROVE. Center text REPEAT. No dangling arrows, no extra stages. Authored workflow demonstration.",
+        "effect": "虛構遊戲活動的循環流程",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:18:59.806Z",
+        "source_instruction": "Show a repeating process as a circular flow.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "e9881976e352cf96f9c3531e9a8f12cd145557fbafc6b77ad6369c8f98699231",
+        "applied_prompt_sha256": "414fb94326a9450fb892af7a4220cfb2c47ac1449c1b9b16a69f87c5a9aea5b9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "中央參考主機保持外觀。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean circular process infographic with small console in center, exactly four nodes connected clockwise by arrowed arcs. Exact title PLAYTEST LOOP. Nodes around circle in order PLAN, BUILD, TEST, IMPROVE. Center text REPEAT. No dangling arrows, no extra stages. Authored workflow demonstration.",
+            "observed": "四階段遊戲測試循環完整呈現。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "虛構遊戲活動的循環流程",
+            "observed": "四色節點與代表圖示清楚區隔。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "箭頭順時針 PLAN→BUILD→TEST→IMPROVE→PLAN 形成閉環。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "PLAYTEST LOOP、四節點及 REPEAT 正確可讀。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-explainerboard-01",
+      "prompt_id": "src-visual642-060",
+      "command": "/explainerboard",
+      "title": "檸檬飲品一頁解說板",
+      "description": "檸檬飲品一頁解說板（AI案例示範）",
+      "result_text": "檸檬飲品一頁解說板",
+      "reference": "output/imagegen/batch-20-03/food-reference.png",
+      "result": "output/imagegen/batch-20-03/explainerboard.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /explainerboard: Teach the subject on one clean visual board. Input image is a reference for the product, scene or ingredient appearance only. One clean educational board. Exact title HOW LEMONADE COMES TOGETHER. Top three illustrated ingredients labeled WATER, LEMON, SUGAR. Middle visual equation three ingredients plus signs equals lemonade jug. Bottom exactly three short statements: WATER IS THE BASE; LEMON ADDS SOURNESS; SUGAR ADDS SWEETNESS. Clear hierarchy, no health or nutrition claims. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-03/food-reference.png",
+        "sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a neutral ingredient reference photograph for instructional website examples: one ripe unpeeled yellow banana, one whole lemon and one lemon half, a small clear bowl of granulated white sugar, a transparent jug of water and a plain empty glass on a clean light wooden kitchen table. Natural soft daylight, realistic ordinary ingredient sizes, tidy simple background, no packaging, no labels, no claims, no text. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：One clean educational board. Exact title HOW LEMONADE COMES TOGETHER. Top three illustrated ingredients labeled WATER, LEMON, SUGAR. Middle visual equation three ingredients plus signs equals lemonade jug. Bottom exactly three short statements: WATER IS THE BASE; LEMON ADDS SOURNESS; SUGAR ADDS SWEETNESS. Clear hierarchy, no health or nutrition claims.",
+        "effect": "檸檬飲品一頁解說板",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:19:41.563Z",
+        "source_instruction": "Teach the subject on one clean visual board.",
+        "reference_sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "result_sha256": "004c42776edb41381ff06961c8b3a4e4723e36d86717e6602758449de38d1834",
+        "applied_prompt_sha256": "9f1cb15bbdc1e588fc8eeb2ea810a3b68645ac36396c7833a29f7717f3bca0a4",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "水、檸檬、糖與成品對應參考素材。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：One clean educational board. Exact title HOW LEMONADE COMES TOGETHER. Top three illustrated ingredients labeled WATER, LEMON, SUGAR. Middle visual equation three ingredients plus signs equals lemonade jug. Bottom exactly three short statements: WATER IS THE BASE; LEMON ADDS SOURNESS; SUGAR ADDS SWEETNESS. Clear hierarchy, no health or nutrition claims.",
+            "observed": "說明看板含食材區、組合式與重點區。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬飲品一頁解說板",
+            "observed": "三色欄位與編號清楚呈現階層。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "水加檸檬加糖等於成品，底部三重點各對應食材。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "標題、WATER IS THE BASE、LEMON ADDS SOURNESS、SUGAR ADDS SWEETNESS 正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mythfact-01",
+      "prompt_id": "src-visual642-061",
+      "command": "/mythfact",
+      "title": "虛構遊戲規則的迷思與事實對照",
+      "description": "虛構遊戲規則的迷思與事實對照（AI案例示範）",
+      "result_text": "虛構遊戲規則的迷思與事實對照",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-03/mythfact.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /mythfact: Compare a common myth with the correct fact. Input image is a reference for the product, scene or ingredient appearance only. Clean two-column myth-versus-fact infographic for authored fictional game rules. Exact title DEMO GAME RULES; left header MYTH with red X, text EVERY ROUND HAS 4 PLAYERS; right header FACT with green check, text A ROUND CAN HAVE 2 TO 4 PLAYERS. Draw four player icons left and a highlighted group of two to four on right, small console illustration. Footer FICTIONAL DEMO: 2–4 PLAYERS. No claims about actual console capabilities. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean two-column myth-versus-fact infographic for authored fictional game rules. Exact title DEMO GAME RULES; left header MYTH with red X, text EVERY ROUND HAS 4 PLAYERS; right header FACT with green check, text A ROUND CAN HAVE 2 TO 4 PLAYERS. Draw four player icons left and a highlighted group of two to four on right, small console illustration. Footer FICTIONAL DEMO: 2–4 PLAYERS. No claims about actual console capabilities.",
+        "effect": "虛構遊戲規則的迷思與事實對照",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:20:27.553Z",
+        "source_instruction": "Compare a common myth with the correct fact.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "677c0f7063b321351905e44db102e6c393763316b46f6f91830297db07d7e9d7",
+        "applied_prompt_sha256": "f63a097203a8cbd9b8ed4484796f13c0936dd9528e6c438b397bc912a73de5af",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "參考遊戲主機保留且作為情境示意。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean two-column myth-versus-fact infographic for authored fictional game rules. Exact title DEMO GAME RULES; left header MYTH with red X, text EVERY ROUND HAS 4 PLAYERS; right header FACT with green check, text A ROUND CAN HAVE 2 TO 4 PLAYERS. Draw four player icons left and a highlighted group of two to four on right, small console illustration. Footer FICTIONAL DEMO: 2–4 PLAYERS. No claims about actual console capabilities.",
+            "observed": "迷思與事實雙欄對照明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "虛構遊戲規則的迷思與事實對照",
+            "observed": "左紅叉四人、右綠勾兩人加兩個選用輪廓清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "固定四人迷思與二至四人規則事實正確對應。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "所有文字與 FICTIONAL DEMO:2–4 PLAYERS 正確，虛構情境註記清楚。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-keytakeaways-01",
+      "prompt_id": "src-visual642-062",
+      "command": "/keytakeaways",
+      "title": "檸檬飲品製作的三項重點",
+      "description": "檸檬飲品製作的三項重點（AI案例示範）",
+      "result_text": "檸檬飲品製作的三項重點",
+      "reference": "output/imagegen/batch-20-03/food-reference.png",
+      "result": "output/imagegen/batch-20-03/keytakeaways.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /keytakeaways: Summarize the most important points in one visual. Input image is a reference for the product, scene or ingredient appearance only. Clean three-card key-takeaways infographic. Exact title LEMONADE: KEY TAKEAWAYS. Three numbered cards with matching ingredient icons and text: 1 WATER IS THE BASE; 2 LEMON ADDS SOURNESS; 3 SUGAR ADDS SWEETNESS. Footer EXAMPLE RECIPE. Balanced typography, only three points. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-03/food-reference.png",
+        "sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a neutral ingredient reference photograph for instructional website examples: one ripe unpeeled yellow banana, one whole lemon and one lemon half, a small clear bowl of granulated white sugar, a transparent jug of water and a plain empty glass on a clean light wooden kitchen table. Natural soft daylight, realistic ordinary ingredient sizes, tidy simple background, no packaging, no labels, no claims, no text. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean three-card key-takeaways infographic. Exact title LEMONADE: KEY TAKEAWAYS. Three numbered cards with matching ingredient icons and text: 1 WATER IS THE BASE; 2 LEMON ADDS SOURNESS; 3 SUGAR ADDS SWEETNESS. Footer EXAMPLE RECIPE. Balanced typography, only three points.",
+        "effect": "檸檬飲品製作的三項重點",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:21:22.888Z",
+        "source_instruction": "Summarize the most important points in one visual.",
+        "reference_sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "result_sha256": "bbe5c99ce2dbc1888f1d9861ca1e2e2e2ea7d9efba990203bf1ee528221573f3",
+        "applied_prompt_sha256": "169bbcec6f979875293992a077ea9c385a300664ced13f5d3c4673612fa3736c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "三種食材與檸檬飲料外觀一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean three-card key-takeaways infographic. Exact title LEMONADE: KEY TAKEAWAYS. Three numbered cards with matching ingredient icons and text: 1 WATER IS THE BASE; 2 LEMON ADDS SOURNESS; 3 SUGAR ADDS SWEETNESS. Footer EXAMPLE RECIPE. Balanced typography, only three points.",
+            "observed": "三項重點卡完整呈現飲料組成。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬飲品製作的三項重點",
+            "observed": "三色編號卡配合食材照片清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "三個箭頭指向共同成品，重點與食材逐一對應。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "標題、三句重點及 EXAMPLE RECIPE 正確可讀。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-summarycard-01",
+      "prompt_id": "src-visual642-063",
+      "command": "/summarycard",
+      "title": "虛構遊戲活動的快速摘要卡",
+      "description": "虛構遊戲活動的快速摘要卡（AI案例示範）",
+      "result_text": "虛構遊戲活動的快速摘要卡",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-03/summarycard.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /summarycard: Condense the subject into a quick summary card. Input image is a reference for the product, scene or ingredient appearance only. Single compact polished summary card with small recognizable reference console. Exact title GAME NIGHT; three short lines PLAYERS: 2–4; ROUNDS: 3; GOAL: HAVE FUN. Footer SAMPLE EVENT. Clear hierarchy and spacing; all numbers are authored sample event rules, not console specifications. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Single compact polished summary card with small recognizable reference console. Exact title GAME NIGHT; three short lines PLAYERS: 2–4; ROUNDS: 3; GOAL: HAVE FUN. Footer SAMPLE EVENT. Clear hierarchy and spacing; all numbers are authored sample event rules, not console specifications.",
+        "effect": "虛構遊戲活動的快速摘要卡",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:22:11.140Z",
+        "source_instruction": "Condense the subject into a quick summary card.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "edd51b8befdc8afb177314111a6efe616a57ef468e8aa25ec9e136972ae32537",
+        "applied_prompt_sha256": "77ce9dc04b2563230f9b6f23feaa590ee729f1beec196fff762a824fff100adb",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "主機外觀與參考一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Single compact polished summary card with small recognizable reference console. Exact title GAME NIGHT; three short lines PLAYERS: 2–4; ROUNDS: 3; GOAL: HAVE FUN. Footer SAMPLE EVENT. Clear hierarchy and spacing; all numbers are authored sample event rules, not console specifications.",
+            "observed": "活動摘要卡包含人數、回合與目標三項。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "虛構遊戲活動的快速摘要卡",
+            "observed": "藍綠紅摘要區塊與圖示清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "2–4人、3回合、享受樂趣各對應正確標籤。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "GAME NIGHT、PLAYERS、ROUNDS、GOAL 與 SAMPLE EVENT 正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-learningpath-01",
+      "prompt_id": "src-visual642-064",
+      "command": "/learningpath",
+      "title": "遊戲活動設計的循序學習路徑",
+      "description": "遊戲活動設計的循序學習路徑（AI案例示範）",
+      "result_text": "遊戲活動設計的循序學習路徑",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-03/learningpath.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /learningpath: Arrange skills or concepts in a clear learning order. Input image is a reference for the product, scene or ingredient appearance only. Clean instructional learning path infographic with small reference console icon. Exact title DESIGN A GAME EVENT. Four numbered stepping-stone cards linked in clear order: 1 DEFINE RULES; 2 BUILD A DEMO; 3 RUN A PLAYTEST; 4 REFINE THE EVENT. Add subtle upward progress trail but no branching or looping. Footer SAMPLE LEARNING PATH. Authored teaching order, no actual certification claims. Square composition, professional layout, no watermarks or copied reference advertising, no unintended extra text. Preserve recognizable subject where applicable. For infographic examples prioritize exact text, clear arrows, accurate counts and the provided demonstration facts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+        "scene": "符合指定場景或資訊圖版面：Clean instructional learning path infographic with small reference console icon. Exact title DESIGN A GAME EVENT. Four numbered stepping-stone cards linked in clear order: 1 DEFINE RULES; 2 BUILD A DEMO; 3 RUN A PLAYTEST; 4 REFINE THE EVENT. Add subtle upward progress trail but no branching or looping. Footer SAMPLE LEARNING PATH. Authored teaching order, no actual certification claims.",
+        "effect": "遊戲活動設計的循序學習路徑",
+        "relations": "圖像比例、框架、箭頭及步驟順序符合指令",
+        "details": "指定文字、數字與節點數正確，無多餘文案或水印"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:23:04.211Z",
+        "source_instruction": "Arrange skills or concepts in a clear learning order.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "1dea2716d2e3eab84b4dd89aad8f295167cadff3bf1ddce0fb9d0bb536dd8731",
+        "applied_prompt_sha256": "52adc403b3751ae2c62bcfa2d52a2c7537341235e4aaf4c888b3dc8f0c29127d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留指定產品或食材身份；資訊圖使用指定示範主題",
+            "observed": "主機主視覺保留參考外觀。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "符合指定場景或資訊圖版面：Clean instructional learning path infographic with small reference console icon. Exact title DESIGN A GAME EVENT. Four numbered stepping-stone cards linked in clear order: 1 DEFINE RULES; 2 BUILD A DEMO; 3 RUN A PLAYTEST; 4 REFINE THE EVENT. Add subtle upward progress trail but no branching or looping. Footer SAMPLE LEARNING PATH. Authored teaching order, no actual certification claims.",
+            "observed": "四階段學習路徑由定義規則到活動改善。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "遊戲活動設計的循序學習路徑",
+            "observed": "四色階梯卡與對應圖示清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "圖像比例、框架、箭頭及步驟順序符合指令",
+            "observed": "1定義規則、2建立示範、3試玩、4改善依箭頭上升。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字與節點數正確，無多餘文案或水印",
+            "observed": "標題、四步驟及 SAMPLE LEARNING PATH 正確可讀。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

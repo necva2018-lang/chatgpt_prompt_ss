@@ -1,0 +1,1424 @@
+{
+  "version": 1,
+  "id": "batch-20-21",
+  "cases": [
+    {
+      "id": "case-battery-21-01",
+      "prompt_id": "src-visual642-405",
+      "command": "/battery",
+      "title": "感應燈電池位置與電力路徑",
+      "description": "感應燈電池位置與電力路徑（AI案例示範）",
+      "result_text": "感應燈電池位置與電力路徑",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-21/battery-21.png",
+      "applied_prompt": "Square web-quality infographic of reference white wall light. Upper frosted wide rectangle glows warm and is labelled LED DIFFUSER with leader pointing into its center. Lower battery access door removed, two plain batteries visible. One small green controller board beside batteries, labelled CONTROLLER. Label BATTERY points to batteries. No additional exposed yellow LED chips, no chip near circular sensor. At bottom a separate block diagram BATTERY -> CONTROLLER -> LED LIGHT, both arrows point right. Title BATTERY ACCESS CONCEPT. Illustrative internal layout, preserve external housing upper diffuser and circular sensor beneath it. Original /battery: Show battery location, access, and power path.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Concept cutaway wall light with lower battery compartment open, battery access cover beside it; red power arrow BATTERY -> CONTROLLER -> LED. Title BATTERY ACCESS CONCEPT.",
+        "effect": "感應燈電池位置與電力路徑",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T02:58:47.687Z",
+        "source_instruction": "Show battery location, access, and power path.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "67bc1a2325e79b35bb42f0d786e6956290b33dbe8211edefa2a5fbed00e8d3c6",
+        "applied_prompt_sha256": "7a30df163b1476891b78636ea5c8604d9760eada22f20dde4edf08ac8a288585",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "概念燈具結構與能量／訊號路徑，非參考實物拆解；連線圖是明示設計概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色壁燈外型一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Concept cutaway wall light with lower battery compartment open, battery access cover beside it; red power arrow BATTERY -> CONTROLLER -> LED. Title BATTERY ACCESS CONCEPT.",
+            "observed": "下方電池艙敞開可接近電池",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈電池位置與電力路徑",
+            "observed": "電池位置與電力路徑皆可辨識",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "箭頭電池到控制器到LED向右，LED引線指上方發光罩",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念標題與三標籤清楚",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "電力箭頭反向",
+          "applied_prompt": "Create a square web-quality website example. Concept cutaway wall light with lower battery compartment open, battery access cover beside it; red power arrow BATTERY -> CONTROLLER -> LED. Title BATTERY ACCESS CONCEPT. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /battery: Show battery location, access, and power path.",
+          "result": "output/imagegen/batch-20-21/battery-21-initial.png"
+        },
+        {
+          "reason": "LED引線未對應上方發光區",
+          "applied_prompt": "Square product infographic reference wall light identity. Lower battery compartment open with access cover lying in front, two AA cells visible. Controller circuit board visible beside sensor. Title BATTERY ACCESS CONCEPT. Three labels BATTERY, CONTROLLER, LED with plain thin leader lines without arrowheads pointing to respective parts. At bottom separate three simple boxes BATTERY -> CONTROLLER -> LED, exactly two arrows both pointing RIGHT. No arrows on product itself. Show battery location and access with correct power path. Original instruction /battery: Show battery location, access, and power path.",
+          "result": "output/imagegen/batch-20-21/battery-21-repair1.png"
+        }
+      ]
+    },
+    {
+      "id": "case-connect-21-01",
+      "prompt_id": "src-visual642-406",
+      "command": "/connectivity",
+      "title": "感應燈連線方式概念",
+      "description": "感應燈連線方式概念（AI案例示範）",
+      "result_text": "感應燈連線方式概念",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-21/connect-21.png",
+      "applied_prompt": "Create a square web-quality website example. Two matching generic lamp concepts side by side: left WIRED with USB cable connecting to laptop, right WIRELESS with Bluetooth symbol and phone. Title CONNECTIVITY DESIGN CONCEPT; fictional variants, no claims of actual reference product features. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /connectivity: Map wireless and wired connections.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Two matching generic lamp concepts side by side: left WIRED with USB cable connecting to laptop, right WIRELESS with Bluetooth symbol and phone. Title CONNECTIVITY DESIGN CONCEPT; fictional variants, no claims of actual reference product features.",
+        "effect": "感應燈連線方式概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T02:59:30.881Z",
+        "source_instruction": "Map wireless and wired connections.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "454af63f9d1b654ebe7133a5e2a05e82ac3b234f28fa3d8303fb12f2da997b52",
+        "applied_prompt_sha256": "86e1d1e57c4c1d2d732a2664fed2ad238c8b40802f963d54b5d0871d66537f05",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "概念燈具結構與能量／訊號路徑，非參考實物拆解；連線圖是明示設計概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款白色燈左右一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Two matching generic lamp concepts side by side: left WIRED with USB cable connecting to laptop, right WIRELESS with Bluetooth symbol and phone. Title CONNECTIVITY DESIGN CONCEPT; fictional variants, no claims of actual reference product features.",
+            "observed": "左筆電USB右手機無線",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈連線方式概念",
+            "observed": "有線及無線連接清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "USB實際連接兩端，藍牙訊號位於手機與燈之間",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "DESIGN CONCEPT標題未聲稱實物規格",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-compare-21-01",
+      "prompt_id": "src-visual642-407",
+      "command": "/comparison",
+      "title": "水瓶保護套版本比較",
+      "description": "水瓶保護套版本比較（AI案例示範）",
+      "result_text": "水瓶保護套版本比較",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-21/compare-21.png",
+      "applied_prompt": "Create a square web-quality website example. Two identical green bottles matching front view: left bare base, right olive protective boot. Labels ORIGINAL and WITH BASE BOOT, neutral studio comparison. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /comparison: Compare subjects or versions in matching views.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Two identical green bottles matching front view: left bare base, right olive protective boot. Labels ORIGINAL and WITH BASE BOOT, neutral studio comparison.",
+        "effect": "水瓶保護套版本比較",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:00:07.327Z",
+        "source_instruction": "Compare subjects or versions in matching views.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "7c2caa3f83aa2dfdda39b0bf65369bd2a90d8bf88bcc596d62c363c34931ea6e",
+        "applied_prompt_sha256": "312781e0a0ec0f91ad419132587cc0b2a0b93ba5a27b966f92890307653448cd",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "兩個同款綠瓶黑蓋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Two identical green bottles matching front view: left bare base, right olive protective boot. Labels ORIGINAL and WITH BASE BOOT, neutral studio comparison.",
+            "observed": "同角度等比例棚拍",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶保護套版本比較",
+            "observed": "原版與護底套版對照",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "右側套貼合底部其餘一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "兩標籤正確清晰",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-benchmark-21-01",
+      "prompt_id": "src-visual642-408",
+      "command": "/benchmark",
+      "title": "帆布袋負載比較示範",
+      "description": "帆布袋負載比較示範（AI案例示範）",
+      "result_text": "帆布袋負載比較示範",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-21/benchmark-21.png",
+      "applied_prompt": "Create a square web-quality website example. Two identical tote bags front view, left REFERENCE holds two same-sized books, right CONCEPT holds four same-sized books. Title ILLUSTRATIVE CAPACITY BENCHMARK. Subtitle NOT A LOAD TEST. Clear count and matching scale, no weight claims. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /benchmark: Compare performance against a clear reference or competitor.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Two identical tote bags front view, left REFERENCE holds two same-sized books, right CONCEPT holds four same-sized books. Title ILLUSTRATIVE CAPACITY BENCHMARK. Subtitle NOT A LOAD TEST. Clear count and matching scale, no weight claims.",
+        "effect": "帆布袋負載比較示範",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:00:57.837Z",
+        "source_instruction": "Compare performance against a clear reference or competitor.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "0212b13d40797e308466db2dc2ed22c7291baca9071c402cc6fb5f3172122312",
+        "applied_prompt_sha256": "dc4f1931e7993607ba417508f24342bc4eac0bd50af53ace93b9c36e1977b062",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "兩個同款米色棕提把袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Two identical tote bags front view, left REFERENCE holds two same-sized books, right CONCEPT holds four same-sized books. Title ILLUSTRATIVE CAPACITY BENCHMARK. Subtitle NOT A LOAD TEST. Clear count and matching scale, no weight claims.",
+            "observed": "同尺度同視角對照",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋負載比較示範",
+            "observed": "參考兩本與概念四本以圖示和標籤對比",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "書本放袋內且比較基準清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "明示示意容量比較非承重測試",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-inside-21-01",
+      "prompt_id": "src-visual642-409",
+      "command": "/insideview",
+      "title": "住宅室內局部剖視",
+      "description": "住宅室內局部剖視（AI案例示範）",
+      "result_text": "住宅室內局部剖視",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-21/inside-21.png",
+      "applied_prompt": "Create a square web-quality website example. Same house, small front-wall cutaway reveals furnished living room while most exterior remains intact. Title INTERIOR CONCEPT. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /insideview: Show the interior without fully destroying the exterior.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Same house, small front-wall cutaway reveals furnished living room while most exterior remains intact. Title INTERIOR CONCEPT.",
+        "effect": "住宅室內局部剖視",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:01:40.551Z",
+        "source_instruction": "Show the interior without fully destroying the exterior.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "92b555fccaa0e27f2bc49dbc724ace3025521e0b8663582ed2146916a345a761",
+        "applied_prompt_sha256": "f348a9b232b1490a7e924b768a48f86edbb7cd8801352099b0432d8e7bde0da0",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "原住宅身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Same house, small front-wall cutaway reveals furnished living room while most exterior remains intact. Title INTERIOR CONCEPT.",
+            "observed": "底層局部牆面剖開露客廳",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "住宅室內局部剖視",
+            "observed": "可見內部且大多外觀完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "局部剖面與室內地板牆面銜接合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念標示清楚無破壞整棟",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-hidden-21-01",
+      "prompt_id": "src-visual642-410",
+      "command": "/hiddenparts",
+      "title": "感應燈隱藏元件",
+      "description": "感應燈隱藏元件（AI案例示範）",
+      "result_text": "感應燈隱藏元件",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-21/hidden-21.png",
+      "applied_prompt": "Square web-quality concealed-components concept diagram using reference white wall lamp. Right half of housing cut away. Internal components must occupy physically matching levels: TOP: white LED board with yellow chips directly behind upper rectangular diffuser. MIDDLE RIGHT: green controller board beside lower circular PIR lens. BOTTOM: blue battery in lower compartment. Four clean leaders label LED at top board, CONTROLLER at middle board, PIR at circular lens, BATTERY at bottom. Title CONCEALED COMPONENTS CONCEPT. Preserve left half exterior so original upper diffuser and lower sensor remain identifiable. Original /hiddenparts: Reveal concealed components or structures.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Wall light exterior semi-open reveals battery, controller, LED and PIR behind circular lens; label four parts. Title CONCEALED COMPONENTS CONCEPT.",
+        "effect": "感應燈隱藏元件",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:03:38.599Z",
+        "source_instruction": "Reveal concealed components or structures.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "d3f6c5bd76df11300c23aeaa0f3b576ca27839078a6a736914a55eaf137bff97",
+        "applied_prompt_sha256": "dc6234df11f81d6de835426c845d91063fbce51e35f35a84f4cb3e8a22e36fe3",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "概念燈具結構與能量／訊號路徑，非參考實物拆解；連線圖是明示設計概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "燈具外觀一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Wall light exterior semi-open reveals battery, controller, LED and PIR behind circular lens; label four parts. Title CONCEALED COMPONENTS CONCEPT.",
+            "observed": "半剖開展示隱藏元件",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈隱藏元件",
+            "observed": "LED控制板PIR電池清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "LED在上方發光罩後，PIR在下圓鏡片後，電池底部",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念標示及引線正確",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "LED板位置不對應發光罩",
+          "applied_prompt": "Create a square web-quality website example. Wall light exterior semi-open reveals battery, controller, LED and PIR behind circular lens; label four parts. Title CONCEALED COMPONENTS CONCEPT. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /hiddenparts: Reveal concealed components or structures.",
+          "result": "output/imagegen/batch-20-21/hidden-21-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-see-21-01",
+      "prompt_id": "src-visual642-411",
+      "command": "/seethrough",
+      "title": "水瓶局部透明視圖",
+      "description": "水瓶局部透明視圖（AI案例示範）",
+      "result_text": "水瓶局部透明視圖",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-21/see-21.png",
+      "applied_prompt": "Create a square web-quality website example. Green bottle side wall selected patch transparent showing empty interior and wall thickness; cap remains opaque. Title TRANSPARENT SURFACE CONCEPT. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /seethrough: Make selected surfaces transparent.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Green bottle side wall selected patch transparent showing empty interior and wall thickness; cap remains opaque. Title TRANSPARENT SURFACE CONCEPT.",
+        "effect": "水瓶局部透明視圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:04:28.685Z",
+        "source_instruction": "Make selected surfaces transparent.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "7a91914eb097bfb5c49ee49e0a67ac791b10d4bcd81e08cd802e48f0a4104caa",
+        "applied_prompt_sha256": "58b659f3441d3bdfaa8fc79741f1b650a708f04093b880712ed72f73246e9d70",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑提環蓋一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Green bottle side wall selected patch transparent showing empty interior and wall thickness; cap remains opaque. Title TRANSPARENT SURFACE CONCEPT.",
+            "observed": "局部長窗透明其餘外壁保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶局部透明視圖",
+            "observed": "內部空間與壁厚可見",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "透明區域位於瓶身而瓶蓋不透明",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念標題及引線清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-peel-21-01",
+      "prompt_id": "src-visual642-412",
+      "command": "/peelback",
+      "title": "紙盒表面翻開示意",
+      "description": "紙盒表面翻開示意（AI案例示範）",
+      "result_text": "紙盒表面翻開示意",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-21/peel-21.png",
+      "applied_prompt": "Create a square web-quality website example. Kraft box outer paper surface one corner peeled back like curled flap revealing corrugated layer beneath, rest intact. Title PEEL-BACK CONCEPT. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /peelback: Pull the outer surface aside like a flap.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Kraft box outer paper surface one corner peeled back like curled flap revealing corrugated layer beneath, rest intact. Title PEEL-BACK CONCEPT.",
+        "effect": "紙盒表面翻開示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:05:16.623Z",
+        "source_instruction": "Pull the outer surface aside like a flap.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "1806d5c8366ee800dd9da7df41854949a3717bc695e138df3c5c09bb2a641a93",
+        "applied_prompt_sha256": "871ce4a6fc28610c11ec05935868d7507e2a49ed7b6afa1c174d1e0cc7801cbe",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紙盒保留參考葉紋外觀",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Kraft box outer paper surface one corner peeled back like curled flap revealing corrugated layer beneath, rest intact. Title PEEL-BACK CONCEPT.",
+            "observed": "表層右上角捲成翻片",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒表面翻開示意",
+            "observed": "露出內部瓦楞層",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "翻片仍連外表面未整盒拆散",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念標題與紙材合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-schematic-21-01",
+      "prompt_id": "src-visual642-413",
+      "command": "/schematic",
+      "title": "感應燈功能方塊圖",
+      "description": "感應燈功能方塊圖（AI案例示範）",
+      "result_text": "感應燈功能方塊圖",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-21/schematic-21.png",
+      "applied_prompt": "Create a square web-quality website example. Simplified blocks BATTERY -> CONTROLLER -> LED with separate PIR SENSOR -> CONTROLLER signal line. Small lamp reference icon. Title FUNCTIONAL SCHEMATIC. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /schematic: Simplify the subject into a functional diagram.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Simplified blocks BATTERY -> CONTROLLER -> LED with separate PIR SENSOR -> CONTROLLER signal line. Small lamp reference icon. Title FUNCTIONAL SCHEMATIC.",
+        "effect": "感應燈功能方塊圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:06:06.530Z",
+        "source_instruction": "Simplify the subject into a functional diagram.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "2d2ec7a09079f4e9b542c8e8dd04a5a8ffc4032ed46df4e1120922678748239c",
+        "applied_prompt_sha256": "f8775703bed15627068e780316187f4f31954468f215602d720bad37f0a36154",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "概念燈具結構與能量／訊號路徑，非參考實物拆解；連線圖是明示設計概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "感應燈功能抽象為四模組",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Simplified blocks BATTERY -> CONTROLLER -> LED with separate PIR SENSOR -> CONTROLLER signal line. Small lamp reference icon. Title FUNCTIONAL SCHEMATIC.",
+            "observed": "方塊圖簡化清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈功能方塊圖",
+            "observed": "電池控制LED與PIR訊號齊全",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "電池到控制到LED向右，PIR虛線向控制器",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無多餘方向或虛構規格",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-technical-21-01",
+      "prompt_id": "src-visual642-414",
+      "command": "/technicaldrawing",
+      "title": "紙盒三視圖",
+      "description": "紙盒三視圖（AI案例示範）",
+      "result_text": "紙盒三視圖",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-21/technical-21.png",
+      "applied_prompt": "Square web-quality orthographic technical drawing of one CUBE packaging design. Three EXACTLY IDENTICAL SQUARES side length 300 pixels, no perspective, flat pale sage fill thin black outline. Layout TOP square upper left, FRONT square directly below TOP, SIDE square directly right of FRONT. All three squares same width and height. Front square has small leaf emblem center, other squares blank. Label TOP above top square, FRONT below front square, SIDE below side square. Title CUBE DESIGN VIEWS. No projection lines no dimensions no extra rectangles. Original /technicaldrawing: Show accurate front, side, and top views.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "等邊方盒設計概念，同尺度正面、側面、頂面三個等大正方形，無透視",
+        "effect": "紙盒三視圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:08:44.340Z",
+        "source_instruction": "Show accurate front, side, and top views.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "e5e962ca0a8ddfd551480f1bc754a4d4ad06f1b8a0830662c63463d2cca02184",
+        "applied_prompt_sha256": "e29dd59ff5d2f35e4376adbc7bd133fa11c3ad1b96413a4904199f0fed354278",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紙盒抽象為綠色方盒設計",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "等邊方盒設計概念，同尺度正面、側面、頂面三個等大正方形，無透視",
+            "observed": "正側頂三視圖齊全",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒三視圖",
+            "observed": "同尺度正方形正投影",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三面尺寸目視一致且上下左右對齊",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CUBE DESIGN VIEWS明示設計，無透視",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "三視圖比例不一致且有透視",
+          "applied_prompt": "Create a square web-quality website example. Closed rectangular kraft box accurately aligned orthographic FRONT SIDE TOP views same proportions; no perspective. Fictional dimensions concept width 20 depth 12 height 10 cm without dimension labels. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /technicaldrawing: Show accurate front, side, and top views.",
+          "result": "output/imagegen/batch-20-21/technical-21-initial.png"
+        },
+        {
+          "reason": "側視深度與俯視深度不一致",
+          "applied_prompt": "Square technical orthographic line drawing of a closed rectangular box DESIGN CONCEPT. Crisp flat diagram, no photo or perspective. Use SAME SCALE for all views. FRONT rectangle width400px height200px bottom left. TOP rectangle width400px height240px directly ABOVE front with identical left right alignment. SIDE rectangle width240px height200px directly RIGHT of front, identical top bottom alignment. Small centered leaf emblem on front only. Thin dashed projection guides connect corresponding edges. Labels TOP, FRONT, SIDE. Pale sage fill with black outlines. These projections represent a fictional 20x12x10 proportion box. Original /technicaldrawing: Show accurate front, side, and top views.",
+          "result": "output/imagegen/batch-20-21/technical-21-repair1.png"
+        }
+      ]
+    },
+    {
+      "id": "case-iso-21-01",
+      "prompt_id": "src-visual642-415",
+      "command": "/isometric",
+      "title": "紙盒等角工程視圖",
+      "description": "紙盒等角工程視圖（AI案例示範）",
+      "result_text": "紙盒等角工程視圖",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-21/iso-21.png",
+      "applied_prompt": "Create a square web-quality website example. Clean isometric engineering-style kraft box view showing top front side, parallel edges no vanishing point, pale grid. Title ISOMETRIC VIEW. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /isometric: Create an angled engineering-style view.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Clean isometric engineering-style kraft box view showing top front side, parallel edges no vanishing point, pale grid. Title ISOMETRIC VIEW.",
+        "effect": "紙盒等角工程視圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:09:27.885Z",
+        "source_instruction": "Create an angled engineering-style view.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "969b2d34cd8fb8398d3b6745358fc9d92dcdca9adcbf52864a4b22471807e615",
+        "applied_prompt_sha256": "ae7c8dbbe03313223b37df5b0c402a94bd381e5a2ad6d71e2f18c60351cb1997",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色葉紋紙盒一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Clean isometric engineering-style kraft box view showing top front side, parallel edges no vanishing point, pale grid. Title ISOMETRIC VIEW.",
+            "observed": "工程斜角搭配淡格線",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒等角工程視圖",
+            "observed": "可見頂正側三面",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "同組邊線保持平行不收斂",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "標題及三面引線清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cad-21-01",
+      "prompt_id": "src-visual642-416",
+      "command": "/cadview",
+      "title": "水瓶CAD模型視圖",
+      "description": "水瓶CAD模型視圖（AI案例示範）",
+      "result_text": "水瓶CAD模型視圖",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-21/cad-21.png",
+      "applied_prompt": "Create a square web-quality website example. Sage bottle rendered as CAD solid grey model with black edge outlines, simple neutral grid background, three-quarter angle. Title CAD DESIGN CONCEPT. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /cadview: Present the subject like a CAD model.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Sage bottle rendered as CAD solid grey model with black edge outlines, simple neutral grid background, three-quarter angle. Title CAD DESIGN CONCEPT.",
+        "effect": "水瓶CAD模型視圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:10:11.945Z",
+        "source_instruction": "Present the subject like a CAD model.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "9428fd68d7d10c2c041dff1f030ba724ec878487417b490045137d4053983262",
+        "applied_prompt_sha256": "b080cee39f56ba04cbb2fc4f93b553b5ef5b78226647009506b22df7c2f55bb9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "水瓶與提環蓋輪廓保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Sage bottle rendered as CAD solid grey model with black edge outlines, simple neutral grid background, three-quarter angle. Title CAD DESIGN CONCEPT.",
+            "observed": "灰色CAD模型置於格線",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶CAD模型視圖",
+            "observed": "實體灰模搭配黑色邊線",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶身蓋接合比例合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CAD概念標示清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-dimension-21-01",
+      "prompt_id": "src-visual642-417",
+      "command": "/dimensionview",
+      "title": "紙盒尺寸設計示意",
+      "description": "紙盒尺寸設計示意（AI案例示範）",
+      "result_text": "紙盒尺寸設計示意",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-21/dimension-21.png",
+      "applied_prompt": "Create a square web-quality website example. Rectangular closed box fictional design W20 D12 H10 cm; three-quarter diagram clear dimension arrows width20cm height10cm depth12cm on corresponding edges. Title CONCEPT DIMENSIONS, subtitle NOT MEASURED FROM PHOTO. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /dimensionview: Add clear measurements around the subject.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rectangular closed box fictional design W20 D12 H10 cm; three-quarter diagram clear dimension arrows width20cm height10cm depth12cm on corresponding edges. Title CONCEPT DIMENSIONS, subtitle NOT MEASURED FROM PHOTO.",
+        "effect": "紙盒尺寸設計示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:11:06.701Z",
+        "source_instruction": "Add clear measurements around the subject.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "011e1a34bd474e211f59f171e39cab9dad5466aa5864b865fc16e8b804806f14",
+        "applied_prompt_sha256": "8e838a2c1cc2b3874a57f8f1bde1db8ea9aea21dea593b6cab658edeee110147",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色紙盒葉紋保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rectangular closed box fictional design W20 D12 H10 cm; three-quarter diagram clear dimension arrows width20cm height10cm depth12cm on corresponding edges. Title CONCEPT DIMENSIONS, subtitle NOT MEASURED FROM PHOTO.",
+            "observed": "三分之四角度尺寸圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒尺寸設計示意",
+            "observed": "寬深高三方向清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "20寬12深10高箭頭接對邊",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念尺寸及非照片測量聲明清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-lines-21-01",
+      "prompt_id": "src-visual642-418",
+      "command": "/dimensionlines",
+      "title": "紙盒尺寸線示意",
+      "description": "紙盒尺寸線示意（AI案例示範）",
+      "result_text": "紙盒尺寸線示意",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-21/lines-21.png",
+      "applied_prompt": "Square clean technical measurement illustration. Pale sage rectangular box FRONT view width twice height. Small leaf emblem centered. Horizontal double-ended dimension line below between the two lower corners labelled 20 cm. Vertical double-ended line right between top and bottom corners labelled 10 cm. Title DESIGN DIMENSION LINES. Small subtitle FICTIONAL DESIGN. These are the ONLY words in image. No other captions or footers. No perspective or visible top face. Original /dimensionlines: Draw technical measurement lines between points.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Front orthographic closed box rectangle width20 height10 arbitrary design cm; horizontal dimension line beneath between exact bottom corners 20cm, vertical line right between top bottom10cm. Title DESIGN DIMENSION LINES.",
+        "effect": "紙盒尺寸線示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:12:35.615Z",
+        "source_instruction": "Draw technical measurement lines between points.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "dfd3e8b919d8100dcf6ea77ba416dfb8f94f4c59b2cb01e53dc1950c6f19ea1e",
+        "applied_prompt_sha256": "e3e053ab9a82c044394cf70d89c3cf3362feab1cf0543b459fd7eda2f9799adf",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色葉紋矩形盒設計",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Front orthographic closed box rectangle width20 height10 arbitrary design cm; horizontal dimension line beneath between exact bottom corners 20cm, vertical line right between top bottom10cm. Title DESIGN DIMENSION LINES.",
+            "observed": "正面技術尺寸圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒尺寸線示意",
+            "observed": "水平寬與垂直高尺寸線清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "尺寸線兩端對應外形角點",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "僅20cm10cm與虛構設計標示",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "生圖說明誤印畫面",
+          "applied_prompt": "Create a square web-quality website example. Front orthographic closed box rectangle width20 height10 arbitrary design cm; horizontal dimension line beneath between exact bottom corners 20cm, vertical line right between top bottom10cm. Title DESIGN DIMENSION LINES. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /dimensionlines: Draw technical measurement lines between points.",
+          "result": "output/imagegen/batch-20-21/lines-21-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-grid-21-01",
+      "prompt_id": "src-visual642-419",
+      "command": "/scalegrid",
+      "title": "紙盒比例方格",
+      "description": "紙盒比例方格（AI案例示範）",
+      "result_text": "紙盒比例方格",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-21/grid-21.png",
+      "applied_prompt": "Square image. Clean flat front view of a pale sage SQUARE packaging box centered on a regular square grid. Box occupies exactly FOUR columns by FOUR rows of the grid. Its four edges lie on grid lines. Grid lines continue visibly across its surface; tiny dark leaf emblem centered. Title SCALE GRID CONCEPT above. No other text. No numbers no axis labels no arrows. Original /scalegrid: Use a grid to communicate size and proportion.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "以均勻方格呈現方盒寬高比例，原指令未指定格數或尺寸",
+        "effect": "紙盒比例方格",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:15:22.403Z",
+        "source_instruction": "Use a grid to communicate size and proportion.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "0a5a3d060e7b94bfdb89c88a0c51fd0a3796c442ba2b8da186cb26fc824e1683",
+        "applied_prompt_sha256": "d1ac6eecb78582a042b669cba3dd64dfd0bbc6fff386d16c0afeffea9b03f1c0",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色葉紋方盒",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "以均勻方格呈現方盒寬高比例，原指令未指定格數或尺寸",
+            "observed": "均勻方格穿過方盒",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒比例方格",
+            "observed": "格線清楚傳達等寬高比例",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒四邊約對齊5x5格；非提示詞4x4但原指令未限定格數",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無數值或尺度宣稱避免矛盾",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "座標數值與物件範圍矛盾",
+          "applied_prompt": "Create a square web-quality website example. Front closed box rectangle width20 height10 arbitrary design units, on 1unit square grid with every5units major lines. Title SCALE GRID CONCEPT. No photograph measurement claim. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /scalegrid: Use a grid to communicate size and proportion.",
+          "result": "output/imagegen/batch-20-21/grid-21-initial.png"
+        },
+        {
+          "reason": "改成方盒呈現等寬高比例",
+          "applied_prompt": "Square minimalist SCALE GRID CONCEPT infographic. Flat pale sage rectangle with leaf emblem, width exactly twice height. Place rectangle aligned perfectly on a regular square grid: its left edge on one vertical gridline, right edge ten grid spaces later, bottom on a horizontal gridline, top five grid spaces above. Grid visible across rectangle as thin transparent lines so ten columns and five rows can be counted. No axis numbers, no dimension arrows, no numerical labels. Only title SCALE GRID CONCEPT. Original /scalegrid: Use a grid to communicate size and proportion.",
+          "result": "output/imagegen/batch-20-21/grid-21-repair1.png"
+        }
+      ],
+      "review_note": "實際為約5x5格而非提示詞4x4；不影響原指令比例展示，無數字標示誤導。"
+    },
+    {
+      "id": "case-contour-21-01",
+      "prompt_id": "src-visual642-421",
+      "command": "/contourmap",
+      "title": "住宅基地等高線示意",
+      "description": "住宅基地等高線示意（AI案例示範）",
+      "result_text": "住宅基地等高線示意",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-21/contour-21.png",
+      "applied_prompt": "Create a square web-quality website example. House on fictional sloping landscape with nested nonintersecting contour lines labelled 100m 105m 110m 115m increasing uphill; title TOPOGRAPHIC CONCEPT. No real site survey. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /contourmap: Show height, depth, or surface levels with lines.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "House on fictional sloping landscape with nested nonintersecting contour lines labelled 100m 105m 110m 115m increasing uphill; title TOPOGRAPHIC CONCEPT. No real site survey.",
+        "effect": "住宅基地等高線示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:19:23.017Z",
+        "source_instruction": "Show height, depth, or surface levels with lines.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "2653b102f2b27e036a504c83b14876ce323c951d8876f1cccb2ba1cc3a634722",
+        "applied_prompt_sha256": "e9f7ca0673cafe9584d823df63128cbaae91bb81ff239d73d4060a7c2ba28df8",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.usgs.gov/programs/national-geospatial-program/topographic-maps"
+          ],
+          "notes": "等高線連接同高點；圖為虛構地形概念，標示高程往坡頂增加，不冒充實測。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同一住宅與虛構坡地",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "House on fictional sloping landscape with nested nonintersecting contour lines labelled 100m 105m 110m 115m increasing uphill; title TOPOGRAPHIC CONCEPT. No real site survey.",
+            "observed": "白色等高線貼合地面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "住宅基地等高線示意",
+            "observed": "100105110115標示往坡頂增加",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "線條未交叉，呈現不同高程層級",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "TOPOGRAPHIC CONCEPT未冒充實測基地",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-how-21-01",
+      "prompt_id": "src-visual642-422",
+      "command": "/howitworks",
+      "title": "手搖齒輪運作解說",
+      "description": "手搖齒輪運作解說（AI案例示範）",
+      "result_text": "手搖齒輪運作解說",
+      "reference": "output/imagegen/batch-20-20/gear-reference.png",
+      "result": "output/imagegen/batch-20-21/how-21.png",
+      "applied_prompt": "Create a square web-quality website example. Two equal meshed spur gears left crank clockwise red arrow right gear counterclockwise blue arrow. Three labels TURN CRANK, GEARS MESH, OUTPUT ROTATES. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /howitworks: Explain the basic function visually.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/gear-reference.png",
+        "sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic educational hand-crank gear demonstrator. Exactly TWO equal-sized steel spur gears on parallel short horizontal shafts, mounted side by side on a cream vertical support plate above a stable teal base. Gear teeth visibly mesh at the center. Left gear shaft has a small black hand crank in front; right shaft ends in short plain output stub. Static tabletop model, no motor, no text, no brand, white background. Plausible simple mechanism."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Two equal meshed spur gears left crank clockwise red arrow right gear counterclockwise blue arrow. Three labels TURN CRANK, GEARS MESH, OUTPUT ROTATES.",
+        "effect": "手搖齒輪運作解說",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:20:26.183Z",
+        "source_instruction": "Explain the basic function visually.",
+        "reference_sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "result_sha256": "853539144943819f399f2ce0e69bff5a762fe04bd6da255690a935f3a0d1d1f3",
+        "applied_prompt_sha256": "4cc80fe0bb1b46f36675f1ed2215f3389695ecfd9b99f883d035ee57982a1ae0",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://khkgears.net/pdf/spur-tech.pdf"
+          ],
+          "notes": "兩個外嚙合正齒輪應反向旋轉，齒形嚙合與方向另目視，無數值傳動比。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙齒輪左手搖柄一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Two equal meshed spur gears left crank clockwise red arrow right gear counterclockwise blue arrow. Three labels TURN CRANK, GEARS MESH, OUTPUT ROTATES.",
+            "observed": "底座與嚙合區清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手搖齒輪運作解說",
+            "observed": "轉動手柄經嚙合驅動輸出",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "左順時針右逆時針方向相反",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "三個功能標籤指對應位置",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mechanism-21-01",
+      "prompt_id": "src-visual642-423",
+      "command": "/mechanism",
+      "title": "齒輪嚙合運動特寫",
+      "description": "齒輪嚙合運動特寫（AI案例示範）",
+      "result_text": "齒輪嚙合運動特寫",
+      "reference": "output/imagegen/batch-20-20/gear-reference.png",
+      "result": "output/imagegen/batch-20-21/mechanism-21.png",
+      "applied_prompt": "Create a square web-quality website example. Close-up two spur gears meshing, left clockwise right counterclockwise arrows and highlighted tooth contact inset. Title GEAR MECHANISM. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /mechanism: Focus on gears, hinges, levers, or moving parts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/gear-reference.png",
+        "sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic educational hand-crank gear demonstrator. Exactly TWO equal-sized steel spur gears on parallel short horizontal shafts, mounted side by side on a cream vertical support plate above a stable teal base. Gear teeth visibly mesh at the center. Left gear shaft has a small black hand crank in front; right shaft ends in short plain output stub. Static tabletop model, no motor, no text, no brand, white background. Plausible simple mechanism."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Close-up two spur gears meshing, left clockwise right counterclockwise arrows and highlighted tooth contact inset. Title GEAR MECHANISM.",
+        "effect": "齒輪嚙合運動特寫",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:21:16.311Z",
+        "source_instruction": "Focus on gears, hinges, levers, or moving parts.",
+        "reference_sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "result_sha256": "4de7dafa8d1057c381a0172459ae1d9aed5958c34b0f113f302e794bae2849b1",
+        "applied_prompt_sha256": "2695535900119fdefe1062bc8fa6e78ca5cae7e09ff980d663b5e51ff26c91e7",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://khkgears.net/pdf/spur-tech.pdf"
+          ],
+          "notes": "兩個外嚙合正齒輪應反向旋轉，齒形嚙合與方向另目視，無數值傳動比。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "等徑齒輪機構一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Close-up two spur gears meshing, left clockwise right counterclockwise arrows and highlighted tooth contact inset. Title GEAR MECHANISM.",
+            "observed": "嚙合區特寫放大",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "齒輪嚙合運動特寫",
+            "observed": "齒面接觸與機構運動清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "順逆時針箭頭與文字一致、引線到嚙合齒面",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無虛構扭矩或比率",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-energy-21-01",
+      "prompt_id": "src-visual642-424",
+      "command": "/energyflow",
+      "title": "感應燈能量流向",
+      "description": "感應燈能量流向（AI案例示範）",
+      "result_text": "感應燈能量流向",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-21/energy-21.png",
+      "applied_prompt": "Create a square web-quality website example. Battery light concept infographic BATTERY chemical energy -> CONTROLLER electrical energy -> LED light and heat, distinct orange heat arrow from LED. PIR signal dashed blue arrow to controller. Title ENERGY FLOW CONCEPT. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /energyflow: Show how power moves through the subject.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Battery light concept infographic BATTERY chemical energy -> CONTROLLER electrical energy -> LED light and heat, distinct orange heat arrow from LED. PIR signal dashed blue arrow to controller. Title ENERGY FLOW CONCEPT.",
+        "effect": "感應燈能量流向",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:22:26.471Z",
+        "source_instruction": "Show how power moves through the subject.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "8463cd84b9f75cea5d8cfe280e54675b0c004ca3a567d8903299f240482680dd",
+        "applied_prompt_sha256": "f9f189be796bb9b510a9de03fce396ab101c60d1a7b9e9c8addfaf06c916e62f",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "概念燈具結構與能量／訊號路徑，非參考實物拆解；連線圖是明示設計概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "感應燈與電池控制模組",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Battery light concept infographic BATTERY chemical energy -> CONTROLLER electrical energy -> LED light and heat, distinct orange heat arrow from LED. PIR signal dashed blue arrow to controller. Title ENERGY FLOW CONCEPT.",
+            "observed": "能量轉換與PIR訊號分開",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈能量流向",
+            "observed": "化學儲能到電路再光熱輸出",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主箭頭朝LED，光熱朝外，PIR虛線向控制器",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無效率數值或實測宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

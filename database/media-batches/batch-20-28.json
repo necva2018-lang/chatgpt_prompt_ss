@@ -1,0 +1,1407 @@
+{
+  "version": 1,
+  "id": "batch-20-28",
+  "cases": [
+    {
+      "id": "case-info-28-01",
+      "prompt_id": "src-visual642-545",
+      "command": "/infographic",
+      "title": "手提袋收納資訊圖",
+      "description": "手提袋收納資訊圖（AI案例示範）",
+      "result_text": "手提袋收納資訊圖",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-28/info-28.png",
+      "applied_prompt": "Create a square web-quality website example. Infographic with reference tote centered and three distinct information blocks BOOKS with book icon, WALLET with wallet icon, KEYS with key icon. Connector lines from bag to each block, clean hierarchy. No capacity numbers or claims. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /infographic: Explain the subject with visual information blocks.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Infographic with reference tote centered and three distinct information blocks BOOKS with book icon, WALLET with wallet icon, KEYS with key icon. Connector lines from bag to each block, clean hierarchy. No capacity numbers or claims.",
+        "effect": "手提袋收納資訊圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:47:07.449Z",
+        "source_instruction": "Explain the subject with visual information blocks.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "2194cb3f6a48ad838c438151fbdb93091275ca1521db266f1dbb221e7a66f070",
+        "applied_prompt_sha256": "a05db6159e080b9cd3fea2cccf2df3324e8893ffeec41154b76f82a587fcbad1",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白棕提把帆布袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Infographic with reference tote centered and three distinct information blocks BOOKS with book icon, WALLET with wallet icon, KEYS with key icon. Connector lines from bag to each block, clean hierarchy. No capacity numbers or claims.",
+            "observed": "木桌資訊圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋收納資訊圖",
+            "observed": "三個圖文資訊區解說書本錢包鑰匙",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "連接線從袋到三個物品區，圖像和標題一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "BOOKS WALLET KEYS正確，無容量數字或功能宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-sticker-28-01",
+      "prompt_id": "src-visual642-546",
+      "command": "/sticker",
+      "title": "桌扇貼紙插畫",
+      "description": "桌扇貼紙插畫（AI案例示範）",
+      "result_text": "桌扇貼紙插畫",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-28/sticker-28.png",
+      "applied_prompt": "Create a square web-quality website example. Clean die-cut sticker illustration reference cream teal fan, thick white contour border, simple bold outlines, pastel lavender solid background. Complete fan base and short USB cable, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /sticker: Create a clean sticker illustration.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Clean die-cut sticker illustration reference cream teal fan, thick white contour border, simple bold outlines, pastel lavender solid background. Complete fan base and short USB cable, no text.",
+        "effect": "桌扇貼紙插畫",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:48:01.542Z",
+        "source_instruction": "Create a clean sticker illustration.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "5903eb4c8b0091d3f8e117e6f087251a8e7cfec793d6addac7fffc8020a10bab",
+        "applied_prompt_sha256": "0e627b5d32f1a73d58a0fdba87bf02696aab590ab9b8e8fb5d91d0c7307725d8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油白藍綠桌扇與USB線",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Clean die-cut sticker illustration reference cream teal fan, thick white contour border, simple bold outlines, pastel lavender solid background. Complete fan base and short USB cable, no text.",
+            "observed": "淡紫色背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇貼紙插畫",
+            "observed": "粗輪廓插畫加完整白色刀模外框呈貼紙",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "扇身底座及短線完整包含在外框內",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；扇罩葉片和插頭可辨、輪廓乾淨",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-label-28-01",
+      "prompt_id": "src-visual642-547",
+      "command": "/labeldesign",
+      "title": "水瓶標籤設計",
+      "description": "水瓶標籤設計（AI案例示範）",
+      "result_text": "水瓶標籤設計",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-28/label-28.png",
+      "applied_prompt": "Create a square web-quality website example. Packaging label mockup on reference bottle. Label has clear type hierarchy large REFILL, medium REUSABLE BOTTLE, small EVERYDAY CARRY; cream rectangular label on front bottle with dark teal text. No volume temperature or material claims, no logos. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /labeldesign: Create a label with clear hierarchy.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Packaging label mockup on reference bottle. Label has clear type hierarchy large REFILL, medium REUSABLE BOTTLE, small EVERYDAY CARRY; cream rectangular label on front bottle with dark teal text. No volume temperature or material claims, no logos.",
+        "effect": "水瓶標籤設計",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:48:55.247Z",
+        "source_instruction": "Create a label with clear hierarchy.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "63138a523efe3fd21fc8993ac7762ad644ba37ebe0377866e7b7fe92418bab50",
+        "applied_prompt_sha256": "028c98db222306c68e32b5f22fafd041024a6c5c713a5ca39f24ac0721f1d59d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶與奶油色前標籤",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Packaging label mockup on reference bottle. Label has clear type hierarchy large REFILL, medium REUSABLE BOTTLE, small EVERYDAY CARRY; cream rectangular label on front bottle with dark teal text. No volume temperature or material claims, no logos.",
+            "observed": "木桌柔光產品照",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶標籤設計",
+            "observed": "大中小三層文字形成標籤層級",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "標籤隨瓶曲面貼合，邊緣完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "REFILL、REUSABLE BOTTLE、EVERYDAY CARRY清楚，無未核實容量或材質數字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-edu-28-01",
+      "prompt_id": "src-visual642-548",
+      "command": "/educationalposter",
+      "title": "水分子教育海報",
+      "description": "水分子教育海報（AI案例示範）",
+      "result_text": "水分子教育海報",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-28/edu-28.png",
+      "applied_prompt": "Create a square web-quality website example. Educational poster titled WATER MOLECULE. Reference open bottle small bottom left with water inside. Main diagram exactly one large red sphere O joined by two bonds to two smaller white H spheres in bent geometry. Three fact blocks ONE OXYGEN ATOM, TWO HYDROGEN ATOMS, H2O. Correct atom count, no extra atoms in central model. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /educationalposter: Combine facts, labels, and diagrams.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Educational poster titled WATER MOLECULE. Reference open bottle small bottom left with water inside. Main diagram exactly one large red sphere O joined by two bonds to two smaller white H spheres in bent geometry. Three fact blocks ONE OXYGEN ATOM, TWO HYDROGEN ATOMS, H2O. Correct atom count, no extra atoms in central model.",
+        "effect": "水分子教育海報",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:49:48.330Z",
+        "source_instruction": "Combine facts, labels, and diagrams.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "fb092757b434aa61b59d87a874e893b79f1d52a034574b769af015521c70f970",
+        "applied_prompt_sha256": "fd41ad1c6e3a52f8363789e82594e403a5c4fb1533c08805d546f8ad7690e7b4",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.usgs.gov/media/images/water-isotopes-diagram"
+          ],
+          "notes": "沿用第25批查核：水分子一氧兩氫、兩鍵彎曲示意；不作瓶身材質宣稱。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "水分子模型與水瓶水體示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Educational poster titled WATER MOLECULE. Reference open bottle small bottom left with water inside. Main diagram exactly one large red sphere O joined by two bonds to two smaller white H spheres in bent geometry. Three fact blocks ONE OXYGEN ATOM, TWO HYDROGEN ATOMS, H2O. Correct atom count, no extra atoms in central model.",
+            "observed": "三個事實資訊區的教育海報",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水分子教育海報",
+            "observed": "主模型一個O兩個H及兩條鍵呈彎曲構形",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "原子圖解與底部一氧兩氫資訊區相互一致，水瓶以局部水體視窗示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "WATER MOLECULE、ONE OXYGEN ATOM、TWO HYDROGEN ATOMS、H₂O正確；瓶窗為概念解說非透明真品",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-glitch-28-01",
+      "prompt_id": "src-visual642-549",
+      "command": "/glitch",
+      "title": "桌扇數位故障效果",
+      "description": "桌扇數位故障效果（AI案例示範）",
+      "result_text": "桌扇數位故障效果",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-28/glitch-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference fan recognizable centered, controlled digital glitch with narrow horizontal displaced slices and RGB channel separation along selected edges. Dark studio backdrop. Keep most product intact, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /glitch: Add controlled digital distortion.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference fan recognizable centered, controlled digital glitch with narrow horizontal displaced slices and RGB channel separation along selected edges. Dark studio backdrop. Keep most product intact, no text.",
+        "effect": "桌扇數位故障效果",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:50:57.298Z",
+        "source_instruction": "Add controlled digital distortion.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "90fe13362fc069252b5792ac0d3fe1ddcabb61ae17ec59cbfc34b8d6c3f228b8",
+        "applied_prompt_sha256": "0a16ac81ea305267ed46a14d831d33254ba769c5c06bb45bcdecdb66796eb409",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油白藍綠桌扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference fan recognizable centered, controlled digital glitch with narrow horizontal displaced slices and RGB channel separation along selected edges. Dark studio backdrop. Keep most product intact, no text.",
+            "observed": "深色數位風格棚拍",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇數位故障效果",
+            "observed": "局部水平切片位移與RGB分色呈受控故障",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "大部分主體完整可辨，錯位集中窄條帶和邊緣",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；產品基礎輪廓保留，特效不是整體模糊",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-hud-28-01",
+      "prompt_id": "src-visual642-550",
+      "command": "/hud",
+      "title": "水瓶未來抬頭顯示",
+      "description": "水瓶未來抬頭顯示（AI案例示範）",
+      "result_text": "水瓶未來抬頭顯示",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-28/hud-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle on dark platform with futuristic cyan transparent HUD overlay, thin targeting brackets, circular interface ring and abstract bar indicators. Visible label CONCEPT HUD, no fake measured values or claims. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /hud: Add a futuristic heads-up display.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle on dark platform with futuristic cyan transparent HUD overlay, thin targeting brackets, circular interface ring and abstract bar indicators. Visible label CONCEPT HUD, no fake measured values or claims.",
+        "effect": "水瓶未來抬頭顯示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:51:55.736Z",
+        "source_instruction": "Add a futuristic heads-up display.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "19be22ee582b88a283a03af9044d7442b65ccce704e164a52cfc5120e943407c",
+        "applied_prompt_sha256": "8474ea7cfc6433b0334300f235ee67ab67a8258c82aa25ac39dee53555ad34ed",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle on dark platform with futuristic cyan transparent HUD overlay, thin targeting brackets, circular interface ring and abstract bar indicators. Visible label CONCEPT HUD, no fake measured values or claims.",
+            "observed": "未來深色平台",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶未來抬頭顯示",
+            "observed": "透明青色瞄準框、圓環、長條指示介面呈HUD",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "介面圍繞產品不遮住主體，平台接觸與視角一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT HUD清楚，沒有偽造測量數字或產品性能宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-stream-28-01",
+      "prompt_id": "src-visual642-551",
+      "command": "/datastream",
+      "title": "房屋資訊流場景",
+      "description": "房屋資訊流場景（AI案例示範）",
+      "result_text": "房屋資訊流場景",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-28/stream-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference house at dusk surrounded by flowing luminous cyan data particles and small abstract glyph ribbons moving from garden toward house, curved directional streams visible in air. Fictional digital information visual, no readable code needed, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /datastream: Show information flowing through the scene.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference house at dusk surrounded by flowing luminous cyan data particles and small abstract glyph ribbons moving from garden toward house, curved directional streams visible in air. Fictional digital information visual, no readable code needed, no text.",
+        "effect": "房屋資訊流場景",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:52:45.811Z",
+        "source_instruction": "Show information flowing through the scene.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "0aa65e3fbf23b152b7d271961330f78f28aebf19d83f1350fad5c4f559d0f566",
+        "applied_prompt_sha256": "2ac1813c336e09063ff14898a813578255fcd3603ce4a0e77589db1014f9d752",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "坡頂房屋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference house at dusk surrounded by flowing luminous cyan data particles and small abstract glyph ribbons moving from garden toward house, curved directional streams visible in air. Fictional digital information visual, no readable code needed, no text.",
+            "observed": "暮色花園與暖窗",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋資訊流場景",
+            "observed": "青色粒子、方形符號與曲線流束呈資訊穿過場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "流線由前景往門窗及屋旁匯聚，主體未遮沒",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；數位流為虛構視覺，未加功能或網速宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-code-28-01",
+      "prompt_id": "src-visual642-552",
+      "command": "/coderain",
+      "title": "桌扇程式碼雨",
+      "description": "桌扇程式碼雨（AI案例示範）",
+      "result_text": "桌扇程式碼雨",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-28/code-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference cream teal fan centered in futuristic dark environment made of vertical falling green code columns. Repeated binary 0 and 1 glyphs descend behind and around product. Fan remains recognizable, no other text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /coderain: Use falling code as the environment.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference cream teal fan centered in futuristic dark environment made of vertical falling green code columns. Repeated binary 0 and 1 glyphs descend behind and around product. Fan remains recognizable, no other text.",
+        "effect": "桌扇程式碼雨",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:53:59.984Z",
+        "source_instruction": "Use falling code as the environment.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "e37b814776f12e681ad93dd2e537bdd6daa1645f3c2dbbf45068d046799f398d",
+        "applied_prompt_sha256": "427a141c29e79a91e97d0434ff0426986bf4cf607cee96621ad616a9aacc60bf",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油白藍綠桌扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference cream teal fan centered in futuristic dark environment made of vertical falling green code columns. Repeated binary 0 and 1 glyphs descend behind and around product. Fan remains recognizable, no other text.",
+            "observed": "黑色數位環境",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇程式碼雨",
+            "observed": "綠色0與1沿多條垂直列下落形成程式碼雨",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主體在前、代碼在後與地面反射，扇體可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "二進位字元可讀，無其他標籤要求，無產品結構錯接",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-noise-28-01",
+      "prompt_id": "src-visual642-553",
+      "command": "/signalnoise",
+      "title": "房屋訊號雜訊",
+      "description": "房屋訊號雜訊（AI案例示範）",
+      "result_text": "房屋訊號雜訊",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-28/noise-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference house viewed on old television monitor image, visible static snow, horizontal transmission interference bands and slight ghosting while house remains recognizable. Include simple dark screen bezel, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /signalnoise: Create television or transmission interference.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference house viewed on old television monitor image, visible static snow, horizontal transmission interference bands and slight ghosting while house remains recognizable. Include simple dark screen bezel, no text.",
+        "effect": "房屋訊號雜訊",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:55:00.618Z",
+        "source_instruction": "Create television or transmission interference.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "ed44f22fa49c7a2f055cdf0f0e933352ecc5bde186a87d6fb28dae6527c5ee7b",
+        "applied_prompt_sha256": "5f481c4978e8dab2a8b0b87cdaca095ade618144e2cc0da046104ac5d6f7cb45",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "坡頂房屋畫面",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference house viewed on old television monitor image, visible static snow, horizontal transmission interference bands and slight ghosting while house remains recognizable. Include simple dark screen bezel, no text.",
+            "observed": "舊式電視黑框螢幕",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋訊號雜訊",
+            "observed": "雪花雜訊、水平干擾帶及彩色重影呈傳輸干擾",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "房屋仍可辨，干擾覆蓋螢幕內而非外框",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；訊號效果與曲面電視顯示一致",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-surveil-28-01",
+      "prompt_id": "src-visual642-554",
+      "command": "/surveillance",
+      "title": "房屋監視器視角",
+      "description": "房屋監視器視角（AI案例示範）",
+      "result_text": "房屋監視器視角",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-28/surveil-28.png",
+      "applied_prompt": "Create a square web-quality website example. High fixed security-camera viewpoint looking down at reference house entrance and driveway, slight wide angle, monochrome security monitor image, small overlay CAM 01 and fictional timestamp 08:24:16, corner framing marks. No people or real identifiers. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /surveillance: Use a security-monitor viewpoint.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "High fixed security-camera viewpoint looking down at reference house entrance and driveway, slight wide angle, monochrome security monitor image, small overlay CAM 01 and fictional timestamp 08:24:16, corner framing marks. No people or real identifiers.",
+        "effect": "房屋監視器視角",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:56:05.451Z",
+        "source_instruction": "Use a security-monitor viewpoint.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "67cbe23f4f0059089f4614c5e9b74f06bc1e81448ecf0c7ad2aa2f5474c19175",
+        "applied_prompt_sha256": "e7ba64788f6f688e2bc8bf66876af473667cee524975234051c7f87f43e625aa",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "房屋入口與前庭",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "High fixed security-camera viewpoint looking down at reference house entrance and driveway, slight wide angle, monochrome security monitor image, small overlay CAM 01 and fictional timestamp 08:24:16, corner framing marks. No people or real identifiers.",
+            "observed": "高處固定廣角監視視角",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋監視器視角",
+            "observed": "單色畫面、角框與時間疊字呈安全監視器畫面",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "從高處向下見門階與大片地面，固定俯視明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CAM 01與08:24:16清楚，為虛構時間無私人識別資料",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-scan-28-01",
+      "prompt_id": "src-visual642-555",
+      "command": "/scanlines",
+      "title": "水瓶掃描線效果",
+      "description": "水瓶掃描線效果（AI案例示範）",
+      "result_text": "水瓶掃描線效果",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-28/scan-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle on dark background with evenly spaced fine horizontal luminous cyan scan lines across whole scene and a brighter scanning band at midbody. Product silhouette visible, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /scanlines: Add a digital scanning pattern.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle on dark background with evenly spaced fine horizontal luminous cyan scan lines across whole scene and a brighter scanning band at midbody. Product silhouette visible, no text.",
+        "effect": "水瓶掃描線效果",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:57:01.506Z",
+        "source_instruction": "Add a digital scanning pattern.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "8da6339e151e6d6b2639dd493f377d2f7507551eda4eb920f2c8c39869370a9d",
+        "applied_prompt_sha256": "7631f58c63b5b87bf0a43503dc3854bb0610e0782e9204a708749fdc39bd48c1",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle on dark background with evenly spaced fine horizontal luminous cyan scan lines across whole scene and a brighter scanning band at midbody. Product silhouette visible, no text.",
+            "observed": "黑色數位掃描背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶掃描線效果",
+            "observed": "等距細水平青色線與中段亮掃描帶覆過畫面",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "掃描線跨主體及背景，瓶輪廓仍完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；線條整齊且非意外破圖",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-false-28-01",
+      "prompt_id": "src-visual642-556",
+      "command": "/falsecolor",
+      "title": "房屋偽色映射",
+      "description": "房屋偽色映射（AI案例示範）",
+      "result_text": "房屋偽色映射",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-28/false-28.png",
+      "applied_prompt": "Create a square web-quality website example. Stylized scientific false-color illustration of reference house exterior, region colors blue cyan green yellow red, small legend low blue to high red labeled RELATIVE SIGNAL, title FALSE COLOR DEMO. Explicit small label SIMULATED. No actual thermal measurements or temperature numbers. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /falsecolor: Use scientific false-color mapping.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Stylized scientific false-color illustration of reference house exterior, region colors blue cyan green yellow red, small legend low blue to high red labeled RELATIVE SIGNAL, title FALSE COLOR DEMO. Explicit small label SIMULATED. No actual thermal measurements or temperature numbers.",
+        "effect": "房屋偽色映射",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:58:09.294Z",
+        "source_instruction": "Use scientific false-color mapping.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "7418be9bbb9c366a8697470b75b62b842a37a70860b7f130f48e680715f27b28",
+        "applied_prompt_sha256": "1e12a2b9c1423beb89c7f877c2b3ccfd8044aa564f2e5bdb2cd24169c771d6f8",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://science.nasa.gov/ems/04_energytoimage/"
+          ],
+          "notes": "偽色以可見色表達相對信號，採合成色映射示例且明標SIMULATED；不宣稱真實感測、熱成像或溫度。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "坡頂房屋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Stylized scientific false-color illustration of reference house exterior, region colors blue cyan green yellow red, small legend low blue to high red labeled RELATIVE SIGNAL, title FALSE COLOR DEMO. Explicit small label SIMULATED. No actual thermal measurements or temperature numbers.",
+            "observed": "合成偽色全景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋偽色映射",
+            "observed": "藍青綠黃紅對應相對信號強弱",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "LOW藍至HIGH紅圖例與場景區域色彩一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "FALSE COLOR DEMO、RELATIVE SIGNAL與SIMULATED清楚，無溫度單位或感測量宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-depth-28-01",
+      "prompt_id": "src-visual642-557",
+      "command": "/depthmap",
+      "title": "房屋深度色圖",
+      "description": "房屋深度色圖（AI案例示範）",
+      "result_text": "房屋深度色圖",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-28/depth-28.png",
+      "applied_prompt": "Create a square web-quality website example. Depth-map conceptual image reference house and garden from front oblique view. Foreground path near camera bright yellow, house mid-distance green cyan, distant trees dark blue. Legend NEAR yellow to FAR blue, title DEPTH DEMO. Flat depth colors with coherent distance ordering, no texture shading dominating. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /depthmap: Use color to show distance and depth.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Depth-map conceptual image reference house and garden from front oblique view. Foreground path near camera bright yellow, house mid-distance green cyan, distant trees dark blue. Legend NEAR yellow to FAR blue, title DEPTH DEMO. Flat depth colors with coherent distance ordering, no texture shading dominating.",
+        "effect": "房屋深度色圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:58:59.977Z",
+        "source_instruction": "Use color to show distance and depth.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "d20a5b847a44fcdf1cbf541695cace304df61f76bd3bb076526e383974470a8c",
+        "applied_prompt_sha256": "293a87b931c6fb7fb146d06a5fdba55cfc5b3f85888f9fdf7066df75e829ddb5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "坡頂房屋與前方小徑",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Depth-map conceptual image reference house and garden from front oblique view. Foreground path near camera bright yellow, house mid-distance green cyan, distant trees dark blue. Legend NEAR yellow to FAR blue, title DEPTH DEMO. Flat depth colors with coherent distance ordering, no texture shading dominating.",
+            "observed": "簡化深度色彩場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋深度色圖",
+            "observed": "前景黃、中景房屋綠青、遠樹深藍表達距離",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "整體近遠順序與NEAR黃FAR藍色階一致，局部建築採簡化平面",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "DEPTH DEMO與近遠標籤清楚，無實測距離數字；概念深度示範",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-heat-28-01",
+      "prompt_id": "src-visual642-558",
+      "command": "/heatmap",
+      "title": "手提袋相對壓力熱圖",
+      "description": "手提袋相對壓力熱圖（AI案例示範）",
+      "result_text": "手提袋相對壓力熱圖",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-28/heat-28.png",
+      "applied_prompt": "Create a square web-quality website example. Conceptual heatmap illustration reference tote holding books. Bag pale outlines, handle attachment regions high intensity red orange, rest bag cool blue green. Legend LOW blue HIGH red, title LOAD DEMO, small SIMULATED. No stress numbers or engineering certification, merely illustrative relative-intensity map. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /heatmap: Highlight intensity or activity with color.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Conceptual heatmap illustration reference tote holding books. Bag pale outlines, handle attachment regions high intensity red orange, rest bag cool blue green. Legend LOW blue HIGH red, title LOAD DEMO, small SIMULATED. No stress numbers or engineering certification, merely illustrative relative-intensity map.",
+        "effect": "手提袋相對壓力熱圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:59:50.275Z",
+        "source_instruction": "Highlight intensity or activity with color.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "c2dacd641956333676f27b4b596a757bb4dd7d489a5c09f460b82698df028118",
+        "applied_prompt_sha256": "0ce7441bf4b3d2942c92747e47fc4bbfe392c880988a7b7568f50054ded18bc0",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.mathworks.com/help/matlab/creating_plots/create-heatmap-from-tabular-data.html"
+          ],
+          "notes": "熱圖以色彩表示相對值，本圖僅模擬強弱區、標SIMULATED，無實測袋款應力值或工程認證。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "裝書的帆布袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Conceptual heatmap illustration reference tote holding books. Bag pale outlines, handle attachment regions high intensity red orange, rest bag cool blue green. Legend LOW blue HIGH red, title LOAD DEMO, small SIMULATED. No stress numbers or engineering certification, merely illustrative relative-intensity map.",
+            "observed": "木桌概念熱圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋相對壓力熱圖",
+            "observed": "提把接點紅橙、袋身藍青表達相對強弱",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩個前接點熱區與HIGH紅LOW藍圖例一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "LOAD DEMO及SIMULATED清楚，無實測數值或工程認證宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-grid-28-01",
+      "prompt_id": "src-visual642-559",
+      "command": "/gridoverlay",
+      "title": "房屋技術網格疊圖",
+      "description": "房屋技術網格疊圖（AI案例示範）",
+      "result_text": "房屋技術網格疊圖",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-28/grid-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference house photograph with thin regular cyan square grid overlay covering image, clear horizontal vertical lines and tiny edge ticks, title GRID OVERLAY. Grid not perspective floor, no measurements. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /gridoverlay: Place a technical grid over the image.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference house photograph with thin regular cyan square grid overlay covering image, clear horizontal vertical lines and tiny edge ticks, title GRID OVERLAY. Grid not perspective floor, no measurements.",
+        "effect": "房屋技術網格疊圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:01:05.108Z",
+        "source_instruction": "Place a technical grid over the image.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "647118ab2ca90bf9c1c25a2cfad9e3e623b8f1b6d6e35ef655827202529b0306",
+        "applied_prompt_sha256": "2c74796c34de6786145f1cce717c131f44c27c8e56b211d92985e077bd5b736a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "坡頂房屋照片",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference house photograph with thin regular cyan square grid overlay covering image, clear horizontal vertical lines and tiny edge ticks, title GRID OVERLAY. Grid not perspective floor, no measurements.",
+            "observed": "藍天花園與技術覆圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋技術網格疊圖",
+            "observed": "規則青色正方網格覆蓋全畫面",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "水平垂直線均勻、不是透視地板網格，房屋可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "GRID OVERLAY清楚，邊緣有刻度但無虛構尺寸",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mesh-28-01",
+      "prompt_id": "src-visual642-560",
+      "command": "/mesh",
+      "title": "水瓶三維網格",
+      "description": "水瓶三維網格（AI案例示範）",
+      "result_text": "水瓶三維網格",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-28/mesh-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle as dark studio 3D polygon mesh visualization, cyan triangular wireframe follows cylindrical body, shoulder cap and handle surfaces in perspective. Semi-transparent dark surfaces show mesh construction. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /mesh: Show the 3D mesh structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle as dark studio 3D polygon mesh visualization, cyan triangular wireframe follows cylindrical body, shoulder cap and handle surfaces in perspective. Semi-transparent dark surfaces show mesh construction. No text.",
+        "effect": "水瓶三維網格",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:02:34.822Z",
+        "source_instruction": "Show the 3D mesh structure.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "c07f539352afe76a7966044ecc3340917c37ba4322b13a539570b57025b6a6c7",
+        "applied_prompt_sha256": "46e5294a97e80f5f456eecb0a0421a71a460bda5690a70b2b5bdadbe626c35ae",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "水瓶含提環瓶蓋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle as dark studio 3D polygon mesh visualization, cyan triangular wireframe follows cylindrical body, shoulder cap and handle surfaces in perspective. Semi-transparent dark surfaces show mesh construction. No text.",
+            "observed": "深色三維展示背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶三維網格",
+            "observed": "青色三角多邊形網面沿產品表面構成wireframe",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "網線包覆圓柱肩部、蓋及提環曲面，具深度弧線",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；網面不是平面方格覆圖，輪廓完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cyber-28-01",
+      "prompt_id": "src-visual642-561",
+      "command": "/cyberpunk",
+      "title": "水瓶賽博龐克場景",
+      "description": "水瓶賽博龐克場景（AI案例示範）",
+      "result_text": "水瓶賽博龐克場景",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-28/cyber-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle foreground on rainy neon future city street counter, magenta cyan illumination, towering holographic abstract billboards no real text, cables and wet reflections. Cyberpunk mood, bottle identifiable. No logos. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /cyberpunk: Place the subject in a neon future.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle foreground on rainy neon future city street counter, magenta cyan illumination, towering holographic abstract billboards no real text, cables and wet reflections. Cyberpunk mood, bottle identifiable. No logos.",
+        "effect": "水瓶賽博龐克場景",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:03:42.207Z",
+        "source_instruction": "Place the subject in a neon future.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "e77faf285a323ba1d4e3f44d26b76010f8c4e54b6398236444a38691b26297cb",
+        "applied_prompt_sha256": "eb8033e6a04652f794d62edf339f1a1b9d672db708476d7792e055252f0a8d12",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle foreground on rainy neon future city street counter, magenta cyan illumination, towering holographic abstract billboards no real text, cables and wet reflections. Cyberpunk mood, bottle identifiable. No logos.",
+            "observed": "雨夜未來高樓霓虹街景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶賽博龐克場景",
+            "observed": "洋紅青藍燈、管線、電子看板和濕地反射呈賽博龐克",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "前景瓶與遠方城市分層，霓虹邊光方向一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；沒有真實品牌，瓶身和地面接觸合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-steam-28-01",
+      "prompt_id": "src-visual642-562",
+      "command": "/steampunk",
+      "title": "桌扇蒸汽龐克改造",
+      "description": "桌扇蒸汽龐克改造（AI案例示範）",
+      "result_text": "桌扇蒸汽龐克改造",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-28/steam-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference fan redesigned as Victorian steampunk object preserving round cage three blades and pedestal silhouette, brass cage copper pipes small gears pressure dial and dark wood base in workshop. Fantasy design not working machine claims. No readable numbers or text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /steampunk: Use Victorian machinery and brass details.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference fan redesigned as Victorian steampunk object preserving round cage three blades and pedestal silhouette, brass cage copper pipes small gears pressure dial and dark wood base in workshop. Fantasy design not working machine claims. No readable numbers or text.",
+        "effect": "桌扇蒸汽龐克改造",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:07:35.703Z",
+        "source_instruction": "Use Victorian machinery and brass details.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "5bb04b5d447def9b012e009b05817b6d58a1e8c3f33ba6d3d3244f9171615e0d",
+        "applied_prompt_sha256": "46e78f635b4732d159cb736b522be781d53cb6b68e47776bc09568fc11b76932",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "圓形護罩、三片扇葉與桌上底座保留風扇識別",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference fan redesigned as Victorian steampunk object preserving round cage three blades and pedestal silhouette, brass cage copper pipes small gears pressure dial and dark wood base in workshop. Fantasy design not working machine claims. No readable numbers or text.",
+            "observed": "暖色工坊桌面背景清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇蒸汽龐克改造",
+            "observed": "黃銅、銅管與齒輪呈現蒸汽龐克風格",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "壓力錶、齒輪與管件圍繞機身，結構可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "金屬磨損與木質底座細節完整，無不相符文字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-solar-28-01",
+      "prompt_id": "src-visual642-563",
+      "command": "/solarpunk",
+      "title": "房屋太陽龐克未來",
+      "description": "房屋太陽龐克未來（AI案例示範）",
+      "result_text": "房屋太陽龐克未來",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-28/solar-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference house in optimistic lush green future neighborhood, rooftop solar panels, abundant plants community garden cyclists in distance, warm daylight, clean sustainable design visual. No performance numbers or text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /solarpunk: Imagine an optimistic green future.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference house in optimistic lush green future neighborhood, rooftop solar panels, abundant plants community garden cyclists in distance, warm daylight, clean sustainable design visual. No performance numbers or text.",
+        "effect": "房屋太陽龐克未來",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:08:15.277Z",
+        "source_instruction": "Imagine an optimistic green future.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "ad1e80327228da24e1961971070a702b29bd2f002d8f1c0cb6a4c18220c5ea5d",
+        "applied_prompt_sha256": "e77f06266a5e7a6a049150c37fba3a84dafbeceef1dbbab1d35de0a3ade602f2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色雙層住宅與斜屋頂辨識清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference house in optimistic lush green future neighborhood, rooftop solar panels, abundant plants community garden cyclists in distance, warm daylight, clean sustainable design visual. No performance numbers or text.",
+            "observed": "明亮綠化社區、步道及菜園符合樂觀永續場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋太陽龐克未來",
+            "observed": "屋頂太陽能板與茂盛植物呈現太陽龐克方向",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "住宅、社區花園與遠處自行車人物尺度合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "光線溫暖，無捏造能源數值或效率宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-atom-28-01",
+      "prompt_id": "src-visual642-564",
+      "command": "/atompunk",
+      "title": "房屋原子時代未來",
+      "description": "房屋原子時代未來（AI案例示範）",
+      "result_text": "房屋原子時代未來",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-28/atom-28.png",
+      "applied_prompt": "Create a square web-quality website example. Reference house reimagined in 1950s atomic-age retrofuturism, rounded porch canopy, starburst decorative forms, pastel mint cream colors, chrome fins and stylized futuristic small flying car far sky. Optimistic illustration no nuclear hazard or factual energy claims. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /atompunk: Use 1950s nuclear-age futurism.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference house reimagined in 1950s atomic-age retrofuturism, rounded porch canopy, starburst decorative forms, pastel mint cream colors, chrome fins and stylized futuristic small flying car far sky. Optimistic illustration no nuclear hazard or factual energy claims. No text.",
+        "effect": "房屋原子時代未來",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:09:02.148Z",
+        "source_instruction": "Use 1950s nuclear-age futurism.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "8d06492270e85684136bb570fa61dcb22164a9d5ef40bc4c9d288a6e151980d7",
+        "applied_prompt_sha256": "66837ddaaea59125b3b17a56410668a5041a6a231985a4fe047ab5b65090cb9e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙層斜屋頂住宅輪廓可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference house reimagined in 1950s atomic-age retrofuturism, rounded porch canopy, starburst decorative forms, pastel mint cream colors, chrome fins and stylized futuristic small flying car far sky. Optimistic illustration no nuclear hazard or factual energy claims. No text.",
+            "observed": "復古未來城市與飛行車形成原子時代幻想場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋原子時代未來",
+            "observed": "薄荷奶油色、鍍鉻飾邊及星芒呈現1950年代復古未來風格",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "圓弧雨棚與住宅結合自然，遠方飛行車不遮主體",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無不實科技數據，為概念風格案例",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

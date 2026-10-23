@@ -1,0 +1,1386 @@
+{
+  "version": 1,
+  "id": "batch-20-29",
+  "cases": [
+    {
+      "id": "case-bio-29-01",
+      "prompt_id": "src-visual642-565",
+      "command": "/biopunk",
+      "title": "桌扇生物龐克概念",
+      "description": "桌扇生物龐克概念（AI案例示範）",
+      "result_text": "桌扇生物龐克概念",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-29/bio-29.png",
+      "applied_prompt": "Create a square web-quality website example. Transform reference desk fan into biopunk concept: circular cage and three blades remain recognizable; organic vine-like translucent bio-tubes, grown biomaterial casing and glowing green laboratory accents integrate advanced technology with biology. Fictional bio-design, no claims of real organism function. Dark futuristic greenhouse lab, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /biopunk: Blend biology and advanced technology.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Transform reference desk fan into biopunk concept: circular cage and three blades remain recognizable; organic vine-like translucent bio-tubes, grown biomaterial casing and glowing green laboratory accents integrate advanced technology with biology. Fictional bio-design, no claims of real organism function. Dark futuristic greenhouse lab, no text.",
+        "effect": "桌扇生物龐克概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:12:57.390Z",
+        "source_instruction": "Blend biology and advanced technology.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "3f75db2fd3484890af321c1e0754448fb976c21d38a301fb5f47a5dd95515867",
+        "applied_prompt_sha256": "758457af74b5ce48c5a5f35fa090ac65365ce6d4b3e7c5e9ddfc297de8f3c7b9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "圓形護罩與三片綠色扇葉保留桌扇身份",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Transform reference desk fan into biopunk concept: circular cage and three blades remain recognizable; organic vine-like translucent bio-tubes, grown biomaterial casing and glowing green laboratory accents integrate advanced technology with biology. Fictional bio-design, no claims of real organism function. Dark futuristic greenhouse lab, no text.",
+            "observed": "暗色生物實驗室場景明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇生物龐克概念",
+            "observed": "藤蔓、半透明管線與發光生物質外殼融合科技",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "管線沿外殼與底座連接，主體比例連貫",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字與真實生物功能宣稱，細節完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-fantasy-29-01",
+      "prompt_id": "src-visual642-566",
+      "command": "/fantasyrealm",
+      "title": "魔法森林中的水瓶",
+      "description": "魔法森林中的水瓶（AI案例示範）",
+      "result_text": "魔法森林中的水瓶",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-29/fantasy-29.png",
+      "applied_prompt": "Create a square web-quality website example. Place reference sage bottle with black lid and olive base in an enchanted forest clearing, luminous mushrooms, floating tiny magical lights and distant crystal castle. Bottle remains central and coherent, magical world is unmistakable, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /fantasyrealm: Place the subject in a magical world.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Place reference sage bottle with black lid and olive base in an enchanted forest clearing, luminous mushrooms, floating tiny magical lights and distant crystal castle. Bottle remains central and coherent, magical world is unmistakable, no text.",
+        "effect": "魔法森林中的水瓶",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:13:44.848Z",
+        "source_instruction": "Place the subject in a magical world.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "124dfa3b590e520a5bb655d769e5249a9e25566b8368ba5ad328182ac3f33c6e",
+        "applied_prompt_sha256": "ce28c9502e731046f6b42e8914f53f2899f4968729c76579e69025df9c416b03",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鼠尾草色瓶身與黑色提環蓋身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Place reference sage bottle with black lid and olive base in an enchanted forest clearing, luminous mushrooms, floating tiny magical lights and distant crystal castle. Bottle remains central and coherent, magical world is unmistakable, no text.",
+            "observed": "發光蘑菇森林與遠方水晶城堡構成魔法世界",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "魔法森林中的水瓶",
+            "observed": "漂浮光點和奇幻色彩符合魔法場景指令",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "水瓶置於苔石上居中，城堡退至背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，瓶身與環境細節清晰無瑕疵",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-myth-29-01",
+      "prompt_id": "src-visual642-567",
+      "command": "/mythic",
+      "title": "史詩神殿水瓶",
+      "description": "史詩神殿水瓶（AI案例示範）",
+      "result_text": "史詩神殿水瓶",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-29/myth-29.png",
+      "applied_prompt": "Create a square web-quality website example. Place the recognizable sage bottle black lid olive base on an ancient stone altar in a vast mountain temple with monumental statues, storm-lit peaks and heroic golden sun rays. Epic legendary setting, no text or logos. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /mythic: Give the subject an epic legendary setting.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Place the recognizable sage bottle black lid olive base on an ancient stone altar in a vast mountain temple with monumental statues, storm-lit peaks and heroic golden sun rays. Epic legendary setting, no text or logos.",
+        "effect": "史詩神殿水瓶",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:14:26.313Z",
+        "source_instruction": "Give the subject an epic legendary setting.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "9b909f7c21c35536c6a22538dda7bc5b63ce352761b29b4a1055f9c1e6b6298c",
+        "applied_prompt_sha256": "5429d2e82724079aed034203264e3d5c8fc995dde730ee60d56d74022c502d20",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色水瓶與黑色提環蓋清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Place the recognizable sage bottle black lid olive base on an ancient stone altar in a vast mountain temple with monumental statues, storm-lit peaks and heroic golden sun rays. Epic legendary setting, no text or logos.",
+            "observed": "巨型雕像、古神殿與高山呈現傳奇環境",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "史詩神殿水瓶",
+            "observed": "金色破雲光與宏大尺度符合史詩設定",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "水瓶穩定置於石壇，雕像與山峰分布背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，石材與瓶身細節連貫",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-west-29-01",
+      "prompt_id": "src-visual642-568",
+      "command": "/western",
+      "title": "西部邊境桌扇",
+      "description": "西部邊境桌扇（AI案例示範）",
+      "result_text": "西部邊境桌扇",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-29/west-29.png",
+      "applied_prompt": "Create a square web-quality website example. Place recognizable cream desk fan with teal three blades on wooden counter of a dusty frontier general store, weathered timber, distant saloon facade and empty desert street through open doorway. Western frontier atmosphere, no lettering. Fan is a deliberate stylistic subject placement, not historical artifact claim. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /western: Place the subject in a frontier setting.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Place recognizable cream desk fan with teal three blades on wooden counter of a dusty frontier general store, weathered timber, distant saloon facade and empty desert street through open doorway. Western frontier atmosphere, no lettering. Fan is a deliberate stylistic subject placement, not historical artifact claim.",
+        "effect": "西部邊境桌扇",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:15:11.599Z",
+        "source_instruction": "Place the subject in a frontier setting.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "6a2a77a6594af145794687c24fb2fe2f81c06acc77e45393080b8c08ab8bd594",
+        "applied_prompt_sha256": "5670f644d831d803c1949b2fa6cf069c04522a6547ea1a81943d0298dcc3d589",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油白桌扇與青綠三片扇葉保持參考身份",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Place recognizable cream desk fan with teal three blades on wooden counter of a dusty frontier general store, weathered timber, distant saloon facade and empty desert street through open doorway. Western frontier atmosphere, no lettering. Fan is a deliberate stylistic subject placement, not historical artifact claim.",
+            "observed": "木製雜貨店、牛仔帽、門外荒漠邊境街道清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "西部邊境桌扇",
+            "observed": "西部邊境氣氛符合原指令",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "桌扇置於木櫃檯，門外場景有前後深度",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，視為風格場景示範而非歷史器物",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-space-29-01",
+      "prompt_id": "src-visual642-569",
+      "command": "/spaceopera",
+      "title": "星際環境住宅",
+      "description": "星際環境住宅（AI案例示範）",
+      "result_text": "星際環境住宅",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-29/space-29.png",
+      "applied_prompt": "Create a square web-quality website example. Place recognizable two-story gabled house inside a spectacular vast interstellar habitat on a rocky alien moon, enormous ringed planet and starships in distant sky, transparent protective dome, grand cosmic scale. House intact at foreground, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /spaceopera: Create a grand interstellar environment.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Place recognizable two-story gabled house inside a spectacular vast interstellar habitat on a rocky alien moon, enormous ringed planet and starships in distant sky, transparent protective dome, grand cosmic scale. House intact at foreground, no text.",
+        "effect": "星際環境住宅",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:16:07.595Z",
+        "source_instruction": "Create a grand interstellar environment.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "1f3560ec35c0c5e81182152e8a94e28176598cb93b3772e8b22fa5919d27c0b0",
+        "applied_prompt_sha256": "d02c9910e94c659e7239e09d409ed0054dc98ee24fe6a47b9b31fc9b513a4289",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色雙層斜屋頂住宅身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Place recognizable two-story gabled house inside a spectacular vast interstellar habitat on a rocky alien moon, enormous ringed planet and starships in distant sky, transparent protective dome, grand cosmic scale. House intact at foreground, no text.",
+            "observed": "外星岩地、穹頂、星艦與巨型環行星形成星際環境",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "星際環境住宅",
+            "observed": "宏大宇宙尺度明確符合spaceopera",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "住宅位於穹頂內前景，艦隊及行星在遠景",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無科技數值或文字，科幻概念結構清晰",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-retro-29-01",
+      "prompt_id": "src-visual642-570",
+      "command": "/retrofuture",
+      "title": "復古未來桌扇",
+      "description": "復古未來桌扇（AI案例示範）",
+      "result_text": "復古未來桌扇",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-29/retro-29.png",
+      "applied_prompt": "Create a square web-quality website example. Reimagine reference desk fan in old-fashioned 1960s futuristic product design: recognizable round cage and three teal blades, cream streamlined body, chrome rings, analog knobs, pastel space-age living room. Optimistic retrofuture vision, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /retrofuture: Show an old-fashioned vision of the future.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reimagine reference desk fan in old-fashioned 1960s futuristic product design: recognizable round cage and three teal blades, cream streamlined body, chrome rings, analog knobs, pastel space-age living room. Optimistic retrofuture vision, no text.",
+        "effect": "復古未來桌扇",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:16:54.110Z",
+        "source_instruction": "Show an old-fashioned vision of the future.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "9b6964d61db787175615841422da1ed3d8134469927afe6b666cd7343a23a711",
+        "applied_prompt_sha256": "bdbfcf263f102fc0230dfb79c971c25be98420b67213916f62b05cf82c9d2237",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油色圓形桌扇、青綠扇葉清楚可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reimagine reference desk fan in old-fashioned 1960s futuristic product design: recognizable round cage and three teal blades, cream streamlined body, chrome rings, analog knobs, pastel space-age living room. Optimistic retrofuture vision, no text.",
+            "observed": "太空時代客廳、圓窗與遠方未來塔樓",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "復古未來桌扇",
+            "observed": "鍍鉻飾圈、類比旋鈕與流線機身呈現老派未來想像",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "桌扇置於桌面，背景家具比例合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，金屬反射與機身邊緣完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-brut-29-01",
+      "prompt_id": "src-visual642-571",
+      "command": "/brutalist",
+      "title": "粗獷主義住宅",
+      "description": "粗獷主義住宅（AI案例示範）",
+      "result_text": "粗獷主義住宅",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-29/brut-29.png",
+      "applied_prompt": "Create a square web-quality website example. Reinterpret reference house as monumental brutalist architecture with raw board-formed concrete walls, massive geometric volumes, deep recessed windows and clear entrance; retain recognizable two-story domestic composition while replacing pitched roof with heavy concrete planes. Overcast architectural photo, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /brutalist: Use raw concrete and monumental forms.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reinterpret reference house as monumental brutalist architecture with raw board-formed concrete walls, massive geometric volumes, deep recessed windows and clear entrance; retain recognizable two-story domestic composition while replacing pitched roof with heavy concrete planes. Overcast architectural photo, no text.",
+        "effect": "粗獷主義住宅",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:17:36.589Z",
+        "source_instruction": "Use raw concrete and monumental forms.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "eb3ad43e6c584cf075c4ea6aa06b824526b0e5e786d7dc392fbf78fb7a7aab93",
+        "applied_prompt_sha256": "df2b7acdb5152e1e8b3baa2caec03ba2f17de562cc2dd4234dbbb2b33e44a959",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙層住宅入口與窗位組織仍可辨識",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reinterpret reference house as monumental brutalist architecture with raw board-formed concrete walls, massive geometric volumes, deep recessed windows and clear entrance; retain recognizable two-story domestic composition while replacing pitched roof with heavy concrete planes. Overcast architectural photo, no text.",
+            "observed": "陰天草地住宅場景合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "粗獷主義住宅",
+            "observed": "清水混凝土模板紋、厚重平頂與巨大方塊量體符合粗獷主義",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "深凹窗洞及厚雨棚與整體量體連貫",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，材質紋理與建築邊緣完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-gothic-29-01",
+      "prompt_id": "src-visual642-572",
+      "command": "/gothicrevival",
+      "title": "哥德復興住宅",
+      "description": "哥德復興住宅（AI案例示範）",
+      "result_text": "哥德復興住宅",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-29/gothic-29.png",
+      "applied_prompt": "Create a square web-quality website example. Reinterpret reference two-story house in Gothic Revival style: steep gables, pointed arch windows, carved stone tracery, decorative buttresses and dramatic historic architecture. Retain coherent domestic entrance and facade proportions. Atmospheric dusk, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /gothicrevival: Use dramatic historic architecture.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reinterpret reference two-story house in Gothic Revival style: steep gables, pointed arch windows, carved stone tracery, decorative buttresses and dramatic historic architecture. Retain coherent domestic entrance and facade proportions. Atmospheric dusk, no text.",
+        "effect": "哥德復興住宅",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:18:28.442Z",
+        "source_instruction": "Use dramatic historic architecture.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "066dd2aef6bf76e36c244fe06398ac90741a485c7f76dbdd476bbff2c51dae31",
+        "applied_prompt_sha256": "9f52bc521b4ef175bfc391e53a951d5a7bbd8f5e9c54398945ab7c7aa3676b06",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙層住宅與中央入口組織清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reinterpret reference two-story house in Gothic Revival style: steep gables, pointed arch windows, carved stone tracery, decorative buttresses and dramatic historic architecture. Retain coherent domestic entrance and facade proportions. Atmospheric dusk, no text.",
+            "observed": "暮色草地建築場景符合戲劇性歷史氛圍",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "哥德復興住宅",
+            "observed": "尖拱窗、石材花窗與扶壁呈現哥德復興",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "山牆、窗洞及門廊比例連貫",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，石材與窗飾細節完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-chrome-29-01",
+      "prompt_id": "src-visual642-573",
+      "command": "/chrome",
+      "title": "鏡面鍍鉻水瓶",
+      "description": "鏡面鍍鉻水瓶（AI案例示範）",
+      "result_text": "鏡面鍍鉻水瓶",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-29/chrome-29.png",
+      "applied_prompt": "Create a square web-quality website example. Make all visible bottle surfaces including lid and base reflective polished chrome metal, retain cylindrical body and cap proportions. Clean studio with softboxes reflected in surface, physically coherent highlights, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /chrome: Give surfaces a reflective metal finish.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Make all visible bottle surfaces including lid and base reflective polished chrome metal, retain cylindrical body and cap proportions. Clean studio with softboxes reflected in surface, physically coherent highlights, no text.",
+        "effect": "鏡面鍍鉻水瓶",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:19:11.918Z",
+        "source_instruction": "Give surfaces a reflective metal finish.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "4f5f47c35c9503ee6566d64086a801cb12ad4611db64d18285406b9439812686",
+        "applied_prompt_sha256": "4f95dc0228c8547abda5ddb1e43fda2ec251c5c283cd0ed1c47ce8253688a8e9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "圓柱瓶身與提環蓋形狀保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Make all visible bottle surfaces including lid and base reflective polished chrome metal, retain cylindrical body and cap proportions. Clean studio with softboxes reflected in surface, physically coherent highlights, no text.",
+            "observed": "乾淨產品展示桌面背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "鏡面鍍鉻水瓶",
+            "observed": "瓶蓋與瓶身皆有高反射金屬鏡面",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "曲面反射沿瓶身連續，接地陰影合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，邊緣與高光清晰",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-glass-29-01",
+      "prompt_id": "src-visual642-574",
+      "command": "/glass",
+      "title": "透明玻璃桌扇",
+      "description": "透明玻璃桌扇（AI案例示範）",
+      "result_text": "透明玻璃桌扇",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-29/glass-29.png",
+      "applied_prompt": "Create a square web-quality website example. Reimagine reference circular desk fan entirely as transparent clear glass sculpture: cage, three blades, neck and base all transparent with refraction and edge highlights. Clean neutral studio, preserve fan geometry, no claim of functional appliance, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /glass: Make the subject transparent glass.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reimagine reference circular desk fan entirely as transparent clear glass sculpture: cage, three blades, neck and base all transparent with refraction and edge highlights. Clean neutral studio, preserve fan geometry, no claim of functional appliance, no text.",
+        "effect": "透明玻璃桌扇",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:19:59.884Z",
+        "source_instruction": "Make the subject transparent glass.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "246774015e5f124da9abe9ff96335301c78f708e3e867e14a3a1dbb205d1375a",
+        "applied_prompt_sha256": "4eed0bbf284a0c6f53f14967da2532907b16d2b3186aa9214d1e4784f6e2ad7a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "圓形護罩、扇葉、支柱與底座仍可辨桌扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reimagine reference circular desk fan entirely as transparent clear glass sculpture: cage, three blades, neck and base all transparent with refraction and edge highlights. Clean neutral studio, preserve fan geometry, no claim of functional appliance, no text.",
+            "observed": "白色簡潔棚拍背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "透明玻璃桌扇",
+            "observed": "所有部件呈透明玻璃，邊緣折射與焦散明顯",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "前後護罩及透明扇葉層次可見，底座接地合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，為玻璃雕塑風格示範",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-holo-29-01",
+      "prompt_id": "src-visual642-575",
+      "command": "/holographic",
+      "title": "全息虹彩水瓶",
+      "description": "全息虹彩水瓶（AI案例示範）",
+      "result_text": "全息虹彩水瓶",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-29/holo-29.png",
+      "applied_prompt": "Create a square web-quality website example. Apply rainbow holographic finish to recognizable bottle body, lid and base with iridescent spectral reflections shifting across curved surfaces; physically solid object rather than ghost hologram. Dark product studio, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /holographic: Use a rainbow hologram finish.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Apply rainbow holographic finish to recognizable bottle body, lid and base with iridescent spectral reflections shifting across curved surfaces; physically solid object rather than ghost hologram. Dark product studio, no text.",
+        "effect": "全息虹彩水瓶",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:20:43.526Z",
+        "source_instruction": "Use a rainbow hologram finish.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "a836dd914a45a105e203424076f3024dc04236632af9a985ffd674fac3a15b0e",
+        "applied_prompt_sha256": "07a6d641508eac8513f3763a6bad3b2d19095e7148ec9695c4d19ad5cb9c4e03",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "提環瓶蓋與圓柱瓶身身份清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Apply rainbow holographic finish to recognizable bottle body, lid and base with iridescent spectral reflections shifting across curved surfaces; physically solid object rather than ghost hologram. Dark product studio, no text.",
+            "observed": "暗色產品棚拍背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "全息虹彩水瓶",
+            "observed": "瓶身及瓶蓋呈彩虹全息虹彩塗層",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "彩色反射沿曲面連續，物體保持實體",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，光澤與底部反光完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-poly-29-01",
+      "prompt_id": "src-visual642-576",
+      "command": "/lowpoly",
+      "title": "低多邊形住宅",
+      "description": "低多邊形住宅（AI案例示範）",
+      "result_text": "低多邊形住宅",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-29/poly-29.png",
+      "applied_prompt": "Create a square web-quality website example. Build recognizable reference two-story gabled house and surrounding simple garden from large clearly faceted flat-shaded polygons, angular roof and tree canopies, low-poly 3D style throughout, no smooth photo textures, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /lowpoly: Build the subject from faceted polygons.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Build recognizable reference two-story gabled house and surrounding simple garden from large clearly faceted flat-shaded polygons, angular roof and tree canopies, low-poly 3D style throughout, no smooth photo textures, no text.",
+        "effect": "低多邊形住宅",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:21:22.272Z",
+        "source_instruction": "Build the subject from faceted polygons.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "225a25a7af637ab5df47bee1546d98b06b4e61109613f2dd7880765143359466",
+        "applied_prompt_sha256": "bc1c193e7ed448b2c3be90341b9df46f0d7eb6c45401c3d2a60a2de1202cd8e3",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙層斜屋頂住宅身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Build recognizable reference two-story gabled house and surrounding simple garden from large clearly faceted flat-shaded polygons, angular roof and tree canopies, low-poly 3D style throughout, no smooth photo textures, no text.",
+            "observed": "房屋與花園統一低多邊形場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "低多邊形住宅",
+            "observed": "屋頂、牆面、樹木與草地均有明確平面切片",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "入口、窗戶與樹木比例連貫",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，無照片紋理干擾低多邊形效果",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-voxel-29-01",
+      "prompt_id": "src-visual642-577",
+      "command": "/voxel",
+      "title": "體素方塊桌扇",
+      "description": "體素方塊桌扇（AI案例示範）",
+      "result_text": "體素方塊桌扇",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-29/voxel-29.png",
+      "applied_prompt": "Create a square web-quality website example. Build reference desk fan from small block-like 3D pixels: stepped round cage, three teal blades and cream base made entirely of cubic voxels. Isometric studio view with obvious cube steps, no rounded smooth surfaces, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /voxel: Build the subject from block-like pixels.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Build reference desk fan from small block-like 3D pixels: stepped round cage, three teal blades and cream base made entirely of cubic voxels. Isometric studio view with obvious cube steps, no rounded smooth surfaces, no text.",
+        "effect": "體素方塊桌扇",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:22:26.520Z",
+        "source_instruction": "Build the subject from block-like pixels.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "b1f1bf76d3ce992018f70d998a0dbbc736da3d94f246b38d4c8bd9121d2287e6",
+        "applied_prompt_sha256": "f64f9c604cd8e2c57d696dc52bbd10c2e6b75c7dc75be2806e41c49344065de2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "圓形護罩、三片青綠扇葉、底座與線材保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Build reference desk fan from small block-like 3D pixels: stepped round cage, three teal blades and cream base made entirely of cubic voxels. Isometric studio view with obvious cube steps, no rounded smooth surfaces, no text.",
+            "observed": "白色簡潔立體展示場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "體素方塊桌扇",
+            "observed": "所有部件由立方體像素構成，階梯輪廓明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "方塊護罩、扇葉與底座相互關係清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，無平滑實體干擾體素本意",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-emboss-29-01",
+      "prompt_id": "src-visual642-578",
+      "command": "/emboss",
+      "title": "凸壓包裝紙盒",
+      "description": "凸壓包裝紙盒（AI案例示範）",
+      "result_text": "凸壓包裝紙盒",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-29/emboss-29.png",
+      "applied_prompt": "Create a square web-quality website example. Close-up neutral kraft packaging box with a simple unlettered leaf emblem physically embossed ABOVE cardboard surface. Side lighting clearly reveals raised paper ridges and cast shadows; macro inset unnecessary. Clean studio, no foil, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /emboss: Raise elements above a surface.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Close-up neutral kraft packaging box with a simple unlettered leaf emblem physically embossed ABOVE cardboard surface. Side lighting clearly reveals raised paper ridges and cast shadows; macro inset unnecessary. Clean studio, no foil, no text.",
+        "effect": "凸壓包裝紙盒",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:23:06.247Z",
+        "source_instruction": "Raise elements above a surface.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "7e279d51a3b22a6b5717da1cb445760138f31925b67a79331f36615b04c45826",
+        "applied_prompt_sha256": "e0903ad67488dbde84d2a58170667b5610e8856ec0ec4371f828a67f3099185c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "葉片圖案與方形紙盒保留原參考身份",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Close-up neutral kraft packaging box with a simple unlettered leaf emblem physically embossed ABOVE cardboard surface. Side lighting clearly reveals raised paper ridges and cast shadows; macro inset unnecessary. Clean studio, no foil, no text.",
+            "observed": "中性產品近拍場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "凸壓包裝紙盒",
+            "observed": "葉片明顯高於紙面，邊緣有凸起陰影符合emboss",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三葉與莖凸起連續，盒面保持平整",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字與金箔，紙紋清楚；保留綠色原盒符合英文凸壓本意",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-deboss-29-01",
+      "prompt_id": "src-visual642-579",
+      "command": "/deboss",
+      "title": "凹壓包裝紙盒",
+      "description": "凹壓包裝紙盒（AI案例示範）",
+      "result_text": "凹壓包裝紙盒",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-29/deboss-29.png",
+      "applied_prompt": "Create a square web-quality website example. Close-up neutral kraft packaging box with a simple unlettered leaf emblem pressed INTO cardboard surface. Angled side light makes recessed channels and inner shadows unmistakable, surrounding surface flat. No raised emblem, no foil, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /deboss: Press elements into a surface.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Close-up neutral kraft packaging box with a simple unlettered leaf emblem pressed INTO cardboard surface. Angled side light makes recessed channels and inner shadows unmistakable, surrounding surface flat. No raised emblem, no foil, no text.",
+        "effect": "凹壓包裝紙盒",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:23:47.142Z",
+        "source_instruction": "Press elements into a surface.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "18af52212f2c65901fca51e9d20bed6e9aaf618040c593cfc59fe1e8600088c6",
+        "applied_prompt_sha256": "473327d77a66dd534de38dd2bb67b918f05a1bafd275e7906e21d2c04dd37240",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "三葉圖案紙盒主體清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Close-up neutral kraft packaging box with a simple unlettered leaf emblem pressed INTO cardboard surface. Angled side light makes recessed channels and inner shadows unmistakable, surrounding surface flat. No raised emblem, no foil, no text.",
+            "observed": "中性近距離產品展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "凹壓包裝紙盒",
+            "observed": "葉片凹入紙面，有內側陰影與槽壁符合deboss",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "葉脈在凹槽內，周圍紙面平整",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字或金箔，凹壓方向可辨",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-foil-29-01",
+      "prompt_id": "src-visual642-580",
+      "command": "/foilstamp",
+      "title": "金箔包裝紙盒",
+      "description": "金箔包裝紙盒（AI案例示範）",
+      "result_text": "金箔包裝紙盒",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-29/foil-29.png",
+      "applied_prompt": "Create a square web-quality website example. Reference kraft packaging box with an elegant simple leaf emblem printed using bright metallic gold foil stamping, flat shiny foil surface catches light, macro product view. No raised or recessed emboss required, no lettering or logos. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /foilstamp: Add metallic foil printing.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference kraft packaging box with an elegant simple leaf emblem printed using bright metallic gold foil stamping, flat shiny foil surface catches light, macro product view. No raised or recessed emboss required, no lettering or logos.",
+        "effect": "金箔包裝紙盒",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:24:27.604Z",
+        "source_instruction": "Add metallic foil printing.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "a7f2e5cdce9b4e4855c3296fdbbe03a36965026b55999fbd084bf02c50cff2cd",
+        "applied_prompt_sha256": "ec81c4998ee0ec8a19b2f77dfbccdf9d8810b913e0f1b794eb3f8e341a0b63e8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "方形紙盒與三葉圖案身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference kraft packaging box with an elegant simple leaf emblem printed using bright metallic gold foil stamping, flat shiny foil surface catches light, macro product view. No raised or recessed emboss required, no lettering or logos.",
+            "observed": "中性產品近拍場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "金箔包裝紙盒",
+            "observed": "葉片為明亮反光金屬箔，與啞光紙面差異清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "箔圖案沿正面平整分布",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，金箔高光清晰；原綠色紙盒不影響金箔本意",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-die-29-01",
+      "prompt_id": "src-visual642-581",
+      "command": "/diecut",
+      "title": "模切展示紙盒",
+      "description": "模切展示紙盒（AI案例示範）",
+      "result_text": "模切展示紙盒",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-29/die-29.png",
+      "applied_prompt": "Create a square web-quality website example. Kraft packaging box based on reference with a clean leaf-shaped DIE-CUT opening cut fully through front cardboard panel. Real empty aperture reveals shadowed interior and back panel, crisp cut edge and paper thickness visible. Do not merely print leaf silhouette. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /diecut: Create a clean cut-out design.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Kraft packaging box based on reference with a clean leaf-shaped DIE-CUT opening cut fully through front cardboard panel. Real empty aperture reveals shadowed interior and back panel, crisp cut edge and paper thickness visible. Do not merely print leaf silhouette. No text.",
+        "effect": "模切展示紙盒",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:25:13.775Z",
+        "source_instruction": "Create a clean cut-out design.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "d242aa4649cd0cb5ba61b770c8577e35de9e1f10e3564ecb00016c557cd05f0b",
+        "applied_prompt_sha256": "686927aa9e83a814c789be72467be8a2f34f5f35d817a3cb1bf2661e91c0a138",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "方形紙盒與葉形設計保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Kraft packaging box based on reference with a clean leaf-shaped DIE-CUT opening cut fully through front cardboard panel. Real empty aperture reveals shadowed interior and back panel, crisp cut edge and paper thickness visible. Do not merely print leaf silhouette. No text.",
+            "observed": "乾淨棚拍包裝展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "模切展示紙盒",
+            "observed": "葉形為實際穿透開口，能見盒內背板和陰影",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "切口厚度、銳利邊緣與葉脈連橋清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，非印刷葉片或僅凹壓",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-stencil-29-01",
+      "prompt_id": "src-visual642-582",
+      "command": "/stencil",
+      "title": "桌扇鏤空版畫",
+      "description": "桌扇鏤空版畫（AI案例示範）",
+      "result_text": "桌扇鏤空版畫",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-29/stencil-29.png",
+      "applied_prompt": "Create a square web-quality website example. Convert recognizable desk fan into a bold two-dimensional stencil design: cream background and single dark teal solid stencil shapes, clear three-blade silhouette and circular cage, bridges connecting isolated shapes for cuttable stencil character. No gradients, photo shading or text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /stencil: Convert the subject into stencil shapes.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Convert recognizable desk fan into a bold two-dimensional stencil design: cream background and single dark teal solid stencil shapes, clear three-blade silhouette and circular cage, bridges connecting isolated shapes for cuttable stencil character. No gradients, photo shading or text.",
+        "effect": "桌扇鏤空版畫",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:26:02.759Z",
+        "source_instruction": "Convert the subject into stencil shapes.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "6539016a6e8a977f335dafb4b373a9e8110ee09c29747cf0aa85380bb7b26271",
+        "applied_prompt_sha256": "e125800041c813d331c46b1a605f9f861c2182f11e4f2f0427e1a1fb5ca456b4",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "桌扇圓護罩、扇葉與底座輪廓可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Convert recognizable desk fan into a bold two-dimensional stencil design: cream background and single dark teal solid stencil shapes, clear three-blade silhouette and circular cage, bridges connecting isolated shapes for cuttable stencil character. No gradients, photo shading or text.",
+            "observed": "奶油底平面圖像",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇鏤空版畫",
+            "observed": "單色深青綠正負形構成鏤空模板風格",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "護罩線條與負空間清晰，主體組織連續",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，無照片漸層，符合轉成模板形狀本意",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-half-29-01",
+      "prompt_id": "src-visual642-583",
+      "command": "/halftone",
+      "title": "網點漫畫水瓶",
+      "description": "網點漫畫水瓶（AI案例示範）",
+      "result_text": "網點漫畫水瓶",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-29/half-29.png",
+      "applied_prompt": "Create a square web-quality website example. Render recognizable bottle as comic-book halftone illustration: bold black contours, limited cyan and magenta ink palette, visible regularly spaced black dots varying in size for shadow, cream paper ground. Strong dot shading on bottle surface, no speech text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /halftone: Use comic-book dot shading.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Render recognizable bottle as comic-book halftone illustration: bold black contours, limited cyan and magenta ink palette, visible regularly spaced black dots varying in size for shadow, cream paper ground. Strong dot shading on bottle surface, no speech text.",
+        "effect": "網點漫畫水瓶",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:26:46.594Z",
+        "source_instruction": "Use comic-book dot shading.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "92b7f2e0bd03658f74285798c3af5fa72dd54f973aa9ae8dd0c20240c96943c7",
+        "applied_prompt_sha256": "82269b9952da27494bf580d101752eb076f30e51b4c7f432d1e22d84f3a8c8d9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色提環水瓶身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Render recognizable bottle as comic-book halftone illustration: bold black contours, limited cyan and magenta ink palette, visible regularly spaced black dots varying in size for shadow, cream paper ground. Strong dot shading on bottle surface, no speech text.",
+            "observed": "漫畫紙張與印刷背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "網點漫畫水瓶",
+            "observed": "瓶身用大小漸變網點塑造陰影，黑輪廓明顯",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "網點沿瓶身曲面與投影分布，主體比例完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；瓶身保留綠色，但原英文僅要求漫畫網點陰影，符合本意",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-duo-29-01",
+      "prompt_id": "src-visual642-584",
+      "command": "/duotone",
+      "title": "雙色手提袋圖像",
+      "description": "雙色手提袋圖像（AI案例示範）",
+      "result_text": "雙色手提袋圖像",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-29/duo-29.png",
+      "applied_prompt": "Create a square web-quality website example. Convert reference tote into graphic duotone design using ONLY dark navy and warm coral as the two inks/colors, full image including background limited to those two solid colors. Tote straps and body remain recognizable. No gradients, additional white or black, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /duotone: Limit the design to two colors.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Convert reference tote into graphic duotone design using ONLY dark navy and warm coral as the two inks/colors, full image including background limited to those two solid colors. Tote straps and body remain recognizable. No gradients, additional white or black, no text.",
+        "effect": "雙色手提袋圖像",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:27:39.547Z",
+        "source_instruction": "Limit the design to two colors.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "708d8593ff7e2fbaf10a328842c201524f81adbf4033744a99fcf64da28595a8",
+        "applied_prompt_sha256": "862a03195c0f21da159adc9182ca63266c640346c1665000e6d6a049b195810e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙提把與矩形帆布手提袋身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Convert reference tote into graphic duotone design using ONLY dark navy and warm coral as the two inks/colors, full image including background limited to those two solid colors. Tote straps and body remain recognizable. No gradients, additional white or black, no text.",
+            "observed": "背景桌面與室內裝飾統一圖像",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "雙色手提袋圖像",
+            "observed": "全圖以深藍與珊瑚兩色表現，符合雙色設計",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋身、把手與陰影以兩色疏密區分，比例連貫",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未見額外白色或其他色塊",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

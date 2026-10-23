@@ -1,0 +1,1540 @@
+{
+  "version": 1,
+  "id": "batch-20-23",
+  "cases": [
+    {
+      "id": "case-clean-23-01",
+      "prompt_id": "src-visual642-445",
+      "command": "/cleaningpoints",
+      "title": "桌扇清潔位置",
+      "description": "桌扇清潔位置（AI案例示範）",
+      "result_text": "桌扇清潔位置",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-23/clean-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title CLEANING POINTS. Complete fan with three callouts GRILLE: SOFT BRUSH, BASE: DRY CLOTH, CABLE: DRY WIPE. USB unplugged, continuous intact cable and plug. No water. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /cleaningpoints: Mark where and how to clean.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title CLEANING POINTS. Complete fan with three callouts GRILLE: SOFT BRUSH, BASE: DRY CLOTH, CABLE: DRY WIPE. USB unplugged, continuous intact cable and plug. No water.",
+        "effect": "桌扇清潔位置",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:56:43.603Z",
+        "source_instruction": "Mark where and how to clean.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "11b079144cfa5fb35cf1b7dc95b0a99ee90812b4b61d57fb6c8b40f9a6cedc48",
+        "applied_prompt_sha256": "b35f0c85d6b0c4259fca57074fde21e73dec8fa650b1ec113b37631745470f2c",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "外部清潔先斷電，不讓水進馬達、不伸指入護網；可能故障點僅為排查概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油桌扇青綠葉片與黑USB線保持一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title CLEANING POINTS. Complete fan with three callouts GRILLE: SOFT BRUSH, BASE: DRY CLOTH, CABLE: DRY WIPE. USB unplugged, continuous intact cable and plug. No water.",
+            "observed": "白底清潔標註圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇清潔位置",
+            "observed": "護網刷拭、底座乾布、線材乾擦三個清潔位置與方法可見",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三個局部放大及引線對應護網、底座、線材，插頭與線材完整斷電",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "標題及GRILLE、BASE、CABLE可讀，清潔方法以工具圖示表達",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-filter-23-01",
+      "prompt_id": "src-visual642-446",
+      "command": "/filterreplacement",
+      "title": "清淨機濾網更換概念",
+      "description": "清淨機濾網更換概念（AI案例示範）",
+      "result_text": "清淨機濾網更換概念",
+      "reference": "output/imagegen/batch-20-23/purifier-reference.png",
+      "result": "output/imagegen/batch-20-23/filter-23.png",
+      "applied_prompt": "Square clear three-panel conceptual air purifier filter replacement illustration. Keep reference off-white rounded body and dark top panel but use a broad rectangular FRONT opening that is WIDER AND TALLER than the rectangular pleated filter. All top lights OFF black throughout. Panel 1 UNPLUG AND OPEN: continuous cord plugged out of wall socket visible, front grille fully detached to reveal wide opening containing old gray filter. Panel 2 REMOVE OLD FILTER: hand draws gray dusty filter forward through wide opening, outward arrow. Panel 3 INSERT NEW FILTER: hand inserts same-size clean white unwrapped filter through wide opening, inward arrow. Title FILTER REPLACEMENT CONCEPT. Show full purifier at smaller scale in each panel including plug. No narrow side-slot insertion. No extra text. Original /filterreplacement: Explain how a filter is removed and changed.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-23/purifier-reference.png",
+        "sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio reference photograph of one fictional unbranded desktop air purifier, off-white rounded rectangular body, removable perforated front grille, visible side seam and discreet pull tab, dark top control display with simple power fan timer filter icons and small blue LED, black continuous power cable behind. Beside product a separate matching rectangular pleated filter and removed front grille demonstrate credible modular structure. No words no brand no claims. Front three-quarter view pale gray backdrop web-quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title FILTER REPLACEMENT CONCEPT. Three numbered panels 1 UNPLUG AND OPEN front grille removed, 2 REMOVE OLD FILTER rectangular filter pulled outward, 3 INSERT NEW FILTER matching unwrapped dry filter inward. Front access cavity visible, no duplicated front panel.",
+        "effect": "清淨機濾網更換概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:58:35.550Z",
+        "source_instruction": "Explain how a filter is removed and changed.",
+        "reference_sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "result_sha256": "dd5b66e7689a7e0dbd7939d040406e68e88f275f7a1d56eeddf3feb8c360eaa0",
+        "applied_prompt_sha256": "7e4f11c1b155326a7dbfb5f7ee94e27df8a8660a99d8ac6e3e08a0506141ea31",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://levoit.com/products/core-mini-p-air-purifier-replacement-filter"
+          ],
+          "notes": "通用更換濾網先拔電、取出舊件、裝入相容且拆除包裝的新濾網；虛構前開式結構非真實型號操作。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "無品牌清淨機與長方形摺疊濾網一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title FILTER REPLACEMENT CONCEPT. Three numbered panels 1 UNPLUG AND OPEN front grille removed, 2 REMOVE OLD FILTER rectangular filter pulled outward, 3 INSERT NEW FILTER matching unwrapped dry filter inward. Front access cavity visible, no duplicated front panel.",
+            "observed": "三欄斷電更換濾網概念圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "清淨機濾網更換概念",
+            "observed": "開蓋、舊灰濾網抽出、新白濾網插入清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "寬正面開口可容納濾網，箭頭一出一入；三欄插頭均拔出燈關閉",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "保留概念標題；未呈現步驟數字與小標，以三欄順序、灰白對比及箭頭表達原指令要求",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "濾網與開口比例不合理且斷電仍亮燈",
+          "applied_prompt": "Create a square web-quality website example. Title FILTER REPLACEMENT CONCEPT. Three numbered panels 1 UNPLUG AND OPEN front grille removed, 2 REMOVE OLD FILTER rectangular filter pulled outward, 3 INSERT NEW FILTER matching unwrapped dry filter inward. Front access cavity visible, no duplicated front panel. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /filterreplacement: Explain how a filter is removed and changed.",
+          "result": "output/imagegen/batch-20-23/filter-23-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-lube-23-01",
+      "prompt_id": "src-visual642-447",
+      "command": "/lubricationpoints",
+      "title": "齒輪潤滑位置概念",
+      "description": "齒輪潤滑位置概念（AI案例示範）",
+      "result_text": "齒輪潤滑位置概念",
+      "reference": "output/imagegen/batch-20-20/gear-reference.png",
+      "result": "output/imagegen/batch-20-23/lube-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title LUBRICATION POINTS. Stopped gear rig with yellow highlighted tooth contact surfaces and shaft bearing hubs. Two callouts GEAR TEETH and BEARING POINTS. Bottom STOP BEFORE SERVICE. Small oil drop symbol near teeth, no hands or motion arrows. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /lubricationpoints: Mark hinges, gears, or parts needing lubricant.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/gear-reference.png",
+        "sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic educational hand-crank gear demonstrator. Exactly TWO equal-sized steel spur gears on parallel short horizontal shafts, mounted side by side on a cream vertical support plate above a stable teal base. Gear teeth visibly mesh at the center. Left gear shaft has a small black hand crank in front; right shaft ends in short plain output stub. Static tabletop model, no motor, no text, no brand, white background. Plausible simple mechanism."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title LUBRICATION POINTS. Stopped gear rig with yellow highlighted tooth contact surfaces and shaft bearing hubs. Two callouts GEAR TEETH and BEARING POINTS. Bottom STOP BEFORE SERVICE. Small oil drop symbol near teeth, no hands or motion arrows.",
+        "effect": "齒輪潤滑位置概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:59:15.934Z",
+        "source_instruction": "Mark hinges, gears, or parts needing lubricant.",
+        "reference_sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "result_sha256": "b36c9025d3318bc1ee237d0427a1df009ceee038ee03ac7040e247afdd9508b2",
+        "applied_prompt_sha256": "e637866bc8ffed3e4a80b6e3634df2e41fbbbce40fe86c9f0379d8fc3c8192a1",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://khkgears.net/pdf/spur-tech.pdf",
+            "https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions"
+          ],
+          "notes": "齒面及軸承為潤滑位置概念，停止後維護；不指定油品或數量，不把教具視作工業機械作業程序。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙齒輪手搖機構及青綠底座一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title LUBRICATION POINTS. Stopped gear rig with yellow highlighted tooth contact surfaces and shaft bearing hubs. Two callouts GEAR TEETH and BEARING POINTS. Bottom STOP BEFORE SERVICE. Small oil drop symbol near teeth, no hands or motion arrows.",
+            "observed": "靜止機構潤滑位置標註",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "齒輪潤滑位置概念",
+            "observed": "齒面與兩軸承輪轂用黃色突出",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線分別指齒形外周與兩中心軸承位置，沒有手伸入",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "GEAR TEETH、BEARING POINTS及STOP BEFORE SERVICE清楚，無油量宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-inspect-23-01",
+      "prompt_id": "src-visual642-448",
+      "command": "/inspectionpoints",
+      "title": "帆布袋檢查部位",
+      "description": "帆布袋檢查部位（AI案例示範）",
+      "result_text": "帆布袋檢查部位",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-23/inspect-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title INSPECTION POINTS. Four circled closeups HANDLE STITCHES, SIDE SEAM, BASE CORNER, HANDLE FABRIC connected to exact matching product locations. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /inspectionpoints: Highlight areas that should be checked.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title INSPECTION POINTS. Four circled closeups HANDLE STITCHES, SIDE SEAM, BASE CORNER, HANDLE FABRIC connected to exact matching product locations.",
+        "effect": "帆布袋檢查部位",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:59:59.188Z",
+        "source_instruction": "Highlight areas that should be checked.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "cdbf6a7945974a10e21e381d8f97c5dd23fdb9dbb05e159008fd0d47e908faf3",
+        "applied_prompt_sha256": "df42069723aa524b9aef5609506ca069729841d006ffbfee11cfadf92259ec28",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.coats.com/en/industries/composites/faqs/"
+          ],
+          "notes": "縫接處與織物檢查、針線修補示範；不保證修補後載重或壽命。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布袋及棕提把一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title INSPECTION POINTS. Four circled closeups HANDLE STITCHES, SIDE SEAM, BASE CORNER, HANDLE FABRIC connected to exact matching product locations.",
+            "observed": "桌面產品部位檢查圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋檢查部位",
+            "observed": "四個放大圈展示提把縫線、提把布、側縫與底角",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線對應提把接合、上段織帶、側邊與底部區域",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "四個英文標示清晰，無虛構測試數據",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-fault-23-01",
+      "prompt_id": "src-visual642-449",
+      "command": "/faultfinder",
+      "title": "桌扇可能故障來源",
+      "description": "桌扇可能故障來源（AI案例示範）",
+      "result_text": "桌扇可能故障來源",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-23/fault-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title POSSIBLE FAULT POINTS. Three red circles around USB plug, base button and dust-covered grille. Labels USB CONNECTION, POWER BUTTON, DUST BUILDUP. Bottom CHECK BEFORE ASSUMING FAILURE. No interior wiring. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /faultfinder: Highlight likely sources of failure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title POSSIBLE FAULT POINTS. Three red circles around USB plug, base button and dust-covered grille. Labels USB CONNECTION, POWER BUTTON, DUST BUILDUP. Bottom CHECK BEFORE ASSUMING FAILURE. No interior wiring.",
+        "effect": "桌扇可能故障來源",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:00:59.905Z",
+        "source_instruction": "Highlight likely sources of failure.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "99a8c72533de5f664088b292fa28cf8f5c348624f5aef07a98ca54d4c6de60ea",
+        "applied_prompt_sha256": "4a71639dad814fa339685520331bcb27421b203597b63ee7045c2206daf48f18",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "外部清潔先斷電，不讓水進馬達、不伸指入護網；可能故障點僅為排查概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油桌扇保留USB及基座按鈕",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title POSSIBLE FAULT POINTS. Three red circles around USB plug, base button and dust-covered grille. Labels USB CONNECTION, POWER BUTTON, DUST BUILDUP. Bottom CHECK BEFORE ASSUMING FAILURE. No interior wiring.",
+            "observed": "白底故障來源提示圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇可能故障來源",
+            "observed": "灰塵、USB連接及電源按鈕三處紅圈突出",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "各圈與標示對應正確部位；線材連續",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "POSSIBLE FAULT POINTS明確表達可能性，小提醒未呈現但未保證確定故障",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-route-23-01",
+      "prompt_id": "src-visual642-450",
+      "command": "/repairroute",
+      "title": "帆布袋側縫修補路徑",
+      "description": "帆布袋側縫修補路徑（AI案例示範）",
+      "result_text": "帆布袋側縫修補路徑",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-23/route-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title SEAM REPAIR ROUTE. Four ordered panels 1 EMPTY BAG, 2 INSPECT OPEN SEAM, 3 RESTITCH WITH NEEDLE AND THREAD, 4 CHECK STITCHES. Show needle with fingers clear of point. Same brown handle attachment throughout. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /repairroute: Show the safest route through a repair.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title SEAM REPAIR ROUTE. Four ordered panels 1 EMPTY BAG, 2 INSPECT OPEN SEAM, 3 RESTITCH WITH NEEDLE AND THREAD, 4 CHECK STITCHES. Show needle with fingers clear of point. Same brown handle attachment throughout.",
+        "effect": "帆布袋側縫修補路徑",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:01:59.019Z",
+        "source_instruction": "Show the safest route through a repair.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "7f082c4a5c44a7f37983360c4d0ecd5c818677d818b043517e99e13ab5c1efb6",
+        "applied_prompt_sha256": "9cf4e27576b8c9218d1e50c15d3c88f9300375bf4ed2350099f9f9786659f9e8",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.coats.com/en/industries/composites/faqs/"
+          ],
+          "notes": "縫接處與織物檢查、針線修補示範；不保證修補後載重或壽命。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布袋與棕色提把保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title SEAM REPAIR ROUTE. Four ordered panels 1 EMPTY BAG, 2 INSPECT OPEN SEAM, 3 RESTITCH WITH NEEDLE AND THREAD, 4 CHECK STITCHES. Show needle with fingers clear of point. Same brown handle attachment throughout.",
+            "observed": "四格外部側縫修補順序圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋側縫修補路徑",
+            "observed": "清空、檢查開線、針線重縫、檢查縫線四步清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "實際修補右側縫而非提把；前後同部位，針尖與握持手指分離，案例名稱已如實改為側縫",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "四個編號及文字可讀，無修補後承重保證",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-part-23-01",
+      "prompt_id": "src-visual642-451",
+      "command": "/replaceablepart",
+      "title": "水瓶可更換護底套",
+      "description": "水瓶可更換護底套（AI案例示範）",
+      "result_text": "水瓶可更換護底套",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-23/part-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title REPLACEABLE PART. Bottle at center, detached olive base boot at right with dotted outline bottom and pointer BASE BOOT. Cap and body remain intact. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /replaceablepart: Identify the component that can be replaced.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title REPLACEABLE PART. Bottle at center, detached olive base boot at right with dotted outline bottom and pointer BASE BOOT. Cap and body remain intact.",
+        "effect": "水瓶可更換護底套",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:02:36.128Z",
+        "source_instruction": "Identify the component that can be replaced.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "ac99c1db05c99bc40ba308d31ce0e583e4c2e86a8c48a3491e403db0e39f1bb2",
+        "applied_prompt_sha256": "f7a4d99e4349ebd43778916cd5ced0a2eb132d0d93208077153c63460bb65774",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鼠尾草綠水瓶黑蓋與橄欖護底套一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title REPLACEABLE PART. Bottle at center, detached olive base boot at right with dotted outline bottom and pointer BASE BOOT. Cap and body remain intact.",
+            "observed": "木桌產品零件示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶可更換護底套",
+            "observed": "拆出的護底套單獨標示為可更換部件",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "護底套在瓶右側分離，瓶身與蓋保持完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "BASE BOOT引線指向護套，底部虛線，沒有性能宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-hazard-23-01",
+      "prompt_id": "src-visual642-452",
+      "command": "/hazardmap",
+      "title": "齒輪夾點風險圖",
+      "description": "齒輪夾點風險圖（AI案例示範）",
+      "result_text": "齒輪夾點風險圖",
+      "reference": "output/imagegen/batch-20-20/gear-reference.png",
+      "result": "output/imagegen/batch-20-23/hazard-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title GEAR HAZARD MAP. Red circle exactly at meshing teeth contact point labeled PINCH POINT. Red warning KEEP HANDS CLEAR. No hands inside gears. Static educational diagram. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /hazardmap: Highlight dangerous areas or actions.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/gear-reference.png",
+        "sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic educational hand-crank gear demonstrator. Exactly TWO equal-sized steel spur gears on parallel short horizontal shafts, mounted side by side on a cream vertical support plate above a stable teal base. Gear teeth visibly mesh at the center. Left gear shaft has a small black hand crank in front; right shaft ends in short plain output stub. Static tabletop model, no motor, no text, no brand, white background. Plausible simple mechanism."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title GEAR HAZARD MAP. Red circle exactly at meshing teeth contact point labeled PINCH POINT. Red warning KEEP HANDS CLEAR. No hands inside gears. Static educational diagram.",
+        "effect": "齒輪夾點風險圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:03:19.724Z",
+        "source_instruction": "Highlight dangerous areas or actions.",
+        "reference_sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "result_sha256": "fafd6d81458f082860c5e2c48dccb0fee154f19846b6b3c415b014043f4e0a1c",
+        "applied_prompt_sha256": "7a491c83e7b36218659c599b3da784686a666bb9c8b12440ce9718fe45638c22",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions",
+            "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212",
+            "https://www.cdc.gov/niosh/ppe/eye-safety/index.html"
+          ],
+          "notes": "嚙合齒輪有夾點，護罩與手部隔離是主要措施；眼部防護不能取代護罩，操作區只標示外部把手與固定底座。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙金屬齒輪與手搖底座一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title GEAR HAZARD MAP. Red circle exactly at meshing teeth contact point labeled PINCH POINT. Red warning KEEP HANDS CLEAR. No hands inside gears. Static educational diagram.",
+            "observed": "靜態機構危險區標示",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "齒輪夾點風險圖",
+            "observed": "紅圈與警告指向嚙合夾點",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "圓圈中心位於兩齒輪接觸區，沒有手伸入",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "PINCH POINT與KEEP HANDS CLEAR清楚可讀",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-safe-23-01",
+      "prompt_id": "src-visual642-453",
+      "command": "/safezones",
+      "title": "齒輪裝置安全操作區概念",
+      "description": "齒輪裝置安全操作區概念（AI案例示範）",
+      "result_text": "齒輪裝置安全操作區概念",
+      "reference": "output/imagegen/batch-20-20/gear-reference.png",
+      "result": "output/imagegen/batch-20-23/safe-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title HANDLING ZONES. Transparent fixed guard covers both gears; green callouts only to crank handle knob outside guard and stationary teal base edge GRIP HANDLE, HOLD BASE. Red NO TOUCH marker over meshing teeth behind guard. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /safezones: Show where it is safe to touch or work.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/gear-reference.png",
+        "sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic educational hand-crank gear demonstrator. Exactly TWO equal-sized steel spur gears on parallel short horizontal shafts, mounted side by side on a cream vertical support plate above a stable teal base. Gear teeth visibly mesh at the center. Left gear shaft has a small black hand crank in front; right shaft ends in short plain output stub. Static tabletop model, no motor, no text, no brand, white background. Plausible simple mechanism."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title HANDLING ZONES. Transparent fixed guard covers both gears; green callouts only to crank handle knob outside guard and stationary teal base edge GRIP HANDLE, HOLD BASE. Red NO TOUCH marker over meshing teeth behind guard.",
+        "effect": "齒輪裝置安全操作區概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:04:01.778Z",
+        "source_instruction": "Show where it is safe to touch or work.",
+        "reference_sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "result_sha256": "8e07312da86180c721e82a137b6c14d98f71e63d0276675e8edde42b64d49242",
+        "applied_prompt_sha256": "3fc539b456724355b74b05b3df242a6ac128e3be316e0b76427b6f07bd2f7227",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions",
+            "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212",
+            "https://www.cdc.gov/niosh/ppe/eye-safety/index.html"
+          ],
+          "notes": "嚙合齒輪有夾點，護罩與手部隔離是主要措施；眼部防護不能取代護罩，操作區只標示外部把手與固定底座。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙齒輪手搖教具完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title HANDLING ZONES. Transparent fixed guard covers both gears; green callouts only to crank handle knob outside guard and stationary teal base edge GRIP HANDLE, HOLD BASE. Red NO TOUCH marker over meshing teeth behind guard.",
+            "observed": "帶透明固定護罩的操作區示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "齒輪裝置安全操作區概念",
+            "observed": "綠色只圈把手握柄及固定底座邊緣，中央紅色禁止觸摸",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩齒輪均位於透明護罩後方，把手伸出護罩，標示不把齒輪當安全區",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "GRIP HANDLE與HOLD BASE可讀，紅手掌禁止符號清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-warn-23-01",
+      "prompt_id": "src-visual642-454",
+      "command": "/warningpoints",
+      "title": "桌扇警告標示",
+      "description": "桌扇警告標示（AI案例示範）",
+      "result_text": "桌扇警告標示",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-23/warn-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title FAN WARNINGS. Two warning callouts point to grille KEEP FINGERS OUT and motor housing KEEP WATER AWAY. USB disconnected continuous cable. No hands or water entering. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /warningpoints: Mark warnings directly on the image.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title FAN WARNINGS. Two warning callouts point to grille KEEP FINGERS OUT and motor housing KEEP WATER AWAY. USB disconnected continuous cable. No hands or water entering.",
+        "effect": "桌扇警告標示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:05:07.002Z",
+        "source_instruction": "Mark warnings directly on the image.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "cea4df33fadb8578ab1d8dc04bb9d991eb9ba397f799b8428fafb9134ac3ffc2",
+        "applied_prompt_sha256": "61dd5489d7ea0b7bfbd58a288215914df0b3cfb5760dba486113d3f27b6adb4f",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "外部清潔先斷電，不讓水進馬達、不伸指入護網；可能故障點僅為排查概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油桌扇與青綠葉片一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title FAN WARNINGS. Two warning callouts point to grille KEEP FINGERS OUT and motor housing KEEP WATER AWAY. USB disconnected continuous cable. No hands or water entering.",
+            "observed": "桌扇直接警告標註",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇警告標示",
+            "observed": "禁止伸指與避免水進機體兩項清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線分別指護網及馬達外殼，USB線完整拔出",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "兩個禁止符號與英文警告清楚，沒有描繪實際危險操作",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-ppe-23-01",
+      "prompt_id": "src-visual642-455",
+      "command": "/protectivegear",
+      "title": "機構工作區眼部防護",
+      "description": "機構工作區眼部防護（AI案例示範）",
+      "result_text": "機構工作區眼部防護",
+      "reference": "output/imagegen/batch-20-20/gear-reference.png",
+      "result": "output/imagegen/batch-20-23/ppe-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title WORKSHOP EYE PROTECTION. Adult technician beside stopped guarded gear rig wears clear safety glasses with side shields and close-fitting sleeves. Callout SAFETY GLASSES to eyes. Transparent guard visibly covers gears. No hands contacting moving parts, no loose jewelry, no gloves near gears. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /protectivegear: Show the safety equipment required.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/gear-reference.png",
+        "sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic educational hand-crank gear demonstrator. Exactly TWO equal-sized steel spur gears on parallel short horizontal shafts, mounted side by side on a cream vertical support plate above a stable teal base. Gear teeth visibly mesh at the center. Left gear shaft has a small black hand crank in front; right shaft ends in short plain output stub. Static tabletop model, no motor, no text, no brand, white background. Plausible simple mechanism."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title WORKSHOP EYE PROTECTION. Adult technician beside stopped guarded gear rig wears clear safety glasses with side shields and close-fitting sleeves. Callout SAFETY GLASSES to eyes. Transparent guard visibly covers gears. No hands contacting moving parts, no loose jewelry, no gloves near gears.",
+        "effect": "機構工作區眼部防護",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:05:49.339Z",
+        "source_instruction": "Show the safety equipment required.",
+        "reference_sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "result_sha256": "6b9157296b7b8aabb732223b76d3b20b00dc625a66391120a87a3ef0061be52f",
+        "applied_prompt_sha256": "29a2831194f40459f4c54ae7705a5770f1e7801648410c29af9136434ea26272",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions",
+            "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.212",
+            "https://www.cdc.gov/niosh/ppe/eye-safety/index.html"
+          ],
+          "notes": "嚙合齒輪有夾點，護罩與手部隔離是主要措施；眼部防護不能取代護罩，操作區只標示外部把手與固定底座。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "技術人員與參考雙齒輪教具",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title WORKSHOP EYE PROTECTION. Adult technician beside stopped guarded gear rig wears clear safety glasses with side shields and close-fitting sleeves. Callout SAFETY GLASSES to eyes. Transparent guard visibly covers gears. No hands contacting moving parts, no loose jewelry, no gloves near gears.",
+            "observed": "工作檯眼部防護示範",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機構工作區眼部防護",
+            "observed": "透明側翼安全眼鏡配正確引線",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "齒輪置於透明護罩後，人手不接觸機構，衣袖合身無鬆散飾物",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SAFETY GLASSES標示正確，未把眼鏡當護罩替代",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-panel-23-01",
+      "prompt_id": "src-visual642-456",
+      "command": "/controlpanel",
+      "title": "清淨機控制面板概念",
+      "description": "清淨機控制面板概念（AI案例示範）",
+      "result_text": "清淨機控制面板概念",
+      "reference": "output/imagegen/batch-20-23/purifier-reference.png",
+      "result": "output/imagegen/batch-20-23/panel-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title CONTROL PANEL CONCEPT. Large top view dark panel with four evenly spaced icons power, fan, timer, filter. Four thin leader lines POWER, FAN SPEED, TIMER, FILTER REMINDER each to its correct icon. Small complete product below. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /controlpanel: Explain the control panel or interface.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-23/purifier-reference.png",
+        "sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio reference photograph of one fictional unbranded desktop air purifier, off-white rounded rectangular body, removable perforated front grille, visible side seam and discreet pull tab, dark top control display with simple power fan timer filter icons and small blue LED, black continuous power cable behind. Beside product a separate matching rectangular pleated filter and removed front grille demonstrate credible modular structure. No words no brand no claims. Front three-quarter view pale gray backdrop web-quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title CONTROL PANEL CONCEPT. Large top view dark panel with four evenly spaced icons power, fan, timer, filter. Four thin leader lines POWER, FAN SPEED, TIMER, FILTER REMINDER each to its correct icon. Small complete product below.",
+        "effect": "清淨機控制面板概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:06:51.099Z",
+        "source_instruction": "Explain the control panel or interface.",
+        "reference_sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "result_sha256": "bf95e745c107c33099297c6422c7e08ad45d23ec845d7469a3e3d44f5c36febf",
+        "applied_prompt_sha256": "169f19fd67adc39415fe3a743c32bbc3c7c4f171419d48d75f7c6e3604a57591",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://levoit.com/products/core-mini-p-air-purifier-replacement-filter"
+          ],
+          "notes": "濾網與供電提醒有一般產品背景；畫面文字、指示燈、介面及任務狀態為明確標示的虛構概念，不當作真實型號錯誤碼或功能。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "清淨機黑色頂部面板及白機身一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title CONTROL PANEL CONCEPT. Large top view dark panel with four evenly spaced icons power, fan, timer, filter. Four thin leader lines POWER, FAN SPEED, TIMER, FILTER REMINDER each to its correct icon. Small complete product below.",
+            "observed": "放大控制面板配產品縮圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "清淨機控制面板概念",
+            "observed": "四項控制功能各有標籤",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "POWER對電源、FAN SPEED對風扇、TIMER對時鐘、FILTER REMINDER對濾網圖示",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念標題與四條引線可讀正確，無真實型號功能宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-screen-23-01",
+      "prompt_id": "src-visual642-457",
+      "command": "/screenlabels",
+      "title": "清淨機狀態畫面概念",
+      "description": "清淨機狀態畫面概念（AI案例示範）",
+      "result_text": "清淨機狀態畫面概念",
+      "reference": "output/imagegen/batch-20-23/purifier-reference.png",
+      "result": "output/imagegen/batch-20-23/screen-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title SCREEN LABELS CONCEPT. Fictional enlarged display: top RUNNING, middle FAN 2, bottom TIMER 2h and FILTER OK. Four clear margin callouts STATUS, FAN LEVEL, TIMER, FILTER STATUS to exact elements. Product thumbnail below. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /screenlabels: Label important screen elements.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-23/purifier-reference.png",
+        "sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio reference photograph of one fictional unbranded desktop air purifier, off-white rounded rectangular body, removable perforated front grille, visible side seam and discreet pull tab, dark top control display with simple power fan timer filter icons and small blue LED, black continuous power cable behind. Beside product a separate matching rectangular pleated filter and removed front grille demonstrate credible modular structure. No words no brand no claims. Front three-quarter view pale gray backdrop web-quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title SCREEN LABELS CONCEPT. Fictional enlarged display: top RUNNING, middle FAN 2, bottom TIMER 2h and FILTER OK. Four clear margin callouts STATUS, FAN LEVEL, TIMER, FILTER STATUS to exact elements. Product thumbnail below.",
+        "effect": "清淨機狀態畫面概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:07:34.173Z",
+        "source_instruction": "Label important screen elements.",
+        "reference_sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "result_sha256": "cbadf1dd45558ef6044e574614feb11cc727369d244f78ffdb183a7ada2722b8",
+        "applied_prompt_sha256": "07c5b5caa72f3449dbb7881f10585107d4d117a2d9d57b7b24d5bf16337d796a",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://levoit.com/products/core-mini-p-air-purifier-replacement-filter"
+          ],
+          "notes": "濾網與供電提醒有一般產品背景；畫面文字、指示燈、介面及任務狀態為明確標示的虛構概念，不當作真實型號錯誤碼或功能。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "無品牌清淨機與放大虛構介面",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title SCREEN LABELS CONCEPT. Fictional enlarged display: top RUNNING, middle FAN 2, bottom TIMER 2h and FILTER OK. Four clear margin callouts STATUS, FAN LEVEL, TIMER, FILTER STATUS to exact elements. Product thumbnail below.",
+            "observed": "產品畫面元素標註圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "清淨機狀態畫面概念",
+            "observed": "狀態、風速級別、計時與濾網狀態四元素說明",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "四條引線依序對RUNNING、FAN 2、TIMER 2h、FILTER OK",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念標題及所有數字文字正確可讀",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-lights-23-01",
+      "prompt_id": "src-visual642-458",
+      "command": "/indicatorlights",
+      "title": "清淨機指示燈概念",
+      "description": "清淨機指示燈概念（AI案例示範）",
+      "result_text": "清淨機指示燈概念",
+      "reference": "output/imagegen/batch-20-23/purifier-reference.png",
+      "result": "output/imagegen/batch-20-23/lights-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title INDICATOR LIGHTS CONCEPT. Three equal panels blue light POWER ON, amber filter icon REPLACE FILTER, dark LED POWER OFF. Same purifier top panel in each, clearly different indicated states. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /indicatorlights: Explain lights, symbols, and status indicators.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-23/purifier-reference.png",
+        "sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio reference photograph of one fictional unbranded desktop air purifier, off-white rounded rectangular body, removable perforated front grille, visible side seam and discreet pull tab, dark top control display with simple power fan timer filter icons and small blue LED, black continuous power cable behind. Beside product a separate matching rectangular pleated filter and removed front grille demonstrate credible modular structure. No words no brand no claims. Front three-quarter view pale gray backdrop web-quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title INDICATOR LIGHTS CONCEPT. Three equal panels blue light POWER ON, amber filter icon REPLACE FILTER, dark LED POWER OFF. Same purifier top panel in each, clearly different indicated states.",
+        "effect": "清淨機指示燈概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:08:23.668Z",
+        "source_instruction": "Explain lights, symbols, and status indicators.",
+        "reference_sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "result_sha256": "e6551a631c27ea581f8bce6d378a4a310dbc78f646c42cf8aa430352f37ed966",
+        "applied_prompt_sha256": "91805b6b06a8485df3e3333a4190be963e86854ef60f7591b0f3c50a7483f43f",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://levoit.com/products/core-mini-p-air-purifier-replacement-filter"
+          ],
+          "notes": "濾網與供電提醒有一般產品背景；畫面文字、指示燈、介面及任務狀態為明確標示的虛構概念，不當作真實型號錯誤碼或功能。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "三個相同清淨機頂部面板",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title INDICATOR LIGHTS CONCEPT. Three equal panels blue light POWER ON, amber filter icon REPLACE FILTER, dark LED POWER OFF. Same purifier top panel in each, clearly different indicated states.",
+            "observed": "三欄指示燈概念比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "清淨機指示燈概念",
+            "observed": "藍色電源燈、橙色濾網圖示、暗燈關機三態清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "各放大圖示與下方機體面板狀態一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "POWER ON、REPLACE FILTER、POWER OFF與概念標題正確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-modes-23-01",
+      "prompt_id": "src-visual642-459",
+      "command": "/modechart",
+      "title": "感應燈模式比較",
+      "description": "感應燈模式比較（AI案例示範）",
+      "result_text": "感應燈模式比較",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-23/modes-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title MODE COMPARISON CONCEPT. Three panels OFF unlit lamp, AUTO walking person with lit lamp, ON lit lamp without person. Each has matching side slider label. Only headings and mode names. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /modechart: Compare different operating modes.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title MODE COMPARISON CONCEPT. Three panels OFF unlit lamp, AUTO walking person with lit lamp, ON lit lamp without person. Each has matching side slider label. Only headings and mode names.",
+        "effect": "感應燈模式比較",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:09:07.756Z",
+        "source_instruction": "Compare different operating modes.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "d04e01ed797dd9f72afb07f019dbc9dbca973b388fbedb2ca713a6bd2489f6d4",
+        "applied_prompt_sha256": "c99ef16dfe3a80a662032762d484df19856f9233b080e30b86d5521f858c2aa9",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "電池到控制器再到LED為功能方塊概念；PIR送控制訊號，非接線圖。OFF/AUTO/ON為虛構產品模式示範。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "三欄同款白色PIR壁燈",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title MODE COMPARISON CONCEPT. Three panels OFF unlit lamp, AUTO walking person with lit lamp, ON lit lamp without person. Each has matching side slider label. Only headings and mode names.",
+            "observed": "壁面感應燈模式對照",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈模式比較",
+            "observed": "OFF不亮、AUTO行人經過亮、ON無人持續亮",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "每欄模式與場景亮暗相符；底部概念開關圖示非實體位置量測",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "OFF、AUTO、ON及概念標題清楚，沒有定時或感應距離宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-status-23-01",
+      "prompt_id": "src-visual642-460",
+      "command": "/statuscomparison",
+      "title": "操作介面四種任務狀態",
+      "description": "操作介面四種任務狀態（AI案例示範）",
+      "result_text": "操作介面四種任務狀態",
+      "reference": "output/imagegen/batch-20-23/purifier-reference.png",
+      "result": "output/imagegen/batch-20-23/status-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title TASK STATUS CONCEPT. Four fictional device UI screens IDLE gray empty progress, ACTIVE blue half-filled bar and play icon, PAUSED amber half-filled bar pause icon, FINISHED green full bar checkmark. Same frame four screens, product thumbnail. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /statuscomparison: Show idle, active, paused, and finished states.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-23/purifier-reference.png",
+        "sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio reference photograph of one fictional unbranded desktop air purifier, off-white rounded rectangular body, removable perforated front grille, visible side seam and discreet pull tab, dark top control display with simple power fan timer filter icons and small blue LED, black continuous power cable behind. Beside product a separate matching rectangular pleated filter and removed front grille demonstrate credible modular structure. No words no brand no claims. Front three-quarter view pale gray backdrop web-quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title TASK STATUS CONCEPT. Four fictional device UI screens IDLE gray empty progress, ACTIVE blue half-filled bar and play icon, PAUSED amber half-filled bar pause icon, FINISHED green full bar checkmark. Same frame four screens, product thumbnail.",
+        "effect": "操作介面四種任務狀態",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:09:48.184Z",
+        "source_instruction": "Show idle, active, paused, and finished states.",
+        "reference_sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "result_sha256": "48e232416edae253706d2e55693cdba2b70e3074e7a6dd4efaa3406284527ca3",
+        "applied_prompt_sha256": "2304649fccdf120ffe4911e2193325c9df6d5063faa69c772b7b18610acfb8a0",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://levoit.com/products/core-mini-p-air-purifier-replacement-filter"
+          ],
+          "notes": "濾網與供電提醒有一般產品背景；畫面文字、指示燈、介面及任務狀態為明確標示的虛構概念，不當作真實型號錯誤碼或功能。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "四個同款清淨機虛構任務介面",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title TASK STATUS CONCEPT. Four fictional device UI screens IDLE gray empty progress, ACTIVE blue half-filled bar and play icon, PAUSED amber half-filled bar pause icon, FINISHED green full bar checkmark. Same frame four screens, product thumbnail.",
+            "observed": "二乘二操作狀態比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "操作介面四種任務狀態",
+            "observed": "待機灰空條、執行藍半條、暫停橙半條、完成綠滿條",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "播放、暫停、勾選符號與對應進度一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "IDLE、ACTIVE、PAUSED、FINISHED與CONCEPT標題清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-power-23-01",
+      "prompt_id": "src-visual642-461",
+      "command": "/onandoff",
+      "title": "感應燈開關狀態對照",
+      "description": "感應燈開關狀態對照（AI案例示範）",
+      "result_text": "感應燈開關狀態對照",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-23/power-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title POWER STATES. Two equal panels OFF diffuser gray no glow, ON diffuser glowing warm wall halo. Identical lamp angle and placement, side slider corresponding OFF and ON. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /onandoff: Compare powered and unpowered states.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title POWER STATES. Two equal panels OFF diffuser gray no glow, ON diffuser glowing warm wall halo. Identical lamp angle and placement, side slider corresponding OFF and ON.",
+        "effect": "感應燈開關狀態對照",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:10:24.526Z",
+        "source_instruction": "Compare powered and unpowered states.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "0177383762e5f9d2fc7cc6b53c5cb87039809f8de97e52f38dfa1810a77d5621",
+        "applied_prompt_sha256": "dfae7b04f60bcd5551d733ff8a0b422db7762dddb6a0daee25dfe4cbef7823bf",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "電池到控制器再到LED為功能方塊概念；PIR送控制訊號，非接線圖。OFF/AUTO/ON為虛構產品模式示範。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款白色PIR燈兩側一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title POWER STATES. Two equal panels OFF diffuser gray no glow, ON diffuser glowing warm wall halo. Identical lamp angle and placement, side slider corresponding OFF and ON.",
+            "observed": "左右開關狀態對照",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈開關狀態對照",
+            "observed": "左不發光右暖白發光且有牆面光暈",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "相同角度與比例，左右標籤亮暗一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "OFF、ON及POWER STATES清楚；不宣稱亮度數值",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-errors-23-01",
+      "prompt_id": "src-visual642-462",
+      "command": "/errorstates",
+      "title": "清淨機常見異常概念",
+      "description": "清淨機常見異常概念（AI案例示範）",
+      "result_text": "清淨機常見異常概念",
+      "reference": "output/imagegen/batch-20-23/purifier-reference.png",
+      "result": "output/imagegen/batch-20-23/errors-23.png",
+      "applied_prompt": "Square three-panel illustrated concept diagram. Title ERROR CONDITIONS CONCEPT. Same off-white air purifier dark top in all panels. ALL LEDs OFF: top panel completely matte black, icons gray, absolutely no blue dots, glow or luminous marks anywhere. Panel 1 BLOCKED INTAKE cloth covers vent. Panel 2 FILTER MISSING broad front cavity empty, detached pleated rectangular filter beside. Panel 3 POWER DISCONNECTED intact black plug lying next to empty wall socket, continuous cable from purifier to plug; show unit fully OFF. Red triangle above each panel. Only requested title and headings. Original /errorstates: Show common error conditions.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-23/purifier-reference.png",
+        "sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio reference photograph of one fictional unbranded desktop air purifier, off-white rounded rectangular body, removable perforated front grille, visible side seam and discreet pull tab, dark top control display with simple power fan timer filter icons and small blue LED, black continuous power cable behind. Beside product a separate matching rectangular pleated filter and removed front grille demonstrate credible modular structure. No words no brand no claims. Front three-quarter view pale gray backdrop web-quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title ERROR CONDITIONS CONCEPT. Three panels BLOCKED INTAKE cloth blocks vent, FILTER MISSING open filter compartment empty with rectangular filter beside, POWER DISCONNECTED intact plug visibly away from socket. Each red alert triangle, no smoke or fire.",
+        "effect": "清淨機常見異常概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:11:54.221Z",
+        "source_instruction": "Show common error conditions.",
+        "reference_sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "result_sha256": "f7198273e6e5c2e0375eee931ffe0d33fc5a4d4244d040a2582b1f4b554907ae",
+        "applied_prompt_sha256": "622bcb55b3c685263e2ddb2ab4b0308da447927d0ad6a93529e1f9f3d189f17e",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://levoit.com/products/core-mini-p-air-purifier-replacement-filter"
+          ],
+          "notes": "濾網與供電提醒有一般產品背景；畫面文字、指示燈、介面及任務狀態為明確標示的虛構概念，不當作真實型號錯誤碼或功能。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "三欄同款無品牌清淨機",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title ERROR CONDITIONS CONCEPT. Three panels BLOCKED INTAKE cloth blocks vent, FILTER MISSING open filter compartment empty with rectangular filter beside, POWER DISCONNECTED intact plug visibly away from socket. Each red alert triangle, no smoke or fire.",
+            "observed": "阻塞、缺濾網、未接電三種異常示範",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "清淨機常見異常概念",
+            "observed": "布擋通風位置、空濾網腔、插頭離開插座均清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "第三欄電線完整接機體、插頭拔出，全部LED熄滅；濾網旁置於開口外",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "三個紅警示三角與文字一致，概念標題清楚",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "拔電狀態仍有藍色指示燈",
+          "applied_prompt": "Create a square web-quality website example. Title ERROR CONDITIONS CONCEPT. Three panels BLOCKED INTAKE cloth blocks vent, FILTER MISSING open filter compartment empty with rectangular filter beside, POWER DISCONNECTED intact plug visibly away from socket. Each red alert triangle, no smoke or fire. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /errorstates: Show common error conditions.",
+          "result": "output/imagegen/batch-20-23/errors-23-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-codes-23-01",
+      "prompt_id": "src-visual642-463",
+      "command": "/errorcodes",
+      "title": "警告符號說明概念",
+      "description": "警告符號說明概念（AI案例示範）",
+      "result_text": "警告符號說明概念",
+      "reference": "output/imagegen/batch-20-23/purifier-reference.png",
+      "result": "output/imagegen/batch-20-23/codes-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title WARNING SYMBOLS CONCEPT. Three large UI symbols: amber filter icon REPLACE FILTER, red open-cover icon CLOSE COVER, red exclamation triangle CHECK DEVICE. Fictional interface, small purifier below. No numerical error codes. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /errorcodes: Explain visible error codes or warning symbols.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-23/purifier-reference.png",
+        "sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio reference photograph of one fictional unbranded desktop air purifier, off-white rounded rectangular body, removable perforated front grille, visible side seam and discreet pull tab, dark top control display with simple power fan timer filter icons and small blue LED, black continuous power cable behind. Beside product a separate matching rectangular pleated filter and removed front grille demonstrate credible modular structure. No words no brand no claims. Front three-quarter view pale gray backdrop web-quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title WARNING SYMBOLS CONCEPT. Three large UI symbols: amber filter icon REPLACE FILTER, red open-cover icon CLOSE COVER, red exclamation triangle CHECK DEVICE. Fictional interface, small purifier below. No numerical error codes.",
+        "effect": "警告符號說明概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:12:33.817Z",
+        "source_instruction": "Explain visible error codes or warning symbols.",
+        "reference_sha256": "68d4b7a8ec2d9d6d4d1df4563240c9639fe8dff22a1cc4cc4489afe6221f4728",
+        "result_sha256": "a8992de06753e2c744d6b0bbdf50f5c3550ec4696846592dd28315192f1e5cb9",
+        "applied_prompt_sha256": "5ca153aa52e404fe3de74eb8cd60a8f850edd28a9c132ad5e7a7f23c153409a2",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://levoit.com/products/core-mini-p-air-purifier-replacement-filter"
+          ],
+          "notes": "濾網與供電提醒有一般產品背景；畫面文字、指示燈、介面及任務狀態為明確標示的虛構概念，不當作真實型號錯誤碼或功能。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "清淨機與三個虛構介面警告符號",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title WARNING SYMBOLS CONCEPT. Three large UI symbols: amber filter icon REPLACE FILTER, red open-cover icon CLOSE COVER, red exclamation triangle CHECK DEVICE. Fictional interface, small purifier below. No numerical error codes.",
+            "observed": "警告符號說明概念圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "警告符號說明概念",
+            "observed": "更換濾網、關閉蓋板、檢查設備三圖示清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "放大圖示引線與下方介面對應一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "REPLACE FILTER、CLOSE COVER、CHECK DEVICE與概念標題正確；原指令允許符號，無假數字錯誤碼",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-energy-23-01",
+      "prompt_id": "src-visual642-464",
+      "command": "/powerroute",
+      "title": "感應燈電力路徑概念",
+      "description": "感應燈電力路徑概念（AI案例示範）",
+      "result_text": "感應燈電力路徑概念",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-23/energy-23.png",
+      "applied_prompt": "Create a square web-quality website example. Title POWER ROUTE CONCEPT. Three labeled component blocks left BATTERY, center CONTROLLER, right LED. Thick orange arrows BATTERY -> CONTROLLER -> LED. Thin blue arrow from separate PIR SENSOR below into CONTROLLER labeled SIGNAL. Wall-light thumbnail upper right. No exposed mains wiring. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /powerroute: Show where power enters and travels.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title POWER ROUTE CONCEPT. Three labeled component blocks left BATTERY, center CONTROLLER, right LED. Thick orange arrows BATTERY -> CONTROLLER -> LED. Thin blue arrow from separate PIR SENSOR below into CONTROLLER labeled SIGNAL. Wall-light thumbnail upper right. No exposed mains wiring.",
+        "effect": "感應燈電力路徑概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:13:12.285Z",
+        "source_instruction": "Show where power enters and travels.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "64431b5a474d5f9ac1d5c7e3b2b16ac672e82fb25340b079e4db16c7b2b518cb",
+        "applied_prompt_sha256": "613fcf73d2a903ed667d5473116402d3a5b5260c93dbd35eb20ec83c357c0ab8",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "電池到控制器再到LED為功能方塊概念；PIR送控制訊號，非接線圖。OFF/AUTO/ON為虛構產品模式示範。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色PIR燈及四個功能組件",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title POWER ROUTE CONCEPT. Three labeled component blocks left BATTERY, center CONTROLLER, right LED. Thick orange arrows BATTERY -> CONTROLLER -> LED. Thin blue arrow from separate PIR SENSOR below into CONTROLLER labeled SIGNAL. Wall-light thumbnail upper right. No exposed mains wiring.",
+            "observed": "概念方塊電力路徑圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈電力路徑概念",
+            "observed": "電池到控制器到LED，PIR另送訊號",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "橙箭頭兩段向右，藍訊號箭頭由PIR向控制器，不把PIR當供電來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "BATTERY、CONTROLLER、LED、PIR SENSOR與SIGNAL清楚，標示CONCEPT非實際接線",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

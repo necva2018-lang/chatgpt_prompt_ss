@@ -1,0 +1,100 @@
+{
+  "archived_on": "2026-10-09",
+  "reason": "User requested assistant-only materials; replaced by replacement-01",
+  "cases": [
+    {
+      "id": "airpods-packshot-01",
+      "title": "AirPods 攝影棚產品照",
+      "output_type": "image",
+      "input": {
+        "text": "參考素材：ex product/airpods.jpg",
+        "media": [
+          {
+            "role": "reference",
+            "path": "ex product/airpods.jpg"
+          }
+        ]
+      },
+      "result": {
+        "text": "以淺灰背景、柔和棚燈與細緻陰影呈現 AirPods 耳機及充電盒。"
+      },
+      "card": {
+        "headline": "為廣告製作乾淨俐落的攝影棚產品照。"
+      },
+      "image_links": {
+        "cover_url": "https://res.cloudinary.com/x4mbuw57/image/upload/c_limit,w_640/f_auto/q_auto/v1791515733/prompt-atelier/cases/result-dc6a6784880f22cd14d4383d3a3152bd0461346ea62a7d6f63e184500c598fc3.png",
+        "reference_urls": [
+          "https://res.cloudinary.com/x4mbuw57/image/upload/c_limit,w_1280/f_auto/q_auto/v1791515732/prompt-atelier/cases/reference-a4696f7e17b49cfff2729c859052719e0b2e074f3c5d3421cc1bc582337d250a.jpg"
+        ],
+        "result_urls": [
+          "https://res.cloudinary.com/x4mbuw57/image/upload/c_limit,w_1280/f_auto/q_auto/v1791515733/prompt-atelier/cases/result-dc6a6784880f22cd14d4383d3a3152bd0461346ea62a7d6f63e184500c598fc3.png"
+        ],
+        "gallery_urls": []
+      },
+      "steps": [
+        {
+          "order": 1,
+          "prompt_id": "src-visual642-001",
+          "purpose": "為廣告製作乾淨俐落的攝影棚產品照。",
+          "applied_prompt": "Use case: product-mockup. Asset type: website command-result example, square image. Apply the case command /packshot and its exact instruction: Create a clean studio product photo for an advertisement. Reference image: provided airpods.jpg is the product identity reference. Preserve the recognizable white AirPods Pro earbuds, white silicone tips, black vents, short stems, and white open charging case with green status light. Produce a clean photorealistic studio advertisement photo: open case centered on a seamless pale gray background, both earbuds naturally seated inside, soft professional studio lighting, delicate contact shadow and subtle surface reflection, crisp product detail with generous breathing room. No added headline, no extra products, no watermark. Web-quality image."
+        }
+      ],
+      "verification": {
+        "status": "generated",
+        "notes": "內建 imagegen 生成示範，待使用者確認；不代表指令的通用效果保證。"
+      },
+      "extensions": {
+        "media_batch_id": "preview-01",
+        "generator": "built-in imagegen",
+        "result_public_id": "prompt-atelier/cases/result-dc6a6784880f22cd14d4383d3a3152bd0461346ea62a7d6f63e184500c598fc3"
+      }
+    },
+    {
+      "id": "airpods-subwayad-01",
+      "title": "AirPods 地鐵燈箱廣告",
+      "output_type": "image",
+      "input": {
+        "text": "參考素材：ex product/airpods.jpg",
+        "media": [
+          {
+            "role": "reference",
+            "path": "ex product/airpods.jpg"
+          }
+        ]
+      },
+      "result": {
+        "text": "將 AirPods 產品視覺置入地鐵月台的實體燈箱，呈現廣告與站內環境的透視、照明及反射。"
+      },
+      "card": {
+        "headline": "在寫實的地鐵廣告中刊登該主體。"
+      },
+      "image_links": {
+        "cover_url": "https://res.cloudinary.com/x4mbuw57/image/upload/c_limit,w_640/f_auto/q_auto/v1791515735/prompt-atelier/cases/result-ca7a67ac7666ac54b236f0b3fc22aae72dbb1cc334362e67cd8995be91a6679d.png",
+        "reference_urls": [
+          "https://res.cloudinary.com/x4mbuw57/image/upload/c_limit,w_1280/f_auto/q_auto/v1791515732/prompt-atelier/cases/reference-a4696f7e17b49cfff2729c859052719e0b2e074f3c5d3421cc1bc582337d250a.jpg"
+        ],
+        "result_urls": [
+          "https://res.cloudinary.com/x4mbuw57/image/upload/c_limit,w_1280/f_auto/q_auto/v1791515735/prompt-atelier/cases/result-ca7a67ac7666ac54b236f0b3fc22aae72dbb1cc334362e67cd8995be91a6679d.png"
+        ],
+        "gallery_urls": []
+      },
+      "steps": [
+        {
+          "order": 1,
+          "prompt_id": "src-visual642-003",
+          "purpose": "在寫實的地鐵廣告中刊登該主體。",
+          "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example, square image. Apply case command /subwayad and its exact source instruction: Place the subject in a realistic subway advertisement. Input reference airpods.jpg defines the exact product: white AirPods Pro earbuds with silicone tips, short stems, black vents and open white charging case. Create a photorealistic subway station interior with a large illuminated advertising lightbox physically installed on a tiled platform wall. Show the lightbox in three-quarter perspective, with realistic frame, floor reflections, station fluorescent lighting, tiled wall, and a receding empty subway platform. The advertisement inside the lightbox displays the referenced AirPods product prominently as clean premium product photography against a dark navy background; product must be clearly recognizable. The product exists as printed imagery inside the advertisement, not as a giant physical object in the station. Do not include slogans, readable station names, extra logos, or watermark. The setting itself must clearly communicate a real subway advertisement. Web-quality image."
+        }
+      ],
+      "verification": {
+        "status": "generated",
+        "notes": "內建 imagegen 生成示範，待使用者確認；不代表指令的通用效果保證。"
+      },
+      "extensions": {
+        "media_batch_id": "preview-01",
+        "generator": "built-in imagegen",
+        "result_public_id": "prompt-atelier/cases/result-ca7a67ac7666ac54b236f0b3fc22aae72dbb1cc334362e67cd8995be91a6679d"
+      }
+    }
+  ]
+}

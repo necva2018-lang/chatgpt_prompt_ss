@@ -1,0 +1,1417 @@
+{
+  "version": 1,
+  "id": "batch-20-06",
+  "cases": [
+    {
+      "id": "case-moonflowers-01",
+      "prompt_id": "src-visual642-105",
+      "command": "/moonflowers",
+      "title": "水瓶月光發亮花朵",
+      "description": "水瓶月光發亮花朵（AI案例示範）",
+      "result_text": "水瓶月光發亮花朵",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-06/moonflowers.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /moonflowers: Grow luminous moonlit flowers around the subject. Reference image supplies subject identity only. Preserve green bottle black loop cap on stone in a nighttime garden. Luminous white flowers growing around it illuminated by visible moon; petals glow softly, bottle recognizable. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Preserve green bottle black loop cap on stone in a nighttime garden. Luminous white flowers growing around it illuminated by visible moon; petals glow softly, bottle recognizable.",
+        "effect": "水瓶月光發亮花朵",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:27:06.161Z",
+        "source_instruction": "Grow luminous moonlit flowers around the subject.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "a770deb67f8eafda51b9745d567fc5b735930077b9717a29ca2af08cc6dab664",
+        "applied_prompt_sha256": "1a105ba82caad4fb336e187029ed1e4f31b99501a9e25acd9bad2e1277cd3301",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶及黑色環蓋完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Preserve green bottle black loop cap on stone in a nighttime garden. Luminous white flowers growing around it illuminated by visible moon; petals glow softly, bottle recognizable.",
+            "observed": "月亮照耀的夜間花園中白花圍繞瓶身。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶月光發亮花朵",
+            "observed": "花朵透出柔和光芒，月光花效果明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶子立在岩石上，花藤從周圍生長。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無標註要求，畫面無多餘文字或明顯瑕疵。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-opalworld-01",
+      "prompt_id": "src-visual642-106",
+      "command": "/opalworld",
+      "title": "機甲蛋白石世界",
+      "description": "機甲蛋白石世界（AI案例示範）",
+      "result_text": "機甲蛋白石世界",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-06/opalworld.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /opalworld: Rebuild the subject in a pearlescent opal world. Reference image supplies subject identity only. Rebuild full recognizable robot as iridescent pearlescent opal, surrounding terrain and sky filled with opalescent pearly shifting pink cyan violet colors, polished mineral facets. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild full recognizable robot as iridescent pearlescent opal, surrounding terrain and sky filled with opalescent pearly shifting pink cyan violet colors, polished mineral facets.",
+        "effect": "機甲蛋白石世界",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:28:01.308Z",
+        "source_instruction": "Rebuild the subject in a pearlescent opal world.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "4f194b65f2cb82a833853f5a0e9a91a8af414da090e9a0a92e32b1fa5ddb9226",
+        "applied_prompt_sha256": "0e629fe430a4d2abd9d663dcf0174a1c854fcf81a9f38e934a22b8751ab71869",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲全身輪廓及裝甲配色仍可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild full recognizable robot as iridescent pearlescent opal, surrounding terrain and sky filled with opalescent pearly shifting pink cyan violet colors, polished mineral facets.",
+            "observed": "周圍浮島、地面與天體均呈珠光礦物世界。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲蛋白石世界",
+            "observed": "機甲裝甲帶多彩蛋白石般虹彩光澤。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主體站姿完整，晶面反射與地面一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，無多餘標註或肢體錯位。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-celestialgarden-01",
+      "prompt_id": "src-visual642-107",
+      "command": "/celestialgarden",
+      "title": "帆布袋星辰花園",
+      "description": "帆布袋星辰花園（AI案例示範）",
+      "result_text": "帆布袋星辰花園",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-06/celestialgarden.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /celestialgarden: Place the subject inside a glowing celestial garden. Reference image supplies subject identity only. Place cream tote brown handles within garden of luminous flowers, glowing celestial star constellations and planets overhead, star-shaped blossoms, dark blue celestial garden. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Place cream tote brown handles within garden of luminous flowers, glowing celestial star constellations and planets overhead, star-shaped blossoms, dark blue celestial garden.",
+        "effect": "帆布袋星辰花園",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:28:49.141Z",
+        "source_instruction": "Place the subject inside a glowing celestial garden.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "98c96db0b7471a4d3a8a2c1dbb8afc108c18ca30c4d18799b20e7a8062e4f2d8",
+        "applied_prompt_sha256": "0d8789db8d6ada0496c52767e90131fb77f74549ce7d397f96ec6a9ea3644a4d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布袋與棕色提把完整可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Place cream tote brown handles within garden of luminous flowers, glowing celestial star constellations and planets overhead, star-shaped blossoms, dark blue celestial garden.",
+            "observed": "花園中有發光花朵、花拱與星辰行星天空。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋星辰花園",
+            "observed": "天體與花卉共同構成發亮星辰花園。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋子放在園中石面，花卉環繞且未遮擋主體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，畫面結構完整無浮水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-flowerplanet-01",
+      "prompt_id": "src-visual642-108",
+      "command": "/flowerplanet",
+      "title": "紙盒化作花卉星球",
+      "description": "紙盒化作花卉星球（AI案例示範）",
+      "result_text": "紙盒化作花卉星球",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-06/flowerplanet.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /flowerplanet: Turn the subject into a planet covered in flowers. Reference image supplies subject identity only. Transform the green leaf carton subject into a spherical planet suspended in space, sphere surface covered in flowers with recognizable green leaf motif and subtle carton panel folds reinterpreted as planetary surface. This must be a flower-covered planet transformation, not a normal box placed beside a planet. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Transform the green leaf carton subject into a spherical planet suspended in space, sphere surface covered in flowers with recognizable green leaf motif and subtle carton panel folds reinterpreted as planetary surface. This must be a flower-covered planet transformation, not a normal box placed beside a planet.",
+        "effect": "紙盒化作花卉星球",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:29:42.014Z",
+        "source_instruction": "Turn the subject into a planet covered in flowers.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "421a14c5695a2fccae423e0bf9a60b47ee9e375e5adfa79729d3a10d1bcfec70",
+        "applied_prompt_sha256": "9234ca5c0cc4da3e067c7049cacb94beb4580a973b3c2e8e714a8d7f4e3fc99a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紙盒的葉形圖案與分面線索轉化為星球表面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Transform the green leaf carton subject into a spherical planet suspended in space, sphere surface covered in flowers with recognizable green leaf motif and subtle carton panel folds reinterpreted as planetary surface. This must be a flower-covered planet transformation, not a normal box placed beside a planet.",
+            "observed": "花卉球體懸浮星空，周圍沒有原尺寸紙盒。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒化作花卉星球",
+            "observed": "主體已變成覆滿花草的球狀行星。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "花草沿球面生長，曲面光影支持球體輪廓。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，葉形圖案清晰且無多餘標註。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-rainbowmist-01",
+      "prompt_id": "src-visual642-109",
+      "command": "/rainbowmist",
+      "title": "運動鞋柔和彩虹霧",
+      "description": "運動鞋柔和彩虹霧（AI案例示範）",
+      "result_text": "運動鞋柔和彩虹霧",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-06/rainbowmist.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /rainbowmist: Wrap the subject in soft prismatic rainbow mist. Reference image supplies subject identity only. White black-stripe gum-soled sneaker surrounded and partly wrapped in soft translucent prismatic rainbow mist, distinct soft spectrum bands, shoe stays visible against light neutral scene. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "White black-stripe gum-soled sneaker surrounded and partly wrapped in soft translucent prismatic rainbow mist, distinct soft spectrum bands, shoe stays visible against light neutral scene.",
+        "effect": "運動鞋柔和彩虹霧",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:30:26.361Z",
+        "source_instruction": "Wrap the subject in soft prismatic rainbow mist.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "64f87e21b69090e88d46f9c907c22958c8fda8d4e7d32628ff421dd133e83070",
+        "applied_prompt_sha256": "f934dfd1e391ac4bd11d0b139556b81ca8e9e3516feba980ecb6bb819544e79c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑條紋及棕色鞋底可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "White black-stripe gum-soled sneaker surrounded and partly wrapped in soft translucent prismatic rainbow mist, distinct soft spectrum bands, shoe stays visible against light neutral scene.",
+            "observed": "明亮背景中柔和光譜霧氣環繞主體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋柔和彩虹霧",
+            "observed": "彩虹色半透明薄霧繞過鞋前後。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "霧氣包覆鞋身但保留清楚輪廓。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "原鞋款文字屬產品細節，沒有額外文案或浮水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-starlightlake-01",
+      "prompt_id": "src-visual642-110",
+      "command": "/starlightlake",
+      "title": "水瓶星光湖畔",
+      "description": "水瓶星光湖畔（AI案例示範）",
+      "result_text": "水瓶星光湖畔",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-06/starlightlake.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /starlightlake: Place the subject beside a lake glowing with starlight. Reference image supplies subject identity only. Bottle upright on a lakeside rock beside dark calm lake glowing with many reflected starlight points and light trails, clear starry night and glowing water, no daytime sunshine. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Bottle upright on a lakeside rock beside dark calm lake glowing with many reflected starlight points and light trails, clear starry night and glowing water, no daytime sunshine.",
+        "effect": "水瓶星光湖畔",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:31:28.308Z",
+        "source_instruction": "Place the subject beside a lake glowing with starlight.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "012091ba0b77f40523d7da30b8a7b56f084e2293a2b8d40fb2fa95fcaa528bba",
+        "applied_prompt_sha256": "f77bfb7fae00ec45ced279f58c728def7581bd27bca24bbb967f9ac2344aee43",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑環蓋輪廓完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Bottle upright on a lakeside rock beside dark calm lake glowing with many reflected starlight points and light trails, clear starry night and glowing water, no daytime sunshine.",
+            "observed": "瓶子位於星空下的湖岸岩石。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶星光湖畔",
+            "observed": "湖水布滿明亮星光點及倒影光軌。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶身在岸上，湖面和山林在後方。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，倒影與構圖清晰。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-lightwaterfall-01",
+      "prompt_id": "src-visual642-111",
+      "command": "/lightwaterfall",
+      "title": "機甲與流光瀑布",
+      "description": "機甲與流光瀑布（AI案例示範）",
+      "result_text": "機甲與流光瀑布",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-06/lightwaterfall.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /lightwaterfall: Create a waterfall made from luminous flowing light. Reference image supplies subject identity only. Full robot on rocky ledge beside a tall waterfall visibly made of flowing luminous gold-white light ribbons, falling light and radiant spray into pool, strong vertical cascade not ordinary water. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Full robot on rocky ledge beside a tall waterfall visibly made of flowing luminous gold-white light ribbons, falling light and radiant spray into pool, strong vertical cascade not ordinary water.",
+        "effect": "機甲與流光瀑布",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:32:53.007Z",
+        "source_instruction": "Create a waterfall made from luminous flowing light.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "4b1fc8bda41d8fd849916d2fb1b3335a2a59a7d9e5c1df0ade9838519b684fc8",
+        "applied_prompt_sha256": "13a0e02e65b4792c45423a39a63c8523bb497f1d4724b9b55d79865c4ae2ff2c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲全身及彩色裝甲清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Full robot on rocky ledge beside a tall waterfall visibly made of flowing luminous gold-white light ribbons, falling light and radiant spray into pool, strong vertical cascade not ordinary water.",
+            "observed": "機甲站在瀑布旁岩台，後方高崖流光落入池中。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲與流光瀑布",
+            "observed": "金白光帶及光粒形成垂直發亮瀑布。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瀑布從高處連續落下，機甲位於旁邊且未被遮住。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，四肢與站立接觸完整。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-heavenlygarden-01",
+      "prompt_id": "src-visual642-112",
+      "command": "/heavenlygarden",
+      "title": "帆布袋空靈天堂花園",
+      "description": "帆布袋空靈天堂花園（AI案例示範）",
+      "result_text": "帆布袋空靈天堂花園",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-06/heavenlygarden.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /heavenlygarden: Surround the subject with an airy heavenly garden. Reference image supplies subject identity only. Tote in bright airy heavenly garden of pale flowers, delicate vines, soft white stone arches, clouds and diffuse sunbeams, open light space, garden plants clearly present. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Tote in bright airy heavenly garden of pale flowers, delicate vines, soft white stone arches, clouds and diffuse sunbeams, open light space, garden plants clearly present.",
+        "effect": "帆布袋空靈天堂花園",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:33:54.204Z",
+        "source_instruction": "Surround the subject with an airy heavenly garden.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "6f6657d58834c465bca1ad38e58015d77c399fdfecf4b92298e56cf1d6013285",
+        "applied_prompt_sha256": "24c8ac96cc54c977371b835c8ec79181768d2c412674c1b2d03020c336c61920",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白袋身與棕色提把完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Tote in bright airy heavenly garden of pale flowers, delicate vines, soft white stone arches, clouds and diffuse sunbeams, open light space, garden plants clearly present.",
+            "observed": "白石拱門、淡色花藤、雲朵和日光構成空靈花園。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋空靈天堂花園",
+            "observed": "明亮通透的庭園包圍帆布袋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋子立在石台，花藤與前後景層次明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，提把與袋體結構自然。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-pencil-study-01",
+      "prompt_id": "src-visual642-113",
+      "command": "/pencil study",
+      "title": "運動鞋精緻鉛筆習作",
+      "description": "運動鞋精緻鉛筆習作（AI案例示範）",
+      "result_text": "運動鞋精緻鉛筆習作",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-06/pencil-study.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /pencil study: Render the subject as a refined pencil study. Reference image supplies subject identity only. Render the shoe alone as a refined graphite pencil study on ivory drawing paper, delicate controlled crosshatching, line weight, realistic volume, monochrome graphite, no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Render the shoe alone as a refined graphite pencil study on ivory drawing paper, delicate controlled crosshatching, line weight, realistic volume, monochrome graphite, no text.",
+        "effect": "運動鞋精緻鉛筆習作",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:34:43.214Z",
+        "source_instruction": "Render the subject as a refined pencil study.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "0953286201657fa65fc7df2223da02d5633c08c417a16977a78d020edf9b5160",
+        "applied_prompt_sha256": "f7e1f2f6623acbbf532bd9d01fcb573f0d4e2a2dcde7e87e47d7f76fff96e438",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鞋型、三條紋、鞋帶與鞋底細節可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Render the shoe alone as a refined graphite pencil study on ivory drawing paper, delicate controlled crosshatching, line weight, realistic volume, monochrome graphite, no text.",
+            "observed": "象牙白素描紙上呈現單一運動鞋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋精緻鉛筆習作",
+            "observed": "全圖以細緻石墨線條及交叉排線塑造體積。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "鞋面透視、鞋帶交疊與地面陰影合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有彩色照片殘留或多餘標註。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-scribble-art-01",
+      "prompt_id": "src-visual642-114",
+      "command": "/scribble art",
+      "title": "機甲奔放亂線畫",
+      "description": "機甲奔放亂線畫（AI案例示範）",
+      "result_text": "機甲奔放亂線畫",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-06/scribble-art.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /scribble art: Redraw the subject with energetic scribbled lines. Reference image supplies subject identity only. Redraw full robot entirely using energetic looping scribbled ink lines, loosely layered blue black red yellow strokes forming recognizable figure, blank paper background, not a photo with scribble overlay. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Redraw full robot entirely using energetic looping scribbled ink lines, loosely layered blue black red yellow strokes forming recognizable figure, blank paper background, not a photo with scribble overlay.",
+        "effect": "機甲奔放亂線畫",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:35:32.390Z",
+        "source_instruction": "Redraw the subject with energetic scribbled lines.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "31e6ff263a8e7d285b7e26e1b5a9dce35498a5d006c8b6ce5caede144911f8f0",
+        "applied_prompt_sha256": "8f48a9ce9812d6e37b3e7e1bd4252e6288571823f4e25a8d2781b61a4ceb17d6",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲輪廓與彩色裝甲清楚可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Redraw full robot entirely using energetic looping scribbled ink lines, loosely layered blue black red yellow strokes forming recognizable figure, blank paper background, not a photo with scribble overlay.",
+            "observed": "白紙背景中的完整單一人物。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲奔放亂線畫",
+            "observed": "機甲由奔放交錯線條與環繞亂線構成。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "線條跟隨各裝甲與肢體體積，主體未散失。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，四肢完整且無照片背景殘留。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-engineering-sketch-01",
+      "prompt_id": "src-visual642-115",
+      "command": "/engineering sketch",
+      "title": "紙盒實用工程草圖",
+      "description": "紙盒實用工程草圖（AI案例示範）",
+      "result_text": "紙盒實用工程草圖",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-06/engineering-sketch.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /engineering sketch: Present the subject as a practical engineering sketch. Reference image supplies subject identity only. Practical engineering sketch of a simple cube carton with leaf motif: large clean isometric exterior view, smaller front and top orthographic square views, thin construction lines and fold seam indication. Black graphite on white paper. No measurements, no dimensions, no fabrication claims, no cutaway or complex inner parts. Geometric concept sketch only. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Practical engineering sketch of a simple cube carton with leaf motif: large clean isometric exterior view, smaller front and top orthographic square views, thin construction lines and fold seam indication. Black graphite on white paper. No measurements, no dimensions, no fabrication claims, no cutaway or complex inner parts. Geometric concept sketch only.",
+        "effect": "紙盒實用工程草圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:36:29.807Z",
+        "source_instruction": "Present the subject as a practical engineering sketch.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "461967c78e678490165b0b525f0e6d9dff5a92372a4074fca99eed74a1115cfd",
+        "applied_prompt_sha256": "03ada032e998e04ee14e68df61d48e8cee23fa8d7fee85bfc730204c9c61de45",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "簡單立方紙盒外觀概念：正面與頂面為方形，立體圖呈現三個外表面，FRONT VIEW與TOP VIEW對應正確。摺縫為概念表現；未提供尺寸、內部機構或生產精度宣稱。沿用已查證立方幾何資料。",
+          "source_urls": [
+            "https://mathworld.wolfram.com/Cube.html"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "葉形紙盒的立體外觀及正、頂視圖可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Practical engineering sketch of a simple cube carton with leaf motif: large clean isometric exterior view, smaller front and top orthographic square views, thin construction lines and fold seam indication. Black graphite on white paper. No measurements, no dimensions, no fabrication claims, no cutaway or complex inner parts. Geometric concept sketch only.",
+            "observed": "白紙上整潔排列主立體圖及兩個輔助視圖。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒實用工程草圖",
+            "observed": "鉛筆工程草圖具細構圖線及盒邊摺縫。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "FRONT VIEW對應有葉正面，TOP VIEW對應無葉頂面，方形視圖一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "兩個英文標籤正確，無測量數字或製造宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-fashion-sketch-01",
+      "prompt_id": "src-visual642-116",
+      "command": "/fashion sketch",
+      "title": "帆布袋優雅時尚速寫",
+      "description": "帆布袋優雅時尚速寫（AI案例示範）",
+      "result_text": "帆布袋優雅時尚速寫",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-06/fashion-sketch.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /fashion sketch: Restyle the subject as an elegant fashion sketch. Reference image supplies subject identity only. Elegant fashion accessory design sketch of cream canvas tote with brown handles, fluid black pen contour and soft beige watercolor washes on clean paper, sophisticated editorial accessory illustration, no model needed, no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Elegant fashion accessory design sketch of cream canvas tote with brown handles, fluid black pen contour and soft beige watercolor washes on clean paper, sophisticated editorial accessory illustration, no model needed, no text.",
+        "effect": "帆布袋優雅時尚速寫",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:37:43.388Z",
+        "source_instruction": "Restyle the subject as an elegant fashion sketch.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "5169810ecddb7b95c89ce744fda3fcc3a960990af4d245fbf946e22255f5919a",
+        "applied_prompt_sha256": "7efaef4f1075bfec18a47490d97ed384a1163951160b73ba7ae69c297711e4f5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "帆布袋與棕色提把輪廓完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Elegant fashion accessory design sketch of cream canvas tote with brown handles, fluid black pen contour and soft beige watercolor washes on clean paper, sophisticated editorial accessory illustration, no model needed, no text.",
+            "observed": "白紙上單一配件設計速寫。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋優雅時尚速寫",
+            "observed": "流暢黑線搭配米棕水彩色塊呈現時尚插畫風格。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋口、提把與側面透視一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有人物或額外商品干擾。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-chalk-sketch-01",
+      "prompt_id": "src-visual642-117",
+      "command": "/chalk sketch",
+      "title": "水瓶粉筆質感速寫",
+      "description": "水瓶粉筆質感速寫（AI案例示範）",
+      "result_text": "水瓶粉筆質感速寫",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-06/chalk-sketch.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /chalk sketch: Draw the subject with textured chalk strokes. Reference image supplies subject identity only. Draw recognizable green bottle with black loop cap entirely in textured green white charcoal chalk strokes on dark slate, dusty chalk edges and rubbed shading, no photographic bottle and no lettering. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Draw recognizable green bottle with black loop cap entirely in textured green white charcoal chalk strokes on dark slate, dusty chalk edges and rubbed shading, no photographic bottle and no lettering.",
+        "effect": "水瓶粉筆質感速寫",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:38:40.551Z",
+        "source_instruction": "Draw the subject with textured chalk strokes.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "6e99052302931f64944dc0f843b3bb23265ecc154dbfa0953ac5a1397adc66e6",
+        "applied_prompt_sha256": "8d1238a25914102e51107fac43d2eeb72c5bd8f3bdf9a2dc74c834926711b953",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色水瓶與黑色環蓋可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Draw recognizable green bottle with black loop cap entirely in textured green white charcoal chalk strokes on dark slate, dusty chalk edges and rubbed shading, no photographic bottle and no lettering.",
+            "observed": "深色石板背景承載完整粉筆畫。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶粉筆質感速寫",
+            "observed": "綠白粉筆線條、粉末邊緣與擦抹陰影清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "筆觸沿瓶身體積形成明暗，瓶底與地面相接。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，主體全部為繪畫質感。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-paper-grain-01",
+      "prompt_id": "src-visual642-118",
+      "command": "/paper grain",
+      "title": "紙盒可見紙紋效果",
+      "description": "紙盒可見紙紋效果（AI案例示範）",
+      "result_text": "紙盒可見紙紋效果",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-06/paper-grain.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /paper grain: Apply a visible paper-grain finish to the subject. Reference image supplies subject identity only. Illustrate green leaf carton with visible fine paper grain integrated across all shaded box faces, subtle paper-fiber texture and matte print surface, restrained cream background, clear leaf motif. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Illustrate green leaf carton with visible fine paper grain integrated across all shaded box faces, subtle paper-fiber texture and matte print surface, restrained cream background, clear leaf motif.",
+        "effect": "紙盒可見紙紋效果",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:39:27.733Z",
+        "source_instruction": "Apply a visible paper-grain finish to the subject.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "a33f8af28df493b4216c5a01aaa5e5458a6dd848023af02d5307238f69147ba8",
+        "applied_prompt_sha256": "ac3eb7243dba81c4596e164ad2e637ff6d85af067a2e7090b684d1826c813566",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠盒體與葉圖案完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Illustrate green leaf carton with visible fine paper grain integrated across all shaded box faces, subtle paper-fiber texture and matte print surface, restrained cream background, clear leaf motif.",
+            "observed": "淺色乾淨背景與陰影突出紙盒。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒可見紙紋效果",
+            "observed": "三個可見盒面皆有清楚細纖維紙紋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "紙紋隨盒面透視延伸，葉圖保持可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，盒邊、摺縫完整且無額外標註。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-rough-paper-01",
+      "prompt_id": "src-visual642-119",
+      "command": "/rough paper",
+      "title": "運動鞋手工粗紙畫",
+      "description": "運動鞋手工粗紙畫（AI案例示範）",
+      "result_text": "運動鞋手工粗紙畫",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-06/rough-paper.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /rough paper: Render the subject on a rough handmade paper surface. Reference image supplies subject identity only. Render recognizable white black-stripe sneaker as monochrome drawing on rough handmade paper, obvious irregular coarse fibers, deckled paper edges and uneven ink absorption, paper surface dominates texture. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Render recognizable white black-stripe sneaker as monochrome drawing on rough handmade paper, obvious irregular coarse fibers, deckled paper edges and uneven ink absorption, paper surface dominates texture.",
+        "effect": "運動鞋手工粗紙畫",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:40:38.844Z",
+        "source_instruction": "Render the subject on a rough handmade paper surface.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "f1796832052f2cb4f9987661674dae61ccde4b40bad8d2462d6f645878d118c4",
+        "applied_prompt_sha256": "505581c580c8baa575cded5bfab50246388d65723648f63e95eff58d3541d9df",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "單色鞋型、三條紋與鞋帶清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Render recognizable white black-stripe sneaker as monochrome drawing on rough handmade paper, obvious irregular coarse fibers, deckled paper edges and uneven ink absorption, paper surface dominates texture.",
+            "observed": "圖像印在有不規則毛邊的手工紙上。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋手工粗紙畫",
+            "observed": "粗糙纖維、凹凸與不均吸墨質感遍布紙面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "鞋圖和粗紙表面融合，紙邊投影表現厚度。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有額外標註或不明物件。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-newsprint-01",
+      "prompt_id": "src-visual642-120",
+      "command": "/newsprint",
+      "title": "機甲復古報紙印刷",
+      "description": "機甲復古報紙印刷（AI案例示範）",
+      "result_text": "機甲復古報紙印刷",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-06/newsprint.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /newsprint: Print the subject with a vintage newsprint look. Reference image supplies subject identity only. Vintage monochrome newsprint illustration of full robot, small black ink halftone on yellowed newspaper stock, muted faded printing, narrow abstract nonlegible column rules in margins, no fabricated readable headlines. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Vintage monochrome newsprint illustration of full robot, small black ink halftone on yellowed newspaper stock, muted faded printing, narrow abstract nonlegible column rules in margins, no fabricated readable headlines.",
+        "effect": "機甲復古報紙印刷",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:41:30.536Z",
+        "source_instruction": "Print the subject with a vintage newsprint look.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "bdeb37108b62dc589328e5ab9e15860b7fa746ede29219e69306b4afc4b94f02",
+        "applied_prompt_sha256": "87161c380c8bf14d920a73daab116ee0b328526ff58cb77bdb9304b9ecfb45c9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲全身輪廓與裝甲細節清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Vintage monochrome newsprint illustration of full robot, small black ink halftone on yellowed newspaper stock, muted faded printing, narrow abstract nonlegible column rules in margins, no fabricated readable headlines.",
+            "observed": "泛黃報紙底色與兩側抽象欄線形成舊報版面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲復古報紙印刷",
+            "observed": "單色網點、墨色褪色及舊紙質感呈現報紙印刷。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "人物與背景同為印刷網點，版面層次一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無可讀假新聞或標題，抽象欄線無文字宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-halftone-dots-01",
+      "prompt_id": "src-visual642-121",
+      "command": "/halftone dots",
+      "title": "水瓶粗網點圖像",
+      "description": "水瓶粗網點圖像（AI案例示範）",
+      "result_text": "水瓶粗網點圖像",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-06/halftone-dots.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /halftone dots: Build the subject from bold halftone dots. Reference image supplies subject identity only. Build bottle and black loop cap entirely from bold visible circular halftone dots in black and green on white paper, large dots create shading density, clean silhouette, no solid photo areas. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Build bottle and black loop cap entirely from bold visible circular halftone dots in black and green on white paper, large dots create shading density, clean silhouette, no solid photo areas.",
+        "effect": "水瓶粗網點圖像",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:42:25.080Z",
+        "source_instruction": "Build the subject from bold halftone dots.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "8b5a5d7bbc73d2491672e7a181a5273a810c2d3f3cc18f90c00acaa1ae619d2a",
+        "applied_prompt_sha256": "62d4d1e88ecfc75094df05a634bbfd278f42cf6971dd5c2ec39e41c58ea072d6",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "水瓶與環蓋輪廓保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Build bottle and black loop cap entirely from bold visible circular halftone dots in black and green on white paper, large dots create shading density, clean silhouette, no solid photo areas.",
+            "observed": "乾淨白紙背景突出網點主體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶粗網點圖像",
+            "observed": "黑綠色大圓網點依密度構成整個瓶身明暗。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "網點沿瓶身曲面變化，瓶蓋與瓶身位置正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有照片殘留或額外裝飾。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-risograph-01",
+      "prompt_id": "src-visual642-122",
+      "command": "/risograph",
+      "title": "帆布袋分色孔版印刷",
+      "description": "帆布袋分色孔版印刷（AI案例示範）",
+      "result_text": "帆布袋分色孔版印刷",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-06/risograph.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /risograph: Render the subject as a layered risograph print. Reference image supplies subject identity only. Render tote with brown handles as layered risograph print using teal and coral spot ink, grainy ink texture, slight offset registration at overlap, limited flat ink shapes on cream paper, visible layers no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Render tote with brown handles as layered risograph print using teal and coral spot ink, grainy ink texture, slight offset registration at overlap, limited flat ink shapes on cream paper, visible layers no text.",
+        "effect": "帆布袋分色孔版印刷",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:43:16.470Z",
+        "source_instruction": "Render the subject as a layered risograph print.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "d9029fe84457f22e97128a08f7a14f41bfbe6e3d98dd7f9705340817e83277e9",
+        "applied_prompt_sha256": "e32b81266c5c29bbd878be805ad7958068357814e386cab93ec97624c979191a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "帆布袋袋體與雙提把形狀完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Render tote with brown handles as layered risograph print using teal and coral spot ink, grainy ink texture, slight offset registration at overlap, limited flat ink shapes on cream paper, visible layers no text.",
+            "observed": "奶油色紙張上的雙色平面印刷。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋分色孔版印刷",
+            "observed": "青綠與珊瑚色分層、顆粒墨色及邊緣輕微套印錯位清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩色在提把與袋邊交疊，仍維持產品輪廓。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有不相干圖案或標註。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-screenprint-01",
+      "prompt_id": "src-visual642-123",
+      "command": "/screenprint",
+      "title": "紙盒俐落網版印刷",
+      "description": "紙盒俐落網版印刷（AI案例示範）",
+      "result_text": "紙盒俐落網版印刷",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-06/screenprint.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /screenprint: Turn the subject into a crisp screen-printed graphic. Reference image supplies subject identity only. Crisp screen-printed graphic of green cube carton with leaf motif, two flat green and charcoal spot colors, sharp stencil-like edges and bold simple shadow, clean cream background, minimal ink texture no gradients no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Crisp screen-printed graphic of green cube carton with leaf motif, two flat green and charcoal spot colors, sharp stencil-like edges and bold simple shadow, clean cream background, minimal ink texture no gradients no text.",
+        "effect": "紙盒俐落網版印刷",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:44:04.900Z",
+        "source_instruction": "Turn the subject into a crisp screen-printed graphic.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "9923e18af5d7807fd8c37aecb200f6123de60ff10363ad409d63370af07907cd",
+        "applied_prompt_sha256": "8623f7fa75320b72c2b47b94651635daea468dca7cbf2fdea95e780d3575f909",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色紙盒及深色葉圖案完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Crisp screen-printed graphic of green cube carton with leaf motif, two flat green and charcoal spot colors, sharp stencil-like edges and bold simple shadow, clean cream background, minimal ink texture no gradients no text.",
+            "observed": "奶油色背景中的簡化平面盒體圖像。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒俐落網版印刷",
+            "observed": "邊緣俐落、有限色塊與實色投影呈現網版印刷風格。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒面輪廓與投影方向一致，主體保持清晰。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，無額外圖案或明顯漸層干擾。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-xerox-grain-01",
+      "prompt_id": "src-visual642-124",
+      "command": "/xerox grain",
+      "title": "機甲粗顆粒影印質感",
+      "description": "機甲粗顆粒影印質感（AI案例示範）",
+      "result_text": "機甲粗顆粒影印質感",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-06/xerox-grain.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /xerox grain: Give the subject a gritty photocopied texture. Reference image supplies subject identity only. Render full robot as gritty high contrast black-white photocopy on paper, toner speckles, uneven black patches, blown highlights and subtle copier streaks, recognizable silhouette, no color no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Render full robot as gritty high contrast black-white photocopy on paper, toner speckles, uneven black patches, blown highlights and subtle copier streaks, recognizable silhouette, no color no text.",
+        "effect": "機甲粗顆粒影印質感",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:44:57.628Z",
+        "source_instruction": "Give the subject a gritty photocopied texture.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "97ecacada4b70b318616083ccdc555bf58578e2bd9460bd3d658ebc4710b1c70",
+        "applied_prompt_sha256": "2d06aa4182c25d60e4fbc66ad918be6d894abf96ab8dacdd28a74e3d062272da",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲全身輪廓可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Render full robot as gritty high contrast black-white photocopy on paper, toner speckles, uneven black patches, blown highlights and subtle copier streaks, recognizable silhouette, no color no text.",
+            "observed": "黑白紙張背景帶影印擦痕與墨粉污點。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲粗顆粒影印質感",
+            "observed": "高反差、粗顆粒及不均勻墨粉呈現舊影印質感。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "人物與背景同為影印顆粒，四肢位置完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有色彩殘留或額外標註。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

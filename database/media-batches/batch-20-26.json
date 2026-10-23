@@ -1,0 +1,1386 @@
+{
+  "version": 1,
+  "id": "batch-20-26",
+  "cases": [
+    {
+      "id": "case-noir-26-01",
+      "prompt_id": "src-visual642-505",
+      "command": "/filmnoir",
+      "title": "保溫瓶黑色電影風",
+      "description": "保溫瓶黑色電影風（AI案例示範）",
+      "result_text": "保溫瓶黑色電影風",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-26/noir-26.png",
+      "applied_prompt": "Create a square web-quality website example. High-contrast black-and-white film noir photograph of reference bottle on rainy urban windowsill. Deep black shadows, bright side key light, diagonal window-blind shadow, monochrome only. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /filmnoir: Use a high-contrast black-and-white look.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "High-contrast black-and-white film noir photograph of reference bottle on rainy urban windowsill. Deep black shadows, bright side key light, diagonal window-blind shadow, monochrome only. No text.",
+        "effect": "保溫瓶黑色電影風",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:06:00.680Z",
+        "source_instruction": "Use a high-contrast black-and-white look.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "6c933bcfc62c4ad51ffa250ab326b2a04e437f9fc54f43d2ff097cd401086086",
+        "applied_prompt_sha256": "0f5c32dd05f364ebc7f2192a95f0f562ca692e3f1fd4d2d94590f436762a9d17",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黑蓋保溫瓶完整輪廓",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "High-contrast black-and-white film noir photograph of reference bottle on rainy urban windowsill. Deep black shadows, bright side key light, diagonal window-blind shadow, monochrome only. No text.",
+            "observed": "雨夜城市窗台與水珠玻璃",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "保溫瓶黑色電影風",
+            "observed": "全黑白高反差電影風，亮部集中瓶左側",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶直立窗台，斜向窗影與單側主光一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；無彩色區域，瓶蓋與陰影連接合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-vintage-26-01",
+      "prompt_id": "src-visual642-506",
+      "command": "/vintagefilm",
+      "title": "手提袋老底片照片",
+      "description": "手提袋老底片照片（AI案例示範）",
+      "result_text": "手提袋老底片照片",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-26/vintage-26.png",
+      "applied_prompt": "Create a square web-quality website example. Aged analog film photograph of reference tote beside wooden cafe chair. Muted warm faded colors, fine film grain, gentle vignette, subtle dust and worn photo edges. Natural believable product. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /vintagefilm: Create an aged analog film photograph.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Aged analog film photograph of reference tote beside wooden cafe chair. Muted warm faded colors, fine film grain, gentle vignette, subtle dust and worn photo edges. Natural believable product. No text.",
+        "effect": "手提袋老底片照片",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:06:01.967Z",
+        "source_instruction": "Create an aged analog film photograph.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "bcdbbced3abc0cb138baa652be6b3aadbb6c0fdc7b0d8497ca5633d05bfc60f9",
+        "applied_prompt_sha256": "905e8a16964efbac87978a8025bbedb2fd97b27618afbce7ace318ca6d02c504",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白棕提把帆布袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Aged analog film photograph of reference tote beside wooden cafe chair. Muted warm faded colors, fine film grain, gentle vignette, subtle dust and worn photo edges. Natural believable product. No text.",
+            "observed": "木製咖啡館椅子及窗邊桌",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋老底片照片",
+            "observed": "暖色褪色、細粒子、塵點和磨損相片邊緣呈老底片",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋站立椅面，光源在窗側，環境透視合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；磨損屬照片效果，產品結構完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-polaroid-26-01",
+      "prompt_id": "src-visual642-507",
+      "command": "/polaroid",
+      "title": "保溫瓶拍立得相片",
+      "description": "保溫瓶拍立得相片（AI案例示範）",
+      "result_text": "保溫瓶拍立得相片",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-26/polaroid-26.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle on picnic table rendered as an instant-camera print lying on wood. Square photo enclosed by white border with wider blank bottom border, slight warm color cast. No writing. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /polaroid: Use an instant-camera print aesthetic.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle on picnic table rendered as an instant-camera print lying on wood. Square photo enclosed by white border with wider blank bottom border, slight warm color cast. No writing.",
+        "effect": "保溫瓶拍立得相片",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:06:41.674Z",
+        "source_instruction": "Use an instant-camera print aesthetic.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "3fce12454bfdf87c81fbaa6def75bd46e7f475f8c2eda8b59e1f24c27cac4200",
+        "applied_prompt_sha256": "a87487c5fc51c660f7ea30134f7e9475d1c7165057851f9ce95e513500768301",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "相片內綠色黑蓋水瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle on picnic table rendered as an instant-camera print lying on wood. Square photo enclosed by white border with wider blank bottom border, slight warm color cast. No writing.",
+            "observed": "拍立得白邊相紙置於木桌",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "保溫瓶拍立得相片",
+            "observed": "方形照片、較寬空白下緣與暖色呈即時相機風格",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "相紙微斜完整，內圖水瓶直立野餐桌",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無字白邊，紙張投影和相片邊框合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-35mm-26-01",
+      "prompt_id": "src-visual642-508",
+      "command": "/35mm",
+      "title": "桌扇35mm生活攝影",
+      "description": "桌扇35mm生活攝影（AI案例示範）",
+      "result_text": "桌扇35mm生活攝影",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-26/35mm-26.png",
+      "applied_prompt": "Create a square web-quality website example. Classic 35mm film photograph of reference cream teal fan on home desk near window. Natural window light, fine grain, gentle color rolloff, photographic lens depth. Image itself not film strip, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /35mm: Create a classic 35mm photograph.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Classic 35mm film photograph of reference cream teal fan on home desk near window. Natural window light, fine grain, gentle color rolloff, photographic lens depth. Image itself not film strip, no text.",
+        "effect": "桌扇35mm生活攝影",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:07:34.091Z",
+        "source_instruction": "Create a classic 35mm photograph.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "f7201446fc7fa6861a72ac40a9dc9845e5a938419df17cc97341f8e8b891ccc6",
+        "applied_prompt_sha256": "688ec9a28e9b7b2b07850c4d77a2d1d87b0db9e579d982003b3cfac322bb939b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油白藍綠葉桌扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Classic 35mm film photograph of reference cream teal fan on home desk near window. Natural window light, fine grain, gentle color rolloff, photographic lens depth. Image itself not film strip, no text.",
+            "observed": "窗邊木桌、植物書本與筆筒",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇35mm生活攝影",
+            "observed": "自然窗光、細顆粒、柔和色彩和景深呈35mm攝影風格",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "桌扇穩立桌面，線材向後延伸，近遠景透視合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；扇罩葉片與底座結構完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-fish-26-01",
+      "prompt_id": "src-visual642-509",
+      "command": "/fisheye",
+      "title": "房屋魚眼廣角",
+      "description": "房屋魚眼廣角（AI案例示範）",
+      "result_text": "房屋魚眼廣角",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-26/fish-26.png",
+      "applied_prompt": "Create a square web-quality website example. Extreme fisheye wide-angle photograph of reference small house and garden from close front viewpoint. Strong barrel curvature of path and fence near edges, broad sky, house recognizable. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /fisheye: Use an extreme wide-angle perspective.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Extreme fisheye wide-angle photograph of reference small house and garden from close front viewpoint. Strong barrel curvature of path and fence near edges, broad sky, house recognizable. No text.",
+        "effect": "房屋魚眼廣角",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:08:17.757Z",
+        "source_instruction": "Use an extreme wide-angle perspective.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "04f74ca14baeee0a5f0d1b49682aa5432180c4eb03add9517b08d0cfa44e27fb",
+        "applied_prompt_sha256": "842f6a9edefdd2044ea1a903adeb821f08aaa4753a5ba2072eeee1bcb04f908d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "兩層白牆坡頂房屋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Extreme fisheye wide-angle photograph of reference small house and garden from close front viewpoint. Strong barrel curvature of path and fence near edges, broad sky, house recognizable. No text.",
+            "observed": "花園小徑與廣闊天空",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋魚眼廣角",
+            "observed": "魚眼超廣角使圍欄、天空邊緣與路面明顯彎曲",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "房屋居中可辨，四周桶狀變形一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；曲線為鏡頭效果，無複製房屋或錯接門窗",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-tilt-26-01",
+      "prompt_id": "src-visual642-510",
+      "command": "/tiltshift",
+      "title": "房屋移軸微縮景觀",
+      "description": "房屋移軸微縮景觀（AI案例示範）",
+      "result_text": "房屋移軸微縮景觀",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-26/tilt-26.png",
+      "applied_prompt": "Create a square web-quality website example. High oblique aerial tilt-shift photograph of reference small house in village, narrow sharp horizontal focus band across house, strongly blurred foreground and distant background. Miniature model illusion, small trees and paths, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /tiltshift: Make the scene look miniature.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "High oblique aerial tilt-shift photograph of reference small house in village, narrow sharp horizontal focus band across house, strongly blurred foreground and distant background. Miniature model illusion, small trees and paths, no text.",
+        "effect": "房屋移軸微縮景觀",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:09:06.308Z",
+        "source_instruction": "Make the scene look miniature.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "becaf058a87cbd716ca81c42d12da991267a64dd3b007523fb322679566315fe",
+        "applied_prompt_sha256": "c3bd5b846eb6627448c0b90230f352a04ef1b7928586dd06f580242b1daffbe1",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白牆坡頂房屋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "High oblique aerial tilt-shift photograph of reference small house in village, narrow sharp horizontal focus band across house, strongly blurred foreground and distant background. Miniature model illusion, small trees and paths, no text.",
+            "observed": "高處斜看村落花園",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋移軸微縮景觀",
+            "observed": "中央房屋清晰、上下前後景強烈模糊，呈移軸微縮模型感",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "樹木小徑與鄰屋共同建立比例，房屋保持完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；焦帶集中主體而非全圖均勻模糊",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-over-26-01",
+      "prompt_id": "src-visual642-511",
+      "command": "/overhead",
+      "title": "手提袋正上方視角",
+      "description": "手提袋正上方視角（AI案例示範）",
+      "result_text": "手提袋正上方視角",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-26/over-26.png",
+      "applied_prompt": "Create a square web-quality website example. Direct overhead photograph of reference tote lying flat on wooden table, handles arranged above bag, notebook and glasses alongside. Camera exactly vertical down, no perspective showing table legs. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /overhead: Show the subject directly from above.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Direct overhead photograph of reference tote lying flat on wooden table, handles arranged above bag, notebook and glasses alongside. Camera exactly vertical down, no perspective showing table legs. No text.",
+        "effect": "手提袋正上方視角",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:09:45.943Z",
+        "source_instruction": "Show the subject directly from above.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "c4bb41de4326ad21e991583c20b5cfc8a998aa19581f7ae9903eea957a053717",
+        "applied_prompt_sha256": "d9a1157d16fb9d64d3f1bd59289d8f3b1adc3d6d70f221b81e0b287e54e25d55",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白棕提把帆布袋平放",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Direct overhead photograph of reference tote lying flat on wooden table, handles arranged above bag, notebook and glasses alongside. Camera exactly vertical down, no perspective showing table legs. No text.",
+            "observed": "木桌、筆記本、眼鏡和咖啡",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋正上方視角",
+            "observed": "攝影機正上方垂直俯拍，袋正面平面完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "提把在袋上方，杯口呈圓形，無桌腳或地平線",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；物件邊緣及柔影合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-low-26-01",
+      "prompt_id": "src-visual642-512",
+      "command": "/lowangle",
+      "title": "房屋仰視構圖",
+      "description": "房屋仰視構圖（AI案例示範）",
+      "result_text": "房屋仰視構圖",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-26/low-26.png",
+      "applied_prompt": "Create a square web-quality website example. Low-angle photograph of reference house from below porch height, roof towering against blue sky, vertical lines converge upward, powerful imposing view. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /lowangle: Make the subject look powerful from below.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Low-angle photograph of reference house from below porch height, roof towering against blue sky, vertical lines converge upward, powerful imposing view. No text.",
+        "effect": "房屋仰視構圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:10:33.691Z",
+        "source_instruction": "Make the subject look powerful from below.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "3e2f95a685555faf39342243eefeafb7da1ae8e2764cd19c1a21d62e2f053a25",
+        "applied_prompt_sha256": "99660f1d82db84865e452bc98336bdac6dc1e488ff133d6d1860c11fa04547c2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白牆坡頂房屋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Low-angle photograph of reference house from below porch height, roof towering against blue sky, vertical lines converge upward, powerful imposing view. No text.",
+            "observed": "草坪前低機位看向藍天",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋仰視構圖",
+            "observed": "低角度讓立面向上延伸，房屋顯得高大",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "前景草葉靠近鏡頭，門廊底面可見、牆線向上收束",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；窗戶門與屋頂接續合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-top-26-01",
+      "prompt_id": "src-visual642-513",
+      "command": "/topdown",
+      "title": "水瓶鳥瞰平面配置",
+      "description": "水瓶鳥瞰平面配置（AI案例示範）",
+      "result_text": "水瓶鳥瞰平面配置",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-26/top-26.png",
+      "applied_prompt": "Create a square web-quality website example. Flat top-down bird-eye product arrangement: reference bottle lying horizontally on cream surface beside notebook and small folded cloth. Camera perpendicular, no horizon, clean flatlay shadows. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /topdown: Create a flat bird's-eye view.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Flat top-down bird-eye product arrangement: reference bottle lying horizontally on cream surface beside notebook and small folded cloth. Camera perpendicular, no horizon, clean flatlay shadows. No text.",
+        "effect": "水瓶鳥瞰平面配置",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:11:27.935Z",
+        "source_instruction": "Create a flat bird's-eye view.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "478ff3c0f5a946bae8f2359851e00d9b8a4167419c6e7ff69dc1382fca1f9025",
+        "applied_prompt_sha256": "7ed8915ae6b44131bf7e7be1348a6d2ad39fbddd63031a556e2d60075b2e0996",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶平躺",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Flat top-down bird-eye product arrangement: reference bottle lying horizontally on cream surface beside notebook and small folded cloth. Camera perpendicular, no horizon, clean flatlay shadows. No text.",
+            "observed": "奶油色平面、筆記本與折布",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶鳥瞰平面配置",
+            "observed": "正鳥瞰平面配置，無地平線",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶和物品均從垂直上方看，陰影同方向",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；瓶蓋與提環完整、平面物件無錯誤透視",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-pano-26-01",
+      "prompt_id": "src-visual642-514",
+      "command": "/panorama",
+      "title": "房屋與鄉野全景",
+      "description": "房屋與鄉野全景（AI案例示範）",
+      "result_text": "房屋與鄉野全景",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-26/pano-26.png",
+      "applied_prompt": "Create a square web-quality website example. Wide panoramic landscape photograph, aspect ratio about 2.5:1 inside square canvas with plain dark letterbox bars if needed. Reference house small left-center with expansive meadow mountain river across frame. Genuine wide scene not repeated copies. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /panorama: Expand the scene into a wide view.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Wide panoramic landscape photograph, aspect ratio about 2.5:1 inside square canvas with plain dark letterbox bars if needed. Reference house small left-center with expansive meadow mountain river across frame. Genuine wide scene not repeated copies. No text.",
+        "effect": "房屋與鄉野全景",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:12:06.841Z",
+        "source_instruction": "Expand the scene into a wide view.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "10f2b6fa55ffb4b8bbec69f03e21e30a8166688d35f6275fe16f62812cb3518a",
+        "applied_prompt_sha256": "5641a0ed87a9eb1aa17a9010c31b2a04cdf04d3faa2c89319ac603458f779190",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白牆坡頂房屋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Wide panoramic landscape photograph, aspect ratio about 2.5:1 inside square canvas with plain dark letterbox bars if needed. Reference house small left-center with expansive meadow mountain river across frame. Genuine wide scene not repeated copies. No text.",
+            "observed": "寬幅草地、河流與遠山風景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋與鄉野全景",
+            "observed": "畫面向兩側展開成全景，方形檔內上下留黑邊",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "房屋在左側，河流遠山延展右側，無重複拼貼",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；連續地形與光線合理，實際影像約1.9:1寬幅符合原文wide view",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-worm-26-01",
+      "prompt_id": "src-visual642-515",
+      "command": "/wormseye",
+      "title": "水瓶貼地蟲視角",
+      "description": "水瓶貼地蟲視角（AI案例示範）",
+      "result_text": "水瓶貼地蟲視角",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-26/worm-26.png",
+      "applied_prompt": "Create a square web-quality website example. Extreme ground-level worms-eye photograph beside reference bottle standing upright on stone pavement. Lens almost touches ground, bottle rises huge toward sky, see underside rim of cap from below, gravel foreground. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /wormseye: Use an extreme ground-level perspective.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Extreme ground-level worms-eye photograph beside reference bottle standing upright on stone pavement. Lens almost touches ground, bottle rises huge toward sky, see underside rim of cap from below, gravel foreground. No text.",
+        "effect": "水瓶貼地蟲視角",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:12:51.483Z",
+        "source_instruction": "Use an extreme ground-level perspective.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "359d5e50a616c94dfb57bfe5cb3c8e83b0024dad80fefeb75db6d555a5434924",
+        "applied_prompt_sha256": "e212c6bde79556a90a329a224ac4f2325be2981c05ce68350f4e9959345a4013",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Extreme ground-level worms-eye photograph beside reference bottle standing upright on stone pavement. Lens almost touches ground, bottle rises huge toward sky, see underside rim of cap from below, gravel foreground. No text.",
+            "observed": "石粒地面與天空樹影",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶貼地蟲視角",
+            "observed": "鏡頭極貼地向上看，水瓶巨大高聳",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "地面碎石在前景放大、瓶頂遠小，提環下緣可見",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；瓶底接觸地面，透視一致",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-gold-26-01",
+      "prompt_id": "src-visual642-516",
+      "command": "/goldenhour",
+      "title": "手提袋金色時刻",
+      "description": "手提袋金色時刻（AI案例示範）",
+      "result_text": "手提袋金色時刻",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-26/gold-26.png",
+      "applied_prompt": "Create a square web-quality website example. Reference tote on park bench at sunset, low warm golden sun, long soft directional shadows, glowing fabric edges, warm sky. Natural golden-hour photography. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /goldenhour: Use warm sunrise or sunset light.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference tote on park bench at sunset, low warm golden sun, long soft directional shadows, glowing fabric edges, warm sky. Natural golden-hour photography. No text.",
+        "effect": "手提袋金色時刻",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:13:30.519Z",
+        "source_instruction": "Use warm sunrise or sunset light.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "4c2d81459c841e542e2b838a9c38e398723ebe129edad3f597d9c49d9ba9e10d",
+        "applied_prompt_sha256": "55c0918ae71d32dbccddbdb6471ac1824a53ebf192b3b325e210731a519eca2f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布袋與棕提把",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference tote on park bench at sunset, low warm golden sun, long soft directional shadows, glowing fabric edges, warm sky. Natural golden-hour photography. No text.",
+            "observed": "湖畔公園木椅與低空夕陽",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋金色時刻",
+            "observed": "金黃色低角度陽光與發亮邊緣呈黃金時刻",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋與椅面接觸、影子與太陽方向一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；袋體紋理可辨，暖光不是單純平面濾色",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-blue-26-01",
+      "prompt_id": "src-visual642-517",
+      "command": "/bluehour",
+      "title": "房屋藍色時刻",
+      "description": "房屋藍色時刻（AI案例示範）",
+      "result_text": "房屋藍色時刻",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-26/blue-26.png",
+      "applied_prompt": "Create a square web-quality website example. Reference house in cool blue twilight after sunset, deep blue sky and blue ambient garden, warm window lights create contrast, no visible sun. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /bluehour: Use cool twilight lighting.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference house in cool blue twilight after sunset, deep blue sky and blue ambient garden, warm window lights create contrast, no visible sun. No text.",
+        "effect": "房屋藍色時刻",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:14:13.238Z",
+        "source_instruction": "Use cool twilight lighting.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "d7721c176b3f01c0fb14b99f020fa69f2fdc1840dad66f84201974e171076488",
+        "applied_prompt_sha256": "bfb29068c67668e578c962bb56b19f0dd30e830fb6b7933a615542bbb11e30c0",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "兩層白牆坡頂房屋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference house in cool blue twilight after sunset, deep blue sky and blue ambient garden, warm window lights create contrast, no visible sun. No text.",
+            "observed": "入夜前藍色天空與庭院",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋藍色時刻",
+            "observed": "冷藍暮光照明，窗內暖光形成對比",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "天空無可見太陽，屋頂與草地受冷色環境光",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；暖光只集中窗戶門廊與庭燈，冷暖一致",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-neon-26-01",
+      "prompt_id": "src-visual642-518",
+      "command": "/neonlight",
+      "title": "水瓶霓虹照明",
+      "description": "水瓶霓虹照明（AI案例示範）",
+      "result_text": "水瓶霓虹照明",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-26/neon-26.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle on wet dark counter illuminated by magenta neon tube at left and cyan neon tube at right, colorful reflections on bottle and wet surface. Neon lighting scene not monochrome recolor. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /neonlight: Use colorful neon illumination.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle on wet dark counter illuminated by magenta neon tube at left and cyan neon tube at right, colorful reflections on bottle and wet surface. Neon lighting scene not monochrome recolor. No text.",
+        "effect": "水瓶霓虹照明",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:15:01.645Z",
+        "source_instruction": "Use colorful neon illumination.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "7dd1303b84dca4f5bf0c44846a26ff19cc4d06a7849de3fbd559c43b6623cd91",
+        "applied_prompt_sha256": "8b00ca0a9ca2609bb6ab2565179e70d8632bb74c06e53a1d891c1f4d4825e630",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle on wet dark counter illuminated by magenta neon tube at left and cyan neon tube at right, colorful reflections on bottle and wet surface. Neon lighting scene not monochrome recolor. No text.",
+            "observed": "濕潤深色桌面及左右霓虹燈管",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶霓虹照明",
+            "observed": "左洋紅右青藍照亮瓶邊與水面",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩側光色在瓶身和桌面反射位置一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；有可見光源與反射，非全圖單色濾鏡",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-rim-26-01",
+      "prompt_id": "src-visual642-519",
+      "command": "/rimlight",
+      "title": "保溫瓶輪廓光",
+      "description": "保溫瓶輪廓光（AI案例示範）",
+      "result_text": "保溫瓶輪廓光",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-26/rim-26.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle on dark studio surface with strong backlight creating thin luminous rim around both body edges and cap silhouette. Front subdued but recognizable sage green, no halo outline drawn in graphics. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /rimlight: Create a glowing outline around the subject.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle on dark studio surface with strong backlight creating thin luminous rim around both body edges and cap silhouette. Front subdued but recognizable sage green, no halo outline drawn in graphics. No text.",
+        "effect": "保溫瓶輪廓光",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:15:39.841Z",
+        "source_instruction": "Create a glowing outline around the subject.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "025e8e953f91495bc3f278105d4019a231bfde736e74071e2e8af16ed02efb4b",
+        "applied_prompt_sha256": "d69a7081895e20e58893cd2189e11fe6dacfa3ef90afab29eebf70efe3cf7311",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle on dark studio surface with strong backlight creating thin luminous rim around both body edges and cap silhouette. Front subdued but recognizable sage green, no halo outline drawn in graphics. No text.",
+            "observed": "深色棚拍桌面背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "保溫瓶輪廓光",
+            "observed": "逆光沿瓶身與提環形成明亮輪廓",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "背後光照桌面，正面較暗但產品色可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；連續細亮邊配合背光光暈及桌面反射呈輪廓光",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-chiar-26-01",
+      "prompt_id": "src-visual642-520",
+      "command": "/chiaroscuro",
+      "title": "手提袋明暗對照",
+      "description": "手提袋明暗對照（AI案例示範）",
+      "result_text": "手提袋明暗對照",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-26/chiar-26.png",
+      "applied_prompt": "Create a square web-quality website example. Dramatic chiaroscuro still-life photograph of reference tote, single side light reveals left fabric folds and handle while opposite side falls into deep shadow against dark background. Strong coherent light-shadow contrast. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /chiaroscuro: Use strong light and shadow contrast.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Dramatic chiaroscuro still-life photograph of reference tote, single side light reveals left fabric folds and handle while opposite side falls into deep shadow against dark background. Strong coherent light-shadow contrast. No text.",
+        "effect": "手提袋明暗對照",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:16:22.209Z",
+        "source_instruction": "Use strong light and shadow contrast.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "88a190c15843dcb79879ccf06e77b535736812360e66460a26415f459419838f",
+        "applied_prompt_sha256": "22c6f60248118dd8bf49bf0968ab0a4d6d8e864c3cb1ac9b1724e7fce7c92da7",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白棕提把帆布袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Dramatic chiaroscuro still-life photograph of reference tote, single side light reveals left fabric folds and handle while opposite side falls into deep shadow against dark background. Strong coherent light-shadow contrast. No text.",
+            "observed": "深色靜物棚拍",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋明暗對照",
+            "observed": "左側單一光源亮面與右側深影形成強烈明暗對照",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "織紋在亮面清晰，暗側融入背景，桌影方向一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；袋口提把與側縫完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-volume-26-01",
+      "prompt_id": "src-visual642-521",
+      "command": "/volumetric",
+      "title": "房屋空氣光束",
+      "description": "房屋空氣光束（AI案例示範）",
+      "result_text": "房屋空氣光束",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-26/volume-26.png",
+      "applied_prompt": "Create a square web-quality website example. Reference house in forest at dawn with visible diagonal sunlight rays through light mist between trees, house porch lit softly, volumetric beams in air clearly visible. Realistic atmosphere no laser streaks. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /volumetric: Show visible rays through the air.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference house in forest at dawn with visible diagonal sunlight rays through light mist between trees, house porch lit softly, volumetric beams in air clearly visible. Realistic atmosphere no laser streaks. No text.",
+        "effect": "房屋空氣光束",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:17:12.059Z",
+        "source_instruction": "Show visible rays through the air.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "c5ecca4ad55a537f8bea8f5c43f118cf81902500fdf3ce43655aba8fb9f39ccc",
+        "applied_prompt_sha256": "49d53757e374c88a601d7accb4222b569ab4b71c079c5c20f8d8aa489aedc90b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白牆坡頂房屋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference house in forest at dawn with visible diagonal sunlight rays through light mist between trees, house porch lit softly, volumetric beams in air clearly visible. Realistic atmosphere no laser streaks. No text.",
+            "observed": "晨間森林薄霧",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋空氣光束",
+            "observed": "陽光穿過樹間霧氣形成可見光束",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "多束光由左上太陽方向穿入，與樹影及屋面受光一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；光束柔和具空氣散射感，非雷射圖線",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-soft-26-01",
+      "prompt_id": "src-visual642-522",
+      "command": "/softbox",
+      "title": "桌扇柔光箱棚拍",
+      "description": "桌扇柔光箱棚拍（AI案例示範）",
+      "result_text": "桌扇柔光箱棚拍",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-26/soft-26.png",
+      "applied_prompt": "Create a square web-quality website example. Clean evenly lit studio product photograph reference cream teal fan on pale seamless background. Large softbox reflections and soft diffuse contact shadow, no hard dark cast shadow. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /softbox: Use clean, even studio lighting.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Clean evenly lit studio product photograph reference cream teal fan on pale seamless background. Large softbox reflections and soft diffuse contact shadow, no hard dark cast shadow. No text.",
+        "effect": "桌扇柔光箱棚拍",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:17:56.857Z",
+        "source_instruction": "Use clean, even studio lighting.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "3c62d45f5120d6e2eb955661740053840720dcfc526a03fe63c73705d4b95589",
+        "applied_prompt_sha256": "8577c8e42f4f81c0ea0e2aba2fc61349232acf430fdb6ff7aadd1a94d6b33de1",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油白藍綠葉桌扇與USB線",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Clean evenly lit studio product photograph reference cream teal fan on pale seamless background. Large softbox reflections and soft diffuse contact shadow, no hard dark cast shadow. No text.",
+            "observed": "淺色無縫棚拍背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇柔光箱棚拍",
+            "observed": "乾淨均勻柔光與柔和接觸影",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "扇體立在平面、線材接續到底座後方，無強硬投影",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；扇罩、按鍵及插頭完整，產品亮暗柔順",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-flash-26-01",
+      "prompt_id": "src-visual642-523",
+      "command": "/hardflash",
+      "title": "手提袋直閃攝影",
+      "description": "手提袋直閃攝影（AI案例示範）",
+      "result_text": "手提袋直閃攝影",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-26/flash-26.png",
+      "applied_prompt": "Create a square web-quality website example. Direct hard on-camera flash photograph of reference tote upright close to plain light wall. Bright frontal fabric detail and crisp dark cast shadow immediately behind and to right, candid hard-flash aesthetic. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /hardflash: Use sharp direct flash lighting.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Direct hard on-camera flash photograph of reference tote upright close to plain light wall. Bright frontal fabric detail and crisp dark cast shadow immediately behind and to right, candid hard-flash aesthetic. No text.",
+        "effect": "手提袋直閃攝影",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:18:40.119Z",
+        "source_instruction": "Use sharp direct flash lighting.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "c05cd9c8f36dc0951a50c5027252e64464cf728d175dfa8ad37329730c3b2d25",
+        "applied_prompt_sha256": "112cf5b9a6370eb380631d1bf1ea22c0735f8cca3d39d6038e0fe2185a58db08",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白棕提把帆布袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Direct hard on-camera flash photograph of reference tote upright close to plain light wall. Bright frontal fabric detail and crisp dark cast shadow immediately behind and to right, candid hard-flash aesthetic. No text.",
+            "observed": "靠淺色牆面棚拍",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋直閃攝影",
+            "observed": "正面強直閃讓布紋明亮、背後硬影清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋後右側投影輪廓銳利，接觸桌面合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；提把影與袋身影方向一致",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-bokeh-26-01",
+      "prompt_id": "src-visual642-524",
+      "command": "/bokeh",
+      "title": "水瓶背景散景",
+      "description": "水瓶背景散景（AI案例示範）",
+      "result_text": "水瓶背景散景",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-26/bokeh-26.png",
+      "applied_prompt": "Create a square web-quality website example. Sharp foreground reference bottle on cafe table at night, distant warm string lights become large soft circular bokeh discs. Shallow depth of field, product sharply focused, no graphic circles or text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /bokeh: Turn background lights into soft circles.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Sharp foreground reference bottle on cafe table at night, distant warm string lights become large soft circular bokeh discs. Shallow depth of field, product sharply focused, no graphic circles or text.",
+        "effect": "水瓶背景散景",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:19:30.501Z",
+        "source_instruction": "Turn background lights into soft circles.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "0460e660b1be300d8605bcf35d9fb3259998c043bc51869468b2f3ff509c1e46",
+        "applied_prompt_sha256": "543960e2afc6e349e30a7a11f0ddc9c61330b80d9cf3bead4da378c363f8fb34",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋保溫瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Sharp foreground reference bottle on cafe table at night, distant warm string lights become large soft circular bokeh discs. Shallow depth of field, product sharply focused, no graphic circles or text.",
+            "observed": "夜間咖啡桌與遠方暖色串燈",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶背景散景",
+            "observed": "主體清晰，背景燈化成柔和圓形散景",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶前景對焦、桌後景及燈串模糊，景深關係一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；圓光斑為失焦燈光，瓶身和提環完整",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1389 @@
+{
+  "version": 1,
+  "id": "batch-20-09",
+  "cases": [
+    {
+      "id": "case-rim-light-space-01",
+      "prompt_id": "src-visual642-165",
+      "command": "/rim light",
+      "title": "機甲電影輪廓光",
+      "description": "機甲電影輪廓光（AI案例示範）",
+      "result_text": "機甲電影輪廓光",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-09/rim-light-space.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /rim light: Sculpt the subject with a bright cinematic rim light. Reference image supplies subject identity only. Dark studio, bright cinematic rim light tracing helmet, shoulder and boot silhouette; subtle fill keeps subject identifiable. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Dark studio, bright cinematic rim light tracing helmet, shoulder and boot silhouette; subtle fill keeps subject identifiable.",
+        "effect": "機甲電影輪廓光",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:46:00.644Z",
+        "source_instruction": "Sculpt the subject with a bright cinematic rim light.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "d2f7c057c43ba677c0670b1392b80ada13aa51d6e0a36e1932eedc5b005750fe",
+        "applied_prompt_sha256": "ea40d943bcebe63c2ee689d33e1ea2837f139af22ceac8f00435cd63e73ce083",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機器人配色及裝甲形態保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Dark studio, bright cinematic rim light tracing helmet, shoulder and boot silhouette; subtle fill keeps subject identifiable.",
+            "observed": "暗色攝影棚與反光地面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲電影輪廓光",
+            "observed": "明亮藍白輪廓光沿頭盔肩膀腿部描邊。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "背側光與前側弱補光讓主體可辨，投影合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "臉與肢體完整，輪廓分離清楚。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-building-wrap-01",
+      "prompt_id": "src-visual642-166",
+      "command": "/building wrap",
+      "title": "麥片包裝整棟建築包覆",
+      "description": "麥片包裝整棟建築包覆（AI案例示範）",
+      "result_text": "麥片包裝整棟建築包覆",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-09/building-wrap.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /building wrap: Wrap a real building with the subject's branded design. Reference image supplies subject identity only. Real city building entirely wrapped in the reference yellow-orange tiger-stripe package design as a printed architectural advertising skin. Keep facade rectangular with windows/entrance visible, pedestrians for scale; no floating box or giant product substituted for building. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Real city building entirely wrapped in the reference yellow-orange tiger-stripe package design as a printed architectural advertising skin. Keep facade rectangular with windows/entrance visible, pedestrians for scale; no floating box or giant product substituted for building.",
+        "effect": "麥片包裝整棟建築包覆",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:46:52.693Z",
+        "source_instruction": "Wrap a real building with the subject's branded design.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "d3af8ec2c8cb2b6ba2ce575f3de992c3ffec17fe43e6d2fc203268c1b9413f9e",
+        "applied_prompt_sha256": "94915a2774681ad3fc65afa153db66866e47cf2d23ee95731e908048b45ba2dc",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橘虎紋與麥片碗圖案忠於參考設計。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Real city building entirely wrapped in the reference yellow-orange tiger-stripe package design as a printed architectural advertising skin. Keep facade rectangular with windows/entrance visible, pedestrians for scale; no floating box or giant product substituted for building.",
+            "observed": "真實城市街角建築及行人。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片包裝整棟建築包覆",
+            "observed": "設計包覆建築整面外牆與轉角。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "窗戶入口保留，圖案貼合立面，尺度合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有用巨大懸浮紙盒替代建築，無亂碼。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cereal-avalanche-01",
+      "prompt_id": "src-visual642-167",
+      "command": "/cereal avalanche",
+      "title": "麥片盒穿越穀片雪崩",
+      "description": "麥片盒穿越穀片雪崩（AI案例示範）",
+      "result_text": "麥片盒穿越穀片雪崩",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-09/cereal-avalanche.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /cereal avalanche: Send the subject through a dramatic cereal avalanche. Reference image supplies subject identity only. Reference carton emerges diagonally through a massive tumbling avalanche of crisp golden cereal flakes, dynamic depth and a clear hero product. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference carton emerges diagonally through a massive tumbling avalanche of crisp golden cereal flakes, dynamic depth and a clear hero product.",
+        "effect": "麥片盒穿越穀片雪崩",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:47:47.991Z",
+        "source_instruction": "Send the subject through a dramatic cereal avalanche.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "d4565877357520346e15e31fd24c6c6cdbf282f77ee8f8ad7c356a652496fc31",
+        "applied_prompt_sha256": "2fab8b2474c500ca2a62ca3885a1880659bfe50c4de24f84ef60a0ac6d03051a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橘虎紋麥片盒保持辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference carton emerges diagonally through a massive tumbling avalanche of crisp golden cereal flakes, dynamic depth and a clear hero product.",
+            "observed": "滿布穀片與牛奶飛濺的明亮場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片盒穿越穀片雪崩",
+            "observed": "大量翻湧下落的酥脆穀片形成雪崩效果。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒子傾斜穿越穀片，前中後景具深度。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "包裝完整，穀片清晰，無多餘文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-breakfast-orbit-01",
+      "prompt_id": "src-visual642-168",
+      "command": "/breakfast orbit",
+      "title": "麥片早餐環繞軌道",
+      "description": "麥片早餐環繞軌道（AI案例示範）",
+      "result_text": "麥片早餐環繞軌道",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-09/breakfast-orbit.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /breakfast orbit: Arrange the subject in a dynamic breakfast orbit. Reference image supplies subject identity only. Carton centered in warm studio, floating breakfast ingredients forming a coherent elliptical orbit around it: cereal flakes, strawberry slices, banana slices and milk droplets. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Carton centered in warm studio, floating breakfast ingredients forming a coherent elliptical orbit around it: cereal flakes, strawberry slices, banana slices and milk droplets.",
+        "effect": "麥片早餐環繞軌道",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:48:34.024Z",
+        "source_instruction": "Arrange the subject in a dynamic breakfast orbit.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "29ffdda332e75458972e1e6977949a51beeaafbd4650848599c9e4ea16579fbe",
+        "applied_prompt_sha256": "94faceb56e434291c22c5a880d52cfe43e73641dfe2ec817ed667a54d5f53c89",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "虎紋麥片盒完整居中。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Carton centered in warm studio, floating breakfast ingredients forming a coherent elliptical orbit around it: cereal flakes, strawberry slices, banana slices and milk droplets.",
+            "observed": "暖橘色背景與漂浮早餐食材。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片早餐環繞軌道",
+            "observed": "香蕉草莓穀片與牛奶構成環繞軌道。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "橢圓環前後交錯包圍盒子，主體未被遮沒。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "水果切面穀片與牛奶滴清楚，無文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-milk-vortex-01",
+      "prompt_id": "src-visual642-169",
+      "command": "/milk vortex",
+      "title": "麥片盒牛奶漩渦",
+      "description": "麥片盒牛奶漩渦（AI案例示範）",
+      "result_text": "麥片盒牛奶漩渦",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-09/milk-vortex.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /milk vortex: Pull the subject into a dramatic milk vortex. Reference image supplies subject identity only. Carton swept diagonally into a deep spiraling white milk vortex, clear circular funnel and splashes, warm orange background. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Carton swept diagonally into a deep spiraling white milk vortex, clear circular funnel and splashes, warm orange background.",
+        "effect": "麥片盒牛奶漩渦",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:49:25.330Z",
+        "source_instruction": "Pull the subject into a dramatic milk vortex.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "1586649887fe004c4030412831f5274d461b4d1e9bf6faf5de326cf41ea800f8",
+        "applied_prompt_sha256": "e894f636d0bed981b43133702ea60c9a33b0cbd8f3e4b70916a2606c527a2647",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "麥片盒虎紋與碗圖完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Carton swept diagonally into a deep spiraling white milk vortex, clear circular funnel and splashes, warm orange background.",
+            "observed": "暖橘背景及大量牛奶液體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片盒牛奶漩渦",
+            "observed": "牛奶形成深漏斗與旋轉漩渦。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒子傾斜在漩渦上方，旋流向下方中心收束。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "液體飛濺與穀片清晰，包裝沒有扭曲。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-crunch-galaxy-01",
+      "prompt_id": "src-visual642-170",
+      "command": "/crunch galaxy",
+      "title": "麥片酥脆銀河",
+      "description": "麥片酥脆銀河（AI案例示範）",
+      "result_text": "麥片酥脆銀河",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-09/crunch-galaxy.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /crunch galaxy: Build a cinematic crunch galaxy around the subject. Reference image supplies subject identity only. Cereal carton floats in a cinematic dark galaxy composed of golden crispy cereal flake stars and spiral arms, fine crumb stardust. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Cereal carton floats in a cinematic dark galaxy composed of golden crispy cereal flake stars and spiral arms, fine crumb stardust.",
+        "effect": "麥片酥脆銀河",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:50:23.510Z",
+        "source_instruction": "Build a cinematic crunch galaxy around the subject.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "ba5f7cc20bce06f28b4ac3981114666c145bfdd908123e8095f41dd50288510f",
+        "applied_prompt_sha256": "4a7dc08cf34083905f3120ed7d79e8bbd368249580fe070c88242a1a82ea52b5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "麥片盒完整呈現原設計。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Cereal carton floats in a cinematic dark galaxy composed of golden crispy cereal flake stars and spiral arms, fine crumb stardust.",
+            "observed": "深色星空宇宙場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片酥脆銀河",
+            "observed": "金色穀片及細碎屑組成明亮銀河旋臂。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主體懸浮，旋臂繞其前後分布形成空間深度。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "穀片酥脆紋理可辨，無數據或天文宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-tiger-spotlight-01",
+      "prompt_id": "src-visual642-171",
+      "command": "/tiger spotlight",
+      "title": "麥片虎紋聚光燈",
+      "description": "麥片虎紋聚光燈（AI案例示範）",
+      "result_text": "麥片虎紋聚光燈",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-09/tiger-spotlight.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /tiger spotlight: Stage the subject under a bold tiger spotlight. Reference image supplies subject identity only. Carton on dark stage under bold focused amber spotlight through tiger-stripe gobo, visible tiger stripe light/shadow across stage and package, no living tiger required. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Carton on dark stage under bold focused amber spotlight through tiger-stripe gobo, visible tiger stripe light/shadow across stage and package, no living tiger required.",
+        "effect": "麥片虎紋聚光燈",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:51:07.563Z",
+        "source_instruction": "Stage the subject under a bold tiger spotlight.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "23d574c3be509bc21c1029000d728a91bb92c3dd954e4c6749cd634bfa7bf8b1",
+        "applied_prompt_sha256": "e9afc3bfec98ea76311d8c475fed61c78234d1682c82a87a5edd892d2f61b774",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "虎紋麥片盒保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Carton on dark stage under bold focused amber spotlight through tiger-stripe gobo, visible tiger stripe light/shadow across stage and package, no living tiger required.",
+            "observed": "暗色舞台棚拍。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片虎紋聚光燈",
+            "observed": "琥珀聚光與虎紋光影覆蓋盒面及地面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒體直立接地，光束斜入方向一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "照明效果清楚，沒有多餘動物遮擋主體。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-golden-cascade-01",
+      "prompt_id": "src-visual642-172",
+      "command": "/golden cascade",
+      "title": "麥片金色瀑流",
+      "description": "麥片金色瀑流（AI案例示範）",
+      "result_text": "麥片金色瀑流",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-09/golden-cascade.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /golden cascade: Flow a dramatic golden cascade around the subject. Reference image supplies subject identity only. Carton hero surrounded by dramatic descending golden cereal flakes and flowing honey-like golden liquid ribbons; strong downward cascade. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Carton hero surrounded by dramatic descending golden cereal flakes and flowing honey-like golden liquid ribbons; strong downward cascade.",
+        "effect": "麥片金色瀑流",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:51:54.442Z",
+        "source_instruction": "Flow a dramatic golden cascade around the subject.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "094be60a991b2b3bf3051faf49fb14664495e0dfb2b1278b39ab451fa1cb0d60",
+        "applied_prompt_sha256": "c9186f77cee416658651af8fa4ada059d48969d767f7fd8caf6713912a16355d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橘虎紋麥片盒完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Carton hero surrounded by dramatic descending golden cereal flakes and flowing honey-like golden liquid ribbons; strong downward cascade.",
+            "observed": "暖金色產品場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片金色瀑流",
+            "observed": "金色液體帶與穀片由上向下瀑流，底部匯聚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瀑流包圍兩側，沒有遮蓋包裝辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "液滴穀片細節清楚，未添加食品功效文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cola-eclipse-01",
+      "prompt_id": "src-visual642-173",
+      "command": "/cola eclipse",
+      "title": "飲料罐可樂日蝕",
+      "description": "飲料罐可樂日蝕（AI案例示範）",
+      "result_text": "飲料罐可樂日蝕",
+      "reference": "output/imagegen/batch-20-09/can-reference.png",
+      "result": "output/imagegen/batch-20-09/cola-eclipse.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /cola eclipse: Turn the subject into a striking cola eclipse. Reference image supplies subject identity only. Red reference cola can in foreground against a dramatic eclipse formed from a dark cola-liquid circular disk backlit by amber rim with carbonated spray corona. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/can-reference.png",
+        "sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio product reference photo of one upright generic red aluminum cola beverage can, slim standard cylindrical body, silver top with pull tab and silver bottom rim, a simple white flowing curved stripe around red body. No words, letters, recognizable brand or logo, no watermark. White background, gentle grounding shadow, three-quarter front view, whole can visible, photorealistic web quality. Fictional product for visual concept examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Red reference cola can in foreground against a dramatic eclipse formed from a dark cola-liquid circular disk backlit by amber rim with carbonated spray corona.",
+        "effect": "飲料罐可樂日蝕",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:52:50.355Z",
+        "source_instruction": "Turn the subject into a striking cola eclipse.",
+        "reference_sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "result_sha256": "2528e3a2fecd4f0e3273f421ad37d581d103a64e595c2bd4719f3d5902d1d2c5",
+        "applied_prompt_sha256": "8fa5b8b5a756ba643b176093494fadd895c6adccecbf183f134340492eb4a435",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紅罐白曲線銀拉環保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Red reference cola can in foreground against a dramatic eclipse formed from a dark cola-liquid circular disk backlit by amber rim with carbonated spray corona.",
+            "observed": "深色可樂液體場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "飲料罐可樂日蝕",
+            "observed": "暗圓盤、琥珀發光邊緣及汽泡噴濺構成日蝕隱喻。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "罐在前景，圓盤完整環繞後方。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "凝結水珠與罐頂清晰，無品牌文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-fizz-halo-01",
+      "prompt_id": "src-visual642-174",
+      "command": "/fizz halo",
+      "title": "飲料罐發光汽泡光環",
+      "description": "飲料罐發光汽泡光環（AI案例示範）",
+      "result_text": "飲料罐發光汽泡光環",
+      "reference": "output/imagegen/batch-20-09/can-reference.png",
+      "result": "output/imagegen/batch-20-09/fizz-halo.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /fizz halo: Surround the subject with a luminous fizz halo. Reference image supplies subject identity only. Can encircled by a luminous coherent ring of fine fizzy bubbles and sparkling droplets, dark background, cool highlights, condensation. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/can-reference.png",
+        "sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio product reference photo of one upright generic red aluminum cola beverage can, slim standard cylindrical body, silver top with pull tab and silver bottom rim, a simple white flowing curved stripe around red body. No words, letters, recognizable brand or logo, no watermark. White background, gentle grounding shadow, three-quarter front view, whole can visible, photorealistic web quality. Fictional product for visual concept examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Can encircled by a luminous coherent ring of fine fizzy bubbles and sparkling droplets, dark background, cool highlights, condensation.",
+        "effect": "飲料罐發光汽泡光環",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:53:41.651Z",
+        "source_instruction": "Surround the subject with a luminous fizz halo.",
+        "reference_sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "result_sha256": "21d3b0fb50426f72d775ccbeeea5005d054bd3eb6ce1a9768c48bd7cb3deec44",
+        "applied_prompt_sha256": "eac50d4130f2dd8a344938ccaa389fff80c6afae9f8f405cce9f881a009c23a6",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紅白飲料罐與銀頂保持一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Can encircled by a luminous coherent ring of fine fizzy bubbles and sparkling droplets, dark background, cool highlights, condensation.",
+            "observed": "深藍黑背景與濕潤地面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "飲料罐發光汽泡光環",
+            "observed": "細小汽泡與高光形成完整發光光環。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "環位於罐周圍，前後深度與反射一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "水珠拉環清晰，無亂碼或多餘罐體。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-can-canyon-01",
+      "prompt_id": "src-visual642-175",
+      "command": "/can canyon",
+      "title": "飲料罐巨型峽谷",
+      "description": "飲料罐巨型峽谷（AI案例示範）",
+      "result_text": "飲料罐巨型峽谷",
+      "reference": "output/imagegen/batch-20-09/can-reference.png",
+      "result": "output/imagegen/batch-20-09/can-canyon.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /can canyon: Scale the subject into a monumental can canyon. Reference image supplies subject identity only. Monumental canyon walls made from towering repetitions of the reference cylindrical red cans, tiny road and vehicle in the central canyon give scale, one foreground hero can. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/can-reference.png",
+        "sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio product reference photo of one upright generic red aluminum cola beverage can, slim standard cylindrical body, silver top with pull tab and silver bottom rim, a simple white flowing curved stripe around red body. No words, letters, recognizable brand or logo, no watermark. White background, gentle grounding shadow, three-quarter front view, whole can visible, photorealistic web quality. Fictional product for visual concept examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Monumental canyon walls made from towering repetitions of the reference cylindrical red cans, tiny road and vehicle in the central canyon give scale, one foreground hero can.",
+        "effect": "飲料罐巨型峽谷",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:54:37.978Z",
+        "source_instruction": "Scale the subject into a monumental can canyon.",
+        "reference_sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "result_sha256": "a5b664a7cbe6ff70ff8e6999ffb9bb4e8bb8b09ac262cf1e1c6badfb96303511",
+        "applied_prompt_sha256": "0c0df65e216f39fa274301592d726f730f31bfd2c23e12f56702d11e2d9161cb",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紅白曲線罐外觀在主體及罐牆一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Monumental canyon walls made from towering repetitions of the reference cylindrical red cans, tiny road and vehicle in the central canyon give scale, one foreground hero can.",
+            "observed": "日光峽谷與中央道路。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "飲料罐巨型峽谷",
+            "observed": "巨大重複罐體形成兩側峽谷高牆。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "小車道路及橋樑提供尺度，透視向遠處收束。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "前景罐銀拉環清楚，沒有文字或形體錯誤。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-bubble-portal-01",
+      "prompt_id": "src-visual642-176",
+      "command": "/bubble portal",
+      "title": "飲料罐汽泡傳送門",
+      "description": "飲料罐汽泡傳送門（AI案例示範）",
+      "result_text": "飲料罐汽泡傳送門",
+      "reference": "output/imagegen/batch-20-09/can-reference.png",
+      "result": "output/imagegen/batch-20-09/bubble-portal.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /bubble portal: Reveal the subject through a themed bubble portal. Reference image supplies subject identity only. Reference can emerges through a large circular portal made of translucent carbonated bubbles, ice-cool cyan space on far side, droplets and coherent ring opening. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/can-reference.png",
+        "sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio product reference photo of one upright generic red aluminum cola beverage can, slim standard cylindrical body, silver top with pull tab and silver bottom rim, a simple white flowing curved stripe around red body. No words, letters, recognizable brand or logo, no watermark. White background, gentle grounding shadow, three-quarter front view, whole can visible, photorealistic web quality. Fictional product for visual concept examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference can emerges through a large circular portal made of translucent carbonated bubbles, ice-cool cyan space on far side, droplets and coherent ring opening.",
+        "effect": "飲料罐汽泡傳送門",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:55:23.629Z",
+        "source_instruction": "Reveal the subject through a themed bubble portal.",
+        "reference_sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "result_sha256": "a9f6d009d30094589d114b4e921f2ca5d9f7237268328ee549be39a5a1ccd5aa",
+        "applied_prompt_sha256": "c7f843a19a750a452c8698df89a0d78525bc3e05d19e99cfdf54fee397e2cc67",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紅白飲料罐保留銀色罐頂。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference can emerges through a large circular portal made of translucent carbonated bubbles, ice-cool cyan space on far side, droplets and coherent ring opening.",
+            "observed": "冷青藍背景的冰涼場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "飲料罐汽泡傳送門",
+            "observed": "透明汽泡與冰塊形成發光圓形傳送門。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "罐斜向穿出開口，環在主體前後交疊。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "汽泡清楚，產品未被遮沒，無額外文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-ice-monolith-01",
+      "prompt_id": "src-visual642-177",
+      "command": "/ice monolith",
+      "title": "飲料罐冰晶巨碑",
+      "description": "飲料罐冰晶巨碑（AI案例示範）",
+      "result_text": "飲料罐冰晶巨碑",
+      "reference": "output/imagegen/batch-20-09/can-reference.png",
+      "result": "output/imagegen/batch-20-09/ice-monolith.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /ice monolith: Transform the subject into a monumental ice monolith. Reference image supplies subject identity only. Reference can transformed into monumental translucent ice sculpture retaining cylindrical silhouette and red-white design visible frozen inside, arctic ground, tiny distant explorer for scale, no medical or functional claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/can-reference.png",
+        "sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio product reference photo of one upright generic red aluminum cola beverage can, slim standard cylindrical body, silver top with pull tab and silver bottom rim, a simple white flowing curved stripe around red body. No words, letters, recognizable brand or logo, no watermark. White background, gentle grounding shadow, three-quarter front view, whole can visible, photorealistic web quality. Fictional product for visual concept examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference can transformed into monumental translucent ice sculpture retaining cylindrical silhouette and red-white design visible frozen inside, arctic ground, tiny distant explorer for scale, no medical or functional claims.",
+        "effect": "飲料罐冰晶巨碑",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:56:18.344Z",
+        "source_instruction": "Transform the subject into a monumental ice monolith.",
+        "reference_sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "result_sha256": "cc180621a5d47e0224642ef20c447138fc13f65894f66606169120f44eaa5ada",
+        "applied_prompt_sha256": "f37a5a7ccf50edc54f8c2701ca4c62c172f628ae82531cddc77a857c36060583",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紅白罐外形及拉環辨識清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference can transformed into monumental translucent ice sculpture retaining cylindrical silhouette and red-white design visible frozen inside, arctic ground, tiny distant explorer for scale, no medical or functional claims.",
+            "observed": "冰雪山地與微小探險者。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "飲料罐冰晶巨碑",
+            "observed": "罐形巨碑以透明冰質、冰裂紋及冰層重構。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "人與巨碑比例形成巨大尺度，接地冰塊合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "冰內紅白圖案保留，無功能或性能宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-neon-refresh-01",
+      "prompt_id": "src-visual642-178",
+      "command": "/neon refresh",
+      "title": "飲料罐霓虹清爽視覺",
+      "description": "飲料罐霓虹清爽視覺（AI案例示範）",
+      "result_text": "飲料罐霓虹清爽視覺",
+      "reference": "output/imagegen/batch-20-09/can-reference.png",
+      "result": "output/imagegen/batch-20-09/neon-refresh.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /neon refresh: Give the subject a vibrant neon refresh treatment. Reference image supplies subject identity only. Can glowing with vibrant cyan and magenta neon outlines against dark wet reflective stage, condensation, icy mist and refreshing energetic light trails. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/can-reference.png",
+        "sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio product reference photo of one upright generic red aluminum cola beverage can, slim standard cylindrical body, silver top with pull tab and silver bottom rim, a simple white flowing curved stripe around red body. No words, letters, recognizable brand or logo, no watermark. White background, gentle grounding shadow, three-quarter front view, whole can visible, photorealistic web quality. Fictional product for visual concept examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Can glowing with vibrant cyan and magenta neon outlines against dark wet reflective stage, condensation, icy mist and refreshing energetic light trails.",
+        "effect": "飲料罐霓虹清爽視覺",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:57:13.525Z",
+        "source_instruction": "Give the subject a vibrant neon refresh treatment.",
+        "reference_sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "result_sha256": "7fc74c201e92f0d5aa8375277194d2799400217aaded956d739606c62247f7d8",
+        "applied_prompt_sha256": "eeb9431ff35908a9d115a15946da86b51a9e4427ef12538a80715fe1fcb93d34",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紅白罐與銀色頂底保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Can glowing with vibrant cyan and magenta neon outlines against dark wet reflective stage, condensation, icy mist and refreshing energetic light trails.",
+            "observed": "暗色濕地與冰塊場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "飲料罐霓虹清爽視覺",
+            "observed": "青洋紅霓虹描邊及光跡鮮明。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "光帶環繞罐身，地面反射色彩對應。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "凝結水珠與冰霧呈清爽視覺，無文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-enamel-glow-01",
+      "prompt_id": "src-visual642-179",
+      "command": "/enamel glow",
+      "title": "牙刷亮白琺瑯光澤",
+      "description": "牙刷亮白琺瑯光澤（AI案例示範）",
+      "result_text": "牙刷亮白琺瑯光澤",
+      "reference": "output/imagegen/batch-20-09/brush-reference.png",
+      "result": "output/imagegen/batch-20-09/enamel-glow.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /enamel glow: Light the subject with a radiant enamel glow. Reference image supplies subject identity only. Mint-white toothbrush illuminated by radiant pearly enamel-like glow; clean white luminous highlights and soft mint halo, preserve brush head and bristles; artistic light treatment, no whitening efficacy claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/brush-reference.png",
+        "sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "generator": "built-in imagegen",
+        "prompt": "A single generic manual toothbrush product reference photo, mint green and white ergonomic handle, one compact oval head with dense short white and pale turquoise bristles, full toothbrush visible diagonally from lower left handle to upper right head on white studio background with a subtle shadow. Photorealistic web quality, no text, no logos, no watermark, no toothpaste, no person. Fictional product used for visual design concepts only, no medical or germ-killing claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Mint-white toothbrush illuminated by radiant pearly enamel-like glow; clean white luminous highlights and soft mint halo, preserve brush head and bristles; artistic light treatment, no whitening efficacy claims.",
+        "effect": "牙刷亮白琺瑯光澤",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:58:37.702Z",
+        "source_instruction": "Light the subject with a radiant enamel glow.",
+        "reference_sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "result_sha256": "9785977bb1125b1deac5153c4c7bfa3629cc1eb803666e3258d48833bc4768e2",
+        "applied_prompt_sha256": "ce91f08250b6418dd99c65a81bcfbd6c6534be21f1b3626cf69b0f73aaa9915c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷白牙刷及白青刷毛保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Mint-white toothbrush illuminated by radiant pearly enamel-like glow; clean white luminous highlights and soft mint halo, preserve brush head and bristles; artistic light treatment, no whitening efficacy claims.",
+            "observed": "明亮薄荷白色棚拍與鏡面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "牙刷亮白琺瑯光澤",
+            "observed": "珍珠般白色光澤及柔和光環突顯表面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "牙刷斜向構圖，反射對應刷體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "刷頭刷毛完整，未生成美白療效文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mint-tunnel-01",
+      "prompt_id": "src-visual642-180",
+      "command": "/mint tunnel",
+      "title": "牙刷薄荷隧道",
+      "description": "牙刷薄荷隧道（AI案例示範）",
+      "result_text": "牙刷薄荷隧道",
+      "reference": "output/imagegen/batch-20-09/brush-reference.png",
+      "result": "output/imagegen/batch-20-09/mint-tunnel.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /mint tunnel: Place the subject inside a cinematic mint tunnel. Reference image supplies subject identity only. Toothbrush floating inside cinematic tunnel built from fresh mint leaves and curved translucent mint-green bands, clear vanishing point and cool lighting. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/brush-reference.png",
+        "sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "generator": "built-in imagegen",
+        "prompt": "A single generic manual toothbrush product reference photo, mint green and white ergonomic handle, one compact oval head with dense short white and pale turquoise bristles, full toothbrush visible diagonally from lower left handle to upper right head on white studio background with a subtle shadow. Photorealistic web quality, no text, no logos, no watermark, no toothpaste, no person. Fictional product used for visual design concepts only, no medical or germ-killing claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Toothbrush floating inside cinematic tunnel built from fresh mint leaves and curved translucent mint-green bands, clear vanishing point and cool lighting.",
+        "effect": "牙刷薄荷隧道",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:59:43.206Z",
+        "source_instruction": "Place the subject inside a cinematic mint tunnel.",
+        "reference_sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "result_sha256": "3e8ae4d2e69066fd34ac172ba2ace3425de937cf7fbaeeab0378571077b3d653",
+        "applied_prompt_sha256": "2f2f8362cb953d1b4616ca300d8b1d72813f1010cc9b7ed1fd0240540ad04b4c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷白牙刷完整，刷毛保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Toothbrush floating inside cinematic tunnel built from fresh mint leaves and curved translucent mint-green bands, clear vanishing point and cool lighting.",
+            "observed": "鮮薄荷葉與透明綠色環形隧道。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "牙刷薄荷隧道",
+            "observed": "清晰消失點與重複弧環形成隧道感。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "牙刷斜向浮於隧道內，前後深度合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "葉紋水滴細節可辨，沒有醫療文案。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-crystal-clean-01",
+      "prompt_id": "src-visual642-181",
+      "command": "/crystal clean",
+      "title": "牙刷水晶潔淨表面",
+      "description": "牙刷水晶潔淨表面（AI案例示範）",
+      "result_text": "牙刷水晶潔淨表面",
+      "reference": "output/imagegen/batch-20-09/brush-reference.png",
+      "result": "output/imagegen/batch-20-09/crystal-clean.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /crystal clean: Give the subject a precise crystal clean finish. Reference image supplies subject identity only. Toothbrush with precise crystal-clean glossy finish, immaculate mint-white surfaces, clear sparkling water droplets and faceted clear crystals on pale background; no efficacy claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/brush-reference.png",
+        "sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "generator": "built-in imagegen",
+        "prompt": "A single generic manual toothbrush product reference photo, mint green and white ergonomic handle, one compact oval head with dense short white and pale turquoise bristles, full toothbrush visible diagonally from lower left handle to upper right head on white studio background with a subtle shadow. Photorealistic web quality, no text, no logos, no watermark, no toothpaste, no person. Fictional product used for visual design concepts only, no medical or germ-killing claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Toothbrush with precise crystal-clean glossy finish, immaculate mint-white surfaces, clear sparkling water droplets and faceted clear crystals on pale background; no efficacy claims.",
+        "effect": "牙刷水晶潔淨表面",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:00:49.428Z",
+        "source_instruction": "Give the subject a precise crystal clean finish.",
+        "reference_sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "result_sha256": "2d4d849a25b80becb8ce1b1d86532372f25ea9ef17fe54459179e7e447e754e2",
+        "applied_prompt_sha256": "dbc72b7007f581663d2e8b66c0095d2cf05c8ae83266394e0e40131d6b7a6416",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷白牙刷及刷毛清晰保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Toothbrush with precise crystal-clean glossy finish, immaculate mint-white surfaces, clear sparkling water droplets and faceted clear crystals on pale background; no efficacy claims.",
+            "observed": "淺色鏡面與透明晶體、水滴。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "牙刷水晶潔淨表面",
+            "observed": "表面潔淨光亮，透明水晶折面與閃耀高光明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "牙刷斜向接近鏡面，反射與水滴位置合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無污染污漬，無醫療療效文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-freshness-beam-01",
+      "prompt_id": "src-visual642-182",
+      "command": "/freshness beam",
+      "title": "牙刷清新光束",
+      "description": "牙刷清新光束（AI案例示範）",
+      "result_text": "牙刷清新光束",
+      "reference": "output/imagegen/batch-20-09/brush-reference.png",
+      "result": "output/imagegen/batch-20-09/freshness-beam.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /freshness beam: Project a focused freshness beam from the subject. Reference image supplies subject identity only. Focused mint-cyan freshness light beam projects visibly from the bristle head into cool mist, toothbrush diagonally framed on dark background. Metaphorical visual, no actual laser device or medical claim. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/brush-reference.png",
+        "sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "generator": "built-in imagegen",
+        "prompt": "A single generic manual toothbrush product reference photo, mint green and white ergonomic handle, one compact oval head with dense short white and pale turquoise bristles, full toothbrush visible diagonally from lower left handle to upper right head on white studio background with a subtle shadow. Photorealistic web quality, no text, no logos, no watermark, no toothpaste, no person. Fictional product used for visual design concepts only, no medical or germ-killing claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Focused mint-cyan freshness light beam projects visibly from the bristle head into cool mist, toothbrush diagonally framed on dark background. Metaphorical visual, no actual laser device or medical claim.",
+        "effect": "牙刷清新光束",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:01:37.963Z",
+        "source_instruction": "Project a focused freshness beam from the subject.",
+        "reference_sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "result_sha256": "65a652a93e4d7d2b5d360c1cb6af9fdd8c3b5fc66de24f1126e30e83d16a4cda",
+        "applied_prompt_sha256": "e7d4dbdc0f84b039a4f6f60395174194b42e38f9eec6ab164ab4f4b8c99bbc8f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷白牙刷與刷毛形態保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Focused mint-cyan freshness light beam projects visibly from the bristle head into cool mist, toothbrush diagonally framed on dark background. Metaphorical visual, no actual laser device or medical claim.",
+            "observed": "暗色薄荷霧場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "牙刷清新光束",
+            "observed": "聚焦青白光束從刷頭向右上投出。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "光束方向沿牙刷延伸，霧與薄荷葉支持清新隱喻。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "刷頭完整，未添加雷射器件、數據或療效宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-hygiene-lab-01",
+      "prompt_id": "src-visual642-183",
+      "command": "/hygiene lab",
+      "title": "牙刷未來潔淨實驗室",
+      "description": "牙刷未來潔淨實驗室（AI案例示範）",
+      "result_text": "牙刷未來潔淨實驗室",
+      "reference": "output/imagegen/batch-20-09/brush-reference.png",
+      "result": "output/imagegen/batch-20-09/hygiene-lab.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /hygiene lab: Place the subject inside a futuristic hygiene lab. Reference image supplies subject identity only. Mint-white toothbrush centered inside futuristic white-cyan clean laboratory display, transparent chamber and abstract light panels, no people, no medical measurements, no antibacterial claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/brush-reference.png",
+        "sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "generator": "built-in imagegen",
+        "prompt": "A single generic manual toothbrush product reference photo, mint green and white ergonomic handle, one compact oval head with dense short white and pale turquoise bristles, full toothbrush visible diagonally from lower left handle to upper right head on white studio background with a subtle shadow. Photorealistic web quality, no text, no logos, no watermark, no toothpaste, no person. Fictional product used for visual design concepts only, no medical or germ-killing claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Mint-white toothbrush centered inside futuristic white-cyan clean laboratory display, transparent chamber and abstract light panels, no people, no medical measurements, no antibacterial claims.",
+        "effect": "牙刷未來潔淨實驗室",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:02:30.162Z",
+        "source_instruction": "Place the subject inside a futuristic hygiene lab.",
+        "reference_sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "result_sha256": "7c58ab0d44d2c310eb0cfb5d80604836eea4aa6417b789e5f45a4e103b5dacd3",
+        "applied_prompt_sha256": "08b9f3716e9124556bf414c5bf55d9fe766a4b249d57cc2b4f56be7340b8f28e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷白牙刷保留原始造型及刷毛。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Mint-white toothbrush centered inside futuristic white-cyan clean laboratory display, transparent chamber and abstract light panels, no people, no medical measurements, no antibacterial claims.",
+            "observed": "白青色未來實驗室。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "牙刷未來潔淨實驗室",
+            "observed": "透明展示艙與環形冷光呈潔淨科技感。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "牙刷由透明支架支撐於艙內，背景與透視一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無醫療測量、抗菌數字或療效宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-smile-prism-01",
+      "prompt_id": "src-visual642-184",
+      "command": "/smile prism",
+      "title": "牙刷微笑稜鏡重構",
+      "description": "牙刷微笑稜鏡重構（AI案例示範）",
+      "result_text": "牙刷微笑稜鏡重構",
+      "reference": "output/imagegen/batch-20-09/brush-reference.png",
+      "result": "output/imagegen/batch-20-09/smile-prism.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /smile prism: Rebuild the subject as a faceted smile prism. Reference image supplies subject identity only. Rebuild the recognizable toothbrush silhouette from transparent mint and clear faceted prisms; a distinct curved smiling arc of white tooth-like prism shapes behind it, rainbow refractions, artistic sculpture not anatomy or medical model. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/brush-reference.png",
+        "sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "generator": "built-in imagegen",
+        "prompt": "A single generic manual toothbrush product reference photo, mint green and white ergonomic handle, one compact oval head with dense short white and pale turquoise bristles, full toothbrush visible diagonally from lower left handle to upper right head on white studio background with a subtle shadow. Photorealistic web quality, no text, no logos, no watermark, no toothpaste, no person. Fictional product used for visual design concepts only, no medical or germ-killing claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild the recognizable toothbrush silhouette from transparent mint and clear faceted prisms; a distinct curved smiling arc of white tooth-like prism shapes behind it, rainbow refractions, artistic sculpture not anatomy or medical model.",
+        "effect": "牙刷微笑稜鏡重構",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:03:28.875Z",
+        "source_instruction": "Rebuild the subject as a faceted smile prism.",
+        "reference_sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "result_sha256": "66e051390d5ae6d39176f6dacf31ed0265dfafb06e439e901276738856e282dc",
+        "applied_prompt_sha256": "4746050b492b8f393b0e764d074ab875ed35e3a78e85e75a7c4dea6388073724",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "牙刷輪廓、薄荷白配色與刷頭可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild the recognizable toothbrush silhouette from transparent mint and clear faceted prisms; a distinct curved smiling arc of white tooth-like prism shapes behind it, rainbow refractions, artistic sculpture not anatomy or medical model.",
+            "observed": "淺色反光展示場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "牙刷微笑稜鏡重構",
+            "observed": "牙刷重構為透明切面稜鏡，彩虹折射鮮明。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "後方白色齒形晶體形成上揚微笑弧線。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "藝術稜鏡雕塑，無解剖標註或療效文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

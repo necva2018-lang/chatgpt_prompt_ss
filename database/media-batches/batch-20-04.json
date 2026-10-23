@@ -1,0 +1,1417 @@
+{
+  "version": 1,
+  "id": "batch-20-04",
+  "cases": [
+    {
+      "id": "case-conceptmap-01",
+      "prompt_id": "src-visual642-065",
+      "command": "/conceptmap",
+      "title": "檸檬飲料概念關係圖",
+      "description": "檸檬飲料概念關係圖（AI案例示範）",
+      "result_text": "檸檬飲料概念關係圖",
+      "reference": "output/imagegen/batch-20-03/food-reference.png",
+      "result": "output/imagegen/batch-20-04/conceptmap.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /conceptmap: Connect the main ideas in a simple concept map. Reference image supplies subject identity only. Simple concept map. Central node LEMONADE connected by three labeled lines to WATER, LEMON, SUGAR. Connector labels respectively BASE, SOURNESS, SWEETNESS. Small accurate ingredient photos alongside nodes. Title LEMONADE CONCEPT MAP. Only three branches. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-03/food-reference.png",
+        "sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a neutral ingredient reference photograph for instructional website examples: one ripe unpeeled yellow banana, one whole lemon and one lemon half, a small clear bowl of granulated white sugar, a transparent jug of water and a plain empty glass on a clean light wooden kitchen table. Natural soft daylight, realistic ordinary ingredient sizes, tidy simple background, no packaging, no labels, no claims, no text. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Simple concept map. Central node LEMONADE connected by three labeled lines to WATER, LEMON, SUGAR. Connector labels respectively BASE, SOURNESS, SWEETNESS. Small accurate ingredient photos alongside nodes. Title LEMONADE CONCEPT MAP. Only three branches.",
+        "effect": "檸檬飲料概念關係圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:31:55.373Z",
+        "source_instruction": "Connect the main ideas in a simple concept map.",
+        "reference_sha256": "7760e1a32583be3b622a4d93ddc1ebee6e6490e471588aa2dddc1a1e1c90adc3",
+        "result_sha256": "ac7863634cbf5b55c1aab4f27407409177f66f112f0c036321200b81dc69ab1d",
+        "applied_prompt_sha256": "2c820b1cbb7d5245a66bd7fd7841185868618d037f74b5db817be601db278a05",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "水、檸檬、糖及飲料身份正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Simple concept map. Central node LEMONADE connected by three labeled lines to WATER, LEMON, SUGAR. Connector labels respectively BASE, SOURNESS, SWEETNESS. Small accurate ingredient photos alongside nodes. Title LEMONADE CONCEPT MAP. Only three branches.",
+            "observed": "中央概念搭配三個食材節點。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬飲料概念關係圖",
+            "observed": "三色分支圖解清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三支箭頭連至檸檬飲料，BASE/SOURNESS/SWEETNESS 各對應正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "所有節點與標題正確可讀。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-partslegend-01",
+      "prompt_id": "src-visual642-066",
+      "command": "/partslegend",
+      "title": "保溫瓶外觀零件圖例",
+      "description": "保溫瓶外觀零件圖例（AI案例示範）",
+      "result_text": "保溫瓶外觀零件圖例",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-04/partslegend.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /partslegend: Pair each important part with a clear legend label. Reference image supplies subject identity only. Show reference bottle large on white, three numbered leader lines ending on visible external parts: 1 cap, 2 green body, 3 bottom base. Separate legend exact labels 1 CAP; 2 BODY; 3 BASE. Title PARTS LEGEND. No internal structure. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Show reference bottle large on white, three numbered leader lines ending on visible external parts: 1 cap, 2 green body, 3 bottom base. Separate legend exact labels 1 CAP; 2 BODY; 3 BASE. Title PARTS LEGEND. No internal structure.",
+        "effect": "保溫瓶外觀零件圖例",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:32:39.547Z",
+        "source_instruction": "Pair each important part with a clear legend label.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "78e71576c0bf9f9bd438d399658db37f2497df68308fd97eaeaaf07f031b5ba9",
+        "applied_prompt_sha256": "4718a280f2a525734c332bd1c813fd28049780ab549341686b35a8d335b10df9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色瓶身與黑色提環蓋一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Show reference bottle large on white, three numbered leader lines ending on visible external parts: 1 cap, 2 green body, 3 bottom base. Separate legend exact labels 1 CAP; 2 BODY; 3 BASE. Title PARTS LEGEND. No internal structure.",
+            "observed": "零件圖例配對完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "保溫瓶外觀零件圖例",
+            "observed": "白底藍色編號標示清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三條線分別落在蓋、身、底部。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "PARTS LEGEND 與1 CAP/2 BODY/3 BASE 正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-functionlabels-01",
+      "prompt_id": "src-visual642-067",
+      "command": "/functionlabels",
+      "title": "帆布袋外部功能標示",
+      "description": "帆布袋外部功能標示（AI案例示範）",
+      "result_text": "帆布袋外部功能標示",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-04/functionlabels.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /functionlabels: Label each major part with its practical function. Reference image supplies subject identity only. Show reference tote front three-quarter view, three accurate callouts with concise labels: HANDLES — CARRY; OPENING — ACCESS; BODY — HOLD ITEMS. Leader endpoints must touch handles, open top rim, and main bag body respectively. Title TOTE FUNCTIONS. Only visible exterior functions. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. IMPORTANT: OPENING / ACCESS blue leader endpoint must touch the center of the visible top opening rim, far away from the brown handle attachment. Place blue endpoint on the top rim at center between the handles, never on a handle.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Show reference tote front three-quarter view, three accurate callouts with concise labels: HANDLES — CARRY; OPENING — ACCESS; BODY — HOLD ITEMS. Leader endpoints must touch handles, open top rim, and main bag body respectively. Title TOTE FUNCTIONS. Only visible exterior functions.",
+        "effect": "帆布袋外部功能標示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:34:30.853Z",
+        "source_instruction": "Label each major part with its practical function.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "c5116ed14224c02a55541e1911a4e0b2f5dc11e0ece7247259335772d25aa49d",
+        "applied_prompt_sha256": "2dd38d64d6c1cabe514a656078e2cb0e140f4b562dede76e2608fa0de5d59608",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布袋與棕色提把保持一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Show reference tote front three-quarter view, three accurate callouts with concise labels: HANDLES — CARRY; OPENING — ACCESS; BODY — HOLD ITEMS. Leader endpoints must touch handles, open top rim, and main bag body respectively. Title TOTE FUNCTIONS. Only visible exterior functions.",
+            "observed": "外部功能標示三項完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋外部功能標示",
+            "observed": "三色標示易辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "修正後袋口線落在中央開口，提把與袋身線各正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "HANDLES CARRY、OPENING ACCESS、BODY HOLD ITEMS 與標題正確。",
+            "status": "passed"
+          }
+        ]
+      },
+      "revision_attempts": 1
+    },
+    {
+      "id": "case-openboxlayout-01",
+      "prompt_id": "src-visual642-068",
+      "command": "/openboxlayout",
+      "title": "綠色紙盒開箱平鋪",
+      "description": "綠色紙盒開箱平鋪（AI案例示範）",
+      "result_text": "綠色紙盒開箱平鋪",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-04/openboxlayout.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /openboxlayout: Arrange the opened package and contents neatly. Reference image supplies subject identity only. Photorealistic top-down flat lay: reference mint cubic carton opened with top flaps spread. Beside it neatly align one folded cream cloth pouch and one plain round wooden coaster, one simple tissue sheet. Entire opened box and all contents visible on warm white. No text. Invented gift kit contents, not branded product inventory. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Photorealistic top-down flat lay: reference mint cubic carton opened with top flaps spread. Beside it neatly align one folded cream cloth pouch and one plain round wooden coaster, one simple tissue sheet. Entire opened box and all contents visible on warm white. No text. Invented gift kit contents, not branded product inventory.",
+        "effect": "綠色紙盒開箱平鋪",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:35:19.384Z",
+        "source_instruction": "Arrange the opened package and contents neatly.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "4d70a5265eaa80a75ff119d3de3f13e00dc3afc2ca34b6388238e4381fd165fe",
+        "applied_prompt_sha256": "61f327f9c36f84b64b0ac6059f107959c103cd3fabf841230ccabf1ffa3e034f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色葉形紙盒身份保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photorealistic top-down flat lay: reference mint cubic carton opened with top flaps spread. Beside it neatly align one folded cream cloth pouch and one plain round wooden coaster, one simple tissue sheet. Entire opened box and all contents visible on warm white. No text. Invented gift kit contents, not branded product inventory.",
+            "observed": "紙盒打開且內容整齊平鋪。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "綠色紙盒開箱平鋪",
+            "observed": "俯視白底產品排列清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "布袋、木杯墊及薄紙各一件，皆完整且互不遮蔽。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字、水印與多餘物件。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-lifestylehero-01",
+      "prompt_id": "src-visual642-069",
+      "command": "/lifestylehero",
+      "title": "日常咖啡館帆布袋主視覺",
+      "description": "日常咖啡館帆布袋主視覺（AI案例示範）",
+      "result_text": "日常咖啡館帆布袋主視覺",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-04/lifestylehero.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /lifestylehero: Show the product as the focus of a realistic lifestyle scene. Reference image supplies subject identity only. Reference tote is sharp focused hero standing on cafe table beside a seated adult reading a book. Cozy realistic cafe daylight, person softly blurred, bag full and unobstructed. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference tote is sharp focused hero standing on cafe table beside a seated adult reading a book. Cozy realistic cafe daylight, person softly blurred, bag full and unobstructed. No text.",
+        "effect": "日常咖啡館帆布袋主視覺",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:36:09.363Z",
+        "source_instruction": "Show the product as the focus of a realistic lifestyle scene.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "c57b12e207f4584517c90ffe446857efdef22a6c92750349e814b39412d87a70",
+        "applied_prompt_sha256": "8b6c050565a09dd912d16cccfeb2a1361bedc432add5d824a020d8c98b26026c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "帆布袋身份保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference tote is sharp focused hero standing on cafe table beside a seated adult reading a book. Cozy realistic cafe daylight, person softly blurred, bag full and unobstructed. No text.",
+            "observed": "咖啡館閱讀生活情境清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "日常咖啡館帆布袋主視覺",
+            "observed": "袋子清晰突出，背景人物柔焦。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "產品完整無遮蔽，人物與桌面比例合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無多餘文字、水印或肢體瑕疵。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-ecommercegrid-01",
+      "prompt_id": "src-visual642-070",
+      "command": "/ecommercegrid",
+      "title": "運動鞋電商四視角網格",
+      "description": "運動鞋電商四視角網格（AI案例示範）",
+      "result_text": "運動鞋電商四視角網格",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-04/ecommercegrid.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /ecommercegrid: Create matching product views for an online store grid. Reference image supplies subject identity only. Four equal square white studio panels: single reference shoe left side profile, right side profile, top view, rear view. Same white shoe black stripes gray suede gum sole in all views, consistent lighting and scale, clear margins. No labels or text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four equal square white studio panels: single reference shoe left side profile, right side profile, top view, rear view. Same white shoe black stripes gray suede gum sole in all views, consistent lighting and scale, clear margins. No labels or text.",
+        "effect": "運動鞋電商四視角網格",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:36:56.370Z",
+        "source_instruction": "Create matching product views for an online store grid.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "f8454e0934adb38250e6e77211d4d8d47cafef39c183fee5a3e5c6b7a7e26a85",
+        "applied_prompt_sha256": "d118ba07a162afc2809fc6cb43c7d429b31c5a4442383e7821878cde016b8ec9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑條灰麂皮棕底身份一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four equal square white studio panels: single reference shoe left side profile, right side profile, top view, rear view. Same white shoe black stripes gray suede gum sole in all views, consistent lighting and scale, clear margins. No labels or text.",
+            "observed": "四格電商網格完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋電商四視角網格",
+            "observed": "白底燈光與尺度協調。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "左右側、俯視、後視各一格，產品皆完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無多餘文案或水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-packagingdieline-01",
+      "prompt_id": "src-visual642-071",
+      "command": "/packagingdieline",
+      "title": "六面紙盒平面刀模概念",
+      "description": "六面紙盒平面刀模概念（AI案例示範）",
+      "result_text": "六面紙盒平面刀模概念",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-04/packagingdieline.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /packagingdieline: Lay the package artwork onto a clear flat dieline. Reference image supplies subject identity only. Orthographic flat cube net with exactly six equal mint square faces: horizontal row of FOUR squares; ONE square directly ABOVE second square; ONE directly BELOW second square. Thin glue tabs outside perimeter distinct from square faces. Solid black cut perimeter, dashed green internal folds. Front leaf artwork on second row square, restrained leaf accents elsewhere. Small folded cube preview upper right. Title CUBE CARTON DIELINE. Legend CUT solid line / FOLD dashed line. Footer CONCEPT — NOT PRODUCTION ART. No dimensions. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Orthographic flat cube net with exactly six equal mint square faces: horizontal row of FOUR squares; ONE square directly ABOVE second square; ONE directly BELOW second square. Thin glue tabs outside perimeter distinct from square faces. Solid black cut perimeter, dashed green internal folds. Front leaf artwork on second row square, restrained leaf accents elsewhere. Small folded cube preview upper right. Title CUBE CARTON DIELINE. Legend CUT solid line / FOLD dashed line. Footer CONCEPT — NOT PRODUCTION ART. No dimensions.",
+        "effect": "六面紙盒平面刀模概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:37:51.036Z",
+        "source_instruction": "Lay the package artwork onto a clear flat dieline.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "f61d0918485c335210a1f3f7479f7ee0ce7e03a6b8e3655fc2f433c78bd87ddb",
+        "applied_prompt_sha256": "f65ca5aea8edfe8056b924b4d2761fc6e2347ce3223b90dafa041af7c8502c88",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "自訂立方紙盒概念，核對六等正方面、正投影及空腔幾何；100mm是自訂設計尺寸，非實物測量；不當作生產檔。",
+          "source_urls": [
+            "https://mathworld.wolfram.com/Cube.html"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色葉形包裝圖案保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Orthographic flat cube net with exactly six equal mint square faces: horizontal row of FOUR squares; ONE square directly ABOVE second square; ONE directly BELOW second square. Thin glue tabs outside perimeter distinct from square faces. Solid black cut perimeter, dashed green internal folds. Front leaf artwork on second row square, restrained leaf accents elsewhere. Small folded cube preview upper right. Title CUBE CARTON DIELINE. Legend CUT solid line / FOLD dashed line. Footer CONCEPT — NOT PRODUCTION ART. No dimensions.",
+            "observed": "平面刀模含六個等大正方形與折盒預覽。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "六面紙盒平面刀模概念",
+            "observed": "黑色裁切線與綠色折線分明。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "水平四面、第二面上下各一面，六面網格可折立方體；邊緣黏貼片與主面區隔。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CUT/FOLD 及概念非生產檔註記正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-shelfcomparison-01",
+      "prompt_id": "src-visual642-072",
+      "command": "/shelfcomparison",
+      "title": "三款概念保溫瓶同架比較",
+      "description": "三款概念保溫瓶同架比較（AI案例示範）",
+      "result_text": "三款概念保溫瓶同架比較",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-04/shelfcomparison.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /shelfcomparison: Compare competing products together on one shelf. Reference image supplies subject identity only. One realistic store shelf at eye level with three competing fictional bottle designs side by side: reference sage bottle, taller navy cylindrical bottle, shorter cream rounded bottle. Each has plain charcoal cap. Clear shelf labels A, B, C under each, no superiority or price claims. Reference bottle is A. No other text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "One realistic store shelf at eye level with three competing fictional bottle designs side by side: reference sage bottle, taller navy cylindrical bottle, shorter cream rounded bottle. Each has plain charcoal cap. Clear shelf labels A, B, C under each, no superiority or price claims. Reference bottle is A. No other text.",
+        "effect": "三款概念保溫瓶同架比較",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:38:42.421Z",
+        "source_instruction": "Compare competing products together on one shelf.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "f2875ba3fda418fc0d6f6f559fd3f31a75b0017bea43ab77b8a386da52b34578",
+        "applied_prompt_sha256": "a956f99254835996e6d77962e9c334b0cb5554ccf16ab330344c9e467b07ef3a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "A為原綠瓶，B深藍較高，C米白較短。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One realistic store shelf at eye level with three competing fictional bottle designs side by side: reference sage bottle, taller navy cylindrical bottle, shorter cream rounded bottle. Each has plain charcoal cap. Clear shelf labels A, B, C under each, no superiority or price claims. Reference bottle is A. No other text.",
+            "observed": "三款產品同架比較清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "三款概念保溫瓶同架比較",
+            "observed": "相同棚光與同一層架提供比較基準。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三瓶並排完整且A/B/C對應正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "只有ABC標籤，無價格或性能宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-brandcampaign-01",
+      "prompt_id": "src-visual642-073",
+      "command": "/brandcampaign",
+      "title": "葉形紙盒一致品牌活動",
+      "description": "葉形紙盒一致品牌活動（AI案例示範）",
+      "result_text": "葉形紙盒一致品牌活動",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-04/brandcampaign.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /brandcampaign: Build a cohesive branded campaign around the subject. Reference image supplies subject identity only. Cohesive fictional LEAF brand campaign moodboard on neutral background. Three coordinated deliverables: upright poster with mint carton, square social tile with same carton and leaf emblem, horizontal web banner with same. Mint/dark green/cream palette, exact short word LEAF on each. Clear white gutters. No other copy. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Cohesive fictional LEAF brand campaign moodboard on neutral background. Three coordinated deliverables: upright poster with mint carton, square social tile with same carton and leaf emblem, horizontal web banner with same. Mint/dark green/cream palette, exact short word LEAF on each. Clear white gutters. No other copy.",
+        "effect": "葉形紙盒一致品牌活動",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:39:53.348Z",
+        "source_instruction": "Build a cohesive branded campaign around the subject.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "572f3c955b95115e57cc7b128bbb43fbfea5c3c7efaa793dddd73c04c42807f9",
+        "applied_prompt_sha256": "4a253272dd98bc74b1c8c6faf401cd26574f2c865c0218092ed728b4995a8813",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紙盒葉形與綠色身份保持。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Cohesive fictional LEAF brand campaign moodboard on neutral background. Three coordinated deliverables: upright poster with mint carton, square social tile with same carton and leaf emblem, horizontal web banner with same. Mint/dark green/cream palette, exact short word LEAF on each. Clear white gutters. No other copy.",
+            "observed": "直海報、方形社群、橫幅三種活動素材完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "葉形紙盒一致品牌活動",
+            "observed": "配色、字體與葉形視覺一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三個版面留白分隔且各含產品。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "LEAF文字正確，無其他宣稱或水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-retailisland-01",
+      "prompt_id": "src-visual642-074",
+      "command": "/retailisland",
+      "title": "運動鞋獨立零售展示島",
+      "description": "運動鞋獨立零售展示島（AI案例示範）",
+      "result_text": "運動鞋獨立零售展示島",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-04/retailisland.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /retailisland: Stage the product on a freestanding retail island. Reference image supplies subject identity only. Photorealistic footwear shop, freestanding retail island visible with walkways on all four sides. Several matching reference shoes staged on tiered cream display plinths, shoe identity preserved. Wide shot includes entire island and store context, no wall-attached shelf. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Photorealistic footwear shop, freestanding retail island visible with walkways on all four sides. Several matching reference shoes staged on tiered cream display plinths, shoe identity preserved. Wide shot includes entire island and store context, no wall-attached shelf. No text.",
+        "effect": "運動鞋獨立零售展示島",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:41:13.951Z",
+        "source_instruction": "Stage the product on a freestanding retail island.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "d39e47a856adc641adc1ed4049b0d0f61f2183147cc13d7ecdcb2ca820bbf5a2",
+        "applied_prompt_sha256": "59edc18d9dbfec1c444b9ef66683f64962e680a3b5a3b4893ebc9c58d47e858c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "運動鞋外觀與參考一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photorealistic footwear shop, freestanding retail island visible with walkways on all four sides. Several matching reference shoes staged on tiered cream display plinths, shoe identity preserved. Wide shot includes entire island and store context, no wall-attached shelf. No text.",
+            "observed": "店內獨立展示島與周圍走道可見。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋獨立零售展示島",
+            "observed": "階梯展示台突出鞋款。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "島台未靠牆，鞋子排列於不同層次且比例合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文案或水印，台面與地面接觸合理。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-counterdisplay-01",
+      "prompt_id": "src-visual642-075",
+      "command": "/counterdisplay",
+      "title": "綠色紙盒收銀檯小型展示",
+      "description": "綠色紙盒收銀檯小型展示（AI案例示範）",
+      "result_text": "綠色紙盒收銀檯小型展示",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-04/counterdisplay.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /counterdisplay: Place the product in a compact checkout display. Reference image supplies subject identity only. Photorealistic checkout counter with payment terminal at right and a compact tabletop cardboard display tray containing four matching mint leaf cartons in a neat 2x2 arrangement. Small scale fits checkout, entire tray visible. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Photorealistic checkout counter with payment terminal at right and a compact tabletop cardboard display tray containing four matching mint leaf cartons in a neat 2x2 arrangement. Small scale fits checkout, entire tray visible. No text.",
+        "effect": "綠色紙盒收銀檯小型展示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:41:58.569Z",
+        "source_instruction": "Place the product in a compact checkout display.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "33a5dccd028b9cb975e272c1be5807fa0984323558253f3f3bfc5f6c752f57ba",
+        "applied_prompt_sha256": "f60a61694397ef2907c2cf6a01955e12273904882260aea8665f2ae878dd8dfb",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "四個葉形綠盒身份一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photorealistic checkout counter with payment terminal at right and a compact tabletop cardboard display tray containing four matching mint leaf cartons in a neat 2x2 arrangement. Small scale fits checkout, entire tray visible. No text.",
+            "observed": "收銀檯與右側付款設備清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "綠色紙盒收銀檯小型展示",
+            "observed": "小型紙展示架適合檯面展示。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "四盒以2x2排列，整架完整可見。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無多餘文案、水印或不實規格。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-samplekit-01",
+      "prompt_id": "src-visual642-076",
+      "command": "/samplekit",
+      "title": "紙盒與材質樣品套組",
+      "description": "紙盒與材質樣品套組（AI案例示範）",
+      "result_text": "紙盒與材質樣品套組",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-04/samplekit.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /samplekit: Arrange the product as an organized sample kit. Reference image supplies subject identity only. Top-down organized sample kit in open mint presentation tray with separate fitted compartments containing miniature mint leaf carton, three small paper color swatches mint/cream/darkgreen, and one folded cream fabric swatch. Clean sample presentation, full kit visible. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Top-down organized sample kit in open mint presentation tray with separate fitted compartments containing miniature mint leaf carton, three small paper color swatches mint/cream/darkgreen, and one folded cream fabric swatch. Clean sample presentation, full kit visible. No text.",
+        "effect": "紙盒與材質樣品套組",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:42:55.702Z",
+        "source_instruction": "Arrange the product as an organized sample kit.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "682e497e980d2c4141a18949fd284db0c3b1d852da8f9cfb23ffc839f617819c",
+        "applied_prompt_sha256": "4575fe60edd73c66501845b2718522508b676b598e95963cfd81eeb6f40e720e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "葉形紙盒與綠色色系一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Top-down organized sample kit in open mint presentation tray with separate fitted compartments containing miniature mint leaf carton, three small paper color swatches mint/cream/darkgreen, and one folded cream fabric swatch. Clean sample presentation, full kit visible. No text.",
+            "observed": "開放樣品托盤與獨立格位完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒與材質樣品套組",
+            "observed": "俯視呈現清楚整齊。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒、三片色卡、折疊布樣分區且數量正確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印與多餘樣品。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-productfamily-01",
+      "prompt_id": "src-visual642-077",
+      "command": "/productfamily",
+      "title": "帆布袋協調產品家族",
+      "description": "帆布袋協調產品家族（AI案例示範）",
+      "result_text": "帆布袋協調產品家族",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-04/productfamily.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /productfamily: Show related products as one coordinated family. Reference image supplies subject identity only. Photorealistic studio lineup: reference cream canvas tote with brown handles, smaller matching cream canvas zip pouch with brown zipper trim, matching cream canvas card sleeve with brown edge trim. Three different related products, consistent fabric and palette, all complete. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Photorealistic studio lineup: reference cream canvas tote with brown handles, smaller matching cream canvas zip pouch with brown zipper trim, matching cream canvas card sleeve with brown edge trim. Three different related products, consistent fabric and palette, all complete. No text.",
+        "effect": "帆布袋協調產品家族",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:43:53.271Z",
+        "source_instruction": "Show related products as one coordinated family.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "09752c4bf8d4474f35b4aef7fdf1f37dcd1a01917cfebed30171797314751bcb",
+        "applied_prompt_sha256": "ca2719dd3156759486ba767ebd0d5fff48f680ef3b8a4eeef5ad732d0af3a94d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "原帆布袋外觀保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photorealistic studio lineup: reference cream canvas tote with brown handles, smaller matching cream canvas zip pouch with brown zipper trim, matching cream canvas card sleeve with brown edge trim. Three different related products, consistent fabric and palette, all complete. No text.",
+            "observed": "托特袋、拉鍊袋、卡套三款家族產品完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋協調產品家族",
+            "observed": "米白帆布與棕色飾邊一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三種尺寸用途差異可辨，排列完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印與多餘商品。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-refillconcept-01",
+      "prompt_id": "src-visual642-078",
+      "command": "/refillconcept",
+      "title": "可補充水瓶使用概念",
+      "description": "可補充水瓶使用概念（AI案例示範）",
+      "result_text": "可補充水瓶使用概念",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-04/refillconcept.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /refillconcept: Visualize a practical refillable version of the product. Reference image supplies subject identity only. Practical refill concept for the reference water bottle. Charcoal loop cap fully removed resting beside bottle; open mouth visibly aligned under water dispenser spout with stream of water entering mouth. Clear side three-quarter view, whole bottle visible, no impossible closed-cap filling, no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Practical refill concept for the reference water bottle. Charcoal loop cap fully removed resting beside bottle; open mouth visibly aligned under water dispenser spout with stream of water entering mouth. Clear side three-quarter view, whole bottle visible, no impossible closed-cap filling, no text.",
+        "effect": "可補充水瓶使用概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:44:46.625Z",
+        "source_instruction": "Visualize a practical refillable version of the product.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "02fe4b75884c8b2c70f5b00677a1060ed1004739caf6c8438fc6004240210646",
+        "applied_prompt_sha256": "8a47e567bf78d2895b385e101762aafd13fe106bf4089fb950ee38351cc0a802",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "原綠瓶與黑提環蓋一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Practical refill concept for the reference water bottle. Charcoal loop cap fully removed resting beside bottle; open mouth visibly aligned under water dispenser spout with stream of water entering mouth. Clear side three-quarter view, whole bottle visible, no impossible closed-cap filling, no text.",
+            "observed": "飲水設備下補充水場景清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "可補充水瓶使用概念",
+            "observed": "瓶蓋拆下置於旁邊。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "水流直接進入開口，瓶身完整且無穿蓋錯誤。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字、水印或規格宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-travelkit-01",
+      "prompt_id": "src-visual642-079",
+      "command": "/travelkit",
+      "title": "帆布袋與小物旅行套組",
+      "description": "帆布袋與小物旅行套組（AI案例示範）",
+      "result_text": "帆布袋與小物旅行套組",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-04/travelkit.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /travelkit: Package the product as a compact travel kit. Reference image supplies subject identity only. Reference tote as carry-on travel kit with organized small matching zip pouch, folded scarf, blank passport cover, and compact bottle arranged beside it on clean hotel bench. Complete items visible, tote remains ordinary carry-on scale. No text or brand. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference tote as carry-on travel kit with organized small matching zip pouch, folded scarf, blank passport cover, and compact bottle arranged beside it on clean hotel bench. Complete items visible, tote remains ordinary carry-on scale. No text or brand.",
+        "effect": "帆布袋與小物旅行套組",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:45:45.122Z",
+        "source_instruction": "Package the product as a compact travel kit.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "0ff7a83c9d758c6d18b8991418c6308408c89b8f50c27193f27adb045bfb755c",
+        "applied_prompt_sha256": "b7dc17e4f89bd60a8c6a11479cbec6405b77ac3d471b949c0364761742a4d0f6",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "帆布袋身份一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference tote as carry-on travel kit with organized small matching zip pouch, folded scarf, blank passport cover, and compact bottle arranged beside it on clean hotel bench. Complete items visible, tote remains ordinary carry-on scale. No text or brand.",
+            "observed": "旅館長椅與行李提供旅行情境。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋與小物旅行套組",
+            "observed": "托特袋與整理小物構成套組。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "拉鍊袋、圍巾、護照套、水瓶各完整，比例合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文案、水印或個人資訊。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-annotated-sketch-01",
+      "prompt_id": "src-visual642-080",
+      "command": "/annotated sketch",
+      "title": "帆布袋簡潔標註草圖",
+      "description": "帆布袋簡潔標註草圖（AI案例示範）",
+      "result_text": "帆布袋簡潔標註草圖",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-04/annotated-sketch.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /annotated sketch: Turn the subject into a clean sketch with concise labels. Reference image supplies subject identity only. Clean graphite and fine pen sketch of reference tote on ivory paper, one large three-quarter drawing, subtle canvas hatching. Exactly three concise leader labels HANDLES, OPEN TOP, CANVAS BODY touching corresponding parts. No extra writing. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Clean graphite and fine pen sketch of reference tote on ivory paper, one large three-quarter drawing, subtle canvas hatching. Exactly three concise leader labels HANDLES, OPEN TOP, CANVAS BODY touching corresponding parts. No extra writing.",
+        "effect": "帆布袋簡潔標註草圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:46:38.851Z",
+        "source_instruction": "Turn the subject into a clean sketch with concise labels.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "3182a5789422eb22aa98f016cb9bff1742c599f285d28a42bb6f267d4ac2c688",
+        "applied_prompt_sha256": "07fa67589e1bf163ed07b3e85ee3771652191286ef7c28513c974f7037bb11e2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "帆布袋輪廓與提把身份保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Clean graphite and fine pen sketch of reference tote on ivory paper, one large three-quarter drawing, subtle canvas hatching. Exactly three concise leader labels HANDLES, OPEN TOP, CANVAS BODY touching corresponding parts. No extra writing.",
+            "observed": "乾淨紙面三分之四草圖。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋簡潔標註草圖",
+            "observed": "鉛筆排線與細線素描效果清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三標線分別落在提把、袋口、帆布袋身。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "HANDLES、OPEN TOP、CANVAS BODY 正確可讀。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-technical-drawing-01",
+      "prompt_id": "src-visual642-081",
+      "command": "/technical drawing",
+      "title": "立方紙盒正投影概念圖",
+      "description": "立方紙盒正投影概念圖（AI案例示範）",
+      "result_text": "立方紙盒正投影概念圖",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-04/technical-drawing.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /technical drawing: Render the subject as a precise technical drawing. Reference image supplies subject identity only. Precise technical concept drawing of authored ideal cube carton. Exactly THREE orthographic equal-square views in aligned layout: FRONT upper left, SIDE upper right, TOP below FRONT. All same size. FRONT has leaf outline; other faces plain. Each dimension is 100 mm width and height, aligned arrowed dimension lines outside views. No perspective in these three views. Title CUBE CARTON. Footer CONCEPT DIMENSIONS. No manufacturing tolerances or hidden mechanism. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Precise technical concept drawing of authored ideal cube carton. Exactly THREE orthographic equal-square views in aligned layout: FRONT upper left, SIDE upper right, TOP below FRONT. All same size. FRONT has leaf outline; other faces plain. Each dimension is 100 mm width and height, aligned arrowed dimension lines outside views. No perspective in these three views. Title CUBE CARTON. Footer CONCEPT DIMENSIONS. No manufacturing tolerances or hidden mechanism.",
+        "effect": "立方紙盒正投影概念圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:47:41.215Z",
+        "source_instruction": "Render the subject as a precise technical drawing.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "63c48df591bcf08674d24f7665980909a422edb8e78b0a3efa053b6d18876e5c",
+        "applied_prompt_sha256": "3134341902fce9436824e243f028d14ba057af4fa8b23e352584bc5800ba0b58",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "自訂立方紙盒概念，核對六等正方面、正投影及空腔幾何；100mm是自訂設計尺寸，非實物測量；不當作生產檔。",
+          "source_urls": [
+            "https://mathworld.wolfram.com/Cube.html"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "葉形紙盒以線圖表現。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Precise technical concept drawing of authored ideal cube carton. Exactly THREE orthographic equal-square views in aligned layout: FRONT upper left, SIDE upper right, TOP below FRONT. All same size. FRONT has leaf outline; other faces plain. Each dimension is 100 mm width and height, aligned arrowed dimension lines outside views. No perspective in these three views. Title CUBE CARTON. Footer CONCEPT DIMENSIONS. No manufacturing tolerances or hidden mechanism.",
+            "observed": "正面、側面、頂面三個正投影完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "立方紙盒正投影概念圖",
+            "observed": "尺寸線、箭頭與黑白線稿清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三視圖相同尺度並對齊，各標100mm寬高；無透視混用。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "FRONT/SIDE/TOP、100mm 與 CONCEPT DIMENSIONS 正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cutaway-diagram-01",
+      "prompt_id": "src-visual642-082",
+      "command": "/cutaway diagram",
+      "title": "紙盒空腔剖切示意",
+      "description": "紙盒空腔剖切示意（AI案例示範）",
+      "result_text": "紙盒空腔剖切示意",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-04/cutaway-diagram.png",
+      "applied_prompt": "Use case: infographic-diagram. Asset type: web-quality website command example. Apply /cutaway diagram: Open the subject in a labeled cutaway diagram. Reference image supplies subject identity only. Labeled cutaway of fictional mint cube carton reference, front-right corner removed to reveal empty hollow interior and thin single-layer paperboard walls. Keep remaining front leaf exterior recognizable. Three callout leaders: PAPERBOARD WALL to wall section, EMPTY INTERIOR to cavity, TOP FLAP to top fold. Title CARTON CUTAWAY. Footer CONCEPT SECTION. No invented internal machinery. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Labeled cutaway of fictional mint cube carton reference, front-right corner removed to reveal empty hollow interior and thin single-layer paperboard walls. Keep remaining front leaf exterior recognizable. Three callout leaders: PAPERBOARD WALL to wall section, EMPTY INTERIOR to cavity, TOP FLAP to top fold. Title CARTON CUTAWAY. Footer CONCEPT SECTION. No invented internal machinery.",
+        "effect": "紙盒空腔剖切示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:48:56.761Z",
+        "source_instruction": "Open the subject in a labeled cutaway diagram.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "42a59391af1484747abe608e61fa8a0366be3179c6d3cd907fc06037a7046c4f",
+        "applied_prompt_sha256": "97be7cc66bf543f754d301043fd80895b6c6fb3360966dffc0922718592e0efb",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "自訂立方紙盒概念，核對六等正方面、正投影及空腔幾何；100mm是自訂設計尺寸，非實物測量；不當作生產檔。",
+          "source_urls": [
+            "https://mathworld.wolfram.com/Cube.html"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠紙盒葉形外觀保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Labeled cutaway of fictional mint cube carton reference, front-right corner removed to reveal empty hollow interior and thin single-layer paperboard walls. Keep remaining front leaf exterior recognizable. Three callout leaders: PAPERBOARD WALL to wall section, EMPTY INTERIOR to cavity, TOP FLAP to top fold. Title CARTON CUTAWAY. Footer CONCEPT SECTION. No invented internal machinery.",
+            "observed": "前右側剖開露出空腔。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒空腔剖切示意",
+            "observed": "薄紙壁剖面與標註清晰。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三條線分別對應上蓋、紙壁剖邊與內部空間。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CARTON CUTAWAY、三標籤及 CONCEPT SECTION 正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-microverse-01",
+      "prompt_id": "src-visual642-083",
+      "command": "/microverse",
+      "title": "紙盒內的微型森林世界",
+      "description": "紙盒內的微型森林世界（AI案例示範）",
+      "result_text": "紙盒內的微型森林世界",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-04/microverse.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /microverse: Reveal a detailed miniature universe inside the subject. Reference image supplies subject identity only. Photorealistic magical cut-open reference mint carton containing a richly detailed miniature forest universe with tiny cottages, winding creek, mossy trees, footbridges and tiny people. Box exterior leaf front remains visible, miniature world clearly contained inside box, dramatic macro scale, no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Photorealistic magical cut-open reference mint carton containing a richly detailed miniature forest universe with tiny cottages, winding creek, mossy trees, footbridges and tiny people. Box exterior leaf front remains visible, miniature world clearly contained inside box, dramatic macro scale, no text.",
+        "effect": "紙盒內的微型森林世界",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:49:54.525Z",
+        "source_instruction": "Reveal a detailed miniature universe inside the subject.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "a8004d644e935835efc8cc8cbf28577f768379d49ecf32749f111a29c5d6d10e",
+        "applied_prompt_sha256": "fc1b4a7015d99c628add3b730b9de631d4280d728cb500de33122cd42783e895",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "葉形綠盒身份保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photorealistic magical cut-open reference mint carton containing a richly detailed miniature forest universe with tiny cottages, winding creek, mossy trees, footbridges and tiny people. Box exterior leaf front remains visible, miniature world clearly contained inside box, dramatic macro scale, no text.",
+            "observed": "盒內森林微型宇宙清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒內的微型森林世界",
+            "observed": "細緻小屋、溪流、樹木與燈光呈現豐富細節。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "小人與橋提供微縮比例，世界位於盒內。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文案、水印與明顯結構錯誤。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cloudworld-01",
+      "prompt_id": "src-visual642-084",
+      "command": "/cloudworld",
+      "title": "運動鞋柔軟雲朵世界",
+      "description": "運動鞋柔軟雲朵世界（AI案例示範）",
+      "result_text": "運動鞋柔軟雲朵世界",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-04/cloudworld.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /cloudworld: Rebuild the subject inside a soft world of clouds. Reference image supplies subject identity only. Preserve recognizable reference white black-striped sneaker as hero on a floating soft cloud island, surrounded by layered fluffy clouds, pastel sky and gentle sunrise glow. Entire scene constructed from soft clouds while shoe retains identity. No text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Preserve recognizable reference white black-striped sneaker as hero on a floating soft cloud island, surrounded by layered fluffy clouds, pastel sky and gentle sunrise glow. Entire scene constructed from soft clouds while shoe retains identity. No text.",
+        "effect": "運動鞋柔軟雲朵世界",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T07:51:11.095Z",
+        "source_instruction": "Rebuild the subject inside a soft world of clouds.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "4834a55f0505d45738f1e215dc56056e29413ab6b64f2ab46eb8c3a83329389e",
+        "applied_prompt_sha256": "d0f6e08f1ef4287a1ef9933d6712e1d26a646ae2ea541a212c7bd953e6f61e71",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "原白色黑條運動鞋身份保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Preserve recognizable reference white black-striped sneaker as hero on a floating soft cloud island, surrounded by layered fluffy clouds, pastel sky and gentle sunrise glow. Entire scene constructed from soft clouds while shoe retains identity. No text.",
+            "observed": "雲島與層疊雲朵構成柔軟雲世界。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋柔軟雲朵世界",
+            "observed": "粉彩晨光與鬆軟雲層效果清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "鞋子完整位於漂浮雲島上，接觸與尺度符合幻想場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字水印與多餘鞋款。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

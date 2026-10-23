@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "id": "batch-20-21-repair",
+  "cases": [
+    {
+      "id": "case-vanish-21-01",
+      "prompt_id": "src-visual642-420",
+      "command": "/vanishingpoint",
+      "title": "紙盒透視消失點",
+      "description": "紙盒透視消失點（AI案例示範）",
+      "result_text": "紙盒透視消失點",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-21/vanish-21-repair5.png",
+      "applied_prompt": "Square flat textbook diagram, no photograph. A simple rectangular hallway viewed perfectly straight toward its centered back wall. Geometrically clean one-point perspective. One red vanishing point exactly at center of the back wall and on a single straight horizontal black horizon line. Exactly four long straight black construction rays: from the four visible corners of the near rectangular frame to that one red point; all four rays meet precisely at the point. Parallel horizontal floor and ceiling lines recede toward the point; vertical near-frame edges stay perfectly vertical. Add three horizontal crossbars at decreasing widths toward the back wall. Thin red dashed extensions lie exactly on top of the black receding lines and terminate at the same red point. No diagonal rays to any other point, no box, no skewed geometry, no extra labels. Text labels only HORIZON and VANISHING POINT, readable. Mint and cream accent colors drawn from the reference only. Original /vanishingpoint: Show the construction of perspective lines.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "走廊單點透視示意",
+        "scene": "正對矩形走廊，前景矩形框、水平橫線與垂直邊清晰",
+        "effect": "展示透視構造線與單一消失點",
+        "relations": "四個前景內框角各一條直線收斂至地平線上同一消失點；紅虛線與黑色實線重合",
+        "details": "HORIZON與VANISHING POINT可讀，無第二消失點或額外構造線"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual geometry review",
+        "checked_at": "2026-10-10T21:06:52.336Z",
+        "source_instruction": "Show the construction of perspective lines.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "79d00d0f51728196efb5e89055b082f937f8cbf1ce18f8a26e0d4d45cad5addb",
+        "applied_prompt_sha256": "95768a0c29a2fa8af13b2e3975926a9df4305799cf11332db17d022222edc55f",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "單點透視圖中平行於視線深度方向的線會匯聚至單一消失點，前視平面保持水平與垂直。",
+          "source_urls": [
+            "https://helpx.adobe.com/uk/fresco/desktop/draw-paint-animate-and-share/grids-alignment.html"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "走廊單點透視示意",
+            "observed": "中心矩形走廊線稿",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "正對矩形走廊，前景矩形框、水平橫線與垂直邊清晰",
+            "observed": "前景框及多條縮小的水平橫線構成走廊",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "展示透視構造線與單一消失點",
+            "observed": "單點透視與紅色延長線明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "四個前景內框角各一條直線收斂至地平線上同一消失點；紅虛線與黑色實線重合",
+            "observed": "四條紅虛線由前框四角直線匯聚於地平線上的中央紅點，均與黑色邊線重合",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "HORIZON與VANISHING POINT可讀，無第二消失點或額外構造線",
+            "observed": "HORIZON及VANISHING POINT清晰，無第二點",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

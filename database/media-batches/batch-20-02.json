@@ -1,0 +1,1482 @@
+{
+  "version": 1,
+  "id": "batch-20-02",
+  "cases": [
+    {
+      "id": "product-windowlight-01",
+      "prompt_id": "src-visual642-025",
+      "command": "/windowlight",
+      "title": "窗邊柔光照亮米白尖頭鞋，陰影柔和",
+      "description": "窗邊柔光照亮米白尖頭鞋，陰影柔和（AI效果示範）",
+      "result_text": "窗邊柔光照亮米白尖頭鞋，陰影柔和",
+      "reference": "ex product/tw-11134207-820l4-mldb9m8vhyiof6.webp",
+      "result": "output/imagegen/batch-20-02/windowlight.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result demonstration, web quality. Apply /windowlight: Use soft natural light from a nearby window. Input image 1 is a user-provided product identity reference. Main subject: one ivory pointed-toe slingback shoe with two slender sparkling diagonal straps and a low block heel. Required scene and effect: One ivory shoe on a limestone bedroom vanity beside a large window at left with a sheer curtain. Soft broad natural side light, gentle gradient shadow and delicate highlights on straps. Window and curtain clearly visible. No hard spotlight. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "one ivory pointed-toe slingback shoe with two slender sparkling diagonal straps and a low block heel，保留可辨外形與配色",
+        "scene": "One ivory shoe on a limestone bedroom vanity beside a large window at left with a sheer curtain. Soft broad natural side light, gentle gradient shadow and delicate highlights on straps. Window and curtain clearly visible. No hard spotlight.",
+        "effect": "窗邊柔光照亮米白尖頭鞋，陰影柔和",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820l4-mldb9m8vhyiof6.webp",
+        "sha256": "15745fdb01f62c8f65471d0f0e361ae714f87d972ba50593628c26bf7c696695",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:12.939Z",
+        "source_instruction": "Use soft natural light from a nearby window.",
+        "reference_sha256": "15745fdb01f62c8f65471d0f0e361ae714f87d972ba50593628c26bf7c696695",
+        "result_sha256": "0972a086af38a3fda99caaf4cbc53b6b794cdaafae0e8d03aee48cf177eeccb9",
+        "applied_prompt_sha256": "beb40b4c2653b15370c74c4782985d8cef0a2d5dfc5b357875f93bcb1cc09f6b",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "one ivory pointed-toe slingback shoe with two slender sparkling diagonal straps and a low block heel，保留可辨外形與配色",
+            "observed": "米白尖頭、閃亮雙帶與低粗跟保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One ivory shoe on a limestone bedroom vanity beside a large window at left with a sheer curtain. Soft broad natural side light, gentle gradient shadow and delicate highlights on straps. Window and curtain clearly visible. No hard spotlight.",
+            "observed": "窗戶紗簾及石質梳妝台可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "窗邊柔光照亮米白尖頭鞋，陰影柔和",
+            "observed": "左側窗光柔和漸層，陰影邊緣柔化",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "鞋底與鞋跟穩定接觸桌面，比例合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "鞋面及繫帶完整，未複製促銷文字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-backlit-01",
+      "prompt_id": "src-visual642-026",
+      "command": "/backlit",
+      "title": "遊戲主機背後亮光形成輪廓分離",
+      "description": "遊戲主機背後亮光形成輪廓分離（AI效果示範）",
+      "result_text": "遊戲主機背後亮光形成輪廓分離",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-02/backlit.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result demonstration, web quality. Apply /backlit: Place a bright light behind the subject for separation. Input image 1 is a user-provided product identity reference. Main subject: the dark handheld game console with two controllers and its dark rounded rectangular dock. Required scene and effect: The complete console and dock on a dark tabletop; bright large light source directly behind creates a luminous white rim around the silhouette, separates dark device from charcoal background. Subtle soft front fill preserves recognisable screen and controls. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the dark handheld game console with two controllers and its dark rounded rectangular dock，保留可辨外形與配色",
+        "scene": "The complete console and dock on a dark tabletop; bright large light source directly behind creates a luminous white rim around the silhouette, separates dark device from charcoal background. Subtle soft front fill preserves recognisable screen and controls.",
+        "effect": "遊戲主機背後亮光形成輪廓分離",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:12.946Z",
+        "source_instruction": "Place a bright light behind the subject for separation.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "3d909dab527c7d954b3e5f1c6d95a6110e6362fee86df8772467321a2d7db4d9",
+        "applied_prompt_sha256": "7e5f93411eab74da42f6abb5bd8c196fcc27031c030e8b48649c6020d0cedc6e",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the dark handheld game console with two controllers and its dark rounded rectangular dock，保留可辨外形與配色",
+            "observed": "深灰主機、底座與藍橘控制器外形保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "The complete console and dock on a dark tabletop; bright large light source directly behind creates a luminous white rim around the silhouette, separates dark device from charcoal background. Subtle soft front fill preserves recognisable screen and controls.",
+            "observed": "主機置於深色桌面與暗背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "遊戲主機背後亮光形成輪廓分離",
+            "observed": "後方白光形成明確亮邊並與背景分離",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "主機與底座直立接觸桌面，透視一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "無促銷文字，控制器按鍵及邊緣清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-colorgel-01",
+      "prompt_id": "src-visual642-027",
+      "command": "/colorgel",
+      "title": "吸塵器受青藍與洋紅雙色光照明",
+      "description": "吸塵器受青藍與洋紅雙色光照明（AI效果示範）",
+      "result_text": "吸塵器受青藍與洋紅雙色光照明",
+      "reference": "ex product/tw-11134207-7ra0k-mdo3po0jbocn8b.webp",
+      "result": "output/imagegen/batch-20-02/colorgel.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result demonstration, web quality. Apply /colorgel: Light the scene with coordinated colored gels. Input image 1 is a user-provided product identity reference. Main subject: the assembled silver cordless stick vacuum with a purple top, red accents and blue roller floorhead. Required scene and effect: One assembled vacuum standing on its floorhead in a clean dark studio, omit spare attachments. Coordinated cyan gel from left and magenta gel from right cast unmistakable colored light on the silver body and ground, purple top retained. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the assembled silver cordless stick vacuum with a purple top, red accents and blue roller floorhead，保留可辨外形與配色",
+        "scene": "One assembled vacuum standing on its floorhead in a clean dark studio, omit spare attachments. Coordinated cyan gel from left and magenta gel from right cast unmistakable colored light on the silver body and ground, purple top retained.",
+        "effect": "吸塵器受青藍與洋紅雙色光照明",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-7ra0k-mdo3po0jbocn8b.webp",
+        "sha256": "a8867386f473529370e8c67831bc9481f39d77f7a19332b9ab0007499ef8fd30",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:12.951Z",
+        "source_instruction": "Light the scene with coordinated colored gels.",
+        "reference_sha256": "a8867386f473529370e8c67831bc9481f39d77f7a19332b9ab0007499ef8fd30",
+        "result_sha256": "fe5f8a13d9f844c56867a11f8e9bea7bf2c7496ccbf703e8fb56b090e1862c27",
+        "applied_prompt_sha256": "6ec7865f91fb7d5b1ba1fcd493ab63965b809faa2f7d4cd6ba80d70f26b11979",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the assembled silver cordless stick vacuum with a purple top, red accents and blue roller floorhead，保留可辨外形與配色",
+            "observed": "紫色機身頂端、銀管與藍滾輪保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One assembled vacuum standing on its floorhead in a clean dark studio, omit spare attachments. Coordinated cyan gel from left and magenta gel from right cast unmistakable colored light on the silver body and ground, purple top retained.",
+            "observed": "單一組裝吸塵器置於暗色棚景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "吸塵器受青藍與洋紅雙色光照明",
+            "observed": "青藍與洋紅光分別映在兩側機身與地面",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "地刷接觸地面，長管與機身接合自然",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "沒有配件陣列或原圖廣告版面",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-spotlight-01",
+      "prompt_id": "src-visual642-028",
+      "command": "/spotlight",
+      "title": "機甲公仔被單一聚光束隔離",
+      "description": "機甲公仔被單一聚光束隔離（AI效果示範）",
+      "result_text": "機甲公仔被單一聚光束隔離",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-02/spotlight.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result demonstration, web quality. Apply /spotlight: Isolate the subject under one focused beam of light. Input image 1 is a user-provided product identity reference. Main subject: the blue white yellow armored robot collectible figure. Required scene and effect: Same upright robot toy on a small dark plinth in black studio. Exactly one focused overhead cone of warm white light isolates the figure with a bright compact pool on the ground and rapid falloff to darkness. No other light beams. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the blue white yellow armored robot collectible figure，保留可辨外形與配色",
+        "scene": "Same upright robot toy on a small dark plinth in black studio. Exactly one focused overhead cone of warm white light isolates the figure with a bright compact pool on the ground and rapid falloff to darkness. No other light beams.",
+        "effect": "機甲公仔被單一聚光束隔離",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:12.957Z",
+        "source_instruction": "Isolate the subject under one focused beam of light.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "25101ff892a1e946ac1ba7436cfd351b5fe60d7235c5e037ef8e3aec6c331e28",
+        "applied_prompt_sha256": "997646f8788706f31fa480bfb7fdb127583bb57ddc14b850125d7d1f409d6e49",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the blue white yellow armored robot collectible figure，保留可辨外形與配色",
+            "observed": "藍白黃盔甲、紅綠細節與原站姿可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Same upright robot toy on a small dark plinth in black studio. Exactly one focused overhead cone of warm white light isolates the figure with a bright compact pool on the ground and rapid falloff to darkness. No other light beams.",
+            "observed": "機甲公仔置於黑色圓台與黑背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲公仔被單一聚光束隔離",
+            "observed": "單一頂部暖白光束與台面亮池隔離主體",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "雙足接觸圓台，肢體及比例完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "無原圖商標版面與額外肢體",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-foglight-01",
+      "prompt_id": "src-visual642-029",
+      "command": "/foglight",
+      "title": "跑步機周圍薄霧中可見斜射光束",
+      "description": "跑步機周圍薄霧中可見斜射光束（AI效果示範）",
+      "result_text": "跑步機周圍薄霧中可見斜射光束",
+      "reference": "ex product/12492122_O_m.webp",
+      "result": "output/imagegen/batch-20-02/foglight.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result demonstration, web quality. Apply /foglight: Cut visible light beams through atmospheric fog. Input image 1 is a user-provided product identity reference. Main subject: the black treadmill with blue trim, two upright posts, handrails and console. Required scene and effect: Empty industrial gym stage with the treadmill planted normally on the floor. Thin atmospheric fog behind and around it reveals distinct diagonal white light shafts from high rear windows, sharp dark treadmill remains legible. Cinematic but no smoke emerging from equipment. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the black treadmill with blue trim, two upright posts, handrails and console，保留可辨外形與配色",
+        "scene": "Empty industrial gym stage with the treadmill planted normally on the floor. Thin atmospheric fog behind and around it reveals distinct diagonal white light shafts from high rear windows, sharp dark treadmill remains legible. Cinematic but no smoke emerging from equipment.",
+        "effect": "跑步機周圍薄霧中可見斜射光束",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/12492122_O_m.webp",
+        "sha256": "b8cbe9f8c626c4775b59662725ff62b2ff7889bbb328e56773fa5873e7fe2227",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:12.962Z",
+        "source_instruction": "Cut visible light beams through atmospheric fog.",
+        "reference_sha256": "b8cbe9f8c626c4775b59662725ff62b2ff7889bbb328e56773fa5873e7fe2227",
+        "result_sha256": "f9b99da71958fabf15b5c4176856ee71e5dbdf5e8321d69de69089cb17115ca7",
+        "applied_prompt_sha256": "906fef724a814cc868bb0ce67948448f2dd52f5a029b7153aeef3c6401be0cd8",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the black treadmill with blue trim, two upright posts, handrails and console，保留可辨外形與配色",
+            "observed": "黑色藍邊跑步機、雙立柱及面板保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Empty industrial gym stage with the treadmill planted normally on the floor. Thin atmospheric fog behind and around it reveals distinct diagonal white light shafts from high rear windows, sharp dark treadmill remains legible. Cinematic but no smoke emerging from equipment.",
+            "observed": "背景可見工業健身空間及高窗",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "跑步機周圍薄霧中可見斜射光束",
+            "observed": "薄霧中多道斜射光束清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "底座輪腳落地，踏板與扶手結構合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "沒有設備冒煙或新增功能文案",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-frozenmotion-01",
+      "prompt_id": "src-visual642-030",
+      "command": "/frozenmotion",
+      "title": "運動鞋與飛濺水滴在空中清晰定格",
+      "description": "運動鞋與飛濺水滴在空中清晰定格（AI效果示範）",
+      "result_text": "運動鞋與飛濺水滴在空中清晰定格",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-02/frozenmotion.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result demonstration, web quality. Apply /frozenmotion: Freeze fast action with crisp detail. Input image 1 is a user-provided product identity reference. Main subject: one white low-top sneaker with three black side stripes, gray suede toe and gum sole. Required scene and effect: The single sneaker tossed upward above a wet dark sports court, captured midair side-on with loose lace tips and a curved arc of small suspended water droplets all crisply frozen, extremely short exposure appearance, no motion blur anywhere, plausible shoe form. No foot or person. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "one white low-top sneaker with three black side stripes, gray suede toe and gum sole，保留可辨外形與配色",
+        "scene": "The single sneaker tossed upward above a wet dark sports court, captured midair side-on with loose lace tips and a curved arc of small suspended water droplets all crisply frozen, extremely short exposure appearance, no motion blur anywhere, plausible shoe form. No foot or person.",
+        "effect": "運動鞋與飛濺水滴在空中清晰定格",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:12.969Z",
+        "source_instruction": "Freeze fast action with crisp detail.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "beb9f1757f6d6f153d5a45927a3e0b2b907e7ab33c7eb2c654bed71ac1f3638a",
+        "applied_prompt_sha256": "e8dd00a89b8fd70d343868270bfc0d625d78a0c4b0b628fbb35296da6d9514bd",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "one white low-top sneaker with three black side stripes, gray suede toe and gum sole，保留可辨外形與配色",
+            "observed": "三黑條白鞋、灰鞋頭與棕膠底保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "The single sneaker tossed upward above a wet dark sports court, captured midair side-on with loose lace tips and a curved arc of small suspended water droplets all crisply frozen, extremely short exposure appearance, no motion blur anywhere, plausible shoe form. No foot or person.",
+            "observed": "濕潤球場與圍網背景可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋與飛濺水滴在空中清晰定格",
+            "observed": "鞋帶與多顆飛濺水滴在半空清楚定格",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "單鞋離地、水滴呈飛濺弧線，未生成腳部",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "鞋面完整清晰，無促銷文字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-zoomblur-01",
+      "prompt_id": "src-visual642-031",
+      "command": "/zoomblur",
+      "title": "鞋身清晰，城市背景向四周放射變焦模糊",
+      "description": "鞋身清晰，城市背景向四周放射變焦模糊（AI效果示範）",
+      "result_text": "鞋身清晰，城市背景向四周放射變焦模糊",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-02/zoomblur.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result demonstration, web quality. Apply /zoomblur: Pull the background into energetic radial motion. Input image 1 is a user-provided product identity reference. Main subject: one white low-top sneaker with three black side stripes, gray suede toe and gum sole. Required scene and effect: Shoe sharply centered on a low urban bench, entire shoe crisp; city background and outer frame stretch into energetic straight radial zoom-blur streaks radiating from behind shoe center toward all edges. Clearly radial streaks, not shallow-focus bokeh or directional sideways blur. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "one white low-top sneaker with three black side stripes, gray suede toe and gum sole，保留可辨外形與配色",
+        "scene": "Shoe sharply centered on a low urban bench, entire shoe crisp; city background and outer frame stretch into energetic straight radial zoom-blur streaks radiating from behind shoe center toward all edges. Clearly radial streaks, not shallow-focus bokeh or directional sideways blur.",
+        "effect": "鞋身清晰，城市背景向四周放射變焦模糊",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:12.975Z",
+        "source_instruction": "Pull the background into energetic radial motion.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "6c18556e49f0762c550c1e220a6de4590755da0a5334dd98b4e96b4b56229215",
+        "applied_prompt_sha256": "71cae5fa1fa6f7bf5220eab4bf6a695efcb817035ea71a4e82fd4e64c990eea6",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "one white low-top sneaker with three black side stripes, gray suede toe and gum sole，保留可辨外形與配色",
+            "observed": "三條紋白鞋、灰色鞋頭與膠底清晰保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Shoe sharply centered on a low urban bench, entire shoe crisp; city background and outer frame stretch into energetic straight radial zoom-blur streaks radiating from behind shoe center toward all edges. Clearly radial streaks, not shallow-focus bokeh or directional sideways blur.",
+            "observed": "單鞋在城市長椅前景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "鞋身清晰，城市背景向四周放射變焦模糊",
+            "observed": "鞋身銳利，背景由鞋後中心朝邊緣呈放射線條",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "鞋底貼合長椅，中心焦點與模糊方向一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "無重影鞋體，未新增廣告文字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-symmetryshot-01",
+      "prompt_id": "src-visual642-032",
+      "command": "/symmetryshot",
+      "title": "主機位於中軸，兩側環境形成精準對稱",
+      "description": "主機位於中軸，兩側環境形成精準對稱（AI效果示範）",
+      "result_text": "主機位於中軸，兩側環境形成精準對稱",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-02/symmetryshot.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result demonstration, web quality. Apply /symmetryshot: Center the subject in a precise symmetrical composition. Input image 1 is a user-provided product identity reference. Main subject: the dark handheld game console with controllers and rounded dark dock. Required scene and effect: Perfect head-on centered game console and dock on a rectangular desk, precise bilateral symmetry in the environment: matching speakers, identical vertical wall panels and paired soft light strips. Device center axis and room vanishing point coincide. Keep actual asymmetric controller colors. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the dark handheld game console with controllers and rounded dark dock，保留可辨外形與配色",
+        "scene": "Perfect head-on centered game console and dock on a rectangular desk, precise bilateral symmetry in the environment: matching speakers, identical vertical wall panels and paired soft light strips. Device center axis and room vanishing point coincide. Keep actual asymmetric controller colors.",
+        "effect": "主機位於中軸，兩側環境形成精準對稱",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:12.980Z",
+        "source_instruction": "Center the subject in a precise symmetrical composition.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "873a3329a6011ab7be9b32dcada2e120f58e68f61ce937b23d34142de87a276b",
+        "applied_prompt_sha256": "34f51496c274f925e3b33d0207a11defb10240b5afbfa08f5a57de0a83246aef",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the dark handheld game console with controllers and rounded dark dock，保留可辨外形與配色",
+            "observed": "深灰主機及藍橘控制器保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Perfect head-on centered game console and dock on a rectangular desk, precise bilateral symmetry in the environment: matching speakers, identical vertical wall panels and paired soft light strips. Device center axis and room vanishing point coincide. Keep actual asymmetric controller colors.",
+            "observed": "桌面、雙喇叭、雙燈條與牆板可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "主機位於中軸，兩側環境形成精準對稱",
+            "observed": "主機置於畫面中軸，左右環境對稱",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "主機、背景螢幕與桌面中心重合，接觸合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "按鍵與底座完整，無促銷版面",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-foregroundframe-01",
+      "prompt_id": "src-visual642-033",
+      "command": "/foregroundframe",
+      "title": "近處枝葉框住鞋款，主體清晰無遮擋",
+      "description": "近處枝葉框住鞋款，主體清晰無遮擋（AI效果示範）",
+      "result_text": "近處枝葉框住鞋款，主體清晰無遮擋",
+      "reference": "ex product/tw-11134207-820l4-mldb9m8vhyiof6.webp",
+      "result": "output/imagegen/batch-20-02/foregroundframe.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result demonstration, web quality. Apply /foregroundframe: Frame the subject with objects in the foreground. Input image 1 is a user-provided product identity reference. Main subject: one ivory pointed-toe slingback shoe with slender sparkling diagonal straps and low block heel. Required scene and effect: Single ivory shoe fully visible on a stone pedestal in a garden studio; dark softly defocused leafy branches very close to camera border the left right and upper corners forming a natural foreground frame, depth separation, shoe sharp and not obscured. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "one ivory pointed-toe slingback shoe with slender sparkling diagonal straps and low block heel，保留可辨外形與配色",
+        "scene": "Single ivory shoe fully visible on a stone pedestal in a garden studio; dark softly defocused leafy branches very close to camera border the left right and upper corners forming a natural foreground frame, depth separation, shoe sharp and not obscured.",
+        "effect": "近處枝葉框住鞋款，主體清晰無遮擋",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820l4-mldb9m8vhyiof6.webp",
+        "sha256": "15745fdb01f62c8f65471d0f0e361ae714f87d972ba50593628c26bf7c696695",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:12.985Z",
+        "source_instruction": "Frame the subject with objects in the foreground.",
+        "reference_sha256": "15745fdb01f62c8f65471d0f0e361ae714f87d972ba50593628c26bf7c696695",
+        "result_sha256": "e859d3464b87430e3944fad0aab3c2e89c4059c3c1690b60d0f22b1122089516",
+        "applied_prompt_sha256": "e1553aa55822bbbb9a9d846806312291703a5750f111d9b5509182bb2e5920fc",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "one ivory pointed-toe slingback shoe with slender sparkling diagonal straps and low block heel，保留可辨外形與配色",
+            "observed": "米白尖頭鞋、金邊低跟與雙閃帶保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Single ivory shoe fully visible on a stone pedestal in a garden studio; dark softly defocused leafy branches very close to camera border the left right and upper corners forming a natural foreground frame, depth separation, shoe sharp and not obscured.",
+            "observed": "石台與花園背景可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "近處枝葉框住鞋款，主體清晰無遮擋",
+            "observed": "左右及上方近距離模糊枝葉形成框景",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "鞋款全貌清楚，葉片未遮擋主體",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "鞋跟與鞋尖落台，沒有促銷文字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-miniatureworld-01",
+      "prompt_id": "src-visual642-034",
+      "command": "/miniatureworld",
+      "title": "製冰機周圍環繞可辨比例的迷你山村",
+      "description": "製冰機周圍環繞可辨比例的迷你山村（AI效果示範）",
+      "result_text": "製冰機周圍環繞可辨比例的迷你山村",
+      "reference": "ex product/KIM1250_01-1.jpg",
+      "result": "output/imagegen/batch-20-02/miniatureworld.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: website command-result demonstration, web quality. Apply /miniatureworld: Place a tiny believable world around the subject. Input image 1 is a user-provided product identity reference. Main subject: the compact brushed stainless steel ice maker with clear open lid, dark top and side vent. Required scene and effect: Keep ice maker recognizably ordinary tabletop size, open clear lid and ice visible. A highly detailed tiny alpine village of miniature chalets, winding paths, tiny trees and millimeter scale figurines surrounds the appliance on the same broad wood tabletop; no normal size houses. Photoreal miniature diorama. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the compact brushed stainless steel ice maker with clear open lid, dark top and side vent，保留可辨外形與配色",
+        "scene": "Keep ice maker recognizably ordinary tabletop size, open clear lid and ice visible. A highly detailed tiny alpine village of miniature chalets, winding paths, tiny trees and millimeter scale figurines surrounds the appliance on the same broad wood tabletop; no normal size houses. Photoreal miniature diorama.",
+        "effect": "製冰機周圍環繞可辨比例的迷你山村",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/KIM1250_01-1.jpg",
+        "sha256": "e5eb19d807b2de650f957255851aee52bfce4194674f47097b10dca591ecc0bb",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:12.991Z",
+        "source_instruction": "Place a tiny believable world around the subject.",
+        "reference_sha256": "e5eb19d807b2de650f957255851aee52bfce4194674f47097b10dca591ecc0bb",
+        "result_sha256": "a5604e7b1fe3b9b08ede584c15a20f3fca97ba857b85ebd02cd8d32dec7330bc",
+        "applied_prompt_sha256": "582fdf92d006c7c1e4bfb50c9ced01e096c88760917e2cb4c537c585f78da242",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the compact brushed stainless steel ice maker with clear open lid, dark top and side vent，保留可辨外形與配色",
+            "observed": "開蓋銀色製冰機、黑頂與側風口保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Keep ice maker recognizably ordinary tabletop size, open clear lid and ice visible. A highly detailed tiny alpine village of miniature chalets, winding paths, tiny trees and millimeter scale figurines surrounds the appliance on the same broad wood tabletop; no normal size houses. Photoreal miniature diorama.",
+            "observed": "木桌上可見山村小屋、樹木、水道與小人",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "製冰機周圍環繞可辨比例的迷你山村",
+            "observed": "微縮世界圍繞正常大小製冰機",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "小人與屋舍遠小於設備，桌邊提供模型比例線索",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "無原圖廣告字框或規格宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-giantobject-01",
+      "prompt_id": "src-visual642-035",
+      "command": "/giantobject",
+      "title": "機甲公仔成為遠大於行人巴士的巨型雕像",
+      "description": "機甲公仔成為遠大於行人巴士的巨型雕像（AI效果示範）",
+      "result_text": "機甲公仔成為遠大於行人巴士的巨型雕像",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-02/giantobject.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: website command-result demonstration, web quality. Apply /giantobject: Turn the subject into a monumental oversized object. Input image 1 is a user-provided product identity reference. Main subject: the blue white yellow armored robot collectible figure. Required scene and effect: Transform this exact toy design into a monumental immobile 30 meter sculpture in a real civic plaza. Full robot visible, its boots several times taller than normal human pedestrians. Small buses and six-story buildings provide obvious scale; maintain reference upright pose, colors and armor silhouette. No combat or destruction. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the blue white yellow armored robot collectible figure，保留可辨外形與配色",
+        "scene": "Transform this exact toy design into a monumental immobile 30 meter sculpture in a real civic plaza. Full robot visible, its boots several times taller than normal human pedestrians. Small buses and six-story buildings provide obvious scale; maintain reference upright pose, colors and armor silhouette. No combat or destruction.",
+        "effect": "機甲公仔成為遠大於行人巴士的巨型雕像",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:12.997Z",
+        "source_instruction": "Turn the subject into a monumental oversized object.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "f4dfb159dccc0355ed299ce975f43efeaf1fc8412e07815245facc9b4823e427",
+        "applied_prompt_sha256": "949e5b6a7efda5db6b4a9914a65813de3b3de5fe76622192d18ffb62bd089bc8",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the blue white yellow armored robot collectible figure，保留可辨外形與配色",
+            "observed": "藍白黃機甲及原站姿維持",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Transform this exact toy design into a monumental immobile 30 meter sculpture in a real civic plaza. Full robot visible, its boots several times taller than normal human pedestrians. Small buses and six-story buildings provide obvious scale; maintain reference upright pose, colors and armor silhouette. No combat or destruction.",
+            "observed": "城市廣場含巴士、行人與多層樓建築",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲公仔成為遠大於行人巴士的巨型雕像",
+            "observed": "機甲高度遠超周邊人車，巨型化明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "雙腳立於基座，人物與車輛遠小於靴子",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "肢體完整，未出現戰鬥破壞或廣告字樣",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-museumdisplay-01",
+      "prompt_id": "src-visual642-036",
+      "command": "/museumdisplay",
+      "title": "遊戲主機置於博物館玻璃展櫃與展台",
+      "description": "遊戲主機置於博物館玻璃展櫃與展台（AI效果示範）",
+      "result_text": "遊戲主機置於博物館玻璃展櫃與展台",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-02/museumdisplay.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: website command-result demonstration, web quality. Apply /museumdisplay: Present the subject as a curated museum exhibit. Input image 1 is a user-provided product identity reference. Main subject: the dark handheld game console and dock with colored controller accents. Required scene and effect: Curated industrial design museum interior, console and dock at actual tabletop size inside clear glass vitrine on white plinth, nearby small blank museum caption card, deliberate warm exhibit spotlights, subdued visitors in background. Not a shop or gaming desk. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the dark handheld game console and dock with colored controller accents，保留可辨外形與配色",
+        "scene": "Curated industrial design museum interior, console and dock at actual tabletop size inside clear glass vitrine on white plinth, nearby small blank museum caption card, deliberate warm exhibit spotlights, subdued visitors in background. Not a shop or gaming desk.",
+        "effect": "遊戲主機置於博物館玻璃展櫃與展台",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:13.003Z",
+        "source_instruction": "Present the subject as a curated museum exhibit.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "87705d93a9eb901fb4f8e673cde44fe5923db9b750a82bba51da6536901633f5",
+        "applied_prompt_sha256": "0797eb909743a3d499f35ae456b08930699574266a34fd868586a3472d52e835",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the dark handheld game console and dock with colored controller accents，保留可辨外形與配色",
+            "observed": "主機與底座及藍橘控制器可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Curated industrial design museum interior, console and dock at actual tabletop size inside clear glass vitrine on white plinth, nearby small blank museum caption card, deliberate warm exhibit spotlights, subdued visitors in background. Not a shop or gaming desk.",
+            "observed": "玻璃展櫃、白台、牌卡、觀眾與展廳可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "遊戲主機置於博物館玻璃展櫃與展台",
+            "observed": "暖色展燈呈現策展展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "設備置於展櫃內台面，比例與觀眾合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "沒有銷售價牌，玻璃邊界及按鍵完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-laboratoryscene-01",
+      "prompt_id": "src-visual642-037",
+      "command": "/laboratoryscene",
+      "title": "吸塵器置於乾淨研究實驗室的測試架",
+      "description": "吸塵器置於乾淨研究實驗室的測試架（AI效果示範）",
+      "result_text": "吸塵器置於乾淨研究實驗室的測試架",
+      "reference": "ex product/tw-11134207-7ra0k-mdo3po0jbocn8b.webp",
+      "result": "output/imagegen/batch-20-02/laboratoryscene.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: website command-result demonstration, web quality. Apply /laboratoryscene: Place the subject in a clean research laboratory. Input image 1 is a user-provided product identity reference. Main subject: the assembled silver cordless vacuum with purple top and blue roller head. Required scene and effect: Clean research laboratory interior, assembled external vacuum resting securely in a simple upright test stand on a white workbench. Lab glassware and generic benchtop instruments in background, researcher with safety glasses and white lab coat observing from distance. No cutaway, invented internals, performance readings or testing claims. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the assembled silver cordless vacuum with purple top and blue roller head，保留可辨外形與配色",
+        "scene": "Clean research laboratory interior, assembled external vacuum resting securely in a simple upright test stand on a white workbench. Lab glassware and generic benchtop instruments in background, researcher with safety glasses and white lab coat observing from distance. No cutaway, invented internals, performance readings or testing claims.",
+        "effect": "吸塵器置於乾淨研究實驗室的測試架",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-7ra0k-mdo3po0jbocn8b.webp",
+        "sha256": "a8867386f473529370e8c67831bc9481f39d77f7a19332b9ab0007499ef8fd30",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:13.008Z",
+        "source_instruction": "Place the subject in a clean research laboratory.",
+        "reference_sha256": "a8867386f473529370e8c67831bc9481f39d77f7a19332b9ab0007499ef8fd30",
+        "result_sha256": "cbbdc298624d205822e2291f40f37a3adaaa053d47a2ff260447043b356b00f1",
+        "applied_prompt_sha256": "815c0563dbc72de17e4b9dcfc31475f170f8d239af7154dd1d0f5eb1291e28ba",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the assembled silver cordless vacuum with purple top and blue roller head，保留可辨外形與配色",
+            "observed": "紫頂銀色吸塵器與藍滾輪保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Clean research laboratory interior, assembled external vacuum resting securely in a simple upright test stand on a white workbench. Lab glassware and generic benchtop instruments in background, researcher with safety glasses and white lab coat observing from distance. No cutaway, invented internals, performance readings or testing claims.",
+            "observed": "玻璃器皿、實驗台、儀器與白衣護目鏡研究者可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "吸塵器置於乾淨研究實驗室的測試架",
+            "observed": "主體在乾淨研究實驗室的直立支架中",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "地刷位於支架底板，設備與人物尺度合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "未展示主體剖面或性能數據，屬外觀場景示範",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-factoryfloor-01",
+      "prompt_id": "src-visual642-038",
+      "command": "/factoryfloor",
+      "title": "製冰機置於有人工作的現代家電生產線",
+      "description": "製冰機置於有人工作的現代家電生產線（AI效果示範）",
+      "result_text": "製冰機置於有人工作的現代家電生產線",
+      "reference": "ex product/KIM1250_01-1.jpg",
+      "result": "output/imagegen/batch-20-02/factoryfloor.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: website command-result demonstration, web quality. Apply /factoryfloor: Show the subject inside an active modern factory. Input image 1 is a user-provided product identity reference. Main subject: the brushed stainless steel compact ice maker with clear lid and black side vent. Required scene and effect: Conceptual modern appliance factory floor: reference ice maker on roller conveyor in foreground, rows of workstations and other similar completed units receding behind, workers wearing work clothes and safety glasses actively assembling exterior housings. Safe aisle separation. No claims this is the actual brand factory, no banners. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the brushed stainless steel compact ice maker with clear lid and black side vent，保留可辨外形與配色",
+        "scene": "Conceptual modern appliance factory floor: reference ice maker on roller conveyor in foreground, rows of workstations and other similar completed units receding behind, workers wearing work clothes and safety glasses actively assembling exterior housings. Safe aisle separation. No claims this is the actual brand factory, no banners.",
+        "effect": "製冰機置於有人工作的現代家電生產線",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/KIM1250_01-1.jpg",
+        "sha256": "e5eb19d807b2de650f957255851aee52bfce4194674f47097b10dca591ecc0bb",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:13.013Z",
+        "source_instruction": "Show the subject inside an active modern factory.",
+        "reference_sha256": "e5eb19d807b2de650f957255851aee52bfce4194674f47097b10dca591ecc0bb",
+        "result_sha256": "e3747fb341d0d65a9f29476c89b5ec1bfa6ce676b1b66a27d1e778ce45b68f89",
+        "applied_prompt_sha256": "81b84ad1ab6648b20cb2e74e87c12568517038ea4c74b665796c939d762b6576",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the brushed stainless steel compact ice maker with clear lid and black side vent，保留可辨外形與配色",
+            "observed": "製冰機銀色外殼、透明掀蓋與側通風口保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Conceptual modern appliance factory floor: reference ice maker on roller conveyor in foreground, rows of workstations and other similar completed units receding behind, workers wearing work clothes and safety glasses actively assembling exterior housings. Safe aisle separation. No claims this is the actual brand factory, no banners.",
+            "observed": "輸送滾輪、工作站與配戴護目鏡作業者可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "製冰機置於有人工作的現代家電生產線",
+            "observed": "主體位於正在作業的現代生產線",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "機底落在滾輪上，背景設備隨透視縮小",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "未複製品牌宣傳；背景機件為概念場景，不作構造正確宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-desertscene-01",
+      "prompt_id": "src-visual642-039",
+      "command": "/desertscene",
+      "title": "運動鞋位於有沙丘與岩層的電影感沙漠",
+      "description": "運動鞋位於有沙丘與岩層的電影感沙漠（AI效果示範）",
+      "result_text": "運動鞋位於有沙丘與岩層的電影感沙漠",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-02/desertscene.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: website command-result demonstration, web quality. Apply /desertscene: Place the subject in a cinematic desert environment. Input image 1 is a user-provided product identity reference. Main subject: one white sneaker with black stripes, gray toe and gum sole. Required scene and effect: Single sneaker resting realistically on a red sandstone ledge in vast cinematic desert with undulating sand dunes and distant mesas, warm low sunset light, long grounded shoe shadow, shoe actual size, no feet or extra shoes. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "one white sneaker with black stripes, gray toe and gum sole，保留可辨外形與配色",
+        "scene": "Single sneaker resting realistically on a red sandstone ledge in vast cinematic desert with undulating sand dunes and distant mesas, warm low sunset light, long grounded shoe shadow, shoe actual size, no feet or extra shoes.",
+        "effect": "運動鞋位於有沙丘與岩層的電影感沙漠",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:13.019Z",
+        "source_instruction": "Place the subject in a cinematic desert environment.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "b71de89d990e2a4505aad799909519b5779ffb7d204675beb95855fd98d387ff",
+        "applied_prompt_sha256": "c80c74859bdcd535c0bc361f0ab72090b53349fbf49e80c7a42b763c71bf8b25",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "one white sneaker with black stripes, gray toe and gum sole，保留可辨外形與配色",
+            "observed": "白鞋黑條、灰頭與膠底保持",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Single sneaker resting realistically on a red sandstone ledge in vast cinematic desert with undulating sand dunes and distant mesas, warm low sunset light, long grounded shoe shadow, shoe actual size, no feet or extra shoes.",
+            "observed": "紅砂岩平台、沙丘與遠方岩丘可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋位於有沙丘與岩層的電影感沙漠",
+            "observed": "暖色低日照營造電影感沙漠",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "鞋底接觸砂岩，前景鞋與遠景透視合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "單鞋完整，無腳部與廣告版面",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-spacehabitat-01",
+      "prompt_id": "src-visual642-040",
+      "command": "/spacehabitat",
+      "title": "跑步機位於具地球舷窗的太空居住艙",
+      "description": "跑步機位於具地球舷窗的太空居住艙（AI效果示範）",
+      "result_text": "跑步機位於具地球舷窗的太空居住艙",
+      "reference": "ex product/12492122_O_m.webp",
+      "result": "output/imagegen/batch-20-02/spacehabitat.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: website command-result demonstration, web quality. Apply /spacehabitat: Place the subject inside a believable space habitat. Input image 1 is a user-provided product identity reference. Main subject: the black blue-trim treadmill with twin upright posts, handrails and console. Required scene and effect: Believable speculative space station exercise compartment, treadmill securely mounted on floor, organized wall panels, handrails and cable management; broad porthole shows curved Earth and black space. Human scale interior, plausible perspective, no floating loose parts, no technical labels or claims of actual flight certification. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the black blue-trim treadmill with twin upright posts, handrails and console，保留可辨外形與配色",
+        "scene": "Believable speculative space station exercise compartment, treadmill securely mounted on floor, organized wall panels, handrails and cable management; broad porthole shows curved Earth and black space. Human scale interior, plausible perspective, no floating loose parts, no technical labels or claims of actual flight certification.",
+        "effect": "跑步機位於具地球舷窗的太空居住艙",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/12492122_O_m.webp",
+        "sha256": "b8cbe9f8c626c4775b59662725ff62b2ff7889bbb328e56773fa5873e7fe2227",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:13.024Z",
+        "source_instruction": "Place the subject inside a believable space habitat.",
+        "reference_sha256": "b8cbe9f8c626c4775b59662725ff62b2ff7889bbb328e56773fa5873e7fe2227",
+        "result_sha256": "b3cf632ef2a4a6c3c78816d1ed7fcabd0f40f28d367deac6a855987aaa77e198",
+        "applied_prompt_sha256": "f2cc8b4617c5109a06b5fd547eac4dd4a174799024c1ee500e1f40efaed8e8f8",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the black blue-trim treadmill with twin upright posts, handrails and console，保留可辨外形與配色",
+            "observed": "黑藍跑步機雙柱、面板與扶手保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Believable speculative space station exercise compartment, treadmill securely mounted on floor, organized wall panels, handrails and cable management; broad porthole shows curved Earth and black space. Human scale interior, plausible perspective, no floating loose parts, no technical labels or claims of actual flight certification.",
+            "observed": "艙壁面板、固定底座與地球舷窗可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "跑步機位於具地球舷窗的太空居住艙",
+            "observed": "產品位於推想的太空居住艙",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "跑步機固定於地面，人物與器材比例一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "無認證或真實太空設備宣稱；場景屬創意示範",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-futurecity-01",
+      "prompt_id": "src-visual642-041",
+      "command": "/futurecity",
+      "title": "主機桌景延伸為綠化高樓與高架運輸的未來城市",
+      "description": "主機桌景延伸為綠化高樓與高架運輸的未來城市（AI效果示範）",
+      "result_text": "主機桌景延伸為綠化高樓與高架運輸的未來城市",
+      "reference": "ex product/switch.webp",
+      "result": "output/imagegen/batch-20-02/futurecity.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: website command-result demonstration, web quality. Apply /futurecity: Reimagine the scene inside a plausible future city. Input image 1 is a user-provided product identity reference. Main subject: the dark handheld game console and dock. Required scene and effect: Console and dock on a real terrace gaming table, scenic plausible future city beyond: terraced green midrise towers, elevated clean public transit, rooftop gardens and pedestrian skybridges, warm daylight. No flying cars, fantasy floating buildings or holographic text. Preserve console identity and show substantial surrounding city. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "the dark handheld game console and dock，保留可辨外形與配色",
+        "scene": "Console and dock on a real terrace gaming table, scenic plausible future city beyond: terraced green midrise towers, elevated clean public transit, rooftop gardens and pedestrian skybridges, warm daylight. No flying cars, fantasy floating buildings or holographic text. Preserve console identity and show substantial surrounding city.",
+        "effect": "主機桌景延伸為綠化高樓與高架運輸的未來城市",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/switch.webp",
+        "sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:13.030Z",
+        "source_instruction": "Reimagine the scene inside a plausible future city.",
+        "reference_sha256": "da5d17f59373f65c186d3f5175ce750639f46fe688a223dbfe64b5242d39288d",
+        "result_sha256": "2a3e3ac40709c7e9558ee68e484bbf03faf3437f609c3f3b863847b9acd00aab",
+        "applied_prompt_sha256": "503ab3dab7b94a5128cdc0bbc82a74c124708307ce1c76061df442793ef42fb5",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "the dark handheld game console and dock，保留可辨外形與配色",
+            "observed": "深灰主機、底座與藍橘控制器保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Console and dock on a real terrace gaming table, scenic plausible future city beyond: terraced green midrise towers, elevated clean public transit, rooftop gardens and pedestrian skybridges, warm daylight. No flying cars, fantasy floating buildings or holographic text. Preserve console identity and show substantial surrounding city.",
+            "observed": "露台桌面後可見綠化建築、高架列車與空橋",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "主機桌景延伸為綠化高樓與高架運輸的未來城市",
+            "observed": "場景轉為有可辨交通與植栽系統的未來城市",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "桌面產品為前景，城市依透視縮小，無浮空建築",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "無全息促銷文字，主機邊緣完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-naturefusion-01",
+      "prompt_id": "src-visual642-042",
+      "command": "/naturefusion",
+      "title": "鞋款沿鞋跟與繫帶融合藤蔓與有機根部形態",
+      "description": "鞋款沿鞋跟與繫帶融合藤蔓與有機根部形態（AI效果示範）",
+      "result_text": "鞋款沿鞋跟與繫帶融合藤蔓與有機根部形態",
+      "reference": "ex product/tw-11134207-820l4-mldb9m8vhyiof6.webp",
+      "result": "output/imagegen/batch-20-02/naturefusion.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: website command-result demonstration, web quality. Apply /naturefusion: Blend the subject naturally with plants and organic forms. Input image 1 is a user-provided product identity reference. Main subject: one ivory pointed-toe slingback shoe with sparkling straps and low block heel. Required scene and effect: Blend the shoe naturally into organic botanical sculpture: shoe rests on a sinuous root-form pedestal, delicate ivy tendrils follow the heel and slingback strap, a few small white flowers nestle around toe without covering pointed silhouette or glitter straps. Soft woodland greenhouse light, harmonious flowing forms rather than a random potted plant beside shoe. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "one ivory pointed-toe slingback shoe with sparkling straps and low block heel，保留可辨外形與配色",
+        "scene": "Blend the shoe naturally into organic botanical sculpture: shoe rests on a sinuous root-form pedestal, delicate ivy tendrils follow the heel and slingback strap, a few small white flowers nestle around toe without covering pointed silhouette or glitter straps. Soft woodland greenhouse light, harmonious flowing forms rather than a random potted plant beside shoe.",
+        "effect": "鞋款沿鞋跟與繫帶融合藤蔓與有機根部形態",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820l4-mldb9m8vhyiof6.webp",
+        "sha256": "15745fdb01f62c8f65471d0f0e361ae714f87d972ba50593628c26bf7c696695",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:13.035Z",
+        "source_instruction": "Blend the subject naturally with plants and organic forms.",
+        "reference_sha256": "15745fdb01f62c8f65471d0f0e361ae714f87d972ba50593628c26bf7c696695",
+        "result_sha256": "e8f5f7b6dafa254f01424f1b1adbae2b1a59f6dda6b33c81fd9107cb15b3928d",
+        "applied_prompt_sha256": "20a8d64491e188fedce005ffe0b1f88231d4868326c1cacecc5fafdf058eae1e",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "one ivory pointed-toe slingback shoe with sparkling straps and low block heel，保留可辨外形與配色",
+            "observed": "米白尖頭鞋、雙閃帶與金邊低跟保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Blend the shoe naturally into organic botanical sculpture: shoe rests on a sinuous root-form pedestal, delicate ivy tendrils follow the heel and slingback strap, a few small white flowers nestle around toe without covering pointed silhouette or glitter straps. Soft woodland greenhouse light, harmonious flowing forms rather than a random potted plant beside shoe.",
+            "observed": "彎曲樹根、苔蘚、藤蔓及白花組成有機景物",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "鞋款沿鞋跟與繫帶融合藤蔓與有機根部形態",
+            "observed": "藤蔓沿鞋跟與繫帶生長，與有機根台融合",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "鞋底受樹根支撐，花葉未遮住尖頭輪廓",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "鞋帶與鞋跟完整，無促銷版面",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-seasonshift-01",
+      "prompt_id": "src-visual642-043",
+      "command": "/seasonshift",
+      "title": "同一鞋款與公園長椅以四格呈現春夏秋冬",
+      "description": "同一鞋款與公園長椅以四格呈現春夏秋冬（AI效果示範）",
+      "result_text": "同一鞋款與公園長椅以四格呈現春夏秋冬",
+      "reference": "output/imagegen/batch-20-02/park-day-reference.png",
+      "result": "output/imagegen/batch-20-02/seasonshift.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: website command-result demonstration, web quality. Apply /seasonshift: Show the same scene across four changing seasons. Input image 1 is the exact daytime scene reference derived from the authorized user shoe. Preserve its bench, park path, lamppost, tree placement, shoe identity and camera angle. Main subject: one white sneaker with black stripes, gray toe and gum sole. Required scene and effect: Single image composed of four equal square panels in a clean 2x2 grid. Exactly same shoe on exactly same wooden park bench, same camera and framing and background tree positions in all panels. Top left spring blossom, top right lush green summer, bottom left orange autumn leaves, bottom right snowy bare winter trees. Shoe identity and bench geometry identical; snow dust only on bench not covering shoe. No labels. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "one white sneaker with black stripes, gray toe and gum sole，保留可辨外形與配色",
+        "scene": "Single image composed of four equal square panels in a clean 2x2 grid. Exactly same shoe on exactly same wooden park bench, same camera and framing and background tree positions in all panels. Top left spring blossom, top right lush green summer, bottom left orange autumn leaves, bottom right snowy bare winter trees. Shoe identity and bench geometry identical; snow dust only on bench not covering shoe. No labels.",
+        "effect": "同一鞋款與公園長椅以四格呈現春夏秋冬",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-02/park-day-reference.png",
+        "sha256": "865519a1436a8da9d0c9f2a4a5ac46849f61617708569dc89ac26ce23cb99606",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a scene reference for later day-to-night and four-season editing. Input image is product identity only. One white low-top sneaker with three black stripes, gray suede toe and brown gum sole exactly as reference, resting side-on on a weathered wooden park bench. Bright ordinary summer daytime, green deciduous trees behind, a curved park path and one classic black park lamppost clearly visible at right. Camera at shoe height, bench extends horizontally across frame, medium-wide composition showing enough setting. Product stays ordinary shoe size. No people, no advertising, no text, no extra shoes. Square web-quality photo.",
+        "parent_reference": {
+          "provided_by": "user",
+          "kind": "user_provided",
+          "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+          "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+          "authorization": {
+            "date": "2026-10-09",
+            "directory": "ex product",
+            "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+          }
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:13.041Z",
+        "source_instruction": "Show the same scene across four changing seasons.",
+        "reference_sha256": "865519a1436a8da9d0c9f2a4a5ac46849f61617708569dc89ac26ce23cb99606",
+        "result_sha256": "6b2bc9200b0486be3124432bc661eec87831a80ac9d2b5cd96d51a6f67194269",
+        "applied_prompt_sha256": "6927888b13aef0226c24f4bbd1ea98be84474a09b343c3538b471a57421403c8",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "one white sneaker with black stripes, gray toe and gum sole，保留可辨外形與配色",
+            "observed": "四格均保留同款三條紋白鞋與膠底",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Single image composed of four equal square panels in a clean 2x2 grid. Exactly same shoe on exactly same wooden park bench, same camera and framing and background tree positions in all panels. Top left spring blossom, top right lush green summer, bottom left orange autumn leaves, bottom right snowy bare winter trees. Shoe identity and bench geometry identical; snow dust only on bench not covering shoe. No labels.",
+            "observed": "四格長椅、樹幹、路徑與路燈構圖一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "同一鞋款與公園長椅以四格呈現春夏秋冬",
+            "observed": "春花、夏綠、秋橘葉與冬雪四季清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "鞋與長椅位置在四格維持，季節變化集中環境",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "四格分隔清楚，無新增文字標籤或遮住鞋款的雪",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-daytonight-01",
+      "prompt_id": "src-visual642-044",
+      "command": "/daytonight",
+      "title": "保持公園鞋款構圖，白天轉為夜空與暖色路燈",
+      "description": "保持公園鞋款構圖，白天轉為夜空與暖色路燈（AI效果示範）",
+      "result_text": "保持公園鞋款構圖，白天轉為夜空與暖色路燈",
+      "reference": "output/imagegen/batch-20-02/park-day-reference.png",
+      "result": "output/imagegen/batch-20-02/daytonight.png",
+      "applied_prompt": "Use case: stylized-concept. Asset type: website command-result demonstration, web quality. Apply /daytonight: Transform the scene from daylight into night. Input image 1 is the exact daytime scene reference derived from the authorized user shoe. Preserve its bench, park path, lamppost, tree placement, shoe identity and camera angle. Main subject: one white sneaker with black stripes, gray toe and gum sole. Required scene and effect: Use input image 1 as exact scene layout, preserve shoe, wooden park bench, tree positions and camera angle. Transform bright daytime into true blue-hour night: dark navy sky, warm park lamps illuminated in distance and a small moon, subdued cool ambient light on shoe, realistic night exposure. One nighttime image only, not a comparison collage. Preserve recognizable product silhouette, materials, controls and colors except intentional scale or setting changes. Reference images may contain multiple angles, sales graphics or accessory arrays: select only the specified single main product, do not copy surrounding advertising text, price badges, promotional borders, watermarks or spare accessories. No invented logos or specifications. Result is an AI creative demonstration, not an official advertisement. Clean photoreal rendering, physically coherent grounding and scale except the explicitly requested giant or miniature effects. Square composition unless specified four-panel grid. No added readable text.",
+      "acceptance": {
+        "subject": "one white sneaker with black stripes, gray toe and gum sole，保留可辨外形與配色",
+        "scene": "Use second reference as exact scene layout, preserve shoe, wooden park bench, tree positions and camera angle. Transform bright daytime into true blue-hour night: dark navy sky, warm park lamps illuminated in distance and a small moon, subdued cool ambient light on shoe, realistic night exposure. One nighttime image only, not a comparison collage.",
+        "effect": "保持公園鞋款構圖，白天轉為夜空與暖色路燈",
+        "relations": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+        "details": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-02/park-day-reference.png",
+        "sha256": "865519a1436a8da9d0c9f2a4a5ac46849f61617708569dc89ac26ce23cb99606",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a scene reference for later day-to-night and four-season editing. Input image is product identity only. One white low-top sneaker with three black stripes, gray suede toe and brown gum sole exactly as reference, resting side-on on a weathered wooden park bench. Bright ordinary summer daytime, green deciduous trees behind, a curved park path and one classic black park lamppost clearly visible at right. Camera at shoe height, bench extends horizontally across frame, medium-wide composition showing enough setting. Product stays ordinary shoe size. No people, no advertising, no text, no extra shoes. Square web-quality photo.",
+        "parent_reference": {
+          "provided_by": "user",
+          "kind": "user_provided",
+          "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+          "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+          "authorization": {
+            "date": "2026-10-09",
+            "directory": "ex product",
+            "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+          }
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex direct visual inspection",
+        "checked_at": "2026-10-09T05:50:13.049Z",
+        "source_instruction": "Transform the scene from daylight into night.",
+        "reference_sha256": "865519a1436a8da9d0c9f2a4a5ac46849f61617708569dc89ac26ce23cb99606",
+        "result_sha256": "a8081a795b24beb33c2c30cab74877db27a35b84a474067ab8e65dfce4a12c27",
+        "applied_prompt_sha256": "26d99e32b981886da4e717f268e22be4740f82fdef9887957f3f12c94ce666bd",
+        "requires_factual_check": false,
+        "factual_notes": "創意外觀、攝影及虛構場景示範，不宣稱商品性能、真實工廠、內部構造或太空認證。",
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "one white sneaker with black stripes, gray toe and gum sole，保留可辨外形與配色",
+            "observed": "白鞋黑條、灰鞋頭與膠底保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Use second reference as exact scene layout, preserve shoe, wooden park bench, tree positions and camera angle. Transform bright daytime into true blue-hour night: dark navy sky, warm park lamps illuminated in distance and a small moon, subdued cool ambient light on shoe, realistic night exposure. One nighttime image only, not a comparison collage.",
+            "observed": "長椅、左樹幹、右路燈與曲徑對應白天原景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "保持公園鞋款構圖，白天轉為夜空與暖色路燈",
+            "observed": "深藍夜空、月亮與暖亮路燈形成明確夜晚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、接觸與透視合理；巨型及微縮效果依指令有明確比例線索",
+            "observed": "鞋與長椅位置及視角維持，夜光方向合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "不複製原圖促銷版面，不新增規格宣稱，無多餘肢體、物件或水印",
+            "observed": "無比較拼圖或促銷文字，鞋身輪廓清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

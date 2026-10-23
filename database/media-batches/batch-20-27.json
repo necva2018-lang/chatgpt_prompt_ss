@@ -1,0 +1,1386 @@
+{
+  "version": 1,
+  "id": "batch-20-27",
+  "cases": [
+    {
+      "id": "case-flare-27-01",
+      "prompt_id": "src-visual642-525",
+      "command": "/lensflare",
+      "title": "水瓶鏡頭耀光",
+      "description": "水瓶鏡頭耀光（AI案例示範）",
+      "result_text": "水瓶鏡頭耀光",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-27/flare-27.png",
+      "applied_prompt": "Create a square web-quality website example. Photographic reference bottle on sunlit picnic table, bright low sun just behind cap produces obvious camera lens flare streak and translucent flare ghosts across image. Keep bottle recognizable, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /lensflare: Add bright camera flare and streaks.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Photographic reference bottle on sunlit picnic table, bright low sun just behind cap produces obvious camera lens flare streak and translucent flare ghosts across image. Keep bottle recognizable, no text.",
+        "effect": "水瓶鏡頭耀光",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:23:54.059Z",
+        "source_instruction": "Add bright camera flare and streaks.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "a20ef8fb4b72598b68074badaeedf38a10ab1ae5728fe70ca32bb34f2ace6309",
+        "applied_prompt_sha256": "b78b234d1343ce46ef31378af83a777b647b57b6d489ba0e80f79b837558a766",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photographic reference bottle on sunlit picnic table, bright low sun just behind cap produces obvious camera lens flare streak and translucent flare ghosts across image. Keep bottle recognizable, no text.",
+            "observed": "夕陽野餐桌",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶鏡頭耀光",
+            "observed": "亮太陽在瓶蓋後造成斜光線與多個彩色耀光鬼影",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "耀光沿同一方向跨過瓶與前景，瓶身仍清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；接觸影合理，耀光不是物件誤植",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-prism-27-01",
+      "prompt_id": "src-visual642-526",
+      "command": "/prismatic",
+      "title": "水瓶彩虹折射",
+      "description": "水瓶彩虹折射（AI案例示範）",
+      "result_text": "水瓶彩虹折射",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-27/prism-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle beside clear triangular glass prism on white studio table. White light passes through prism into distinct rainbow spectral bands cast across table and bottle. Photorealistic refraction, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /prismatic: Create rainbow refraction through light or glass.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle beside clear triangular glass prism on white studio table. White light passes through prism into distinct rainbow spectral bands cast across table and bottle. Photorealistic refraction, no text.",
+        "effect": "水瓶彩虹折射",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:24:39.444Z",
+        "source_instruction": "Create rainbow refraction through light or glass.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "e74932847d259f8f91867bbc59dd0e49fea714e0944a671f1df739ca3b6f2a98",
+        "applied_prompt_sha256": "ec742b706767ea2256f4ddfae8620bdd309d081c6d9ae7491d766d4d1fd15891",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶與透明稜鏡",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle beside clear triangular glass prism on white studio table. White light passes through prism into distinct rainbow spectral bands cast across table and bottle. Photorealistic refraction, no text.",
+            "observed": "白色桌面光線場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶彩虹折射",
+            "observed": "彩虹色帶經玻璃出現在桌面與瓶身",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "稜鏡位於瓶旁、光帶跨過桌面並沿瓶曲面呈現",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；折射為藝術效果示例，不宣稱精密光路量測",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-oil-27-01",
+      "prompt_id": "src-visual642-527",
+      "command": "/oilpaint",
+      "title": "房屋油畫",
+      "description": "房屋油畫（AI案例示範）",
+      "result_text": "房屋油畫",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-27/oil-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference house and garden painted in rich layered oil paint, visible thick impasto brush strokes on canvas, vibrant natural colors, painterly sky. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /oilpaint: Use rich, layered oil-paint texture.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference house and garden painted in rich layered oil paint, visible thick impasto brush strokes on canvas, vibrant natural colors, painterly sky. No text.",
+        "effect": "房屋油畫",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:25:25.167Z",
+        "source_instruction": "Use rich, layered oil-paint texture.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "7639761491bde9f19d2884992cdcc4444544317ea2d1330f65efe9ea056eebd7",
+        "applied_prompt_sha256": "3e161f1d0fd8df9d96d33878b180adbbb251db882f073a75a444e861f7ae720b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白牆坡頂房屋與花園",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference house and garden painted in rich layered oil paint, visible thick impasto brush strokes on canvas, vibrant natural colors, painterly sky. No text.",
+            "observed": "藍天草地畫布構圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋油畫",
+            "observed": "厚塗油彩、堆疊筆觸與豐富顏料肌理清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "門窗屋頂比例延續參考，天空和草地筆觸一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；整幅呈油畫而非只覆一層紋理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-water-27-01",
+      "prompt_id": "src-visual642-528",
+      "command": "/watercolor",
+      "title": "手提袋水彩",
+      "description": "手提袋水彩（AI案例示範）",
+      "result_text": "手提袋水彩",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-27/water-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference tote illustrated in soft transparent watercolor washes on textured white paper, watery edges, pale warm shadows, brown handles and cream bag preserved. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /watercolor: Use soft transparent watercolor washes.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference tote illustrated in soft transparent watercolor washes on textured white paper, watery edges, pale warm shadows, brown handles and cream bag preserved. No text.",
+        "effect": "手提袋水彩",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:26:11.686Z",
+        "source_instruction": "Use soft transparent watercolor washes.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "2cfb74720e2aa84b51845aeff7bed6f2abc09632627e9efa03c17e6f0713b2f5",
+        "applied_prompt_sha256": "a125888bd3578b2a3d9bf54d86bedb1392fa68071b4c1bd51e7ec8d00aff7aee",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白棕提把帆布袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference tote illustrated in soft transparent watercolor washes on textured white paper, watery edges, pale warm shadows, brown handles and cream bag preserved. No text.",
+            "observed": "白色紋理紙面及淡色背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋水彩",
+            "observed": "柔和透明水彩層與不規則水痕邊緣",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋身、側片和提把比例完整，淡影落於底部",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；紙紋與留白可見，棕色提把保持可辨",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-gouache-27-01",
+      "prompt_id": "src-visual642-529",
+      "command": "/gouache",
+      "title": "桌扇不透明水粉",
+      "description": "桌扇不透明水粉（AI案例示範）",
+      "result_text": "桌扇不透明水粉",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-27/gouache-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference cream teal fan as bold matte gouache painting, opaque flat color blocks, visible brush strokes, warm cream backdrop, simplified clean silhouette. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /gouache: Use bold matte painted colors.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference cream teal fan as bold matte gouache painting, opaque flat color blocks, visible brush strokes, warm cream backdrop, simplified clean silhouette. No text.",
+        "effect": "桌扇不透明水粉",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:27:05.950Z",
+        "source_instruction": "Use bold matte painted colors.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "f1b8dfb2a3d579f2494b2c28f87ced838f63d7ef22f71fd844643f65ef2a3c09",
+        "applied_prompt_sha256": "384c6efd29033a991a3aa098b7c4c82b381dbd08ce4a8b52fd70484a8646db24",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油白藍綠桌扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference cream teal fan as bold matte gouache painting, opaque flat color blocks, visible brush strokes, warm cream backdrop, simplified clean silhouette. No text.",
+            "observed": "暖奶油色繪畫背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇不透明水粉",
+            "observed": "不透明啞光色塊與可見刷痕呈水粉畫",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "扇葉扇罩底座與線材位置延續，陰影由色塊概括",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；色彩覆蓋厚實、沒有透明水彩暈染主導",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-ink-27-01",
+      "prompt_id": "src-visual642-530",
+      "command": "/inkwash",
+      "title": "房屋水墨",
+      "description": "房屋水墨（AI案例示範）",
+      "result_text": "房屋水墨",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-27/ink-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference small house and garden in expressive black ink wash, wet brush tonal gradients, dry brush textures and white paper negative space. Monochrome ink, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /inkwash: Use expressive brushwork and ink tones.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference small house and garden in expressive black ink wash, wet brush tonal gradients, dry brush textures and white paper negative space. Monochrome ink, no text.",
+        "effect": "房屋水墨",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:27:55.661Z",
+        "source_instruction": "Use expressive brushwork and ink tones.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "fbdcefc295706aa9b2b5621b930b4f530e59961dbf47383af68f2e3bdbf10b41",
+        "applied_prompt_sha256": "c79ea15e850471c7ff932577a28ceeed539d3af9b273a796020da19758641457",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "坡頂房屋與花園",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference small house and garden in expressive black ink wash, wet brush tonal gradients, dry brush textures and white paper negative space. Monochrome ink, no text.",
+            "observed": "白紙留白構圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋水墨",
+            "observed": "黑灰墨色、暈染、飛白與濺墨形成水墨筆意",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "房屋門窗屋頂可辨，植物以墨點與刷痕概括",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；全圖無彩色，筆觸非一般黑白照片",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-lino-27-01",
+      "prompt_id": "src-visual642-531",
+      "command": "/linocut",
+      "title": "手提袋膠版版畫",
+      "description": "手提袋膠版版畫（AI案例示範）",
+      "result_text": "手提袋膠版版畫",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-27/lino-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference tote as two-color linocut print, carved bold shapes, rough cut edges and ink texture, dark brown outlines on cream paper, bold simplified bag and handles. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /linocut: Use carved printmaking shapes.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference tote as two-color linocut print, carved bold shapes, rough cut edges and ink texture, dark brown outlines on cream paper, bold simplified bag and handles. No text.",
+        "effect": "手提袋膠版版畫",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:28:46.774Z",
+        "source_instruction": "Use carved printmaking shapes.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "09956f77b8f0fbb8067407f07c6dd9b9033772843068f7200b7366cc7c4e935d",
+        "applied_prompt_sha256": "d362260b6f8bf674bf2966242e2351da3367d93cee25689a59901318ac6ef812",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "帆布袋與雙提把輪廓",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference tote as two-color linocut print, carved bold shapes, rough cut edges and ink texture, dark brown outlines on cream paper, bold simplified bag and handles. No text.",
+            "observed": "奶油紙面深棕版畫",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋膠版版畫",
+            "observed": "大塊刻印形狀、粗邊與斑駁油墨呈膠版版畫",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋側與底以深色刻紋區分，提把空隙清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；保留袋型，無攝影漸層光澤",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-wood-27-01",
+      "prompt_id": "src-visual642-532",
+      "command": "/woodcut",
+      "title": "房屋木刻版畫",
+      "description": "房屋木刻版畫（AI案例示範）",
+      "result_text": "房屋木刻版畫",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-27/wood-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference house in vintage black-and-white woodcut engraving, many fine incised parallel hatch lines on walls roof trees, crosshatching and paper grain, clear full house. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /woodcut: Use a vintage engraved texture.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference house in vintage black-and-white woodcut engraving, many fine incised parallel hatch lines on walls roof trees, crosshatching and paper grain, clear full house. No text.",
+        "effect": "房屋木刻版畫",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:29:40.545Z",
+        "source_instruction": "Use a vintage engraved texture.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "9788e7f91992d3240d53672c81e6de0b7ec52378905124f61d78cf7804551398",
+        "applied_prompt_sha256": "b85b2eaa9806fd080e37826fbc6647a0cb1f96d0ebccb94d983f27d067cf4ac7",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "坡頂房屋與花園",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference house in vintage black-and-white woodcut engraving, many fine incised parallel hatch lines on walls roof trees, crosshatching and paper grain, clear full house. No text.",
+            "observed": "米色紙面的復古黑色版畫",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋木刻版畫",
+            "observed": "密集平行線與交叉排線形成木刻雕刻肌理",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "屋頂牆面樹木採不同線紋，建築比例完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；不是水墨暈染，細刻線遍及場景",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-glass-27-01",
+      "prompt_id": "src-visual642-533",
+      "command": "/stainedglass",
+      "title": "水瓶彩繪玻璃",
+      "description": "水瓶彩繪玻璃（AI案例示範）",
+      "result_text": "水瓶彩繪玻璃",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-27/glass-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle silhouette built entirely from colored stained-glass panels with dark lead seams, green body black-blue cap, warm surrounding geometric glass, light transmitting through glass. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /stainedglass: Build the subject from colored glass panels.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle silhouette built entirely from colored stained-glass panels with dark lead seams, green body black-blue cap, warm surrounding geometric glass, light transmitting through glass. No text.",
+        "effect": "水瓶彩繪玻璃",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:30:21.780Z",
+        "source_instruction": "Build the subject from colored glass panels.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "f559ee147781f1275454a843a1eb6e460959a1357e4aef28734f5bee9e7c292f",
+        "applied_prompt_sha256": "5e39710be30932173c0bd912dabc1119d4a65ec00d07a081102658d2837213b2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "水瓶外形由綠色瓶身深藍瓶蓋構成",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle silhouette built entirely from colored stained-glass panels with dark lead seams, green body black-blue cap, warm surrounding geometric glass, light transmitting through glass. No text.",
+            "observed": "暖色幾何彩玻背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶彩繪玻璃",
+            "observed": "整體以透光玻璃面板與黑色鉛條接縫構建",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶蓋提環與身體均分割為玻璃片，背景同材質",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；玻璃紋理及透光明暗一致",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-quill-27-01",
+      "prompt_id": "src-visual642-534",
+      "command": "/paperquilling",
+      "title": "桌扇捲紙藝術",
+      "description": "桌扇捲紙藝術（AI案例示範）",
+      "result_text": "桌扇捲紙藝術",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-27/quill-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference fan image constructed from tightly curled colored paper strips on white board, cream coils form circular cage and base, teal curled strips form blades, visible raised paper edges casting shadows. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /paperquilling: Build the image from curled paper strips.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference fan image constructed from tightly curled colored paper strips on white board, cream coils form circular cage and base, teal curled strips form blades, visible raised paper edges casting shadows. No text.",
+        "effect": "桌扇捲紙藝術",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:31:12.438Z",
+        "source_instruction": "Build the image from curled paper strips.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "ff8956a849166e7bee527cf0b0a71f57fc165ebd90ec580882d6577dbc362536",
+        "applied_prompt_sha256": "bf8b205f7a45072fbfac8c7be0c5e9385b1dd85153c35855d5e2d255cd17a48b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油白藍綠桌扇造形",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference fan image constructed from tightly curled colored paper strips on white board, cream coils form circular cage and base, teal curled strips form blades, visible raised paper edges casting shadows. No text.",
+            "observed": "白底立體紙藝棚拍",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇捲紙藝術",
+            "observed": "密集捲曲紙條構成葉片、罩圈和底座",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "紙條層疊形成扇身深度，立起紙邊投影可見",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；黑線及插頭亦呈捲紙層理，主體清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-claymotion-27-01",
+      "prompt_id": "src-visual642-535",
+      "command": "/claymation",
+      "title": "房屋黏土動畫風",
+      "description": "房屋黏土動畫風（AI案例示範）",
+      "result_text": "房屋黏土動畫風",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-27/claymotion-27.png",
+      "applied_prompt": "Create a square web-quality website example. Handmade stop-motion clay animation still of reference house and garden, slightly uneven plasticine walls, clay tiled roof, thumbprint textures and charming miniature trees. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /claymation: Use a handmade clay animation style.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Handmade stop-motion clay animation still of reference house and garden, slightly uneven plasticine walls, clay tiled roof, thumbprint textures and charming miniature trees. No text.",
+        "effect": "房屋黏土動畫風",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:32:28.144Z",
+        "source_instruction": "Use a handmade clay animation style.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "e891f45d13d3015ef188595f36085caf7a66882c85a605a06513964b471fdd0e",
+        "applied_prompt_sha256": "c8d699ae0ade4f2524033b4e0c5478c688d2794cf24add5336e73c54ddb714d2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "坡頂房屋與花園",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Handmade stop-motion clay animation still of reference house and garden, slightly uneven plasticine walls, clay tiled roof, thumbprint textures and charming miniature trees. No text.",
+            "observed": "微縮黏土場景和造型雲朵",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋黏土動畫風",
+            "observed": "手捏泥牆、逐塊瓦片與不平整塑形呈黏土動畫靜幀",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "房屋樹叢雲皆同手工比例及材質，門窗可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；不是一般寫實房屋，表面手作紋理明確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-clay-27-01",
+      "prompt_id": "src-visual642-536",
+      "command": "/clayrender",
+      "title": "水瓶平滑黏土模型",
+      "description": "水瓶平滑黏土模型（AI案例示範）",
+      "result_text": "水瓶平滑黏土模型",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-27/clay-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle as smooth matte monochrome pale terracotta clay model on matching studio background, rounded sculpted form black cap shape also clay same material, soft lighting, no liquid gloss or text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /clayrender: Make the subject look like a smooth clay model.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle as smooth matte monochrome pale terracotta clay model on matching studio background, rounded sculpted form black cap shape also clay same material, soft lighting, no liquid gloss or text.",
+        "effect": "水瓶平滑黏土模型",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:33:17.138Z",
+        "source_instruction": "Make the subject look like a smooth clay model.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "fd65b6da1612a2ef56159d58aa070eae086d73b11118d48b3ebf155cb799457d",
+        "applied_prompt_sha256": "25470b8f0f741efdb8f10f8c5ecf485f96019d617ef9c6e7140e68f7a14b2851",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "提環瓶蓋保溫瓶造型",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle as smooth matte monochrome pale terracotta clay model on matching studio background, rounded sculpted form black cap shape also clay same material, soft lighting, no liquid gloss or text.",
+            "observed": "同色陶土棚拍背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶平滑黏土模型",
+            "observed": "整個瓶體與蓋子呈單色啞光平滑黏土",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "圓肩、圓角與蓋縫完整，接觸影柔和",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；無金屬反光或液體光澤，材質統一",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-paper-27-01",
+      "prompt_id": "src-visual642-537",
+      "command": "/papercraft",
+      "title": "房屋紙模型",
+      "description": "房屋紙模型（AI案例示範）",
+      "result_text": "房屋紙模型",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-27/paper-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference house as constructed papercraft model on tabletop, visible cut cardstock panels, scored folded roof, layered window frames, small tabs and paper edges, natural colors. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /papercraft: Turn the subject into a constructed paper model.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference house as constructed papercraft model on tabletop, visible cut cardstock panels, scored folded roof, layered window frames, small tabs and paper edges, natural colors. No text.",
+        "effect": "房屋紙模型",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:34:19.717Z",
+        "source_instruction": "Turn the subject into a constructed paper model.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "e473a777f42cf0f3ed222546e06f8af94180c05ec85927318d5d94ce3d4495bd",
+        "applied_prompt_sha256": "42a97eac8cf68e300581e294b1060f766e06f9900bc39e028e52ac17602f7f4a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "坡頂房屋紙模型",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference house as constructed papercraft model on tabletop, visible cut cardstock panels, scored folded roof, layered window frames, small tabs and paper edges, natural colors. No text.",
+            "observed": "木桌上的紙板底座",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋紙模型",
+            "observed": "紙卡牆板、折屋頂、層疊窗框及切紙植物呈拼裝紙藝",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "紙邊接縫清楚，屋頂階梯與底座具厚度",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；全屋非真實建材，紙紋與裁切邊一致",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-origami-27-01",
+      "prompt_id": "src-visual642-538",
+      "command": "/origami",
+      "title": "手提袋摺紙幾何",
+      "description": "手提袋摺紙幾何（AI案例示範）",
+      "result_text": "手提袋摺紙幾何",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-27/origami-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference tote shape recreated as folded paper origami sculpture, cream angular bag with brown folded paper handle loops, sharp visible crease lines, no canvas texture or stitches, clean studio. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /origami: Use folded-paper geometry.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference tote shape recreated as folded paper origami sculpture, cream angular bag with brown folded paper handle loops, sharp visible crease lines, no canvas texture or stitches, clean studio. No text.",
+        "effect": "手提袋摺紙幾何",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:35:09.766Z",
+        "source_instruction": "Use folded-paper geometry.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "f9d829c361e7d1a287e94883767b434764e3f9ac09e8c36d9ce97fb6e0c44bf3",
+        "applied_prompt_sha256": "0912288951798d9f459076745fc6b0e4cd755fd704f02876457c4c159bf79868",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白棕提把手提袋摺紙造形",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference tote shape recreated as folded paper origami sculpture, cream angular bag with brown folded paper handle loops, sharp visible crease lines, no canvas texture or stitches, clean studio. No text.",
+            "observed": "淺色棚拍背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋摺紙幾何",
+            "observed": "明確三角折線與稜角把袋身和提把轉成紙幾何",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋口開口、側摺與提把環完整，站立於平面",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；無帆布紋或縫線，材質為折紙",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-poster-27-01",
+      "prompt_id": "src-visual642-539",
+      "command": "/poster",
+      "title": "水瓶大膽平面海報",
+      "description": "水瓶大膽平面海報（AI案例示範）",
+      "result_text": "水瓶大膽平面海報",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-27/poster-27.png",
+      "applied_prompt": "Create a square web-quality website example. Bold graphic poster featuring large reference green bottle silhouette, cream and deep teal geometric blocks, strong hierarchy. Exact headline REFILL, smaller line TAKE IT WITH YOU. No performance claims, no logos. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /poster: Create a bold graphic poster.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Bold graphic poster featuring large reference green bottle silhouette, cream and deep teal geometric blocks, strong hierarchy. Exact headline REFILL, smaller line TAKE IT WITH YOU. No performance claims, no logos.",
+        "effect": "水瓶大膽平面海報",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:36:08.336Z",
+        "source_instruction": "Create a bold graphic poster.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "fe7881b7d65543bd06c39e7e7895dc16a1d04da9f7637840d2a8c008f520de3c",
+        "applied_prompt_sha256": "4e69aef0b43663731ab16eccc373044936b1f7e2d88c2a1b6d95c3d0e645fd50",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋保溫瓶主視覺",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Bold graphic poster featuring large reference green bottle silhouette, cream and deep teal geometric blocks, strong hierarchy. Exact headline REFILL, smaller line TAKE IT WITH YOU. No performance claims, no logos.",
+            "observed": "奶油底與深綠幾何版面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶大膽平面海報",
+            "observed": "大字標題加大產品形成鮮明平面海報",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶位於主版面中央，大小字層級及幾何留白清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "REFILL與TAKE IT WITH YOU拼字正確，無品牌或性能宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-edit-27-01",
+      "prompt_id": "src-visual642-540",
+      "command": "/editorial",
+      "title": "手提袋雜誌編輯版面",
+      "description": "手提袋雜誌編輯版面（AI案例示範）",
+      "result_text": "手提袋雜誌編輯版面",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-27/edit-27.png",
+      "applied_prompt": "Create a square web-quality website example. Polished magazine editorial page featuring reference tote main photo at top, smaller detail photo of fabric and handle below, refined grid and ample white margins. Exact headline EVERYDAY CARRY, small subhead SIMPLE FORM. No other body text or brand claims. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /editorial: Use a polished magazine editorial layout.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Polished magazine editorial page featuring reference tote main photo at top, smaller detail photo of fabric and handle below, refined grid and ample white margins. Exact headline EVERYDAY CARRY, small subhead SIMPLE FORM. No other body text or brand claims.",
+        "effect": "手提袋雜誌編輯版面",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:36:57.708Z",
+        "source_instruction": "Use a polished magazine editorial layout.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "90078616c0050a726a9a9a236cdd5fb28aba22cd1510e454361a3866149dcc7e",
+        "applied_prompt_sha256": "140951470c8d453b17cf81cd22ce9d4e4f27c90f6c09ad6a9874a0d82edf1a31",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白棕提把帆布袋及布料提把特寫",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Polished magazine editorial page featuring reference tote main photo at top, smaller detail photo of fabric and handle below, refined grid and ample white margins. Exact headline EVERYDAY CARRY, small subhead SIMPLE FORM. No other body text or brand claims.",
+            "observed": "白色雜誌編輯版面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋雜誌編輯版面",
+            "observed": "大主圖、雙細節圖、留白與襯線標題形成編輯設計",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主圖置上、特寫等寬排列下方，袋材質對應",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "EVERYDAY CARRY與SIMPLE FORM清楚，無多餘亂碼正文",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-album-27-01",
+      "prompt_id": "src-visual642-541",
+      "command": "/albumcover",
+      "title": "水瓶音樂專輯封面",
+      "description": "水瓶音樂專輯封面（AI案例示範）",
+      "result_text": "水瓶音樂專輯封面",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-27/album-27.png",
+      "applied_prompt": "Create a square web-quality website example. Square music album artwork with reference bottle on surreal moonlit lakeshore, luminous abstract sound-wave arcs in background, moody indigo and sage palette. Exact album title STILL WATER and artist name ECHO FIELD. No existing artists or logos. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /albumcover: Create music artwork around the subject.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Square music album artwork with reference bottle on surreal moonlit lakeshore, luminous abstract sound-wave arcs in background, moody indigo and sage palette. Exact album title STILL WATER and artist name ECHO FIELD. No existing artists or logos.",
+        "effect": "水瓶音樂專輯封面",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:37:54.678Z",
+        "source_instruction": "Create music artwork around the subject.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "cd246aca4f53a55f03c2ae8c68e028152b471521ddafddf3dfeb702c1bdcf91d",
+        "applied_prompt_sha256": "f3826391b4babd42db44fce398eccb94d09a51efc9c1539feb504bfdeda434cc",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Square music album artwork with reference bottle on surreal moonlit lakeshore, luminous abstract sound-wave arcs in background, moody indigo and sage palette. Exact album title STILL WATER and artist name ECHO FIELD. No existing artists or logos.",
+            "observed": "月光湖岸山景與抽象聲波",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶音樂專輯封面",
+            "observed": "方形專輯藝術、標題與藝術家名形成音樂封面",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶置岩面，聲波環繞背景，月光倒影一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "STILL WATER與ECHO FIELD可讀，為虛構音樂封面示例",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-comic-27-01",
+      "prompt_id": "src-visual642-542",
+      "command": "/comicpanel",
+      "title": "桌扇漫畫分鏡",
+      "description": "桌扇漫畫分鏡（AI案例示範）",
+      "result_text": "桌扇漫畫分鏡",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-27/comic-27.png",
+      "applied_prompt": "Create a square web-quality website example. Single comic-book panel with thick black rectangular frame, reference fan on desk blowing loose paper toward surprised clothed adult, dynamic motion lines, halftone dots, speech bubble COOL! Clear one panel, no extra text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /comicpanel: Use a comic-book frame and composition.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Single comic-book panel with thick black rectangular frame, reference fan on desk blowing loose paper toward surprised clothed adult, dynamic motion lines, halftone dots, speech bubble COOL! Clear one panel, no extra text.",
+        "effect": "桌扇漫畫分鏡",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:38:51.306Z",
+        "source_instruction": "Use a comic-book frame and composition.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "d0bfc1176a2631878cc9456d744a4c0ff6aed5af187654aa26a7057e42cd6940",
+        "applied_prompt_sha256": "4b7ac8c5a36e59978b95956d9b74abc7047103a6410b450736ba04d4ef1dd974",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油白藍綠桌扇與穿衣成人",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Single comic-book panel with thick black rectangular frame, reference fan on desk blowing loose paper toward surprised clothed adult, dynamic motion lines, halftone dots, speech bubble COOL! Clear one panel, no extra text.",
+            "observed": "桌面紙張被風吹動的單格場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇漫畫分鏡",
+            "observed": "粗黑框、彩色網點、動作線與對話框呈漫畫分鏡",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "風扇在左、人物在右、紙張沿氣流方向飛，手指正常",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "COOL!拼字正確，只有一格及一個主要文字框",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-manga-27-01",
+      "prompt_id": "src-visual642-543",
+      "command": "/manga",
+      "title": "手提袋漫畫風",
+      "description": "手提袋漫畫風（AI案例示範）",
+      "result_text": "手提袋漫畫風",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-27/manga-27.png",
+      "applied_prompt": "Create a square web-quality website example. Black-and-white manga-inspired illustration of clothed adult carrying reference tote while walking along city sidewalk, expressive clean ink lines, screentone shadows, dynamic perspective. No speech or text, preserve bag brown handles as dark tones. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /manga: Use a manga-inspired illustration style.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Black-and-white manga-inspired illustration of clothed adult carrying reference tote while walking along city sidewalk, expressive clean ink lines, screentone shadows, dynamic perspective. No speech or text, preserve bag brown handles as dark tones.",
+        "effect": "手提袋漫畫風",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:40:18.104Z",
+        "source_instruction": "Use a manga-inspired illustration style.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "59c4cc7142bb86a461179b0eb237f8cf47b65bb05eb32a8d73356d1a2bee4eb2",
+        "applied_prompt_sha256": "afa28bb87fd017fec1ec7b651a1ca1dca3ac5eca2c870ec42ec3119bf54325d9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "穿襯衫長褲成人肩背帆布袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Black-and-white manga-inspired illustration of clothed adult carrying reference tote while walking along city sidewalk, expressive clean ink lines, screentone shadows, dynamic perspective. No speech or text, preserve bag brown handles as dark tones.",
+            "observed": "城市人行道",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋漫畫風",
+            "observed": "黑白清線、網點與漫畫人物表情呈日式漫畫風",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "提把掛肩、手握提帶，袋垂於身側，街景透視一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；手指自然、袋形清楚，無多餘對話亂碼",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-pixel-27-01",
+      "prompt_id": "src-visual642-544",
+      "command": "/pixelart",
+      "title": "房屋像素藝術",
+      "description": "房屋像素藝術（AI案例示範）",
+      "result_text": "房屋像素藝術",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-27/pixel-27.png",
+      "applied_prompt": "Create a square web-quality website example. Reference small house and garden rendered as crisp low-resolution pixel art, visible square pixels, limited 16-color palette, stepped edges, no antialiasing, full house on grass blue sky. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /pixelart: Convert the subject into pixel graphics.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference small house and garden rendered as crisp low-resolution pixel art, visible square pixels, limited 16-color palette, stepped edges, no antialiasing, full house on grass blue sky. No text.",
+        "effect": "房屋像素藝術",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:41:19.844Z",
+        "source_instruction": "Convert the subject into pixel graphics.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "fb87401e7ad646a202c601a1a803ed54b094482c276dd665ceb6fec22582d8d6",
+        "applied_prompt_sha256": "98a4c0210ade3dd9cd6abd8f364ccd238df19ba27d417dbca3d4c9e22fc1da70",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "坡頂房屋與花園",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference small house and garden rendered as crisp low-resolution pixel art, visible square pixels, limited 16-color palette, stepped edges, no antialiasing, full house on grass blue sky. No text.",
+            "observed": "藍天草地像素場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋像素藝術",
+            "observed": "屋頂、門窗、植栽及雲以可見方塊像素與階梯邊構成",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "房屋整體比例和門窗位置保留，草地以色塊分層",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；主體像素化明顯，背景天空保有淡漸層但不影響原指令像素圖像本意",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

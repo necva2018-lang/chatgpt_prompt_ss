@@ -1,0 +1,1558 @@
+{
+  "version": 1,
+  "id": "batch-20-20",
+  "cases": [
+    {
+      "id": "case-setup-20-01",
+      "prompt_id": "src-visual642-385",
+      "command": "/setup",
+      "title": "桌扇正確擺放",
+      "description": "桌扇正確擺放（AI案例示範）",
+      "result_text": "桌扇正確擺放",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-20/setup-20.png",
+      "applied_prompt": "Square web-quality lifestyle photograph of reference cream teal desk fan set on stable dry desk, free space around its front and rear grille, USB cable neatly connected to power bank away from desk edge. Person seated in softly blurred background. Exactly two text labels with simple non-arrow leader lines: CLEAR AIRFLOW pointing to empty space beside fan, STABLE SURFACE pointing to tabletop under base. NO AIRFLOW ARROWS, no colored flow ribbons. Original instruction /setup: Show the correct setup and placement.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Desk fan set on stable dry desk, unobstructed front and rear grille, USB cable routed neatly to power bank away from desk edge. Person seated in background. Labels STABLE SURFACE and CLEAR AIRFLOW with leaders. No distance numbers.",
+        "effect": "桌扇正確擺放",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:35:07.845Z",
+        "source_instruction": "Show the correct setup and placement.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "15534997c6062ac1d1914c6165fe1e2ed81c484f706032d74dc89294265703d6",
+        "applied_prompt_sha256": "7a06bb6578daca057b66c3a174f9a836ab67e82da36e8fe2f9452bb3ebcde894",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "一般風扇清潔須先斷電、乾刷網罩並擦底座；不複製真實型號拆卸方式，無灑水或浸泡。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "原米色青葉桌扇。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Desk fan set on stable dry desk, unobstructed front and rear grille, USB cable routed neatly to power bank away from desk edge. Person seated in background. Labels STABLE SURFACE and CLEAR AIRFLOW with leaders. No distance numbers.",
+            "observed": "乾燥穩固桌面與辦公情境。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇正確擺放",
+            "observed": "留出通風空間並整齊接USB電源。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "STABLE SURFACE指桌面、CLEAR AIRFLOW指空白區。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "修正後無錯誤氣流箭頭，無數值。",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "額外氣流箭頭方向錯誤",
+          "applied_prompt": "Create a square web-quality website example. Desk fan set on stable dry desk, unobstructed front and rear grille, USB cable routed neatly to power bank away from desk edge. Person seated in background. Labels STABLE SURFACE and CLEAR AIRFLOW with leaders. No distance numbers. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /setup: Show the correct setup and placement.",
+          "result": "output/imagegen/batch-20-20/setup-20-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-install-20-01",
+      "prompt_id": "src-visual642-386",
+      "command": "/installation",
+      "title": "感應燈壁掛安裝概念",
+      "description": "感應燈壁掛安裝概念（AI案例示範）",
+      "result_text": "感應燈壁掛安裝概念",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-20/install-20.png",
+      "applied_prompt": "Create a square web-quality website example. Three panels: wall bracket fastened to indoor hallway wall using two screws; lamp aligned over bracket; lamp slid down to secure and lighting hallway. Title CONCEPT INSTALLATION. Labels MOUNT, ALIGN, SLIDE. Battery light no mains wires, no exact drill specs. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /installation: Show where and how the subject is installed.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Three panels: wall bracket fastened to indoor hallway wall using two screws; lamp aligned over bracket; lamp slid down to secure and lighting hallway. Title CONCEPT INSTALLATION. Labels MOUNT, ALIGN, SLIDE. Battery light no mains wires, no exact drill specs.",
+        "effect": "感應燈壁掛安裝概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:36:20.046Z",
+        "source_instruction": "Show where and how the subject is installed.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "2ea1f43efc36834e21659d76e8eca0a385f65028f5210a3e3cd6f26799b14acf",
+        "applied_prompt_sha256": "9006600af28482c316f4ac466d1f48cfc250a0e2634668906436fe1ecdcc04e0",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "PIR偵測移動熱源造成紅外線變化，輸出訊號至控制模組驅動燈；示意電池供電與壁掛支架，非真實產品接線或安裝規格。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色方形PIR感應燈一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Three panels: wall bracket fastened to indoor hallway wall using two screws; lamp aligned over bracket; lamp slid down to secure and lighting hallway. Title CONCEPT INSTALLATION. Labels MOUNT, ALIGN, SLIDE. Battery light no mains wires, no exact drill specs.",
+            "observed": "室內走廊三欄安裝。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈壁掛安裝概念",
+            "observed": "固定支架、對齊、滑入完成順序清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩顆螺絲固定支架，燈貼牆完成。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "MOUNT ALIGN SLIDE及概念標題可讀，無市電線。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-maintain-20-01",
+      "prompt_id": "src-visual642-387",
+      "command": "/maintenance",
+      "title": "桌扇例行保養位置",
+      "description": "桌扇例行保養位置（AI案例示範）",
+      "result_text": "桌扇例行保養位置",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-20/maintain-20.png",
+      "applied_prompt": "Create a square web-quality website example. Unplugged fan and clearly disconnected USB plug. Three leaders to front grille labeled DUST GRILLE, rear ventilation labeled CLEAR VENTS, cable labeled CHECK CABLE. Title UNPLUG FIRST. Show soft brush nearby, no oil pouring. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /maintenance: Mark routine maintenance tasks and access points.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Unplugged fan and clearly disconnected USB plug. Three leaders to front grille labeled DUST GRILLE, rear ventilation labeled CLEAR VENTS, cable labeled CHECK CABLE. Title UNPLUG FIRST. Show soft brush nearby, no oil pouring.",
+        "effect": "桌扇例行保養位置",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:37:14.095Z",
+        "source_instruction": "Mark routine maintenance tasks and access points.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "507f3f8c72245db0ed393a03e9b9571f72de9a64ed1187cc45b6ab9cb7ffb1dd",
+        "applied_prompt_sha256": "d88a75ba6eecffa938fb30b645a3e0de1237907d18a31b46ee566cfb7adac095",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "一般風扇清潔須先斷電、乾刷網罩並擦底座；不複製真實型號拆卸方式，無灑水或浸泡。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米色青葉桌扇來源一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Unplugged fan and clearly disconnected USB plug. Three leaders to front grille labeled DUST GRILLE, rear ventilation labeled CLEAR VENTS, cable labeled CHECK CABLE. Title UNPLUG FIRST. Show soft brush nearby, no oil pouring.",
+            "observed": "白底保養標註。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇例行保養位置",
+            "observed": "三項日常保養配軟刷。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線正確到前網罩後網格與線材。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "UNPLUG FIRST明示，USB插頭已斷開。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-clean-20-01",
+      "prompt_id": "src-visual642-388",
+      "command": "/cleaning",
+      "title": "桌扇外部清潔",
+      "description": "桌扇外部清潔（AI案例示範）",
+      "result_text": "桌扇外部清潔",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-20/clean-20.png",
+      "applied_prompt": "Create a square web-quality website example. Two-panel cleaning illustration. Left disconnected USB plug label UNPLUG. Right soft dry cloth wiping base and soft brush removing grille surface dust. Label WIPE AND DUST. Grille stays attached. No spray, no immersion, no open electronics. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /cleaning: Show the correct cleaning zones and method.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Two-panel cleaning illustration. Left disconnected USB plug label UNPLUG. Right soft dry cloth wiping base and soft brush removing grille surface dust. Label WIPE AND DUST. Grille stays attached. No spray, no immersion, no open electronics.",
+        "effect": "桌扇外部清潔",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:38:14.269Z",
+        "source_instruction": "Show the correct cleaning zones and method.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "80a98bd4dfe92f5722c6bb4f94fadb7f56188fa91c2d19c4072d6703b01369e0",
+        "applied_prompt_sha256": "d8f664830394d3b564b57b14c3fe87595ad847d14b4fc69f41a3e09787d663ab",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "一般風扇清潔須先斷電、乾刷網罩並擦底座；不複製真實型號拆卸方式，無灑水或浸泡。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米色桌扇一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Two-panel cleaning illustration. Left disconnected USB plug label UNPLUG. Right soft dry cloth wiping base and soft brush removing grille surface dust. Label WIPE AND DUST. Grille stays attached. No spray, no immersion, no open electronics.",
+            "observed": "兩階段外部清潔。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇外部清潔",
+            "observed": "先斷電再擦底座與刷網罩。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "布與刷接觸外部表面，網罩未拆。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "USB斷開特寫清楚，無噴水浸泡。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-repair-20-01",
+      "prompt_id": "src-visual642-389",
+      "command": "/repair",
+      "title": "帆布袋縫線修復流程",
+      "description": "帆布袋縫線修復流程（AI案例示範）",
+      "result_text": "帆布袋縫線修復流程",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-20/repair-20.png",
+      "applied_prompt": "Create a square web-quality website example. Three panels same tote handle attachment: opened stitching circled FAULT; needle and thread restitching reinforced square-X pattern REPAIR; securely stitched handle FIXED. Title SEAM REPAIR CONCEPT. Show seam repair, not replacing entire bag. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /repair: Reveal the fault and the repair path.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Three panels same tote handle attachment: opened stitching circled FAULT; needle and thread restitching reinforced square-X pattern REPAIR; securely stitched handle FIXED. Title SEAM REPAIR CONCEPT. Show seam repair, not replacing entire bag.",
+        "effect": "帆布袋縫線修復流程",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:39:07.628Z",
+        "source_instruction": "Reveal the fault and the repair path.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "25844fce56500c16f4819cb888419b61fa1217b6948df5ada159e432e061f9fa",
+        "applied_prompt_sha256": "395a27dadbd8d10d91f15a5aa5709370529868c9eb66d5783a034755b0b983f4",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.coats.com/en/industries/composites/faqs/"
+          ],
+          "notes": "縫線、張力與接合影響縫合強度；示意接縫補強及可能磨耗，無確定壽命或載重數據。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布棕提把來源一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Three panels same tote handle attachment: opened stitching circled FAULT; needle and thread restitching reinforced square-X pattern REPAIR; securely stitched handle FIXED. Title SEAM REPAIR CONCEPT. Show seam repair, not replacing entire bag.",
+            "observed": "三欄接縫近拍。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋縫線修復流程",
+            "observed": "鬆脫至針線補強至完成。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "方框X縫線補在同一把手接點。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "FAULT REPAIR FIXED與概念標題正確，工具標註為參考。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-replace-20-01",
+      "prompt_id": "src-visual642-390",
+      "command": "/replaceable",
+      "title": "水瓶可替換密封圈概念",
+      "description": "水瓶可替換密封圈概念（AI案例示範）",
+      "result_text": "水瓶可替換密封圈概念",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-20/replace-20.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle with lid removed; underside lid shown beside it, one replaceable silicone sealing ring lifted out and matching new ring adjacent. One leader SEALING RING. Title REPLACEABLE SEAL CONCEPT. No real spare-part compatibility claims. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /replaceable: Identify parts designed to be replaced.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle with lid removed; underside lid shown beside it, one replaceable silicone sealing ring lifted out and matching new ring adjacent. One leader SEALING RING. Title REPLACEABLE SEAL CONCEPT. No real spare-part compatibility claims.",
+        "effect": "水瓶可替換密封圈概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:39:47.958Z",
+        "source_instruction": "Identify parts designed to be replaced.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "d786ba923fee82c444be98df52df09af538adc4ddff35cebf33b15e52f9a09c5",
+        "applied_prompt_sha256": "dba7d5926d44c3b99d8759877bcd326cbd0c119bd9525def2a70d9719a50d313",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf"
+          ],
+          "notes": "密封圈與配合間隙均為一般密封設計概念；無真實瓶型拆解、零件相容或公差數值，幾何另目視。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑提環蓋來源一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle with lid removed; underside lid shown beside it, one replaceable silicone sealing ring lifted out and matching new ring adjacent. One leader SEALING RING. Title REPLACEABLE SEAL CONCEPT. No real spare-part compatibility claims.",
+            "observed": "桌面可換部件展示。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶可替換密封圈概念",
+            "observed": "蓋底密封圈取出旁有替換圈。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "密封圈與蓋內凹槽尺寸對應。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "SEALING RING與概念標題明確，無真實相容宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-wear-20-01",
+      "prompt_id": "src-visual642-391",
+      "command": "/wearpoints",
+      "title": "帆布袋常見磨耗區",
+      "description": "帆布袋常見磨耗區（AI案例示範）",
+      "result_text": "帆布袋常見磨耗區",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-20/wear-20.png",
+      "applied_prompt": "Square web-quality product infographic using reference cream tote with brown handles. Show whole tote with three orange circle close-up insets and leaders: handle stitching, bottom corner, top rim. Insets show subtle frayed threads. The ONLY text in image is title \"POTENTIAL WEAR POINTS\" and labels \"HANDLE SEAM\", \"BASE CORNER\", \"TOP EDGE\". No subtitles or other sentences. Original instruction /wearpoints: Highlight areas most likely to wear out.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference cream brown-handle tote whole view, three subtle orange circles with closeups: handle stitching, bottom corner, top rim. Labels HANDLE SEAM, BASE CORNER, TOP EDGE. Title POTENTIAL WEAR POINTS. Local minor fraying, no unsupported lifespan.",
+        "effect": "帆布袋常見磨耗區",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:45:10.124Z",
+        "source_instruction": "Highlight areas most likely to wear out.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "6e3424fe83d7c4a7eee9fcdc0d528447653e1aaa7df5c9eee4c129b898a5ec3e",
+        "applied_prompt_sha256": "c2bfc066e9482e942be0091a81bd298d3fd0af9a00b641ee5e313749e392621d",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.coats.com/en/industries/composites/faqs/"
+          ],
+          "notes": "縫線、張力與接合影響縫合強度；示意接縫補強及可能磨耗，無確定壽命或載重數據。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米色帆布袋與棕色提把一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference cream brown-handle tote whole view, three subtle orange circles with closeups: handle stitching, bottom corner, top rim. Labels HANDLE SEAM, BASE CORNER, TOP EDGE. Title POTENTIAL WEAR POINTS. Local minor fraying, no unsupported lifespan.",
+            "observed": "全袋搭配三處磨耗放大圈",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋常見磨耗區",
+            "observed": "細微鬚邊呈現潛在磨耗",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線正確連到提把縫線、底角及袋口",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "僅保留標題與三個部位標籤，無多餘限制文字",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "初稿印入生圖限制文字",
+          "applied_prompt": "Create a square web-quality website example. Reference cream brown-handle tote whole view, three subtle orange circles with closeups: handle stitching, bottom corner, top rim. Labels HANDLE SEAM, BASE CORNER, TOP EDGE. Title POTENTIAL WEAR POINTS. Local minor fraying, no unsupported lifespan. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /wearpoints: Highlight areas most likely to wear out.",
+          "result": "output/imagegen/batch-20-20/wear-20-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-weak-20-01",
+      "prompt_id": "src-visual642-392",
+      "command": "/weakpoints",
+      "title": "帆布袋潛在弱點",
+      "description": "帆布袋潛在弱點（AI案例示範）",
+      "result_text": "帆布袋潛在弱點",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-20/weak-20.png",
+      "applied_prompt": "Create a square web-quality website example. Tote partly filled with books, handle anchor seams and bottom corner highlighted red, two leaders HANDLE ATTACHMENT and CORNER SEAM. Title POTENTIAL FAILURE RISKS. Schematic loading arrows down at contents, no weight numbers. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /weakpoints: Identify likely weak points and failure risks.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Tote partly filled with books, handle anchor seams and bottom corner highlighted red, two leaders HANDLE ATTACHMENT and CORNER SEAM. Title POTENTIAL FAILURE RISKS. Schematic loading arrows down at contents, no weight numbers.",
+        "effect": "帆布袋潛在弱點",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:45:48.793Z",
+        "source_instruction": "Identify likely weak points and failure risks.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "623cec114297e11d80b33c1538b79b6cc06f52b34cef8886ae60d1630cf139f1",
+        "applied_prompt_sha256": "94334f871efcad545371c5ea8c07b5f9ea4e4317f07670ef08dae1c360b39433",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.coats.com/en/industries/composites/faqs/"
+          ],
+          "notes": "縫線、張力與接合影響縫合強度；示意接縫補強及可能磨耗，無確定壽命或載重數據。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米色帆布袋棕提把一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Tote partly filled with books, handle anchor seams and bottom corner highlighted red, two leaders HANDLE ATTACHMENT and CORNER SEAM. Title POTENTIAL FAILURE RISKS. Schematic loading arrows down at contents, no weight numbers.",
+            "observed": "書本置於袋內呈現承重情境",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋潛在弱點",
+            "observed": "紅圈標出潛在失效區",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線連到提把固定點與底角縫線",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無虛構承重數據",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-durable-20-01",
+      "prompt_id": "src-visual642-393",
+      "command": "/durability",
+      "title": "水瓶耐用保護概念",
+      "description": "水瓶耐用保護概念（AI案例示範）",
+      "result_text": "水瓶耐用保護概念",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-20/durable-20.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle with removable olive rubber base boot shown beside same bottle with minor superficial paint scuff above base. Three small inset views: protective boot, everyday rub mark, intact bottle shape. Title DURABILITY CONCEPT. No drop height or certified claims. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /durability: Visualize ruggedness, protection, and expected wear.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle with removable olive rubber base boot shown beside same bottle with minor superficial paint scuff above base. Three small inset views: protective boot, everyday rub mark, intact bottle shape. Title DURABILITY CONCEPT. No drop height or certified claims.",
+        "effect": "水瓶耐用保護概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:46:30.064Z",
+        "source_instruction": "Visualize ruggedness, protection, and expected wear.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "72233d3258a016800c79e0cb86967e7be08c8d36f218ddafc6b047dc91c24e08",
+        "applied_prompt_sha256": "764c25ac35503c5ff14fcd321e760b841f9c604afe2de6d1d637921d3bf86d68",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf"
+          ],
+          "notes": "密封圈與配合間隙均為一般密封設計概念；無真實瓶型拆解、零件相容或公差數值，幾何另目視。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色水瓶黑色提環蓋一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle with removable olive rubber base boot shown beside same bottle with minor superficial paint scuff above base. Three small inset views: protective boot, everyday rub mark, intact bottle shape. Title DURABILITY CONCEPT. No drop height or certified claims.",
+            "observed": "護底套與日常使用磨痕對照",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶耐用保護概念",
+            "observed": "耐用保護及表面磨損清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "護底套貼合底部，磨痕放大正確",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "標明概念圖未虛構耐用年限",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-weather-20-01",
+      "prompt_id": "src-visual642-394",
+      "command": "/weatherproof",
+      "title": "住宅天候防護概念",
+      "description": "住宅天候防護概念（AI案例示範）",
+      "result_text": "住宅天候防護概念",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-20/weather-20.png",
+      "applied_prompt": "Create a square web-quality four-panel architectural infographic from the house reference. Same cream two-story house in RAIN, DUST, HEAT, COLD. Title WEATHER PROTECTION CONCEPT. RAIN inset roof overhang and gutter shedding rain. DUST inset sealed window with dust outside. HEAT and COLD insets show a plain wall cross-section with yellow insulation between layers. NO ARROWS in any inset. Labels HEAT: Insulation helps reduce heat entering the home. COLD: Insulation helps reduce heat escaping from the home. RAIN: Roof overhang sheds rain. DUST: Sealed windows help keep dust outside. No ratings. Original /weatherproof: Show protection from rain, dust, heat, and cold.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four-panel same house in RAIN, DUST, HEAT, COLD. Insets show roof overhang shedding rain, sealed window keeping dust outside, insulation reducing heat entering, insulation reducing heat escaping in cold. Title WEATHER PROTECTION CONCEPT. No absolute weatherproof rating.",
+        "effect": "住宅天候防護概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:48:37.467Z",
+        "source_instruction": "Show protection from rain, dust, heat, and cold.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "61633e87b5a1b41045dca97c93cdbd21628d4f5d13d66a5b6d1d8281ff988c11",
+        "applied_prompt_sha256": "f977838cab59d6075a2f2cba2c39d52a20ed6e26398cba6b1f7deb6ad34e5999",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://bsesc.energy.gov/energy-basics/heat-flow"
+          ],
+          "notes": "保溫層可減少熱流；熱從較暖處往較冷處，傳導對流輻射均用定性概念，不是熱像實測或防護認證。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同一住宅四種天候",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four-panel same house in RAIN, DUST, HEAT, COLD. Insets show roof overhang shedding rain, sealed window keeping dust outside, insulation reducing heat entering, insulation reducing heat escaping in cold. Title WEATHER PROTECTION CONCEPT. No absolute weatherproof rating.",
+            "observed": "雨塵熱冷四格齊全",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "住宅天候防護概念",
+            "observed": "屋簷窗封與保溫層對應防護",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "移除可能誤導的熱流箭頭，剖面一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無虛構防水等級",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "移除容易誤導冷熱流動的箭頭",
+          "applied_prompt": "Create a square web-quality website example. Four-panel same house in RAIN, DUST, HEAT, COLD. Insets show roof overhang shedding rain, sealed window keeping dust outside, insulation reducing heat entering, insulation reducing heat escaping in cold. Title WEATHER PROTECTION CONCEPT. No absolute weatherproof rating. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /weatherproof: Show protection from rain, dust, heat, and cold.",
+          "result": "output/imagegen/batch-20-20/weather-20-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-thermal-20-01",
+      "prompt_id": "src-visual642-395",
+      "command": "/thermal",
+      "title": "住宅熱傳遞示意",
+      "description": "住宅熱傳遞示意（AI案例示範）",
+      "result_text": "住宅熱傳遞示意",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-20/thermal-20.png",
+      "applied_prompt": "Square educational house cutaway diagram using reference house. Title HEAT FLOW CONCEPT. Show solar red straight arrows from sun onto roof labelled RADIATION. One orange straight arrow crosses exterior wall toward interior labelled CONDUCTION. Inside one large room show a complete convection circulation loop: red arrow UP the left side, red arrow RIGHT along ceiling, blue arrow DOWN the right side, blue arrow LEFT along floor, all connected into one clockwise loop. Label CONVECTION inside loop. Exactly these four circulation arrows. No other arrows inside room. No numerical temperatures. Correct physical schematic, web-quality. Original /thermal: Show how heat moves through the object.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Cutaway house in sunny warm outdoor conditions. Red solar arrow RADIATION to roof, orange arrow CONDUCTION through exterior wall toward cooler interior, warm air rising loop CONVECTION inside room. Title HEAT FLOW CONCEPT. Qualitative hot roof shaded red, cool interior blue, no temperature readings.",
+        "effect": "住宅熱傳遞示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:50:18.139Z",
+        "source_instruction": "Map heat generation, transfer, and hot zones.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "11ece7314a0f0473826fb8ea3a60fd9242e5feefc0aaf3290c8ce50b84a16d59",
+        "applied_prompt_sha256": "a2830198b41b7be6e4c2e2a6918a194906a169e64ab14b108e5093a19aef426b",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://bsesc.energy.gov/energy-basics/heat-flow"
+          ],
+          "notes": "保溫層可減少熱流；熱從較暖處往較冷處，傳導對流輻射均用定性概念，不是熱像實測或防護認證。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "住宅剖面主體一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Cutaway house in sunny warm outdoor conditions. Red solar arrow RADIATION to roof, orange arrow CONDUCTION through exterior wall toward cooler interior, warm air rising loop CONVECTION inside room. Title HEAT FLOW CONCEPT. Qualitative hot roof shaded red, cool interior blue, no temperature readings.",
+            "observed": "太陽屋頂與室內剖面清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "住宅熱傳遞示意",
+            "observed": "輻射傳導對流三機制齊全",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "太陽射向屋頂、傳導朝內、對流完整順時針循環",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "未虛構溫度數據",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "補齊對流循環回流方向",
+          "applied_prompt": "Create a square web-quality website example. Cutaway house in sunny warm outdoor conditions. Red solar arrow RADIATION to roof, orange arrow CONDUCTION through exterior wall toward cooler interior, warm air rising loop CONVECTION inside room. Title HEAT FLOW CONCEPT. Qualitative hot roof shaded red, cool interior blue, no temperature readings. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /thermal: Map heat generation, transfer, and hot zones.",
+          "result": "output/imagegen/batch-20-20/thermal-20-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-cooling-20-01",
+      "prompt_id": "src-visual642-396",
+      "command": "/cooling",
+      "title": "桌扇帶走表面熱量",
+      "description": "桌扇帶走表面熱量（AI案例示範）",
+      "result_text": "桌扇帶走表面熱量",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-20/cooling-20.png",
+      "applied_prompt": "Create a square web-quality website example. Side view fan blowing toward warm finned metal heat sink. Blue arrows enter fan rear and emerge front toward heat sink, red warm air arrows continue downstream away from heat sink. Labels AIR IN, AIR OUT, HEAT REMOVAL. Title CONVECTION COOLING CONCEPT. No claim fan refrigerates air. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /cooling: Explain airflow, cooling paths, and heat removal.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Side view fan blowing toward warm finned metal heat sink. Blue arrows enter fan rear and emerge front toward heat sink, red warm air arrows continue downstream away from heat sink. Labels AIR IN, AIR OUT, HEAT REMOVAL. Title CONVECTION COOLING CONCEPT. No claim fan refrigerates air.",
+        "effect": "桌扇帶走表面熱量",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:50:57.428Z",
+        "source_instruction": "Explain airflow, cooling paths, and heat removal.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "323c4bca5e39715f3e2a6bf8c6ee7349e79d53b5ac345c1883b1de7f8de6b192",
+        "applied_prompt_sha256": "ef582dc86e4c4205f50e0618f94c0f96db81aaf865f8e6f8bd866a1d3a42bf9f",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "風扇壓升由進氣至出氣；表面冷卻透過氣流帶熱，馬達與葉輪為聲振來源，橡膠墊為減振概念；無測量數值。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油桌扇青色葉片一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Side view fan blowing toward warm finned metal heat sink. Blue arrows enter fan rear and emerge front toward heat sink, red warm air arrows continue downstream away from heat sink. Labels AIR IN, AIR OUT, HEAT REMOVAL. Title CONVECTION COOLING CONCEPT. No claim fan refrigerates air.",
+            "observed": "桌扇吹向散熱鰭片",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇帶走表面熱量",
+            "observed": "移動空氣帶走鰭片熱量",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "氣流由後進前出再穿過散熱片，暖空氣下游",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無冷氣製冷或溫度數值宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-sound-20-01",
+      "prompt_id": "src-visual642-397",
+      "command": "/acoustic",
+      "title": "桌扇聲源與減振",
+      "description": "桌扇聲源與減振（AI案例示範）",
+      "result_text": "桌扇聲源與減振",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-20/sound-20.png",
+      "applied_prompt": "Create a square web-quality website example. Reference fan with sound arcs emanating from blade/motor region labeled SOUND SOURCE; closeup rubber pad beneath base labeled VIBRATION DAMPING. Title ACOUSTIC CONCEPT. No decibels or measured noise claims. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /acoustic: Visualize sound sources, direction, and damping.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference fan with sound arcs emanating from blade/motor region labeled SOUND SOURCE; closeup rubber pad beneath base labeled VIBRATION DAMPING. Title ACOUSTIC CONCEPT. No decibels or measured noise claims.",
+        "effect": "桌扇聲源與減振",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:51:35.850Z",
+        "source_instruction": "Visualize sound sources, direction, and damping.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "7dd4209f649e2206491bf743110d9821fcd20945262ae6c5a9cb4f6b882de8e4",
+        "applied_prompt_sha256": "bf080013743b6b1ae9529ff59b035b66b0369f75906d8d812d98230a63b90103",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "風扇壓升由進氣至出氣；表面冷卻透過氣流帶熱，馬達與葉輪為聲振來源，橡膠墊為減振概念；無測量數值。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "桌扇身份一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference fan with sound arcs emanating from blade/motor region labeled SOUND SOURCE; closeup rubber pad beneath base labeled VIBRATION DAMPING. Title ACOUSTIC CONCEPT. No decibels or measured noise claims.",
+            "observed": "聲波環繞扇葉馬達區",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇聲源與減振",
+            "observed": "聲源與底部減振分開標示",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線落在中心聲源與橡膠腳墊",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念標題無分貝數據",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-pressure-20-01",
+      "prompt_id": "src-visual642-398",
+      "command": "/pressure",
+      "title": "桌扇壓力區概念",
+      "description": "桌扇壓力區概念（AI案例示範）",
+      "result_text": "桌扇壓力區概念",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-20/pressure-20.png",
+      "applied_prompt": "Create a square web-quality website example. Side profile fan facing RIGHT. Pale blue lower-pressure region on LEFT behind fan labeled INLET LOWER, pale orange higher-pressure region immediately RIGHT in front labeled OUTLET HIGHER, rightward flow arrows. Title RELATIVE PRESSURE CONCEPT. No pressure numbers. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /pressure: Map high- and low-pressure areas.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Side profile fan facing RIGHT. Pale blue lower-pressure region on LEFT behind fan labeled INLET LOWER, pale orange higher-pressure region immediately RIGHT in front labeled OUTLET HIGHER, rightward flow arrows. Title RELATIVE PRESSURE CONCEPT. No pressure numbers.",
+        "effect": "桌扇壓力區概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:52:14.601Z",
+        "source_instruction": "Map high- and low-pressure areas.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "c3eb396f75e64975f944e280b76358d54234e9f6c2d287a447cce07ce3571903",
+        "applied_prompt_sha256": "be881c37f656364e7ac04c604ac10668e517420e9bd4651d1238d166cb16c690",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "風扇壓升由進氣至出氣；表面冷卻透過氣流帶熱，馬達與葉輪為聲振來源，橡膠墊為減振概念；無測量數值。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "桌扇朝右側視身份一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Side profile fan facing RIGHT. Pale blue lower-pressure region on LEFT behind fan labeled INLET LOWER, pale orange higher-pressure region immediately RIGHT in front labeled OUTLET HIGHER, rightward flow arrows. Title RELATIVE PRESSURE CONCEPT. No pressure numbers.",
+            "observed": "左右入口出口分區",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇壓力區概念",
+            "observed": "相對壓力入口較低出口較高",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "所有箭頭向右且先進後出",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "未給虛構壓力數值",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-friction-20-01",
+      "prompt_id": "src-visual642-399",
+      "command": "/friction",
+      "title": "牙刷手柄摩擦接觸",
+      "description": "牙刷手柄摩擦接觸（AI案例示範）",
+      "result_text": "牙刷手柄摩擦接觸",
+      "reference": "output/imagegen/batch-20-09/brush-reference.png",
+      "result": "output/imagegen/batch-20-20/friction-20.png",
+      "applied_prompt": "Create a square web-quality website example. Closeup hand gripping reference toothbrush, textured thumb area and finger contact highlighted in orange. Labels THUMB CONTACT and FINGER CONTACT. Title FRICTION ZONES. Arrows end at hand-handle contact, no numeric coefficient. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /friction: Show contact points and friction zones.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/brush-reference.png",
+        "sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "generator": "built-in imagegen",
+        "prompt": "A single generic manual toothbrush product reference photo, mint green and white ergonomic handle, one compact oval head with dense short white and pale turquoise bristles, full toothbrush visible diagonally from lower left handle to upper right head on white studio background with a subtle shadow. Photorealistic web quality, no text, no logos, no watermark, no toothpaste, no person. Fictional product used for visual design concepts only, no medical or germ-killing claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Closeup hand gripping reference toothbrush, textured thumb area and finger contact highlighted in orange. Labels THUMB CONTACT and FINGER CONTACT. Title FRICTION ZONES. Arrows end at hand-handle contact, no numeric coefficient.",
+        "effect": "牙刷手柄摩擦接觸",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:53:00.965Z",
+        "source_instruction": "Show contact points and friction zones.",
+        "reference_sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "result_sha256": "80b1c1b8e65176af2b818e9e51898063dd1f72e58239c2b4c1a1b2c9a49ebd71",
+        "applied_prompt_sha256": "c95ddba6cb8d557341c374ea100fcf888b965a5ff9d5c17bab076d2eb9a9a141",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.ccohs.ca/oshanswers/ergonomics/handtools/tooldesign.html"
+          ],
+          "notes": "接觸紋理與摩擦提供握持；無摩擦係數或醫療效果。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色薄荷綠牙刷一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Closeup hand gripping reference toothbrush, textured thumb area and finger contact highlighted in orange. Labels THUMB CONTACT and FINGER CONTACT. Title FRICTION ZONES. Arrows end at hand-handle contact, no numeric coefficient.",
+            "observed": "手部實際握住紋理柄",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "牙刷手柄摩擦接觸",
+            "observed": "橙色標示接觸摩擦區",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "拇指與手指引線正確",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "手部與牙刷結構合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-tolerance-20-01",
+      "prompt_id": "src-visual642-400",
+      "command": "/tolerance",
+      "title": "水瓶蓋配合間隙概念",
+      "description": "水瓶蓋配合間隙概念（AI案例示範）",
+      "result_text": "水瓶蓋配合間隙概念",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-20/tolerance-20.png",
+      "applied_prompt": "Create a square web-quality website example. Simplified cross-sectional diagram of bottle neck and screw lid with seal; enlarged inset clearly shows small clearance between mating thread flanks. Leader CLEARANCE points into gap, SEAL points silicone ring. Title FIT AND CLEARANCE CONCEPT. No numeric tolerances or real engineering blueprint claims. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /tolerance: Visualize fit, clearance, and manufacturing tolerances.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Simplified cross-sectional diagram of bottle neck and screw lid with seal; enlarged inset clearly shows small clearance between mating thread flanks. Leader CLEARANCE points into gap, SEAL points silicone ring. Title FIT AND CLEARANCE CONCEPT. No numeric tolerances or real engineering blueprint claims.",
+        "effect": "水瓶蓋配合間隙概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:53:36.998Z",
+        "source_instruction": "Visualize fit, clearance, and manufacturing tolerances.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "ec9a05158a0c74e0a0bb1b6d48894b492345f3f8eb5e0de644e2802827fb9a10",
+        "applied_prompt_sha256": "f98449e10f2a84948533c100bbd396ea1cefd9c5891c0818a395e4ebb47f9a58",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf"
+          ],
+          "notes": "密封圈與配合間隙均為一般密封設計概念；無真實瓶型拆解、零件相容或公差數值，幾何另目視。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑提環蓋一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Simplified cross-sectional diagram of bottle neck and screw lid with seal; enlarged inset clearly shows small clearance between mating thread flanks. Leader CLEARANCE points into gap, SEAL points silicone ring. Title FIT AND CLEARANCE CONCEPT. No numeric tolerances or real engineering blueprint claims.",
+            "observed": "瓶口蓋螺紋剖面與放大",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶蓋配合間隙概念",
+            "observed": "配合間隙及密封圈可辨識",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線對應螺紋間隙與口部密封",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念剖面未給實測公差",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-joints-20-01",
+      "prompt_id": "src-visual642-401",
+      "command": "/joints",
+      "title": "機甲關節連接示意",
+      "description": "機甲關節連接示意（AI案例示範）",
+      "result_text": "機甲關節連接示意",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-20/joints-20.png",
+      "applied_prompt": "Create a square web-quality website example. Reference toy robot with subtle highlighted shoulder ball joint, elbow hinge and knee hinge; three close-up schematic insets with labels BALL JOINT, ELBOW HINGE, KNEE HINGE. Title CONCEPT JOINTS. Do not claim authentic teardown or hidden actual toy details. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /joints: Reveal the subject's joints and connection methods.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference toy robot with subtle highlighted shoulder ball joint, elbow hinge and knee hinge; three close-up schematic insets with labels BALL JOINT, ELBOW HINGE, KNEE HINGE. Title CONCEPT JOINTS. Do not claim authentic teardown or hidden actual toy details.",
+        "effect": "機甲關節連接示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:54:34.270Z",
+        "source_instruction": "Reveal the subject's joints and connection methods.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "bf92cfbf341b61ee43f0c8497fb1410ec7e9eeb4731c8ca7fe7ace524b7d66f1",
+        "applied_prompt_sha256": "7ec62fc0c83d4b60775b447af04ca9c3fcd7be49b05c0ec53c92a4f2499cc42b",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.igus.co.uk/spherical-bearing",
+            "https://ansyshelp.ansys.com/public/Views/Secured/corp/v252/en/motion_theory/motion_theory_constraints_joints.html"
+          ],
+          "notes": "球接與鉸鏈為通用接合概念，非原商品拆解或實際關節驗證；源圖外觀另目視核對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "參考機器人藍白金紅身份一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference toy robot with subtle highlighted shoulder ball joint, elbow hinge and knee hinge; three close-up schematic insets with labels BALL JOINT, ELBOW HINGE, KNEE HINGE. Title CONCEPT JOINTS. Do not claim authentic teardown or hidden actual toy details.",
+            "observed": "全身搭配三個關節放大",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲關節連接示意",
+            "observed": "球接頭與鉸鏈形式清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線對應肩膀手肘膝蓋",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT JOINTS標題明示概念",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-gears-20-01",
+      "prompt_id": "src-visual642-402",
+      "command": "/gears",
+      "title": "雙齒輪傳動方向",
+      "description": "雙齒輪傳動方向（AI案例示範）",
+      "result_text": "雙齒輪傳動方向",
+      "reference": "output/imagegen/batch-20-20/gear-reference.png",
+      "result": "output/imagegen/batch-20-20/gears-20.png",
+      "applied_prompt": "Create a square web-quality website example. Reference two meshing equal spur gears with curved rotational arrows: LEFT gear CLOCKWISE, RIGHT gear COUNTERCLOCKWISE. Hand crank connects left gear, right output shaft leader OUTPUT. Title GEAR MOTION CONCEPT. Exactly two gears, no numeric ratio. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /gears: Expose gears and show how they transfer motion.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/gear-reference.png",
+        "sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic educational hand-crank gear demonstrator. Exactly TWO equal-sized steel spur gears on parallel short horizontal shafts, mounted side by side on a cream vertical support plate above a stable teal base. Gear teeth visibly mesh at the center. Left gear shaft has a small black hand crank in front; right shaft ends in short plain output stub. Static tabletop model, no motor, no text, no brand, white background. Plausible simple mechanism."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference two meshing equal spur gears with curved rotational arrows: LEFT gear CLOCKWISE, RIGHT gear COUNTERCLOCKWISE. Hand crank connects left gear, right output shaft leader OUTPUT. Title GEAR MOTION CONCEPT. Exactly two gears, no numeric ratio.",
+        "effect": "雙齒輪傳動方向",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:55:07.970Z",
+        "source_instruction": "Expose gears and show how they transfer motion.",
+        "reference_sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "result_sha256": "e2e11721d0fe36b0bb36cfed8db9483e39fab224c2535740c14ff5a9cfb243c8",
+        "applied_prompt_sha256": "7d2394c2f16e26b8d54777822840406340814610daeccada702830b68709d3c4",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://khkgears.net/pdf/spur-tech.pdf"
+          ],
+          "notes": "兩個外嚙合正齒輪應反向旋轉，齒形嚙合與方向另目視，無數值傳動比。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "兩個等徑外齒輪與左手搖柄一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference two meshing equal spur gears with curved rotational arrows: LEFT gear CLOCKWISE, RIGHT gear COUNTERCLOCKWISE. Hand crank connects left gear, right output shaft leader OUTPUT. Title GEAR MOTION CONCEPT. Exactly two gears, no numeric ratio.",
+            "observed": "齒輪互相嚙合底座完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "雙齒輪傳動方向",
+            "observed": "左順時針右逆時針傳動",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "箭頭方向相反且輸出指右軸",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有多餘齒輪或虛構速比",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-electronics-20-01",
+      "prompt_id": "src-visual642-403",
+      "command": "/electronics",
+      "title": "感應燈電子模組示意",
+      "description": "感應燈電子模組示意（AI案例示範）",
+      "result_text": "感應燈電子模組示意",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-20/electronics-20.png",
+      "applied_prompt": "Create a square web-quality website example. Concept cutaway battery PIR lamp with four clear modules: BATTERY at lower rear, CONTROLLER board center, PIR sensor behind circular lower front lens, LED board behind upper diffuser. Simple wires battery to controller, controller to LED, sensor signal to controller. Title ELECTRONICS CONCEPT. No mains circuitry, no authentic teardown claim. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /electronics: Reveal the main electronic modules and wiring.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Concept cutaway battery PIR lamp with four clear modules: BATTERY at lower rear, CONTROLLER board center, PIR sensor behind circular lower front lens, LED board behind upper diffuser. Simple wires battery to controller, controller to LED, sensor signal to controller. Title ELECTRONICS CONCEPT. No mains circuitry, no authentic teardown claim.",
+        "effect": "感應燈電子模組示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T02:48:46.164Z",
+        "source_instruction": "Reveal the main electronic modules and wiring.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "940f37e366d6c77399056c9d0daa7d48d2ba715162cda38e7a54d0a367ac9a5c",
+        "applied_prompt_sha256": "e9f93bc08d83338b2275f93f0a9ec650780fc197cdf9f1dfb224695f53c5f433",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "PIR偵測移動熱源造成紅外線變化，輸出訊號至控制模組驅動燈；示意電池供電與壁掛支架，非真實產品接線或安裝規格。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "感應燈外觀一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Concept cutaway battery PIR lamp with four clear modules: BATTERY at lower rear, CONTROLLER board center, PIR sensor behind circular lower front lens, LED board behind upper diffuser. Simple wires battery to controller, controller to LED, sensor signal to controller. Title ELECTRONICS CONCEPT. No mains circuitry, no authentic teardown claim.",
+            "observed": "剖面展示電子模組",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈電子模組示意",
+            "observed": "LED控制板PIR電池皆有標示",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "電池及PIR連到控制板再到LED",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念標題明確，沒有實測規格",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-sensors-20-01",
+      "prompt_id": "src-visual642-404",
+      "command": "/sensors",
+      "title": "感應燈偵測區與訊號",
+      "description": "感應燈偵測區與訊號（AI案例示範）",
+      "result_text": "感應燈偵測區與訊號",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-20/sensors-20.png",
+      "applied_prompt": "Create a square web-quality website example. Battery PIR wall light installed in hallway, translucent fan-shaped detection field from circular sensor lens extends into hallway, person walking ACROSS field. Small diagram PIR SENSOR -> CONTROLLER -> LIGHT ON with arrows, title PIR DETECTION CONCEPT. Do not show laser beam or exact range/angle. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /sensors: Map sensors, detection zones, and signals.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Battery PIR wall light installed in hallway, translucent fan-shaped detection field from circular sensor lens extends into hallway, person walking ACROSS field. Small diagram PIR SENSOR -> CONTROLLER -> LIGHT ON with arrows, title PIR DETECTION CONCEPT. Do not show laser beam or exact range/angle.",
+        "effect": "感應燈偵測區與訊號",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T02:49:24.456Z",
+        "source_instruction": "Map sensors, detection zones, and signals.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "a251219c741b91c67a2317b1ed0a25ec2de4ed35e8a3a6fc542e043b98b11784",
+        "applied_prompt_sha256": "e96c6d3d2fa92d99d20995f5c4d9f079ddfc600ac9b587008ac79c22e95f5aad",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "PIR偵測移動熱源造成紅外線變化，輸出訊號至控制模組驅動燈；示意電池供電與壁掛支架，非真實產品接線或安裝規格。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色感應燈外觀一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Battery PIR wall light installed in hallway, translucent fan-shaped detection field from circular sensor lens extends into hallway, person walking ACROSS field. Small diagram PIR SENSOR -> CONTROLLER -> LIGHT ON with arrows, title PIR DETECTION CONCEPT. Do not show laser beam or exact range/angle.",
+            "observed": "走廊行人橫越扇形偵測區",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈偵測區與訊號",
+            "observed": "感測與亮燈訊號鏈清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "偵測區由鏡片起，PIR到控制器再亮燈",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無雷射或虛構角度距離",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

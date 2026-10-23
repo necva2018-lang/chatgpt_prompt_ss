@@ -1,0 +1,1413 @@
+{
+  "version": 1,
+  "id": "batch-20-07",
+  "cases": [
+    {
+      "id": "case-film-grain-01",
+      "prompt_id": "src-visual642-125",
+      "command": "/film grain",
+      "title": "運動鞋自然電影顆粒",
+      "description": "運動鞋自然電影顆粒（AI案例示範）",
+      "result_text": "運動鞋自然電影顆粒",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-07/film-grain.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /film grain: Add a natural cinematic film-grain finish. Reference image supplies subject identity only. Keep recognizable sneaker on simple cinematic studio set with subtle warm side light. Add clearly visible natural fine photographic film grain across image, organic stochastic grain not halftone or scratches. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Keep recognizable sneaker on simple cinematic studio set with subtle warm side light. Add clearly visible natural fine photographic film grain across image, organic stochastic grain not halftone or scratches.",
+        "effect": "運動鞋自然電影顆粒",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:50:31.052Z",
+        "source_instruction": "Add a natural cinematic film-grain finish.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "7e8ff45876ab47ae65c42f2d1875e22ddf3f1d7cd11108ad6824dac31304993d",
+        "applied_prompt_sha256": "00294659e86a1744b06ae7cedaa86419512a10b341b761f997e3a3a5557c4c72",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鞋型、條紋、鞋帶及棕底清晰。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Keep recognizable sneaker on simple cinematic studio set with subtle warm side light. Add clearly visible natural fine photographic film grain across image, organic stochastic grain not halftone or scratches.",
+            "observed": "暖側光棚景配合自然攝影構圖。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋自然電影顆粒",
+            "observed": "背景及影像可見細密不規則膠片顆粒。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "顆粒覆蓋畫面但未破壞鞋身輪廓與光影。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "原產品字樣可辨，無新增文案、刮痕或浮水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-dust-scratches-01",
+      "prompt_id": "src-visual642-126",
+      "command": "/dust scratches",
+      "title": "水瓶老照片塵點刮痕",
+      "description": "水瓶老照片塵點刮痕（AI案例示範）",
+      "result_text": "水瓶老照片塵點刮痕",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-07/dust-scratches.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /dust scratches: Add aged dust and scratch marks to the image. Reference image supplies subject identity only. Bottle in simple neutral photographic scene, aged vintage print with visible dust specks, thin irregular scratches and slightly faded color across entire image, bottle intact. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Bottle in simple neutral photographic scene, aged vintage print with visible dust specks, thin irregular scratches and slightly faded color across entire image, bottle intact.",
+        "effect": "水瓶老照片塵點刮痕",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:51:30.591Z",
+        "source_instruction": "Add aged dust and scratch marks to the image.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "a1d98ded71d89674f33cafca8db2ac4fc6832bfcce4084d6d1fb1f113ca03557",
+        "applied_prompt_sha256": "96f0835a2881f2d7235f1571cbf3d7a918929c6df476e11505feb1afdc856a97",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶及黑色環蓋保持完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Bottle in simple neutral photographic scene, aged vintage print with visible dust specks, thin irregular scratches and slightly faded color across entire image, bottle intact.",
+            "observed": "瓶子位於桌面，整體呈褪色舊相片。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶老照片塵點刮痕",
+            "observed": "細長刮痕、灰塵斑點與磨損邊框可見。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "痕跡覆蓋整張照片，主體仍清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未新增宣稱或浮水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-vhs-texture-01",
+      "prompt_id": "src-visual642-127",
+      "command": "/vhs texture",
+      "title": "機甲類比錄影帶質感",
+      "description": "機甲類比錄影帶質感（AI案例示範）",
+      "result_text": "機甲類比錄影帶質感",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-07/vhs-texture.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /vhs texture: Give the subject an analog VHS tape texture. Reference image supplies subject identity only. Recognizable robot full figure in simple scene, analog VHS tape look: horizontal scanlines, chromatic bleeding, mild tracking bands, low resolution and analog noise, no readable timestamp or text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Recognizable robot full figure in simple scene, analog VHS tape look: horizontal scanlines, chromatic bleeding, mild tracking bands, low resolution and analog noise, no readable timestamp or text.",
+        "effect": "機甲類比錄影帶質感",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:52:30.286Z",
+        "source_instruction": "Give the subject an analog VHS tape texture.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "6b70131f7cddf2a9417c694dd34c13166b736ec87d32bc91332b4e9f8ff9e965",
+        "applied_prompt_sha256": "b3a817bdfe91152c4f2ad33043cc8d6f7884442de8a463702d0856daefb6b1a8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲全身與裝甲配色可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Recognizable robot full figure in simple scene, analog VHS tape look: horizontal scanlines, chromatic bleeding, mild tracking bands, low resolution and analog noise, no readable timestamp or text.",
+            "observed": "簡單暗背景的類比錄影畫面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲類比錄影帶質感",
+            "observed": "水平掃描線、彩色滲邊及追蹤雜訊帶清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "失真覆蓋畫面但保持機甲完整輪廓。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有時間戳或多餘文字，符合質感示範。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-canvas-weave-01",
+      "prompt_id": "src-visual642-128",
+      "command": "/canvas weave",
+      "title": "紙盒織布畫布表面",
+      "description": "紙盒織布畫布表面（AI案例示範）",
+      "result_text": "紙盒織布畫布表面",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-07/canvas-weave.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /canvas weave: Apply a visible woven-canvas texture to the subject. Reference image supplies subject identity only. Preserve cube box and leaf motif but give all visible box faces pronounced woven artist canvas texture with clear warp weft grid, warm neutral background, close view. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Preserve cube box and leaf motif but give all visible box faces pronounced woven artist canvas texture with clear warp weft grid, warm neutral background, close view.",
+        "effect": "紙盒織布畫布表面",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:53:23.876Z",
+        "source_instruction": "Apply a visible woven-canvas texture to the subject.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "67d0959f909e5f65465fc66c6ffc9e0e76d69fff2e0b026d959fcc654bd349c8",
+        "applied_prompt_sha256": "aaef9c2fddd69509b2956e967f7310a5871c621943cc6ecb6966ce7d501c3fa1",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "立方紙盒與葉形圖案可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Preserve cube box and leaf motif but give all visible box faces pronounced woven artist canvas texture with clear warp weft grid, warm neutral background, close view.",
+            "observed": "中性棚景突出盒體各表面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒織布畫布表面",
+            "observed": "盒面皆有明顯交織經緯畫布網格。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "織紋沿各面透視延伸，盒邊結構完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，無多餘標註或浮水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-linen-texture-01",
+      "prompt_id": "src-visual642-129",
+      "command": "/linen texture",
+      "title": "水瓶細亞麻紋理",
+      "description": "水瓶細亞麻紋理（AI案例示範）",
+      "result_text": "水瓶細亞麻紋理",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-07/linen-texture.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /linen texture: Give the subject a fine linen surface texture. Reference image supplies subject identity only. Preserve green bottle silhouette black loop cap but reconstruct exterior as fine natural flax linen, delicate uneven crossing yarn fibers on body and cap, soft neutral studio close view. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Preserve green bottle silhouette black loop cap but reconstruct exterior as fine natural flax linen, delicate uneven crossing yarn fibers on body and cap, soft neutral studio close view.",
+        "effect": "水瓶細亞麻紋理",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:54:24.771Z",
+        "source_instruction": "Give the subject a fine linen surface texture.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "da1aefcfabab99855be844a1627f9c10b8fef2e725d8a2738fb9df2d5e4e055f",
+        "applied_prompt_sha256": "6865017d4649818293b4d8fab0948be1b8c889d8b04e4fcc1b3b2e6311b8a107",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "水瓶輪廓及深色環形瓶蓋保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Preserve green bottle silhouette black loop cap but reconstruct exterior as fine natural flax linen, delicate uneven crossing yarn fibers on body and cap, soft neutral studio close view.",
+            "observed": "桌面中性背景突出細亞麻織面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶細亞麻紋理",
+            "observed": "瓶身和蓋面均有細密交織纖維紋理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "織紋隨瓶肩曲面連續，瓶底接地自然。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未新增產品功能宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-felt-texture-01",
+      "prompt_id": "src-visual642-130",
+      "command": "/felt texture",
+      "title": "機甲柔軟毛氈造型",
+      "description": "機甲柔軟毛氈造型（AI案例示範）",
+      "result_text": "機甲柔軟毛氈造型",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-07/felt-texture.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /felt texture: Rebuild the subject with a soft felt texture. Reference image supplies subject identity only. Rebuild entire recognizable colorful robot as soft hand sewn felt sculpture, fuzzy wool fibers and stitched edges on armor, rounded felt limbs, white clean studio, full figure. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild entire recognizable colorful robot as soft hand sewn felt sculpture, fuzzy wool fibers and stitched edges on armor, rounded felt limbs, white clean studio, full figure.",
+        "effect": "機甲柔軟毛氈造型",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:55:25.780Z",
+        "source_instruction": "Rebuild the subject with a soft felt texture.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "1bcfd450341d7d00f72c7d716b8374ff0da1911c83874ab419510c397f6974a7",
+        "applied_prompt_sha256": "33b58a678ef02ba29a450601438d24a8dcc7e88a1f4923319d3fb890f5af1dae",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲裝甲輪廓與藍白紅黃配色可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild entire recognizable colorful robot as soft hand sewn felt sculpture, fuzzy wool fibers and stitched edges on armor, rounded felt limbs, white clean studio, full figure.",
+            "observed": "白色棚景中呈現全身毛氈公仔。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲柔軟毛氈造型",
+            "observed": "所有裝甲與肢體都有羊毛纖維及手縫邊緣。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "軟化造型保持完整站姿，拼接位置一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，無額外肢體或金屬殘留。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-velvet-texture-01",
+      "prompt_id": "src-visual642-131",
+      "command": "/velvet texture",
+      "title": "帆布袋濃郁絲絨材質",
+      "description": "帆布袋濃郁絲絨材質（AI案例示範）",
+      "result_text": "帆布袋濃郁絲絨材質",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-07/velvet-texture.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /velvet texture: Cover the subject in rich velvet texture. Reference image supplies subject identity only. Rebuild tote silhouette with rich deep emerald velvet body and brown velvet handles, visible pile, direction-dependent sheen and soft folds, studio dark background. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild tote silhouette with rich deep emerald velvet body and brown velvet handles, visible pile, direction-dependent sheen and soft folds, studio dark background.",
+        "effect": "帆布袋濃郁絲絨材質",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:56:24.770Z",
+        "source_instruction": "Cover the subject in rich velvet texture.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "4903635ec92025c716784da9e32f87ec86f15a460e9a4af733b328c03052908f",
+        "applied_prompt_sha256": "b08179c9e8a548f32b1b69d9c62fda765463befa84da6ee7ffc88c29ea2ad0d6",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "提袋形狀與棕色雙提把保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild tote silhouette with rich deep emerald velvet body and brown velvet handles, visible pile, direction-dependent sheen and soft folds, studio dark background.",
+            "observed": "暗色棚景襯托深綠袋身。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋濃郁絲絨材質",
+            "observed": "袋身及提把可見濃郁絲絨短毛與方向性光澤。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "柔軟褶皺及光影沿袋體延伸，提把連接完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，無額外標誌或浮水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-denim-texture-01",
+      "prompt_id": "src-visual642-132",
+      "command": "/denim texture",
+      "title": "運動鞋耐用牛仔布",
+      "description": "運動鞋耐用牛仔布（AI案例示範）",
+      "result_text": "運動鞋耐用牛仔布",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-07/denim-texture.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /denim texture: Construct the subject from durable denim fabric. Reference image supplies subject identity only. Reconstruct sneaker upper entirely from blue denim fabric, recognizable stripe panels darker denim, durable twill weave and contrast stitching, gum sole retained, simple studio. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reconstruct sneaker upper entirely from blue denim fabric, recognizable stripe panels darker denim, durable twill weave and contrast stitching, gum sole retained, simple studio.",
+        "effect": "運動鞋耐用牛仔布",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:57:25.902Z",
+        "source_instruction": "Construct the subject from durable denim fabric.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "6772bba423700975d972268e288a240af3de5f4e394e658e95bb3ea6093f3d0d",
+        "applied_prompt_sha256": "5dcef7978456342c374640bfcec4e2104aa2d5fad7742d267dd124560a33f256",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鞋型、深色條紋及棕色鞋底保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reconstruct sneaker upper entirely from blue denim fabric, recognizable stripe panels darker denim, durable twill weave and contrast stitching, gum sole retained, simple studio.",
+            "observed": "淺色棚景中展示單一鞋款。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋耐用牛仔布",
+            "observed": "藍色牛仔斜紋覆蓋鞋面與鞋帶，對比車線清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "布料拼片跟隨鞋面結構，鞋底接地自然。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有多餘標註或浮水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-leather-grain-01",
+      "prompt_id": "src-visual642-133",
+      "command": "/leather grain",
+      "title": "葉形紙盒細緻皮革紋",
+      "description": "葉形紙盒細緻皮革紋（AI案例示範）",
+      "result_text": "葉形紙盒細緻皮革紋",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-07/leather-grain.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /leather grain: Apply a detailed leather-grain finish to the subject. Reference image supplies subject identity only. Preserve cube carton silhouette and embossed leaf motif but all faces covered in tan leather grain with visible pores and subtle creases, stitched seams at edges, studio. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Preserve cube carton silhouette and embossed leaf motif but all faces covered in tan leather grain with visible pores and subtle creases, stitched seams at edges, studio.",
+        "effect": "葉形紙盒細緻皮革紋",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:58:20.318Z",
+        "source_instruction": "Apply a detailed leather-grain finish to the subject.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "dd220b83f9a50ea317920b4c1b9a017b45cbb9a0d6f9bc5c445846472192afa2",
+        "applied_prompt_sha256": "822055d90fe2f831255dc308e6c6f2e823029db54601e9deb2ecb7d4bb2acc77",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "立方盒體與葉形壓紋保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Preserve cube carton silhouette and embossed leaf motif but all faces covered in tan leather grain with visible pores and subtle creases, stitched seams at edges, studio.",
+            "observed": "中性背景中完整展示皮革盒形。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "葉形紙盒細緻皮革紋",
+            "observed": "棕色皮革表面有清晰細孔、皺紋與邊緣車線。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "皮紋覆蓋三個盒面，縫邊透視一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未附材質功能宣稱或標誌。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-suede-texture-01",
+      "prompt_id": "src-visual642-134",
+      "command": "/suede texture",
+      "title": "水瓶柔軟磨砂麂皮",
+      "description": "水瓶柔軟磨砂麂皮（AI案例示範）",
+      "result_text": "水瓶柔軟磨砂麂皮",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-07/suede-texture.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /suede texture: Give the subject a soft brushed-suede texture. Reference image supplies subject identity only. Bottle form and loop cap rebuilt with muted sage brushed suede texture, short velvety directional nap and soft patches visible across body, matte close product render on neutral backdrop. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Bottle form and loop cap rebuilt with muted sage brushed suede texture, short velvety directional nap and soft patches visible across body, matte close product render on neutral backdrop.",
+        "effect": "水瓶柔軟磨砂麂皮",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T08:59:16.116Z",
+        "source_instruction": "Give the subject a soft brushed-suede texture.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "bf61523673b669bcb2e2e93e88e3e687a7e425b6804352209bf7fab86f1e136a",
+        "applied_prompt_sha256": "13ca5bde1e1ec2db5f9d0348b9ff35d6827a03bb2032768fa6ff2d1118e46b7d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶與黑色環蓋形狀完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Bottle form and loop cap rebuilt with muted sage brushed suede texture, short velvety directional nap and soft patches visible across body, matte close product render on neutral backdrop.",
+            "observed": "中性近景突出瓶身表面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶柔軟磨砂麂皮",
+            "observed": "瓶身呈柔軟短絨與不均方向性磨砂麂皮質感。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "絨面沿瓶肩與瓶身連續，輪廓不變。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有材質功能宣稱或浮水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-paper-pulp-01",
+      "prompt_id": "src-visual642-135",
+      "command": "/paper pulp",
+      "title": "機甲粗壓紙漿造型",
+      "description": "機甲粗壓紙漿造型（AI案例示範）",
+      "result_text": "機甲粗壓紙漿造型",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-07/paper-pulp.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /paper pulp: Form the subject from rough pressed paper pulp. Reference image supplies subject identity only. Rebuild full recognizable robot as rough pressed recycled paper pulp sculpture, compressed fibers coarse uneven off-white surface, subtle colored pigment preserving armor identities, studio. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild full recognizable robot as rough pressed recycled paper pulp sculpture, compressed fibers coarse uneven off-white surface, subtle colored pigment preserving armor identities, studio.",
+        "effect": "機甲粗壓紙漿造型",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:00:21.506Z",
+        "source_instruction": "Form the subject from rough pressed paper pulp.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "7fe650b25e39b26d9e85dad5fdf92743d741bd788549b0eda75d1cf157490fb4",
+        "applied_prompt_sha256": "ffbb1a7fa52c004e3163e7ea307ddd7135c1be762697e8e5272701d3018e31e2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲形狀與裝甲配色可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild full recognizable robot as rough pressed recycled paper pulp sculpture, compressed fibers coarse uneven off-white surface, subtle colored pigment preserving armor identities, studio.",
+            "observed": "暗棚景中完整紙漿雕塑。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲粗壓紙漿造型",
+            "observed": "粗壓纖維、紙屑及不均表面遍布各裝甲。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "壓製紙漿保持四肢結構和站姿。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有塑膠光澤或額外標註。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cardboard-texture-01",
+      "prompt_id": "src-visual642-136",
+      "command": "/cardboard texture",
+      "title": "提袋層疊瓦楞紙板",
+      "description": "提袋層疊瓦楞紙板（AI案例示範）",
+      "result_text": "提袋層疊瓦楞紙板",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-07/cardboard-texture.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /cardboard texture: Rebuild the subject from layered cardboard. Reference image supplies subject identity only. Rebuild tote and loop handles from stacked corrugated brown cardboard layers, exposed fluted corrugation at rim, edges and handles, clearly cardboard not fabric, clean background. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild tote and loop handles from stacked corrugated brown cardboard layers, exposed fluted corrugation at rim, edges and handles, clearly cardboard not fabric, clean background.",
+        "effect": "提袋層疊瓦楞紙板",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:01:27.201Z",
+        "source_instruction": "Rebuild the subject from layered cardboard.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "3d2b0e00b29e1ab726cc7587654f46d5e5e737cb657a9f7b53711806cd102e50",
+        "applied_prompt_sha256": "d7cf00fa39e67220871d26a6f4a02946e63226c6d354210a6ae973232fb3a830",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "提袋袋體與兩個環形提把完整可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild tote and loop handles from stacked corrugated brown cardboard layers, exposed fluted corrugation at rim, edges and handles, clearly cardboard not fabric, clean background.",
+            "observed": "白棚景中呈現棕色紙板提袋造型。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "提袋層疊瓦楞紙板",
+            "observed": "袋口、提把與邊緣清楚露出層疊瓦楞結構。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "紙板層沿袋面及轉角連續，提把連接合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未宣稱實物承重或用途。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-clay-texture-01",
+      "prompt_id": "src-visual642-137",
+      "command": "/clay texture",
+      "title": "運動鞋手工黏土雕塑",
+      "description": "運動鞋手工黏土雕塑（AI案例示範）",
+      "result_text": "運動鞋手工黏土雕塑",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-07/clay-texture.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /clay texture: Sculpt the subject with a handmade clay texture. Reference image supplies subject identity only. Sculpt recognizable sneaker entirely from handworked terracotta clay, fingerprints, tool marks, slightly irregular seams and modeled lace details, monochrome earthen surface, studio. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Sculpt recognizable sneaker entirely from handworked terracotta clay, fingerprints, tool marks, slightly irregular seams and modeled lace details, monochrome earthen surface, studio.",
+        "effect": "運動鞋手工黏土雕塑",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:02:24.758Z",
+        "source_instruction": "Sculpt the subject with a handmade clay texture.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "c5a671f7b0c332258fc4f63a2b25f0dd6f479f15023074fb9bed1e0efad9ab5e",
+        "applied_prompt_sha256": "06ea5ab90f519f54b91742e19eec599c3bec19c8d777e1122336085744bb585a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鞋型、條紋及鞋帶完整保留為雕塑。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Sculpt recognizable sneaker entirely from handworked terracotta clay, fingerprints, tool marks, slightly irregular seams and modeled lace details, monochrome earthen surface, studio.",
+            "observed": "中性棚景中的單色陶土鞋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋手工黏土雕塑",
+            "observed": "手工指紋、刮刀痕及不均勻黏土表面清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "鞋帶與鞋底同為塑形黏土，接地陰影合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，無實際穿著功能宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-ceramic-glaze-01",
+      "prompt_id": "src-visual642-138",
+      "command": "/ceramic glaze",
+      "title": "機甲亮面陶瓷釉",
+      "description": "機甲亮面陶瓷釉（AI案例示範）",
+      "result_text": "機甲亮面陶瓷釉",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-07/ceramic-glaze.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /ceramic glaze: Coat the subject in a glossy ceramic glaze. Reference image supplies subject identity only. Entire recognizable colorful robot as glazed ceramic figurine, deep glossy porcelain-like glaze and smooth rounded sculpted armor edges, specular highlights, studio full body no joints machinery claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Entire recognizable colorful robot as glazed ceramic figurine, deep glossy porcelain-like glaze and smooth rounded sculpted armor edges, specular highlights, studio full body no joints machinery claims.",
+        "effect": "機甲亮面陶瓷釉",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:03:24.192Z",
+        "source_instruction": "Coat the subject in a glossy ceramic glaze.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "6ba20a50e93b56e907a2cf9bc2a45ea8862b81d1dc60b22e02772a5af9b3ff2c",
+        "applied_prompt_sha256": "f77d7079d968142604018c16a0a9cca80a30d4e0bc3560a5ee7a232770be6681",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲全身與彩色裝甲完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Entire recognizable colorful robot as glazed ceramic figurine, deep glossy porcelain-like glaze and smooth rounded sculpted armor edges, specular highlights, studio full body no joints machinery claims.",
+            "observed": "暗色棚景中展示光滑陶瓷公仔。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲亮面陶瓷釉",
+            "observed": "裝甲表面有濃亮釉面、圓滑邊緣與強烈鏡面高光。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "釉光跟隨每個曲面，主體站姿及反射一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未宣稱可動機械或製程參數。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-porcelain-crackle-01",
+      "prompt_id": "src-visual642-139",
+      "command": "/porcelain crackle",
+      "title": "葉形紙盒細裂紋瓷面",
+      "description": "葉形紙盒細裂紋瓷面（AI案例示範）",
+      "result_text": "葉形紙盒細裂紋瓷面",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-07/porcelain-crackle.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /porcelain crackle: Add a delicate crackled-porcelain finish. Reference image supplies subject identity only. Cube leaf box shape as pale celadon porcelain sculpture, delicate fine crazing crackle network across glossy ceramic faces, leaf motif in darker glaze, intact surface no broken pieces. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Cube leaf box shape as pale celadon porcelain sculpture, delicate fine crazing crackle network across glossy ceramic faces, leaf motif in darker glaze, intact surface no broken pieces.",
+        "effect": "葉形紙盒細裂紋瓷面",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:04:24.755Z",
+        "source_instruction": "Add a delicate crackled-porcelain finish.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "526fb263a71fe72423b5e0a91d65381d540796821c0cbdfdb8251cbeb684ae77",
+        "applied_prompt_sha256": "0ab8a4e156e6ffd197d4dcd1e164b7c45924a6fd0d73e58fd6b398a3e8f50747",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "盒體形狀與綠色葉圖案完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Cube leaf box shape as pale celadon porcelain sculpture, delicate fine crazing crackle network across glossy ceramic faces, leaf motif in darker glaze, intact surface no broken pieces.",
+            "observed": "淺色棚景中的青瓷盒形雕塑。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "葉形紙盒細裂紋瓷面",
+            "observed": "細緻不規則開片裂紋覆蓋亮面瓷表。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "裂紋沿三個盒面連續，盒體並未碎裂。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，無破碎部件或額外標註。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-stone-grain-01",
+      "prompt_id": "src-visual642-140",
+      "command": "/stone grain",
+      "title": "水瓶天然石紋雕刻",
+      "description": "水瓶天然石紋雕刻（AI案例示範）",
+      "result_text": "水瓶天然石紋雕刻",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-07/stone-grain.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /stone grain: Carve the subject with a natural stone grain. Reference image supplies subject identity only. Carve complete recognizable bottle and loop cap shape from natural pale sedimentary stone, visible stratified mineral grain and chisel traces, single stone sculpture, studio no usable bottle claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Carve complete recognizable bottle and loop cap shape from natural pale sedimentary stone, visible stratified mineral grain and chisel traces, single stone sculpture, studio no usable bottle claims.",
+        "effect": "水瓶天然石紋雕刻",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:05:22.367Z",
+        "source_instruction": "Carve the subject with a natural stone grain.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "7386d956ed2a90b9acd4b7bcac9865914a48d4d9225ec7efb0e84d4c29e89ac1",
+        "applied_prompt_sha256": "e1c0188eae579f32dc2a641f4888328932ccd027d07e4d1471fb040b3e9fe0ce",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "水瓶與環形蓋造型完整可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Carve complete recognizable bottle and loop cap shape from natural pale sedimentary stone, visible stratified mineral grain and chisel traces, single stone sculpture, studio no usable bottle claims.",
+            "observed": "桌面棚景中的單一石雕造型。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶天然石紋雕刻",
+            "observed": "淺色天然石層、礦物顆粒與鑿痕清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "石紋連續穿過瓶身，環形提環也為石雕。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未宣稱能裝水或實際使用。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-marble-veins-01",
+      "prompt_id": "src-visual642-141",
+      "command": "/marble veins",
+      "title": "運動鞋優雅大理石紋",
+      "description": "運動鞋優雅大理石紋（AI案例示範）",
+      "result_text": "運動鞋優雅大理石紋",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-07/marble-veins.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /marble veins: Run elegant marble veining through the subject. Reference image supplies subject identity only. Entire sneaker sculpted from polished white marble with elegant gray veining running continuously across upper sole and modeled laces, recognizable stripe relief, studio. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Entire sneaker sculpted from polished white marble with elegant gray veining running continuously across upper sole and modeled laces, recognizable stripe relief, studio.",
+        "effect": "運動鞋優雅大理石紋",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:06:17.676Z",
+        "source_instruction": "Run elegant marble veining through the subject.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "cdb6188b516bc7f5bf14173282dce68735acc0d2f4276f210076f581aeb4a01e",
+        "applied_prompt_sha256": "67bb90e2161af1e78003852517607b4987928e4aa0b7a699aace656d91c33e2a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "鞋型、鞋帶與條紋浮雕完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Entire sneaker sculpted from polished white marble with elegant gray veining running continuously across upper sole and modeled laces, recognizable stripe relief, studio.",
+            "observed": "淺色棚景中的白色石雕鞋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋優雅大理石紋",
+            "observed": "灰色大理石脈紋連續分布於鞋面、鞋帶與鞋底。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "拋光反光和石紋沿立體鞋形延伸。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未附穿著功能或材料規格宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-granite-texture-01",
+      "prompt_id": "src-visual642-142",
+      "command": "/granite texture",
+      "title": "提袋斑點花崗岩",
+      "description": "提袋斑點花崗岩（AI案例示範）",
+      "result_text": "提袋斑點花崗岩",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-07/granite-texture.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /granite texture: Give the subject a speckled granite texture. Reference image supplies subject identity only. Tote silhouette with two handles sculpted from gray speckled granite, clearly visible black white mineral speckles on body and handles, hard carved stone relief seams, neutral studio. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Tote silhouette with two handles sculpted from gray speckled granite, clearly visible black white mineral speckles on body and handles, hard carved stone relief seams, neutral studio.",
+        "effect": "提袋斑點花崗岩",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:07:22.804Z",
+        "source_instruction": "Give the subject a speckled granite texture.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "6fc54477840fec8b3e4108e2179e002e9be5f7e1239c57e17524d6dee792db1e",
+        "applied_prompt_sha256": "a896daaa63f94e8a519a32e5e8c57244815eb9e80a252cfec5500ede07c83a6a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "提袋及兩個環形提把保留原輪廓。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Tote silhouette with two handles sculpted from gray speckled granite, clearly visible black white mineral speckles on body and handles, hard carved stone relief seams, neutral studio.",
+            "observed": "中性棚景中的石雕提袋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "提袋斑點花崗岩",
+            "observed": "黑白灰礦物斑點顆粒覆蓋全部花崗岩表面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋體與提把同材質，雕刻接縫與硬邊一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未宣稱可攜帶或承重功能。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-concrete-grain-01",
+      "prompt_id": "src-visual642-143",
+      "command": "/concrete grain",
+      "title": "葉形紙盒混凝土顆粒",
+      "description": "葉形紙盒混凝土顆粒（AI案例示範）",
+      "result_text": "葉形紙盒混凝土顆粒",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-07/concrete-grain.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /concrete grain: Cast the subject with a realistic concrete grain. Reference image supplies subject identity only. Cube carton silhouette cast as gray concrete sculpture, realistic fine aggregate pores subtle formwork grain, leaf motif recessed in front, neutral studio, no functional packaging claim. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Cube carton silhouette cast as gray concrete sculpture, realistic fine aggregate pores subtle formwork grain, leaf motif recessed in front, neutral studio, no functional packaging claim.",
+        "effect": "葉形紙盒混凝土顆粒",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:08:21.114Z",
+        "source_instruction": "Cast the subject with a realistic concrete grain.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "8a59c63d0430697128e1b0b9afc3fe44fbb0b34d99fa254710317f1edc16767b",
+        "applied_prompt_sha256": "a8ee43eb8eba01d88e5e9e3f284fb63ee8ac75c8559ab481117ee4698ab45f61",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "立方盒輪廓及凹刻葉形保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Cube carton silhouette cast as gray concrete sculpture, realistic fine aggregate pores subtle formwork grain, leaf motif recessed in front, neutral studio, no functional packaging claim.",
+            "observed": "淺色棚景中完整灰色混凝土造型。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "葉形紙盒混凝土顆粒",
+            "observed": "細集料、氣孔與粗糙水泥面清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "質感沿三個盒面連續，陰影與幾何一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未宣稱實際包裝性能或製造尺寸。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-brutalist-concrete-01",
+      "prompt_id": "src-visual642-144",
+      "command": "/brutalist concrete",
+      "title": "機甲巨型粗獷混凝土",
+      "description": "機甲巨型粗獷混凝土（AI案例示範）",
+      "result_text": "機甲巨型粗獷混凝土",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-07/brutalist-concrete.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /brutalist concrete: Rebuild the subject in massive brutalist concrete. Reference image supplies subject identity only. Rebuild recognizable robot as a massive monolithic brutalist concrete monument with heavy blocky angular armor, raw board-formed concrete pores, tiny people nearby for scale, monumental plaza low camera angle. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild recognizable robot as a massive monolithic brutalist concrete monument with heavy blocky angular armor, raw board-formed concrete pores, tiny people nearby for scale, monumental plaza low camera angle.",
+        "effect": "機甲巨型粗獷混凝土",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:09:29.042Z",
+        "source_instruction": "Rebuild the subject in massive brutalist concrete.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "859d52aee963edd6415ca0255f9bd4dd08598370f9c803bdaef12b8e1df139dc",
+        "applied_prompt_sha256": "77569453d8a5bdabb4b1abc0de330c37abd95f7d899c928fbe7cd7243f0685a8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲頭部、裝甲與完整站姿可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild recognizable robot as a massive monolithic brutalist concrete monument with heavy blocky angular armor, raw board-formed concrete pores, tiny people nearby for scale, monumental plaza low camera angle.",
+            "observed": "巨型紀念雕塑立於階梯廣場，周圍有細小人物。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲巨型粗獷混凝土",
+            "observed": "厚重塊狀造型、裸露模板紋及混凝土孔洞清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "人物遠小於雕塑，低視角強調巨大粗獷尺度。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未宣稱真實建造或結構安全。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1440 @@
+{
+  "version": 1,
+  "id": "batch-20-25",
+  "cases": [
+    {
+      "id": "case-side-25-01",
+      "prompt_id": "src-visual642-485",
+      "command": "/sidebyside",
+      "title": "桌扇兩種配色對照",
+      "description": "桌扇兩種配色對照（AI案例示範）",
+      "result_text": "桌扇兩種配色對照",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-25/side-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title SIDE BY SIDE. Two identical fan front three-quarter views same baseline and scale: left reference cream body teal blades label CREAM, right same design charcoal body teal blades label CHARCOAL. Only color changes. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /sidebyside: Compare two versions in matching views.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title SIDE BY SIDE. Two identical fan front three-quarter views same baseline and scale: left reference cream body teal blades label CREAM, right same design charcoal body teal blades label CHARCOAL. Only color changes.",
+        "effect": "桌扇兩種配色對照",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:44:07.122Z",
+        "source_instruction": "Compare two versions in matching views.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "698d653e6d6516b84eb67a371c887d32a4481d55f18fb97378e8ab3f3f02ca37",
+        "applied_prompt_sha256": "e127f4e19e96fcc0035a2e498a4a5f7724eae73aec9c3464c86ae4f4e119cc67",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "兩台同款桌扇，左奶油右炭灰",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title SIDE BY SIDE. Two identical fan front three-quarter views same baseline and scale: left reference cream body teal blades label CREAM, right same design charcoal body teal blades label CHARCOAL. Only color changes.",
+            "observed": "白底匹配視角比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇兩種配色對照",
+            "observed": "僅外殼配色變更，青綠葉片保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "同角度同基準線與近同尺度，結構按鈕USB線對應",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CREAM、CHARCOAL與SIDE BY SIDE清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-matrix-25-01",
+      "prompt_id": "src-visual642-486",
+      "command": "/featurematrix",
+      "title": "手提袋設計特徵矩陣",
+      "description": "手提袋設計特徵矩陣（AI案例示範）",
+      "result_text": "手提袋設計特徵矩陣",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-25/matrix-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title FEATURE MATRIX CONCEPT. Two tote design columns STANDARD open-top cream bag with no pocket, ZIP POCKET cream bag with top zipper and front pocket. Three rows ZIP CLOSURE, FRONT POCKET, TWO HANDLES. Check grid standard no,no,yes; zip pocket yes,yes,yes. Clear row alignment. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /featurematrix: Compare features in a visual grid.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title FEATURE MATRIX CONCEPT. Two tote design columns STANDARD open-top cream bag with no pocket, ZIP POCKET cream bag with top zipper and front pocket. Three rows ZIP CLOSURE, FRONT POCKET, TWO HANDLES. Check grid standard no,no,yes; zip pocket yes,yes,yes. Clear row alignment.",
+        "effect": "手提袋設計特徵矩陣",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:45:00.614Z",
+        "source_instruction": "Compare features in a visual grid.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "dbb2de8f20d9c71a731b926a31944e36a768987f6e927d74e6f2b8ef120ffa64",
+        "applied_prompt_sha256": "e455ed2517591819c11bf98113f346ac0a77afb65f30914fa7e62ffdcdb600fd",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "標準帆布袋與拉鍊前袋改款",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title FEATURE MATRIX CONCEPT. Two tote design columns STANDARD open-top cream bag with no pocket, ZIP POCKET cream bag with top zipper and front pocket. Three rows ZIP CLOSURE, FRONT POCKET, TWO HANDLES. Check grid standard no,no,yes; zip pocket yes,yes,yes. Clear row alignment.",
+            "observed": "產品加特徵矩陣",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋設計特徵矩陣",
+            "observed": "三列對照拉鍊、前袋、雙提把",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "標準無無有、改款有有有，六個勾叉與兩產品一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "兩欄款名與三行標籤可讀，CONCEPT明確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-pros-25-01",
+      "prompt_id": "src-visual642-487",
+      "command": "/proscons",
+      "title": "大小手提袋優缺點",
+      "description": "大小手提袋優缺點（AI案例示範）",
+      "result_text": "大小手提袋優缺點",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-25/pros-25.png",
+      "applied_prompt": "Square two-tote advantages and disadvantages concept comparison. Title SIZE TRADEOFFS CONCEPT. Left LARGE cream tote books inside: green PLUS circle text MORE SPACE, red MINUS circle text MORE BULK. Right COMPACT smaller cream tote phone wallet: green PLUS circle text LESS BULK, red MINUS circle text LESS SPACE. Make both columns same order: advantage green on TOP and disadvantage red BELOW. Exactly four rows total. No checkmarks no crosses. Same brown handles style, smaller bag clearly smaller. Original /proscons: Show advantages and disadvantages clearly.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title SIZE TRADEOFFS CONCEPT. Large tote left contains books label LARGE: MORE SPACE / MORE BULK. Compact smaller tote right holds phone wallet label COMPACT: LESS BULK / LESS SPACE. Same cream brown-handle style, clear visual space comparison.",
+        "effect": "大小手提袋優缺點",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:46:49.633Z",
+        "source_instruction": "Show advantages and disadvantages clearly.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "b3bd4d35f2e25e0c312049e76ac5b1b34b53abe45d4ccfbbf4a033a3d1240b2c",
+        "applied_prompt_sha256": "d392a8447d5f19f8735e08e91de2f73fcf24a5f83d195d15c91a6933c17c9611",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款大袋與小袋，分別裝書本及手機錢包",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title SIZE TRADEOFFS CONCEPT. Large tote left contains books label LARGE: MORE SPACE / MORE BULK. Compact smaller tote right holds phone wallet label COMPACT: LESS BULK / LESS SPACE. Same cream brown-handle style, clear visual space comparison.",
+            "observed": "左右大小取捨比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "大小手提袋優缺點",
+            "observed": "大袋多空間多體積、小袋少體積少空間",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩欄上方綠加號優點、下方紅減號缺點與實際大小一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "MORE SPACE、MORE BULK、LESS BULK、LESS SPACE正確可讀，未聲稱重量數值",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "小袋優缺點勾叉顛倒：少體積應為優點、少空間為缺點",
+          "applied_prompt": "Create a square web-quality website example. Title SIZE TRADEOFFS CONCEPT. Large tote left contains books label LARGE: MORE SPACE / MORE BULK. Compact smaller tote right holds phone wallet label COMPACT: LESS BULK / LESS SPACE. Same cream brown-handle style, clear visual space comparison. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /proscons: Show advantages and disadvantages clearly.",
+          "result": "output/imagegen/batch-20-25/pros-25-repair-before-1.png"
+        }
+      ]
+    },
+    {
+      "id": "case-choose-25-01",
+      "prompt_id": "src-visual642-488",
+      "command": "/whichone",
+      "title": "攜帶書本袋款選擇",
+      "description": "攜帶書本袋款選擇（AI案例示範）",
+      "result_text": "攜帶書本袋款選擇",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-25/choose-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title WHICH BAG FOR BOOKS? Reference full-size tote left holds three books green check ROOM FOR BOOKS. Tiny pouch right with books clearly too large beside red cross TOO SMALL. No brand claims. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /whichone: Present a visual recommendation between options.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title WHICH BAG FOR BOOKS? Reference full-size tote left holds three books green check ROOM FOR BOOKS. Tiny pouch right with books clearly too large beside red cross TOO SMALL. No brand claims.",
+        "effect": "攜帶書本袋款選擇",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:50:53.030Z",
+        "source_instruction": "Present a visual recommendation between options.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "7abd96a525f4fa483a088e07d6fac8895df614c4a067de038f1a868a28327b57",
+        "applied_prompt_sha256": "c4ff2da33c4742a4ddc4fd0a6b807bbbb71dc51014ea1dcd925d0383a8bcc715",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白棕色提把帆布袋與小拉鍊袋並列",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title WHICH BAG FOR BOOKS? Reference full-size tote left holds three books green check ROOM FOR BOOKS. Tiny pouch right with books clearly too large beside red cross TOO SMALL. No brand claims.",
+            "observed": "室內木桌雙欄比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "攜帶書本袋款選擇",
+            "observed": "大袋可裝三本書、小袋太小，呈現選擇建議",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三本書在大袋內，小袋旁書本留在袋外，尺寸關係清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "WHICH BAG FOR BOOKS、ROOM FOR BOOKS綠勾、TOO SMALL紅叉清楚且一致",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-before-25-01",
+      "prompt_id": "src-visual642-489",
+      "command": "/beforeafter",
+      "title": "帆布袋清潔前後",
+      "description": "帆布袋清潔前後（AI案例示範）",
+      "result_text": "帆布袋清潔前後",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-25/before-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title BEFORE AND AFTER. Same tote same angle scale left BEFORE with small muddy stains on fabric, right AFTER clean cream fabric. No whitening color change, same seam and handles. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /beforeafter: Show a change, repair, or transformation.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title BEFORE AND AFTER. Same tote same angle scale left BEFORE with small muddy stains on fabric, right AFTER clean cream fabric. No whitening color change, same seam and handles.",
+        "effect": "帆布袋清潔前後",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:51:27.600Z",
+        "source_instruction": "Show a change, repair, or transformation.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "6c46791a06da513d2e8bc31b17bf0317760865f6f14d61f20b701c9eb355a2a8",
+        "applied_prompt_sha256": "1ff14906a1603c3060b6680b1ebc55f41610e919a0aa2a8589f8a2f374d8e4d9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款米白帆布袋與棕色雙提把",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title BEFORE AND AFTER. Same tote same angle scale left BEFORE with small muddy stains on fabric, right AFTER clean cream fabric. No whitening color change, same seam and handles.",
+            "observed": "木桌室內相同角度並列",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋清潔前後",
+            "observed": "左袋泥斑、右袋乾淨，清潔前後對照明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋體大小、相機角度與環境一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "BEFORE與AFTER標示正確，無額外功能宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-old-25-01",
+      "prompt_id": "src-visual642-490",
+      "command": "/oldnew",
+      "title": "感應燈新舊外觀設計",
+      "description": "感應燈新舊外觀設計（AI案例示範）",
+      "result_text": "感應燈新舊外觀設計",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-25/old-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title OLD AND NEW CONCEPT. Same front-view wall-light outline left OLD angular thick housing, right NEW slimmer rounded reference housing. Both rectangular diffuser above circular sensor. No efficiency or power numbers. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /oldnew: Compare an older and newer version.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title OLD AND NEW CONCEPT. Same front-view wall-light outline left OLD angular thick housing, right NEW slimmer rounded reference housing. Both rectangular diffuser above circular sensor. No efficiency or power numbers.",
+        "effect": "感應燈新舊外觀設計",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:52:03.584Z",
+        "source_instruction": "Compare an older and newer version.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "ffb23a3b171827da9196f55bdef3f7e47888e46909728f3597f89303a50518d7",
+        "applied_prompt_sha256": "3a655d776d0faf87e68b2cbe936cf316b8354de45f3d9113edbe4c701bbce77e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色感應燈新舊兩款，上方發光板下方圓形感應器",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title OLD AND NEW CONCEPT. Same front-view wall-light outline left OLD angular thick housing, right NEW slimmer rounded reference housing. Both rectangular diffuser above circular sensor. No efficiency or power numbers.",
+            "observed": "灰色棚拍並列概念比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈新舊外觀設計",
+            "observed": "舊款直角厚殼，新款圓角外型清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩者相同比例與視角，功能部位延續",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "OLD AND NEW CONCEPT、OLD、NEW清楚，沒有性能提升宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-room-25-01",
+      "prompt_id": "src-visual642-491",
+      "command": "/roomplacement",
+      "title": "感應燈室內擺放",
+      "description": "感應燈室內擺放（AI案例示範）",
+      "result_text": "感應燈室內擺放",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-25/room-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title ROOM PLACEMENT. Reference motion wall light mounted low on hallway wall near stairs, warm glow lights walkway. Wide interior view lamp visible and clear walking path. No trip cables. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /roomplacement: Show where the object fits in a room.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title ROOM PLACEMENT. Reference motion wall light mounted low on hallway wall near stairs, warm glow lights walkway. Wide interior view lamp visible and clear walking path. No trip cables.",
+        "effect": "感應燈室內擺放",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:52:35.294Z",
+        "source_instruction": "Show where the object fits in a room.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "064122b0163a070ed4be5964fbd881c0a8deedb763c1ccbfb80a2c957d1e6660",
+        "applied_prompt_sha256": "2edaa31b7564f8ff3f59e7d2ae821ae5b8dff4aafe6f5d2a9a0d45be25f169dd",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色感應夜燈，上方亮板下方感應器",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title ROOM PLACEMENT. Reference motion wall light mounted low on hallway wall near stairs, warm glow lights walkway. Wide interior view lamp visible and clear walking path. No trip cables.",
+            "observed": "黃昏室內走廊樓梯旁牆面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈室內擺放",
+            "observed": "低位壁掛燈照亮鄰近地板，表達空間配置",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "燈固定牆上不阻擋走道，樓梯與燈距離合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "ROOM PLACEMENT字樣清楚，暖光與室內陰影一致",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-skeleton-25-01",
+      "prompt_id": "src-visual642-492",
+      "command": "/skeletonview",
+      "title": "房屋木構支撐框架",
+      "description": "房屋木構支撐框架（AI案例示範）",
+      "result_text": "房屋木構支撐框架",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-25/skeleton-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title FRAMEWORK CONCEPT. Reference small house exterior ghosted away to reveal regular timber wall studs, horizontal top and bottom plates, floor joists and triangular roof trusses. Labels WALL STUDS, FLOOR JOISTS, ROOF TRUSSES with correct leaders. Concept not construction plan. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /skeletonview: Show the supporting bones or framework.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title FRAMEWORK CONCEPT. Reference small house exterior ghosted away to reveal regular timber wall studs, horizontal top and bottom plates, floor joists and triangular roof trusses. Labels WALL STUDS, FLOOR JOISTS, ROOF TRUSSES with correct leaders. Concept not construction plan.",
+        "effect": "房屋木構支撐框架",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:53:18.842Z",
+        "source_instruction": "Show the supporting bones or framework.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "ec0677d5f2821084ca34083ce7aa55fd0889cafdcb0fed0a13a802c474046077",
+        "applied_prompt_sha256": "419500c4fb7124640541ad5dac115fd2b580419d94a82435636fcfec541a1b24",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://bsesc.energy.gov/energy-basics/framing-building-wall-advanced-framing"
+          ],
+          "notes": "木構支撐的立柱、樓板梁與屋架為通用概念，不推定實際房屋結構或施工尺寸。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "兩層坡頂木屋裸露木骨架",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title FRAMEWORK CONCEPT. Reference small house exterior ghosted away to reveal regular timber wall studs, horizontal top and bottom plates, floor joists and triangular roof trusses. Labels WALL STUDS, FLOOR JOISTS, ROOF TRUSSES with correct leaders. Concept not construction plan.",
+            "observed": "戶外草坪藍天，框架概念圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "房屋木構支撐框架",
+            "observed": "移除牆面顯示屋架、立柱與底層樓板結構",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "屋頂斜桁架、牆面直立木柱、底部樓板邊端構件分層清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "ROOF TRUSSES、WALL STUDS、FLOOR JOISTS引線分別落在屋頂、牆柱及底層樓板框架；概念示意非施工圖",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cell-25-01",
+      "prompt_id": "src-visual642-493",
+      "command": "/cellularview",
+      "title": "檸檬組織細胞示意",
+      "description": "檸檬組織細胞示意（AI案例示範）",
+      "result_text": "檸檬組織細胞示意",
+      "reference": "output/imagegen/batch-20-15/lemon-reference.png",
+      "result": "output/imagegen/batch-20-25/cell-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title PLANT CELL STRUCTURE. Lemon wedge small left with zoom connector to schematic enlarged plant tissue cells. Large focal plant cell has rigid outer CELL WALL, purple NUCLEUS at edge, large pale yellow CENTRAL VACUOLE occupying center. Thin cytoplasm margin, no green chloroplasts in ripe juice tissue. Concept illustration not actual micrograph. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /cellularview: Zoom into cells or microscopic structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-15/lemon-reference.png",
+        "sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photo of a single whole yellow lemon beside one matching half lemon showing naturally radial pale yellow juicy segments and white pith, plain white seamless studio, no other objects, no labels, no logo, whole fruit visible, square web quality, natural accurate citrus structure."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title PLANT CELL STRUCTURE. Lemon wedge small left with zoom connector to schematic enlarged plant tissue cells. Large focal plant cell has rigid outer CELL WALL, purple NUCLEUS at edge, large pale yellow CENTRAL VACUOLE occupying center. Thin cytoplasm margin, no green chloroplasts in ripe juice tissue. Concept illustration not actual micrograph.",
+        "effect": "檸檬組織細胞示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:53:51.945Z",
+        "source_instruction": "Zoom into cells or microscopic structure.",
+        "reference_sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "result_sha256": "1d4493a67d63706db7f5cbc73902b78bb975cc4e76aa16e8c52fc96935484430",
+        "applied_prompt_sha256": "072c56972c823d503eabf8e6fcdc2da50ef8576f59a2630a1c1782e95d20a9c2",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+            "https://blumwald.ucdavis.edu/sites/g/files/dgvnsk6161/files/inline-files/sadka%20et%20al.2019.Frontiers.pdf"
+          ],
+          "notes": "成熟柑橘汁囊組織的植物細胞概念，檢查細胞壁、核與大型液泡位置；非顯微實拍，不把汁囊當單細胞或畫綠色葉綠體。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "檸檬與切面連到植物細胞放大示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title PLANT CELL STRUCTURE. Lemon wedge small left with zoom connector to schematic enlarged plant tissue cells. Large focal plant cell has rigid outer CELL WALL, purple NUCLEUS at edge, large pale yellow CENTRAL VACUOLE occupying center. Thin cytoplasm margin, no green chloroplasts in ripe juice tissue. Concept illustration not actual micrograph.",
+            "observed": "白背景科學解說構圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬組織細胞示意",
+            "observed": "從果肉局部放大呈現細胞壁、液泡及細胞核",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "大中央液泡占細胞多數空間、紫色細胞核位於邊緣、細胞質薄層在周邊",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CELL WALL、NUCLEUS、CENTRAL VACUOLE、CYTOPLASM引線對應正確，無綠色葉綠體；示意非顯微照片",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-molecule-25-01",
+      "prompt_id": "src-visual642-494",
+      "command": "/molecularview",
+      "title": "瓶中水分子示意",
+      "description": "瓶中水分子示意（AI案例示範）",
+      "result_text": "瓶中水分子示意",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-25/molecule-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title WATER AT MOLECULAR SCALE. Small open reference bottle with visible water at left, zoom circle at right contains exactly one red oxygen sphere labeled O and two smaller white hydrogen spheres each H, bent H-O-H V geometry with exactly two bonds. Label H2O. No extra atoms in focal molecule. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /molecularview: Show the subject at molecular scale.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title WATER AT MOLECULAR SCALE. Small open reference bottle with visible water at left, zoom circle at right contains exactly one red oxygen sphere labeled O and two smaller white hydrogen spheres each H, bent H-O-H V geometry with exactly two bonds. Label H2O. No extra atoms in focal molecule.",
+        "effect": "瓶中水分子示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:54:32.785Z",
+        "source_instruction": "Show the subject at molecular scale.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "ffbaef4e72da0b579c2829b4a5bab90eb163bcfc6ebb5c301596210a48908227",
+        "applied_prompt_sha256": "8de687ced56c2ec77a36cb08805a0453b3d1c500da1a22fed981d6c68f9d8848",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.usgs.gov/media/images/water-isotopes-diagram"
+          ],
+          "notes": "瓶內水作為主題，水分子一氧二氫與彎曲兩鍵結構；瓶子只是容器背景，不宣稱瓶身為水分子。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "開蓋鼠尾草綠保溫瓶內有水，黑蓋在桌上",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title WATER AT MOLECULAR SCALE. Small open reference bottle with visible water at left, zoom circle at right contains exactly one red oxygen sphere labeled O and two smaller white hydrogen spheres each H, bent H-O-H V geometry with exactly two bonds. Label H2O. No extra atoms in focal molecule.",
+            "observed": "暖色木桌與放大圓窗",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "瓶中水分子示意",
+            "observed": "從瓶內水連線到單一水分子模型",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "紅色氧球連兩個白色氫球呈彎曲排列，僅兩條鍵",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "O、H、H與H₂O正確，放大位置對應水而非金屬瓶體",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-muscles-25-01",
+      "prompt_id": "src-visual642-495",
+      "command": "/musclemap",
+      "title": "主要前側肌肉定位",
+      "description": "主要前側肌肉定位（AI案例示範）",
+      "result_text": "主要前側肌肉定位",
+      "reference": "output/imagegen/batch-20-16/body-reference.png",
+      "result": "output/imagegen/batch-20-25/muscles-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title ANTERIOR MUSCLES. Front anatomical mannequin with simplified red muscle overlay. Exactly five labels DELTOID shoulder cap, PECTORALIS MAJOR chest, BICEPS BRACHII front upper arm, RECTUS ABDOMINIS central abdomen, QUADRICEPS front thigh. Each thin line to correct region. Non-graphic education, no symptoms. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /musclemap: Label major muscles and their positions.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/body-reference.png",
+        "sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: scientific-educational. Neutral reference of one generic adult human mannequin silhouette standing front view, arms slightly away from torso, hands open, both legs visible, smooth opaque light gray body with no internal organs, no facial detail no nudity detail, white background, entire head to feet visible. Symmetric anatomically ordinary proportions, no text, no logos. Square web-quality educational reference."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title ANTERIOR MUSCLES. Front anatomical mannequin with simplified red muscle overlay. Exactly five labels DELTOID shoulder cap, PECTORALIS MAJOR chest, BICEPS BRACHII front upper arm, RECTUS ABDOMINIS central abdomen, QUADRICEPS front thigh. Each thin line to correct region. Non-graphic education, no symptoms.",
+        "effect": "主要前側肌肉定位",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:55:09.070Z",
+        "source_instruction": "Label major muscles and their positions.",
+        "reference_sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "result_sha256": "f971089be5c0a787336758b62d6391810fa36c12976db1c96a92d32ace394344",
+        "applied_prompt_sha256": "04fa47a6538980392c0b8301e6078ad5a9123a78ae266e9f97868a1564d25d2a",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://openstax.org/books/anatomy-and-physiology/pages/11-5-muscles-of-the-pectoral-girdle-and-upper-limbs",
+            "https://openstax.org/books/anatomy-and-physiology/pages/11-2-naming-skeletal-muscles",
+            "https://openstax.org/books/anatomy-and-physiology/pages/11-chapter-review"
+          ],
+          "notes": "前側主要肌群概覽：三角肌肩、胸大肌胸、肱二頭肌上臂前、腹直肌腹中、股四頭肌前大腿；不聲稱涵蓋全部肌肉。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "正面人體肌肉模型",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title ANTERIOR MUSCLES. Front anatomical mannequin with simplified red muscle overlay. Exactly five labels DELTOID shoulder cap, PECTORALIS MAJOR chest, BICEPS BRACHII front upper arm, RECTUS ABDOMINIS central abdomen, QUADRICEPS front thigh. Each thin line to correct region. Non-graphic education, no symptoms.",
+            "observed": "白底完整站姿教育示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "主要前側肌肉定位",
+            "observed": "五項前側肌群以紅肌纖維和引線標註",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三角肌肩部、胸大肌胸前、肱二頭肌上臂前、腹直肌腹中、股四頭肌大腿前側位置正確",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "ANTERIOR MUSCLES及五個英文肌名可讀，引線末端落在對應肌群；簡化示意",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-organs-25-01",
+      "prompt_id": "src-visual642-496",
+      "command": "/organmap",
+      "title": "主要內部器官定位",
+      "description": "主要內部器官定位（AI案例示範）",
+      "result_text": "主要內部器官定位",
+      "reference": "output/imagegen/batch-20-16/body-reference.png",
+      "result": "output/imagegen/batch-20-25/organs-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title ORGAN MAP. Front neutral mannequin translucent chest abdomen. Label five organs BRAIN inside skull, LUNGS paired chest, HEART between lungs slightly subject left viewer right, LIVER subject right viewer left upper abdomen, STOMACH subject left viewer right upper abdomen below heart. Correct leaders, no duplicated organs. Simplified education. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /organmap: Label internal organs or internal systems.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/body-reference.png",
+        "sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: scientific-educational. Neutral reference of one generic adult human mannequin silhouette standing front view, arms slightly away from torso, hands open, both legs visible, smooth opaque light gray body with no internal organs, no facial detail no nudity detail, white background, entire head to feet visible. Symmetric anatomically ordinary proportions, no text, no logos. Square web-quality educational reference."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title ORGAN MAP. Front neutral mannequin translucent chest abdomen. Label five organs BRAIN inside skull, LUNGS paired chest, HEART between lungs slightly subject left viewer right, LIVER subject right viewer left upper abdomen, STOMACH subject left viewer right upper abdomen below heart. Correct leaders, no duplicated organs. Simplified education.",
+        "effect": "主要內部器官定位",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:55:48.633Z",
+        "source_instruction": "Label internal organs or internal systems.",
+        "reference_sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "result_sha256": "d793a6c0cc1363eaa1554e5011082297b8c0c977b4ab29977b0ee1c2ce8f8649",
+        "applied_prompt_sha256": "39d7cf1faea577310302ee4f92559fa06ae792935ab4b0c1357f468b62a63d0d",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.nhlbi.nih.gov/health/lungs/respiratory-system",
+            "https://www.nhlbi.nih.gov/health/heart/anatomy",
+            "https://medlineplus.gov/ency/imagepages/8710.htm"
+          ],
+          "notes": "正面圖須區分受試者與觀看者左右：肝在人體右、胃在人體左，心位於兩肺間偏人體左；腦在頭內。簡化教育圖，不診斷。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "透明正面人體及腦、肺、心、肝、胃",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title ORGAN MAP. Front neutral mannequin translucent chest abdomen. Label five organs BRAIN inside skull, LUNGS paired chest, HEART between lungs slightly subject left viewer right, LIVER subject right viewer left upper abdomen, STOMACH subject left viewer right upper abdomen below heart. Correct leaders, no duplicated organs. Simplified education.",
+            "observed": "白底教育器官位置圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "主要內部器官定位",
+            "observed": "透明體表顯露主要器官並以五色引線標示",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "腦在顱內、肺成對、心在兩肺間偏人體左側、肝主體在人體右上腹、胃在左上腹",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "BRAIN LUNGS HEART LIVER STOMACH文字和引線對應正確，簡化位置示意非完整解剖圖",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-posture-25-01",
+      "prompt_id": "src-visual642-497",
+      "command": "/posturemap",
+      "title": "站姿平衡示意",
+      "description": "站姿平衡示意（AI案例示範）",
+      "result_text": "站姿平衡示意",
+      "reference": "output/imagegen/batch-20-16/body-reference.png",
+      "result": "output/imagegen/batch-20-25/posture-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title POSTURE AND BALANCE. Clothed neutral adult side view stands upright feet flat, ear shoulder hip ankle nearly vertically aligned. Thin dashed vertical alignment line and four labeled points EAR, SHOULDER, HIP, ANKLE. Simple balance illustration no cure or perfect-posture claim. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /posturemap: Explain posture, balance, and body alignment.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/body-reference.png",
+        "sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: scientific-educational. Neutral reference of one generic adult human mannequin silhouette standing front view, arms slightly away from torso, hands open, both legs visible, smooth opaque light gray body with no internal organs, no facial detail no nudity detail, white background, entire head to feet visible. Symmetric anatomically ordinary proportions, no text, no logos. Square web-quality educational reference."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title POSTURE AND BALANCE. Clothed neutral adult side view stands upright feet flat, ear shoulder hip ankle nearly vertically aligned. Thin dashed vertical alignment line and four labeled points EAR, SHOULDER, HIP, ANKLE. Simple balance illustration no cure or perfect-posture claim.",
+        "effect": "站姿平衡示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:56:30.249Z",
+        "source_instruction": "Explain posture, balance, and body alignment.",
+        "reference_sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "result_sha256": "7126abe02526e4f0fe06e83532cc680c17fecc5cfc3606ff0373c82b09555e0e",
+        "applied_prompt_sha256": "b8e27dd2316c2aefc4489deac211d66f826c24b6af818c454deb1d3f318069db",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://openstax.org/books/anatomy-and-physiology/pages/11-chapter-review"
+          ],
+          "notes": "自然站立的對齊與平衡為簡化示意，不將單一垂線當所有人理想姿勢或醫療矯正。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "穿藍上衣深短褲的側面成人模型",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title POSTURE AND BALANCE. Clothed neutral adult side view stands upright feet flat, ear shoulder hip ankle nearly vertically aligned. Thin dashed vertical alignment line and four labeled points EAR, SHOULDER, HIP, ANKLE. Simple balance illustration no cure or perfect-posture claim.",
+            "observed": "白底站姿示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "站姿平衡示意",
+            "observed": "虛線標出耳肩髖踝的近似垂直平衡參考",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "四個點位分別落在耳、肩、髖側與踝附近，雙腳著地",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "POSTURE AND BALANCE及四部位英文清楚，沒有治療或完美姿勢宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-gesture-25-01",
+      "prompt_id": "src-visual642-498",
+      "command": "/gestureguide",
+      "title": "手掌向外停止手勢",
+      "description": "手掌向外停止手勢（AI案例示範）",
+      "result_text": "手掌向外停止手勢",
+      "reference": "output/imagegen/batch-20-16/body-reference.png",
+      "result": "output/imagegen/batch-20-25/gesture-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title STOP GESTURE. Clothed adult upper body neutral face, one arm raised elbow bent palm facing viewer all five fingers extended and separated. Other hand down. Simple guide image no threatening expression. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /gestureguide: Show a gesture or body position clearly.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/body-reference.png",
+        "sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: scientific-educational. Neutral reference of one generic adult human mannequin silhouette standing front view, arms slightly away from torso, hands open, both legs visible, smooth opaque light gray body with no internal organs, no facial detail no nudity detail, white background, entire head to feet visible. Symmetric anatomically ordinary proportions, no text, no logos. Square web-quality educational reference."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title STOP GESTURE. Clothed adult upper body neutral face, one arm raised elbow bent palm facing viewer all five fingers extended and separated. Other hand down. Simple guide image no threatening expression.",
+        "effect": "手掌向外停止手勢",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:56:57.876Z",
+        "source_instruction": "Show a gesture or body position clearly.",
+        "reference_sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "result_sha256": "450e7cb0a666c3b1dc69b77b47354d261860a29126739dbe9c447b1464d6c599",
+        "applied_prompt_sha256": "2b26e439d40acc7f1554bb90ff6450a37b8b15bac5bb5f1302a65a2b08e2d491",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "穿藍上衣牛仔褲的成人",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title STOP GESTURE. Clothed adult upper body neutral face, one arm raised elbow bent palm facing viewer all five fingers extended and separated. Other hand down. Simple guide image no threatening expression.",
+            "observed": "白底正面半身手勢示範",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手掌向外停止手勢",
+            "observed": "一手抬起掌心朝前表示停止",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "抬手五指分明、拇指位置正常，另一手自然垂下",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "STOP GESTURE清楚，無多餘手指或標註歧義",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-behavior-25-01",
+      "prompt_id": "src-visual642-499",
+      "command": "/behaviorsequence",
+      "title": "手提袋使用行為順序",
+      "description": "手提袋使用行為順序（AI案例示範）",
+      "result_text": "手提袋使用行為順序",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-25/behavior-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title DAILY TOTE ROUTINE. Three numbered panels 1 PACK put books in tote on table, 2 CARRY clothed adult holds handles walking, 3 UNPACK remove books at desk. Same tote and books throughout. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /behaviorsequence: Show actions or behavior in order.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title DAILY TOTE ROUTINE. Three numbered panels 1 PACK put books in tote on table, 2 CARRY clothed adult holds handles walking, 3 UNPACK remove books at desk. Same tote and books throughout.",
+        "effect": "手提袋使用行為順序",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:57:53.109Z",
+        "source_instruction": "Show actions or behavior in order.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "ef208927023b28fddb9bcb7723b16e19ed50f7c59d9a42cf602d11b62606f30a",
+        "applied_prompt_sha256": "7c659d6ba73a499d021a1068698a194ca31ba8b5761fa1053fec304185aa037c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款米白棕提把帆布袋與穿針織衣人物",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title DAILY TOTE ROUTINE. Three numbered panels 1 PACK put books in tote on table, 2 CARRY clothed adult holds handles walking, 3 UNPACK remove books at desk. Same tote and books throughout.",
+            "observed": "室內桌面、戶外步行、室內書桌三分鏡",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋使用行為順序",
+            "observed": "PACK裝書、CARRY肩背、UNPACK從袋取書形成使用順序",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "書本與手均在袋口互動，提把在肩上、袋身垂下，三格袋款一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "DAILY TOTE ROUTINE及1 PACK 2 CARRY 3 UNPACK可讀，取放動作由序列和標題共同表達",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-habitat-25-01",
+      "prompt_id": "src-visual642-500",
+      "command": "/habitatview",
+      "title": "人物與生活環境",
+      "description": "人物與生活環境（AI案例示範）",
+      "result_text": "人物與生活環境",
+      "reference": "output/imagegen/batch-20-16/body-reference.png",
+      "result": "output/imagegen/batch-20-25/habitat-25.png",
+      "applied_prompt": "Create a square web-quality website example. Clothed adult in comfortable casual clothing reading in cozy home study, bookshelves window desk houseplants, full person naturally seated in environment. Title HOME HABITAT. Reference mannequin is proportion guide only, render realistic human with shirt and trousers. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /habitatview: Place a person or animal in its environment.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/body-reference.png",
+        "sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: scientific-educational. Neutral reference of one generic adult human mannequin silhouette standing front view, arms slightly away from torso, hands open, both legs visible, smooth opaque light gray body with no internal organs, no facial detail no nudity detail, white background, entire head to feet visible. Symmetric anatomically ordinary proportions, no text, no logos. Square web-quality educational reference."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Clothed adult in comfortable casual clothing reading in cozy home study, bookshelves window desk houseplants, full person naturally seated in environment. Title HOME HABITAT. Reference mannequin is proportion guide only, render realistic human with shirt and trousers.",
+        "effect": "人物與生活環境",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:58:34.116Z",
+        "source_instruction": "Place a person or animal in its environment.",
+        "reference_sha256": "a644f2500b30132adc1634f3347e014d8d9633aac38805affd11e36475973762",
+        "result_sha256": "0de030ad4e24ee904e7fe53bd13af4da48c00a35607291fea30fb905003a8690",
+        "applied_prompt_sha256": "5fd03862430163fc9d219bf621895ee322dfd347b92bd23d44a7f8400c0f55ab",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "穿著完整的成人坐在扶手椅閱讀",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Clothed adult in comfortable casual clothing reading in cozy home study, bookshelves window desk houseplants, full person naturally seated in environment. Title HOME HABITAT. Reference mannequin is proportion guide only, render realistic human with shirt and trousers.",
+            "observed": "有書架、書桌、植物、窗戶的居家書房",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "人物與生活環境",
+            "observed": "人體置於自然生活環境並從事閱讀",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "雙手持書、腿交疊坐在椅上，身體與家具支撐合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "HOME HABITAT清楚，沒有醫學標註要求，手足及家具未見明顯錯接",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-interact-25-01",
+      "prompt_id": "src-visual642-501",
+      "command": "/interactionmap",
+      "title": "桌面設備互動關係",
+      "description": "桌面設備互動關係（AI案例示範）",
+      "result_text": "桌面設備互動關係",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-25/interact-25.png",
+      "applied_prompt": "Create a square web-quality website example. Title DESK INTERACTION MAP. Seated clothed person at desk with laptop left, fan right, lamp upper wall. Three arrows labeled TYPES from hands to keyboard, AIRFLOW from fan toward person, LIGHT from lamp toward desk. Clear no crossing arrows. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /interactionmap: Show relationships between the subject and surroundings.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Title DESK INTERACTION MAP. Seated clothed person at desk with laptop left, fan right, lamp upper wall. Three arrows labeled TYPES from hands to keyboard, AIRFLOW from fan toward person, LIGHT from lamp toward desk. Clear no crossing arrows.",
+        "effect": "桌面設備互動關係",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T04:59:20.408Z",
+        "source_instruction": "Show relationships between the subject and surroundings.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "0469a5ec5874482e6e671cfc5203c56eb08d6085f7060086437ccc3c9f2392d7",
+        "applied_prompt_sha256": "616e5dd38700ded260eb65199fbc55c4141523d55b06962b2e2c8488a51aa415",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "桌前人物、筆電、奶油白風扇與檯燈",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Title DESK INTERACTION MAP. Seated clothed person at desk with laptop left, fan right, lamp upper wall. Three arrows labeled TYPES from hands to keyboard, AIRFLOW from fan toward person, LIGHT from lamp toward desk. Clear no crossing arrows.",
+            "observed": "明亮木桌工作場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌面設備互動關係",
+            "observed": "三種互動用不同顏色箭頭表達",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "TYPES箭頭指鍵盤、AIRFLOW由風扇朝人物方向、LIGHT由燈朝工作區；無錯向箭頭",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "DESK INTERACTION MAP及三項標籤清楚；照明箭頭示意工作區方向而非實測光束",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-pov-25-01",
+      "prompt_id": "src-visual642-502",
+      "command": "/firstperson",
+      "title": "第一人稱拿水瓶",
+      "description": "第一人稱拿水瓶（AI案例示範）",
+      "result_text": "第一人稱拿水瓶",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-25/pov-25.png",
+      "applied_prompt": "Create a square web-quality website example. First-person viewpoint looking down at own hands holding reference sage bottle while seated at picnic table, knees at bottom edge, forest background beyond table. No external observer, camera at person eye position. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /firstperson: Show the scene from the subject's perspective.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "First-person viewpoint looking down at own hands holding reference sage bottle while seated at picnic table, knees at bottom edge, forest background beyond table. No external observer, camera at person eye position. No text.",
+        "effect": "第一人稱拿水瓶",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:00:03.649Z",
+        "source_instruction": "Show the scene from the subject's perspective.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "9dbd5fb634cea24254d56a9d69b1106009cccfd1a876cbc0eea0a88fb397e1b4",
+        "applied_prompt_sha256": "5fe6b8ebfd634e53ec381ca8e6f6c1dccf2fc85250d537422996f51853bd210e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙手握綠色黑蓋保溫瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "First-person viewpoint looking down at own hands holding reference sage bottle while seated at picnic table, knees at bottom edge, forest background beyond table. No external observer, camera at person eye position. No text.",
+            "observed": "森林湖畔野餐桌，膝蓋位於畫面底部",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "第一人稱拿水瓶",
+            "observed": "眼睛位置俯看自己的手與瓶，第一人稱明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "左右手從畫面下側延伸、腿在桌緣下方，遠景森林湖泊一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；手指握持及瓶與桌面接觸自然，未出現外部觀察者",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-hands-25-01",
+      "prompt_id": "src-visual642-503",
+      "command": "/handsinframe",
+      "title": "雙手示範USB-C連接",
+      "description": "雙手示範USB-C連接（AI案例示範）",
+      "result_text": "雙手示範USB-C連接",
+      "reference": "output/imagegen/batch-20-24/bank-reference.png",
+      "result": "output/imagegen/batch-20-25/hands-25.png",
+      "applied_prompt": "Create a square web-quality website example. Close-up two anatomically correct hands: left holds blue power bank, right holds USB-C male plug aligned just outside its matching oval USB-C socket. Rectangular USB-A socket visible unused. No text, neutral desk backdrop, complete connection point visible. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /handsinframe: Show hands using or demonstrating the item.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-24/bank-reference.png",
+        "sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio reference photo of one fictional unbranded compact power bank, matte slate blue rounded rectangular body, short end facing camera shows exactly two visible ports: one USB-C oval socket and one USB-A rectangular socket. Four small white charge indicator dots on top near edge. No screen no text no symbols no brand. Beside it one short black USB-C to USB-C cable neatly looped. Three-quarter view clean pale gray background, realistic consumer product web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Close-up two anatomically correct hands: left holds blue power bank, right holds USB-C male plug aligned just outside its matching oval USB-C socket. Rectangular USB-A socket visible unused. No text, neutral desk backdrop, complete connection point visible.",
+        "effect": "雙手示範USB-C連接",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:00:52.314Z",
+        "source_instruction": "Show hands using or demonstrating the item.",
+        "reference_sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "result_sha256": "a8a631411814e274d830efa47297c99f1672faf3df5a467e5218d5b1808c4c5e",
+        "applied_prompt_sha256": "83ac90638c80a472d1d54d15be1360c6e53d6a43c8a40bcc50cd2852a8971b1b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍灰行動電源、雙手與USB-C接頭",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Close-up two anatomically correct hands: left holds blue power bank, right holds USB-C male plug aligned just outside its matching oval USB-C socket. Rectangular USB-A socket visible unused. No text, neutral desk backdrop, complete connection point visible.",
+            "observed": "淺灰桌面近距離產品操作",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "雙手示範USB-C連接",
+            "observed": "手部在畫面中托住電源並將接頭朝USB-C孔靠近",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "左手托產品、右手握線，接頭在橢圓USB-C孔前接近但尚未插入，矩形USB-A空著",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "四個白點、兩種接口可辨，無文字要求；手指與線材接續合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cinema-25-01",
+      "prompt_id": "src-visual642-504",
+      "command": "/cinematic",
+      "title": "水瓶電影感場景",
+      "description": "水瓶電影感場景（AI案例示範）",
+      "result_text": "水瓶電影感場景",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-25/cinema-25.png",
+      "applied_prompt": "Create a square web-quality website example. Cinematic wide movie frame reference sage bottle on weathered rock beside mountain lake at dawn, dramatic shaft of golden sunlight and deep blue mist, clear bottle silhouette in foreground left third, realistic reflection and shadows. No text no brands no floating objects. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /cinematic: Create a dramatic movie-frame composition.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Cinematic wide movie frame reference sage bottle on weathered rock beside mountain lake at dawn, dramatic shaft of golden sunlight and deep blue mist, clear bottle silhouette in foreground left third, realistic reflection and shadows. No text no brands no floating objects.",
+        "effect": "水瓶電影感場景",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T05:01:34.031Z",
+        "source_instruction": "Create a dramatic movie-frame composition.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "4ef6ec134fb25112dab00c369efff1354d29edebd0776bbdd927eed10d003d95",
+        "applied_prompt_sha256": "3174090a0dce88d790a7f50a5da9bd0a76df6332490529163ddb26c57e59ad9e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋保溫瓶置於岩石",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Cinematic wide movie frame reference sage bottle on weathered rock beside mountain lake at dawn, dramatic shaft of golden sunlight and deep blue mist, clear bottle silhouette in foreground left third, realistic reflection and shadows. No text no brands no floating objects.",
+            "observed": "山湖晨曦、遠山霧氣及森林",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶電影感場景",
+            "observed": "金色逆光與藍色遠景形成電影感氛圍",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶直立接觸岩石，湖面反射與光源方向一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求；瓶輪廓完整，霧氣層次與高光自然",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

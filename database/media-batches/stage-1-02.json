@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "id": "stage-1-02",
+  "cases": [
+    {
+      "id": "assistant-luxuryedition-01",
+      "prompt_id": "src-visual642-002",
+      "command": "/luxuryedition",
+      "title": "帆布托特包的皮革奢華版本",
+      "description": "把主體變成一個精美的奢華版本。",
+      "result_text": "將日常帆布托特包轉為巧克力棕皮革版本，保留雙提把與方形袋身，加入精細車縫、包邊及香檳金屬配件。",
+      "result": "output/imagegen/stage-1-02/tote-luxuryedition.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: square website command-result example. Apply /luxuryedition and its exact original instruction: Turn the subject into a refined luxury edition. Input image defines the original tote handbag silhouette and two handles. Transform THIS handbag into a refined luxury edition while keeping it recognizable: same upright rectangular tote proportions, two medium-width handles, squared base and open-top form. Upgrade the cream canvas body to rich dark chocolate fine-grain leather, the flat handles to matching carefully finished leather, with restrained brushed champagne brass handle attachments, subtle precise edge stitching and beautifully finished edges. Premium but plausible craftsmanship, no recognizable real brand, no monograms, no logos, no text. Place the complete single transformed bag on a restrained warm stone plinth in a sophisticated soft-lit studio with neutral dark background. Make the material and craftsmanship upgrade plainly visible; the original canvas must become leather, not simply be placed in an expensive room. No extra bags, no watermark. Web-quality photorealistic image.",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T04:58:18.084Z",
+        "source_instruction": "Turn the subject into a refined luxury edition.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "807f7f0c4d8707b0037853b9c7f8c993d98990db0ea05b491d4ea4506840ba57",
+        "applied_prompt_sha256": "0db5562e4101895a198f4e40a9b59141b8445cc6ad142d0fb9f0d2a1305e1927",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留托特輪廓、雙提把與開口",
+            "observed": "方形袋身、雙拱形提把與開口邊緣可見，原圖托特形態保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "完整產品精緻展示",
+            "observed": "完整包身在暖色石材台面上，背景柔和暗棕，產品沒有裁切",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布升級皮革、精細縫線及金屬配件",
+            "observed": "米白織物改為巧克力棕皮革，細緻皮紋、提把縫線與香檳色扣件明顯",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "提把與袋身連接合理、比例落地正常",
+            "observed": "提把經金屬扣與縫製皮片連接袋身，底部接觸石台，沒有懸浮",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "無真實品牌、文字、水印或變形",
+            "observed": "未見品牌、字樣或水印；袋口、提把與包邊清楚，無多餘提把",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-storefrontmockup-01",
+      "prompt_id": "src-visual642-004",
+      "command": "/storefrontmockup",
+      "title": "帆布托特包的整體店面活動",
+      "description": "在寫實的店面展示行銷活動。",
+      "result_text": "米白帆布托特包活動橫跨兩扇玻璃櫥窗海報，門楣以焦糖色提把弧線延伸視覺，呈現街邊店面的整體活動佈置。",
+      "result": "output/imagegen/stage-1-02/tote-storefrontmockup.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: square website command-result example. Apply /storefrontmockup and its exact original instruction: Show the campaign across a realistic storefront. Input image is the subject for a fictional unbranded canvas tote campaign. Create a photorealistic street-level boutique storefront seen from a slight three-quarter angle, with a central glass entrance and two large display windows, stone facade and realistic pavement. The same cohesive cream-and-caramel tote campaign is visibly applied ACROSS the storefront: a large flat printed hero photograph of the referenced cream canvas tote with its two caramel handles in each display window, plus a coordinated cream fascia strip with a simple caramel handle-inspired abstract curved graphic above the entrance. Keep the original canvas tote identity and colors in both posters. Each printed window poster sits within the glass frame with proper perspective, slight glass reflections and believable attachment. Show the entire facade and pavement so this is unmistakably an installed storefront campaign, not a studio poster. Keep the central doorway accessible and visibly separate from the posters. The tote only appears as printed campaign imagery; no giant physical bag. No brand names, readable words, prices, logos, people, watermarks or unrelated objects. Natural late afternoon light. Web-quality photo.",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T04:58:18.085Z",
+        "source_instruction": "Show the campaign across a realistic storefront.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "255898a0ea938683bc9d9b403c549965fa6259e21cdbc388d1b7c0767e75d3bc",
+        "applied_prompt_sha256": "7f3b505cfb879334a0deb16d87f396417148e95b578d394c0b8c8530068a729e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "兩扇海報保留米白帆布包及焦糖雙提把",
+            "observed": "左右窗各有米白織紋托特包與兩個焦糖提把，形態及配色與原圖一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "街邊店面、入口、櫥窗及人行道可辨",
+            "observed": "石材門面、中央玻璃雙門、兩側櫥窗、路緣與鋪面清楚可見",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "同一活動跨兩窗與門楣協調呈現",
+            "observed": "雙窗重複同款產品攝影，上方長門楣使用同色大型弧線延伸活動",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "海報在櫥窗內、入口分開、透視合理",
+            "observed": "兩張產品照片各有完整矩形邊界，照片內木桌與背景被窗框限制；中央門保持通行，窗框透視一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "無品牌文字、水印或巨大實體包",
+            "observed": "未見品牌文字或水印，街道沒有實體巨型包；海報邊緣及玻璃反射可辨",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

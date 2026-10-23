@@ -45,8 +45,15 @@ artifacts/               舊部署包及匯出結果，不納入 Git
 
 「複製指令」只複製指令代碼，例如 `/insideview`；「複製提示詞」複製完整提示詞及填入的變數。
 
-圖片案例尚待生成與上傳；資料已保留封面、參考圖、成果圖與相簿連結欄位。場景、目標與案例也保留獨立資料檔，可逐步擴充。
+642 筆圖片指令的成果案例已生成並上傳至 Cloudinary，網站直接載入 Cloudinary 圖片網址。場景、目標與案例也保留獨立資料檔，可逐步擴充。
 
 詳細資料規則見 [database/README.md](database/README.md)，日常維護見 [docs/MAINTENANCE.md](docs/MAINTENANCE.md)，GitHub 與部署操作見 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)。原始資料的權利與來源說明見 [docs/SOURCES.md](docs/SOURCES.md)。
 
 已包含 GitHub Pages 手動部署流程。上傳後，將 Settings → Pages 的來源設為 GitHub Actions，再執行 Actions → Deploy to GitHub Pages → Run workflow。
+
+## Cloudinary 圖片案例
+
+圖片分階段規劃與本意驗收見 [工作規則](docs/IMAGE-CASE-WORKFLOW.md)，接續進度見 [階段記錄](docs/IMAGE-CASE-PROGRESS.md)。使用 `npm run image:progress` 更新報表。專案技能原始碼在 `skills/`。
+
+先執行 `npm run media:preview` 查看每批 1～3 個案例的離線對應清單。設定及後續上傳流程見 [Cloudinary 操作說明](docs/CLOUDINARY.md)。
+

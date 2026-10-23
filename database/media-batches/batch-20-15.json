@@ -1,0 +1,1525 @@
+{
+  "version": 1,
+  "id": "batch-20-15",
+  "cases": [
+    {
+      "id": "case-anatomy-15-01",
+      "prompt_id": "src-visual642-285",
+      "command": "/anatomy",
+      "title": "檸檬主要內部構造",
+      "description": "檸檬主要內部構造（AI案例示範）",
+      "result_text": "檸檬主要內部構造",
+      "reference": "output/imagegen/batch-20-15/lemon-reference.png",
+      "result": "output/imagegen/batch-20-15/anatomy-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /anatomy: Reveal and label the subject's major internal structures. Reference image supplies subject identity only. Botanical cutaway of ONE lemon revealing radial segments juice sacs and seeds. Four accurate labels with noncrossing leaders: PEEL to yellow outer rind, PITH to white inner rind, JUICE SACS to yellow vesicles, SEED to visible cream seed. Accurate generic citrus structure, not medical. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-15/lemon-reference.png",
+        "sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photo of a single whole yellow lemon beside one matching half lemon showing naturally radial pale yellow juicy segments and white pith, plain white seamless studio, no other objects, no labels, no logo, whole fruit visible, square web quality, natural accurate citrus structure."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Botanical cutaway of ONE lemon revealing radial segments juice sacs and seeds. Four accurate labels with noncrossing leaders: PEEL to yellow outer rind, PITH to white inner rind, JUICE SACS to yellow vesicles, SEED to visible cream seed. Accurate generic citrus structure, not medical.",
+        "effect": "檸檬主要內部構造",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:08:04.894Z",
+        "source_instruction": "Reveal and label the subject's major internal structures.",
+        "reference_sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "result_sha256": "6d975224c4bf808c1bc0993abbef41ad37ca16a4e6f4e573c5331aece369a8ab",
+        "applied_prompt_sha256": "f56103fa4469423ee1f776c812661a78c8c327ab6fdcaf95acd62f8e6c8b0012",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://blumwald.ucdavis.edu/sites/g/files/dgvnsk6161/files/inline-files/sadka%20et%20al.2019.Frontiers.pdf"
+          ],
+          "notes": "柑橘一般構造外層黃皮、白色內皮、分瓣與汁囊及種子；概念圖非實際X光或顯微照片，不虛構比例。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "檸檬黃皮白內皮與汁瓣對應來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Botanical cutaway of ONE lemon revealing radial segments juice sacs and seeds. Four accurate labels with noncrossing leaders: PEEL to yellow outer rind, PITH to white inner rind, JUICE SACS to yellow vesicles, SEED to visible cream seed. Accurate generic citrus structure, not medical.",
+            "observed": "剖面暴露主要內部構造並標示四項符合解剖指令",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬主要內部構造",
+            "observed": "白底與清楚引線使構造易讀",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "PEEL落黃皮、PITH落白層、JUICE SACS落汁囊、SEED落種子，核對柑橘來源一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "標籤正確可讀且無健康宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cutaway-15-01",
+      "prompt_id": "src-visual642-286",
+      "command": "/cutaway",
+      "title": "檸檬外皮切除視圖",
+      "description": "檸檬外皮切除視圖（AI案例示範）",
+      "result_text": "檸檬外皮切除視圖",
+      "reference": "output/imagegen/batch-20-15/lemon-reference.png",
+      "result": "output/imagegen/batch-20-15/cutaway-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /cutaway: Remove part of the exterior to reveal what is inside. Reference image supplies subject identity only. One whole lemon with a quarter wedge of exterior removed exposing white pith radial flesh segments and few seeds, removed wedge next to fruit, natural geometry no labels. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-15/lemon-reference.png",
+        "sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photo of a single whole yellow lemon beside one matching half lemon showing naturally radial pale yellow juicy segments and white pith, plain white seamless studio, no other objects, no labels, no logo, whole fruit visible, square web quality, natural accurate citrus structure."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "One whole lemon with a quarter wedge of exterior removed exposing white pith radial flesh segments and few seeds, removed wedge next to fruit, natural geometry no labels.",
+        "effect": "檸檬外皮切除視圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:08:51.660Z",
+        "source_instruction": "Remove part of the exterior to reveal what is inside.",
+        "reference_sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "result_sha256": "776ebe7b6015eec5005c597249669063a2481a2aa06b0b8f20391b32e3abee6f",
+        "applied_prompt_sha256": "fced813bf0f61bc25c3a96e9183a31f330fb28fae3ebf93f801980aac37cbf00",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://blumwald.ucdavis.edu/sites/g/files/dgvnsk6161/files/inline-files/sadka%20et%20al.2019.Frontiers.pdf"
+          ],
+          "notes": "柑橘一般構造外層黃皮、白色內皮、分瓣與汁囊及種子；概念圖非實際X光或顯微照片，不虛構比例。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃皮檸檬與白內皮汁瓣符合來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One whole lemon with a quarter wedge of exterior removed exposing white pith radial flesh segments and few seeds, removed wedge next to fruit, natural geometry no labels.",
+            "observed": "外皮及部分外殼移除後顯露內部符合切除視圖本意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬外皮切除視圖",
+            "observed": "移除部分放在果體旁，內部剖面清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "內層分瓣汁囊與種子符合一般柑橘構造",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "畫面清晰無文字浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-layers-15-01",
+      "prompt_id": "src-visual642-287",
+      "command": "/layers",
+      "title": "紙盒單瓦楞三層示意",
+      "description": "紙盒單瓦楞三層示意（AI案例示範）",
+      "result_text": "紙盒單瓦楞三層示意",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-15/layers-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /layers: Separate the subject into stacked construction layers. Reference image supplies subject identity only. Generic corrugated material reinterpretation of mint leaf carton, exploded material layers exactly three standalone sheets: top flat mint liner leaf emblem, middle brown sinusoidal fluting with NO flat backing, bottom flat brown liner. Labels OUTER LINER FLUTING INNER LINER. Title CONCEPT MATERIAL. Not actual reference carton construction. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. CRITICAL orthographic SIDE VIEW of three separated sheets, not perspective. TOP one horizontal mint flat line, MIDDLE ONLY one free-standing sinusoidal wavy paper line with visible white air below every trough and NO straight baseline or backing, BOTTOM one horizontal brown flat line. Three layers total, wide white gaps. Keep same three labels, concept material title, leaf on top liner.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Generic corrugated material reinterpretation of mint leaf carton, exploded material layers exactly three standalone sheets: top flat mint liner leaf emblem, middle brown sinusoidal fluting with NO flat backing, bottom flat brown liner. Labels OUTER LINER FLUTING INNER LINER. Title CONCEPT MATERIAL. Not actual reference carton construction.",
+        "effect": "紙盒單瓦楞三層示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:10:48.245Z",
+        "source_instruction": "Separate the subject into stacked construction layers.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "321e0eeba52a5da903342d3e8385111a0b5d4166c893e516c642307b53af3b40",
+        "applied_prompt_sha256": "9e1be2429afe96cb455250c2895080485b84decd67652f74e9c899770381d2f9",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/node/1588"
+          ],
+          "notes": "一般單瓦楞由兩平面liner夾一fluting；概念材質替換，非來源紙盒真實材料。一般印刷裁切折疊流程不宣稱真實品牌產線。 外觀裝配及尺寸皆明示概念；100 mm為設定值非實測。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷葉片外紙保留來源視覺",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Generic corrugated material reinterpretation of mint leaf carton, exploded material layers exactly three standalone sheets: top flat mint liner leaf emblem, middle brown sinusoidal fluting with NO flat backing, bottom flat brown liner. Labels OUTER LINER FLUTING INNER LINER. Title CONCEPT MATERIAL. Not actual reference carton construction.",
+            "observed": "三個獨立材料層上下分離符合分層",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒單瓦楞三層示意",
+            "observed": "兩平面紙與中間波浪芯紙清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "修正後芯紙下方全為空白無額外背板，與FEFCO單瓦楞三層一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "三標籤對應正確且標明概念材質非實測",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "中間波浪層底部出現疑似平面背板，須明確只有波浪紙",
+          "result": "output/imagegen/batch-20-15/layers-15-attempt1.png",
+          "prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /layers: Separate the subject into stacked construction layers. Reference image supplies subject identity only. Generic corrugated material reinterpretation of mint leaf carton, exploded material layers exactly three standalone sheets: top flat mint liner leaf emblem, middle brown sinusoidal fluting with NO flat backing, bottom flat brown liner. Labels OUTER LINER FLUTING INNER LINER. Title CONCEPT MATERIAL. Not actual reference carton construction. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure."
+        }
+      ]
+    },
+    {
+      "id": "case-xray-15-01",
+      "prompt_id": "src-visual642-288",
+      "command": "/xray",
+      "title": "檸檬半透明內部視圖",
+      "description": "檸檬半透明內部視圖（AI案例示範）",
+      "result_text": "檸檬半透明內部視圖",
+      "reference": "output/imagegen/batch-20-15/lemon-reference.png",
+      "result": "output/imagegen/batch-20-15/xray-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /xray: See internal parts through the exterior surface. Reference image supplies subject identity only. One whole lemon translucent yellow outer rind with internal radial citrus segments membranes seeds visible THROUGH entire exterior, x-ray-style botanical concept not actual radiograph. Label CONCEPT VIEW only. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. CRITICAL exactly ONE intact whole lemon only, NO half fruit, NO cut surfaces, NO slices. Make whole curved peel translucent so inner radial membranes and seeds show through intact outline in luminous xray-like style. Large readable title CONCEPT VIEW at top. Dark navy studio background emphasizes translucency. Not actual radiograph. FINAL STRICT: ONLY text CONCEPT VIEW, absolutely NO other words, NO callout leaders NO arrows NO annotations. Show single glowing transparent whole lemon exposing naturally radial segments and seeds, dark navy background.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-15/lemon-reference.png",
+        "sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photo of a single whole yellow lemon beside one matching half lemon showing naturally radial pale yellow juicy segments and white pith, plain white seamless studio, no other objects, no labels, no logo, whole fruit visible, square web quality, natural accurate citrus structure."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "One whole lemon translucent yellow outer rind with internal radial citrus segments membranes seeds visible THROUGH entire exterior, x-ray-style botanical concept not actual radiograph. Label CONCEPT VIEW only.",
+        "effect": "檸檬半透明內部視圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:13:44.615Z",
+        "source_instruction": "See internal parts through the exterior surface.",
+        "reference_sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "result_sha256": "6b6a0e4c47e029c66fdf355acfeee39211dbf4885a4edea16e499a0346c9d7ef",
+        "applied_prompt_sha256": "ebeb48fdd5fc40ae3de365fabcf4780fcddadb673f17079a05dad9a4c846d158",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://blumwald.ucdavis.edu/sites/g/files/dgvnsk6161/files/inline-files/sadka%20et%20al.2019.Frontiers.pdf"
+          ],
+          "notes": "柑橘一般構造外層黃皮、白色內皮、分瓣與汁囊及種子；概念圖非實際X光或顯微照片，不虛構比例。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "完整檸檬形狀與黃皮符合來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One whole lemon translucent yellow outer rind with internal radial citrus segments membranes seeds visible THROUGH entire exterior, x-ray-style botanical concept not actual radiograph. Label CONCEPT VIEW only.",
+            "observed": "透過完整半透明外皮看見內部汁瓣與種子符合透視",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬半透明內部視圖",
+            "observed": "深藍底與發光輪廓突出內外關係",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "沒有切口或剖半水果混入，徑向分瓣符合柑橘概念",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "只留CONCEPT VIEW明示非實際X光，無錯誤引線",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "缺CONCEPT VIEW文字，需避免剖半水果混入透視示範",
+          "result": "output/imagegen/batch-20-15/xray-15-attempt1.png",
+          "prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /xray: See internal parts through the exterior surface. Reference image supplies subject identity only. One whole lemon translucent yellow outer rind with internal radial citrus segments membranes seeds visible THROUGH entire exterior, x-ray-style botanical concept not actual radiograph. Label CONCEPT VIEW only. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure."
+        },
+        {
+          "attempt": 2,
+          "reason": "額外segment membranes引線落點不明確，移除未要求引線",
+          "result": "output/imagegen/batch-20-15/xray-15-attempt2.png",
+          "prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /xray: See internal parts through the exterior surface. Reference image supplies subject identity only. One whole lemon translucent yellow outer rind with internal radial citrus segments membranes seeds visible THROUGH entire exterior, x-ray-style botanical concept not actual radiograph. Label CONCEPT VIEW only. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. CRITICAL exactly ONE intact whole lemon only, NO half fruit, NO cut surfaces, NO slices. Make whole curved peel translucent so inner radial membranes and seeds show through intact outline in luminous xray-like style. Large readable title CONCEPT VIEW at top. Dark navy studio background emphasizes translucency. Not actual radiograph."
+        }
+      ]
+    },
+    {
+      "id": "case-exploded-15-01",
+      "prompt_id": "src-visual642-289",
+      "command": "/explodedview",
+      "title": "紙盒與內托分解視圖",
+      "description": "紙盒與內托分解視圖（AI案例示範）",
+      "result_text": "紙盒與內托分解視圖",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-15/exploded-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /explodedview: Spread components apart while preserving their positions. Reference image supplies subject identity only. Generic packaging concept: separate aligned mint leaf lid, open cubic box body and plain removable paper insert along vertical axis. Positions maintained lid above body insert above cavity, thin dotted alignment axis, label CONCEPT ASSEMBLY, no claim actual reference package. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Generic packaging concept: separate aligned mint leaf lid, open cubic box body and plain removable paper insert along vertical axis. Positions maintained lid above body insert above cavity, thin dotted alignment axis, label CONCEPT ASSEMBLY, no claim actual reference package.",
+        "effect": "紙盒與內托分解視圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:15:48.399Z",
+        "source_instruction": "Spread components apart while preserving their positions.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "a4b64646e18ff6a485210fdc5ea01ac040c4c85866eec2c7d05677d6aec85d03",
+        "applied_prompt_sha256": "231c83e1ef73cfc076257a1005978d6888faee8d19b59e56e5b93f69b24b0675",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/node/1588"
+          ],
+          "notes": "一般單瓦楞由兩平面liner夾一fluting；概念材質替換，非來源紙盒真實材料。一般印刷裁切折疊流程不宣稱真實品牌產線。 外觀裝配及尺寸皆明示概念；100 mm為設定值非實測。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷色葉紋方盒外觀一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Generic packaging concept: separate aligned mint leaf lid, open cubic box body and plain removable paper insert along vertical axis. Positions maintained lid above body insert above cavity, thin dotted alignment axis, label CONCEPT ASSEMBLY, no claim actual reference package.",
+            "observed": "乾淨背景概念組裝圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒與內托分解視圖",
+            "observed": "盒蓋內托與盒身垂直分離",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三件沿中央虛線軸對齊並有組裝箭頭",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "標示CONCEPT ASSEMBLY避免宣稱實測結構",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-microscopic-15-01",
+      "prompt_id": "src-visual642-290",
+      "command": "/microscopic",
+      "title": "檸檬汁囊微觀概念",
+      "description": "檸檬汁囊微觀概念（AI案例示範）",
+      "result_text": "檸檬汁囊微觀概念",
+      "reference": "output/imagegen/batch-20-15/lemon-reference.png",
+      "result": "output/imagegen/batch-20-15/microscopic-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /microscopic: Zoom into a convincing microscopic level of detail. Reference image supplies subject identity only. Extreme microscopic-style detail of translucent elongated citrus juice vesicles packed together, tiny lemon reference inset bottom left connected by zoom leader to opened flesh; title JUICE VESICLES / CONCEPT DETAIL. No molecular diagrams or false scale bar, not actual microscopy. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-15/lemon-reference.png",
+        "sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photo of a single whole yellow lemon beside one matching half lemon showing naturally radial pale yellow juicy segments and white pith, plain white seamless studio, no other objects, no labels, no logo, whole fruit visible, square web quality, natural accurate citrus structure."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Extreme microscopic-style detail of translucent elongated citrus juice vesicles packed together, tiny lemon reference inset bottom left connected by zoom leader to opened flesh; title JUICE VESICLES / CONCEPT DETAIL. No molecular diagrams or false scale bar, not actual microscopy.",
+        "effect": "檸檬汁囊微觀概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:16:28.766Z",
+        "source_instruction": "Zoom into a convincing microscopic level of detail.",
+        "reference_sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "result_sha256": "3200e8f5e98023336f937779473956d85bca9a323ef06a3e7e724b0c17a7aa91",
+        "applied_prompt_sha256": "428077a47c8dce74e76c5f11172dadb49a21bfd637b3943925d847998ddef24b",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://blumwald.ucdavis.edu/sites/g/files/dgvnsk6161/files/inline-files/sadka%20et%20al.2019.Frontiers.pdf"
+          ],
+          "notes": "柑橘一般構造外層黃皮、白色內皮、分瓣與汁囊及種子；概念圖非實際X光或顯微照片，不虛構比例。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "檸檬果肉汁囊主體",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Extreme microscopic-style detail of translucent elongated citrus juice vesicles packed together, tiny lemon reference inset bottom left connected by zoom leader to opened flesh; title JUICE VESICLES / CONCEPT DETAIL. No molecular diagrams or false scale bar, not actual microscopy.",
+            "observed": "微觀概念細節背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬汁囊微觀概念",
+            "observed": "放大透明長形汁囊及表面細節",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "左下檸檬小圖以框線連結放大位置",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "JUICE VESICLES及CONCEPT DETAIL文字正確未宣稱真實顯微照",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-blueprint-15-01",
+      "prompt_id": "src-visual642-291",
+      "command": "/blueprint",
+      "title": "紙盒外形藍圖",
+      "description": "紙盒外形藍圖（AI案例示範）",
+      "result_text": "紙盒外形藍圖",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-15/blueprint-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /blueprint: Convert the subject into a technical blueprint drawing. Reference image supplies subject identity only. Technical blueprint style mint leaf cube exterior in front side top views and small isometric view, cyan lines dark navy background, leaf emblem on front only, label CONCEPT BLUEPRINT, no invented numerical dimensions. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. Mandatory four-panel layout: upper left FRONT VIEW with leaf, upper right SIDE VIEW blank face, lower left TOP VIEW blank lid, lower right ISOMETRIC VIEW. All FOUR views must be present, distinct and clearly labelled. CONCEPT BLUEPRINT title across top. Equal sized four quadrants.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Technical blueprint style mint leaf cube exterior in front side top views and small isometric view, cyan lines dark navy background, leaf emblem on front only, label CONCEPT BLUEPRINT, no invented numerical dimensions.",
+        "effect": "紙盒外形藍圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:17:40.163Z",
+        "source_instruction": "Convert the subject into a technical blueprint drawing.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "9db6d66a0c52edd3afe023e24fb17fbab8cde65669d91002586a41c6168cdf9b",
+        "applied_prompt_sha256": "c079b1d06ccea23542125a7048dc18ca209efa462f29600dc78bd96029037ba4",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/node/1588"
+          ],
+          "notes": "一般單瓦楞由兩平面liner夾一fluting；概念材質替換，非來源紙盒真實材料。一般印刷裁切折疊流程不宣稱真實品牌產線。 外觀裝配及尺寸皆明示概念；100 mm為設定值非實測。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "葉紋方盒身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Technical blueprint style mint leaf cube exterior in front side top views and small isometric view, cyan lines dark navy background, leaf emblem on front only, label CONCEPT BLUEPRINT, no invented numerical dimensions.",
+            "observed": "深藍網格青色技術線稿",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒外形藍圖",
+            "observed": "四格呈現正側頂及等角視圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "四個標籤與視角一致葉紋只在正面",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT BLUEPRINT無虛構數值尺寸",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "缺少側視圖",
+          "previous_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /blueprint: Convert the subject into a technical blueprint drawing. Reference image supplies subject identity only. Technical blueprint style mint leaf cube exterior in front side top views and small isometric view, cyan lines dark navy background, leaf emblem on front only, label CONCEPT BLUEPRINT, no invented numerical dimensions. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure."
+        }
+      ]
+    },
+    {
+      "id": "case-handwritten-15-01",
+      "prompt_id": "src-visual642-292",
+      "command": "/handwritten",
+      "title": "檸檬手寫構造筆記",
+      "description": "檸檬手寫構造筆記（AI案例示範）",
+      "result_text": "檸檬手寫構造筆記",
+      "reference": "output/imagegen/batch-20-15/lemon-reference.png",
+      "result": "output/imagegen/batch-20-15/handwritten-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /handwritten: Explain the subject with natural handwritten notes. Reference image supplies subject identity only. Natural notebook page with hand-drawn cut lemon and handwritten notes PEEL - yellow outside, PITH - white layer, SEGMENTS - juicy flesh, seeds sketched. Leader ends accurate and readable, no health claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-15/lemon-reference.png",
+        "sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photo of a single whole yellow lemon beside one matching half lemon showing naturally radial pale yellow juicy segments and white pith, plain white seamless studio, no other objects, no labels, no logo, whole fruit visible, square web quality, natural accurate citrus structure."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Natural notebook page with hand-drawn cut lemon and handwritten notes PEEL - yellow outside, PITH - white layer, SEGMENTS - juicy flesh, seeds sketched. Leader ends accurate and readable, no health claims.",
+        "effect": "檸檬手寫構造筆記",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:18:13.142Z",
+        "source_instruction": "Explain the subject with natural handwritten notes.",
+        "reference_sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "result_sha256": "63ae88164ff4bbe6fe8fd0d57827de04af08384ad808ffd61be70ef182c41bfa",
+        "applied_prompt_sha256": "692c18c1f48f7ef278da4b9a68312db47e33686e7a84acc974d1eb75a626726e",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://blumwald.ucdavis.edu/sites/g/files/dgvnsk6161/files/inline-files/sadka%20et%20al.2019.Frontiers.pdf"
+          ],
+          "notes": "柑橘一般構造外層黃皮、白色內皮、分瓣與汁囊及種子；概念圖非實際X光或顯微照片，不虛構比例。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃色檸檬及切半外觀保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Natural notebook page with hand-drawn cut lemon and handwritten notes PEEL - yellow outside, PITH - white layer, SEGMENTS - juicy flesh, seeds sketched. Leader ends accurate and readable, no health claims.",
+            "observed": "筆記本紙張與手繪插圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬手寫構造筆記",
+            "observed": "手寫解說搭配實物細節",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "PEEL指黃色外皮PITH指白層SEGMENTS指果肉SEEDS指種子小圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "標籤拼字與引線正確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-tinyplanet-15-01",
+      "prompt_id": "src-visual642-293",
+      "command": "/tinyplanet",
+      "title": "提袋城市小星球",
+      "description": "提袋城市小星球（AI案例示範）",
+      "result_text": "提袋城市小星球",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-15/tinyplanet-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /tinyplanet: Wrap the scene into a spherical tiny-planet view. Reference image supplies subject identity only. City plaza wrapped into spherical tiny planet with radial buildings trees walkways, cream brown handle tote standing at top of curved sphere, clear whole tiny planet visible. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "City plaza wrapped into spherical tiny planet with radial buildings trees walkways, cream brown handle tote standing at top of curved sphere, clear whole tiny planet visible.",
+        "effect": "提袋城市小星球",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:18:49.329Z",
+        "source_instruction": "Wrap the scene into a spherical tiny-planet view.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "4dec9ef3114fba84a17740ddd8d7177d75c4199385701cd08b27a29f988cfadc",
+        "applied_prompt_sha256": "5b650ea3824b860c92037f1a67263ebb6d4a233523af50ac7a7b653a967ea120",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布棕提把袋保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "City plaza wrapped into spherical tiny planet with radial buildings trees walkways, cream brown handle tote standing at top of curved sphere, clear whole tiny planet visible.",
+            "observed": "城市廣場環繞球形地面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "提袋城市小星球",
+            "observed": "小行星全景變形清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "袋位球體上方建築樹木沿外周放射排列",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "完整球形與天空背景無文字水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-billboard3d-15-01",
+      "prompt_id": "src-visual642-294",
+      "command": "/3dbillboard",
+      "title": "機甲立體看板破框",
+      "description": "機甲立體看板破框（AI案例示範）",
+      "result_text": "機甲立體看板破框",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-15/billboard3d-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /3dbillboard: Turn the subject into an illusion-breaking 3D billboard. Reference image supplies subject identity only. Giant corner urban digital billboard mounted on building showing reference robot apparently stepping OUT beyond screen frame, perspective illusion, visible L-shaped screen frame urban street cars, not loose giant robot on street. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Giant corner urban digital billboard mounted on building showing reference robot apparently stepping OUT beyond screen frame, perspective illusion, visible L-shaped screen frame urban street cars, not loose giant robot on street.",
+        "effect": "機甲立體看板破框",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:19:36.018Z",
+        "source_instruction": "Turn the subject into an illusion-breaking 3D billboard.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "6309a53c1ad5a19b013df67769ad9eaf20cf4093e713d302f1a7ec3f1ac6264d",
+        "applied_prompt_sha256": "882cf7345e90b6a4a44925b8e6ef21f0388e695e303947f26ec3faa9ea58fd5e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "參考藍白黃紅機器人保持辨識",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Giant corner urban digital billboard mounted on building showing reference robot apparently stepping OUT beyond screen frame, perspective illusion, visible L-shaped screen frame urban street cars, not loose giant robot on street.",
+            "observed": "城市大樓轉角LED看板",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲立體看板破框",
+            "observed": "手炮與腳跨出畫面邊框的3D錯覺",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "雙面看板沿建築轉角相連角色從屏內延伸",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "街道人車提供尺度無多餘文字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-metaad-15-01",
+      "prompt_id": "src-visual642-295",
+      "command": "/metaad",
+      "title": "水瓶社群廣告版型",
+      "description": "水瓶社群廣告版型（AI案例示範）",
+      "result_text": "水瓶社群廣告版型",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-15/metaad-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /metaad: Create a polished Meta-style social advertisement. Reference image supplies subject identity only. Polished fictional social ad card: green bottle lifestyle hero image, small circular profile placeholder top with grey neutral text bars, bottom simple heart comment share icons and blank rounded CTA, no Meta logo no fabricated metrics or text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Polished fictional social ad card: green bottle lifestyle hero image, small circular profile placeholder top with grey neutral text bars, bottom simple heart comment share icons and blank rounded CTA, no Meta logo no fabricated metrics or text.",
+        "effect": "水瓶社群廣告版型",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:20:08.473Z",
+        "source_instruction": "Create a polished Meta-style social advertisement.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "b6eabc83444c8aeceeb0785827f540fe8a7fbb375b9e3383e083c68a5c9af226",
+        "applied_prompt_sha256": "d9973799a932b8965a6c3e6c72d6c2dadcbdbe8499537df66f68eb7aae88211c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色水瓶與黑色環蓋一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Polished fictional social ad card: green bottle lifestyle hero image, small circular profile placeholder top with grey neutral text bars, bottom simple heart comment share icons and blank rounded CTA, no Meta logo no fabricated metrics or text.",
+            "observed": "自然桌面生活產品照",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶社群廣告版型",
+            "observed": "社群廣告卡片版型",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "上方頭像及文字佔位下方互動圖示CTA形成完整貼文",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無虛構數據無平台標誌",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-magazine-15-01",
+      "prompt_id": "src-visual642-296",
+      "command": "/magazinecover",
+      "title": "運動鞋高級雜誌封面",
+      "description": "運動鞋高級雜誌封面（AI案例示範）",
+      "result_text": "運動鞋高級雜誌封面",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-15/magazine-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /magazinecover: Turn the subject into a premium magazine cover. Reference image supplies subject identity only. Premium magazine cover with single large white black stripe gum sole shoe, exact big masthead FORM and small issue 01, two readable cover lines DESIGN IN MOTION and THE SNEAKER EDIT, balanced editorial layout ivory background, no copied magazine brand. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Premium magazine cover with single large white black stripe gum sole shoe, exact big masthead FORM and small issue 01, two readable cover lines DESIGN IN MOTION and THE SNEAKER EDIT, balanced editorial layout ivory background, no copied magazine brand.",
+        "effect": "運動鞋高級雜誌封面",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:20:44.926Z",
+        "source_instruction": "Turn the subject into a premium magazine cover.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "b50fca1a1862e6b6ef458556e93099626fd5cd642c6501be4d4f5ff2ac846911",
+        "applied_prompt_sha256": "457dda1a49be53331082895cfc4f0615a6f11e34d6e1c6af013f88193581292a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑三條紋膠底保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Premium magazine cover with single large white black stripe gum sole shoe, exact big masthead FORM and small issue 01, two readable cover lines DESIGN IN MOTION and THE SNEAKER EDIT, balanced editorial layout ivory background, no copied magazine brand.",
+            "observed": "象牙白雜誌封面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋高級雜誌封面",
+            "observed": "FORM大刊頭與產品主視覺",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "01期號及兩欄封面線版面清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "DESIGN IN MOTION及THE SNEAKER EDIT拼字正確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-floating-15-01",
+      "prompt_id": "src-visual642-297",
+      "command": "/floating3d",
+      "title": "機甲乾淨懸浮展示",
+      "description": "機甲乾淨懸浮展示（AI案例示範）",
+      "result_text": "機甲乾淨懸浮展示",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-15/floating-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /floating3d: Present the subject as a clean floating 3D object. Reference image supplies subject identity only. Full reference robot toy floating clean 3D object over seamless pale blue background, soft separated shadow below, clear air gap beneath both feet, no stand or pedestal. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Full reference robot toy floating clean 3D object over seamless pale blue background, soft separated shadow below, clear air gap beneath both feet, no stand or pedestal.",
+        "effect": "機甲乾淨懸浮展示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:21:30.801Z",
+        "source_instruction": "Present the subject as a clean floating 3D object.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "723ce202297739e6a4ea69b8a116496904d237387254b2acf0b723985d0eb9d1",
+        "applied_prompt_sha256": "699c05533e1bf15d627aa252d2221ba54df84567ef31ddf05f4de280f7019a7d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍白裝甲機器人保持特徵",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Full reference robot toy floating clean 3D object over seamless pale blue background, soft separated shadow below, clear air gap beneath both feet, no stand or pedestal.",
+            "observed": "淺藍乾淨攝影棚背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲乾淨懸浮展示",
+            "observed": "全身懸浮產品呈現",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "雙腳與地面間明顯空隙下方有柔影",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無支架平台與水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mechanism-15-01",
+      "prompt_id": "src-visual642-298",
+      "command": "/mechanismview",
+      "title": "紙盒掀蓋連接機構",
+      "description": "紙盒掀蓋連接機構（AI案例示範）",
+      "result_text": "紙盒掀蓋連接機構",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-15/mechanism-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /mechanismview: Reveal the mechanism and how its moving parts connect. Reference image supplies subject identity only. Generic concept tuck-top box showing lid connected to rear wall by fold crease. Two side-by-side views CLOSED and OPEN, same box, curved arrow rotates about rear crease, leader FOLD HINGE lands on crease. No metal hinge, no actual engineering specification. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. REQUIRED visible labels: CLOSED beneath left box; OPEN beneath right box; FOLD HINGE beside the circular inset, with its leader pointing exactly at the rear lid crease. Keep same open and closed box arrangement.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Generic concept tuck-top box showing lid connected to rear wall by fold crease. Two side-by-side views CLOSED and OPEN, same box, curved arrow rotates about rear crease, leader FOLD HINGE lands on crease. No metal hinge, no actual engineering specification.",
+        "effect": "紙盒掀蓋連接機構",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:22:51.920Z",
+        "source_instruction": "Reveal the mechanism and how its moving parts connect.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "524c7d6231df6a9ff8cbe61a0b5ac9a8cafa369931a7d80f584a54c49d60dbd4",
+        "applied_prompt_sha256": "f2cfbeac2c98ce2f415b64ee8d11dbfcedfbc4e91a93d389174fc0e6fda3ce22",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/node/1588"
+          ],
+          "notes": "一般單瓦楞由兩平面liner夾一fluting；概念材質替換，非來源紙盒真實材料。一般印刷裁切折疊流程不宣稱真實品牌產線。 外觀裝配及尺寸皆明示概念；100 mm為設定值非實測。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "葉紋紙盒保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Generic concept tuck-top box showing lid connected to rear wall by fold crease. Two side-by-side views CLOSED and OPEN, same box, curved arrow rotates about rear crease, leader FOLD HINGE lands on crease. No metal hinge, no actual engineering specification.",
+            "observed": "開閉狀態機構解說",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒掀蓋連接機構",
+            "observed": "後方紙張折線形成鉸接",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "弧箭頭由閉盒指向開蓋放大圖指折線",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CLOSED OPEN FOLD HINGE正確無金屬零件",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "缺少開關狀態與機構文字標籤",
+          "previous_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /mechanismview: Reveal the mechanism and how its moving parts connect. Reference image supplies subject identity only. Generic concept tuck-top box showing lid connected to rear wall by fold crease. Two side-by-side views CLOSED and OPEN, same box, curved arrow rotates about rear crease, leader FOLD HINGE lands on crease. No metal hinge, no actual engineering specification. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure."
+        }
+      ]
+    },
+    {
+      "id": "case-factory-15-01",
+      "prompt_id": "src-visual642-299",
+      "command": "/factoryline",
+      "title": "紙盒產線概念流程",
+      "description": "紙盒產線概念流程（AI案例示範）",
+      "result_text": "紙盒產線概念流程",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-15/factory-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /factoryline: Show how the subject moves through a factory line. Reference image supplies subject identity only. Four station factory line left to right PRINT CUT FOLD PACK with conveyor arrows, printed mint leaf sheet then scored blank then open folded box then closed box. Concept line only, no actual brand factory claim, clear stages machine silhouettes. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four station factory line left to right PRINT CUT FOLD PACK with conveyor arrows, printed mint leaf sheet then scored blank then open folded box then closed box. Concept line only, no actual brand factory claim, clear stages machine silhouettes.",
+        "effect": "紙盒產線概念流程",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:23:41.148Z",
+        "source_instruction": "Show how the subject moves through a factory line.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "f4f1d587b5336bf7c283d8909c7b2e93fd02167f520db93a4dc4f0b0aefdfc62",
+        "applied_prompt_sha256": "555ae0929a50f18c6f71ac123b228afc04910b4fc6d9fe0d241c7fcbdfc111e3",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/node/1588"
+          ],
+          "notes": "一般單瓦楞由兩平面liner夾一fluting；概念材質替換，非來源紙盒真實材料。一般印刷裁切折疊流程不宣稱真實品牌產線。 外觀裝配及尺寸皆明示概念；100 mm為設定值非實測。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷葉紋紙盒貫穿流程",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four station factory line left to right PRINT CUT FOLD PACK with conveyor arrows, printed mint leaf sheet then scored blank then open folded box then closed box. Concept line only, no actual brand factory claim, clear stages machine silhouettes.",
+            "observed": "概念工廠輸送線",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒產線概念流程",
+            "observed": "印刷裁切折疊包裝四站",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "箭頭由左至右原紙到裁片開盒閉盒一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "PRINT CUT FOLD PACK文字正確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-quality-15-01",
+      "prompt_id": "src-visual642-300",
+      "command": "/qualitycheck",
+      "title": "帆布袋品質檢查點",
+      "description": "帆布袋品質檢查點（AI案例示範）",
+      "result_text": "帆布袋品質檢查點",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-15/quality-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /qualitycheck: Mark inspection points and common quality defects. Reference image supplies subject identity only. Visual quality inspection sheet: central intact cream tote with callouts HANDLE STITCH SEAM FABRIC. Three enlarged fault samples below labeled LOOSE STITCH OPEN SEAM STAIN, clearly fault examples not normal design. No certified pass claim. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure. Exactly FOUR green circular callouts around the bag: HANDLE to strap; STITCH to handle attachment stitches; SEAM to right vertical side seam; FABRIC to canvas front. Include all four, each named. Keep the three bottom red defect examples.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Visual quality inspection sheet: central intact cream tote with callouts HANDLE STITCH SEAM FABRIC. Three enlarged fault samples below labeled LOOSE STITCH OPEN SEAM STAIN, clearly fault examples not normal design. No certified pass claim.",
+        "effect": "帆布袋品質檢查點",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:26:19.446Z",
+        "source_instruction": "Mark inspection points and common quality defects.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "b70a45f32aea734f7d5f46b15e3205460a8373b50edba35495d8e3c805683e73",
+        "applied_prompt_sha256": "8e50dcce210860bb0ce6176cb7c8618abcc4cb476c561a9dcae899dab661ae34",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.coats.com/en-us/industries/fashion-accessories-travel-and-luggage/faqs/"
+          ],
+          "notes": "目視品質例示僅鬆線、開縫、污漬，不宣稱性能或認證；對應縫線與布面可見部位。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布棕提把袋一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Visual quality inspection sheet: central intact cream tote with callouts HANDLE STITCH SEAM FABRIC. Three enlarged fault samples below labeled LOOSE STITCH OPEN SEAM STAIN, clearly fault examples not normal design. No certified pass claim.",
+            "observed": "產品品質目視檢查資訊圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋品質檢查點",
+            "observed": "四個綠色檢查點及三個紅色缺陷例",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "HANDLE STITCH SEAM FABRIC引線對應實際部位",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "LOOSE STITCH OPEN SEAM STAIN圖文對應未宣稱認證",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "主圖漏掉SEAM檢查點",
+          "previous_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /qualitycheck: Mark inspection points and common quality defects. Reference image supplies subject identity only. Visual quality inspection sheet: central intact cream tote with callouts HANDLE STITCH SEAM FABRIC. Three enlarged fault samples below labeled LOOSE STITCH OPEN SEAM STAIN, clearly fault examples not normal design. No certified pass claim. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure."
+        }
+      ]
+    },
+    {
+      "id": "case-dimensions-15-01",
+      "prompt_id": "src-visual642-301",
+      "command": "/dimensions",
+      "title": "紙盒概念尺寸標註",
+      "description": "紙盒概念尺寸標註（AI案例示範）",
+      "result_text": "紙盒概念尺寸標註",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-15/dimensions-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /dimensions: Add clear, practical dimensions around the subject. Reference image supplies subject identity only. Mint leaf cube isometric with exactly three correctly anchored dimension lines width across front base, depth along receding right base, height vertical right. Labels 100 mm on each. Title CONCEPT SIZE - NOT MEASURED. Illustrative chosen dimensions not real measurement. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Mint leaf cube isometric with exactly three correctly anchored dimension lines width across front base, depth along receding right base, height vertical right. Labels 100 mm on each. Title CONCEPT SIZE - NOT MEASURED. Illustrative chosen dimensions not real measurement.",
+        "effect": "紙盒概念尺寸標註",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:26:56.034Z",
+        "source_instruction": "Add clear, practical dimensions around the subject.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "ac8675cbcd0da1c0d2d9213a3fc620a28fb9911d3a7a15f7f0982013b739dea3",
+        "applied_prompt_sha256": "e7fcda8507df8b4c3dd55e218d138f3ff4d6d21ce930ab22fe3316599ca3661c",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/node/1588"
+          ],
+          "notes": "一般單瓦楞由兩平面liner夾一fluting；概念材質替換，非來源紙盒真實材料。一般印刷裁切折疊流程不宣稱真實品牌產線。 外觀裝配及尺寸皆明示概念；100 mm為設定值非實測。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷葉紋立方紙盒",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Mint leaf cube isometric with exactly three correctly anchored dimension lines width across front base, depth along receding right base, height vertical right. Labels 100 mm on each. Title CONCEPT SIZE - NOT MEASURED. Illustrative chosen dimensions not real measurement.",
+            "observed": "白底尺寸展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒概念尺寸標註",
+            "observed": "寬深高三軸標註",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三條尺寸線沿正面底側底與垂直高度",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "皆100 mm且CONCEPT SIZE NOT MEASURED標示正確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-redesign-15-01",
+      "prompt_id": "src-visual642-302",
+      "command": "/redesign",
+      "title": "提袋改良設計概念",
+      "description": "提袋改良設計概念（AI案例示範）",
+      "result_text": "提袋改良設計概念",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-15/redesign-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /redesign: Reimagine the subject with a smarter updated design. Reference image supplies subject identity only. Redesigned cream brown handled canvas tote with wide adjustable detachable shoulder strap, reinforced handle stitch boxes, zip top and side bottle pocket holding plain bottle. Small ORIGINAL reference inset, large UPDATED concept, no engineering performance claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Redesigned cream brown handled canvas tote with wide adjustable detachable shoulder strap, reinforced handle stitch boxes, zip top and side bottle pocket holding plain bottle. Small ORIGINAL reference inset, large UPDATED concept, no engineering performance claims.",
+        "effect": "提袋改良設計概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:27:44.935Z",
+        "source_instruction": "Reimagine the subject with a smarter updated design.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "cf8d22db036d00c33acacf5564fe43247b305f145eb6c8a4e38d526ae175132f",
+        "applied_prompt_sha256": "4daedcf569818a8f5b8c32ab04edfde2a8fb881547f607e4f8a7d9bffe00059a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布棕提把身份延續",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Redesigned cream brown handled canvas tote with wide adjustable detachable shoulder strap, reinforced handle stitch boxes, zip top and side bottle pocket holding plain bottle. Small ORIGINAL reference inset, large UPDATED concept, no engineering performance claims.",
+            "observed": "生活產品改款展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "提袋改良設計概念",
+            "observed": "加裝寬可調可拆肩帶拉鍊側瓶袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "原款小圖以箭頭指向更新款細節有放大圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "強化提把肩帶調節扣及拉鍊清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-future-15-01",
+      "prompt_id": "src-visual642-303",
+      "command": "/futuristic",
+      "title": "水瓶未來設計概念",
+      "description": "水瓶未來設計概念（AI案例示範）",
+      "result_text": "水瓶未來設計概念",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-15/future-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /futuristic: Transform the subject into a believable future version. Reference image supplies subject identity only. Believable future version of green black loop-cap bottle, small subtle embedded hydration indicator light and tactile grip band, no magical floating parts, refined industrial design on clean studio. Label CONCEPT only no capacity claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Believable future version of green black loop-cap bottle, small subtle embedded hydration indicator light and tactile grip band, no magical floating parts, refined industrial design on clean studio. Label CONCEPT only no capacity claims.",
+        "effect": "水瓶未來設計概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:28:18.179Z",
+        "source_instruction": "Transform the subject into a believable future version.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "5041d340f14dda2442328dc1e0a34d7c706d8421ef4a8be42874fbb3c3bbd979",
+        "applied_prompt_sha256": "d0493e1950c760a0d8f2bdcba879336c64a5812727582f9de24be195cdf64834",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑環蓋保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Believable future version of green black loop-cap bottle, small subtle embedded hydration indicator light and tactile grip band, no magical floating parts, refined industrial design on clean studio. Label CONCEPT only no capacity claims.",
+            "observed": "簡潔未來產品棚拍",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶未來設計概念",
+            "observed": "加入發光指示與握持帶",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶蓋仍可辨認握持帶圍繞瓶身",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT標示無虛構性能數據",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-premium-15-01",
+      "prompt_id": "src-visual642-304",
+      "command": "/premiumshowcase",
+      "title": "運動鞋新品高級發表",
+      "description": "運動鞋新品高級發表（AI案例示範）",
+      "result_text": "運動鞋新品高級發表",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-15/premium-15.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /premiumshowcase: Stage the subject like a premium product launch. Reference image supplies subject identity only. Reference white black stripe gum sole shoe stage as premium launch hero, sculptural ivory plinth with dramatic spotlight and restrained gold accents, subtle stage curtains and clean foreground, no audience logos text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference white black stripe gum sole shoe stage as premium launch hero, sculptural ivory plinth with dramatic spotlight and restrained gold accents, subtle stage curtains and clean foreground, no audience logos text.",
+        "effect": "運動鞋新品高級發表",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T22:28:54.456Z",
+        "source_instruction": "Stage the subject like a premium product launch.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "4e1f73eb6bb44305dcb1f21ad01b257da8e89595aa36574f8b0158a9e237371c",
+        "applied_prompt_sha256": "963d161b9ec8808eb7083d67ab14bec61ead344dbc910aff463b4257a2c59226",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋三黑條膠底保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference white black stripe gum sole shoe stage as premium launch hero, sculptural ivory plinth with dramatic spotlight and restrained gold accents, subtle stage curtains and clean foreground, no audience logos text.",
+            "observed": "金色布幕與象牙展示台",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋新品高級發表",
+            "observed": "高級新品展示光線",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "鞋完整置於中央圓台上方聚光",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無觀眾與多餘文案",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

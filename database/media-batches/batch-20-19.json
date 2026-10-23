@@ -1,0 +1,1435 @@
+{
+  "version": 1,
+  "id": "batch-20-19",
+  "cases": [
+    {
+      "id": "case-boxed-19-01",
+      "prompt_id": "src-visual642-365",
+      "command": "/boxed",
+      "title": "陶瓷杯盒內整齊展示",
+      "description": "陶瓷杯盒內整齊展示（AI案例示範）",
+      "result_text": "陶瓷杯盒內整齊展示",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-19/boxed-19.png",
+      "applied_prompt": "Create a square web-quality website example. Sage ceramic cup neatly centered in cream pulp insert inside open sage box, top-down three-quarter view, lid behind. No extra accessories or text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /boxed: Present the subject neatly inside its box.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Sage ceramic cup neatly centered in cream pulp insert inside open sage box, top-down three-quarter view, lid behind. No extra accessories or text.",
+        "effect": "陶瓷杯盒內整齊展示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:09:23.873Z",
+        "source_instruction": "Present the subject neatly inside its box.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "d02be058e2f1dd2d0d0e42a0dbfc00426f3a9df9574efc0201ec9995aed39a69",
+        "applied_prompt_sha256": "f0399593a7bad4ed58e218faba75fa37483acd269bf0067627a78c0df1ed21d1",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色陶瓷杯符合來源。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Sage ceramic cup neatly centered in cream pulp insert inside open sage box, top-down three-quarter view, lid behind. No extra accessories or text.",
+            "observed": "盒內整齊展示。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯盒內整齊展示",
+            "observed": "杯子居中嵌入紙漿內襯。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒蓋置後且杯形凹槽貼合。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無其他配件或文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-unbox-19-01",
+      "prompt_id": "src-visual642-366",
+      "command": "/unboxing",
+      "title": "桌扇開箱配置",
+      "description": "桌扇開箱配置（AI案例示範）",
+      "result_text": "桌扇開箱配置",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-19/unbox-19.png",
+      "applied_prompt": "Create a square web-quality website example. Unboxing scene: cream teal USB desk fan beside open neutral cardboard box, fitted paper tray, its attached USB cable and folded blank setup leaflet. Neat tabletop layout. No charger or invented supplied extras. Small label CONCEPT UNBOXING. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /unboxing: Arrange the product and contents as an unboxing scene.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Unboxing scene: cream teal USB desk fan beside open neutral cardboard box, fitted paper tray, its attached USB cable and folded blank setup leaflet. Neat tabletop layout. No charger or invented supplied extras. Small label CONCEPT UNBOXING.",
+        "effect": "桌扇開箱配置",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:09:37.579Z",
+        "source_instruction": "Arrange the product and contents as an unboxing scene.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "d3489496196e5cbbe7e91b9ef5950f37d30357ae4bd44a0793f5ee16410d4fda",
+        "applied_prompt_sha256": "0a85be52d17717dab8dea495aa4cfaa38a5350208298620da0eff33213e714ef",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米色青葉桌扇符合來源。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Unboxing scene: cream teal USB desk fan beside open neutral cardboard box, fitted paper tray, its attached USB cable and folded blank setup leaflet. Neat tabletop layout. No charger or invented supplied extras. Small label CONCEPT UNBOXING.",
+            "observed": "紙箱紙托與說明紙的開箱場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇開箱配置",
+            "observed": "本體及內容物逐項攤開。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "USB線接著桌扇，內襯凹槽供收納。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "明示CONCEPT UNBOXING且沒有額外充電器。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-contents-19-01",
+      "prompt_id": "src-visual642-367",
+      "command": "/contents",
+      "title": "水瓶內容物全覽",
+      "description": "水瓶內容物全覽（AI案例示範）",
+      "result_text": "水瓶內容物全覽",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-19/contents-19.png",
+      "applied_prompt": "Create a square web-quality website example. Flat lay: reference insulated bottle, its matching removable lid placed beside it, slim blank care leaflet, open neutral box. Title CONCEPT CONTENTS. No extra spare parts, no real bundle claims. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /contents: Show everything included with the main item.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Flat lay: reference insulated bottle, its matching removable lid placed beside it, slim blank care leaflet, open neutral box. Title CONCEPT CONTENTS. No extra spare parts, no real bundle claims.",
+        "effect": "水瓶內容物全覽",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:10:15.562Z",
+        "source_instruction": "Show everything included with the main item.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "f9c1a64461bee31f11c1cd3e9df428a044a39351911ad76187bb86a69877ce30",
+        "applied_prompt_sha256": "1c7419255e56395b171c172ff24d2b618884ce4fbc87e6026400b51fecf91119",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑環蓋符合來源。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Flat lay: reference insulated bottle, its matching removable lid placed beside it, slim blank care leaflet, open neutral box. Title CONCEPT CONTENTS. No extra spare parts, no real bundle claims.",
+            "observed": "平鋪內容物全覽。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶內容物全覽",
+            "observed": "瓶身、瓶蓋、說明紙與盒子各自可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "蓋與瓶口對應，沒有多餘零件。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT CONTENTS與CARE GUIDE清楚，未宣稱真實套裝。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-accessories-19-01",
+      "prompt_id": "src-visual642-368",
+      "command": "/accessories",
+      "title": "水瓶搭配配件",
+      "description": "水瓶搭配配件（AI案例示範）",
+      "result_text": "水瓶搭配配件",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-19/accessories-19.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle centered with generic fabric bottle sleeve, narrow bottle cleaning brush and compatible-looking carrying strap arranged around it. Title ACCESSORY CONCEPTS. Do not claim exact fit or included bundle. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /accessories: Arrange compatible accessories around the subject.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle centered with generic fabric bottle sleeve, narrow bottle cleaning brush and compatible-looking carrying strap arranged around it. Title ACCESSORY CONCEPTS. Do not claim exact fit or included bundle.",
+        "effect": "水瓶搭配配件",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:10:59.958Z",
+        "source_instruction": "Arrange compatible accessories around the subject.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "ff9a64ee2dab0c4a91a0feee94564f32cc91b63217e3d319846d37c51e4d9587",
+        "applied_prompt_sha256": "56ee9eff1de2b92c3bee716a1e4aa7bb748d04d10a3080ea3fdfa669b7b8783f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "來源綠瓶黑環蓋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle centered with generic fabric bottle sleeve, narrow bottle cleaning brush and compatible-looking carrying strap arranged around it. Title ACCESSORY CONCEPTS. Do not claim exact fit or included bundle.",
+            "observed": "桌面周圍排列配件。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶搭配配件",
+            "observed": "布套、細長清潔刷與背帶分別清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "配件尺寸與用途合理；刷子採懸浮展示構圖。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "ACCESSORY CONCEPTS明示設計概念，無真實相容性或隨附宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-variants-19-01",
+      "prompt_id": "src-visual642-369",
+      "command": "/variants",
+      "title": "帆布袋設計變體",
+      "description": "帆布袋設計變體（AI案例示範）",
+      "result_text": "帆布袋設計變體",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-19/variants-19.png",
+      "applied_prompt": "Create a square web-quality website example. Three equal tote bag design variants in side-by-side panels: original plain cream brown-handle tote, same tote with small outer pocket, same tote with zip-top. Labels ORIGINAL, POCKET, ZIP. Consistent view and size. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /variants: Compare multiple product or design variants.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Three equal tote bag design variants in side-by-side panels: original plain cream brown-handle tote, same tote with small outer pocket, same tote with zip-top. Labels ORIGINAL, POCKET, ZIP. Consistent view and size.",
+        "effect": "帆布袋設計變體",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:11:37.756Z",
+        "source_instruction": "Compare multiple product or design variants.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "531dac136ffe79426381073bbc2cd91bf5197ab4e792516d3f88d4d226ded28a",
+        "applied_prompt_sha256": "2de5758993430ebaeb1724ea54e6197469990617c202c1cf2517ca0557983288",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布棕色提把一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Three equal tote bag design variants in side-by-side panels: original plain cream brown-handle tote, same tote with small outer pocket, same tote with zip-top. Labels ORIGINAL, POCKET, ZIP. Consistent view and size.",
+            "observed": "三欄相同桌面與視角。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋設計變體",
+            "observed": "原版、口袋、拉鍊三種設計明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "各袋尺寸相當，新增部位位置合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "ORIGINAL、POCKET、ZIP拼寫正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-colorways-19-01",
+      "prompt_id": "src-visual642-370",
+      "command": "/colorways",
+      "title": "陶瓷杯配色系列",
+      "description": "陶瓷杯配色系列（AI案例示範）",
+      "result_text": "陶瓷杯配色系列",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-19/colorways-19.png",
+      "applied_prompt": "Create a square web-quality website example. Four identical ceramic tumbler forms in coordinated sage, ivory, dusty blue, terracotta colors, two-by-two grid. Same lighting and scale. No text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /colorways: Show the subject in several coordinated color options.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four identical ceramic tumbler forms in coordinated sage, ivory, dusty blue, terracotta colors, two-by-two grid. Same lighting and scale. No text.",
+        "effect": "陶瓷杯配色系列",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:12:14.270Z",
+        "source_instruction": "Show the subject in several coordinated color options.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "c069454399af358b06fa16fabda65e076d6bc019696b27b7410aacf3b681dc28",
+        "applied_prompt_sha256": "2fd1bfa8caee54fa954ae9b84456dd252b1b2b360f3710835227def796fa9df3",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "四個同款錐形無把杯。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four identical ceramic tumbler forms in coordinated sage, ivory, dusty blue, terracotta colors, two-by-two grid. Same lighting and scale. No text.",
+            "observed": "二乘二白底排列。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯配色系列",
+            "observed": "綠米白藍陶土四種協調配色。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "杯形視角尺寸一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字與多餘物件。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-finish-19-01",
+      "prompt_id": "src-visual642-371",
+      "command": "/finish",
+      "title": "陶瓷杯表面處理比較",
+      "description": "陶瓷杯表面處理比較（AI案例示範）",
+      "result_text": "陶瓷杯表面處理比較",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-19/finish-19.png",
+      "applied_prompt": "Create a square web-quality website example. Three identical cup shapes side by side, matte sage, glossy sage, brushed silver metal finish transformation. Labels MATTE, GLOSS, METAL. Preserve shape, clearly artistic finish concepts not manufacturing specifications. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /finish: Compare surface finishes such as matte, gloss, metal, or soft-touch.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Three identical cup shapes side by side, matte sage, glossy sage, brushed silver metal finish transformation. Labels MATTE, GLOSS, METAL. Preserve shape, clearly artistic finish concepts not manufacturing specifications.",
+        "effect": "陶瓷杯表面處理比較",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:12:52.554Z",
+        "source_instruction": "Compare surface finishes such as matte, gloss, metal, or soft-touch.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "6e1d0997eef2e7093a51786a738723695dc3cdbbf026c1d66c03b722a43242e3",
+        "applied_prompt_sha256": "dc6dc1363ea5a263df8873fd85dfb5960477eae9aeb1da3ccb25afc9b3e6acfa",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同杯形三種材質表面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Three identical cup shapes side by side, matte sage, glossy sage, brushed silver metal finish transformation. Labels MATTE, GLOSS, METAL. Preserve shape, clearly artistic finish concepts not manufacturing specifications.",
+            "observed": "白底並排比較。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯表面處理比較",
+            "observed": "霧面亮面金屬反光差異明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "樣片與杯子一一對應。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "MATTE GLOSS METAL正確，無製造規格。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-premium-19-01",
+      "prompt_id": "src-visual642-372",
+      "command": "/premium",
+      "title": "水瓶精品質感呈現",
+      "description": "水瓶精品質感呈現（AI案例示範）",
+      "result_text": "水瓶精品質感呈現",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-19/premium-19.png",
+      "applied_prompt": "Create a square web-quality website example. Restrained premium styling reference bottle on charcoal stone plinth, fine warm rim light, muted dark background, refined clean composition, no added branding or text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /premium: Elevate the subject with restrained premium styling.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Restrained premium styling reference bottle on charcoal stone plinth, fine warm rim light, muted dark background, refined clean composition, no added branding or text.",
+        "effect": "水瓶精品質感呈現",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:13:29.506Z",
+        "source_instruction": "Elevate the subject with restrained premium styling.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "8a6d0bc35cf1d8246a4fce1f7d60a55976e98cf17f8ff71dadd2c02bcfefb88e",
+        "applied_prompt_sha256": "f4355e57b26970a6cb2e7ba80019305f9a31c7024800f9a599aa5cf71c18d166",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "原綠瓶黑環蓋保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Restrained premium styling reference bottle on charcoal stone plinth, fine warm rim light, muted dark background, refined clean composition, no added branding or text.",
+            "observed": "深色石台棚拍。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶精品質感呈現",
+            "observed": "暖邊光與克制色彩提升質感。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶子完整直立主角明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無品牌文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-minimal-19-01",
+      "prompt_id": "src-visual642-373",
+      "command": "/minimal",
+      "title": "陶瓷杯極簡構圖",
+      "description": "陶瓷杯極簡構圖（AI案例示範）",
+      "result_text": "陶瓷杯極簡構圖",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-19/minimal-19.png",
+      "applied_prompt": "Create a square web-quality website example. Single reference cup small centered on vast warm ivory seamless background, delicate natural shadow, no props or text, minimal clean composition. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /minimal: Simplify the composition into a clean minimal presentation.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Single reference cup small centered on vast warm ivory seamless background, delicate natural shadow, no props or text, minimal clean composition.",
+        "effect": "陶瓷杯極簡構圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:13:59.298Z",
+        "source_instruction": "Simplify the composition into a clean minimal presentation.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "b2cb4d2f4f6de3b762275b454a9d63ca151c7564183be7bdd5b8ba374c93553e",
+        "applied_prompt_sha256": "41ed70ab9f04e9c4cf704237b6695f6aba1f45fe27b97762a41f81c6d0219906",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "原綠色陶瓷杯。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Single reference cup small centered on vast warm ivory seamless background, delicate natural shadow, no props or text, minimal clean composition.",
+            "observed": "暖白無縫背景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯極簡構圖",
+            "observed": "大量留白與單一主體達成極簡。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "自然投影與杯底接觸。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無道具或文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-industrial-19-01",
+      "prompt_id": "src-visual642-374",
+      "command": "/industrial",
+      "title": "桌扇工業設計語彙",
+      "description": "桌扇工業設計語彙（AI案例示範）",
+      "result_text": "桌扇工業設計語彙",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-19/industrial-19.png",
+      "applied_prompt": "Create a square web-quality website example. Reimagine reference round desktop fan in robust industrial design: steel protective grille, charcoal metal housing, broad rubber-foot base, exposed structural fasteners. Coherent functional desk fan, no text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /industrial: Give the subject a robust industrial design language.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reimagine reference round desktop fan in robust industrial design: steel protective grille, charcoal metal housing, broad rubber-foot base, exposed structural fasteners. Coherent functional desk fan, no text.",
+        "effect": "桌扇工業設計語彙",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:14:40.865Z",
+        "source_instruction": "Give the subject a robust industrial design language.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "0d1059921b58a5bbfa8e3f53b12198064d1b2072eb7da1dfd84982f3b7024549",
+        "applied_prompt_sha256": "6e7463ac0da84786685ef3104f7b929f517d3f297161db9c2af8ed2422ad6c62",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "保留圓形桌扇與青色葉輪。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reimagine reference round desktop fan in robust industrial design: steel protective grille, charcoal metal housing, broad rubber-foot base, exposed structural fasteners. Coherent functional desk fan, no text.",
+            "observed": "白底工業產品展示。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇工業設計語彙",
+            "observed": "金屬網罩外殼、外露螺栓與橡膠腳形成工業風。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "網罩包覆葉輪支架接底座。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無品牌文字，改款外形合理。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-retro-19-01",
+      "prompt_id": "src-visual642-375",
+      "command": "/retro",
+      "title": "桌扇復古設計",
+      "description": "桌扇復古設計（AI案例示範）",
+      "result_text": "桌扇復古設計",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-19/retro-19.png",
+      "applied_prompt": "Create a square web-quality website example. Restyle reference desk fan in coherent 1950s-inspired retro language: rounded mint enamel housing, cream grille, brass-toned adjustment knob, curved compact base. No dates, no historical product claims, no text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /retro: Restyle the subject with a coherent retro design language.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Restyle reference desk fan in coherent 1950s-inspired retro language: rounded mint enamel housing, cream grille, brass-toned adjustment knob, curved compact base. No dates, no historical product claims, no text.",
+        "effect": "桌扇復古設計",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:15:19.022Z",
+        "source_instruction": "Restyle the subject with a coherent retro design language.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "97b04a1a4b989040d25a42b4457e1776ece4d4e2bc62722b9169246c748cd60f",
+        "applied_prompt_sha256": "4e587d321468e3f310bb6d23aa0a8219dc4756af21d0a26f91ce2c6ea5231b73",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "圓桌扇來源外形延續。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Restyle reference desk fan in coherent 1950s-inspired retro language: rounded mint enamel housing, cream grille, brass-toned adjustment knob, curved compact base. No dates, no historical product claims, no text.",
+            "observed": "乾淨白底。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇復古設計",
+            "observed": "薄荷琺瑯色與黃銅旋鈕呈現復古設計。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "網罩支架底座一致連接。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有年代史實宣稱或品牌。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-prototype-19-01",
+      "prompt_id": "src-visual642-376",
+      "command": "/prototype",
+      "title": "桌扇可運作原型概念",
+      "description": "桌扇可運作原型概念（AI案例示範）",
+      "result_text": "桌扇可運作原型概念",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-19/prototype-19.png",
+      "applied_prompt": "Create a square web-quality website example. Believable compact desk fan prototype on workshop bench: cream 3D-printed housing with layer lines, protected teal rotor behind complete grille, visible side fasteners, connected USB power cable to power bank, slight rotor motion blur. Title WORKING PROTOTYPE CONCEPT. No exposed live wires or hands near blades. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /prototype: Present the subject as a believable working prototype.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Believable compact desk fan prototype on workshop bench: cream 3D-printed housing with layer lines, protected teal rotor behind complete grille, visible side fasteners, connected USB power cable to power bank, slight rotor motion blur. Title WORKING PROTOTYPE CONCEPT. No exposed live wires or hands near blades.",
+        "effect": "桌扇可運作原型概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:16:05.103Z",
+        "source_instruction": "Present the subject as a believable working prototype.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "b7d88bba284523aa975708c77573c94e49600b4cfc72008d334eb0df2332b7b8",
+        "applied_prompt_sha256": "667254f2c1e1ebac28723b1d2289c46662fa61cd8ba334a8e7d5815b5c4953fb",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "桌扇原理及操作概念，外觀可見按鍵、俯仰與USB線；不聲稱真實型號或實測功能。原型為概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "來源桌扇造形保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Believable compact desk fan prototype on workshop bench: cream 3D-printed housing with layer lines, protected teal rotor behind complete grille, visible side fasteners, connected USB power cable to power bank, slight rotor motion blur. Title WORKING PROTOTYPE CONCEPT. No exposed live wires or hands near blades.",
+            "observed": "工作台與設計草圖呈現原型場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇可運作原型概念",
+            "observed": "列印層紋、螺絲及旋轉模糊可信。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "USB線接行動電源、葉輪完整受網罩保護。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "WORKING PROTOTYPE CONCEPT標示概念，無裸線。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-concept-19-01",
+      "prompt_id": "src-visual642-377",
+      "command": "/concept",
+      "title": "機甲精緻概念視覺",
+      "description": "機甲精緻概念視覺（AI案例示範）",
+      "result_text": "機甲精緻概念視覺",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-19/concept-19.png",
+      "applied_prompt": "Create a square web-quality website example. Polished concept visualization of reference robot, retain recognizable helmet shoulder armor and large boots, refined pearl-white and cobalt armor with restrained teal glow, clean futuristic studio presentation, no text. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /concept: Turn the subject into a polished concept visualization.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Polished concept visualization of reference robot, retain recognizable helmet shoulder armor and large boots, refined pearl-white and cobalt armor with restrained teal glow, clean futuristic studio presentation, no text.",
+        "effect": "機甲精緻概念視覺",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:16:55.085Z",
+        "source_instruction": "Turn the subject into a polished concept visualization.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "a47e8450614632f88f96fbd14306ae55072631c14831f48807bc9f0af9d43a5a",
+        "applied_prompt_sha256": "7c8e83ca5a91169538c45588bbbb6f74fb1a1904696cb0adc0c0252b0b7d03b9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "來源機甲頭盔肩甲與大型靴甲一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Polished concept visualization of reference robot, retain recognizable helmet shoulder armor and large boots, refined pearl-white and cobalt armor with restrained teal glow, clean futuristic studio presentation, no text.",
+            "observed": "未來棚景完整站姿。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲精緻概念視覺",
+            "observed": "精緻白藍金甲面與青光構成概念視覺。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "人體型機甲比例及關節連接一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無原商品版面文字與水印。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-upgrade-19-01",
+      "prompt_id": "src-visual642-378",
+      "command": "/upgrade",
+      "title": "水瓶改良設計對照",
+      "description": "水瓶改良設計對照（AI案例示範）",
+      "result_text": "水瓶改良設計對照",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-19/upgrade-19.png",
+      "applied_prompt": "Create a square web-quality website example. Two panels ORIGINAL reference bottle with plain cylindrical body and original narrow-loop lid, UPGRADE same bottle with wider padded easy-carry loop on lid and removable ribbed grip sleeve. Labels ORIGINAL, UPGRADE. Visually clear additions, no performance numbers. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /upgrade: Show a clear improved version of the subject.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Two panels ORIGINAL reference bottle with plain cylindrical body and original lid, UPGRADE same bottle with easy-carry loop on lid and removable ribbed grip sleeve. Labels ORIGINAL, UPGRADE. Visually clear additions, no performance numbers.",
+        "effect": "水瓶改良設計對照",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:17:42.843Z",
+        "source_instruction": "Show a clear improved version of the subject.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "830b62d4b7eab4ab11df3ef9356d010e3551646066e058134ffb2909f414b687",
+        "applied_prompt_sha256": "1df0be1cd1bb779e9c39f42df6ed47c662cf052ff0e861ae2dcae68c03faf935",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同綠瓶雙欄比較。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Two panels ORIGINAL reference bottle with plain cylindrical body and original lid, UPGRADE same bottle with easy-carry loop on lid and removable ribbed grip sleeve. Labels ORIGINAL, UPGRADE. Visually clear additions, no performance numbers.",
+            "observed": "相同桌面與光線。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶改良設計對照",
+            "observed": "右側加寬提環及肋紋握套明確改良。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "特寫對應右瓶的提環握套。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "ORIGINAL UPGRADE正確，無效能數字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-ergonomics-19-01",
+      "prompt_id": "src-visual642-379",
+      "command": "/ergonomics",
+      "title": "水瓶人體握持示意",
+      "description": "水瓶人體握持示意（AI案例示範）",
+      "result_text": "水瓶人體握持示意",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-19/ergonomics-19.png",
+      "applied_prompt": "Create a square web-quality website example. Adult hand comfortably wraps a concept version of reference bottle fitted with broad ribbed grip sleeve, neutral wrist. One subtle highlight over contact zone and label GRIP ZONE. Title ERGONOMIC CONCEPT. No medical or measured claims. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /ergonomics: Explain how the subject fits the body and supports use.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Adult hand comfortably wraps a concept version of reference bottle fitted with broad ribbed grip sleeve, neutral wrist. One subtle highlight over contact zone and label GRIP ZONE. Title ERGONOMIC CONCEPT. No medical or measured claims.",
+        "effect": "水瓶人體握持示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:18:29.599Z",
+        "source_instruction": "Explain how the subject fits the body and supports use.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "02353591261a8594ec64a32910c2868a5c2d951e6d89170b9592c79c367149a8",
+        "applied_prompt_sha256": "d97304153f8b2d8dd3d19819ac3118d56ea8087bb670228bd5a44a1ee78f18bc",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.ccohs.ca/oshanswers/ergonomics/handtools/tooldesign.html"
+          ],
+          "notes": "僅採中立手腕與接觸材質的一般設計原則，非醫療效果、人體數據或實測舒適性。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶加肋紋握套符合概念。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Adult hand comfortably wraps a concept version of reference bottle fitted with broad ribbed grip sleeve, neutral wrist. One subtle highlight over contact zone and label GRIP ZONE. Title ERGONOMIC CONCEPT. No medical or measured claims.",
+            "observed": "成人手持生活場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶人體握持示意",
+            "observed": "接觸區高亮與GRIP ZONE解說用途。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "手指自然包覆握套、手腕合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "標題明示概念，文字無醫療與數據宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-grip-19-01",
+      "prompt_id": "src-visual642-380",
+      "command": "/grip",
+      "title": "牙刷握持接觸細節",
+      "description": "牙刷握持接觸細節（AI案例示範）",
+      "result_text": "牙刷握持接觸細節",
+      "reference": "output/imagegen/batch-20-09/brush-reference.png",
+      "result": "output/imagegen/batch-20-19/grip-19.png",
+      "applied_prompt": "Create a square web-quality website example. Close-up adult hand correctly gripping reference toothbrush handle, thumb pad on textured handle zone, relaxed fingers and neutral wrist. Toothbrush head remains outside mouth. Subtle label THUMB REST with leader to thumb contact. No medical claims. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /grip: Focus on hand placement, grip surfaces, and comfort.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/brush-reference.png",
+        "sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "generator": "built-in imagegen",
+        "prompt": "A single generic manual toothbrush product reference photo, mint green and white ergonomic handle, one compact oval head with dense short white and pale turquoise bristles, full toothbrush visible diagonally from lower left handle to upper right head on white studio background with a subtle shadow. Photorealistic web quality, no text, no logos, no watermark, no toothpaste, no person. Fictional product used for visual design concepts only, no medical or germ-killing claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Close-up adult hand correctly gripping reference toothbrush handle, thumb pad on textured handle zone, relaxed fingers and neutral wrist. Toothbrush head remains outside mouth. Subtle label THUMB REST with leader to thumb contact. No medical claims.",
+        "effect": "牙刷握持接觸細節",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:19:13.050Z",
+        "source_instruction": "Focus on hand placement, grip surfaces, and comfort.",
+        "reference_sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "result_sha256": "24e67444d243b67980c619f5d3f4cf8493609b6fc277a9d6c9317a1e3452e4ee",
+        "applied_prompt_sha256": "0bd406efc9a2ddf42a430e6215327e0f2ec5344a664f15e6c056096d08c9e464",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.ccohs.ca/oshanswers/ergonomics/handtools/tooldesign.html"
+          ],
+          "notes": "僅採中立手腕與接觸材質的一般設計原則，非醫療效果、人體數據或實測舒適性。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠白牙刷來源一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Close-up adult hand correctly gripping reference toothbrush handle, thumb pad on textured handle zone, relaxed fingers and neutral wrist. Toothbrush head remains outside mouth. Subtle label THUMB REST with leader to thumb contact. No medical claims.",
+            "observed": "手部近拍白底。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "牙刷握持接觸細節",
+            "observed": "拇指在肋紋支撐區。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "其餘四指自然握柄，刷頭在口外。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "THUMB REST指向接觸點，無醫療宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-controls-19-01",
+      "prompt_id": "src-visual642-381",
+      "command": "/controls",
+      "title": "桌扇控制功能標註",
+      "description": "桌扇控制功能標註（AI案例示範）",
+      "result_text": "桌扇控制功能標註",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-19/controls-19.png",
+      "applied_prompt": "Create a square web-quality website example. Reference fan with two accurate leaders: base round push button labeled POWER ON / OFF and side tilt pivot labeled ADJUST ANGLE. Title CONTROL CONCEPT. No nonexistent speed dial or display. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /controls: Label controls and connect each one to its function.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference fan with two accurate leaders: base round push button labeled POWER ON / OFF and side tilt pivot labeled ADJUST ANGLE. Title CONTROL CONCEPT. No nonexistent speed dial or display.",
+        "effect": "桌扇控制功能標註",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:20:03.065Z",
+        "source_instruction": "Label controls and connect each one to its function.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "06f71b58c85d9f749d95896f2b6b624c9d69f6995ff80e5f44fe6a3f5368b4eb",
+        "applied_prompt_sha256": "729e46f873819bc13a1ee7d0e342854917a4537ef38723c679d3850581c43ebc",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "桌扇原理及操作概念，外觀可見按鍵、俯仰與USB線；不聲稱真實型號或實測功能。原型為概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "來源桌扇一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference fan with two accurate leaders: base round push button labeled POWER ON / OFF and side tilt pivot labeled ADJUST ANGLE. Title CONTROL CONCEPT. No nonexistent speed dial or display.",
+            "observed": "白底功能標註圖。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇控制功能標註",
+            "observed": "電源開關與角度調整清楚解說。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線分別到圓按鍵和側樞軸。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "文字拼寫可讀，概念標題且無虛構速度顯示。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-interface-19-01",
+      "prompt_id": "src-visual642-382",
+      "command": "/interface",
+      "title": "桌扇互動區域解說",
+      "description": "桌扇互動區域解說（AI案例示範）",
+      "result_text": "桌扇互動區域解說",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-19/interface-19.png",
+      "applied_prompt": "Create a square web-quality website example. Reference fan with three colored outlines of interaction zones: base button labeled PRESS TO START, side pivot labeled TILT TO AIM, rear USB plug labeled CONNECT POWER. Title INTERACTION ZONES. Labels connect to correct regions; no touchscreen. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /interface: Explain the interface and its main interaction zones.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference fan with three colored outlines of interaction zones: base button labeled PRESS TO START, side pivot labeled TILT TO AIM, rear USB plug labeled CONNECT POWER. Title INTERACTION ZONES. Labels connect to correct regions; no touchscreen.",
+        "effect": "桌扇互動區域解說",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:20:46.830Z",
+        "source_instruction": "Explain the interface and its main interaction zones.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "aa2a7234c718b209d4fe74c94d2d87529ee1f1743651457bbc27398f9c12a949",
+        "applied_prompt_sha256": "72c40cd60ca6a3595055b297850368828179e43bd4ec9d8643e90ef177163b60",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "桌扇原理及操作概念，外觀可見按鍵、俯仰與USB線；不聲稱真實型號或實測功能。原型為概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "來源桌扇完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference fan with three colored outlines of interaction zones: base button labeled PRESS TO START, side pivot labeled TILT TO AIM, rear USB plug labeled CONNECT POWER. Title INTERACTION ZONES. Labels connect to correct regions; no touchscreen.",
+            "observed": "白底互動區域展示。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇互動區域解說",
+            "observed": "藍按鍵綠樞軸橙USB三區。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三色引線對應按壓、調角度與接電。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "標籤可讀，無不存在觸控螢幕。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-workflow-19-01",
+      "prompt_id": "src-visual642-383",
+      "command": "/workflow",
+      "title": "桌扇使用流程圖",
+      "description": "桌扇使用流程圖（AI案例示範）",
+      "result_text": "桌扇使用流程圖",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-19/workflow-19.png",
+      "applied_prompt": "Create a square web-quality website example. Four sequential panels left to right: CONNECT USB plug into power bank; PLACE fan on stable tabletop; AIM tilt fan head; SWITCH ON press base button with guard in place and gentle airflow arrows. Title DESK FAN WORKFLOW. Four labels CONNECT, PLACE, AIM, START. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /workflow: Map the practical workflow from start to finish.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four sequential panels left to right: CONNECT USB plug into power bank; PLACE fan on stable tabletop; AIM tilt fan head; SWITCH ON press base button with guard in place and gentle airflow arrows. Title DESK FAN WORKFLOW. Four labels CONNECT, PLACE, AIM, START.",
+        "effect": "桌扇使用流程圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:21:35.729Z",
+        "source_instruction": "Map the practical workflow from start to finish.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "99e57cc4253cad11ddad2b6e9553ab233ddbc18c109c682de7c0acc1f581b5ad",
+        "applied_prompt_sha256": "19ccc44be8a082b49d471ba3ea74f18efd839a5f43e59ab94a1dbf131da42003",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "桌扇原理及操作概念，外觀可見按鍵、俯仰與USB線；不聲稱真實型號或實測功能。原型為概念。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同米色青葉桌扇。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four sequential panels left to right: CONNECT USB plug into power bank; PLACE fan on stable tabletop; AIM tilt fan head; SWITCH ON press base button with guard in place and gentle airflow arrows. Title DESK FAN WORKFLOW. Four labels CONNECT, PLACE, AIM, START.",
+            "observed": "四欄操作流程。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇使用流程圖",
+            "observed": "接電放置瞄準啟動依序呈現。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "USB插入行動電源、手調樞軸、手按底座，網罩均在位。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONNECT PLACE AIM START四標籤及序號正確。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-usage-19-01",
+      "prompt_id": "src-visual642-384",
+      "command": "/usage",
+      "title": "帆布袋日常使用",
+      "description": "帆布袋日常使用（AI案例示範）",
+      "result_text": "帆布袋日常使用",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-19/usage-19.png",
+      "applied_prompt": "Create a square web-quality website example. Natural lifestyle photo adult carrying reference cream tote with brown straps over shoulder at local produce market, vegetables visible at bag opening, bag clearly focal and used naturally. No text or brand logos. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /usage: Demonstrate how the subject is used in context.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Natural lifestyle photo adult carrying reference cream tote with brown straps over shoulder at local produce market, vegetables visible at bag opening, bag clearly focal and used naturally. No text or brand logos.",
+        "effect": "帆布袋日常使用",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T00:22:18.745Z",
+        "source_instruction": "Demonstrate how the subject is used in context.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "69f7ffa48145c88594dd9fb5923375f83434bae6605a490570d5d623159d01d8",
+        "applied_prompt_sha256": "b2bb07bc84d5b3ac3b19e79f96eb7fd669aa091d9951f8fbcaf60ea3537d104b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布棕色提把來源一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Natural lifestyle photo adult carrying reference cream tote with brown straps over shoulder at local produce market, vegetables visible at bag opening, bag clearly focal and used naturally. No text or brand logos.",
+            "observed": "成人肩背於蔬果市集。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋日常使用",
+            "observed": "袋內蔬菜呈現自然購物用途。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "提把搭在肩上且袋身垂墜合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "主體清楚，無品牌與文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "圖片案例本意與資料驗證"
+  short_description: "依本專案進度接續小批次圖片案例，保留來源與驗證記錄"
+  default_prompt: "使用 $image-case-verify 處理指令所專案目前的圖片案例批次。"
+policy:
+  allow_implicit_invocation: true

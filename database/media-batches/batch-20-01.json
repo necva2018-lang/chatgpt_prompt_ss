@@ -1,0 +1,1421 @@
+{
+  "version": 1,
+  "id": "batch-20-01",
+  "cases": [
+    {
+      "id": "assistant-shelfhero-01",
+      "prompt_id": "src-visual642-005",
+      "command": "/shelfhero",
+      "title": "讓產品成為零售貨架上的主角。",
+      "description": "讓產品成為零售貨架上的主角。",
+      "result_text": "零售貨架可辨，綠瓶在中央亮區成為主角",
+      "result": "output/imagegen/batch-20-01/shelfhero.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /shelfhero and exact source instruction: Make the product stand out as the hero on a retail shelf. Input image is the identity reference. Photorealistic sporting goods retail aisle. The sage bottle is the unmistakable hero centered on the middle shelf in a neat softly illuminated display niche; surrounding unbranded bottles are subdued gray, smaller in emphasis, and arranged on real shelves. Include shelf edges and aisle context, believable scale, one hero bottle grounded on shelf. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Photorealistic sporting goods retail aisle. The sage bottle is the unmistakable hero centered on the middle shelf in a neat softly illuminated display niche; surrounding unbranded bottles are subdued gray, smaller in emphasis, and arranged on real shelves. Include shelf edges and aisle context, believable scale, one hero bottle grounded on shelf. Square.",
+        "effect": "零售貨架可辨，綠瓶在中央亮區成為主角",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.237Z",
+        "source_instruction": "Make the product stand out as the hero on a retail shelf.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "5d262436e74f4b4260ef464cd07650274ae956c8e1d4d12e3b601eaccdeea22e",
+        "applied_prompt_sha256": "7856b8c59b70b908e45e567e7f90f266e790b4a9517a01b5bee04a58b2fc65c7",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "中央綠瓶保留黑提環瓶蓋與圓肩",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photorealistic sporting goods retail aisle. The sage bottle is the unmistakable hero centered on the middle shelf in a neat softly illuminated display niche; surrounding unbranded bottles are subdued gray, smaller in emphasis, and arranged on real shelves. Include shelf edges and aisle context, believable scale, one hero bottle grounded on shelf. Square.",
+            "observed": "木質零售貨架、上下層與店內走道可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "零售貨架可辨，綠瓶在中央亮區成為主角",
+            "observed": "綠瓶位於中央亮區，旁邊灰瓶退為配角",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "瓶子接觸層板，架體與瓶子比例合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "未見字樣水印，瓶蓋與瓶身結構清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-launchcampaign-01",
+      "prompt_id": "src-visual642-006",
+      "command": "/launchcampaign",
+      "title": "圍繞主體建立一個大膽的上市主視覺。",
+      "description": "圍繞主體建立一個大膽的上市主視覺。",
+      "result_text": "產品清晰，大膽上市主視覺由光環、緞帶及舞台強化",
+      "result": "output/imagegen/batch-20-01/launchcampaign.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /launchcampaign and exact source instruction: Build a bold launch visual around the subject. Input image is the identity reference. Create a bold product launch hero visual: the intact sage bottle stands large on a sculptural charcoal cylindrical podium surrounded by sweeping sage fabric ribbons and a dramatic circular light halo on a deep green studio background. Energetic directional light, premium commercial composition, crisp product. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Create a bold product launch hero visual: the intact sage bottle stands large on a sculptural charcoal cylindrical podium surrounded by sweeping sage fabric ribbons and a dramatic circular light halo on a deep green studio background. Energetic directional light, premium commercial composition, crisp product. Square.",
+        "effect": "產品清晰，大膽上市主視覺由光環、緞帶及舞台強化",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.244Z",
+        "source_instruction": "Build a bold launch visual around the subject.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "eda9966d5d77bd2bbfb78164464cde26be30e6d82102004337bbf5554de4be6c",
+        "applied_prompt_sha256": "5c1c20b50bfcdc3830a9f52624388c2c2ad45f77cfd4912015a1bc89b34da2db",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "綠色瓶身與黑色提環蓋完整保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Create a bold product launch hero visual: the intact sage bottle stands large on a sculptural charcoal cylindrical podium surrounded by sweeping sage fabric ribbons and a dramatic circular light halo on a deep green studio background. Energetic directional light, premium commercial composition, crisp product. Square.",
+            "observed": "深綠背景與黑色圓台構成舞台",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "產品清晰，大膽上市主視覺由光環、緞帶及舞台強化",
+            "observed": "發光圓環、綠色緞帶與強光建立大膽上市視覺",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "瓶底落於台上，緞帶繞後未遮住主要外形",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，單瓶完整，材質合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-productposter-01",
+      "prompt_id": "src-visual642-007",
+      "command": "/productposter",
+      "title": "將主體變成一個乾淨俐落的商業產品海報。",
+      "description": "將主體變成一個乾淨俐落的商業產品海報。",
+      "result_text": "直式商業海報、清楚主體與留白層次",
+      "result": "output/imagegen/batch-20-01/productposter.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /productposter and exact source instruction: Turn the subject into a clean commercial product poster. Input image is the identity reference. Create a clean designed commercial product poster, portrait 4:5. Single bottle neatly centered on pale warm-gray background with strong hierarchy and generous negative space, a restrained sage geometric oval framing it and elegant soft shadow. It is a finished minimal product poster layout, no copy or typography required. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Create a clean designed commercial product poster, portrait 4:5. Single bottle neatly centered on pale warm-gray background with strong hierarchy and generous negative space, a restrained sage geometric oval framing it and elegant soft shadow. It is a finished minimal product poster layout, no copy or typography required.",
+        "effect": "直式商業海報、清楚主體與留白層次",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.251Z",
+        "source_instruction": "Turn the subject into a clean commercial product poster.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "ff6a47a6876d8eb5c72014b2a052228d9f1c6a00ac54fbbba9bc82ff326319dc",
+        "applied_prompt_sha256": "758406830e7d2d07c2a6d20bb649e671d4be2ee869eb8e1d50ca1113f25608fe",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "單一綠瓶與黑蓋提環清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Create a clean designed commercial product poster, portrait 4:5. Single bottle neatly centered on pale warm-gray background with strong hierarchy and generous negative space, a restrained sage geometric oval framing it and elegant soft shadow. It is a finished minimal product poster layout, no copy or typography required.",
+            "observed": "米白底與鼠尾草綠橢圓構成平面設計背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "直式商業海報、清楚主體與留白層次",
+            "observed": "直式乾淨商業產品海報，主體留白層次明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "瓶底有柔影，橢圓在瓶後未侵入產品",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無文字需求，無水印、變形，產品完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-socialcarousel-01",
+      "prompt_id": "src-visual642-008",
+      "command": "/socialcarousel",
+      "title": "將這個想法安排為協調的社群輪播。",
+      "description": "將這個想法安排為協調的社群輪播。",
+      "result_text": "三張輪播預覽，分別產品、瓶蓋細節、使用情境，配色一致",
+      "result": "output/imagegen/batch-20-01/socialcarousel.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /socialcarousel and exact source instruction: Arrange the idea as a coordinated social carousel. Input image is the identity reference. Create a preview of THREE coordinated square social carousel slides shown side by side in one wide 3:1 triptych, each full tile visible and separated by a thin uniform gutter. Slide 1 full sage bottle hero on cream studio backdrop, slide 2 macro closeup of its charcoal loop cap, slide 3 same bottle on a cafe table. Consistent sage/cream palette, matching margins and photographic style, each slide distinct but cohesive. No numbers or words. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Create a preview of THREE coordinated square social carousel slides shown side by side in one wide 3:1 triptych, each full tile visible and separated by a thin uniform gutter. Slide 1 full sage bottle hero on cream studio backdrop, slide 2 macro closeup of its charcoal loop cap, slide 3 same bottle on a cafe table. Consistent sage/cream palette, matching margins and photographic style, each slide distinct but cohesive. No numbers or words.",
+        "effect": "三張輪播預覽，分別產品、瓶蓋細節、使用情境，配色一致",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.258Z",
+        "source_instruction": "Arrange the idea as a coordinated social carousel.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "8fc7e40794dd83cada0a417d9a06bb06a0d17cd3cf7a1dede5e050a27485dc72",
+        "applied_prompt_sha256": "257a71ed6e39b9670f6a30a11a2afe5969fe39d9e63ef9487ed1af4633f5981e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "三版的綠瓶、黑色提環蓋身份一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Create a preview of THREE coordinated square social carousel slides shown side by side in one wide 3:1 triptych, each full tile visible and separated by a thin uniform gutter. Slide 1 full sage bottle hero on cream studio backdrop, slide 2 macro closeup of its charcoal loop cap, slide 3 same bottle on a cafe table. Consistent sage/cream palette, matching margins and photographic style, each slide distinct but cohesive. No numbers or words.",
+            "observed": "三張方形圖片並排，有細白分隔線",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "三張輪播預覽，分別產品、瓶蓋細節、使用情境，配色一致",
+            "observed": "產品全貌、瓶蓋特寫、咖啡座情境形成協調輪播",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "三格各自完整，特寫裁切有目的，左右兩瓶落地合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無文案水印，米白與綠色配色、光感一致",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-storyad-01",
+      "prompt_id": "src-visual642-009",
+      "command": "/storyad",
+      "title": "將主體格式化為垂直的社群限時動態廣告。",
+      "description": "將主體格式化為垂直的社群限時動態廣告。",
+      "result_text": "9:16直式限動廣告，整瓶與上方留白可見",
+      "result": "output/imagegen/batch-20-01/storyad.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /storyad and exact source instruction: Format the subject as a vertical social story advertisement. Input image is the identity reference. Create a vertical 9:16 social story advertisement, a SINGLE tall portrait image. Intact sage bottle in lower middle on stone ledge, elegant sage-to-cream gradient filling the tall frame, sunlight and restrained leafy shadows, ample clear area above for later copy. Complete product visible; composition purpose-built for a phone story. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Create a vertical 9:16 social story advertisement, a SINGLE tall portrait image. Intact sage bottle in lower middle on stone ledge, elegant sage-to-cream gradient filling the tall frame, sunlight and restrained leafy shadows, ample clear area above for later copy. Complete product visible; composition purpose-built for a phone story.",
+        "effect": "9:16直式限動廣告，整瓶與上方留白可見",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.264Z",
+        "source_instruction": "Format the subject as a vertical social story advertisement.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "ee767a078c11b6584969494b7f6ebcdee6a066ac7beff2906427e583e2918793",
+        "applied_prompt_sha256": "be3c54e1ff561e6638b6b088d1630dc068acc1c1bf038e63e9fa15a8260898ed",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "綠瓶黑提環完整保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Create a vertical 9:16 social story advertisement, a SINGLE tall portrait image. Intact sage bottle in lower middle on stone ledge, elegant sage-to-cream gradient filling the tall frame, sunlight and restrained leafy shadows, ample clear area above for later copy. Complete product visible; composition purpose-built for a phone story.",
+            "observed": "石材台與綠米白漸層，帶葉影",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "9:16直式限動廣告，整瓶與上方留白可見",
+            "observed": "9:16限動直式構圖，上方大面積留白",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "整瓶在下半部台面上，陰影接觸合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，完整產品未裁切",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-thumbnail-01",
+      "prompt_id": "src-visual642-010",
+      "command": "/thumbnail",
+      "title": "建立一個大膽的縮圖， 並有一個清晰的焦點。",
+      "description": "建立一個大膽的縮圖， 並有一個清晰的焦點。",
+      "result_text": "橫式縮圖，單一明確產品焦點及高對比",
+      "result": "output/imagegen/batch-20-01/thumbnail.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /thumbnail and exact source instruction: Create a bold thumbnail with one clear focal point. Input image is the identity reference. Create a bold 16:9 landscape video thumbnail with ONE clear focal point: the large intact sage bottle, isolated against saturated warm apricot with a dark sage circular backdrop and crisp rim light. Extremely readable silhouette at small size, simple uncluttered layout. No arrows, words, people or secondary products. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Create a bold 16:9 landscape video thumbnail with ONE clear focal point: the large intact sage bottle, isolated against saturated warm apricot with a dark sage circular backdrop and crisp rim light. Extremely readable silhouette at small size, simple uncluttered layout. No arrows, words, people or secondary products.",
+        "effect": "橫式縮圖，單一明確產品焦點及高對比",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.270Z",
+        "source_instruction": "Create a bold thumbnail with one clear focal point.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "d32079a269f485437a77c53f8426317c93feb53b3fba78733c9f5fa7bc07b2e9",
+        "applied_prompt_sha256": "3f0a2d823dbdb2c66aec3a1260c13715c13f1dff7803e70e34cade8571526685",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "單一綠瓶與黑提環可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Create a bold 16:9 landscape video thumbnail with ONE clear focal point: the large intact sage bottle, isolated against saturated warm apricot with a dark sage circular backdrop and crisp rim light. Extremely readable silhouette at small size, simple uncluttered layout. No arrows, words, people or secondary products.",
+            "observed": "杏橘底及深綠圓形背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "橫式縮圖，單一明確產品焦點及高對比",
+            "observed": "橫式16:9，高對比主體形成單一縮圖焦點",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "產品完整置中落地，背景圓形在後",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無次要產品或文字，邊緣光清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-billboardwrap-01",
+      "prompt_id": "src-visual642-011",
+      "command": "/billboardwrap",
+      "title": "在寫實的戶外廣告牌上包裝主體。",
+      "description": "在寫實的戶外廣告牌上包裝主體。",
+      "result_text": "戶外廣告牌與支架可辨，產品為牌面平面廣告",
+      "result": "output/imagegen/batch-20-01/billboardwrap.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /billboardwrap and exact source instruction: Wrap the subject across a realistic outdoor billboard. Input image is the identity reference. Photorealistic outdoor city scene with one large freestanding horizontal roadside billboard, visible structural posts and street context. The billboard's flat advertisement displays the referenced sage bottle on a clean cream-and-sage graphic backdrop, filling the board's width coherently. Correct billboard perspective and lighting, bottle is printed imagery contained inside the billboard, no physical giant bottle. Landscape 16:9. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Photorealistic outdoor city scene with one large freestanding horizontal roadside billboard, visible structural posts and street context. The billboard's flat advertisement displays the referenced sage bottle on a clean cream-and-sage graphic backdrop, filling the board's width coherently. Correct billboard perspective and lighting, bottle is printed imagery contained inside the billboard, no physical giant bottle. Landscape 16:9.",
+        "effect": "戶外廣告牌與支架可辨，產品為牌面平面廣告",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.277Z",
+        "source_instruction": "Wrap the subject across a realistic outdoor billboard.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "c7ace0387bdb2c8dc5f3fb2185dafc1d1c2755b036c21840ca0b5b0df3d3e4b1",
+        "applied_prompt_sha256": "9f21ffd3ace84995108db967f9a2374a8032f0778f7189b6a0ca4656744df30e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "牌面中綠瓶與黑色提環保持原樣",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photorealistic outdoor city scene with one large freestanding horizontal roadside billboard, visible structural posts and street context. The billboard's flat advertisement displays the referenced sage bottle on a clean cream-and-sage graphic backdrop, filling the board's width coherently. Correct billboard perspective and lighting, bottle is printed imagery contained inside the billboard, no physical giant bottle. Landscape 16:9.",
+            "observed": "道路、汽車、建物、看板支柱與上方照明可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "戶外廣告牌與支架可辨，產品為牌面平面廣告",
+            "observed": "產品廣告橫跨大型戶外廣告牌",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "瓶子及背景被牌框完整包住，非路上實體物件，透視一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，框架支柱合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-windowdisplay-01",
+      "prompt_id": "src-visual642-012",
+      "command": "/windowdisplay",
+      "title": "產品在高級商店櫥窗裡。",
+      "description": "產品在高級商店櫥窗裡。",
+      "result_text": "高級櫥窗內有實體比例瓶子、展示台與玻璃反射",
+      "result": "output/imagegen/batch-20-01/windowdisplay.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /windowdisplay and exact source instruction: Stage the product inside a premium shop window. Input image is the identity reference. Photorealistic premium shop window display. A life-sized sage bottle physically displayed upright on a small travertine pedestal INSIDE a glass shop window, framed by subtle architectural arches, tasteful warm spotlights, reflections on the glass, visible window frame and part of sidewalk. Bottle is a real object behind glass, not a printed poster. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Photorealistic premium shop window display. A life-sized sage bottle physically displayed upright on a small travertine pedestal INSIDE a glass shop window, framed by subtle architectural arches, tasteful warm spotlights, reflections on the glass, visible window frame and part of sidewalk. Bottle is a real object behind glass, not a printed poster. Square.",
+        "effect": "高級櫥窗內有實體比例瓶子、展示台與玻璃反射",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.283Z",
+        "source_instruction": "Stage the product inside a premium shop window.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "bc36e9e7554f1b221f4d08f97beb6aa7b0628f358a4a9a92f5e42cf6cd573c2e",
+        "applied_prompt_sha256": "d2eac681f0be7700a1911b2eb4cc6af1b775152ec41cf9c07c6621134adcc163",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "單一綠色提環瓶保持外觀",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photorealistic premium shop window display. A life-sized sage bottle physically displayed upright on a small travertine pedestal INSIDE a glass shop window, framed by subtle architectural arches, tasteful warm spotlights, reflections on the glass, visible window frame and part of sidewalk. Bottle is a real object behind glass, not a printed poster. Square.",
+            "observed": "金屬窗框、玻璃街景反射、石材拱門與射燈可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "高級櫥窗內有實體比例瓶子、展示台與玻璃反射",
+            "observed": "瓶子位於高級店內櫥窗展示台",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "瓶底接觸石台，玻璃在其前方反射街景，產品為實體展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，瓶身與提環完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-popdisplay-01",
+      "prompt_id": "src-visual642-013",
+      "command": "/popdisplay",
+      "title": "建立一個緊湊的店頭零售陳列。",
+      "description": "建立一個緊湊的店頭零售陳列。",
+      "result_text": "收銀檯小型購買點陳列，三瓶固定於緊湊展示架",
+      "result": "output/imagegen/batch-20-01/popdisplay.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /popdisplay and exact source instruction: Create a compact point-of-purchase retail display. Input image is the identity reference. Photorealistic compact point-of-purchase COUNTERTOP display at a boutique checkout. Small cream cardboard retail stand with a modest sage backboard holds exactly three matching sage bottles in fitted slots. Cash register and counter context subtly visible, plausible small footprint and accessible products. No text or logos. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Photorealistic compact point-of-purchase COUNTERTOP display at a boutique checkout. Small cream cardboard retail stand with a modest sage backboard holds exactly three matching sage bottles in fitted slots. Cash register and counter context subtly visible, plausible small footprint and accessible products. No text or logos. Square.",
+        "effect": "收銀檯小型購買點陳列，三瓶固定於緊湊展示架",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.289Z",
+        "source_instruction": "Create a compact point-of-purchase retail display.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "57054c5df9c4fa08bd2558dcbc1c4c36a77c0e1d21fa8d047a4bb8be111ef4e7",
+        "applied_prompt_sha256": "ae2f003fe4b2061289ade8cf82f7cab7da1bddc8c150f273a7ff8f66a38f4909",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "三個同款綠瓶黑提環外觀一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Photorealistic compact point-of-purchase COUNTERTOP display at a boutique checkout. Small cream cardboard retail stand with a modest sage backboard holds exactly three matching sage bottles in fitted slots. Cash register and counter context subtly visible, plausible small footprint and accessible products. No text or logos. Square.",
+            "observed": "木質收銀檯與右側POS螢幕可見",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "收銀檯小型購買點陳列，三瓶固定於緊湊展示架",
+            "observed": "三瓶置於緊湊紙製購買點展示架",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "展示架有三個獨立隔槽及背板，瓶子取用空間合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，紙架折線與瓶子比例合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-limitededition-01",
+      "prompt_id": "src-visual642-014",
+      "command": "/limitededition",
+      "title": "將主體改寫為特別限量版。",
+      "description": "將主體改寫為特別限量版。",
+      "result_text": "同款瓶形改為深青綠與金色植物線紋，限量改款清楚",
+      "result": "output/imagegen/batch-20-01/limitededition.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /limitededition and exact source instruction: Restyle the subject as a special limited edition. Input image is the identity reference. Restyle the same bottle as a special limited edition: retain cylindrical silhouette, rounded shoulder and charcoal cap with rigid loop, upgrade body to midnight teal with a subtle precise champagne-gold botanical line engraving wrapping around the metal. Show one limited-edition bottle on dark refined studio background, craftsmanship plainly different from original green matte bottle. No edition numbers, brands or words. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Restyle the same bottle as a special limited edition: retain cylindrical silhouette, rounded shoulder and charcoal cap with rigid loop, upgrade body to midnight teal with a subtle precise champagne-gold botanical line engraving wrapping around the metal. Show one limited-edition bottle on dark refined studio background, craftsmanship plainly different from original green matte bottle. No edition numbers, brands or words. Square.",
+        "effect": "同款瓶形改為深青綠與金色植物線紋，限量改款清楚",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.296Z",
+        "source_instruction": "Restyle the subject as a special limited edition.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "37d4234929c2059f14e545bca38be8b960d21cd8c3a8f11e7bc868ee1cb4b9be",
+        "applied_prompt_sha256": "83b8af7a9ac78c38530247bca20bdf2ac7cde1e837167fe16b9fd2ace9417fb2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "保留圓肩長瓶及黑提環蓋，配色依限量改款",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Restyle the same bottle as a special limited edition: retain cylindrical silhouette, rounded shoulder and charcoal cap with rigid loop, upgrade body to midnight teal with a subtle precise champagne-gold botanical line engraving wrapping around the metal. Show one limited-edition bottle on dark refined studio background, craftsmanship plainly different from original green matte bottle. No edition numbers, brands or words. Square.",
+            "observed": "暗色棚拍背景與石面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "同款瓶形改為深青綠與金色植物線紋，限量改款清楚",
+            "observed": "瓶身改深青綠並覆金色植物線紋，明顯不同於原版",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "金紋隨圓柱表面環繞，瓶底落地",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無品牌或版號文字，圖紋連續，單瓶完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-giftset-01",
+      "prompt_id": "src-visual642-015",
+      "command": "/giftset",
+      "title": "將產品包裝成精緻禮盒組。",
+      "description": "將產品包裝成精緻禮盒組。",
+      "result_text": "開啟禮盒組有瓶子、杯子、布袋，收納槽與尺度合理",
+      "result": "output/imagegen/batch-20-01/giftset.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /giftset and exact source instruction: Arrange the product as a polished gift set. Input image is the identity reference. Arrange the sage bottle as a polished gift set in an open cream rigid gift box, with fitted sage insert holding the bottle, a small matching sage cup and neatly rolled neutral fabric pouch. Box lid beside base with a restrained ribbon. All contents visible, realistic scale and compartment fit, elegant soft-lit studio. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Arrange the sage bottle as a polished gift set in an open cream rigid gift box, with fitted sage insert holding the bottle, a small matching sage cup and neatly rolled neutral fabric pouch. Box lid beside base with a restrained ribbon. All contents visible, realistic scale and compartment fit, elegant soft-lit studio. Square.",
+        "effect": "開啟禮盒組有瓶子、杯子、布袋，收納槽與尺度合理",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.303Z",
+        "source_instruction": "Arrange the product as a polished gift set.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "ff1c3a69e3d6f591e614a8962f5eaec714ee7277c88d419908cd5bb45e5d963c",
+        "applied_prompt_sha256": "50b3ed480f8d3fba393c7e740a3886636f86d52960cba585128616447c861973",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "綠瓶黑蓋與配套綠杯及米白布袋清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Arrange the sage bottle as a polished gift set in an open cream rigid gift box, with fitted sage insert holding the bottle, a small matching sage cup and neatly rolled neutral fabric pouch. Box lid beside base with a restrained ribbon. All contents visible, realistic scale and compartment fit, elegant soft-lit studio. Square.",
+            "observed": "打開米白禮盒與綁帶盒蓋在旁",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "開啟禮盒組有瓶子、杯子、布袋，收納槽與尺度合理",
+            "observed": "三件物品形成完整精緻禮盒組",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "各件物品位於獨立成型內襯槽，尺寸可容納",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無品牌水印，杯口、繩結、瓶蓋合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-collectorbox-01",
+      "prompt_id": "src-visual642-016",
+      "command": "/collectorbox",
+      "title": "將主體放在一個高級收藏盒裡。",
+      "description": "將主體放在一個高級收藏盒裡。",
+      "result_text": "單瓶置於高級木質收藏盒，內襯與五金可見",
+      "result": "output/imagegen/batch-20-01/collectorbox.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example. Apply /collectorbox and exact source instruction: Present the subject in a premium collector box. Input image is the identity reference. Present the sage bottle in a premium collector box, a single bottle nestled in precisely fitted charcoal velvet lining inside an open dark walnut presentation case with brass hinges. Lid open upright; luxurious joinery, complete bottle and box visible, one bottle only, no extra gifts. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Present the sage bottle in a premium collector box, a single bottle nestled in precisely fitted charcoal velvet lining inside an open dark walnut presentation case with brass hinges. Lid open upright; luxurious joinery, complete bottle and box visible, one bottle only, no extra gifts. Square.",
+        "effect": "單瓶置於高級木質收藏盒，內襯與五金可見",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.310Z",
+        "source_instruction": "Present the subject in a premium collector box.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "553864cf56a879543d6880cd257ba400af1d8b3901827f401f6672a3fc5f1716",
+        "applied_prompt_sha256": "ab9309063ab6b15788693e87c15dc8361418b2aea5cd792a569cfcb80607143e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "同款綠瓶黑提環，單瓶",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Present the sage bottle in a premium collector box, a single bottle nestled in precisely fitted charcoal velvet lining inside an open dark walnut presentation case with brass hinges. Lid open upright; luxurious joinery, complete bottle and box visible, one bottle only, no extra gifts. Square.",
+            "observed": "打開的深木質收藏盒，灰黑絨襯",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "單瓶置於高級木質收藏盒，內襯與五金可見",
+            "observed": "木紋、黃銅鉸鏈與精準凹槽形成高級收藏呈現",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "瓶子位於貼合輪廓的內襯，盒蓋靠鉸鏈打開，盒底落桌",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，沒有額外禮品，結構完整",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-splitdiopter-01",
+      "prompt_id": "src-visual642-017",
+      "command": "/splitdiopter",
+      "title": "讓近處主體與遠處主體同時清晰對焦。",
+      "description": "讓近處主體與遠處主體同時清晰對焦。",
+      "result_text": "近瓶與遠方藍衣人物同時清楚，距離層次可辨",
+      "result": "output/imagegen/batch-20-01/splitdiopter.png",
+      "reference": "output/imagegen/batch-20-01/cafe-reference.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result example. Apply /splitdiopter and exact source instruction: Keep a near subject and distant subject sharply focused. Input image is the identity reference. Apply a split-diopter style focus: both the close foreground bottle and the distant blue-coated pedestrian under the stone arch must be distinctly sharp simultaneously, with a subtle focus transition through the middle distance. Preserve cafe scene layout and near/far separation. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Apply a split-diopter style focus: both the close foreground bottle and the distant blue-coated pedestrian under the stone arch must be distinctly sharp simultaneously, with a subtle focus transition through the middle distance. Preserve cafe scene layout and near/far separation. Square.",
+        "effect": "近瓶與遠方藍衣人物同時清楚，距離層次可辨",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-01/cafe-reference.png",
+        "sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a square neutral photographic reference scene for camera-effect demonstrations. A quiet unbranded corner cafe terrace beside a cobbled European-style city square. In the foreground, on a round wooden cafe table, stand the exact sage-green matte cylindrical bottle with rounded shoulder and charcoal screw cap with rigid loop from the reference image. Midground has two empty cafe chairs and glass cafe windows; background has a clear stone archway and one distant pedestrian in a plain blue coat walking through the square. Morning daylight, natural perspective at seated eye level, moderately deep depth of field. Preserve the bottle design; realistic architecture and proportions. No words, brands, logos or watermarks. Include enough surrounding cafe and square to demonstrate later aerial, wide-angle and focus effects. Web quality.",
+        "parent_reference": {
+          "path": "output/imagegen/replacement-01/reference.png",
+          "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+          "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.317Z",
+        "source_instruction": "Keep a near subject and distant subject sharply focused.",
+        "reference_sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "result_sha256": "3ebf06d3278d3524834de599cda0be9bc4e786c47245277547294f33804e16c4",
+        "applied_prompt_sha256": "eec3843f93163bace6cfa3f4f982f8767810cfa504eac1ff1cb994439ea76cdd",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "前景綠瓶、遠方藍衣人物與石拱門保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Apply a split-diopter style focus: both the close foreground bottle and the distant blue-coated pedestrian under the stone arch must be distinctly sharp simultaneously, with a subtle focus transition through the middle distance. Preserve cafe scene layout and near/far separation. Square.",
+            "observed": "咖啡座桌椅與廣場層次可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "近瓶與遠方藍衣人物同時清楚，距離層次可辨",
+            "observed": "近處瓶身紋理與遠方人物輪廓同時清楚，較原圖遠景清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "瓶在近桌、人物在遠方拱門前，前後距離明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，人物四肢與建築輪廓合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-dutchangle-01",
+      "prompt_id": "src-visual642-018",
+      "command": "/dutchangle",
+      "title": "傾斜一個框架 緊張的電影視角。",
+      "description": "傾斜一個框架 緊張的電影視角。",
+      "result_text": "整體相機傾斜，瓶子與桌面和建築共同傾轉",
+      "result": "output/imagegen/batch-20-01/dutchangle.png",
+      "reference": "output/imagegen/batch-20-01/cafe-reference.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result example. Apply /dutchangle and exact source instruction: Tilt the frame for a tense cinematic perspective. Input image is the identity reference. Transform the cafe scene into a tense cinematic Dutch angle, rolling the CAMERA about 25 degrees so the facade verticals and tabletop visibly tilt diagonally together. Keep bottle physically standing on table, architecture plausible, dramatic contrasting light. Do not tilt bottle independently. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Transform the cafe scene into a tense cinematic Dutch angle, rolling the CAMERA about 25 degrees so the facade verticals and tabletop visibly tilt diagonally together. Keep bottle physically standing on table, architecture plausible, dramatic contrasting light. Do not tilt bottle independently. Square.",
+        "effect": "整體相機傾斜，瓶子與桌面和建築共同傾轉",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-01/cafe-reference.png",
+        "sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a square neutral photographic reference scene for camera-effect demonstrations. A quiet unbranded corner cafe terrace beside a cobbled European-style city square. In the foreground, on a round wooden cafe table, stand the exact sage-green matte cylindrical bottle with rounded shoulder and charcoal screw cap with rigid loop from the reference image. Midground has two empty cafe chairs and glass cafe windows; background has a clear stone archway and one distant pedestrian in a plain blue coat walking through the square. Morning daylight, natural perspective at seated eye level, moderately deep depth of field. Preserve the bottle design; realistic architecture and proportions. No words, brands, logos or watermarks. Include enough surrounding cafe and square to demonstrate later aerial, wide-angle and focus effects. Web quality.",
+        "parent_reference": {
+          "path": "output/imagegen/replacement-01/reference.png",
+          "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+          "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.324Z",
+        "source_instruction": "Tilt the frame for a tense cinematic perspective.",
+        "reference_sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "result_sha256": "f47ea7648c02244bfb63714230deac3850506a1feb154dda7ea52ed15d03814b",
+        "applied_prompt_sha256": "bcddcdc19a8cd8611236d1390a7b6b0f964e1a9ce6964fc61fa374e1d95493a5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "咖啡座、綠瓶、藍衣人物、拱門保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Transform the cafe scene into a tense cinematic Dutch angle, rolling the CAMERA about 25 degrees so the facade verticals and tabletop visibly tilt diagonally together. Keep bottle physically standing on table, architecture plausible, dramatic contrasting light. Do not tilt bottle independently. Square.",
+            "observed": "陽光咖啡座廣場，對比加強",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "整體相機傾斜，瓶子與桌面和建築共同傾轉",
+            "observed": "整個畫面呈明顯斜角，建築直線斜向",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "瓶身與建築共同傾斜，底部接觸同樣傾轉的桌面",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，瓶子沒有單獨歪倒",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-droneview-01",
+      "prompt_id": "src-visual642-019",
+      "command": "/droneview",
+      "title": "從高空攝像頭的視野顯示現場。",
+      "description": "從高空攝像頭的視野顯示現場。",
+      "result_text": "高空俯視整個咖啡座與廣場，桌椅縮小，無巨大產品",
+      "result": "output/imagegen/batch-20-01/droneview.png",
+      "reference": "output/imagegen/batch-20-01/cafe-reference.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result example. Apply /droneview and exact source instruction: Show the scene from a high aerial camera view. Input image is the identity reference. Show the SAME cafe terrace and surrounding stone square from a high aerial drone view looking steeply down from about 20 meters. Show cafe facade edge, round tables and chairs, cobbled square, tiny blue pedestrian and archway context, bottle naturally small on one table. Correct realistic aerial scale, NO giant foreground bottle, no drone in frame. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Show the SAME cafe terrace and surrounding stone square from a high aerial drone view looking steeply down from about 20 meters. Show cafe facade edge, round tables and chairs, cobbled square, tiny blue pedestrian and archway context, bottle naturally small on one table. Correct realistic aerial scale, NO giant foreground bottle, no drone in frame. Square.",
+        "effect": "高空俯視整個咖啡座與廣場，桌椅縮小，無巨大產品",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-01/cafe-reference.png",
+        "sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a square neutral photographic reference scene for camera-effect demonstrations. A quiet unbranded corner cafe terrace beside a cobbled European-style city square. In the foreground, on a round wooden cafe table, stand the exact sage-green matte cylindrical bottle with rounded shoulder and charcoal screw cap with rigid loop from the reference image. Midground has two empty cafe chairs and glass cafe windows; background has a clear stone archway and one distant pedestrian in a plain blue coat walking through the square. Morning daylight, natural perspective at seated eye level, moderately deep depth of field. Preserve the bottle design; realistic architecture and proportions. No words, brands, logos or watermarks. Include enough surrounding cafe and square to demonstrate later aerial, wide-angle and focus effects. Web quality.",
+        "parent_reference": {
+          "path": "output/imagegen/replacement-01/reference.png",
+          "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+          "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.332Z",
+        "source_instruction": "Show the scene from a high aerial camera view.",
+        "reference_sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "result_sha256": "31a7d5da6abc4dccac507550227e78b54822aef976724dd1d678989860d33292",
+        "applied_prompt_sha256": "10513322b467202f4672bdc4031f1b264af203abc1c9768079628d158e487d29",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "咖啡座、石拱門、藍衣人物保留，綠瓶縮小在左下桌上",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Show the SAME cafe terrace and surrounding stone square from a high aerial drone view looking steeply down from about 20 meters. Show cafe facade edge, round tables and chairs, cobbled square, tiny blue pedestrian and archway context, bottle naturally small on one table. Correct realistic aerial scale, NO giant foreground bottle, no drone in frame. Square.",
+            "observed": "可見俯視的桌椅、廣場鋪面與建築立面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "高空俯視整個咖啡座與廣場，桌椅縮小，無巨大產品",
+            "observed": "高處斜俯拍，桌面上表面與道路布局一覽可見",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "瓶子與咖啡杯比例正常，沒有巨型前景瓶，人物縮小",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，桌椅與影子尺度合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-telephoto-01",
+      "prompt_id": "src-visual642-020",
+      "command": "/telephoto",
+      "title": "用長焦鏡頭相機的外觀壓縮背景。",
+      "description": "用長焦鏡頭相機的外觀壓縮背景。",
+      "result_text": "長焦窄視野與壓縮背景，拱門相對放大",
+      "result": "output/imagegen/batch-20-01/telephoto.png",
+      "reference": "output/imagegen/batch-20-01/cafe-reference.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result example. Apply /telephoto and exact source instruction: Compress the background with a long-lens camera look. Input image is the identity reference. Rephotograph the cafe scene with a long-lens telephoto look from farther away: compressed perspective, bottle moderately large in foreground, distant stone archway and blue pedestrian appear conspicuously enlarged and closer behind the bottle, narrow field of view, soft background. Keep bottle intact and architectural scale coherent. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Rephotograph the cafe scene with a long-lens telephoto look from farther away: compressed perspective, bottle moderately large in foreground, distant stone archway and blue pedestrian appear conspicuously enlarged and closer behind the bottle, narrow field of view, soft background. Keep bottle intact and architectural scale coherent. Square.",
+        "effect": "長焦窄視野與壓縮背景，拱門相對放大",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-01/cafe-reference.png",
+        "sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a square neutral photographic reference scene for camera-effect demonstrations. A quiet unbranded corner cafe terrace beside a cobbled European-style city square. In the foreground, on a round wooden cafe table, stand the exact sage-green matte cylindrical bottle with rounded shoulder and charcoal screw cap with rigid loop from the reference image. Midground has two empty cafe chairs and glass cafe windows; background has a clear stone archway and one distant pedestrian in a plain blue coat walking through the square. Morning daylight, natural perspective at seated eye level, moderately deep depth of field. Preserve the bottle design; realistic architecture and proportions. No words, brands, logos or watermarks. Include enough surrounding cafe and square to demonstrate later aerial, wide-angle and focus effects. Web quality.",
+        "parent_reference": {
+          "path": "output/imagegen/replacement-01/reference.png",
+          "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+          "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.340Z",
+        "source_instruction": "Compress the background with a long-lens camera look.",
+        "reference_sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "result_sha256": "513f591fe4e7dcc439b5219aecf3db20d4d8dd433334d2719c2a8730acef3a98",
+        "applied_prompt_sha256": "700171eb4effcdf7bb58be7d764ae14fa46ebd43e29bd22f0c223ce37285b311",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "前景綠瓶、咖啡桌、藍衣人物與拱門保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rephotograph the cafe scene with a long-lens telephoto look from farther away: compressed perspective, bottle moderately large in foreground, distant stone archway and blue pedestrian appear conspicuously enlarged and closer behind the bottle, narrow field of view, soft background. Keep bottle intact and architectural scale coherent. Square.",
+            "observed": "咖啡座視野收窄，拱門占背景大部分",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "長焦窄視野與壓縮背景，拱門相對放大",
+            "observed": "相較原圖遠人物與拱門顯著放大，長焦壓縮效果可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "瓶子仍在近桌，遠方人物相對尺度變大但位於街上",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，主瓶清楚背景柔焦，輪廓合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-wideangle-01",
+      "prompt_id": "src-visual642-021",
+      "command": "/wideangle",
+      "title": "以戲劇性寬角的視野放大現場。",
+      "description": "以戲劇性寬角的視野放大現場。",
+      "result_text": "廣角大視野、近大遠小與明顯空間縱深",
+      "result": "output/imagegen/batch-20-01/wideangle.png",
+      "reference": "output/imagegen/batch-20-01/cafe-reference.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result example. Apply /wideangle and exact source instruction: Expand the scene with a dramatic wide-angle view. Input image is the identity reference. Rephotograph the cafe scene with a dramatic 16mm wide-angle view from near the tabletop. Bottle clearly in foreground, wide sweep of table and chairs, cafe facade and square revealed, distant archway visibly smaller and farther away, strong converging depth lines. Rectilinear perspective, not fisheye. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Rephotograph the cafe scene with a dramatic 16mm wide-angle view from near the tabletop. Bottle clearly in foreground, wide sweep of table and chairs, cafe facade and square revealed, distant archway visibly smaller and farther away, strong converging depth lines. Rectilinear perspective, not fisheye. Square.",
+        "effect": "廣角大視野、近大遠小與明顯空間縱深",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-01/cafe-reference.png",
+        "sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a square neutral photographic reference scene for camera-effect demonstrations. A quiet unbranded corner cafe terrace beside a cobbled European-style city square. In the foreground, on a round wooden cafe table, stand the exact sage-green matte cylindrical bottle with rounded shoulder and charcoal screw cap with rigid loop from the reference image. Midground has two empty cafe chairs and glass cafe windows; background has a clear stone archway and one distant pedestrian in a plain blue coat walking through the square. Morning daylight, natural perspective at seated eye level, moderately deep depth of field. Preserve the bottle design; realistic architecture and proportions. No words, brands, logos or watermarks. Include enough surrounding cafe and square to demonstrate later aerial, wide-angle and focus effects. Web quality.",
+        "parent_reference": {
+          "path": "output/imagegen/replacement-01/reference.png",
+          "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+          "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.350Z",
+        "source_instruction": "Expand the scene with a dramatic wide-angle view.",
+        "reference_sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "result_sha256": "8b6d3a53c80606eb2bb4c55f2b531f57ed67cb4ede85f4c7b2431db62f9a8b9f",
+        "applied_prompt_sha256": "edcd8c61af9bbf661253e6bb50e678438d40485dca7878b9e617e28584226832",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "綠瓶與咖啡座、藍衣人物及拱門保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rephotograph the cafe scene with a dramatic 16mm wide-angle view from near the tabletop. Bottle clearly in foreground, wide sweep of table and chairs, cafe facade and square revealed, distant archway visibly smaller and farther away, strong converging depth lines. Rectilinear perspective, not fisheye. Square.",
+            "observed": "擴展到更多立面、天空、廣場與桌椅",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "廣角大視野、近大遠小與明顯空間縱深",
+            "observed": "拱門與人物相對縮小，桌面與建築形成強烈縱深",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "近桌占前景，遠拱門收斂，直線未出現魚眼彎曲",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，瓶子仍合理直立",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-shallowfocus-01",
+      "prompt_id": "src-visual642-022",
+      "command": "/shallowfocus",
+      "title": "保持主體的銳利 面對溫柔的背景。",
+      "description": "保持主體的銳利 面對溫柔的背景。",
+      "result_text": "瓶子清晰，後方咖啡座與拱門明顯柔焦",
+      "result": "output/imagegen/batch-20-01/shallowfocus.png",
+      "reference": "output/imagegen/batch-20-01/cafe-reference.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result example. Apply /shallowfocus and exact source instruction: Keep the subject sharp against a soft background. Input image is the identity reference. Use extremely shallow depth of field: the entire foreground sage bottle is tack sharp, while cafe windows, chairs, blue pedestrian and stone archway behind it dissolve into pronounced smooth soft bokeh. Preserve subject identity, natural light and original cafe arrangement. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Use extremely shallow depth of field: the entire foreground sage bottle is tack sharp, while cafe windows, chairs, blue pedestrian and stone archway behind it dissolve into pronounced smooth soft bokeh. Preserve subject identity, natural light and original cafe arrangement. Square.",
+        "effect": "瓶子清晰，後方咖啡座與拱門明顯柔焦",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-01/cafe-reference.png",
+        "sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a square neutral photographic reference scene for camera-effect demonstrations. A quiet unbranded corner cafe terrace beside a cobbled European-style city square. In the foreground, on a round wooden cafe table, stand the exact sage-green matte cylindrical bottle with rounded shoulder and charcoal screw cap with rigid loop from the reference image. Midground has two empty cafe chairs and glass cafe windows; background has a clear stone archway and one distant pedestrian in a plain blue coat walking through the square. Morning daylight, natural perspective at seated eye level, moderately deep depth of field. Preserve the bottle design; realistic architecture and proportions. No words, brands, logos or watermarks. Include enough surrounding cafe and square to demonstrate later aerial, wide-angle and focus effects. Web quality.",
+        "parent_reference": {
+          "path": "output/imagegen/replacement-01/reference.png",
+          "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+          "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.357Z",
+        "source_instruction": "Keep the subject sharp against a soft background.",
+        "reference_sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "result_sha256": "9158f135da5d71b06e36cc7a7c15f9e84becce786a0b2905c3957880e73de222",
+        "applied_prompt_sha256": "8a084dc808a2b510d4a9bb5e2aed287e987e9e2748364f80bb62ee8b45f5ab32",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "主瓶原色及黑提環完整，原咖啡座場景仍可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Use extremely shallow depth of field: the entire foreground sage bottle is tack sharp, while cafe windows, chairs, blue pedestrian and stone archway behind it dissolve into pronounced smooth soft bokeh. Preserve subject identity, natural light and original cafe arrangement. Square.",
+            "observed": "桌面前景清楚，後方咖啡座及廣場柔化",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "瓶子清晰，後方咖啡座與拱門明顯柔焦",
+            "observed": "瓶身紋理清晰，拱門、人物、窗燈明顯散景",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "前後焦點層次清楚，瓶底接觸桌面",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無文字水印，散景平順未侵蝕產品邊緣",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-deepfocus-01",
+      "prompt_id": "src-visual642-023",
+      "command": "/deepfocus",
+      "title": "保持前景和背景細節的焦點明確。",
+      "description": "保持前景和背景細節的焦點明確。",
+      "result_text": "前景瓶身桌紋、中景桌椅、遠景建築均清楚",
+      "result": "output/imagegen/batch-20-01/deepfocus.png",
+      "reference": "output/imagegen/batch-20-01/cafe-reference.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result example. Apply /deepfocus and exact source instruction: Keep foreground and background details clearly focused. Input image is the identity reference. Use deep focus with realistic hyperfocal-style clarity: foreground bottle texture and wooden table, middle cafe chairs and far stone archway masonry and blue pedestrian all clearly resolved in focus. Preserve original cafe composition and natural daylight, no artificial halos, no background bokeh. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Use deep focus with realistic hyperfocal-style clarity: foreground bottle texture and wooden table, middle cafe chairs and far stone archway masonry and blue pedestrian all clearly resolved in focus. Preserve original cafe composition and natural daylight, no artificial halos, no background bokeh. Square.",
+        "effect": "前景瓶身桌紋、中景桌椅、遠景建築均清楚",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-01/cafe-reference.png",
+        "sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create a square neutral photographic reference scene for camera-effect demonstrations. A quiet unbranded corner cafe terrace beside a cobbled European-style city square. In the foreground, on a round wooden cafe table, stand the exact sage-green matte cylindrical bottle with rounded shoulder and charcoal screw cap with rigid loop from the reference image. Midground has two empty cafe chairs and glass cafe windows; background has a clear stone archway and one distant pedestrian in a plain blue coat walking through the square. Morning daylight, natural perspective at seated eye level, moderately deep depth of field. Preserve the bottle design; realistic architecture and proportions. No words, brands, logos or watermarks. Include enough surrounding cafe and square to demonstrate later aerial, wide-angle and focus effects. Web quality.",
+        "parent_reference": {
+          "path": "output/imagegen/replacement-01/reference.png",
+          "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+          "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+        }
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.365Z",
+        "source_instruction": "Keep foreground and background details clearly focused.",
+        "reference_sha256": "861d861ed6f324cbed08b956ea3d7fa6f7054f5f2d7f37c163d13ceae33bb73d",
+        "result_sha256": "6f2a15c80886e01227bb5989f2ed6f73511ec6b7bd594c0f57e1dffb738eee97",
+        "applied_prompt_sha256": "e8391644e7a47cb1edb7d86f691f12c04103249a62659567d3e32620e8b219a5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "綠瓶、桌面、桌椅與遠方拱門人物保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Use deep focus with realistic hyperfocal-style clarity: foreground bottle texture and wooden table, middle cafe chairs and far stone archway masonry and blue pedestrian all clearly resolved in focus. Preserve original cafe composition and natural daylight, no artificial halos, no background bokeh. Square.",
+            "observed": "原咖啡座構圖，日光自然",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "前景瓶身桌紋、中景桌椅、遠景建築均清楚",
+            "observed": "前景木紋瓶紋、中景椅面、遠方石牆及人物輪廓均可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "各距離平面都清楚，遠方沒有大幅散景，尺度正常",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，建築紋理及邊緣沒有顯著光暈",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-studioflash-01",
+      "prompt_id": "src-visual642-024",
+      "command": "/studioflash",
+      "title": "點燃主體 以Crisp專業工作室閃光燈。",
+      "description": "點燃主體 以Crisp專業工作室閃光燈。",
+      "result_text": "專業棚閃、清晰質感與受控高光陰影",
+      "result": "output/imagegen/batch-20-01/studioflash.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: photorealistic-natural. Asset type: website command-result example. Apply /studioflash and exact source instruction: Light the subject with crisp professional studio flash. Input image is the identity reference. Create a crisp professional studio flash product photograph of the original sage bottle: seamless cool light gray studio backdrop, full bottle upright, clean high microcontrast and controlled specular highlights from professional flash lighting, a distinct tidy grounded shadow and sharply resolved matte texture. Neutral controlled color, no home/cafe scene. Square. Preserve recognizable reference bottle when visible. Photorealistic, web quality. No brands, logos, readable text, watermark or implausible geometry.",
+      "acceptance": {
+        "subject": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+        "scene": "Create a crisp professional studio flash product photograph of the original sage bottle: seamless cool light gray studio backdrop, full bottle upright, clean high microcontrast and controlled specular highlights from professional flash lighting, a distinct tidy grounded shadow and sharply resolved matte texture. Neutral controlled color, no home/cafe scene. Square.",
+        "effect": "專業棚閃、清晰質感與受控高光陰影",
+        "relations": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+        "details": "依案例要求構圖，無品牌文字、水印或變形"
+      },
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T05:21:37.372Z",
+        "source_instruction": "Light the subject with crisp professional studio flash.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "9fca0779a53b47e35f7c84b0954b7b1eece511a5a4659ac0da720036df2c3b35",
+        "applied_prompt_sha256": "688a3345a40ef74e7ec5be4588720aa7e6eca96781c351140ef713ced2d0dd8c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考瓶外觀或場景身份；限量版本允許指定材質配色變化",
+            "observed": "單一綠瓶黑提環保持原外觀",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Create a crisp professional studio flash product photograph of the original sage bottle: seamless cool light gray studio backdrop, full bottle upright, clean high microcontrast and controlled specular highlights from professional flash lighting, a distinct tidy grounded shadow and sharply resolved matte texture. Neutral controlled color, no home/cafe scene. Square.",
+            "observed": "冷淺灰無縫棚拍背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "專業棚閃、清晰質感與受控高光陰影",
+            "observed": "瓶身質感、受控高光與乾淨明確陰影呈現專業棚閃效果",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "實體接觸、場景透視及比例合理；平面廣告與實體展示依案例區分",
+            "observed": "完整瓶子直立落於平面，陰影向右後方",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "依案例要求構圖，無品牌文字、水印或變形",
+            "observed": "無字樣水印，瓶蓋與表面細節清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

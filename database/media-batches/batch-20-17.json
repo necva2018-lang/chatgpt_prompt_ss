@@ -1,0 +1,1607 @@
+{
+  "version": 1,
+  "id": "batch-20-17",
+  "cases": [
+    {
+      "id": "case-half-17-01",
+      "prompt_id": "src-visual642-325",
+      "command": "/halfsection",
+      "title": "檸檬一半外觀一半剖面",
+      "description": "檸檬一半外觀一半剖面（AI案例示範）",
+      "result_text": "檸檬一半外觀一半剖面",
+      "reference": "output/imagegen/batch-20-15/lemon-reference.png",
+      "result": "output/imagegen/batch-20-17/half-17.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /halfsection: Show one half normal and one half cut open. Reference image supplies subject identity only. One lemon with left half intact yellow exterior and right half cut away showing juice segments and white pith within same coherent silhouette. Label EXTERIOR and CUTAWAY. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-15/lemon-reference.png",
+        "sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photo of a single whole yellow lemon beside one matching half lemon showing naturally radial pale yellow juicy segments and white pith, plain white seamless studio, no other objects, no labels, no logo, whole fruit visible, square web quality, natural accurate citrus structure."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "One lemon with left half intact yellow exterior and right half cut away showing juice segments and white pith within same coherent silhouette. Label EXTERIOR and CUTAWAY.",
+        "effect": "檸檬一半外觀一半剖面",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:09:21.908Z",
+        "source_instruction": "Show one half normal and one half cut open.",
+        "reference_sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "result_sha256": "690cb018abefe5c60014ad1c2aef0db311f9c144e9927b3dba5efeb10ae5c230",
+        "applied_prompt_sha256": "d13f12477fa2c9d52f79e652471d0012b804e4e4226ce0c5a1dc2cc59632000a",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://blumwald.ucdavis.edu/sites/g/files/dgvnsk6161/files/inline-files/sadka%20et%20al.2019.Frontiers.pdf"
+          ],
+          "notes": "柑橘外皮、白色中果皮及果瓣位置一般結構；半剖示意。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃色檸檬以單一外形呈現",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One lemon with left half intact yellow exterior and right half cut away showing juice segments and white pith within same coherent silhouette. Label EXTERIOR and CUTAWAY.",
+            "observed": "白底半剖解說",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬一半外觀一半剖面",
+            "observed": "左半完整果皮，右半揭露果瓣及白色中果皮",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩種視圖在中央垂直分界，非兩個分離物件；為概念半剖展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "EXTERIOR與CUTAWAY各指向對應半邊，字體清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cross-17-01",
+      "prompt_id": "src-visual642-326",
+      "command": "/crosssection",
+      "title": "陶瓷杯乾淨截面",
+      "description": "陶瓷杯乾淨截面（AI案例示範）",
+      "result_text": "陶瓷杯乾淨截面",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-17/cross-17.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /crosssection: Show a clean sliced-through view of internal construction. Reference image supplies subject identity only. Single vertical sliced-through green ceramic tumbler showing solid ceramic wall thickness, hollow empty interior and closed bottom, ivory inner glaze. Labels GLAZE CERAMIC HOLLOW. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Single vertical sliced-through green ceramic tumbler showing solid ceramic wall thickness, hollow empty interior and closed bottom, ivory inner glaze. Labels GLAZE CERAMIC HOLLOW.",
+        "effect": "陶瓷杯乾淨截面",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:09:57.280Z",
+        "source_instruction": "Show a clean sliced-through view of internal construction.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "8c49467dc8347f3946108953981e44897884e0937f48a1c61d6e2f8504e0b865",
+        "applied_prompt_sha256": "32f29dbc8e89e43bceaf611564c7a7fd0013b4a474779c54c0168bf5987e5a93",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://ceramicartsnetwork.org/daily/article/an-introduction-to-slip-casting-ceramics-with-multi-piece-molds/"
+          ],
+          "notes": "陶瓷杯空腔、陶瓷坯與釉層、石膏模泥漿注成空心坯之一般原理；非參考產品實際工廠資料。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色陶瓷杯切開前半邊",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Single vertical sliced-through green ceramic tumbler showing solid ceramic wall thickness, hollow empty interior and closed bottom, ivory inner glaze. Labels GLAZE CERAMIC HOLLOW.",
+            "observed": "白底乾淨截面示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯乾淨截面",
+            "observed": "陶瓷壁及封閉杯底厚度與內部空腔清楚可見",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "釉層包覆表面，陶瓷核心連續形成U形壁底",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "GLAZE指表面、CERAMIC指切開核心、HOLLOW標示空腔，無額外材料",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-tree-17-01",
+      "prompt_id": "src-visual642-327",
+      "command": "/componenttree",
+      "title": "桌扇組件層級樹",
+      "description": "桌扇組件層級樹（AI案例示範）",
+      "result_text": "桌扇組件層級樹",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-17/tree-17.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /componenttree: Map object to assemblies, subassemblies, and components. Reference image supplies subject identity only. CONCEPT COMPONENT TREE. Top whole fan FAN, next row exactly HEAD and BASE, under HEAD exactly GRILLE BLADES MOTOR; under BASE exactly SWITCH CABLE. Clear tree lines, no extra nodes. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "CONCEPT COMPONENT TREE. Top whole fan FAN, next row exactly HEAD and BASE, under HEAD exactly GRILLE BLADES MOTOR; under BASE exactly SWITCH CABLE. Clear tree lines, no extra nodes.",
+        "effect": "桌扇組件層級樹",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:10:46.366Z",
+        "source_instruction": "Map object to assemblies, subassemblies, and components.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "095cf2db0c1da9518d06b85f4ce8576f67793c63a4321c36ad3016b03f1dc9e9",
+        "applied_prompt_sha256": "86dda57e3ff3cb1d8a4d6063b4de20aa6a48142978ce5005566c7ba3b8b34cab",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "電機透過軸帶動葉輪，產生氣流；接點、開關、俯仰及內部均為自設計概念，不聲稱實物規格；外觀及箭頭另以目視核對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油色青綠葉片桌扇及其零件",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "CONCEPT COMPONENT TREE. Top whole fan FAN, next row exactly HEAD and BASE, under HEAD exactly GRILLE BLADES MOTOR; under BASE exactly SWITCH CABLE. Clear tree lines, no extra nodes.",
+            "observed": "白底階層樹展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇組件層級樹",
+            "observed": "FAN分成HEAD及BASE，再分成各零件",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "HEAD連GRILLE BLADES MOTOR，BASE連SWITCH CABLE，連線無跨接",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "八個節點文字清楚；屬概念組件示意，非拆機實測",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-assembly-17-01",
+      "prompt_id": "src-visual642-328",
+      "command": "/assemblyorder",
+      "title": "紙盒概念組裝順序",
+      "description": "紙盒概念組裝順序（AI案例示範）",
+      "result_text": "紙盒概念組裝順序",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-17/assembly-17.png",
+      "applied_prompt": "Create a white background four-stage horizontal concept box assembly diagram based on reference sage green leaf box. Title CONCEPT ASSEMBLY. Stage1 numbered1: six-square cube net EXACTLY FOUR equal squares in vertical column, with ONE equal square to left and ONE equal square to right of the SECOND square from top. Thus SIX total full squares, tabs extra small, show all six squares distinct. Stage2 numbered2 empty open cube box. Stage3 numbered3 open cube box containing brown pulp insert. Stage4 numbered4 closed green leaf-logo box. Right pointing arrows between stages. No extra stages, readable numbers. Square web-quality.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four numbered stages on one row: 1 flat six-face blank, 2 folded empty box body, 3 insert fitted into box, 4 closed lid leaf-logo box. Left to right arrows. Title CONCEPT ASSEMBLY.",
+        "effect": "紙盒概念組裝順序",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:12:09.763Z",
+        "source_instruction": "Arrange parts in the order they are assembled.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "01880f50c69c6b099179817540cf6570aac6cd50d25acfe1aafbcb4cd700bd0c",
+        "applied_prompt_sha256": "b4ea8619f210f4cfa9f44c2c151282eb7f0d03d912cbae269a08724f9e24faf7",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/technical-information/production-process"
+          ],
+          "notes": "瓦楞紙材、印刷、模切壓線、折疊及黏合作為一般包裝路線；示範紙盒具體組裝為概念，不聲稱已實際製造。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色葉紋紙盒及紙漿內襯",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four numbered stages on one row: 1 flat six-face blank, 2 folded empty box body, 3 insert fitted into box, 4 closed lid leaf-logo box. Left to right arrows. Title CONCEPT ASSEMBLY.",
+            "observed": "白底四階段概念組裝",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒概念組裝順序",
+            "observed": "六面展開紙材、空盒、放入內襯、關蓋成品順序完整",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "垂直四面加第二面兩側各一面，共六面；箭頭依1至4朝右",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT ASSEMBLY與序號清楚；初圖缺面已修正",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "初圖紙盒展開只有五面，補足六面",
+          "previous_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /assemblyorder: Arrange parts in the order they are assembled. Reference image supplies subject identity only. Four numbered stages on one row: 1 flat six-face blank, 2 folded empty box body, 3 insert fitted into box, 4 closed lid leaf-logo box. Left to right arrows. Title CONCEPT ASSEMBLY. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+          "at": "2026-10-09T23:11:26.159Z"
+        }
+      ]
+    },
+    {
+      "id": "case-fastener-17-01",
+      "prompt_id": "src-visual642-329",
+      "command": "/fastenermap",
+      "title": "桌扇固定接點標示",
+      "description": "桌扇固定接點標示（AI案例示範）",
+      "result_text": "桌扇固定接點標示",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-17/fastener-17.png",
+      "applied_prompt": "Create a square white-background CONCEPT JOINT MAP for the reference cream teal desk fan. Three equally sized independent close-up photo panels, no connectors between panels. Left panel fan grille rim snap clip, label CLIP. Middle panel side tilt pivot removed plastic knob revealing threaded steel bolt, label BOLT. Right panel REAR fan motor housing screw securing rear cover, label SCREW. In each panel a red circle clearly surrounds its actual metal fastener or plastic clip. Small whole reference fan at top center. Large readable title CONCEPT JOINT MAP. No other text, no mismatched leader lines. Web quality.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "桌扇三個獨立接點特寫與整體參考；概念接點圖",
+        "effect": "桌扇固定接點標示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:14:40.161Z",
+        "source_instruction": "Highlight screws, bolts, clips, welds, adhesives, and joints.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "bb52b9ef6b2fd63b4f241a8e6b773d518409902e557579885f890eeaa388b7c5",
+        "applied_prompt_sha256": "65350ef68c7ccc27c59f4936d05b9eff5d0dddec80c598be67ca9ef59bd3d9c9",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "電機透過軸帶動葉輪，產生氣流；接點、開關、俯仰及內部均為自設計概念，不聲稱實物規格；外觀及箭頭另以目視核對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "桌扇及卡扣、側軸螺栓、後殼螺絲",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "桌扇三個獨立接點特寫與整體參考；概念接點圖",
+            "observed": "整機上方及三個獨立特寫下方",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇固定接點標示",
+            "observed": "三種固定接點被紅圈清楚強調",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "特寫互不跨接，側軸外露螺紋及後殼螺絲位置合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT JOINT MAP及CLIP BOLT SCREW清楚，初圖缺標及錯指已修正",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "初圖缺少接點文字，後殼螺絲指示落在支架；改為三個獨立清楚特寫",
+          "previous_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /fastenermap: Highlight screws, bolts, clips, welds, adhesives, and joints. Reference image supplies subject identity only. CONCEPT JOINT MAP. Fan with clear close-up insets of rim CLIP, support pivot BOLT, rear motor housing SCREW. Red circles mark each corresponding location. Show only present joint types, no invented weld. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+          "at": "2026-10-09T23:13:26.362Z"
+        }
+      ]
+    },
+    {
+      "id": "case-material-17-01",
+      "prompt_id": "src-visual642-330",
+      "command": "/materialmap",
+      "title": "陶瓷杯材質分區",
+      "description": "陶瓷杯材質分區（AI案例示範）",
+      "result_text": "陶瓷杯材質分區",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-17/material-17.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /materialmap: Label every material used in the subject. Reference image supplies subject identity only. One green glazed ceramic cup with magnified cut edge. Exactly two material labels CERAMIC BODY and GLAZE, leaders to ceramic core and thin surface coating, no plastic or metal. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "One green glazed ceramic cup with magnified cut edge. Exactly two material labels CERAMIC BODY and GLAZE, leaders to ceramic core and thin surface coating, no plastic or metal.",
+        "effect": "陶瓷杯材質分區",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:15:16.401Z",
+        "source_instruction": "Label every material used in the subject.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "cac55c6ec236e257b459f78003c1cdf95feba6f025e6167f61ab5ab539137919",
+        "applied_prompt_sha256": "50909d24d19ec24d7cc7bf1eeb9742a94e350bc1c13cb62e0560751a02f5afd0",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://ceramicartsnetwork.org/daily/article/an-introduction-to-slip-casting-ceramics-with-multi-piece-molds/"
+          ],
+          "notes": "陶瓷杯空腔、陶瓷坯與釉層、石膏模泥漿注成空心坯之一般原理；非參考產品實際工廠資料。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色陶瓷杯及放大杯壁切面",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "One green glazed ceramic cup with magnified cut edge. Exactly two material labels CERAMIC BODY and GLAZE, leaders to ceramic core and thin surface coating, no plastic or metal.",
+            "observed": "乾淨白底材質解說",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯材質分區",
+            "observed": "放大區顯示表面釉層和內部陶瓷坯",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "GLAZE指向薄綠色表面，CERAMIC BODY指向米色核心",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "僅兩種材料標示，無不相干金屬塑膠，質感清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-stress-17-01",
+      "prompt_id": "src-visual642-331",
+      "command": "/stressmap",
+      "title": "住宅相對受力概念",
+      "description": "住宅相對受力概念（AI案例示範）",
+      "result_text": "住宅相對受力概念",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-17/stress-17.png",
+      "applied_prompt": "Create a square white engineering education poster based on reference gabled house. Top LARGE title exactly CONCEPT STRESS MAP. Bottom LARGE subtitle exactly QUALITATIVE ONLY. Central simplified wooden post-and-beam house frame with faint cream exterior outline. Color red at beam-post joints HIGH, amber beams/posts MEDIUM, blue lightly loaded infill LOW. Three clear legend swatches HIGH MEDIUM LOW. Show conceptual relative stress distribution only, no numeric values, no software screenshot, no simulated measurement claims. Make both title and subtitle mandatory visible and readable.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "CONCEPT STRESS MAP. Simplified house wooden frame matching cream gabled exterior, exterior ghosted. Qualitative red beam junctions, amber supporting frame, blue lightly loaded infill. Legend HIGH MEDIUM LOW. State QUALITATIVE ONLY, no numbers no simulation claims.",
+        "effect": "住宅相對受力概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:17:19.559Z",
+        "source_instruction": "Visualize high, medium, and low structural stress areas.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "1e20e374b729592235fba664755914b8b53574119a1ee9af366fcc940e68b756",
+        "applied_prompt_sha256": "43803e8cc8e242ce3907892d0968e4682eaa42b439c0d9d1d9b299e7c3e9505a",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.woodworks.org/wp-content/uploads/wood_solution_paper_Index_Mass_Timber_Connections_05.2024.pdf"
+          ],
+          "notes": "重力載重由水平構件傳至柱與地基；受力色階只作定性教學概念，非FEA、承載評估或實際住宅安全結論。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙層斜屋頂住宅木構框架",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "CONCEPT STRESS MAP. Simplified house wooden frame matching cream gabled exterior, exterior ghosted. Qualitative red beam junctions, amber supporting frame, blue lightly loaded infill. Legend HIGH MEDIUM LOW. State QUALITATIVE ONLY, no numbers no simulation claims.",
+            "observed": "白底半透明外牆解說",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "住宅相對受力概念",
+            "observed": "紅黃藍三色表達高、中、低相對受力",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "紅色集中梁柱接點、黃色主要梁柱、藍色填充區；僅概念",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT STRESS MAP與QUALITATIVE ONLY及HIGH MEDIUM LOW清楚，無實測數值",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "初圖缺少概念與定性標示，需避免被視為實測結構分析",
+          "previous_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /stressmap: Visualize high, medium, and low structural stress areas. Reference image supplies subject identity only. CONCEPT STRESS MAP. Simplified house wooden frame matching cream gabled exterior, exterior ghosted. Qualitative red beam junctions, amber supporting frame, blue lightly loaded infill. Legend HIGH MEDIUM LOW. State QUALITATIVE ONLY, no numbers no simulation claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+          "at": "2026-10-09T23:15:57.985Z"
+        }
+      ]
+    },
+    {
+      "id": "case-load-17-01",
+      "prompt_id": "src-visual642-332",
+      "command": "/loadpath",
+      "title": "住宅垂直載重傳遞",
+      "description": "住宅垂直載重傳遞（AI案例示範）",
+      "result_text": "住宅垂直載重傳遞",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-17/load-17.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /loadpath: Show how forces travel through the object. Reference image supplies subject identity only. CONCEPT GRAVITY LOAD PATH. Simplified wood frame house cutaway. Downward arrows from roof to beams, from beams to vertical posts, from posts to foundation and ground. Labels ROOF BEAMS POSTS FOUNDATION. No upward arrows. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "CONCEPT GRAVITY LOAD PATH. Simplified wood frame house cutaway. Downward arrows from roof to beams, from beams to vertical posts, from posts to foundation and ground. Labels ROOF BEAMS POSTS FOUNDATION. No upward arrows.",
+        "effect": "住宅垂直載重傳遞",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:18:05.053Z",
+        "source_instruction": "Show how forces travel through the object.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "25cf3869b00caf9a0d23605abbce6bb36e4878b257b43d54aeb29f073c6a86ce",
+        "applied_prompt_sha256": "a71a2c3aa9fe9d63618d26c496a44cd9a1e2e038877023bd58033d1bc81b4d02",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.woodworks.org/wp-content/uploads/wood_solution_paper_Index_Mass_Timber_Connections_05.2024.pdf"
+          ],
+          "notes": "重力載重由水平構件傳至柱與地基；受力色階只作定性教學概念，非FEA、承載評估或實際住宅安全結論。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款住宅及露出的木構梁柱與基礎",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "CONCEPT GRAVITY LOAD PATH. Simplified wood frame house cutaway. Downward arrows from roof to beams, from beams to vertical posts, from posts to foundation and ground. Labels ROOF BEAMS POSTS FOUNDATION. No upward arrows.",
+            "observed": "住宅剖開及土壤截面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "住宅垂直載重傳遞",
+            "observed": "橘色箭頭展示重力載重由屋頂向地面傳遞",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "屋頂箭頭向梁，梁柱沿線向下到基礎與土壤，無逆向箭頭",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "ROOF BEAMS POSTS FOUNDATION各指對應構件，無承載數值或安全結論",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mechanism-17-01",
+      "prompt_id": "src-visual642-333",
+      "command": "/mechanismflow",
+      "title": "桌扇旋轉傳動示意",
+      "description": "桌扇旋轉傳動示意（AI案例示範）",
+      "result_text": "桌扇旋轉傳動示意",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-17/mechanism-17.png",
+      "applied_prompt": "Square white educational infographic. Top large title CONCEPT DRIVE. One horizontal mechanically connected motor, shaft and three teal fan blades from left to right: small silver electric motor left, its straight metal shaft extending to right directly into central hub of teal blades at right. Each part has a LARGE label below: MOTOR, SHAFT, BLADES. Curved blue circular rotation arrows around shaft and blade hub, same axial rotation, no gears. Small cream reference fan thumbnail upper right. Clear concept mechanism, no other text or inset circles. Required labels must appear.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "白底概念傳動圖，馬達與軸及葉片直接相連，整機小圖供比對",
+        "effect": "桌扇旋轉傳動示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:19:52.421Z",
+        "source_instruction": "Use arrows to show how mechanical movement transfers.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "9ba6b3c4675d137cdc3b7cfb17427a57c1351e7e64a2dd0e0ae4907472dc0195",
+        "applied_prompt_sha256": "4c103a3b31807c86bc4779a69cd0368b3040b1a3a56a523f76f35b8cc34480cf",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "電機透過軸帶動葉輪，產生氣流；接點、開關、俯仰及內部均為自設計概念，不聲稱實物規格；外觀及箭頭另以目視核對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "馬達、直軸及三片青綠扇葉，右上原桌扇比對",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "白底概念傳動圖，馬達與軸及葉片直接相連，整機小圖供比對",
+            "observed": "白底概念機械傳動圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇旋轉傳動示意",
+            "observed": "旋轉箭頭展示軸帶動葉片的傳遞",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "馬達在左、同軸金屬軸直連右側葉輪中心，沒有多餘齒輪",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT DRIVE及MOTOR SHAFT BLADES清楚，三者位置對應",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "初圖缺少概念及零件標籤，補成三段清楚傳動解說",
+          "previous_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /mechanismflow: Use arrows to show how mechanical movement transfers. Reference image supplies subject identity only. CONCEPT DRIVE. Fan head cutaway enlarged motor behind blade hub, common shaft connects motor to blade hub. Curved rotation arrows around shaft and blades, chain MOTOR -> SHAFT -> BLADES at bottom. No gears. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+          "at": "2026-10-09T23:18:55.448Z"
+        }
+      ]
+    },
+    {
+      "id": "case-power-17-01",
+      "prompt_id": "src-visual642-334",
+      "command": "/powerflow",
+      "title": "桌扇電能轉風能流程",
+      "description": "桌扇電能轉風能流程（AI案例示範）",
+      "result_text": "桌扇電能轉風能流程",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-17/power-17.png",
+      "applied_prompt": "Create a square white educational INFOGRAPHIC with mandatory large visible TEXT. Top title CONCEPT POWER FLOW. Four equal columns, each icon above its label. Column1 USB plug icon, label USB POWER. Column2 electric motor icon, label MOTOR. Column3 rotating three teal fan blades, label ROTATING BLADES. Column4 blue wind arrow icon, label AIRFLOW. Connect columns with exactly THREE right-pointing arrows, no other arrows. Small reference cream fan thumbnail at bottom. All five text labels must be visible, clear black letters. Web-quality diagram.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "CONCEPT POWER FLOW. Four large left-to-right diagram blocks: USB POWER -> MOTOR -> ROTATING BLADES -> AIRFLOW. Icon cable, motor, teal fan blades, moving air respectively. Whole reference fan small bottom right. Arrows all right.",
+        "effect": "桌扇電能轉風能流程",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:21:41.217Z",
+        "source_instruction": "Show the energy path from power source to final output.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "86f48ad42e4d2ee90c2f71470ab9335d9f81707cf95626c523fa3b274a055437",
+        "applied_prompt_sha256": "abf713a67656db04003c5f8210b5afd836bfe55f3114e32e0d0e09616ca94b64",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "電機透過軸帶動葉輪，產生氣流；接點、開關、俯仰及內部均為自設計概念，不聲稱實物規格；外觀及箭頭另以目視核對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "USB插頭、馬達、三片葉輪、風流及整機小圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "CONCEPT POWER FLOW. Four large left-to-right diagram blocks: USB POWER -> MOTOR -> ROTATING BLADES -> AIRFLOW. Icon cable, motor, teal fan blades, moving air respectively. Whole reference fan small bottom right. Arrows all right.",
+            "observed": "白底四階段概念能量流程",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇電能轉風能流程",
+            "observed": "電源經馬達轉成葉片旋轉並產生氣流",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "四欄由左至右三個主箭頭串連，無逆向能量路線",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT POWER FLOW及USB POWER MOTOR ROTATING BLADES AIRFLOW完整清楚",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "初圖所有階段文字遺漏，改用簡短明確資訊圖提示",
+          "previous_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /powerflow: Show the energy path from power source to final output. Reference image supplies subject identity only. CONCEPT POWER FLOW. Four large left-to-right diagram blocks: USB POWER -> MOTOR -> ROTATING BLADES -> AIRFLOW. Icon cable, motor, teal fan blades, moving air respectively. Whole reference fan small bottom right. Arrows all right. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+          "at": "2026-10-09T23:20:53.734Z"
+        }
+      ]
+    },
+    {
+      "id": "case-signal-17-01",
+      "prompt_id": "src-visual642-335",
+      "command": "/signalflow",
+      "title": "溫控桌扇訊號流程概念",
+      "description": "溫控桌扇訊號流程概念（AI案例示範）",
+      "result_text": "溫控桌扇訊號流程概念",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-17/signal-17.png",
+      "applied_prompt": "Create a square web-quality explanatory infographic. IMPORTANT: Render every specified text label visibly and exactly. CONCEPT CONTROL. Four left-to-right blocks TEMP SENSOR -> PROCESSOR -> MOTOR DRIVER -> FAN. Each one distinct icon; right pointing signal arrows. Small matching cream teal fan at end. Explicit title CONCEPT CONTROL, not existing product feature. Reference image is subject identity only. Clean layout, coherent arrows and structures, no watermark. Original instruction: Map sensors to processor to actuator or output.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "CONCEPT CONTROL. Four left-to-right blocks TEMP SENSOR -> PROCESSOR -> MOTOR DRIVER -> FAN. Each one distinct icon; right pointing signal arrows. Small matching cream teal fan at end. Explicit title CONCEPT CONTROL, not existing product feature.",
+        "effect": "溫控桌扇訊號流程概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:22:18.929Z",
+        "source_instruction": "Map sensors to processor to actuator or output.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "35c2b7a46e75881ba1fbbf2fe1505aa6f63df8ce0f4e98c2d66e84246633d5b6",
+        "applied_prompt_sha256": "72428abc2ad9c69307ef13f0e30293b4384611337d86e5479500890653145578",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/emc2101-fan-controller-and-temperature-sensor/arduino"
+          ],
+          "notes": "溫度感測、控制器與馬達驅動的概念訊號路線；圖示特別標CONCEPT CONTROL，不聲稱素材桌扇實有溫控。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "溫度感測器、處理器、馬達驅動器與奶油色桌扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "CONCEPT CONTROL. Four left-to-right blocks TEMP SENSOR -> PROCESSOR -> MOTOR DRIVER -> FAN. Each one distinct icon; right pointing signal arrows. Small matching cream teal fan at end. Explicit title CONCEPT CONTROL, not existing product feature.",
+            "observed": "四欄白底概念控制圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "溫控桌扇訊號流程概念",
+            "observed": "感測輸入經處理與驅動到風扇輸出",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "TEMP SENSOR至PROCESSOR至MOTOR DRIVER至FAN三箭頭皆向右",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT CONTROL大標與四欄名稱完整，未聲稱原產品實有溫控",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-fluid-17-01",
+      "prompt_id": "src-visual642-336",
+      "command": "/fluidflow",
+      "title": "水瓶倒水液體流向",
+      "description": "水瓶倒水液體流向（AI案例示範）",
+      "result_text": "水瓶倒水液體流向",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-17/fluid-17.png",
+      "applied_prompt": "Create a square web-quality explanatory infographic. IMPORTANT: Render every specified text label visibly and exactly. Open green water bottle tilted pouring a continuous water stream into clear glass. Blue arrows follow water from interior toward bottle mouth then down into glass. No arrows through closed cap. Label WATER FLOW. Reference image is subject identity only. Clean layout, coherent arrows and structures, no watermark. Original instruction: Show liquids moving through the system.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Open green water bottle tilted pouring a continuous water stream into clear glass. Blue arrows follow water from interior toward bottle mouth then down into glass. No arrows through closed cap. Label WATER FLOW.",
+        "effect": "水瓶倒水液體流向",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:22:58.431Z",
+        "source_instruction": "Show liquids moving through the system.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "d9a9619732b6988c4c34e698f732e0564a9cda710762db02d9556049f5e7a4ae",
+        "applied_prompt_sha256": "f9e71bfbff187a6bdc3403bf6798f74d9994afd6ddc1caa64f02ab331e66d9d5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色開蓋水瓶倒水入透明杯，黑蓋分離置於桌面",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Open green water bottle tilted pouring a continuous water stream into clear glass. Blue arrows follow water from interior toward bottle mouth then down into glass. No arrows through closed cap. Label WATER FLOW.",
+            "observed": "木桌棚拍結合瓶身剖視",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶倒水液體流向",
+            "observed": "水流箭頭由瓶內經瓶口落入杯中",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "連續水柱入杯，箭頭順重力流向，未穿過瓶蓋",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "WATER FLOW標示清楚，無額外宣稱或不相干零件",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-air-17-01",
+      "prompt_id": "src-visual642-337",
+      "command": "/airflow",
+      "title": "桌扇進出風路徑",
+      "description": "桌扇進出風路徑（AI案例示範）",
+      "result_text": "桌扇進出風路徑",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-17/air-17.png",
+      "applied_prompt": "Create a square web-quality explanatory infographic. IMPORTANT: Render every specified text label visibly and exactly. Fan side profile with grille and teal blades. Blue intake arrows enter REAR on left, pass through blades, green airflow arrows leave FRONT on right. Labels INTAKE EXHAUST. No return loop. Reference image is subject identity only. Clean layout, coherent arrows and structures, no watermark. Original instruction: Visualize intake, exhaust, cooling, ventilation, or aerodynamics.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Fan side profile with grille and teal blades. Blue intake arrows enter REAR on left, pass through blades, green airflow arrows leave FRONT on right. Labels INTAKE EXHAUST. No return loop.",
+        "effect": "桌扇進出風路徑",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:23:33.069Z",
+        "source_instruction": "Visualize intake, exhaust, cooling, ventilation, or aerodynamics.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "3fa10908976a1c3bc6b315dea93e590c31f7f38cd3d41c521e3bb84ce6d6b542",
+        "applied_prompt_sha256": "823d5fd20650dd4b77c25fb91bd56f468e9aa7c75a7107b21a01062ce7171586",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "電機透過軸帶動葉輪，產生氣流；接點、開關、俯仰及內部均為自設計概念，不聲稱實物規格；外觀及箭頭另以目視核對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油色青綠葉片桌扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Fan side profile with grille and teal blades. Blue intake arrows enter REAR on left, pass through blades, green airflow arrows leave FRONT on right. Labels INTAKE EXHAUST. No return loop.",
+            "observed": "白底側面進出風示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇進出風路徑",
+            "observed": "藍色進氣及綠色出風流線",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "藍箭頭從左後方進入，綠箭頭從右前方離開，全部單向未回流",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "INTAKE及EXHAUST清楚對應兩側，無不實流速數字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-motion-17-01",
+      "prompt_id": "src-visual642-338",
+      "command": "/motionpath",
+      "title": "桌扇俯仰旋轉範圍",
+      "description": "桌扇俯仰旋轉範圍（AI案例示範）",
+      "result_text": "桌扇俯仰旋轉範圍",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-17/motion-17.png",
+      "applied_prompt": "Create a square web-quality explanatory infographic. IMPORTANT: Render every specified text label visibly and exactly. CONCEPT MOTION. Side view fan on stationary base, ghosted fan-head positions tilted up and down around side pivot. Curved double arrow centered at support pivot. Small inset front blade circular rotation arrow. No degree numbers or automatic oscillation. Reference image is subject identity only. Clean layout, coherent arrows and structures, no watermark. Original instruction: Show movement ranges, rotations, and trajectories.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "CONCEPT MOTION. Side view fan on stationary base, ghosted fan-head positions tilted up and down around side pivot. Curved double arrow centered at support pivot. Small inset front blade circular rotation arrow. No degree numbers or automatic oscillation.",
+        "effect": "桌扇俯仰旋轉範圍",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:24:21.008Z",
+        "source_instruction": "Show movement ranges, rotations, and trajectories.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "526727226731095a51516d95cab30e4e09a9331e912743ff9766c9fd27788c2e",
+        "applied_prompt_sha256": "0ec76860776b5fca03a574f61b39dc9293176467ce7be52a9a1ee19e1e8a4dd8",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "電機透過軸帶動葉輪，產生氣流；接點、開關、俯仰及內部均為自設計概念，不聲稱實物規格；外觀及箭頭另以目視核對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款桌扇側面與葉輪正面小圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "CONCEPT MOTION. Side view fan on stationary base, ghosted fan-head positions tilted up and down around side pivot. Curved double arrow centered at support pivot. Small inset front blade circular rotation arrow. No degree numbers or automatic oscillation.",
+            "observed": "白底動作範圍示意",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇俯仰旋轉範圍",
+            "observed": "透明重影展示扇頭俯仰，圓箭頭展示葉片旋轉",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "底座保持不動，重影以側支架樞軸轉動；未呈現自動左右擺頭",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無角度數值；圖中未印概念標題但動作本意清楚，無規格宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-cycle-17-01",
+      "prompt_id": "src-visual642-339",
+      "command": "/cycleview",
+      "title": "桌扇完整操作週期",
+      "description": "桌扇完整操作週期（AI案例示範）",
+      "result_text": "桌扇完整操作週期",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-17/cycle-17.png",
+      "applied_prompt": "Square educational four-panel clockwise cycle of reference cream teal desk fan. CRITICAL every panel shows black fan power cable visibly plugged into USB power bank socket, no loose unplugged USB tips. Panel upper left 1 OFF fan stationary. Upper right 2 PRESS finger pressing base switch. Lower right 3 RUN fan spinning with wind arrows. Lower left 4 STOP finger presses base switch again and fan stationary. Exactly four blue cycle arrows connecting 1->2->3->4->1. Large clear labels 1 OFF, 2 PRESS, 3 RUN, 4 STOP. Consistent fan appearance. White background. Physically powered running fan.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four numbered panels 1 OFF stationary fan, 2 PRESS finger presses base switch, 3 RUN fan with motion and airflow, 4 STOP finger presses switch again fan stationary. Connect clockwise arrows 1->2->3->4->1.",
+        "effect": "桌扇完整操作週期",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:26:25.816Z",
+        "source_instruction": "Break one full operating cycle into stages.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "74e6032ba95e5845f9f7a7c4df0b3ba1bf98f1d4296737abbf4711d2e6ff9f2d",
+        "applied_prompt_sha256": "3ced542c79b72bc6221a6e105b7383493e6682dbdeb75a0282b22c0688a2f152",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "電機透過軸帶動葉輪，產生氣流；接點、開關、俯仰及內部均為自設計概念，不聲稱實物規格；外觀及箭頭另以目視核對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款桌扇四次出現並接上行動電源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four numbered panels 1 OFF stationary fan, 2 PRESS finger presses base switch, 3 RUN fan with motion and airflow, 4 STOP finger presses switch again fan stationary. Connect clockwise arrows 1->2->3->4->1.",
+            "observed": "四格順時針操作週期",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇完整操作週期",
+            "observed": "OFF、PRESS、RUN、STOP完整呈現",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "1至2至3至4至1箭頭閉環；RUN有模糊旋轉與氣流，其餘靜止",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "四個序號及名稱正確，初圖運轉仍拔線的矛盾已修正",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "初圖RUN狀態USB插頭仍斷開，改為各格均接上電源",
+          "previous_prompt": "Create a square web-quality explanatory infographic. IMPORTANT: Render every specified text label visibly and exactly. Four numbered panels 1 OFF stationary fan, 2 PRESS finger presses base switch, 3 RUN fan with motion and airflow, 4 STOP finger presses switch again fan stationary. Connect clockwise arrows 1->2->3->4->1. Reference image is subject identity only. Clean layout, coherent arrows and structures, no watermark. Original instruction: Break one full operating cycle into stages.",
+          "at": "2026-10-09T23:25:02.832Z"
+        }
+      ]
+    },
+    {
+      "id": "case-cause-17-01",
+      "prompt_id": "src-visual642-340",
+      "command": "/causeeffect",
+      "title": "桌扇輸入與結果對照",
+      "description": "桌扇輸入與結果對照（AI案例示範）",
+      "result_text": "桌扇輸入與結果對照",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-17/cause-17.png",
+      "applied_prompt": "Square white cause-effect INFOGRAPHIC, top heading POWER CONNECTED. Use simple icons instead of full fan photographs, NO USB plugs or cables. Two horizontal three-stage rows. Green row: finger pressing button icon labeled PRESS ON -> spinning motor icon labeled MOTOR RUNS -> blue wind icon labeled AIRFLOW. Red row: finger pressing button icon labeled PRESS OFF -> stationary motor icon labeled MOTOR STOPS -> crossed-out wind icon labeled NO AIRFLOW. All arrows point right. Small reference cream teal fan thumbnail in top corner WITHOUT visible cable or plug. Clear exact text. Powered system assumed explicitly, physically coherent.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "白底兩列因果流程，圖示呈現開關、馬達與風流，標明已供電",
+        "effect": "桌扇輸入與結果對照",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:28:22.204Z",
+        "source_instruction": "Connect each input or action to its resulting effect.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "40861211d4e414bd6d3935e0bc6d07d0d49f857606ba9b0fa11b03430a865f7b",
+        "applied_prompt_sha256": "06a68e1cafa0e61c0e80e68643784996b77d8747ef4fb252f3ae6dcd624cf167",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.energy.gov/cmei/buildings/fans-and-blowers",
+            "https://www.energy.gov/sites/default/files/2014/05/f16/fan_sourcebook.pdf"
+          ],
+          "notes": "電機透過軸帶動葉輪，產生氣流；接點、開關、俯仰及內部均為自設計概念，不聲稱實物規格；外觀及箭頭另以目視核對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "開關手勢、葉輪及風流圖示，右上同款桌扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "白底兩列因果流程，圖示呈現開關、馬達與風流，標明已供電",
+            "observed": "綠紅兩列因果流程",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇輸入與結果對照",
+            "observed": "開啟產生旋轉及氣流，關閉停止旋轉與氣流",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "兩列均由左至右，停止列葉輪無動作箭頭、風圖加禁止符號",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "POWER CONNECTED及六個階段文字清楚，避免未供電運轉矛盾",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "初圖運轉因果鏈仍顯示未接電USB，改為抽象圖示並明示已供電",
+          "previous_prompt": "Create a square web-quality explanatory infographic. IMPORTANT: Render every specified text label visibly and exactly. Two rows cause-effect with right arrows. Row1 PRESS ON -> MOTOR RUNS -> AIRFLOW. Row2 PRESS OFF -> MOTOR STOPS -> NO AIRFLOW. Consistent fan icons. No reverse arrows or health claims. Reference image is subject identity only. Clean layout, coherent arrows and structures, no watermark. Original instruction: Connect each input or action to its resulting effect.",
+          "at": "2026-10-09T23:27:28.234Z"
+        }
+      ]
+    },
+    {
+      "id": "case-raw-17-01",
+      "prompt_id": "src-visual642-341",
+      "command": "/rawtofinal",
+      "title": "紙材到成品包裝",
+      "description": "紙材到成品包裝（AI案例示範）",
+      "result_text": "紙材到成品包裝",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-17/raw-17.png",
+      "applied_prompt": "Square white educational packaging process with FOUR columns and readable labels. 1 PAPER ROLLS brown kraft rolls. 2 CORRUGATED BOARD stack of flat sheets with visibly wavy fluted edge. 3 CUT BLANK stack of sage-green pre-cut, scored, COLLAPSED FLAT carton sleeves ready to erect, perspective stack, do NOT show an unfolded cross net. 4 FINISHED BOX reference green cube leaf-logo carton. Three right arrows. Title CONCEPT PACKAGING. No fifth stage. Match final box identity. No full cube net.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "紙卷、瓦楞板、模切壓線後折平盒坯、成品四階段",
+        "effect": "紙材到成品包裝",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:30:05.507Z",
+        "source_instruction": "Show raw materials through to the finished product.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "436abffb4c1a0e6cd7ac428e2359208b4f471830a3dd1b9e148c6fb4bec258ae",
+        "applied_prompt_sha256": "9e79f965fe6fadf7a6e24d8020fe8ce6487867a0a6690590f37ad4a9b7b3e7ce",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/technical-information/production-process"
+          ],
+          "notes": "瓦楞紙材、印刷、模切壓線、折疊及黏合作為一般包裝路線；示範紙盒具體組裝為概念，不聲稱已實際製造。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紙卷、瓦楞板、堆疊模切盒坯、綠色葉紋成盒",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "紙卷、瓦楞板、模切壓線後折平盒坯、成品四階段",
+            "observed": "白底四欄包裝流程",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙材到成品包裝",
+            "observed": "原料逐步轉為成品紙盒",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "1至4單向右箭頭串接，瓦楞切邊清楚，盒坯保持平面未冒充組裝實測",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT PACKAGING及四階段名稱完整，無不實時間尺寸",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "初圖模切展開比例不匹配方盒；改為折平待成形紙盒坯",
+          "previous_prompt": "Create a square web-quality explanatory infographic. IMPORTANT: Render every specified text label visibly and exactly. Four left-to-right stages PAPER ROLLS -> CORRUGATED BOARD -> CUT BLANK -> FINISHED BOX. Matching green leaf box at end; raw rolls brown and board clearly fluted cut edge. Arrows all right. Concept packaging route. Reference image is subject identity only. Clean layout, coherent arrows and structures, no watermark. Original instruction: Show raw materials through to the finished product.",
+          "at": "2026-10-09T23:29:11.431Z"
+        }
+      ]
+    },
+    {
+      "id": "case-manufacture-17-01",
+      "prompt_id": "src-visual642-342",
+      "command": "/manufacturingsteps",
+      "title": "紙盒工廠五步驟",
+      "description": "紙盒工廠五步驟（AI案例示範）",
+      "result_text": "紙盒工廠五步驟",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-17/manufacture-17.png",
+      "applied_prompt": "Square clean infographic. Title CONCEPT PROCESS. Exactly five numbered picture tiles arranged left to right in a horizontal strip. 1 CORRUGATE: grooved rollers make wavy paper flutes. 2 PRINT: ink roller prints dark leaf logo on flat green sheet. 3 DIE CUT: flat cutting die presses sheet, close-up only, DO NOT show complete unfolded box net. 4 FOLD: rails fold straight carton side panels. 5 GLUE: small glue nozzle applies thin glue bead along NARROW VERTICAL SIDE SEAM FLAP of flat carton blank, NOT top lid. Small reference finished green leaf cube carton beneath strip. Right arrows between five tiles. All labels readable, no full net diagram, no glue on top lid.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "五個製程設備近景：起楞、印刷、模切、折疊、側接縫黏合",
+        "effect": "紙盒工廠五步驟",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:32:07.871Z",
+        "source_instruction": "Show the factory process in four to six major stages.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "4ffc82ae1f2a40258af1f4a303ed45835429cc8e3cf48fc158de0d29323f5370",
+        "applied_prompt_sha256": "fddf7e7490636deaef39e65ad91de8c5a0dbc70f71e9be89a286c398edd61410",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/technical-information/production-process"
+          ],
+          "notes": "瓦楞紙材、印刷、模切壓線、折疊及黏合作為一般包裝路線；示範紙盒具體組裝為概念，不聲稱已實際製造。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色葉紋紙盒與五個製程近景",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "五個製程設備近景：起楞、印刷、模切、折疊、側接縫黏合",
+            "observed": "白底概念工廠流程",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒工廠五步驟",
+            "observed": "起楞、印刷、模切、折疊、黏合五階段",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "1至5連續右箭頭，GLUE膠線位於狹窄垂直側接縫而非頂蓋",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT PROCESS與五個階段完整，未展示錯誤整張展開圖",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "初圖展開坯面數及頂蓋膠位置易誤導，改用設備近景與側接縫上膠",
+          "previous_prompt": "Create a square web-quality explanatory infographic. IMPORTANT: Render every specified text label visibly and exactly. Exactly five numbered left-to-right factory stages 1 CORRUGATE, 2 PRINT, 3 DIE CUT, 4 FOLD, 5 GLUE. Show corrugating rollers, print roller, cutting press, folding rails, glue applicator respectively. Completed green leaf box at end. CONCEPT PROCESS title. Reference image is subject identity only. Clean layout, coherent arrows and structures, no watermark. Original instruction: Show the factory process in four to six major stages.",
+          "at": "2026-10-09T23:31:04.481Z"
+        }
+      ]
+    },
+    {
+      "id": "case-tool-17-01",
+      "prompt_id": "src-visual642-343",
+      "command": "/toolingview",
+      "title": "紙盒製造工具展示",
+      "description": "紙盒製造工具展示（AI案例示範）",
+      "result_text": "紙盒製造工具展示",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-17/tool-17.png",
+      "applied_prompt": "Square white product manufacturing tooling poster. Large title CONCEPT TOOLING. Three independent photographic equipment panels across upper half: left PRINT ROLLER with printing rollers and plain flat green sheet; middle CUTTING DIE showing CLOSEUP of metal cutting rule mounted on wooden die board with curved corner and scoring rule, do NOT show complete box net; right FOLDER GLUER showing metal guide rails and glue applicator closeup with plain sheet. Three readable labels exactly PRINT ROLLER, CUTTING DIE, FOLDER GLUER. One finished sage-green leaf-logo reference box bottom center. No arrows, no unfolded carton, no open box, no intermediate output objects. Focus machinery and tooling.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "白底三種製造設備近景與成品，無額外展開圖或中間物件",
+        "effect": "紙盒製造工具展示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:34:08.380Z",
+        "source_instruction": "Show the tools and machinery used to make the product.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "a4242107ef83c0640c0f2fcf7e909f5aee13fb1573e602c0b0ad26f1502547c8",
+        "applied_prompt_sha256": "b57be5c58d2bb125ca9bc5eb9b29d471b259f140979ed7aadaae2e506b8645b9",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.fefco.org/technical-information/production-process"
+          ],
+          "notes": "瓦楞紙材、印刷、模切壓線、折疊及黏合作為一般包裝路線；示範紙盒具體組裝為概念，不聲稱已實際製造。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色葉紋成盒與印刷、模切、折黏設備",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "白底三種製造設備近景與成品，無額外展開圖或中間物件",
+            "observed": "上方三設備特寫，下方成品",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒製造工具展示",
+            "observed": "製造工具以三個清楚類別展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "模切刀線嵌在木板，印刷滾輪與折黏導軌分開，無錯誤完整展開坯",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT TOOLING與PRINT ROLLER CUTTING DIE FOLDER GLUER完整，無不相干工具",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "attempt": 1,
+          "reason": "初圖多餘展開坯幾何及膠位置不一致，工具展示改為設備局部與成品",
+          "previous_prompt": "Create a square web-quality explanatory infographic. IMPORTANT: Render every specified text label visibly and exactly. CONCEPT TOOLING. Matching green leaf box center foreground; three clearly separate machines behind labeled PRINT ROLLER, CUTTING DIE, FOLDER GLUER. Show flat die with cut rules, ink rollers and folding/gluing machine, no unrelated saw or drill. Reference image is subject identity only. Clean layout, coherent arrows and structures, no watermark. Original instruction: Show the tools and machinery used to make the product.",
+          "at": "2026-10-09T23:33:08.125Z"
+        }
+      ]
+    },
+    {
+      "id": "case-mold-17-01",
+      "prompt_id": "src-visual642-344",
+      "command": "/moldview",
+      "title": "陶瓷杯模具成形示意",
+      "description": "陶瓷杯模具成形示意（AI案例示範）",
+      "result_text": "陶瓷杯模具成形示意",
+      "reference": "output/imagegen/batch-20-17/cup-reference.png",
+      "result": "output/imagegen/batch-20-17/mold-17.png",
+      "applied_prompt": "Create a square web-quality explanatory infographic. IMPORTANT: Render every specified text label visibly and exactly. CONCEPT SLIP CASTING. Open two-part cream plaster mold with cavity matching handleless tapered cup. Thin unfired clay cup shell seated in one mold half, opposite mold half open beside it. Cup hollow opening visible, not solid plug. Small finished green cup inset. Labels PLASTER MOLD CLAY SHELL FINISHED CUP. No metal injection nozzle. Reference image is subject identity only. Clean layout, coherent arrows and structures, no watermark. Original instruction: Show how the object sits inside its manufacturing mold.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/cup-reference.png",
+        "sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "generator": "built-in imagegen",
+        "prompt": "A neutral product reference studio photo of one simple handleless ceramic tumbler, sage green matte glazed exterior, ivory interior, straight gently tapered cylindrical walls and rounded rim, empty open top visible at three quarter angle, plain white seamless background, no logo no text no watermark. Single object fully visible square web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "CONCEPT SLIP CASTING. Open two-part cream plaster mold with cavity matching handleless tapered cup. Thin unfired clay cup shell seated in one mold half, opposite mold half open beside it. Cup hollow opening visible, not solid plug. Small finished green cup inset. Labels PLASTER MOLD CLAY SHELL FINISHED CUP. No metal injection nozzle.",
+        "effect": "陶瓷杯模具成形示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T23:34:56.148Z",
+        "source_instruction": "Show how the object sits inside its manufacturing mold.",
+        "reference_sha256": "42cf54bf80eab5372bede905a4563fbbdd5cef717114c7e85ca8693c7d870da7",
+        "result_sha256": "1d02448ad05163fcc09a014db88f6809c697bafd801c67282e48f2b4a5b1b349",
+        "applied_prompt_sha256": "1a8c94da7612a34a9158f926e08d09840f9aadc0818690336c7673688176c931",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://ceramicartsnetwork.org/daily/article/an-introduction-to-slip-casting-ceramics-with-multi-piece-molds/"
+          ],
+          "notes": "陶瓷杯空腔、陶瓷坯與釉層、石膏模泥漿注成空心坯之一般原理；非參考產品實際工廠資料。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色陶瓷杯、灰色未燒杯坯與石膏雙片模",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "CONCEPT SLIP CASTING. Open two-part cream plaster mold with cavity matching handleless tapered cup. Thin unfired clay cup shell seated in one mold half, opposite mold half open beside it. Cup hollow opening visible, not solid plug. Small finished green cup inset. Labels PLASTER MOLD CLAY SHELL FINISHED CUP. No metal injection nozzle.",
+            "observed": "白底概念注漿成形展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "陶瓷杯模具成形示意",
+            "observed": "中空杯坯留在一半模具內，另一半打開展示匹配凹腔",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "杯口空腔可見，模具形狀對應錐形杯身，未畫成實心塞",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "CONCEPT SLIP CASTING及CLAY SHELL PLASTER MOLD FINISHED CUP清楚對應",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

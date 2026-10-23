@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "id": "replacement-01",
+  "cases": [
+    {
+      "id": "assistant-packshot-01",
+      "prompt_id": "src-visual642-001",
+      "command": "/packshot",
+      "title": "無品牌保溫瓶攝影棚產品照",
+      "description": "為廣告製作乾淨俐落的攝影棚產品照。",
+      "result_text": "將助理生成的綠色保溫瓶置入無縫淺灰棚拍場景，保留深灰提環瓶蓋，呈現柔光與接觸陰影。",
+      "result": "output/imagegen/replacement-01/bottle-packshot.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: square website command-result example. Apply /packshot and the exact instruction: Create a clean studio product photo for an advertisement. Input image is the product identity reference. Preserve this same fictional unbranded sage green matte cylindrical bottle, rounded shoulder, charcoal screw cap and integrated rigid loop. Transform the setting into a seamless pale gray studio backdrop and surface with refined professional softbox lighting, crisp surface texture and gentle grounded contact shadow. Entire single bottle upright centered with generous breathing room. Photorealistic premium advertising photography. No wooden table, no home wall, no logos, no text, no watermark, no added objects. Web quality.",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T03:36:44.059Z",
+        "source_instruction": "Create a clean studio product photo for an advertisement.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "6d6c1e3764b63200a33c67d86e47fbe8262fd97b274cb98c8ce0b4d1c90088ba",
+        "applied_prompt_sha256": "24b6d8c173465187bca94589fa0bf11685bb2a432c33cc26002a1d9c5b98b9ca",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留綠色瓶身、深灰蓋及提環",
+            "observed": "看見鼠尾草綠圓柱瓶身、圓肩、深灰蓋及上方拱形提環，與原圖一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "乾淨無縫棚拍背景",
+            "observed": "木桌與家居背景已改為淺灰無縫背景及平面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "清晰產品廣告照與柔光",
+            "observed": "瓶身紋理清楚，左側柔光與右側漸層呈現棚拍效果",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "整瓶合理落地、有接觸陰影",
+            "observed": "底部完整接觸平面，右後方柔和投影，無懸浮",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "無文字、水印或多餘物件，結構合理",
+            "observed": "無品牌、文字、水印；提環封閉連接瓶蓋，瓶身無多餘肢體或變形",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "assistant-subwayad-01",
+      "prompt_id": "src-visual642-003",
+      "command": "/subwayad",
+      "title": "無品牌保溫瓶地鐵燈箱廣告",
+      "description": "在寫實的地鐵廣告中刊登該主體。",
+      "result_text": "產品以平面廣告圖像呈現在地鐵牆面燈箱內，搭配站內磁磚、月台安全線、軌道及照明。",
+      "result": "output/imagegen/replacement-01/bottle-subwayad.png",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "applied_prompt": "Use case: ads-marketing. Asset type: square website command-result example. Apply /subwayad and exact instruction: Place the subject in a realistic subway advertisement. Input image is the product identity reference: fictional unbranded sage green matte bottle with rounded shoulder and charcoal cap with rigid top loop. Create a photorealistic subway platform interior with a large illuminated advertising lightbox mounted on a tiled wall, clear metal frame and realistic three-quarter perspective. Inside the lightbox, display a clean premium photograph of this same bottle on a restrained pale gray advertisement background with ample negative space. The bottle is flat printed imagery contained entirely within the lightbox, physically part of the advertisement. Include a receding platform, yellow safety strip, tracks and overhead station lights to make the subway context unmistakable. Realistic reflections and matched perspective. No slogans, logos, readable station names, watermark or physical bottle in the station. Web quality.",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex visual inspection",
+        "checked_at": "2026-10-09T03:36:44.061Z",
+        "source_instruction": "Place the subject in a realistic subway advertisement.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "9bccb7e8b7700ce5dcc2390177ac9ca836846f0d427d732a6328d26db81a5779",
+        "applied_prompt_sha256": "d6a16ca235881da54148476f1d1f00bdd7ac4e0a7e64e084826b21b86153954f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "廣告中產品保留原圖外觀",
+            "observed": "燈箱內看見綠色瓶身、圓肩、深灰蓋與拱形提環",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "可辨識的地鐵月台與固定燈箱",
+            "observed": "畫面有磁磚牆、金屬框燈箱、月台黃線、軌道及頂部日光燈",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "產品刊登在寫實地鐵廣告",
+            "observed": "瓶子以產品攝影圖像出現在牆上大型廣告燈箱中",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "平面產品圖像完整位於燈箱內，透視一致",
+            "observed": "瓶子及其攝影背景完全在燈箱邊框內，燈箱側邊收斂透視與牆面一致；月台沒有實體瓶子",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "無品牌文字或水印，框架照明合理",
+            "observed": "無品牌文案或水印，瓶蓋輪廓清楚；金屬框與地面反光符合站內照明，遠方標誌模糊無可辨字樣",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

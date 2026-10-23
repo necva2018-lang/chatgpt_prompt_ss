@@ -1,9 +1,9 @@
 ---
-title: "400+ Secret Codes for ChatGPT - 中文解析"
-source: "[[00_Clippers/400-plus-codes-v2.pdf]]"
-author: "John Savage AI"
+title: 400+ Secret Codes for ChatGPT - 中文解析
+source: "[[400-plus-codes-v2.pdf]]"
+author: John Savage AI
 code_count: 642
-language: "en/zh-TW"
+language: en/zh-TW
 created: 2026-10-08
 tags:
   - ChatGPT
@@ -844,7 +844,7 @@ tags:
 
 ## 來源與整理註記
 
-- 原始檔：[[00_Clippers/400-plus-codes-v2.pdf]]
+- 原始檔：[[400-plus-codes-v2.pdf]]
 - 原始標題：*400+ Secret Codes for ChatGPT - Complete Visual Codebook*
 - 原作者：John Savage AI
 - 原始內容標示為 642 個視覺提示捷徑。

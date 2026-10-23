@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "id": "preview-01",
+  "cases": [
+    {
+      "id": "airpods-packshot-01",
+      "prompt_id": "src-visual642-001",
+      "command": "/packshot",
+      "title": "AirPods 攝影棚產品照",
+      "description": "為廣告製作乾淨俐落的攝影棚產品照。",
+      "result_text": "以淺灰背景、柔和棚燈與細緻陰影呈現 AirPods 耳機及充電盒。",
+      "result": "output/imagegen/preview-01/airpods-packshot.png",
+      "reference": "ex product/airpods.jpg",
+      "applied_prompt": "Use case: product-mockup. Asset type: website command-result example, square image. Apply the case command /packshot and its exact instruction: Create a clean studio product photo for an advertisement. Reference image: provided airpods.jpg is the product identity reference. Preserve the recognizable white AirPods Pro earbuds, white silicone tips, black vents, short stems, and white open charging case with green status light. Produce a clean photorealistic studio advertisement photo: open case centered on a seamless pale gray background, both earbuds naturally seated inside, soft professional studio lighting, delicate contact shadow and subtle surface reflection, crisp product detail with generous breathing room. No added headline, no extra products, no watermark. Web-quality image."
+    },
+    {
+      "id": "airpods-subwayad-01",
+      "prompt_id": "src-visual642-003",
+      "command": "/subwayad",
+      "title": "AirPods 地鐵燈箱廣告",
+      "description": "在寫實的地鐵廣告中刊登該主體。",
+      "result_text": "將 AirPods 產品視覺置入地鐵月台的實體燈箱，呈現廣告與站內環境的透視、照明及反射。",
+      "result": "output/imagegen/preview-01/airpods-subwayad.png",
+      "reference": "ex product/airpods.jpg",
+      "applied_prompt": "Use case: ads-marketing. Asset type: website command-result example, square image. Apply case command /subwayad and its exact source instruction: Place the subject in a realistic subway advertisement. Input reference airpods.jpg defines the exact product: white AirPods Pro earbuds with silicone tips, short stems, black vents and open white charging case. Create a photorealistic subway station interior with a large illuminated advertising lightbox physically installed on a tiled platform wall. Show the lightbox in three-quarter perspective, with realistic frame, floor reflections, station fluorescent lighting, tiled wall, and a receding empty subway platform. The advertisement inside the lightbox displays the referenced AirPods product prominently as clean premium product photography against a dark navy background; product must be clearly recognizable. The product exists as printed imagery inside the advertisement, not as a giant physical object in the station. Do not include slogans, readable station names, extra logos, or watermark. The setting itself must clearly communicate a real subway advertisement. Web-quality image."
+    }
+  ]
+}

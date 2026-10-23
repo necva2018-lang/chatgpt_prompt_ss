@@ -1,0 +1,1401 @@
+{
+  "version": 1,
+  "id": "batch-20-14",
+  "cases": [
+    {
+      "id": "case-crunch-storm-14-01",
+      "prompt_id": "src-visual642-265",
+      "command": "/crunch storm",
+      "title": "麥片酥脆風暴",
+      "description": "麥片酥脆風暴（AI案例示範）",
+      "result_text": "麥片酥脆風暴",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-14/crunch-storm-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /crunch storm: Create a turbulent storm of snack pieces and crunchy fragments. Reference image supplies subject identity only. Intact cereal carton inside turbulent swirling storm of crunchy flakes and fragments, multiple crossing spirals and dense fine crumbs, dynamic turbulence. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Intact cereal carton inside turbulent swirling storm of crunchy flakes and fragments, multiple crossing spirals and dense fine crumbs, dynamic turbulence.",
+        "effect": "麥片酥脆風暴",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:42:12.906Z",
+        "source_instruction": "Create a turbulent storm of snack pieces and crunchy fragments.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "aa4d5bdfeab42f14eab44347a46f9f49c420a97f500d739a7a9adca4c778db0d",
+        "applied_prompt_sha256": "d0eb8b994d656ffec4ba01acb0745f5496397a3307e8a9891863c80b43d41c14",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橙虎紋穀片盒保留來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Intact cereal carton inside turbulent swirling storm of crunchy flakes and fragments, multiple crossing spirals and dense fine crumbs, dynamic turbulence.",
+            "observed": "密集穀片與碎屑沿多重曲線紊流旋繞符合酥脆風暴",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片酥脆風暴",
+            "observed": "完整盒體居中食品背景一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "多層旋轉流向可辨，無損壞包裝",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "食品紋理清晰無多餘文字浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-herb-cloud-14-01",
+      "prompt_id": "src-visual642-266",
+      "command": "/herb cloud",
+      "title": "料理清新香草雲",
+      "description": "料理清新香草雲（AI案例示範）",
+      "result_text": "料理清新香草雲",
+      "reference": "output/imagegen/batch-20-14/food-reference.png",
+      "result": "output/imagegen/batch-20-14/herb-cloud-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /herb cloud: Surround the food with a fresh aromatic cloud of herbs. Reference image supplies subject identity only. Use plated food as hero, surround it with airborne fresh basil rosemary parsley leaves and subtle aromatic mist, fresh green cloud clearly herbs, keep food edible. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-14/food-reference.png",
+        "sha256": "21ba64867a67f345b77667f5b02af72d562cc132eed6a47e5d2154fb0688e768",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photograph for a fictional food product: three golden roasted potato wedges and two small browned chicken pieces on a plain white ceramic plate, no garnish, no text, no logo, warm white seamless background, square web quality, clear recognizable appetizing cooked textures, entire plate visible."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Use plated food as hero, surround it with airborne fresh basil rosemary parsley leaves and subtle aromatic mist, fresh green cloud clearly herbs, keep food edible.",
+        "effect": "料理清新香草雲",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:43:46.722Z",
+        "source_instruction": "Surround the food with a fresh aromatic cloud of herbs.",
+        "reference_sha256": "21ba64867a67f345b77667f5b02af72d562cc132eed6a47e5d2154fb0688e768",
+        "result_sha256": "5895b9c6af8241c9d4c125cb52d17573e8f198e2ed28345270127930abd2794e",
+        "applied_prompt_sha256": "ab23d2a54d61c0456d727a7e53c393c0af1330f3087646dc213948a8f09cd3e0",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白盤三塊馬鈴薯與兩塊烤雞對應參考",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Use plated food as hero, surround it with airborne fresh basil rosemary parsley leaves and subtle aromatic mist, fresh green cloud clearly herbs, keep food edible.",
+            "observed": "羅勒迷迭香香芹漂浮成新鮮香草雲",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "料理清新香草雲",
+            "observed": "綠色葉片與薄霧包圍料理而主體清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "食材完整可食，香草形態可辨非普通煙霧",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "食物光澤細節清晰無浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-salt-crystals-14-01",
+      "prompt_id": "src-visual642-267",
+      "command": "/salt crystals",
+      "title": "料理閃耀鹽晶",
+      "description": "料理閃耀鹽晶（AI案例示範）",
+      "result_text": "料理閃耀鹽晶",
+      "reference": "output/imagegen/batch-20-14/food-reference.png",
+      "result": "output/imagegen/batch-20-14/salt-crystals-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /salt crystals: Magnify sparkling salt crystals across the food and scene. Reference image supplies subject identity only. Macro food hero with magnified translucent cubic salt crystals sparkling on food and nearby slate surface, visibly crystalline not sugar snow. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-14/food-reference.png",
+        "sha256": "21ba64867a67f345b77667f5b02af72d562cc132eed6a47e5d2154fb0688e768",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photograph for a fictional food product: three golden roasted potato wedges and two small browned chicken pieces on a plain white ceramic plate, no garnish, no text, no logo, warm white seamless background, square web quality, clear recognizable appetizing cooked textures, entire plate visible."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Macro food hero with magnified translucent cubic salt crystals sparkling on food and nearby slate surface, visibly crystalline not sugar snow.",
+        "effect": "料理閃耀鹽晶",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:44:30.863Z",
+        "source_instruction": "Magnify sparkling salt crystals across the food and scene.",
+        "reference_sha256": "21ba64867a67f345b77667f5b02af72d562cc132eed6a47e5d2154fb0688e768",
+        "result_sha256": "406407005b7a1180bbd21b3910b38f903734e6ce5290ce1450068468efbf0541",
+        "applied_prompt_sha256": "b16a12068ac0f55c32342faa226efda237c8cdb3183a72868f62a81aba0c2c04",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "烤雞馬鈴薯白盤對應來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Macro food hero with magnified translucent cubic salt crystals sparkling on food and nearby slate surface, visibly crystalline not sugar snow.",
+            "observed": "放大的透明鹽晶散布料理及周圍表面符合鹽晶效果",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "料理閃耀鹽晶",
+            "observed": "近攝光線突出晶體折射與食物質地",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "鹽晶有可辨晶面，不混同白雪粉末",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "畫面清晰無額外文字浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-charred-glow-14-01",
+      "prompt_id": "src-visual642-268",
+      "command": "/charred glow",
+      "title": "料理炙烤暖光",
+      "description": "料理炙烤暖光（AI案例示範）",
+      "result_text": "料理炙烤暖光",
+      "reference": "output/imagegen/batch-20-14/food-reference.png",
+      "result": "output/imagegen/batch-20-14/charred-glow-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /charred glow: Add smoky char, toasted edges, and a warm firelit glow. Reference image supplies subject identity only. Food with lightly charred toasted edges, wisps of smoke, warm firelit glow, appetizing cooked food not burnt black, reference ingredients recognizable. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-14/food-reference.png",
+        "sha256": "21ba64867a67f345b77667f5b02af72d562cc132eed6a47e5d2154fb0688e768",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photograph for a fictional food product: three golden roasted potato wedges and two small browned chicken pieces on a plain white ceramic plate, no garnish, no text, no logo, warm white seamless background, square web quality, clear recognizable appetizing cooked textures, entire plate visible."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Food with lightly charred toasted edges, wisps of smoke, warm firelit glow, appetizing cooked food not burnt black, reference ingredients recognizable.",
+        "effect": "料理炙烤暖光",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:45:12.516Z",
+        "source_instruction": "Add smoky char, toasted edges, and a warm firelit glow.",
+        "reference_sha256": "21ba64867a67f345b77667f5b02af72d562cc132eed6a47e5d2154fb0688e768",
+        "result_sha256": "a0133394f6583e9bf48b55ab27d1c252d0ab9b73ac1bb8df444ae1ac8f81434d",
+        "applied_prompt_sha256": "32a02540f108b2aea68f5a3df19c328044a7a51eb4a97d7eae05b332b32dc1d7",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "三塊馬鈴薯與兩塊烤雞對應來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Food with lightly charred toasted edges, wisps of smoke, warm firelit glow, appetizing cooked food not burnt black, reference ingredients recognizable.",
+            "observed": "表面烤焦邊緣薄煙與暖火光符合炙烤效果",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "料理炙烤暖光",
+            "observed": "火爐背景與橙色側光建立溫暖烹調場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "食物保持金黃可食外觀，未燒成全黑",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "紋理光澤清晰無浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-golden-dunes-14-01",
+      "prompt_id": "src-visual642-269",
+      "command": "/golden dunes",
+      "title": "麥片金色可食沙丘",
+      "description": "麥片金色可食沙丘（AI案例示範）",
+      "result_text": "麥片金色可食沙丘",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-14/golden-dunes-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /golden dunes: Turn golden snack texture into sweeping edible dunes. Reference image supplies subject identity only. Sweepingly curved edible dunes made of magnified golden cereal flake texture and fine cereal crumbs; intact reference carton small but recognizable in foreground, surreal food landscape. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Sweepingly curved edible dunes made of magnified golden cereal flake texture and fine cereal crumbs; intact reference carton small but recognizable in foreground, surreal food landscape.",
+        "effect": "麥片金色可食沙丘",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:45:52.481Z",
+        "source_instruction": "Turn golden snack texture into sweeping edible dunes.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "761df1471702336779a9e3339d256207616828e700003fe206e59a91fa56a3da",
+        "applied_prompt_sha256": "2d855f1687e2c599e7290b7974a04597052756b853885192872a20f300bd36a8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "虎紋黃色穀片盒外觀維持",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Sweepingly curved edible dunes made of magnified golden cereal flake texture and fine cereal crumbs; intact reference carton small but recognizable in foreground, surreal food landscape.",
+            "observed": "金色穀片及細屑構成連續起伏沙丘符合可食地形",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片金色可食沙丘",
+            "observed": "夕陽與遠方丘陵強化廣闊場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "沙丘表面可辨穀片食物紋理非普通沙地",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "主體完整清晰無文字浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-shelf-stopper-14-01",
+      "prompt_id": "src-visual642-270",
+      "command": "/shelf stopper",
+      "title": "飲料罐貨架焦點",
+      "description": "飲料罐貨架焦點（AI案例示範）",
+      "result_text": "飲料罐貨架焦點",
+      "reference": "output/imagegen/batch-20-09/can-reference.png",
+      "result": "output/imagegen/batch-20-14/shelf-stopper-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /shelf stopper: Create a retail visual engineered to stop shoppers at the shelf. Reference image supplies subject identity only. Retail shelf with orderly generic muted competing cans, one red white reference can forward on illuminated bold red shelf display, strong attention grabbing contrast, no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/can-reference.png",
+        "sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio product reference photo of one upright generic red aluminum cola beverage can, slim standard cylindrical body, silver top with pull tab and silver bottom rim, a simple white flowing curved stripe around red body. No words, letters, recognizable brand or logo, no watermark. White background, gentle grounding shadow, three-quarter front view, whole can visible, photorealistic web quality. Fictional product for visual concept examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Retail shelf with orderly generic muted competing cans, one red white reference can forward on illuminated bold red shelf display, strong attention grabbing contrast, no text.",
+        "effect": "飲料罐貨架焦點",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:46:29.984Z",
+        "source_instruction": "Create a retail visual engineered to stop shoppers at the shelf.",
+        "reference_sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "result_sha256": "f4413a6dfe038417ff1f7761553d4ee4667fbb5d660eccf53002787467af5ed1",
+        "applied_prompt_sha256": "5e8fc22e7c55e8cd92e2c86a69ff799e52cb1ed168b2be4f8829d7b2c13f8e1e",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紅銀罐白弧形條紋保留來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Retail shelf with orderly generic muted competing cans, one red white reference can forward on illuminated bold red shelf display, strong attention grabbing contrast, no text.",
+            "observed": "明亮紅色突出展示台與灰色周邊罐形成貨架焦點",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "飲料罐貨架焦點",
+            "observed": "貨架層板與整列競品建立零售脈絡",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主罐位前方視覺對比明確非一般棚拍",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "產品完整清晰無虛構價錢文字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-shock-visual-14-01",
+      "prompt_id": "src-visual642-271",
+      "command": "/shock visual",
+      "title": "機甲超尺度視覺衝擊",
+      "description": "機甲超尺度視覺衝擊（AI案例示範）",
+      "result_text": "機甲超尺度視覺衝擊",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-14/shock-visual-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /shock visual: Use surprising scale, contrast, or action for immediate impact. Reference image supplies subject identity only. Reference robot toy colossal over tiny city street, dramatic low angle and vivid cyan yellow contrast, feet on street tiny vehicles provide surprising scale, intact toy. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference robot toy colossal over tiny city street, dramatic low angle and vivid cyan yellow contrast, feet on street tiny vehicles provide surprising scale, intact toy.",
+        "effect": "機甲超尺度視覺衝擊",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:47:15.247Z",
+        "source_instruction": "Use surprising scale, contrast, or action for immediate impact.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "27c598fd92f73bda3ba440846c3e2a70a83968979837a581dac161dce92068cb",
+        "applied_prompt_sha256": "99241287f347b7b1d60b2522dc570d360d52264a16ce622e4aeb7c658311cb56",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍白黃紅機甲玩具外觀對應來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference robot toy colossal over tiny city street, dramatic low angle and vivid cyan yellow contrast, feet on street tiny vehicles provide surprising scale, intact toy.",
+            "observed": "巨大機甲跨街而立形成驚人尺度與視覺衝擊",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲超尺度視覺衝擊",
+            "observed": "低角度城市大樓微小車輛提供尺度基準",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "產品本身完整，街道動勢強烈符合藝術指令",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "細節清晰無浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-click-magnet-14-01",
+      "prompt_id": "src-visual642-272",
+      "command": "/click magnet",
+      "title": "運動鞋數位廣告焦點",
+      "description": "運動鞋數位廣告焦點（AI案例示範）",
+      "result_text": "運動鞋數位廣告焦點",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-14/click-magnet-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /click magnet: Create a bold digital-ad visual designed to attract clicks. Reference image supplies subject identity only. Bold square digital ad layout: reference shoe diagonal floating center against electric blue and orange geometric shapes, one large blank rounded call-to-action pill lower right with white cursor arrow pointing at it, no claims or text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Bold square digital ad layout: reference shoe diagonal floating center against electric blue and orange geometric shapes, one large blank rounded call-to-action pill lower right with white cursor arrow pointing at it, no claims or text.",
+        "effect": "運動鞋數位廣告焦點",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:47:56.516Z",
+        "source_instruction": "Create a bold digital-ad visual designed to attract clicks.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "f698a931242bd800439dbd01bf5ecc71c28f61a15d5299f60dca020888c20e12",
+        "applied_prompt_sha256": "ab0b7b067a16b29c98b025780be645ff11c93bc10c6ac5b183fed0dbb5be8e21",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色黑條紋膠底運動鞋維持來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Bold square digital ad layout: reference shoe diagonal floating center against electric blue and orange geometric shapes, one large blank rounded call-to-action pill lower right with white cursor arrow pointing at it, no claims or text.",
+            "observed": "藍橙高對比與大型鞋身形成數位廣告焦點",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋數位廣告焦點",
+            "observed": "空白按鈕與游標提供點擊導向構圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主產品與行動區層次清楚，不宣稱實際轉換率",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "完整清晰無亂碼文案浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-feed-breaker-14-01",
+      "prompt_id": "src-visual642-273",
+      "command": "/feed breaker",
+      "title": "提袋社群破框構圖",
+      "description": "提袋社群破框構圖（AI案例示範）",
+      "result_text": "提袋社群破框構圖",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-14/feed-breaker-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /feed breaker: Break the visual rhythm of a social feed with dramatic composition. Reference image supplies subject identity only. Stylized social feed wall of regular muted grey image tiles, center cream brown handled tote bursts diagonally through one tile border into foreground, dramatic scale interruption, no app logos no fake text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Stylized social feed wall of regular muted grey image tiles, center cream brown handled tote bursts diagonally through one tile border into foreground, dramatic scale interruption, no app logos no fake text.",
+        "effect": "提袋社群破框構圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:48:53.361Z",
+        "source_instruction": "Break the visual rhythm of a social feed with dramatic composition.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "5548ec7ce0c8aae40faf78e1f304f313ef79ef3ebccc5eb1bb502e07ad6e2043",
+        "applied_prompt_sha256": "7adff970c8e32901390f54466c18ff5e42232d7693c54f0cf36a9817ec524eaa",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布棕色提把保留來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Stylized social feed wall of regular muted grey image tiles, center cream brown handled tote bursts diagonally through one tile border into foreground, dramatic scale interruption, no app logos no fake text.",
+            "observed": "大型彩色提袋穿出規律灰階圖格打破社群節奏",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "提袋社群破框構圖",
+            "observed": "背景整齊圖片格與中心撕裂框形成破框場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "提袋完整且突出，效果不是普通背景拼貼",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "材質清晰無假平台標誌亂碼",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-shelf-dominance-14-01",
+      "prompt_id": "src-visual642-274",
+      "command": "/shelf dominance",
+      "title": "麥片貨架主導展示",
+      "description": "麥片貨架主導展示（AI案例示範）",
+      "result_text": "麥片貨架主導展示",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-14/shelf-dominance-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /shelf dominance: Make the product visually dominate a competitive retail shelf. Reference image supplies subject identity only. Eye-level realistic grocery shelf: broad central block of multiple reference yellow tiger cereal cartons dominates shelf facings, muted generic smaller competitors left right, hero carton slightly forward, no fake price text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Eye-level realistic grocery shelf: broad central block of multiple reference yellow tiger cereal cartons dominates shelf facings, muted generic smaller competitors left right, hero carton slightly forward, no fake price text.",
+        "effect": "麥片貨架主導展示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:49:36.736Z",
+        "source_instruction": "Make the product visually dominate a competitive retail shelf.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "d39cc88069a6fa68b9001abfbe200a8da8c404ee0a766152ea698c54f5458fcf",
+        "applied_prompt_sha256": "11e7cef3292d60326942bc8db5e88b524e55c1af94658b6f355beadc57585b8b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橙虎紋穀片盒一致保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Eye-level realistic grocery shelf: broad central block of multiple reference yellow tiger cereal cartons dominates shelf facings, muted generic smaller competitors left right, hero carton slightly forward, no fake price text.",
+            "observed": "中央多層大量陳列面主導貨架符合指令",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片貨架主導展示",
+            "observed": "周邊其他穀片包裝與金屬層板提供競爭零售環境",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "中央盒略前推，面積優勢可見非孤立主角照",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "清晰完整無虛構價格或浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-campaign-punch-14-01",
+      "prompt_id": "src-visual642-275",
+      "command": "/campaign punch",
+      "title": "飲料罐高衝擊活動視覺",
+      "description": "飲料罐高衝擊活動視覺（AI案例示範）",
+      "result_text": "飲料罐高衝擊活動視覺",
+      "reference": "output/imagegen/batch-20-09/can-reference.png",
+      "result": "output/imagegen/batch-20-14/campaign-punch-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /campaign punch: Give the product a decisive high-impact campaign treatment. Reference image supplies subject identity only. Intact reference red white can centered in punchy red white diagonal graphics, forceful liquid splash and icy fragments radiate behind can, decisive high-impact advertising, no literal fist and no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/can-reference.png",
+        "sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio product reference photo of one upright generic red aluminum cola beverage can, slim standard cylindrical body, silver top with pull tab and silver bottom rim, a simple white flowing curved stripe around red body. No words, letters, recognizable brand or logo, no watermark. White background, gentle grounding shadow, three-quarter front view, whole can visible, photorealistic web quality. Fictional product for visual concept examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Intact reference red white can centered in punchy red white diagonal graphics, forceful liquid splash and icy fragments radiate behind can, decisive high-impact advertising, no literal fist and no text.",
+        "effect": "飲料罐高衝擊活動視覺",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:50:34.518Z",
+        "source_instruction": "Give the product a decisive high-impact campaign treatment.",
+        "reference_sha256": "305b7183ff03060225bc3afde4bb57bc0b2170bb5d42acd99bad3743fcded016",
+        "result_sha256": "b8aed784e8c4b18c0ff91fb466479c67c602a3054ed65dcde22218b475064a39",
+        "applied_prompt_sha256": "91cb7eae2c9ab510cafcf4e92051cb000a9cca59a3d9060d8285e0ae47d3b61d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "紅銀白弧罐對應來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Intact reference red white can centered in punchy red white diagonal graphics, forceful liquid splash and icy fragments radiate behind can, decisive high-impact advertising, no literal fist and no text.",
+            "observed": "紅白斜線液體強烈飛濺冰塊形成活動衝擊",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "飲料罐高衝擊活動視覺",
+            "observed": "主罐居中高對比構圖清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "罐體完整非實際拳擊或破罐，符合抽象高衝擊處理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "畫面清晰無多餘文字浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-brand-thunder-14-01",
+      "prompt_id": "src-visual642-276",
+      "command": "/brand thunder",
+      "title": "機甲電影雷霆能量",
+      "description": "機甲電影雷霆能量（AI案例示範）",
+      "result_text": "機甲電影雷霆能量",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-14/brand-thunder-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /brand thunder: Amplify brand presence with explosive cinematic energy. Reference image supplies subject identity only. Reference robot cinematic hero atop dark platform, blue lightning and explosive luminous energy around silhouette, recognizable matching colors, no destruction of product, no invented logo. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference robot cinematic hero atop dark platform, blue lightning and explosive luminous energy around silhouette, recognizable matching colors, no destruction of product, no invented logo.",
+        "effect": "機甲電影雷霆能量",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:51:35.407Z",
+        "source_instruction": "Amplify brand presence with explosive cinematic energy.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "9ca65941e5a02aa1953fe4e8cc7e905ffa501e47a38d92d6d05b6fe17f626482",
+        "applied_prompt_sha256": "a02519d3c56c388d1c2d2a48468e32a618b99af09520aab41ccaa68308700398",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲外觀配色維持來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference robot cinematic hero atop dark platform, blue lightning and explosive luminous energy around silhouette, recognizable matching colors, no destruction of product, no invented logo.",
+            "observed": "雷電光能從主體背後爆發強化電影張力",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲電影雷霆能量",
+            "observed": "暗色舞台與煙霧形成戲劇展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "產品完整無虛構品牌標誌，能量環繞不遮擋輪廓",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "光影細節清楚無文字浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-campaign-glow-14-01",
+      "prompt_id": "src-visual642-277",
+      "command": "/campaign glow",
+      "title": "水瓶發光活動主視覺",
+      "description": "水瓶發光活動主視覺（AI案例示範）",
+      "result_text": "水瓶發光活動主視覺",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-14/campaign-glow-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /campaign glow: Create a polished luminous hero look for a campaign. Reference image supplies subject identity only. Polished green black-loop-cap bottle hero on glossy pedestal, soft luminous pale green halo warm edge light flowing light ribbon and refined studio backdrop, product intact. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Polished green black-loop-cap bottle hero on glossy pedestal, soft luminous pale green halo warm edge light flowing light ribbon and refined studio backdrop, product intact.",
+        "effect": "水瓶發光活動主視覺",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:52:34.287Z",
+        "source_instruction": "Create a polished luminous hero look for a campaign.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "e7ee0cf9fd16a5e50431166132fec5dface5b6fe068a1531fb127377cc746828",
+        "applied_prompt_sha256": "f102b150f32653137dc57fc54aaa5bf02066aff2be9d2415acd1c42c3e80eeb4",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑環把蓋維持來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Polished green black-loop-cap bottle hero on glossy pedestal, soft luminous pale green halo warm edge light flowing light ribbon and refined studio backdrop, product intact.",
+            "observed": "柔亮綠色光暈流動光帶符合發光活動主視覺",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶發光活動主視覺",
+            "observed": "反光台座與柔和背景形成精緻展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "光帶環繞而未遮蔽主產品",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "完整清晰無文字浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-deluxe-campaign-14-01",
+      "prompt_id": "src-visual642-278",
+      "command": "/deluxe campaign",
+      "title": "運動鞋奢華廣告主視覺",
+      "description": "運動鞋奢華廣告主視覺（AI案例示範）",
+      "result_text": "運動鞋奢華廣告主視覺",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-14/deluxe-campaign-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /deluxe campaign: Elevate the product into a premium deluxe advertising campaign. Reference image supplies subject identity only. Reference white black stripe gum sole shoe on cream marble stage with gold trim, flowing ivory silk and dramatic refined spotlight, premium deluxe campaign, no fake slogans. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference white black stripe gum sole shoe on cream marble stage with gold trim, flowing ivory silk and dramatic refined spotlight, premium deluxe campaign, no fake slogans.",
+        "effect": "運動鞋奢華廣告主視覺",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:53:32.553Z",
+        "source_instruction": "Elevate the product into a premium deluxe advertising campaign.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "c5a4e9580fb2978aa706f094a34252b9d66a3dcc1095add3c50997125d747cfa",
+        "applied_prompt_sha256": "1c1067102f38d8b7354928df2e5d14d780c2ddb03a0a31dad85d945662abe442",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白黑條紋膠底運動鞋對應來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference white black stripe gum sole shoe on cream marble stage with gold trim, flowing ivory silk and dramatic refined spotlight, premium deluxe campaign, no fake slogans.",
+            "observed": "大理石金邊台座絲綢與精緻聚光符合奢華廣告",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋奢華廣告主視覺",
+            "observed": "象牙金色背景整體一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "鞋完整主角明確，無多餘產品分散",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "紋理清楚無虛構廣告標語",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-conversion-ad-14-01",
+      "prompt_id": "src-visual642-279",
+      "command": "/conversion ad",
+      "title": "水瓶清楚行動廣告",
+      "description": "水瓶清楚行動廣告（AI案例示範）",
+      "result_text": "水瓶清楚行動廣告",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-14/conversion-ad-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /conversion ad: Compose a clear product-focused ad built to drive action. Reference image supplies subject identity only. Clean square product-focused ad: large recognizable green bottle left center, right three simple nontechnical lifestyle pictograms water droplet hand grip backpack, bottom blank high contrast rounded action button with pointer, clear hierarchy, no specs text or false claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Clean square product-focused ad: large recognizable green bottle left center, right three simple nontechnical lifestyle pictograms water droplet hand grip backpack, bottom blank high contrast rounded action button with pointer, clear hierarchy, no specs text or false claims.",
+        "effect": "水瓶清楚行動廣告",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:54:15.584Z",
+        "source_instruction": "Compose a clear product-focused ad built to drive action.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "101288d857442a0aa7679daecb81dab1a040f5a463c4f606ae70215430f017f7",
+        "applied_prompt_sha256": "4c349244952571cebb7bbaeda9707d9668e991456f5430939c9a2bc02e715040",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑環把蓋外觀對應來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Clean square product-focused ad: large recognizable green bottle left center, right three simple nontechnical lifestyle pictograms water droplet hand grip backpack, bottom blank high contrast rounded action button with pointer, clear hierarchy, no specs text or false claims.",
+            "observed": "大型產品生活使用小圖與顯著行動按鈕建立轉換導向廣告",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶清楚行動廣告",
+            "observed": "水滴提握背包三圖用途清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "層次清晰不含容量保溫等未驗證規格或成效宣稱",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "畫面清晰無亂碼浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-craving-trigger-14-01",
+      "prompt_id": "src-visual642-280",
+      "command": "/craving trigger",
+      "title": "料理食慾特寫",
+      "description": "料理食慾特寫（AI案例示範）",
+      "result_text": "料理食慾特寫",
+      "reference": "output/imagegen/batch-20-14/food-reference.png",
+      "result": "output/imagegen/batch-20-14/craving-trigger-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /craving trigger: Use texture, color, and close-up detail to trigger appetite. Reference image supplies subject identity only. Extreme appetizing close-up of reference plated cooked food, crisp browned texture glistening sauce and warm rising steam, shallow depth of field food photography, no unrelated ingredients. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-14/food-reference.png",
+        "sha256": "21ba64867a67f345b77667f5b02af72d562cc132eed6a47e5d2154fb0688e768",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photograph for a fictional food product: three golden roasted potato wedges and two small browned chicken pieces on a plain white ceramic plate, no garnish, no text, no logo, warm white seamless background, square web quality, clear recognizable appetizing cooked textures, entire plate visible."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Extreme appetizing close-up of reference plated cooked food, crisp browned texture glistening sauce and warm rising steam, shallow depth of field food photography, no unrelated ingredients.",
+        "effect": "料理食慾特寫",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:54:59.057Z",
+        "source_instruction": "Use texture, color, and close-up detail to trigger appetite.",
+        "reference_sha256": "21ba64867a67f345b77667f5b02af72d562cc132eed6a47e5d2154fb0688e768",
+        "result_sha256": "bb7beb5ee58644cdcd8f037fa65c1222c2c50f6a62a47175c6c7ba0a444d6374",
+        "applied_prompt_sha256": "82a008cd89fbe79c6731ca8a3433a2971d1aec32bb61caf7d9382631e4044283",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "烤雞與三塊馬鈴薯來源可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Extreme appetizing close-up of reference plated cooked food, crisp browned texture glistening sauce and warm rising steam, shallow depth of field food photography, no unrelated ingredients.",
+            "observed": "近攝突出金黃脆皮醬汁光澤與上升熱氣符合食慾特寫",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "料理食慾特寫",
+            "observed": "淺景深暖光聚焦食物表面",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "未新增不相關主要食材，料理保持一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "細節清楚無浮水印文字",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-must-have-14-01",
+      "prompt_id": "src-visual642-281",
+      "command": "/must have",
+      "title": "運動鞋渴望焦點",
+      "description": "運動鞋渴望焦點（AI案例示範）",
+      "result_text": "運動鞋渴望焦點",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-14/must-have-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /must have: Frame the product as the irresistible item everyone wants. Reference image supplies subject identity only. Single reference sneaker on central spotlit pedestal with several hands reaching toward it from frame edges, no touching damage, unmistakable coveted item focus, simple studio. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Single reference sneaker on central spotlit pedestal with several hands reaching toward it from frame edges, no touching damage, unmistakable coveted item focus, simple studio.",
+        "effect": "運動鞋渴望焦點",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:55:41.842Z",
+        "source_instruction": "Frame the product as the irresistible item everyone wants.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "348d3555462a2feafabfd56d1632f1b24817efe965f3d290b4d562326077b072",
+        "applied_prompt_sha256": "e8d9d5fcce625d027a986f34cfed12d49a3ff9ce920dce42390eda8e5dcddf19",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "來源白黑條紋鞋膠底外觀一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Single reference sneaker on central spotlit pedestal with several hands reaching toward it from frame edges, no touching damage, unmistakable coveted item focus, simple studio.",
+            "observed": "多手伸向聚光台座單鞋表達渴望焦點",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋渴望焦點",
+            "observed": "簡潔棚拍使主角突出",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "手部未遮蔽或損壞鞋，欲取得關係可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "清晰構圖無額外文案浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-urge-builder-14-01",
+      "prompt_id": "src-visual642-282",
+      "command": "/urge builder",
+      "title": "薄荷盒期待揭幕",
+      "description": "薄荷盒期待揭幕（AI案例示範）",
+      "result_text": "薄荷盒期待揭幕",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-14/urge-builder-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /urge builder: Build visual anticipation and desire around the product. Reference image supplies subject identity only. Mint leaf cube gift box behind ivory silk being partially lifted at one corner by a hand, partial reveal with warm inner glow and elegant shadow, visual anticipation, keep recognizable leaf front visible. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Mint leaf cube gift box behind ivory silk being partially lifted at one corner by a hand, partial reveal with warm inner glow and elegant shadow, visual anticipation, keep recognizable leaf front visible.",
+        "effect": "薄荷盒期待揭幕",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:56:27.372Z",
+        "source_instruction": "Build visual anticipation and desire around the product.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "9524d12cf286961d08fe3b5e0ba5eed6d595354da450775f73927678141ba97b",
+        "applied_prompt_sha256": "d3480ff953a3b9c62e2ff94fc87715b3f9259844427cca0fd74c0fa7307cc936",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠葉片立方盒保留來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Mint leaf cube gift box behind ivory silk being partially lifted at one corner by a hand, partial reveal with warm inner glow and elegant shadow, visual anticipation, keep recognizable leaf front visible.",
+            "observed": "手掀絲綢部分揭開產品建立期待與欲望",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "薄荷盒期待揭幕",
+            "observed": "暖光柔影及禮盒場景一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "部分覆蓋仍可辨葉片盒體，手與布動作合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "材質清晰無額外文字浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-crave-appeal-14-01",
+      "prompt_id": "src-visual642-283",
+      "command": "/crave appeal",
+      "title": "麥片香脆食慾",
+      "description": "麥片香脆食慾（AI案例示範）",
+      "result_text": "麥片香脆食慾",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-14/crave-appeal-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /crave appeal: Maximize mouthwatering texture, warmth, and snack appeal. Reference image supplies subject identity only. Reference cereal carton beside bowl piled golden cereal flakes, macro crunchy texture, softly warm morning light and milk being poured into bowl, appetizing food product hero. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference cereal carton beside bowl piled golden cereal flakes, macro crunchy texture, softly warm morning light and milk being poured into bowl, appetizing food product hero.",
+        "effect": "麥片香脆食慾",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:57:32.039Z",
+        "source_instruction": "Maximize mouthwatering texture, warmth, and snack appeal.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "8364946523fbb63f2bf7b04350e789c669b17cc4d17591fe9b21a9e6fcd16a09",
+        "applied_prompt_sha256": "f85e05e7915bbd2be8a73375cda39fd4bead7f7b51b9b306bf43a04dd1ab24d1",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃色虎紋穀片盒與碗圖維持來源",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference cereal carton beside bowl piled golden cereal flakes, macro crunchy texture, softly warm morning light and milk being poured into bowl, appetizing food product hero.",
+            "observed": "近景金黃穀片牛奶倒入與暖晨光符合食慾效果",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片香脆食慾",
+            "observed": "包裝與早餐碗同時清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "穀片脆感紋理突出，液體倒入碗而非錯置包裝",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "材質清晰無多餘文案浮水印",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-360view-14-01",
+      "prompt_id": "src-visual642-284",
+      "command": "/360view",
+      "title": "水瓶四側環繞視圖",
+      "description": "水瓶四側環繞視圖（AI案例示範）",
+      "result_text": "水瓶四側環繞視圖",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-14/360view-14.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /360view: Show the subject from every side in one clear visual. Reference image supplies subject identity only. Four evenly spaced views of same green bottle black loop cap, label only FRONT RIGHT BACK LEFT beneath four bottles, neutral studio identical scale. Front/back bottle blank same green; loop cap rotates coherently showing front/back arch aperture and side thin profile. No cross sections no internal parts. Clear four-sided turnaround one image. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four evenly spaced views of same green bottle black loop cap, label only FRONT RIGHT BACK LEFT beneath four bottles, neutral studio identical scale. Front/back bottle blank same green; loop cap rotates coherently showing front/back arch aperture and side thin profile. No cross sections no internal parts. Clear four-sided turnaround one image.",
+        "effect": "水瓶四側環繞視圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T21:58:08.289Z",
+        "source_instruction": "Show the subject from every side in one clear visual.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "5e378663a19f780f9d7d9b0b52e47f2536fcabb2bebdc50220bd650e3c03a55d",
+        "applied_prompt_sha256": "186c7d5ab32376edbfb42ac67362f1ed9655dd117f38228d385d0cec4b19165c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色圓柱瓶與黑色環蓋四視圖外觀一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four evenly spaced views of same green bottle black loop cap, label only FRONT RIGHT BACK LEFT beneath four bottles, neutral studio identical scale. Front/back bottle blank same green; loop cap rotates coherently showing front/back arch aperture and side thin profile. No cross sections no internal parts. Clear four-sided turnaround one image.",
+            "observed": "FRONT RIGHT BACK LEFT四方向在同圖清楚展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶四側環繞視圖",
+            "observed": "同尺度白底排版利於環繞比較",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "正背可見提環孔，左右呈窄側緣；圓柱瓶正背對稱合理，非四個相同正面",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "四標籤正確無內部結構或額外規格",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

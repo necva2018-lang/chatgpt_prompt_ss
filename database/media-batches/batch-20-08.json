@@ -1,0 +1,1417 @@
+{
+  "version": 1,
+  "id": "batch-20-08",
+  "cases": [
+    {
+      "id": "case-rust-patina-01",
+      "prompt_id": "src-visual642-145",
+      "command": "/rust patina",
+      "title": "機甲層疊鏽蝕表面",
+      "description": "機甲層疊鏽蝕表面（AI案例示範）",
+      "result_text": "機甲層疊鏽蝕表面",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-08/rust-patina.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /rust patina: Age the subject with a layered rust patina. Reference image supplies subject identity only. Age entire recognizable full robot as old iron sculpture with layered orange brown rust, flaking oxidized surfaces and dark metal beneath, abandoned neutral studio floor no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Age entire recognizable full robot as old iron sculpture with layered orange brown rust, flaking oxidized surfaces and dark metal beneath, abandoned neutral studio floor no text.",
+        "effect": "機甲層疊鏽蝕表面",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:17:35.889Z",
+        "source_instruction": "Age the subject with a layered rust patina.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "246646b3212fee2a7ad701766818d32c0bf743290a5c1a9425df67126f8d5887",
+        "applied_prompt_sha256": "5e250f13da3023041fc706e1025cba349862bfaab6f8c3dc22f696bb433c2627",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲全身與配色辨識特徵仍在。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Age entire recognizable full robot as old iron sculpture with layered orange brown rust, flaking oxidized surfaces and dark metal beneath, abandoned neutral studio floor no text.",
+            "observed": "暗色地面棚景中的老舊機甲。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲層疊鏽蝕表面",
+            "observed": "橘褐鏽層、剝落表面與深色底材遍布裝甲。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "鏽斑沿裝甲及縫隙分布，站姿與地面一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有新增機械性能宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-copper-patina-01",
+      "prompt_id": "src-visual642-146",
+      "command": "/copper patina",
+      "title": "葉形紙盒風化銅綠",
+      "description": "葉形紙盒風化銅綠（AI案例示範）",
+      "result_text": "葉形紙盒風化銅綠",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-08/copper-patina.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /copper patina: Cover the subject in weathered copper patina. Reference image supplies subject identity only. Cube box and leaf motif sculpted as copper, weathered turquoise-green patina covering surface with warm copper edges showing through, realistic oxidation layers, neutral studio. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Cube box and leaf motif sculpted as copper, weathered turquoise-green patina covering surface with warm copper edges showing through, realistic oxidation layers, neutral studio.",
+        "effect": "葉形紙盒風化銅綠",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:18:36.395Z",
+        "source_instruction": "Cover the subject in weathered copper patina.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "cc989b0808e8a52fa4bfa880a45cb2f437a7a23f41c929ef7e778c8fece6fe5c",
+        "applied_prompt_sha256": "df29cb1803064eadc4a68bd40aa09b270cd66afc6ef059462e2722aac38067f0",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "立方盒體與葉形圖案完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Cube box and leaf motif sculpted as copper, weathered turquoise-green patina covering surface with warm copper edges showing through, realistic oxidation layers, neutral studio.",
+            "observed": "中性棚景中展示銅質盒形。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "葉形紙盒風化銅綠",
+            "observed": "藍綠風化銅綠覆蓋表面，邊緣露出暖銅色。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "氧化層沿盒面與葉紋連續，立體透視自然。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未附材料成分或製程宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-brushed-metal-01",
+      "prompt_id": "src-visual642-147",
+      "command": "/brushed metal",
+      "title": "水瓶乾淨金屬拉絲",
+      "description": "水瓶乾淨金屬拉絲（AI案例示範）",
+      "result_text": "水瓶乾淨金屬拉絲",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-08/brushed-metal.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /brushed metal: Apply a clean brushed-metal finish to the subject. Reference image supplies subject identity only. Bottle body and loop cap shape rebuilt in clean silver brushed metal, fine directional parallel brushing across surface, controlled soft highlights, no mirror reflections, studio. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Bottle body and loop cap shape rebuilt in clean silver brushed metal, fine directional parallel brushing across surface, controlled soft highlights, no mirror reflections, studio.",
+        "effect": "水瓶乾淨金屬拉絲",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:19:41.554Z",
+        "source_instruction": "Apply a clean brushed-metal finish to the subject.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "4e475e8a0f644ae0b950f347314910a00781453326c7c59f7690fe99efa3d455",
+        "applied_prompt_sha256": "96ddd77000a6ca50449c3fc806b6e451e6f6dad6140d9e43730f5c9918373af9",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "水瓶與環蓋形狀完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Bottle body and loop cap shape rebuilt in clean silver brushed metal, fine directional parallel brushing across surface, controlled soft highlights, no mirror reflections, studio.",
+            "observed": "桌面中性光棚景清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶乾淨金屬拉絲",
+            "observed": "細密方向性金屬拉絲覆蓋瓶身與蓋面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "拉絲與高光沿曲面一致，沒有鏡面場景反射。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未附金屬規格或功能宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-hammered-metal-01",
+      "prompt_id": "src-visual642-148",
+      "command": "/hammered metal",
+      "title": "提袋錘打金屬表面",
+      "description": "提袋錘打金屬表面（AI案例示範）",
+      "result_text": "提袋錘打金屬表面",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-08/hammered-metal.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /hammered metal: Forge the subject with a hammered-metal surface. Reference image supplies subject identity only. Tote form and handles as handcrafted warm copper hammered metal sculpture, many shallow irregular hammer dimples on body and handles, neutral studio. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Tote form and handles as handcrafted warm copper hammered metal sculpture, many shallow irregular hammer dimples on body and handles, neutral studio.",
+        "effect": "提袋錘打金屬表面",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:20:43.532Z",
+        "source_instruction": "Forge the subject with a hammered-metal surface.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "0f416a7c9781e330cbe90dc3674b4c8e61a780671af2a09535b66eaa0d2144fb",
+        "applied_prompt_sha256": "e4eadc5779d567d1358f3aef7052cc8d5135d59b79b132de1153460b430134cf",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "提袋形狀、袋口與雙提把完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Tote form and handles as handcrafted warm copper hammered metal sculpture, many shallow irregular hammer dimples on body and handles, neutral studio.",
+            "observed": "中性棚景中的暖銅色造型。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "提袋錘打金屬表面",
+            "observed": "袋體與提把遍布不規則淺錘擊凹痕。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "錘面高光沿曲面變化，邊緣與接縫合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有實際可用或承重宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-machined-metal-01",
+      "prompt_id": "src-visual642-149",
+      "command": "/machined metal",
+      "title": "運動鞋精密機加工金屬",
+      "description": "運動鞋精密機加工金屬（AI案例示範）",
+      "result_text": "運動鞋精密機加工金屬",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-08/machined-metal.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /machined metal: Rebuild the subject from precision-machined metal. Reference image supplies subject identity only. Rebuild sneaker shape as precision-machined aluminum sculpture, crisp machined edges, concentric milling tool marks and grooves across shaped panels and modeled laces, monochrome silver, no manufacturing spec or performance claims. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild sneaker shape as precision-machined aluminum sculpture, crisp machined edges, concentric milling tool marks and grooves across shaped panels and modeled laces, monochrome silver, no manufacturing spec or performance claims.",
+        "effect": "運動鞋精密機加工金屬",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:21:50.284Z",
+        "source_instruction": "Rebuild the subject from precision-machined metal.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "68ea513cdbd9c44e4b497d786b639d19ae8daea33177ebbfa60121fe42168e91",
+        "applied_prompt_sha256": "4d1067d926df643a3d42148556fc67696d45f0c332ecadd28abcc0b5e5a08b42",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "運動鞋與條紋、鞋帶造型保留為金屬雕塑。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild sneaker shape as precision-machined aluminum sculpture, crisp machined edges, concentric milling tool marks and grooves across shaped panels and modeled laces, monochrome silver, no manufacturing spec or performance claims.",
+            "observed": "淺色棚景中的銀色機加工鞋形。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋精密機加工金屬",
+            "observed": "等距銑削刀路、凹槽及俐落邊緣清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "刀路隨各面曲率延伸，鞋底與鞋面結構完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，未提供加工參數或實物性能宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-mirror-chrome-01",
+      "prompt_id": "src-visual642-150",
+      "command": "/mirror chrome",
+      "title": "機甲鏡面鍍鉻",
+      "description": "機甲鏡面鍍鉻（AI案例示範）",
+      "result_text": "機甲鏡面鍍鉻",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-08/mirror-chrome.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /mirror chrome: Turn the subject into highly reflective mirror chrome. Reference image supplies subject identity only. Entire recognizable full robot in highly reflective mirror chrome, clear reflected white studio panels and dark strips, polished silver surface all armor, no colored plastic remains. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Entire recognizable full robot in highly reflective mirror chrome, clear reflected white studio panels and dark strips, polished silver surface all armor, no colored plastic remains.",
+        "effect": "機甲鏡面鍍鉻",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:24:26.617Z",
+        "source_instruction": "Turn the subject into highly reflective mirror chrome.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "8cb22f0078c10e367fed69444170a478bb8d0b5a4886e717c00913fbbe02624f",
+        "applied_prompt_sha256": "3b7af7d96b0aa4c69d0c5f879f29cb31bd2f952ff3f76c7d9fce28b32b15e1aa",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機甲全身及裝甲輪廓完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Entire recognizable full robot in highly reflective mirror chrome, clear reflected white studio panels and dark strips, polished silver surface all armor, no colored plastic remains.",
+            "observed": "明暗棚板背景與地面反射清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲鏡面鍍鉻",
+            "observed": "整體鏡面銀鉻反射棚板，沒有原彩色裝甲殘留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "反射沿裝甲曲面變化，站姿與倒影一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有額外標註或肢體錯位。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-molten-metal-01",
+      "prompt_id": "src-visual642-151",
+      "command": "/molten metal",
+      "title": "葉形紙盒熔融金屬",
+      "description": "葉形紙盒熔融金屬（AI案例示範）",
+      "result_text": "葉形紙盒熔融金屬",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-08/molten-metal.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /molten metal: Form the subject from glowing molten metal. Reference image supplies subject identity only. Form cube leaf box from glowing molten metal, incandescent orange seams and viscous flowing lower edges dripping into luminous puddle, recognizable upper cube and leaf relief, dark cinematic studio, no fire safety instructions. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Form cube leaf box from glowing molten metal, incandescent orange seams and viscous flowing lower edges dripping into luminous puddle, recognizable upper cube and leaf relief, dark cinematic studio, no fire safety instructions.",
+        "effect": "葉形紙盒熔融金屬",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:25:29.080Z",
+        "source_instruction": "Form the subject from glowing molten metal.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "5d33e9f2e77acc05cadfa37cdadfe1389a55396f1ae3bf0eb2506ea0e11b2c9b",
+        "applied_prompt_sha256": "d4e8eee6cb97e9d4c397c61b9a23610e8ff47fc2d163a5b66d902c30b25dd16a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "立方盒體與葉形浮雕清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Form cube leaf box from glowing molten metal, incandescent orange seams and viscous flowing lower edges dripping into luminous puddle, recognizable upper cube and leaf relief, dark cinematic studio, no fire safety instructions.",
+            "observed": "暗場景中發亮金屬液面圍繞盒體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "葉形紙盒熔融金屬",
+            "observed": "熾亮橘金熔融表面、下垂液滴及底部液池明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "上方盒形保留，下緣連續流入液池。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，沒有真實溫度或操作說明。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-luxury-edition-01",
+      "prompt_id": "src-visual642-152",
+      "command": "/luxury edition",
+      "title": "提袋精緻奢華版本",
+      "description": "提袋精緻奢華版本（AI案例示範）",
+      "result_text": "提袋精緻奢華版本",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-08/luxury-edition.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /luxury edition: Turn the subject into a refined luxury edition. Reference image supplies subject identity only. Refine recognizable tote into luxury edition: elegant cream fine leather body with brown leather handles, refined stitched seams and small gold hardware, understated product studio, no brand logos or advertising copy. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Refine recognizable tote into luxury edition: elegant cream fine leather body with brown leather handles, refined stitched seams and small gold hardware, understated product studio, no brand logos or advertising copy.",
+        "effect": "提袋精緻奢華版本",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:26:33.398Z",
+        "source_instruction": "Turn the subject into a refined luxury edition.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "5faba6c201701cc0a402c80814bb3e56933bad32b60c4cd7be7842704297c423",
+        "applied_prompt_sha256": "5e938aca6f91b4f2769c3b07c23f613c076ddf9183d1cad34fa3e88225f1c230",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白袋身與棕色提把的原輪廓保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Refine recognizable tote into luxury edition: elegant cream fine leather body with brown leather handles, refined stitched seams and small gold hardware, understated product studio, no brand logos or advertising copy.",
+            "observed": "柔和暖色高級產品棚景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "提袋精緻奢華版本",
+            "observed": "細緻皮紋、整齊車線及小型金色五金呈現精緻版本。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "雙提把與袋身連接完整，五金位置合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無品牌或宣傳文字，沒有假產品功能宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-exploded-view-space-01",
+      "prompt_id": "src-visual642-153",
+      "command": "/exploded view",
+      "title": "立方紙盒六面爆炸概念",
+      "description": "立方紙盒六面爆炸概念（AI案例示範）",
+      "result_text": "立方紙盒六面爆炸概念",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-08/exploded-view-space.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /exploded view: Separate the subject into clearly aligned floating parts. Reference image supplies subject identity only. Geometric concept exploded view of cube leaf carton: exactly SIX equal square thin panels separated along face normals around central empty cube volume, one front panel bearing leaf motif, back opposite, top above bottom below, left and right on sides, all floating aligned in perspective. No extra lid, tabs, screws or internal parts. Clean white backdrop. No text. Concept geometry only not real carton construction. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Geometric concept exploded view of cube leaf carton: exactly SIX equal square thin panels separated along face normals around central empty cube volume, one front panel bearing leaf motif, back opposite, top above bottom below, left and right on sides, all floating aligned in perspective. No extra lid, tabs, screws or internal parts. Clean white backdrop. No text. Concept geometry only not real carton construction.",
+        "effect": "立方紙盒六面爆炸概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:29:54.378Z",
+        "source_instruction": "Separate the subject into clearly aligned floating parts.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "6de00adfd0827165c0fa63bfff3245c8921fe14d0de40b29f3a85449fe7ac451",
+        "applied_prompt_sha256": "09b57f7c6f9539ec9b36069cdde6e754e386723617702fd3d35a5fc2e4606211",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "notes": "六個等大方形面板形成三對相對面，分離且朝中心對齊。僅立方幾何概念，不代表紙盒實際接合、製造或內部構造。沿用已查證立方幾何資料。",
+          "source_urls": [
+            "https://mathworld.wolfram.com/Cube.html"
+          ]
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠六個方形面板與正面葉片圖案可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Geometric concept exploded view of cube leaf carton: exactly SIX equal square thin panels separated along face normals around central empty cube volume, one front panel bearing leaf motif, back opposite, top above bottom below, left and right on sides, all floating aligned in perspective. No extra lid, tabs, screws or internal parts. Clean white backdrop. No text. Concept geometry only not real carton construction.",
+            "observed": "白底漂浮展示，背景簡潔。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "立方紙盒六面爆炸概念",
+            "observed": "六面向外分離呈現爆炸示意。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三對相對面平行，虛線箭頭朝組裝中心。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有多餘螺絲內件；僅幾何概念，未宣稱實際紙盒構造。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-motion-freeze-01",
+      "prompt_id": "src-visual642-154",
+      "command": "/motion freeze",
+      "title": "運動鞋高速顆粒定格",
+      "description": "運動鞋高速顆粒定格（AI案例示範）",
+      "result_text": "運動鞋高速顆粒定格",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-08/motion-freeze.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /motion freeze: Freeze fast motion, debris, and particles in midair. Reference image supplies subject identity only. Sneaker suspended in midair with crisp frozen water splash droplets and small dust particles around it, razor-sharp fast motion freeze with no motion blur, simple dark studio, shoe whole. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Sneaker suspended in midair with crisp frozen water splash droplets and small dust particles around it, razor-sharp fast motion freeze with no motion blur, simple dark studio, shoe whole.",
+        "effect": "運動鞋高速顆粒定格",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:30:36.794Z",
+        "source_instruction": "Freeze fast motion, debris, and particles in midair.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "ef8d43d074d3165762f845f524225e28f77c11c256df7fd306073beaddde2aa9",
+        "applied_prompt_sha256": "070a3d98fda70377fc5dabf4fdd99735f60ed14636bc484d99d99c4020d86e8c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑三條與膠底保留，鞋形完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Sneaker suspended in midair with crisp frozen water splash droplets and small dust particles around it, razor-sharp fast motion freeze with no motion blur, simple dark studio, shoe whole.",
+            "observed": "黑底棚拍，主體懸空。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋高速顆粒定格",
+            "observed": "水花水滴與塵粒高速定格清晰。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "鞋朝右下斜行，粒子繞鞋分布，無拖影。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "鞋帶鞋底與飛濺細節可辨，沒有多餘鞋體。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-gradient-studio-01",
+      "prompt_id": "src-visual642-155",
+      "command": "/gradient studio",
+      "title": "水瓶漸層棚拍",
+      "description": "水瓶漸層棚拍（AI案例示範）",
+      "result_text": "水瓶漸層棚拍",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-08/gradient-studio.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /gradient studio: Place the subject in a polished gradient studio. Reference image supplies subject identity only. Bottle upright in polished gradient studio transitioning peach to lilac background and matching seamless floor, controlled soft shadow and clean premium product photography, no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Bottle upright in polished gradient studio transitioning peach to lilac background and matching seamless floor, controlled soft shadow and clean premium product photography, no text.",
+        "effect": "水瓶漸層棚拍",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:31:14.598Z",
+        "source_instruction": "Place the subject in a polished gradient studio.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "5e197bbd323e435d40bb5db0e580a43de48d71070f71d3a958d3b0c7db0836e4",
+        "applied_prompt_sha256": "f172d812d077e2360aac340280322ee69b4f41007a0b8940283614e1fc843186",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色瓶身與黑色提環蓋完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Bottle upright in polished gradient studio transitioning peach to lilac background and matching seamless floor, controlled soft shadow and clean premium product photography, no text.",
+            "observed": "桃色至紫色的無縫棚拍背景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶漸層棚拍",
+            "observed": "柔和漸層及地面淡反射明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶身直立中央，接地陰影合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "瓶口提環清晰，無多餘物件與文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-billboard-space-01",
+      "prompt_id": "src-visual642-156",
+      "command": "/billboard",
+      "title": "機甲戶外巨型看板",
+      "description": "機甲戶外巨型看板（AI案例示範）",
+      "result_text": "機甲戶外巨型看板",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-08/billboard-space.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /billboard: Turn the subject into a monumental outdoor billboard. Reference image supplies subject identity only. Monumental rectangular outdoor city billboard mounted high on building, printed advertisement image of recognizable full robot clearly contained ON billboard surface, ordinary street pedestrians below for scale. No physical giant robot on street, no words or logos. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Monumental rectangular outdoor city billboard mounted high on building, printed advertisement image of recognizable full robot clearly contained ON billboard surface, ordinary street pedestrians below for scale. No physical giant robot on street, no words or logos.",
+        "effect": "機甲戶外巨型看板",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:31:58.571Z",
+        "source_instruction": "Turn the subject into a monumental outdoor billboard.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "50d4ec97280dcabc50f92cbe643f699279fd20f81f244d13108a35ee35adc1b4",
+        "applied_prompt_sha256": "fb6ccfe0db7ade6b48ca7e33976399a3efa64ebe514416ce6691b0bc6b8c6319",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍白紅黃機器人特徵保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Monumental rectangular outdoor city billboard mounted high on building, printed advertisement image of recognizable full robot clearly contained ON billboard surface, ordinary street pedestrians below for scale. No physical giant robot on street, no words or logos.",
+            "observed": "都市街口高樓外牆大型看板。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲戶外巨型看板",
+            "observed": "角色圖像平整呈現在有框看板內。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "路人汽車提供尺度，角色沒有站到街道上。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "看板照明與透視一致，主體肢體完整。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-black-hole-01",
+      "prompt_id": "src-visual642-157",
+      "command": "/black hole",
+      "title": "運動鞋黑洞電影場景",
+      "description": "運動鞋黑洞電影場景（AI案例示範）",
+      "result_text": "運動鞋黑洞電影場景",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-08/black-hole.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /black hole: Pull the subject into a cinematic black-hole scene. Reference image supplies subject identity only. Recognizable sneaker drifting toward a large dark circular black hole with bright accretion ring and swirling space debris, cinematic science fiction illustration not scientific simulation, shoe clear in foreground and visual pull direction evident, no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Recognizable sneaker drifting toward a large dark circular black hole with bright accretion ring and swirling space debris, cinematic science fiction illustration not scientific simulation, shoe clear in foreground and visual pull direction evident, no text.",
+        "effect": "運動鞋黑洞電影場景",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:32:44.565Z",
+        "source_instruction": "Pull the subject into a cinematic black-hole scene.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "10c1ef59a0bfa1ac1c0d07cddd096d1af72cf4d1eab37e553ad15e3d34644ef9",
+        "applied_prompt_sha256": "e4417132e28eb8f29e0e16018cd95e47b275e13cb1e84716c89691ffa1369973",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑條膠底辨識明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Recognizable sneaker drifting toward a large dark circular black hole with bright accretion ring and swirling space debris, cinematic science fiction illustration not scientific simulation, shoe clear in foreground and visual pull direction evident, no text.",
+            "observed": "太空黑洞與星空碎石環境。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋黑洞電影場景",
+            "observed": "暗色中心與明亮吸積光環呈電影科幻效果。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "碎片軌跡導向黑洞，鞋位於前景漂浮。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "鞋體完整；視覺概念沒有標示科學數值。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-landing-page-space-01",
+      "prompt_id": "src-visual642-158",
+      "command": "/landing page",
+      "title": "水瓶高級首頁主視覺",
+      "description": "水瓶高級首頁主視覺（AI案例示範）",
+      "result_text": "水瓶高級首頁主視覺",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-08/landing-page-space.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /landing page: Present the subject as a premium landing-page hero. Reference image supplies subject identity only. Premium landing-page hero visual mockup with bottle on right on sophisticated sage ivory gradient, generous clean empty left copy space, minimal abstract navigation bars and blank button shape, no actual words or fake claims, browser page visual framing subtle. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Premium landing-page hero visual mockup with bottle on right on sophisticated sage ivory gradient, generous clean empty left copy space, minimal abstract navigation bars and blank button shape, no actual words or fake claims, browser page visual framing subtle.",
+        "effect": "水瓶高級首頁主視覺",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:33:22.660Z",
+        "source_instruction": "Present the subject as a premium landing-page hero.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "a2d8b44b073b361bdb5f170f1c3ebf1b3fffc971e58b5d911f1bccdfb4d9f94c",
+        "applied_prompt_sha256": "77c49cab2b5d92a94e613bb1fd045733039257d17c24d35be2995299f73678ce",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶與黑提環蓋保持完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Premium landing-page hero visual mockup with bottle on right on sophisticated sage ivory gradient, generous clean empty left copy space, minimal abstract navigation bars and blank button shape, no actual words or fake claims, browser page visual framing subtle.",
+            "observed": "瀏覽器框內的產品首頁示意。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶高級首頁主視覺",
+            "observed": "右側大產品，左側留白與空白按鈕，頂部抽象導覽。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "產品放石台上，頁面層級與導覽位置清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "沒有生成文案或亂碼，葉影與柔光自然。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-sunbeam-space-01",
+      "prompt_id": "src-visual642-159",
+      "command": "/sunbeam",
+      "title": "提袋暖色定向陽光",
+      "description": "提袋暖色定向陽光（AI案例示範）",
+      "result_text": "提袋暖色定向陽光",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-08/sunbeam-space.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /sunbeam: Shape the subject with warm directional sunbeams. Reference image supplies subject identity only. Tote on neutral interior stone bench, warm directional sunbeams from high window illuminate one side with visible rays and shaped diagonal shadows, intact brown handles, no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Tote on neutral interior stone bench, warm directional sunbeams from high window illuminate one side with visible rays and shaped diagonal shadows, intact brown handles, no text.",
+        "effect": "提袋暖色定向陽光",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:34:02.125Z",
+        "source_instruction": "Shape the subject with warm directional sunbeams.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "99ac3190e3d136748432c0c026c65c6dfddf2818464c2fdb4098ad81810fbf2a",
+        "applied_prompt_sha256": "5ba0664df9329902e55d87207c744522e281c1f061a1be7cd70a10845a326ff6",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布提袋與棕色雙提把保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Tote on neutral interior stone bench, warm directional sunbeams from high window illuminate one side with visible rays and shaped diagonal shadows, intact brown handles, no text.",
+            "observed": "暖色室內窗邊石台與植栽。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "提袋暖色定向陽光",
+            "observed": "左上定向窗光呈可見斜光束及暖亮面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "提袋接地，投影方向與入光一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "布紋縫線完整，雙提把清晰。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-energy-field-space-01",
+      "prompt_id": "src-visual642-160",
+      "command": "/energy field",
+      "title": "機甲強烈發光能量場",
+      "description": "機甲強烈發光能量場（AI案例示範）",
+      "result_text": "機甲強烈發光能量場",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-08/energy-field-space.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /energy field: Surround the subject with a powerful glowing energy field. Reference image supplies subject identity only. Full robot centered within powerful glowing cyan energy field, transparent spherical shell and dynamic plasma arcs surrounding but not obscuring figure, dark backdrop, no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Full robot centered within powerful glowing cyan energy field, transparent spherical shell and dynamic plasma arcs surrounding but not obscuring figure, dark backdrop, no text.",
+        "effect": "機甲強烈發光能量場",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:34:49.642Z",
+        "source_instruction": "Surround the subject with a powerful glowing energy field.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "b43e559725ee6060413709a5c16230fc3d289b2649e8a3cc89348ab9bd96cd1b",
+        "applied_prompt_sha256": "66cb3bda56d627162380b70bfcad9f1446a68c0362d9af42d76c87ad3643a754",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機器人配色、頭盔與裝甲形態保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Full robot centered within powerful glowing cyan energy field, transparent spherical shell and dynamic plasma arcs surrounding but not obscuring figure, dark backdrop, no text.",
+            "observed": "暗底科幻場景，主體站於反光地面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲強烈發光能量場",
+            "observed": "透明青藍球形能量場包圍角色，電弧明顯。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "能量球在角色外側，地面光圈呼應。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "角色臉部肢體完整，沒有實體玻璃球誤讀。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-iridescent-space-01",
+      "prompt_id": "src-visual642-161",
+      "command": "/iridescent",
+      "title": "葉形紙盒精緻虹彩",
+      "description": "葉形紙盒精緻虹彩（AI案例示範）",
+      "result_text": "葉形紙盒精緻虹彩",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-08/iridescent-space.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /iridescent: Give the subject a refined color-shifting iridescent finish. Reference image supplies subject identity only. Preserve cube and leaf motif but refined color-shifting iridescent pearlescent thin film finish across all surfaces, subtle pink cyan violet angle-dependent sheen, clean neutral studio no fantasy world. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Preserve cube and leaf motif but refined color-shifting iridescent pearlescent thin film finish across all surfaces, subtle pink cyan violet angle-dependent sheen, clean neutral studio no fantasy world.",
+        "effect": "葉形紙盒精緻虹彩",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:35:28.545Z",
+        "source_instruction": "Give the subject a refined color-shifting iridescent finish.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "1fae35b3362bb326554978e6a97a7acfd28ecd5a97b66ca5263b6526d90d3392",
+        "applied_prompt_sha256": "13f80e5263faadc5f842994b3415b8072a1ceefd9825ab9f88f30c0c76c10da8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "方盒與葉片圖案保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Preserve cube and leaf motif but refined color-shifting iridescent pearlescent thin film finish across all surfaces, subtle pink cyan violet angle-dependent sheen, clean neutral studio no fantasy world.",
+            "observed": "白底簡潔棚拍。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "葉形紙盒精緻虹彩",
+            "observed": "表面粉青紫虹彩轉色明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒體三面透視完整，接地陰影合理。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "折邊與蓋縫清楚，背景沒有被虹彩場景取代。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-floating-3d-01",
+      "prompt_id": "src-visual642-162",
+      "command": "/floating 3d",
+      "title": "提袋漂浮三維展示",
+      "description": "提袋漂浮三維展示（AI案例示範）",
+      "result_text": "提袋漂浮三維展示",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-08/floating-3d.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /floating 3d: Present the subject as a polished floating 3D object. Reference image supplies subject identity only. Recognizable tote as polished photoreal 3D rendered object suspended clearly above seamless floor, gentle three-quarter rotation, complete handles, distinct separated soft shadow below showing air gap, no support wires no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Recognizable tote as polished photoreal 3D rendered object suspended clearly above seamless floor, gentle three-quarter rotation, complete handles, distinct separated soft shadow below showing air gap, no support wires no text.",
+        "effect": "提袋漂浮三維展示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:36:04.015Z",
+        "source_instruction": "Present the subject as a polished floating 3D object.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "1632e89af7159d183d7c04d52093463ac99337274172b3840fba820a84337e0b",
+        "applied_prompt_sha256": "1d8a2ade49f2ea65a538977e3324034f04798f5b30535f9ea4a314b79bb9d635",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白布袋與棕色雙提把保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Recognizable tote as polished photoreal 3D rendered object suspended clearly above seamless floor, gentle three-quarter rotation, complete handles, distinct separated soft shadow below showing air gap, no support wires no text.",
+            "observed": "米色無縫背景3D產品展示。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "提袋漂浮三維展示",
+            "observed": "袋體明顯離地懸浮。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "地面柔影與袋底留有空隙，沒有支架或吊線。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "織紋縫線清楚，提把和袋口完整。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-street-giant-01",
+      "prompt_id": "src-visual642-163",
+      "command": "/street giant",
+      "title": "水瓶城市巨物",
+      "description": "水瓶城市巨物（AI案例示範）",
+      "result_text": "水瓶城市巨物",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-08/street-giant.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /street giant: Scale the subject into a believable city-sized giant. Reference image supplies subject identity only. Enormous recognizable green bottle towering several stories over real-scale city street, pedestrians cars buses at its base establish convincing city-sized giant, physically coherent shadows low camera angle, no billboards no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Enormous recognizable green bottle towering several stories over real-scale city street, pedestrians cars buses at its base establish convincing city-sized giant, physically coherent shadows low camera angle, no billboards no text.",
+        "effect": "水瓶城市巨物",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:36:49.673Z",
+        "source_instruction": "Scale the subject into a believable city-sized giant.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "9feeceba6fbcf001122531f1403d333ce23ebdda461420ebb0c922047f0d8f7a",
+        "applied_prompt_sha256": "a8a3988e9c5c8e096f8923310dcb6014f4cb488b427eb41a0e85e0e1de2d2ff5",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶與黑提環蓋完整可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Enormous recognizable green bottle towering several stories over real-scale city street, pedestrians cars buses at its base establish convincing city-sized giant, physically coherent shadows low camera angle, no billboards no text.",
+            "observed": "真實感城市街道與高樓。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶城市巨物",
+            "observed": "水瓶巨大化，高過多棟周邊建築。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "行人、公車與汽車形成強烈尺度對比。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "瓶體是街頭實體巨物，未混同看板；透視一致。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-impact-space-01",
+      "prompt_id": "src-visual642-164",
+      "command": "/impact",
+      "title": "運動鞋碰撞衝擊瞬間",
+      "description": "運動鞋碰撞衝擊瞬間（AI案例示範）",
+      "result_text": "運動鞋碰撞衝擊瞬間",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-08/impact-space.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /impact: Show the subject at the center of a powerful collision. Reference image supplies subject identity only. Sneaker at center of powerful collision with brittle abstract white slab, shoe foreground contacting broken slab, radial fragments dust and shockwave frozen around point of impact, shoe recognizable intact, no people no injury no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Sneaker at center of powerful collision with brittle abstract white slab, shoe foreground contacting broken slab, radial fragments dust and shockwave frozen around point of impact, shoe recognizable intact, no people no injury no text.",
+        "effect": "運動鞋碰撞衝擊瞬間",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T09:37:41.517Z",
+        "source_instruction": "Show the subject at the center of a powerful collision.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "e8568d10a9337c7ecd89c35ba4dc10a54781c9e9899b2680eb9e333f4d7ec3ab",
+        "applied_prompt_sha256": "bfa021d06dbffe8ef0483865459b2eb744d67d54d491936b5ab63174c125d722",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑條與棕膠底清晰。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Sneaker at center of powerful collision with brittle abstract white slab, shoe foreground contacting broken slab, radial fragments dust and shockwave frozen around point of impact, shoe recognizable intact, no people no injury no text.",
+            "observed": "白色脆石板場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋碰撞衝擊瞬間",
+            "observed": "接觸點向外飛散碎片與粉塵，呈撞擊定格。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "鞋底接觸裂面，放射裂紋從主體附近向外延伸。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "鞋體完整，無人物或受傷情境。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

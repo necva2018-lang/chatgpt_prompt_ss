@@ -1,0 +1,1411 @@
+{
+  "version": 1,
+  "id": "batch-20-11",
+  "cases": [
+    {
+      "id": "case-cereal-city-01",
+      "prompt_id": "src-visual642-205",
+      "command": "/cereal city",
+      "title": "麥片盒完整穀片城市",
+      "description": "麥片盒完整穀片城市（AI案例示範）",
+      "result_text": "麥片盒完整穀片城市",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-11/cereal-city.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /cereal city: Rebuild the subject as a complete cereal city. Reference image supplies subject identity only. Rebuild reference carton as a complete miniature cereal city: yellow-orange tiger-striped carton buildings in varied heights, connected roads, cereal-flake trees and parks, milk canal, small toy vehicles. Wide isometric city view, entire city not only one giant box. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Rebuild reference carton as a complete miniature cereal city: yellow-orange tiger-striped carton buildings in varied heights, connected roads, cereal-flake trees and parks, milk canal, small toy vehicles. Wide isometric city view, entire city not only one giant box.",
+        "effect": "麥片盒完整穀片城市",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:39:18.792Z",
+        "source_instruction": "Rebuild the subject as a complete cereal city.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "a672aeb9f334f674df08b7d9ab0e79e6193a39b447f8497807e6e1d13584ab7a",
+        "applied_prompt_sha256": "1d05d7c022d5287f7101ca7d6567a9e8b82c1b2e2253f909dbf5ff33a9a9fbe2",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橘虎紋與碗圖延伸為城市建築。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Rebuild reference carton as a complete miniature cereal city: yellow-orange tiger-striped carton buildings in varied heights, connected roads, cereal-flake trees and parks, milk canal, small toy vehicles. Wide isometric city view, entire city not only one giant box.",
+            "observed": "完整微型城市鳥瞰。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片盒完整穀片城市",
+            "observed": "多棟包裝建築、穀片樹與牛奶運河構成穀片城市。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "道路橋樑車輛連通，公園與建築形成一致尺度。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "非單一巨大紙盒，城市細節清楚且無文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-breakfast-bloom-01",
+      "prompt_id": "src-visual642-206",
+      "command": "/breakfast bloom",
+      "title": "麥片盒早餐綻放",
+      "description": "麥片盒早餐綻放（AI案例示範）",
+      "result_text": "麥片盒早餐綻放",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-11/breakfast-bloom.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /breakfast bloom: Make the subject open into a colorful breakfast bloom. Reference image supplies subject identity only. Reference carton opens at top and unfolds outward like flower petals, colorful breakfast bloom emerges: cereal flakes, strawberry and banana slices, white milk ribbons; clearly open carton, radial floral arrangement. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference carton opens at top and unfolds outward like flower petals, colorful breakfast bloom emerges: cereal flakes, strawberry and banana slices, white milk ribbons; clearly open carton, radial floral arrangement.",
+        "effect": "麥片盒早餐綻放",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:40:19.628Z",
+        "source_instruction": "Make the subject open into a colorful breakfast bloom.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "b3cbcfd0f524a8e769c31b35337f270e3a13345abb2364a16eb8e8b5063c2d0c",
+        "applied_prompt_sha256": "667fc5b7446988d40c57b176d54448cf4e7f082c50a0433668d518cfd2b41d47",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橘虎紋盒保留並明確打開。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference carton opens at top and unfolds outward like flower petals, colorful breakfast bloom emerges: cereal flakes, strawberry and banana slices, white milk ribbons; clearly open carton, radial floral arrangement.",
+            "observed": "暖黃色棚拍。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片盒早餐綻放",
+            "observed": "早餐食材牛奶穀片香蕉草莓向上綻放。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "盒蓋外展，食材從開口形成花束般放射。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "水果切面與飛濺細節清楚，無亂碼。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-chocolate-orbit-01",
+      "prompt_id": "src-visual642-207",
+      "command": "/chocolate orbit",
+      "title": "麥片盒巧克力軌道",
+      "description": "麥片盒巧克力軌道（AI案例示範）",
+      "result_text": "麥片盒巧克力軌道",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-11/chocolate-orbit.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /chocolate orbit: Arrange the subject in a dynamic chocolate orbit. Reference image supplies subject identity only. Reference carton surrounded by coherent elliptical orbit of chocolate chunks, cocoa beans and glossy chocolate droplets against dark cocoa studio, full product visible. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference carton surrounded by coherent elliptical orbit of chocolate chunks, cocoa beans and glossy chocolate droplets against dark cocoa studio, full product visible.",
+        "effect": "麥片盒巧克力軌道",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:41:23.575Z",
+        "source_instruction": "Arrange the subject in a dynamic chocolate orbit.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "5b70a1b0e8c0e3eb7c00037a06b01f11916e46d84c3ed542044c4a4217e9bf7e",
+        "applied_prompt_sha256": "e8030a69e90fb1130c9604e0251d2dcab6103b1bdcaeb33ed6b84213105f8e9f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "黃橘虎紋盒保持原外觀。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference carton surrounded by coherent elliptical orbit of chocolate chunks, cocoa beans and glossy chocolate droplets against dark cocoa studio, full product visible.",
+            "observed": "深可可色棚拍。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片盒巧克力軌道",
+            "observed": "巧克力塊可可豆與液滴沿橢圓軌道環繞。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "環前後穿插，盒子完整置中並有空間深度。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "巧克力斷面及豆紋清楚，無成分宣稱。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-monkey-spotlight-01",
+      "prompt_id": "src-visual642-208",
+      "command": "/monkey spotlight",
+      "title": "麥片盒猴影聚光舞台",
+      "description": "麥片盒猴影聚光舞台（AI案例示範）",
+      "result_text": "麥片盒猴影聚光舞台",
+      "reference": "output/imagegen/batch-20-09/cereal-reference.png",
+      "result": "output/imagegen/batch-20-11/monkey-spotlight.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /monkey spotlight: Stage the subject under a bold monkey spotlight. Reference image supplies subject identity only. Carton under bold warm amber theatrical spotlight with a clear playful monkey silhouette projected as gobo shadow on backdrop, one complete monkey silhouette with curled tail, no real animal needed. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/cereal-reference.png",
+        "sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "generator": "built-in imagegen",
+        "prompt": "A clean web-quality square studio product reference photo of a single upright generic breakfast cereal cardboard carton. Warm yellow-orange box, simple dark orange tiger stripe motif across lower part and a small circular bowl-of-cereal pictogram, no words, no letters, no logos, no watermark. Three-quarter front view, full carton visible on white background with gentle shadow. A fictional package for visual concept examples, no health or nutrition claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Carton under bold warm amber theatrical spotlight with a clear playful monkey silhouette projected as gobo shadow on backdrop, one complete monkey silhouette with curled tail, no real animal needed.",
+        "effect": "麥片盒猴影聚光舞台",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:42:50.942Z",
+        "source_instruction": "Stage the subject under a bold monkey spotlight.",
+        "reference_sha256": "f715c1139bd1c38010411efaf659a3a1b639e145cfae8ac3f19cd987f8ac2f65",
+        "result_sha256": "9da42d2c4f583967897be6105ad490152b3c380c3979966f2caee1620363c245",
+        "applied_prompt_sha256": "8f782cadf5ae1636689d2611162d35f25fa957cc05778a35ddc99c95c48089e6",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "虎紋黃盒完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Carton under bold warm amber theatrical spotlight with a clear playful monkey silhouette projected as gobo shadow on backdrop, one complete monkey silhouette with curled tail, no real animal needed.",
+            "observed": "暖琥珀舞台聚光環境。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "麥片盒猴影聚光舞台",
+            "observed": "背景聚光內有可辨猴子投影，圓耳卷尾與四肢清楚。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "主體置於光池前景，猴影在後方未遮盒。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "投影為卡通圖案無實體動物，無多餘文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-midnight-aura-01",
+      "prompt_id": "src-visual642-209",
+      "command": "/midnight aura",
+      "title": "水瓶午夜靜謐光暈",
+      "description": "水瓶午夜靜謐光暈（AI案例示範）",
+      "result_text": "水瓶午夜靜謐光暈",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-11/midnight-aura.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /midnight aura: Surround the subject with a refined midnight aura. Reference image supplies subject identity only. Reference bottle surrounded by refined deep indigo midnight aura, restrained soft blue rim, subtle moon glow and very fine particles, elegant dark studio, no loud neon. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle surrounded by refined deep indigo midnight aura, restrained soft blue rim, subtle moon glow and very fine particles, elegant dark studio, no loud neon.",
+        "effect": "水瓶午夜靜謐光暈",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:45:20.228Z",
+        "source_instruction": "Surround the subject with a refined midnight aura.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "2d02c55dbcadb034109da0a9c6217f00bdf8ce33049a327bff472324e0558d18",
+        "applied_prompt_sha256": "4d8b631cc8ee0c2685e297cfa8fe65b51bfde959839f6b6dada5e3ee48375d7b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色瓶身與黑色環形瓶蓋維持來源外觀。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle surrounded by refined deep indigo midnight aura, restrained soft blue rim, subtle moon glow and very fine particles, elegant dark studio, no loud neon.",
+            "observed": "瓶子直立於濕潤黑色岩面，完整可辨識。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶午夜靜謐光暈",
+            "observed": "背景呈深靛藍午夜氛圍，右後方有月亮。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "柔和藍色邊緣光勾勒瓶身，符合午夜光暈。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "細微霧氣與粒子保持克制，沒有遮蔽主體。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-scent-vortex-01",
+      "prompt_id": "src-visual642-210",
+      "command": "/scent vortex",
+      "title": "水瓶香氣漩渦",
+      "description": "水瓶香氣漩渦（AI案例示範）",
+      "result_text": "水瓶香氣漩渦",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-11/scent-vortex.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /scent vortex: Pull the subject into a dramatic scent vortex. Reference image supplies subject identity only. Reference bottle as artistic scent-themed object, swirling translucent violet vapor forms deep fragrance vortex around it with delicate flower petals, dark luxurious atmosphere. Visual metaphor, not claim bottle emits actual scent. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle as artistic scent-themed object, swirling translucent violet vapor forms deep fragrance vortex around it with delicate flower petals, dark luxurious atmosphere. Visual metaphor, not claim bottle emits actual scent.",
+        "effect": "水瓶香氣漩渦",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:45:58.842Z",
+        "source_instruction": "Pull the subject into a dramatic scent vortex.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "383621a3ccd6158b35f15c1b63cc266029fa041f2d595d51602b62550d235698",
+        "applied_prompt_sha256": "b576ba49c5e14e397cfd2246b01412debafa0a9e08ccb7a666bf284d73a899b8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色瓶身與黑色環形蓋維持一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle as artistic scent-themed object, swirling translucent violet vapor forms deep fragrance vortex around it with delicate flower petals, dark luxurious atmosphere. Visual metaphor, not claim bottle emits actual scent.",
+            "observed": "紫色透明氣流環繞瓶身形成旋渦。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶香氣漩渦",
+            "observed": "薰衣草與淡紫花瓣隨旋渦分布。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶身完整清晰且位於構圖中心。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "香氣以視覺隱喻呈現，沒有宣稱實際香味或成分文字。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-glass-monolith-space-01",
+      "prompt_id": "src-visual642-211",
+      "command": "/glass monolith",
+      "title": "水瓶玻璃巨碑",
+      "description": "水瓶玻璃巨碑（AI案例示範）",
+      "result_text": "水瓶玻璃巨碑",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-11/glass-monolith-space.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /glass monolith: Transform the subject into a monumental glass monolith. Reference image supplies subject identity only. Transform reference bottle and loop cap silhouette into monumental transparent smoky glass monolith in reflective landscape, tiny distant visitors give scale, clear refraction and smooth glass surfaces. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Transform reference bottle and loop cap silhouette into monumental transparent smoky glass monolith in reflective landscape, tiny distant visitors give scale, clear refraction and smooth glass surfaces.",
+        "effect": "水瓶玻璃巨碑",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:46:45.084Z",
+        "source_instruction": "Transform the subject into a monumental glass monolith.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "74a7a6f70b1c4ee539edca94bdb782d93be7349bf2553b571e9880d493ae9d79",
+        "applied_prompt_sha256": "d9230464052f2b979bff2feef7de55581f335eb428510e517de8483b91fa830a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "保留圓柱瓶身、圓肩與環形提蓋輪廓。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Transform reference bottle and loop cap silhouette into monumental transparent smoky glass monolith in reflective landscape, tiny distant visitors give scale, clear refraction and smooth glass surfaces.",
+            "observed": "主體轉為透明煙燻玻璃材質。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶玻璃巨碑",
+            "observed": "巨瓶矗立於開闊山湖景觀，具紀念碑尺度。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "腳下多位微小人物提供清楚尺度比較。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "夕陽穿透玻璃並映照水面，主體完整突出。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-desert-noir-01",
+      "prompt_id": "src-visual642-212",
+      "command": "/desert noir",
+      "title": "水瓶沙漠黑色電影",
+      "description": "水瓶沙漠黑色電影（AI案例示範）",
+      "result_text": "水瓶沙漠黑色電影",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-11/desert-noir.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /desert noir: Restyle the subject with a dark desert noir mood. Reference image supplies subject identity only. Reference bottle on dark desert sand dunes at night, stark moonlit shadows, low-key black-and-white noir lighting with faint cool indigo highlights, cinematic moody composition. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle on dark desert sand dunes at night, stark moonlit shadows, low-key black-and-white noir lighting with faint cool indigo highlights, cinematic moody composition.",
+        "effect": "水瓶沙漠黑色電影",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:47:26.749Z",
+        "source_instruction": "Restyle the subject with a dark desert noir mood.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "454614641dca1c0b78b10e4b8926f11d93f863b6f9daec2c3e67b136f6c0975d",
+        "applied_prompt_sha256": "13304531fb8b1e2dbb4918bcda6fd8f52ae024ed1eb3cc10fe46ff689ef63155",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色瓶身與黑色提蓋清楚保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle on dark desert sand dunes at night, stark moonlit shadows, low-key black-and-white noir lighting with faint cool indigo highlights, cinematic moody composition.",
+            "observed": "瓶子站在暗色沙地，背景有連續沙丘。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶沙漠黑色電影",
+            "observed": "月亮與深靛夜空形成夜間場景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "低調黑白與藍色邊光符合沙漠黑色電影氣氛。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "主體輪廓完整，沙粒細節可辨識。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-fragrance-halo-01",
+      "prompt_id": "src-visual642-213",
+      "command": "/fragrance halo",
+      "title": "水瓶香氣光環",
+      "description": "水瓶香氣光環（AI案例示範）",
+      "result_text": "水瓶香氣光環",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-11/fragrance-halo.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /fragrance halo: Surround the subject with a luminous fragrance halo. Reference image supplies subject identity only. Reference bottle encircled by luminous delicate violet fragrance vapor halo, scattered lavender petals and soft gold highlights on dark studio. Metaphorical fragrance visual only. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle encircled by luminous delicate violet fragrance vapor halo, scattered lavender petals and soft gold highlights on dark studio. Metaphorical fragrance visual only.",
+        "effect": "水瓶香氣光環",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:48:11.458Z",
+        "source_instruction": "Surround the subject with a luminous fragrance halo.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "853e0c81fd202119fb0df6c069906e1e9581452e506a4dcdd8c0e16dc88ac77f",
+        "applied_prompt_sha256": "5594ca586ded94e667570eed82366af9bb2b24be3cd53694bdf49c4dd9be2a3b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶與黑色環形蓋保持來源特徵。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle encircled by luminous delicate violet fragrance vapor halo, scattered lavender petals and soft gold highlights on dark studio. Metaphorical fragrance visual only.",
+            "observed": "紫色薄霧形成環繞瓶身的光環。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶香氣光環",
+            "observed": "薰衣草與花瓣分布於前後景。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "細緻金色粒子與暖光增添光暈。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "主體輪廓清楚，整體符合香氣光環概念。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-blue-eclipse-01",
+      "prompt_id": "src-visual642-214",
+      "command": "/blue eclipse",
+      "title": "水瓶藍色日蝕",
+      "description": "水瓶藍色日蝕（AI案例示範）",
+      "result_text": "水瓶藍色日蝕",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-11/blue-eclipse.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /blue eclipse: Turn the subject into a striking blue eclipse. Reference image supplies subject identity only. Reference bottle in front of large deep blue eclipse disk with intense electric-blue corona, dark blue background, controlled mist and dramatic silhouette, no scientific annotations. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle in front of large deep blue eclipse disk with intense electric-blue corona, dark blue background, controlled mist and dramatic silhouette, no scientific annotations.",
+        "effect": "水瓶藍色日蝕",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:48:53.592Z",
+        "source_instruction": "Turn the subject into a striking blue eclipse.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "460b2b626c88e3de0aac46f22c7cf5dc64c724f0370c79c7bdc8540f8266ee6d",
+        "applied_prompt_sha256": "34b5023d8c43570a3cd4050be18f7d7b791fe0b2139204b1ee3848527ecb735c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶與黑色環形提蓋外觀完整。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle in front of large deep blue eclipse disk with intense electric-blue corona, dark blue background, controlled mist and dramatic silhouette, no scientific annotations.",
+            "observed": "瓶子後方為深藍色巨大遮蔽圓盤。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶藍色日蝕",
+            "observed": "電藍日冕沿圓盤邊緣清楚發光。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "瓶身邊緣光與地面倒影呼應日蝕。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "畫面主體單一突出，符合藍色日蝕案例。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-surprise-reveal-01",
+      "prompt_id": "src-visual642-215",
+      "command": "/surprise reveal",
+      "title": "薄荷盒驚喜揭示",
+      "description": "薄荷盒驚喜揭示（AI案例示範）",
+      "result_text": "薄荷盒驚喜揭示",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-11/surprise-reveal.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /surprise reveal: Open the subject in a dramatic surprise reveal. Reference image supplies subject identity only. Reference mint cube lid visibly open upward; surprising colorful miniature toy castle and confetti rise from interior in warm spotlight, open box and contents clear, fictional concept. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference mint cube lid visibly open upward; surprising colorful miniature toy castle and confetti rise from interior in warm spotlight, open box and contents clear, fictional concept.",
+        "effect": "薄荷盒驚喜揭示",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:49:43.057Z",
+        "source_instruction": "Open the subject in a dramatic surprise reveal.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "5f0fa74d4017aefa84f7830a0adeee5301b7909d47f10fdf508919ddd41385e9",
+        "applied_prompt_sha256": "e6591a7c2ddaf21bc9bbc2c4a6e71a659406faeeffc038b59929137a789404bd",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠盒身與深色葉片圖案保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference mint cube lid visibly open upward; surprising colorful miniature toy castle and confetti rise from interior in warm spotlight, open box and contents clear, fictional concept.",
+            "observed": "盒蓋向後掀開，開盒動作明確。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "薄荷盒驚喜揭示",
+            "observed": "彩色玩具城堡從盒內突出。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "彩帶與亮片在盒子周圍飛散。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "暖色聚光與驚喜內容符合揭幕案例。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-toy-portal-01",
+      "prompt_id": "src-visual642-216",
+      "command": "/toy portal",
+      "title": "機甲玩具傳送門",
+      "description": "機甲玩具傳送門（AI案例示範）",
+      "result_text": "機甲玩具傳送門",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-11/toy-portal.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /toy portal: Reveal the subject through a themed toy portal. Reference image supplies subject identity only. Reference robot emerges through a circular portal constructed from colorful toy blocks, little toy wheels and marbles, vibrant playroom background, toy-scale diorama, hero fully visible. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference robot emerges through a circular portal constructed from colorful toy blocks, little toy wheels and marbles, vibrant playroom background, toy-scale diorama, hero fully visible.",
+        "effect": "機甲玩具傳送門",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:50:31.206Z",
+        "source_instruction": "Reveal the subject through a themed toy portal.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "af5d2d27db9dfe35a63bfe1b60d5732bb367049f713f114334f52fbcb1b9955e",
+        "applied_prompt_sha256": "0cff0c294d54133f11568dbcce95614f4644e915dae1047b560d0dfc6321cfaa",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍白紅黃機器人主體維持來源造型。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference robot emerges through a circular portal constructed from colorful toy blocks, little toy wheels and marbles, vibrant playroom background, toy-scale diorama, hero fully visible.",
+            "observed": "彩色積木構成環形傳送門。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲玩具傳送門",
+            "observed": "輪胎齒輪與彈珠融入門框。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "門內藍色光環明確，機器人站於門前。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "背景為明亮玩具房，符合玩具傳送門本意。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-chocolate-shell-01",
+      "prompt_id": "src-visual642-217",
+      "command": "/chocolate shell",
+      "title": "薄荷盒層疊巧克力外殼",
+      "description": "薄荷盒層疊巧克力外殼（AI案例示範）",
+      "result_text": "薄荷盒層疊巧克力外殼",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-11/chocolate-shell.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /chocolate shell: Rebuild the subject with a layered chocolate shell. Reference image supplies subject identity only. Reference cube rebuilt as layered chocolate shell, one front corner peeled or broken to expose dark chocolate outer layer, white chocolate middle layer and mint-green inner core. Preserve cube and leaf motif embossed, artistic edible concept not actual ingredient claim. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference cube rebuilt as layered chocolate shell, one front corner peeled or broken to expose dark chocolate outer layer, white chocolate middle layer and mint-green inner core. Preserve cube and leaf motif embossed, artistic edible concept not actual ingredient claim.",
+        "effect": "薄荷盒層疊巧克力外殼",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:51:13.558Z",
+        "source_instruction": "Rebuild the subject with a layered chocolate shell.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "a8af703c2aadc605e19af3e252325b959f774ebebacf503a3b402d3ac5e0dc16",
+        "applied_prompt_sha256": "d3600634e4f8e52f8b0ea0a26b909d8af000fb66ca852c7a02a482ea3e30157c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "保留立方盒輪廓與正面葉片浮雕。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference cube rebuilt as layered chocolate shell, one front corner peeled or broken to expose dark chocolate outer layer, white chocolate middle layer and mint-green inner core. Preserve cube and leaf motif embossed, artistic edible concept not actual ingredient claim.",
+            "observed": "外層呈深色巧克力材質。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "薄荷盒層疊巧克力外殼",
+            "observed": "右前角破裂露出白色中層。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "核心呈薄荷綠，三層清楚可辨。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "地面巧克力碎片呼應破殼效果，符合案例本意。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-foil-cosmos-01",
+      "prompt_id": "src-visual642-218",
+      "command": "/foil cosmos",
+      "title": "薄荷盒錫箔宇宙",
+      "description": "薄荷盒錫箔宇宙（AI案例示範）",
+      "result_text": "薄荷盒錫箔宇宙",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-11/foil-cosmos.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /foil cosmos: Build a cinematic foil cosmos around the subject. Reference image supplies subject identity only. Reference cube floats in cinematic cosmos of crinkled silver foil planets, foil asteroid fragments and reflective ribbon spiral nebula, dark background, cool specular lighting. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference cube floats in cinematic cosmos of crinkled silver foil planets, foil asteroid fragments and reflective ribbon spiral nebula, dark background, cool specular lighting.",
+        "effect": "薄荷盒錫箔宇宙",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:51:51.992Z",
+        "source_instruction": "Build a cinematic foil cosmos around the subject.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "8abc396e1c3dacdef445473c0b8ba0d3c77b34cbdf7f7e20665c66c32e22b684",
+        "applied_prompt_sha256": "90b68ac5e63b6e50deb967939a3f20eaff4c23d06158e031ef54b6df025c7123",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "薄荷綠立方盒與葉片圖案保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference cube floats in cinematic cosmos of crinkled silver foil planets, foil asteroid fragments and reflective ribbon spiral nebula, dark background, cool specular lighting.",
+            "observed": "盒子漂浮於深色星空。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "薄荷盒錫箔宇宙",
+            "observed": "銀色皺褶鋁箔形成星球與隕石。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "螺旋銀色帶環繞盒子形成軌道。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "金屬反射與宇宙背景清楚，符合鋁箔宇宙。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-egg-monolith-01",
+      "prompt_id": "src-visual642-219",
+      "command": "/egg monolith",
+      "title": "薄荷盒蛋形巨碑",
+      "description": "薄荷盒蛋形巨碑（AI案例示範）",
+      "result_text": "薄荷盒蛋形巨碑",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-11/egg-monolith.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /egg monolith: Transform the subject into a monumental egg monolith. Reference image supplies subject identity only. Transform reference mint cube into monumental smooth mint-green egg-shaped monolith bearing dark leaf motif, desert landscape with tiny visitors, clearly oval egg silhouette instead of cube, artistic transformation. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Transform reference mint cube into monumental smooth mint-green egg-shaped monolith bearing dark leaf motif, desert landscape with tiny visitors, clearly oval egg silhouette instead of cube, artistic transformation.",
+        "effect": "薄荷盒蛋形巨碑",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:52:38.734Z",
+        "source_instruction": "Transform the subject into a monumental egg monolith.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "076dd635f6443c1180ddc0b4465f8e68a785cd887cd00d83d6478d8d7b835bc9",
+        "applied_prompt_sha256": "131b7c42345f0ce285af2b8ff3007e0c847d866074c7b22de6965665212c9cce",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "盒子轉化為薄荷綠蛋形主體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Transform reference mint cube into monumental smooth mint-green egg-shaped monolith bearing dark leaf motif, desert landscape with tiny visitors, clearly oval egg silhouette instead of cube, artistic transformation.",
+            "observed": "正面深色葉片識別清楚保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "薄荷盒蛋形巨碑",
+            "observed": "巨蛋豎立於沙漠平台。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "微小訪客環繞底部呈現巨碑比例。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "完整蛋形與開闊沙漠符合蛋形巨碑案例。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-wonder-chamber-01",
+      "prompt_id": "src-visual642-220",
+      "command": "/wonder chamber",
+      "title": "機甲奇想展示室",
+      "description": "機甲奇想展示室（AI案例示範）",
+      "result_text": "機甲奇想展示室",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-11/wonder-chamber.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /wonder chamber: Place the subject inside an imaginative wonder chamber. Reference image supplies subject identity only. Reference robot inside imaginative wonder chamber with floating colored geometric sculptures, tiny portals, curved mirrors and luminous crystal floor, coherent central display, full robot visible. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference robot inside imaginative wonder chamber with floating colored geometric sculptures, tiny portals, curved mirrors and luminous crystal floor, coherent central display, full robot visible.",
+        "effect": "機甲奇想展示室",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:53:32.302Z",
+        "source_instruction": "Place the subject inside an imaginative wonder chamber.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "8baca17766e74c9833bd6c791ccc3ec777df21fc7c8037a5b81036d04f350fa0",
+        "applied_prompt_sha256": "48bfc44dfb4be1394c8eb392aa2fcebbed49a39d297f55dd65f5ec0b2309e867",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "機器人來源配色與裝甲輪廓保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference robot inside imaginative wonder chamber with floating colored geometric sculptures, tiny portals, curved mirrors and luminous crystal floor, coherent central display, full robot visible.",
+            "observed": "金框鏡面形成環繞的奇幻房間。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機甲奇想展示室",
+            "observed": "漂浮晶體與幾何物件分布於室內。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "藍紫傳送門與水晶地面清楚可見。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "鏡中反射呼應主體，符合奇幻房間場景。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-sole-blueprint-01",
+      "prompt_id": "src-visual642-221",
+      "command": "/sole blueprint",
+      "title": "運動鞋可見鞋底側面藍圖",
+      "description": "運動鞋可見鞋底側面藍圖（AI案例示範）",
+      "result_text": "運動鞋可見鞋底側面藍圖",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-11/sole-blueprint.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /sole blueprint: Explain the subject with a precise sole blueprint. Reference image supplies subject identity only. Precise blueprint-style SIDE ELEVATION ONLY based on visible side silhouette of reference shoe and its gum outsole. White cyan technical lines on dark blue background. Show one large side-view outline, one enlarged detail of the visibly exposed lateral gum sole edge. Use only two leader labels OUTSOLE and SOLE EDGE, leaders terminate on visible sole areas. No invented hidden layers, underside view, dimensions, material claims or manufacturing specifications; explicitly conceptual visual tracing of exterior. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Precise blueprint-style SIDE ELEVATION ONLY based on visible side silhouette of reference shoe and its gum outsole. White cyan technical lines on dark blue background. Show one large side-view outline, one enlarged detail of the visibly exposed lateral gum sole edge. Use only two leader labels OUTSOLE and SOLE EDGE, leaders terminate on visible sole areas. No invented hidden layers, underside view, dimensions, material claims or manufacturing specifications; explicitly conceptual visual tracing of exterior.",
+        "effect": "運動鞋可見鞋底側面藍圖",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:54:32.993Z",
+        "source_instruction": "Explain the subject with a precise sole blueprint.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "31fff5e05f26d9c3eaa87b859b9f1065a1b81c6bdc92ccbe9dab9a7c10a1b1f6",
+        "applied_prompt_sha256": "add8c5c6ba177e008c5e6ece934a9ae537d34653926b0569aa0da753b7c15c74",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.adidas.com/us/samba-og-shoes/IG1379.html"
+          ],
+          "notes": "官方來源確認 outsole 為鞋款外底用語；本圖僅描繪來源照片可見側面與鞋底邊緣，OUTSOLE 與 SOLE EDGE 引線落在可見外底。沒有內部結構、材質宣稱、尺寸或製造規格，視為外觀概念描繪，非工程圖。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "保留低筒鞋側面輪廓與三條側紋。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Precise blueprint-style SIDE ELEVATION ONLY based on visible side silhouette of reference shoe and its gum outsole. White cyan technical lines on dark blue background. Show one large side-view outline, one enlarged detail of the visibly exposed lateral gum sole edge. Use only two leader labels OUTSOLE and SOLE EDGE, leaders terminate on visible sole areas. No invented hidden layers, underside view, dimensions, material claims or manufacturing specifications; explicitly conceptual visual tracing of exterior.",
+            "observed": "白色線稿置於深藍背景，符合藍圖風格。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋可見鞋底側面藍圖",
+            "observed": "OUTSOLE 引線終點位於外底可見側面。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "放大圓圖呈現鞋底外緣，SOLE EDGE 指向邊緣。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "僅有兩個外觀標示，無尺寸、隱藏層或材料規格。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-sneaker-orbit-01",
+      "prompt_id": "src-visual642-222",
+      "command": "/sneaker orbit",
+      "title": "運動鞋環繞軌道",
+      "description": "運動鞋環繞軌道（AI案例示範）",
+      "result_text": "運動鞋環繞軌道",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-11/sneaker-orbit.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /sneaker orbit: Arrange the subject in a dynamic sneaker orbit. Reference image supplies subject identity only. Reference sneaker as central hero with three smaller matching sneakers arranged in coherent elliptical orbit, fine luminous orbital arc and studio depth; all shoes complete, total four shoes. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference sneaker as central hero with three smaller matching sneakers arranged in coherent elliptical orbit, fine luminous orbital arc and studio depth; all shoes complete, total four shoes.",
+        "effect": "運動鞋環繞軌道",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:55:17.784Z",
+        "source_instruction": "Arrange the subject in a dynamic sneaker orbit.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "091fc9799a65ec710720036f2e8e3701bc93e6a1b710c3bd296834e2c41a0755",
+        "applied_prompt_sha256": "a9afed88a1b61b753df0ce3f5cee795bfd1a11460f98a0713fee17d240207752",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑三條紋與棕色外底保持一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference sneaker as central hero with three smaller matching sneakers arranged in coherent elliptical orbit, fine luminous orbital arc and studio depth; all shoes complete, total four shoes.",
+            "observed": "中心一隻大型鞋作為主體。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋環繞軌道",
+            "observed": "周圍三隻小鞋，總數四隻。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "發光橢圓軌道連結周邊鞋款。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "鞋子浮空與柔和陰影呈現軌道構圖。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-lace-motion-01",
+      "prompt_id": "src-visual642-223",
+      "command": "/lace motion",
+      "title": "運動鞋鞋帶流動",
+      "description": "運動鞋鞋帶流動（AI案例示範）",
+      "result_text": "運動鞋鞋帶流動",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-11/lace-motion.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /lace motion: Capture the subject in elegant lace motion. Reference image supplies subject identity only. Reference sneaker suspended, its white laces extend into elegant flowing curves through the air above it, clear attachment through eyelets, dynamic motion with crisp shoe and gentle lace movement. No detached random ribbons. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference sneaker suspended, its white laces extend into elegant flowing curves through the air above it, clear attachment through eyelets, dynamic motion with crisp shoe and gentle lace movement. No detached random ribbons.",
+        "effect": "運動鞋鞋帶流動",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:56:09.518Z",
+        "source_instruction": "Capture the subject in elegant lace motion.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "4447583cd7423caebd30585051f834c3dd12220a894231409e49fad27fd5f735",
+        "applied_prompt_sha256": "a924250f1ee1ecc0967bcaa2b8fcb2f995a127948d6241c99e2ce0942f188b6c",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑條紋與棕色外底保持一致。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference sneaker suspended, its white laces extend into elegant flowing curves through the air above it, clear attachment through eyelets, dynamic motion with crisp shoe and gentle lace movement. No detached random ribbons.",
+            "observed": "鞋子浮空並帶有柔和落影。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋鞋帶流動",
+            "observed": "兩端白色鞋帶向上形成動態曲線。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "鞋帶根部連接鞋孔，非分離漂浮飾帶。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "鞋身完整清晰，符合鞋帶動態案例。",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-street-altar-01",
+      "prompt_id": "src-visual642-224",
+      "command": "/street altar",
+      "title": "運動鞋街頭祭壇",
+      "description": "運動鞋街頭祭壇（AI案例示範）",
+      "result_text": "運動鞋街頭祭壇",
+      "reference": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+      "result": "output/imagegen/batch-20-11/street-altar.png",
+      "applied_prompt": "Use case: product-mockup. Asset type: web-quality website command example. Apply /street altar: Stage the subject as a ceremonial street altar. Reference image supplies subject identity only. Reference sneaker presented as ceremonial centerpiece on a carefully arranged urban street altar: concrete stepped pedestal, candles, flower petals, subtle graffiti wall and dusk light. Reverent artistic installation, no people worship required, no text. Square composition, professional layout, preserve recognizable reference subject, no watermarks, no copied advertising, no unintended text. Prioritize correct labels, counts, arrows and physically coherent structure.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134201-820ld-mu1iaj57gg0407.webp",
+        "sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference sneaker presented as ceremonial centerpiece on a carefully arranged urban street altar: concrete stepped pedestal, candles, flower petals, subtle graffiti wall and dusk light. Reverent artistic installation, no people worship required, no text.",
+        "effect": "運動鞋街頭祭壇",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-09T10:56:52.008Z",
+        "source_instruction": "Stage the subject as a ceremonial street altar.",
+        "reference_sha256": "6513bb55c428b391dc357dd0eb66180e96ded3a45403de0e82b302ab03814369",
+        "result_sha256": "656600f9ca1280f9af025fb59dcb8c2886596c761f59f3499dd8f21496a3ffd2",
+        "applied_prompt_sha256": "93eb821442de16c85476bac17f1d4763179153a220d0d4f3988a5eb52ca449cd",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白鞋黑三條紋與棕色外底保留。",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference sneaker presented as ceremonial centerpiece on a carefully arranged urban street altar: concrete stepped pedestal, candles, flower petals, subtle graffiti wall and dusk light. Reverent artistic installation, no people worship required, no text.",
+            "observed": "鞋子置於階梯式水泥展示台中央。",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "運動鞋街頭祭壇",
+            "observed": "燭光、花束與花瓣環繞展示。",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "塗鴉牆與遠處城市夕景構成街頭環境。",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "暮色暖光與祭壇式布置符合街頭祭壇案例。",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}

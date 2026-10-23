@@ -1,0 +1,1530 @@
+{
+  "version": 1,
+  "id": "batch-20-22",
+  "cases": [
+    {
+      "id": "case-motion-22-01",
+      "prompt_id": "src-visual642-425",
+      "command": "/motionflow",
+      "title": "手搖齒輪運動流向",
+      "description": "手搖齒輪運動流向（AI案例示範）",
+      "result_text": "手搖齒輪運動流向",
+      "reference": "output/imagegen/batch-20-20/gear-reference.png",
+      "result": "output/imagegen/batch-20-22/motion-22.png",
+      "applied_prompt": "Create a square web-quality website example. Two meshed equal spur gears with red clockwise curved arrow on left crank gear and blue counterclockwise arrow on right output gear. Title MOTION FLOW. Show complete mechanism. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /motionflow: Show how parts move during operation.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/gear-reference.png",
+        "sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic educational hand-crank gear demonstrator. Exactly TWO equal-sized steel spur gears on parallel short horizontal shafts, mounted side by side on a cream vertical support plate above a stable teal base. Gear teeth visibly mesh at the center. Left gear shaft has a small black hand crank in front; right shaft ends in short plain output stub. Static tabletop model, no motor, no text, no brand, white background. Plausible simple mechanism."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Two meshed equal spur gears with red clockwise curved arrow on left crank gear and blue counterclockwise arrow on right output gear. Title MOTION FLOW. Show complete mechanism.",
+        "effect": "手搖齒輪運動流向",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:26:55.051Z",
+        "source_instruction": "Show how parts move during operation.",
+        "reference_sha256": "58acfb7a28b42db13938f12271212c918b3ee31a26449b7524a2a9a1d62030ae",
+        "result_sha256": "e9cc2719360b1056fb0978979423481c725bc832cdf17ae7f7107634cd2dce6f",
+        "applied_prompt_sha256": "cd498fcc78b6bbd6fbf7bb43ad99a2eab1351f2a45f3f2b469e60934dd1075c3",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://khkgears.net/pdf/spur-tech.pdf"
+          ],
+          "notes": "兩個外嚙合正齒輪應反向旋轉，齒形嚙合與方向另目視，無數值傳動比。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙齒輪手搖機構一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Two meshed equal spur gears with red clockwise curved arrow on left crank gear and blue counterclockwise arrow on right output gear. Title MOTION FLOW. Show complete mechanism.",
+            "observed": "完整機構視圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手搖齒輪運動流向",
+            "observed": "左右轉動流向清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "左順時針右逆時針箭頭",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "兩箭頭與運作原理相符",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-io-22-01",
+      "prompt_id": "src-visual642-426",
+      "command": "/inputoutput",
+      "title": "感應燈輸入與輸出",
+      "description": "感應燈輸入與輸出（AI案例示範）",
+      "result_text": "感應燈輸入與輸出",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-22/io-22.png",
+      "applied_prompt": "Create a square web-quality website example. Functional concept lamp center, left BATTERY POWER arrow into lamp and PIR MOTION SIGNAL into controller, right LIGHT and HEAT arrows leaving lamp. Title INPUT AND OUTPUT CONCEPT. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /inputoutput: Show what enters the system and what comes out.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Functional concept lamp center, left BATTERY POWER arrow into lamp and PIR MOTION SIGNAL into controller, right LIGHT and HEAT arrows leaving lamp. Title INPUT AND OUTPUT CONCEPT.",
+        "effect": "感應燈輸入與輸出",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:27:51.932Z",
+        "source_instruction": "Show what enters the system and what comes out.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "9d5661b69753c508e1dee8fb4d3d25bdaaee38587d630087c95f4d1b20f1b309",
+        "applied_prompt_sha256": "d91dc588f22b7909131f382c48471e93d52f9066bf5d22f4dad1aaf54d2a62d6",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "PIR偵測移動熱源造成紅外線變化，輸出訊號至控制模組驅動燈；示意電池供電與壁掛支架，非真實產品接線或安裝規格。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色感應燈一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Functional concept lamp center, left BATTERY POWER arrow into lamp and PIR MOTION SIGNAL into controller, right LIGHT and HEAT arrows leaving lamp. Title INPUT AND OUTPUT CONCEPT.",
+            "observed": "左輸入右輸出版面",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈輸入與輸出",
+            "observed": "電池與動作訊號輸入光熱輸出",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "箭頭進出方向正確",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念標示無量測宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-force-22-01",
+      "prompt_id": "src-visual642-427",
+      "command": "/forceanalysis",
+      "title": "帆布袋受力示意",
+      "description": "帆布袋受力示意（AI案例示範）",
+      "result_text": "帆布袋受力示意",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-22/force-22.png",
+      "applied_prompt": "Create a square web-quality website example. Tote hanging from hand by both handles with books inside. Downward WEIGHT arrow at bag center, upward SUPPORT arrow at hand. Title FORCE CONCEPT. No numerical load or stress values. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /forceanalysis: Show pressure, force, weight, or stress.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Tote hanging from hand by both handles with books inside. Downward WEIGHT arrow at bag center, upward SUPPORT arrow at hand. Title FORCE CONCEPT. No numerical load or stress values.",
+        "effect": "帆布袋受力示意",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:28:51.029Z",
+        "source_instruction": "Show pressure, force, weight, or stress.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "629e0be80743234920606e09df52eceb74ad93e5408bf55a69c2c1b8b9ed2415",
+        "applied_prompt_sha256": "f8bdf23278eb6b62b0d9baa53f9b66e9b2a502bce893912bf4756f6a6ba572e1",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.coats.com/en/industries/composites/faqs/"
+          ],
+          "notes": "縫線、張力與接合影響縫合強度；示意接縫補強及可能磨耗，無確定壽命或載重數據。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米色帆布袋棕提把",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Tote hanging from hand by both handles with books inside. Downward WEIGHT arrow at bag center, upward SUPPORT arrow at hand. Title FORCE CONCEPT. No numerical load or stress values.",
+            "observed": "手握提把懸掛書本袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋受力示意",
+            "observed": "向上支撐向下重量",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "重量箭頭位於袋身，支撐箭頭位於手與提把",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無虛構負載數值",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-flow-22-01",
+      "prompt_id": "src-visual642-428",
+      "command": "/flowdiagram",
+      "title": "桌扇空氣流向",
+      "description": "桌扇空氣流向（AI案例示範）",
+      "result_text": "桌扇空氣流向",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-22/flow-22.png",
+      "applied_prompt": "Create a square web-quality website example. Side view fan faces right. Blue arrows enter REAR on left through fan, exit FRONT on right; all arrows left to right. Title AIRFLOW. No cold air temperature claim. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /flowdiagram: Show the movement of air, water, blood, or data.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Side view fan faces right. Blue arrows enter REAR on left through fan, exit FRONT on right; all arrows left to right. Title AIRFLOW. No cold air temperature claim.",
+        "effect": "桌扇空氣流向",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:29:53.611Z",
+        "source_instruction": "Show the movement of air, water, blood, or data.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "4e69c7a3aaa6d4c3b2fef2f49cad00cc789ef07337879c8cfd7c72e5e144d8ee",
+        "applied_prompt_sha256": "49e084029709141eb1c90ef2e37710447ddcde706bdb1f4bc8f8058eb9bf1fd7",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "一般風扇清潔須先斷電、乾刷網罩並擦底座；不複製真實型號拆卸方式，無灑水或浸泡。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油桌扇青葉片一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Side view fan faces right. Blue arrows enter REAR on left through fan, exit FRONT on right; all arrows left to right. Title AIRFLOW. No cold air temperature claim.",
+            "observed": "向右側視",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇空氣流向",
+            "observed": "左右藍色氣流清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "由後左側進、前右側出且箭頭全向右",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "未宣稱製冷數值",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-range-22-01",
+      "prompt_id": "src-visual642-429",
+      "command": "/rangeofmotion",
+      "title": "機器人肘部活動範圍概念",
+      "description": "機器人肘部活動範圍概念（AI案例示範）",
+      "result_text": "機器人肘部活動範圍概念",
+      "reference": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+      "result": "output/imagegen/batch-20-22/range-22.png",
+      "applied_prompt": "Square educational illustration of reference blue white gold armored toy robot elbow range, three SEPARATE side-by-side panels. Crop only same arm, no head or body. Upper arm VERTICAL in all three panels, elbow at identical bottom-center location each. Left forearm continues straight DOWN, label EXTENDED. Middle forearm points horizontally RIGHT from elbow, label PARTLY BENT. Right forearm points UP from elbow alongside upper arm, label BENT. Clearly same elbow hinge pivot in each panel. Title MOTION RANGE CONCEPT. Only title and three labels, no logos no brand lettering. No numerical angles, illustrative conceptual motion.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "user",
+        "kind": "user_provided",
+        "path": "ex product/tw-11134207-820le-mrjwlgj7sdtu07.webp",
+        "sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "authorization": {
+          "date": "2026-10-09",
+          "directory": "ex product",
+          "instruction": "你可以使用這些案例進行生圖工作 來達成案例豐富化；做過的不需要再修正"
+        }
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "三格同上臂固定、肘關節同支點，前臂伸直、半彎、彎曲；無實測角度",
+        "effect": "機器人肘部活動範圍概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:32:08.690Z",
+        "source_instruction": "Show how far joints or parts can move.",
+        "reference_sha256": "a3bbf6a2537624a72babb33748e163815d0b582cea0af3bbbb99bdb78b0f4d59",
+        "result_sha256": "592efe79cf01482b5eb36c170a1c0201746cd21d444c3794ba9d0199d47be91b",
+        "applied_prompt_sha256": "978e5ddda01a191273e616670a50c674fc48043c575bfd116373d509d7034b0e",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.igus.co.uk/spherical-bearing",
+            "https://ansyshelp.ansys.com/public/Views/Secured/corp/v252/en/motion_theory/motion_theory_constraints_joints.html"
+          ],
+          "notes": "球接與鉸鏈為通用接合概念，非原商品拆解或實際關節驗證；源圖外觀另目視核對。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍白金機器人臂一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "三格同上臂固定、肘關節同支點，前臂伸直、半彎、彎曲；無實測角度",
+            "observed": "三格獨立肘部動作",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "機器人肘部活動範圍概念",
+            "observed": "伸直半彎彎曲清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "上臂固定且肘同支點",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無角度數值與品牌版面",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "活動支點不一致且複製商品品牌版面",
+          "applied_prompt": "Create a square web-quality website example. Three ghosted arm positions around same elbow hinge showing extension, middle bend, deeper bend. Title MOTION RANGE CONCEPT. Labels EXTENDED, PARTLY BENT, BENT. No degree measurements or actual model limits. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /rangeofmotion: Show how far joints or parts can move.",
+          "result": "output/imagegen/batch-20-22/range-22-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-control-22-01",
+      "prompt_id": "src-visual642-430",
+      "command": "/controlmap",
+      "title": "感應燈控制功能概念",
+      "description": "感應燈控制功能概念（AI案例示範）",
+      "result_text": "感應燈控制功能概念",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-22/control-22.png",
+      "applied_prompt": "Create a square web-quality website example. Close-up lamp side slider with inset three positions OFF AUTO ON. Lines connect OFF to unlit lamp, AUTO to walking person and lit lamp, ON to steadily lit lamp. Title CONTROL DESIGN CONCEPT. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /controlmap: Connect each control to its function.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Close-up lamp side slider with inset three positions OFF AUTO ON. Lines connect OFF to unlit lamp, AUTO to walking person and lit lamp, ON to steadily lit lamp. Title CONTROL DESIGN CONCEPT.",
+        "effect": "感應燈控制功能概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:32:55.919Z",
+        "source_instruction": "Connect each control to its function.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "055de1419f09787cdee0f83b0afbeb1c5559cec00d3bc030ed13d6adb87a4bf4",
+        "applied_prompt_sha256": "588704a8cb163a8ed07944d12bc8cf00add43a9e616d365cf053305e97297833",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "PIR偵測移動熱源造成紅外線變化，輸出訊號至控制模組驅動燈；示意電池供電與壁掛支架，非真實產品接線或安裝規格。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白燈側滑鈕一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Close-up lamp side slider with inset three positions OFF AUTO ON. Lines connect OFF to unlit lamp, AUTO to walking person and lit lamp, ON to steadily lit lamp. Title CONTROL DESIGN CONCEPT.",
+            "observed": "滑鈕放大加三個功能格",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈控制功能概念",
+            "observed": "OFF AUTO ON功能明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三條線分別到關閉感應常亮",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "概念設計未冒充實測模式",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-button-22-01",
+      "prompt_id": "src-visual642-431",
+      "command": "/buttonmap",
+      "title": "桌扇按鈕功能概念",
+      "description": "桌扇按鈕功能概念（AI案例示範）",
+      "result_text": "桌扇按鈕功能概念",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-22/button-22.png",
+      "applied_prompt": "Create a square web-quality website example. Fan round base single button highlighted. One callout POWER BUTTON, below two concept panels PRESS: ON and PRESS AGAIN: OFF with lit/unlit button indicator. Title BUTTON FUNCTION CONCEPT. No speed modes assumed. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /buttonmap: Label buttons and explain what they do.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Fan round base single button highlighted. One callout POWER BUTTON, below two concept panels PRESS: ON and PRESS AGAIN: OFF with lit/unlit button indicator. Title BUTTON FUNCTION CONCEPT. No speed modes assumed.",
+        "effect": "桌扇按鈕功能概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:33:56.926Z",
+        "source_instruction": "Label buttons and explain what they do.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "4de02b601eed2c111a9a895600eb83618d4399c379caefc2b055a6965198a532",
+        "applied_prompt_sha256": "6732bc3760e916786edba2c6ed0ef4d4b849f62e8a19de5f8bd062ff5fa44f3b",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "一般風扇清潔須先斷電、乾刷網罩並擦底座；不複製真實型號拆卸方式，無灑水或浸泡。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "桌扇單圓鈕外觀一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Fan round base single button highlighted. One callout POWER BUTTON, below two concept panels PRESS: ON and PRESS AGAIN: OFF with lit/unlit button indicator. Title BUTTON FUNCTION CONCEPT. No speed modes assumed.",
+            "observed": "主圖按鈕引線與下方兩格",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇按鈕功能概念",
+            "observed": "按下開再次按下關概念",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "開格指示亮與氣流，關格未亮",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無多餘速度模式宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-port-22-01",
+      "prompt_id": "src-visual642-432",
+      "command": "/portmap",
+      "title": "桌扇USB連接點",
+      "description": "桌扇USB連接點（AI案例示範）",
+      "result_text": "桌扇USB連接點",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-22/port-22.png",
+      "applied_prompt": "Create a square web-quality website example. Fan with black USB cable, inset USB-A male plug and laptop USB-A socket. Labels USB PLUG and USB SOCKET. No battery charging claim. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /portmap: Identify ports, sockets, and connection points.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Fan with black USB cable, inset USB-A male plug and laptop USB-A socket. Labels USB PLUG and USB SOCKET. No battery charging claim.",
+        "effect": "桌扇USB連接點",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:34:45.396Z",
+        "source_instruction": "Identify ports, sockets, and connection points.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "6215f65e0b5c79c18d03fa1bce6a005a5396e4537efb6bcba4c071f197f6d631",
+        "applied_prompt_sha256": "7dcc2df6c6c2f333071662fbabad1e1e93f0737c33f607cf17994feaf7643b6c",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "一般風扇清潔須先斷電、乾刷網罩並擦底座；不複製真實型號拆卸方式，無灑水或浸泡。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "桌扇黑USB線一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Fan with black USB cable, inset USB-A male plug and laptop USB-A socket. Labels USB PLUG and USB SOCKET. No battery charging claim.",
+            "observed": "主圖搭配插頭插座放大",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇USB連接點",
+            "observed": "兩種連接點可辨識",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "引線指USB-A插頭及筆電USB-A座",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無電池充電或其他埠宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-assembly-22-01",
+      "prompt_id": "src-visual642-433",
+      "command": "/assembly",
+      "title": "水瓶與護底套組合",
+      "description": "水瓶與護底套組合（AI案例示範）",
+      "result_text": "水瓶與護底套組合",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-22/assembly-22.png",
+      "applied_prompt": "Create a square web-quality website example. Separated bottle above olive base boot, downward arrow shows bottle slides into boot, assembled bottle beside. Labels BOTTLE, BASE BOOT, ASSEMBLED. Title ASSEMBLY CONCEPT. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /assembly: Show how separate parts become one object.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Separated bottle above olive base boot, downward arrow shows bottle slides into boot, assembled bottle beside. Labels BOTTLE, BASE BOOT, ASSEMBLED. Title ASSEMBLY CONCEPT.",
+        "effect": "水瓶與護底套組合",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:35:41.816Z",
+        "source_instruction": "Show how separate parts become one object.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "3349d98f83ae3088a9f646a0b9aa951779ddc45660b121a2bf93714df0794e58",
+        "applied_prompt_sha256": "3a3a3a2446998929ac306fbe08cfbc0e6cf2d2a066f58e456b1e86e3420b536b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款綠瓶黑蓋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Separated bottle above olive base boot, downward arrow shows bottle slides into boot, assembled bottle beside. Labels BOTTLE, BASE BOOT, ASSEMBLED. Title ASSEMBLY CONCEPT.",
+            "observed": "分離瓶與底套加完成品",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶與護底套組合",
+            "observed": "零件組成一體清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "向下箭頭指底套開口且完成後貼合",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "三標籤對應正確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-sequence-22-01",
+      "prompt_id": "src-visual642-434",
+      "command": "/assemblysequence",
+      "title": "紙盒組裝順序概念",
+      "description": "紙盒組裝順序概念（AI案例示範）",
+      "result_text": "紙盒組裝順序概念",
+      "reference": "output/imagegen/batch-20-04/box-reference.png",
+      "result": "output/imagegen/batch-20-22/sequence-22.png",
+      "applied_prompt": "Create a square web-quality website example. Three numbered panels 1 FLAT BLANK clear cross-shaped corrugated box net, 2 FOLD SIDES four walls rise, 3 CLOSE LID finished sage leaf box. Concept simplified. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /assemblysequence: Show assembly in numbered stages.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-04/box-reference.png",
+        "sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a neutral reference photo of one fictional foldable cubic paperboard gift carton. Precisely cube-shaped exterior, pale mint green matte cardboard, understated dark green leaf emblem centered on front, no text or logos. Closed tuck-top flaps, a narrow seam on right edge. Three-quarter view on seamless warm white studio surface, whole box visible with breathing room, soft contact shadow. Design concept only, not an existing branded package. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Three numbered panels 1 FLAT BLANK clear cross-shaped corrugated box net, 2 FOLD SIDES four walls rise, 3 CLOSE LID finished sage leaf box. Concept simplified.",
+        "effect": "紙盒組裝順序概念",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:36:24.378Z",
+        "source_instruction": "Show assembly in numbered stages.",
+        "reference_sha256": "64cd0914e22611be693bd5f5c6563ba5e5297cb209d915a8258d1f284844f25b",
+        "result_sha256": "3e49df563c23040091af56b6e1f79ec6319d9123f537f12515e4cf098e8072f8",
+        "applied_prompt_sha256": "bedc7d4325578de9d25a2d14ade69b9f0cbced86981e0dcde57469b6bfab2e9d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色紙盒一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Three numbered panels 1 FLAT BLANK clear cross-shaped corrugated box net, 2 FOLD SIDES four walls rise, 3 CLOSE LID finished sage leaf box. Concept simplified.",
+            "observed": "三格展開半組裝完成",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "紙盒組裝順序概念",
+            "observed": "平面折側封蓋依序",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "折線板片形成盒體，編號1到3",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "簡化概念未聲稱裁切施工規格",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-disassembly-22-01",
+      "prompt_id": "src-visual642-435",
+      "command": "/disassembly",
+      "title": "水瓶外部零件拆解",
+      "description": "水瓶外部零件拆解（AI案例示範）",
+      "result_text": "水瓶外部零件拆解",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-22/disassembly-22.png",
+      "applied_prompt": "Create a square web-quality website example. Three ordered panels 1 UNSCREW CAP using curved arrow cap, 2 LIFT CAP cap above open bottle, 3 REMOVE BOOT olive boot pulled off bottom. External parts only, do not cut body. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /disassembly: Show how to take the subject apart.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Three ordered panels 1 UNSCREW CAP using curved arrow cap, 2 LIFT CAP cap above open bottle, 3 REMOVE BOOT olive boot pulled off bottom. External parts only, do not cut body.",
+        "effect": "水瓶外部零件拆解",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:37:42.744Z",
+        "source_instruction": "Show how to take the subject apart.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "3349f5a23ffb61c44907ef191621b9de367d17f8bdaf7cd3e3b53b27ad99203b",
+        "applied_prompt_sha256": "e681b0d774d2f355d20577028d8b904f46531ade0b3e8394a6780ebaf3d1b1cb",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑蓋與護底套",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Three ordered panels 1 UNSCREW CAP using curved arrow cap, 2 LIFT CAP cap above open bottle, 3 REMOVE BOOT olive boot pulled off bottom. External parts only, do not cut body.",
+            "observed": "三格外部拆解",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶外部零件拆解",
+            "observed": "旋蓋提蓋移除底套",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "旋轉與向上提蓋、底套向下分離",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無切開瓶身或虛構內件",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-steps-22-01",
+      "prompt_id": "src-visual642-436",
+      "command": "/stepsequence",
+      "title": "牙刷使用後清潔流程",
+      "description": "牙刷使用後清潔流程（AI案例示範）",
+      "result_text": "牙刷使用後清潔流程",
+      "reference": "output/imagegen/batch-20-09/brush-reference.png",
+      "result": "output/imagegen/batch-20-22/steps-22.png",
+      "applied_prompt": "Create a square web-quality website example. Three numbered panels 1 RINSE brush head under tap, 2 SHAKE OFF WATER brush over sink, 3 AIR DRY upright toothbrush head up not covered. Title AFTER-USE CARE. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /stepsequence: Present a task frame by frame.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-09/brush-reference.png",
+        "sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "generator": "built-in imagegen",
+        "prompt": "A single generic manual toothbrush product reference photo, mint green and white ergonomic handle, one compact oval head with dense short white and pale turquoise bristles, full toothbrush visible diagonally from lower left handle to upper right head on white studio background with a subtle shadow. Photorealistic web quality, no text, no logos, no watermark, no toothpaste, no person. Fictional product used for visual design concepts only, no medical or germ-killing claims."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Three numbered panels 1 RINSE brush head under tap, 2 SHAKE OFF WATER brush over sink, 3 AIR DRY upright toothbrush head up not covered. Title AFTER-USE CARE.",
+        "effect": "牙刷使用後清潔流程",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:39:01.277Z",
+        "source_instruction": "Present a task frame by frame.",
+        "reference_sha256": "71ba9d08c54b35ea8758b10ef30db91005d7a31a417966917b6683eedfa84d6c",
+        "result_sha256": "baf8906dc7e1a288d57a8fbf1156087103bfdbf07c4d1d03c8292bfefab856b8",
+        "applied_prompt_sha256": "d880811c4427484ce6e85edaa89f2aadcceb259b9df84aded5cd68ebeece74c7",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes"
+          ],
+          "notes": "刷後沖淨、甩去水分，直立通風乾燥，不覆蓋刷頭。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白綠牙刷一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Three numbered panels 1 RINSE brush head under tap, 2 SHAKE OFF WATER brush over sink, 3 AIR DRY upright toothbrush head up not covered. Title AFTER-USE CARE.",
+            "observed": "三格洗手台清潔步驟",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "牙刷使用後清潔流程",
+            "observed": "沖洗甩水直立乾燥",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "沖刷頭、甩水在水槽上、刷頭向上不覆蓋",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "順序及文字正確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-card-22-01",
+      "prompt_id": "src-visual642-437",
+      "command": "/instructioncard",
+      "title": "桌扇清潔指令卡",
+      "description": "桌扇清潔指令卡（AI案例示範）",
+      "result_text": "桌扇清潔指令卡",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-22/card-22.png",
+      "applied_prompt": "Create a square web-quality website example. Compact three-step card with reference fan. 1 UNPLUG USB visibly disconnected, 2 BRUSH GRILLE soft brush exterior, 3 WIPE BASE dry cloth. Title QUICK CLEAN. No water on motor. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /instructioncard: Create a compact visual instruction card.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Compact three-step card with reference fan. 1 UNPLUG USB visibly disconnected, 2 BRUSH GRILLE soft brush exterior, 3 WIPE BASE dry cloth. Title QUICK CLEAN. No water on motor.",
+        "effect": "桌扇清潔指令卡",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:40:02.555Z",
+        "source_instruction": "Create a compact visual instruction card.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "75e67e74063f4c7d47d90b00da7ff4053da4de580752b0333c6cbe1b1380ccf4",
+        "applied_prompt_sha256": "98346520087b2056f41a2d2b141ca7bfe927a8b9f5c1c5497433994f38022a99",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "一般風扇清潔須先斷電、乾刷網罩並擦底座；不複製真實型號拆卸方式，無灑水或浸泡。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同款桌扇",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Compact three-step card with reference fan. 1 UNPLUG USB visibly disconnected, 2 BRUSH GRILLE soft brush exterior, 3 WIPE BASE dry cloth. Title QUICK CLEAN. No water on motor.",
+            "observed": "三步緊湊指令卡",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇清潔指令卡",
+            "observed": "拔USB刷外網擦底座",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "順序1到3且斷電在前",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無水碰馬達標示正確",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-manual-22-01",
+      "prompt_id": "src-visual642-438",
+      "command": "/manualpage",
+      "title": "感應燈使用手冊概念頁",
+      "description": "感應燈使用手冊概念頁（AI案例示範）",
+      "result_text": "感應燈使用手冊概念頁",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-22/manual-22.png",
+      "applied_prompt": "Square compact manual page for concept white battery motion wall light reference. Title CONCEPT USER GUIDE. Three sections: PARTS contains four labeled image crops DIFFUSER, SENSOR, SLIDER, BRACKET. SETUP contains two numbered mini diagrams 1 MOUNT BRACKET with two screws, 2 ATTACH LIGHT shows bracket behind light aligning onto bracket. USE contains three icons and labels OFF: LIGHT OFF, AUTO: MOTION ACTIVATED, ON: LIGHT ON. The listed title, headings and labels are the ONLY text. No sidebars no supplies no claims about included items no extra sentences. Simple clear instruction illustrations. Original /manualpage: Turn the subject into a manual-style page.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Manual page layout lamp product sketch top, sections PARTS showing diffuser sensor slider bracket, SETUP showing mounting bracket and sliding light onto it, USE slider OFF AUTO ON concept. Title CONCEPT USER GUIDE. No electrical mains work.",
+        "effect": "感應燈使用手冊概念頁",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:41:43.518Z",
+        "source_instruction": "Turn the subject into a manual-style page.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "9da95475ce9e5da2fc9056c7d043dd45c2c0d253b9349abd47f583d47a076655",
+        "applied_prompt_sha256": "21537e217c200bfb1cb3f57399ef2a80d1b6e2613a0b77f31e13dd18c731d26e",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "PIR偵測移動熱源造成紅外線變化，輸出訊號至控制模組驅動燈；示意電池供電與壁掛支架，非真實產品接線或安裝規格。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色燈與支架一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Manual page layout lamp product sketch top, sections PARTS showing diffuser sensor slider bracket, SETUP showing mounting bracket and sliding light onto it, USE slider OFF AUTO ON concept. Title CONCEPT USER GUIDE. No electrical mains work.",
+            "observed": "手冊零件安裝使用三區",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈使用手冊概念頁",
+            "observed": "四零件兩安裝步驟三模式齊全",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "零件圖對標籤，安裝箭頭向支架",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "僅指定文字無隨附宣稱",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "多餘生圖說明及未核實隨附物品",
+          "applied_prompt": "Create a square web-quality website example. Manual page layout lamp product sketch top, sections PARTS showing diffuser sensor slider bracket, SETUP showing mounting bracket and sliding light onto it, USE slider OFF AUTO ON concept. Title CONCEPT USER GUIDE. No electrical mains work. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /manualpage: Turn the subject into a manual-style page.",
+          "result": "output/imagegen/batch-20-22/manual-22-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-quick-22-01",
+      "prompt_id": "src-visual642-439",
+      "command": "/quickreference",
+      "title": "水瓶快速保養參考",
+      "description": "水瓶快速保養參考（AI案例示範）",
+      "result_text": "水瓶快速保養參考",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-22/quick-22.png",
+      "applied_prompt": "Create a square web-quality website example. Compact four-tile guide RINSE BODY water bottle, WASH CAP mild soap, AIR DRY separated cap and bottle, REASSEMBLE cap on bottle. Title QUICK CARE REFERENCE. No dishwasher claims. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /quickreference: Create a fast visual reference guide.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Compact four-tile guide RINSE BODY water bottle, WASH CAP mild soap, AIR DRY separated cap and bottle, REASSEMBLE cap on bottle. Title QUICK CARE REFERENCE. No dishwasher claims.",
+        "effect": "水瓶快速保養參考",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:42:38.747Z",
+        "source_instruction": "Create a fast visual reference guide.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "ac0d1733e25a8956e512a9df0d0726603e668b248305d0050d394da7250d9b45",
+        "applied_prompt_sha256": "698ffe3c7672cb739c64197746f9d18a992ff0d4d0f701c021d9f2b279dc6d69",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠瓶黑環蓋一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Compact four-tile guide RINSE BODY water bottle, WASH CAP mild soap, AIR DRY separated cap and bottle, REASSEMBLE cap on bottle. Title QUICK CARE REFERENCE. No dishwasher claims.",
+            "observed": "四格快速參考",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶快速保養參考",
+            "observed": "沖洗洗蓋乾燥重組",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "蓋分開風乾後重組順序",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無洗碗機宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-check-22-01",
+      "prompt_id": "src-visual642-440",
+      "command": "/checklist",
+      "title": "帆布袋檢查清單",
+      "description": "帆布袋檢查清單（AI案例示範）",
+      "result_text": "帆布袋檢查清單",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-22/check-22.png",
+      "applied_prompt": "Create a square web-quality website example. Tote centered, four checklist items with checkboxes: HANDLE STITCHING, SIDE SEAMS, BASE CORNERS, FABRIC CLEANLINESS. Small matching closeups. Title TOTE CHECKLIST. No made-up tests. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /checklist: Create a checklist of actions or parts.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Tote centered, four checklist items with checkboxes: HANDLE STITCHING, SIDE SEAMS, BASE CORNERS, FABRIC CLEANLINESS. Small matching closeups. Title TOTE CHECKLIST. No made-up tests.",
+        "effect": "帆布袋檢查清單",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:45:50.089Z",
+        "source_instruction": "Create a checklist of actions or parts.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "1aa34e59bbd6f47c63d736ceaf3ff5a47d1d1ce6b85e17e4e5804e74b107a3c9",
+        "applied_prompt_sha256": "40bcff5f018fa9a411f34003c231683218a17ec853cb15d8ba5e56af4dca23dc",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.coats.com/en/industries/composites/faqs/"
+          ],
+          "notes": "縫線、張力與接合影響縫合強度；示意接縫補強及可能磨耗，無確定壽命或載重數據。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白帆布包與棕色提把一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Tote centered, four checklist items with checkboxes: HANDLE STITCHING, SIDE SEAMS, BASE CORNERS, FABRIC CLEANLINESS. Small matching closeups. Title TOTE CHECKLIST. No made-up tests.",
+            "observed": "桌面日常產品檢查場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋檢查清單",
+            "observed": "四個勾選項構成檢查清單",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "四條引線各指向提把縫線、側縫、底角與布面",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "英文四項名稱清楚，局部放大符合位置",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-decision-22-01",
+      "prompt_id": "src-visual642-441",
+      "command": "/decisiontree",
+      "title": "桌扇不轉排查決策樹",
+      "description": "桌扇不轉排查決策樹（AI案例示範）",
+      "result_text": "桌扇不轉排查決策樹",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-22/decision-22.png",
+      "applied_prompt": "Create a square web-quality website example. Simple decision tree top FAN NOT RUNNING -> USB CONNECTED? YES -> PRESS POWER -> RUNNING? YES -> DONE, NO -> STOP AND CONTACT SERVICE. USB CONNECTED? NO -> CONNECT USB -> PRESS POWER. Clear yes/no branches. No internal electrical repair. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /decisiontree: Show what to do next at each choice.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Simple decision tree top FAN NOT RUNNING -> USB CONNECTED? YES -> PRESS POWER -> RUNNING? YES -> DONE, NO -> STOP AND CONTACT SERVICE. USB CONNECTED? NO -> CONNECT USB -> PRESS POWER. Clear yes/no branches. No internal electrical repair.",
+        "effect": "桌扇不轉排查決策樹",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:46:25.807Z",
+        "source_instruction": "Show what to do next at each choice.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "99de876acc727033eaf51d79bbf5f8c944a3fd8d16ffadd7c578d9376a62052c",
+        "applied_prompt_sha256": "99efd1c365e48301c6d7ee4ca4fa4fa0b3841a29d1912856c033f6c0e4b125f9",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "一般風扇清潔須先斷電、乾刷網罩並擦底座；不複製真實型號拆卸方式，無灑水或浸泡。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油桌扇與USB電源符合參考",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Simple decision tree top FAN NOT RUNNING -> USB CONNECTED? YES -> PRESS POWER -> RUNNING? YES -> DONE, NO -> STOP AND CONTACT SERVICE. USB CONNECTED? NO -> CONNECT USB -> PRESS POWER. Clear yes/no branches. No internal electrical repair.",
+            "observed": "白底桌扇故障排查圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇不轉排查決策樹",
+            "observed": "USB是否連接與是否運轉兩層決策分支清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "YES到按電源、NO到接USB；運轉YES完成、NO停止並聯絡服務，方向正確",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "所有問題與終點標示可讀；未描繪內部電路維修",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-repairguide-22-01",
+      "prompt_id": "src-visual642-442",
+      "command": "/repairguide",
+      "title": "帆布袋開線修復指引",
+      "description": "帆布袋開線修復指引（AI案例示範）",
+      "result_text": "帆布袋開線修復指引",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-22/repairguide-22.png",
+      "applied_prompt": "Create a square web-quality website example. Three panels PROBLEM opened handle seam, REPAIR needle and thread restitch seam with square X, RESULT intact handle stitching. Title SEAM REPAIR GUIDE. No load rating. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /repairguide: Show the problem and the repair path.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Three panels PROBLEM opened handle seam, REPAIR needle and thread restitch seam with square X, RESULT intact handle stitching. Title SEAM REPAIR GUIDE. No load rating.",
+        "effect": "帆布袋開線修復指引",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:47:07.632Z",
+        "source_instruction": "Show the problem and the repair path.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "21e9c8a1e3ac4ca23b015c8d8c163c7d9d2a9531362df28987bab5be0692ed68",
+        "applied_prompt_sha256": "a313f11831119c392a474fd15adf20b524138a68e27e3d5b1cb22e8f7d2205d9",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.coats.com/en/industries/composites/faqs/"
+          ],
+          "notes": "縫線、張力與接合影響縫合強度；示意接縫補強及可能磨耗，無確定壽命或載重數據。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "棕色提把與米白帆布縫接部位一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Three panels PROBLEM opened handle seam, REPAIR needle and thread restitch seam with square X, RESULT intact handle stitching. Title SEAM REPAIR GUIDE. No load rating.",
+            "observed": "三欄局部維修示範",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "帆布袋開線修復指引",
+            "observed": "依序展示開線、針線修補及完整縫線",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "同一提把方框X縫接位置前後對應，針線作用於縫接處",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "PROBLEM、REPAIR、RESULT及針線材料標示清晰，沒有載重宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-resolve-22-01",
+      "prompt_id": "src-visual642-443",
+      "command": "/problemresolution",
+      "title": "感應燈感測遮擋排除",
+      "description": "感應燈感測遮擋排除（AI案例示範）",
+      "result_text": "感應燈感測遮擋排除",
+      "reference": "output/imagegen/batch-20-20/lamp-reference.png",
+      "result": "output/imagegen/batch-20-22/resolve-22.png",
+      "applied_prompt": "Square three-panel product troubleshooting illustration of reference white battery PIR wall light. Title SENSOR OBSTRUCTION EXAMPLE. Panel 1 PROBLEM: cloth fully covers round sensor below diffuser; rectangular diffuser is OFF matte gray, no glow. Panel 2 DIAGNOSIS: hand removes cloth revealing round sensor; diffuser remains OFF matte gray. Panel 3 SOLUTION: uncovered sensor, walking person icon, diffuser ON bright warm light and visible wall glow. Same lamp and wall throughout. ONLY text is title and three panel headings PROBLEM, DIAGNOSIS, SOLUTION. No footnotes, no extra sentences, no technical guarantees. Original /problemresolution: Compare problem, diagnosis, and solution.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-20/lamp-reference.png",
+        "sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "generator": "built-in imagegen",
+        "prompt": "Square clean studio product photograph of a generic battery-powered indoor PIR motion sensor wall light. Compact rounded rectangular warm-white plastic body, upper wide frosted rectangular LED diffuser, small circular white faceted Fresnel motion sensor lens centered beneath diffuser, discreet side sliding switch. Rear wall bracket visible beside light. No mains cable, no solar panel, no text, no brand. Three-quarter view on pale gray background. Plausible everyday design."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Three panels PROBLEM circular PIR lens covered by cloth, DIAGNOSIS uncover obstructed lens, SOLUTION clear lens and walking person light turns on. Title SENSOR OBSTRUCTION EXAMPLE. No guarantee all faults same cause.",
+        "effect": "感應燈感測遮擋排除",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:48:44.764Z",
+        "source_instruction": "Compare problem, diagnosis, and solution.",
+        "reference_sha256": "63098091238bc24e766a4ef6fe7b23e67d94947619d2c7a062975e412e52daeb",
+        "result_sha256": "dafead962f85674f3ef90438336c99b8a9ff02b5a2d4af8f0da621dce1ca9a4e",
+        "applied_prompt_sha256": "10eb2b78491fb02dd38c2ec4025c0a5b0040ae799ce769a65130fdcdc041efce",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor?view=all"
+          ],
+          "notes": "PIR偵測移動熱源造成紅外線變化，輸出訊號至控制模組驅動燈；示意電池供電與壁掛支架，非真實產品接線或安裝規格。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "白色電池感應壁燈保留上下燈罩與PIR配置",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Three panels PROBLEM circular PIR lens covered by cloth, DIAGNOSIS uncover obstructed lens, SOLUTION clear lens and walking person light turns on. Title SENSOR OBSTRUCTION EXAMPLE. No guarantee all faults same cause.",
+            "observed": "三欄問題、診斷、解決對照",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "感應燈感測遮擋排除",
+            "observed": "布覆感應器、移開布、恢復感應亮燈三狀態明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "前兩欄燈關閉，第三欄感應器無遮擋並配行人及亮燈",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "只有標題與三欄標示，沒有多餘提示文字或普遍維修保證",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "多餘提示文字且問題階段仍亮燈",
+          "applied_prompt": "Create a square web-quality website example. Three panels PROBLEM circular PIR lens covered by cloth, DIAGNOSIS uncover obstructed lens, SOLUTION clear lens and walking person light turns on. Title SENSOR OBSTRUCTION EXAMPLE. No guarantee all faults same cause. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /problemresolution: Compare problem, diagnosis, and solution.",
+          "result": "output/imagegen/batch-20-22/resolve-22-initial.png"
+        }
+      ]
+    },
+    {
+      "id": "case-maint-22-01",
+      "prompt_id": "src-visual642-444",
+      "command": "/maintenanceguide",
+      "title": "桌扇定期保養指南",
+      "description": "桌扇定期保養指南（AI案例示範）",
+      "result_text": "桌扇定期保養指南",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-22/maint-22.png",
+      "applied_prompt": "Square four-panel routine care guide for reference cream desktop USB fan teal blades. Title ROUTINE CARE. Panels: 1 UNPLUG USB show intact continuous black cable attached to fan and USB-A plug pulled away from a laptop USB port, air gap ONLY between metal plug and laptop socket, never cut or broken wire. 2 REMOVE SURFACE DUST soft brush outside grille. 3 WIPE BASE dry cloth outside base. 4 CHECK CABLE FOR DAMAGE close view intact continuous cable and USB connector visual inspection. Fan off throughout. Labels above only, no extra text. Original /maintenanceguide: Show routine maintenance steps clearly.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four tiles UNPLUG USB, REMOVE SURFACE DUST with soft brush, WIPE BASE with drycloth, CHECK CABLE FOR DAMAGE visualinspection. Title ROUTINE CARE. No oil or motor disassembly.",
+        "effect": "桌扇定期保養指南",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T03:50:51.044Z",
+        "source_instruction": "Show regular service tasks.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "7c9bf7fe0060a2e2db16d2e15abbc4a6a57293a745ca253914c9360f5adb6147",
+        "applied_prompt_sha256": "e2d157f6594035947882cd3abf0d5c0dd24ccbf97f907f65931c05b23fcdd30c",
+        "requires_factual_check": true,
+        "factual_check": {
+          "status": "passed",
+          "source_urls": [
+            "https://www.vornado.com/wp-content/uploads/2016/04/VFAN.pdf"
+          ],
+          "notes": "一般風扇清潔須先斷電、乾刷網罩並擦底座；不複製真實型號拆卸方式，無灑水或浸泡。"
+        },
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油桌扇與青綠葉片、USB線材一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four tiles UNPLUG USB, REMOVE SURFACE DUST with soft brush, WIPE BASE with drycloth, CHECK CABLE FOR DAMAGE visualinspection. Title ROUTINE CARE. No oil or motor disassembly.",
+            "observed": "四格日常外部保養說明",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇定期保養指南",
+            "observed": "拔USB、刷灰、擦底座、檢查線材四步清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "USB插頭與筆電插座分離但線材完整；刷子及乾布作用於外表",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "四個步驟標題清楚，無內部拆修或潤滑宣稱",
+            "status": "passed"
+          }
+        ]
+      },
+      "repair_history": [
+        {
+          "reason": "拔除USB畫成插頭與線材斷開",
+          "applied_prompt": "Create a square web-quality website example. Four tiles UNPLUG USB, REMOVE SURFACE DUST with soft brush, WIPE BASE with drycloth, CHECK CABLE FOR DAMAGE visualinspection. Title ROUTINE CARE. No oil or motor disassembly. Reference supplies identity only. Preserve coherent structure and correct specified labels. Original instruction /maintenanceguide: Show regular service tasks.",
+          "result": "output/imagegen/batch-20-22/maintenance-22-initial.png"
+        }
+      ]
+    }
+  ]
+}

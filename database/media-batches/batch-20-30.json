@@ -1,0 +1,1386 @@
+{
+  "version": 1,
+  "id": "batch-20-30",
+  "cases": [
+    {
+      "id": "case-long-30-01",
+      "prompt_id": "src-visual642-585",
+      "command": "/longexposure",
+      "title": "長曝光夜景住宅",
+      "description": "長曝光夜景住宅（AI案例示範）",
+      "result_text": "長曝光夜景住宅",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-30/long-30.png",
+      "applied_prompt": "Create a square web-quality website example. Night architectural photo of reference house beside a road: house sharp, long red and white vehicle light trails curve along road, distant clouds softly streaked. Clearly long exposure light trails and smooth movement, coherent road not through house, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /longexposure: Show light trails and smooth movement.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Night architectural photo of reference house beside a road: house sharp, long red and white vehicle light trails curve along road, distant clouds softly streaked. Clearly long exposure light trails and smooth movement, coherent road not through house, no text.",
+        "effect": "長曝光夜景住宅",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:32:17.965Z",
+        "source_instruction": "Show light trails and smooth movement.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "29b786032553308c453e53d538c05be919775338626d0e15f0302a239b978ea1",
+        "applied_prompt_sha256": "79aa0359f761e61ea312ad9ef51e60b5f098bebf961a4bbe8739061481fb43f8",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙層斜屋頂住宅身份清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Night architectural photo of reference house beside a road: house sharp, long red and white vehicle light trails curve along road, distant clouds softly streaked. Clearly long exposure light trails and smooth movement, coherent road not through house, no text.",
+            "observed": "夜間路旁住宅場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "長曝光夜景住宅",
+            "observed": "紅白車燈長軌與柔化雲層符合長曝光",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "燈軌沿房前道路延伸，未穿過建築",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，房屋清晰與光軌形成對照",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-paint-30-01",
+      "prompt_id": "src-visual642-586",
+      "command": "/lightpainting",
+      "title": "水瓶光繪軌跡",
+      "description": "水瓶光繪軌跡（AI案例示範）",
+      "result_text": "水瓶光繪軌跡",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-30/paint-30.png",
+      "applied_prompt": "Create a square web-quality website example. Reference sage bottle sharp on dark studio pedestal; one luminous golden light-painting path spirals around bottle through scene, visible glowing trails in open air, no drawn writing or text. Bottle silhouette remains clear. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /lightpainting: Draw glowing paths through the scene.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference sage bottle sharp on dark studio pedestal; one luminous golden light-painting path spirals around bottle through scene, visible glowing trails in open air, no drawn writing or text. Bottle silhouette remains clear.",
+        "effect": "水瓶光繪軌跡",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:33:25.943Z",
+        "source_instruction": "Draw glowing paths through the scene.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "381ae2def8628c6bc54da172e33a53274a7d578fe0c1273f09d609465157a24f",
+        "applied_prompt_sha256": "9e99b59277c3794648fad31a05d049500542fd18f1e334fa25cd88dbfe243c4a",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色黑蓋水瓶清楚可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference sage bottle sharp on dark studio pedestal; one luminous golden light-painting path spirals around bottle through scene, visible glowing trails in open air, no drawn writing or text. Bottle silhouette remains clear.",
+            "observed": "暗色展示台與光線環境",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶光繪軌跡",
+            "observed": "金色發光路徑在空中螺旋穿過場景符合光繪",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "光軌前後繞瓶，保留主體輪廓",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，發光軌跡連續無多餘標誌",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-blur-30-01",
+      "prompt_id": "src-visual642-587",
+      "command": "/motionblur",
+      "title": "手提袋方向性動態模糊",
+      "description": "手提袋方向性動態模糊（AI案例示範）",
+      "result_text": "手提袋方向性動態模糊",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-30/blur-30.png",
+      "applied_prompt": "Create a square web-quality website example. Adult walking briskly left to right along clean urban sidewalk carrying reference cream tote with brown handles. Tote center relatively recognizable, body and street have strong horizontal directional motion blur, handles physically held. Motion photography, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /motionblur: Emphasize movement with directional blur.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Adult walking briskly left to right along clean urban sidewalk carrying reference cream tote with brown handles. Tote center relatively recognizable, body and street have strong horizontal directional motion blur, handles physically held. Motion photography, no text.",
+        "effect": "手提袋方向性動態模糊",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:34:16.923Z",
+        "source_instruction": "Emphasize movement with directional blur.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "60251ba597fc9885a7505183ead8b1ee1400c7c337ee0cc91e8f601580fae675",
+        "applied_prompt_sha256": "1df56f5ab7a110cb321d7ced1ce0c8a6fba61966482507dc388ea6b04c4cfe0d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白手提袋與棕色把手保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Adult walking briskly left to right along clean urban sidewalk carrying reference cream tote with brown handles. Tote center relatively recognizable, body and street have strong horizontal directional motion blur, handles physically held. Motion photography, no text.",
+            "observed": "成人快步通過都市人行道",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋方向性動態模糊",
+            "observed": "背景與步伐有明確水平模糊，強調移動",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "手握雙把手自然，袋身相對清晰，運動方向連貫",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，手部與袋身未見明顯畸形",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-time-30-01",
+      "prompt_id": "src-visual642-588",
+      "command": "/timelapse",
+      "title": "住宅日夜縮時圖像",
+      "description": "住宅日夜縮時圖像（AI案例示範）",
+      "result_text": "住宅日夜縮時圖像",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-30/time-30.png",
+      "applied_prompt": "Create a square web-quality website example. Single square image divided into four equal vertical time-lapse panels of exactly same reference house and same fixed camera: dawn, bright noon, sunset, starry night. Same architecture and framing in all four, changing sky and illumination compress entire day into one image. Print only DAWN, NOON, DUSK, NIGHT left to right. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /timelapse: Compress a long process into one image.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Single square image divided into four equal vertical time-lapse panels of exactly same reference house and same fixed camera: dawn, bright noon, sunset, starry night. Same architecture and framing in all four, changing sky and illumination compress entire day into one image. Print only DAWN, NOON, DUSK, NIGHT left to right.",
+        "effect": "住宅日夜縮時圖像",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:35:08.818Z",
+        "source_instruction": "Compress a long process into one image.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "d5ef0bb34c1068933415343d1482fbb1516c48365ada0ea28b272ff6c6ef4512",
+        "applied_prompt_sha256": "30716c31d0b0aa033458515edc634ab0bc0a289e43a5d9f83d421dfbc08c12cc",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "四格皆為一致雙層斜屋頂住宅",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Single square image divided into four equal vertical time-lapse panels of exactly same reference house and same fixed camera: dawn, bright noon, sunset, starry night. Same architecture and framing in all four, changing sky and illumination compress entire day into one image. Print only DAWN, NOON, DUSK, NIGHT left to right.",
+            "observed": "同一視角從黎明到夜晚",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "住宅日夜縮時圖像",
+            "observed": "日夜光照變化壓縮全天過程符合縮時本意",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "四格構圖與建築保持一致，順序合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "DAWN NOON DUSK NIGHT文字正確清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-slow-30-01",
+      "prompt_id": "src-visual642-589",
+      "command": "/slowmotion",
+      "title": "檸檬慢動作水花",
+      "description": "檸檬慢動作水花（AI案例示範）",
+      "result_text": "檸檬慢動作水花",
+      "reference": "output/imagegen/batch-20-15/lemon-reference.png",
+      "result": "output/imagegen/batch-20-30/slow-30.png",
+      "applied_prompt": "Create a square web-quality website example. High-speed photographic slow-motion appearance of reference whole lemon just hitting clear water, suspended splash crown and separated tiny droplets frozen in air, lemon recognizable and coherent, clean blue studio background, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /slowmotion: Make movement look suspended.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-15/lemon-reference.png",
+        "sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference photo of a single whole yellow lemon beside one matching half lemon showing naturally radial pale yellow juicy segments and white pith, plain white seamless studio, no other objects, no labels, no logo, whole fruit visible, square web quality, natural accurate citrus structure."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "High-speed photographic slow-motion appearance of reference whole lemon just hitting clear water, suspended splash crown and separated tiny droplets frozen in air, lemon recognizable and coherent, clean blue studio background, no text.",
+        "effect": "檸檬慢動作水花",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:36:05.424Z",
+        "source_instruction": "Make movement look suspended.",
+        "reference_sha256": "f9b4dcb687cfce96dc02dfca839758255abd799d287b69ee4aa8b123b69aff12",
+        "result_sha256": "d1532ec1edb3aca0fc403dec9b752c32fdf2119d718b6fe688532c321f841bf1",
+        "applied_prompt_sha256": "7776fddaba945caa67872e0b3e951d9b1631734ef96b907d81fdeb5f55e84dd3",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "整顆黃色檸檬輪廓與表皮可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "High-speed photographic slow-motion appearance of reference whole lemon just hitting clear water, suspended splash crown and separated tiny droplets frozen in air, lemon recognizable and coherent, clean blue studio background, no text.",
+            "observed": "清水與藍色棚拍背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "檸檬慢動作水花",
+            "observed": "水冠與獨立水滴懸停，呈慢動作凝滯感",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "檸檬穿過水面與水花互動連貫",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，水滴及檸檬細節清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-stop-30-01",
+      "prompt_id": "src-visual642-590",
+      "command": "/stopmotion",
+      "title": "手作停格住宅",
+      "description": "手作停格住宅（AI案例示範）",
+      "result_text": "手作停格住宅",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-30/stop-30.png",
+      "applied_prompt": "Create a square web-quality website example. Handmade stop-motion film still appearance of reference gabled two-story house built from clay and cardboard miniature, visible finger marks, imperfect hand-cut windows, tiny felt bushes and crafted clouds on stage. Tactile frame-by-frame animation look as single still, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /stopmotion: Use a handmade frame-by-frame appearance.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Handmade stop-motion film still appearance of reference gabled two-story house built from clay and cardboard miniature, visible finger marks, imperfect hand-cut windows, tiny felt bushes and crafted clouds on stage. Tactile frame-by-frame animation look as single still, no text.",
+        "effect": "手作停格住宅",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:36:58.547Z",
+        "source_instruction": "Use a handmade frame-by-frame appearance.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "09b66511498470e82edfb62e295637f74ebbead75a15e36b302a62972f4439b8",
+        "applied_prompt_sha256": "e08ad65565452f46bc4809778daae7a2a913c7e5b132df063cf989ec644e5759",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "雙層斜屋頂住宅身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Handmade stop-motion film still appearance of reference gabled two-story house built from clay and cardboard miniature, visible finger marks, imperfect hand-cut windows, tiny felt bushes and crafted clouds on stage. Tactile frame-by-frame animation look as single still, no text.",
+            "observed": "紙雲、模型灌木與手工舞台背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手作停格住宅",
+            "observed": "紙板切邊、黏土紋與不規則窗框呈手作停格外觀",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "小模型景深與房屋比例連貫",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，手工瑕疵符合風格而非生成損壞",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-trail-30-01",
+      "prompt_id": "src-visual642-591",
+      "command": "/motiontrail",
+      "title": "水瓶運動殘影",
+      "description": "水瓶運動殘影（AI案例示範）",
+      "result_text": "水瓶運動殘影",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-30/trail-30.png",
+      "applied_prompt": "Create a square web-quality website example. Reference bottle moving left to right through neutral dark studio, final bottle at right is sharp and solid, three gradually fainter translucent previous positions trail BEHIND it toward left. All duplicate forms identical shape and orientation, no text or arrows. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /motiontrail: Leave trails behind moving elements.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Reference bottle moving left to right through neutral dark studio, final bottle at right is sharp and solid, three gradually fainter translucent previous positions trail BEHIND it toward left. All duplicate forms identical shape and orientation, no text or arrows.",
+        "effect": "水瓶運動殘影",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:37:46.250Z",
+        "source_instruction": "Leave trails behind moving elements.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "8cdac73f9d4710d82528c4f45dafd8c4c642352ff2b34e28e2e7616084813eac",
+        "applied_prompt_sha256": "3d496042238fd8b985b2eb2bfa7cf34cf9b84a7d11ed1f55fb6c890df0731a74",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "提環水瓶輪廓一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Reference bottle moving left to right through neutral dark studio, final bottle at right is sharp and solid, three gradually fainter translucent previous positions trail BEHIND it toward left. All duplicate forms identical shape and orientation, no text or arrows.",
+            "observed": "暗色產品攝影背景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶運動殘影",
+            "observed": "右側實體清晰，左側三個逐淡殘影符合運動軌跡",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "殘影留在向右移動主體後方，方向連貫",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，瓶形與姿態一致",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-speed-30-01",
+      "prompt_id": "src-visual642-592",
+      "command": "/speedlines",
+      "title": "桌扇漫畫速度線",
+      "description": "桌扇漫畫速度線（AI案例示範）",
+      "result_text": "桌扇漫畫速度線",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-30/speed-30.png",
+      "applied_prompt": "Create a square web-quality website example. Bold comic action illustration of recognizable cream fan with three teal blades, dramatic radial graphic speed streaks around fan and curved action lines implying spinning blades. Clear product silhouette on simple cream background, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /speedlines: Add graphic action streaks.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Bold comic action illustration of recognizable cream fan with three teal blades, dramatic radial graphic speed streaks around fan and curved action lines implying spinning blades. Clear product silhouette on simple cream background, no text.",
+        "effect": "桌扇漫畫速度線",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:38:40.569Z",
+        "source_instruction": "Add graphic action streaks.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "3f4db9820ce7ed64f3560c335fdf5795b8404f24a92f5c1c7707182877985167",
+        "applied_prompt_sha256": "08a359799095586f9b612f2de2440967f583e6eb6e22b67d7979b8534204aa50",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油色圓桌扇與青綠扇葉清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Bold comic action illustration of recognizable cream fan with three teal blades, dramatic radial graphic speed streaks around fan and curved action lines implying spinning blades. Clear product silhouette on simple cream background, no text.",
+            "observed": "奶油底漫畫產品場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "桌扇漫畫速度線",
+            "observed": "放射速度線與旋轉弧線構成動作條紋",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "線條環繞主體，未遮蔽按鈕或風扇輪廓",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，圖形線條與產品清晰",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-freeze-30-01",
+      "prompt_id": "src-visual642-593",
+      "command": "/freezeframe",
+      "title": "手提袋瞬間定格",
+      "description": "手提袋瞬間定格（AI案例示範）",
+      "result_text": "手提袋瞬間定格",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-30/freeze-30.png",
+      "applied_prompt": "Create a square web-quality website example. Dramatic high-speed freeze-frame photo of reference cream tote with brown handles suspended mid-toss above a studio tabletop, two handles naturally arched, loose folds and small dust particles sharply frozen. One bag only, no hands, no motion blur, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /freezeframe: Capture a dramatic instant in motion.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Dramatic high-speed freeze-frame photo of reference cream tote with brown handles suspended mid-toss above a studio tabletop, two handles naturally arched, loose folds and small dust particles sharply frozen. One bag only, no hands, no motion blur, no text.",
+        "effect": "手提袋瞬間定格",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:39:32.837Z",
+        "source_instruction": "Capture a dramatic instant in motion.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "7d7a2303013f170ebf2be33ad0f4ef205b0ed5a07afeaf6aae91914335b58afc",
+        "applied_prompt_sha256": "206ee86b5a7b561291cb2ef0115e18795c9007bb63eff9baa1caad1ae5086964",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "單個米白棕把手提袋清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Dramatic high-speed freeze-frame photo of reference cream tote with brown handles suspended mid-toss above a studio tabletop, two handles naturally arched, loose folds and small dust particles sharply frozen. One bag only, no hands, no motion blur, no text.",
+            "observed": "棚拍桌面上方場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋瞬間定格",
+            "observed": "袋身懸空傾斜與微粒銳利定格，捕捉戲劇瞬間",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "投影在桌面，袋底離桌，提把自然拱起",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，無多餘袋體或動態模糊",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-timeline-30-01",
+      "prompt_id": "src-visual642-594",
+      "command": "/timeline",
+      "title": "住宅發展四階段",
+      "description": "住宅發展四階段（AI案例示範）",
+      "result_text": "住宅發展四階段",
+      "reference": "output/imagegen/batch-20-16/house-reference.png",
+      "result": "output/imagegen/batch-20-30/timeline-30.png",
+      "applied_prompt": "Create a square web-quality website example. Four-panel conceptual development timeline of same reference house, left to right: empty plot, timber house-shaped frame, completed white house without garden, completed house with garden. Consistent house footprint and camera in every panel, horizontal connecting arrow along bottom. Print only 1 SITE, 2 FRAME, 3 HOUSE, 4 GARDEN. Illustration of stages, not engineering instructions. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /timeline: Show development across multiple stages.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-16/house-reference.png",
+        "sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: photorealistic-natural. Create neutral reference image of one fictional simple two-story detached house, rectangular structure, pitched dark roof, light cream exterior, modest windows and ground entrance, three-quarter exterior daylight view on plain grass lot. Entire building visible. No text no people no logos. Architectural design concept, not existing building. Square web-quality photo."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four-panel conceptual development timeline of same reference house, left to right: empty plot, timber house-shaped frame, completed white house without garden, completed house with garden. Consistent house footprint and camera in every panel, horizontal connecting arrow along bottom. Print only 1 SITE, 2 FRAME, 3 HOUSE, 4 GARDEN. Illustration of stages, not engineering instructions.",
+        "effect": "住宅發展四階段",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:40:27.048Z",
+        "source_instruction": "Show development across multiple stages.",
+        "reference_sha256": "30456b34b13e8dc76830373e5770f1c4af7e86c71d40aabb57979af6feecaf3f",
+        "result_sha256": "297705239e9a6991ed6b21068ee680a256f876643e256dbc6bf7970373d3b02f",
+        "applied_prompt_sha256": "1a6e5e1b69f5a438b0f2c02ab51a29851b600e33fa296232540d226e88f342cf",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "同一雙層斜屋頂住宅逐階段出現",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four-panel conceptual development timeline of same reference house, left to right: empty plot, timber house-shaped frame, completed white house without garden, completed house with garden. Consistent house footprint and camera in every panel, horizontal connecting arrow along bottom. Print only 1 SITE, 2 FRAME, 3 HOUSE, 4 GARDEN. Illustration of stages, not engineering instructions.",
+            "observed": "四格住宅發展概念圖",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "住宅發展四階段",
+            "observed": "空地、框架、成屋、花園完整發展順序",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "從左向右箭頭連接1至4，成屋兩格一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "1 SITE 2 FRAME 3 HOUSE 4 GARDEN正確，非施工技術規範",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-transform-30-01",
+      "prompt_id": "src-visual642-595",
+      "command": "/transformation",
+      "title": "水瓶轉化玻璃鳥",
+      "description": "水瓶轉化玻璃鳥（AI案例示範）",
+      "result_text": "水瓶轉化玻璃鳥",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-30/transform-30.png",
+      "applied_prompt": "Create a square web-quality website example. Single image with four clear left-to-right stages showing reference sage bottle becoming a glass bird: intact bottle, bottle silhouette with sprouting transparent wings, partly bird-shaped transparent form with bottle neck still visible, finished clear glass bird. Smooth progressive metamorphosis narrative with tiny connecting arrows. No text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /transformation: Show one form becoming another.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Single image with four clear left-to-right stages showing reference sage bottle becoming a glass bird: intact bottle, bottle silhouette with sprouting transparent wings, partly bird-shaped transparent form with bottle neck still visible, finished clear glass bird. Smooth progressive metamorphosis narrative with tiny connecting arrows. No text.",
+        "effect": "水瓶轉化玻璃鳥",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:41:25.894Z",
+        "source_instruction": "Show one form becoming another.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "df3f1e9498e794ab4dcb1f05fae627f286e1a2d3f3eae185b17b1687f8eaec27",
+        "applied_prompt_sha256": "22e7e772e90da823ae488fc5b317d5bae73125628f819edbc146ec643d9d3579",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "起點為綠色提環水瓶，終點為透明玻璃鳥",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Single image with four clear left-to-right stages showing reference sage bottle becoming a glass bird: intact bottle, bottle silhouette with sprouting transparent wings, partly bird-shaped transparent form with bottle neck still visible, finished clear glass bird. Smooth progressive metamorphosis narrative with tiny connecting arrows. No text.",
+            "observed": "產品桌面轉化序列",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "水瓶轉化玻璃鳥",
+            "observed": "四階段從瓶、長翼瓶、鳥形瓶到玻璃鳥，變形漸進明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "三個箭頭由左向右連接，混合形態保留前後特徵",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，形體轉換清楚非四個無關物件",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-life-30-01",
+      "prompt_id": "src-visual642-596",
+      "command": "/lifecycle",
+      "title": "手提袋生命週期",
+      "description": "手提袋生命週期（AI案例示範）",
+      "result_text": "手提袋生命週期",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-30/life-30.png",
+      "applied_prompt": "Create a square web-quality website example. Four-panel lifecycle storyboard of cream tote brown handles: 1 fabric cut and sewn into tote on workbench; 2 fresh finished tote used for groceries; 3 visibly worn frayed tote after years of use; 4 worn tote repurposed as plant-pot cover. Print only MAKE, USE, AGE, REPURPOSE left to right. End of original carrying use shown through reuse, no recycling or sustainability statistics, coherent same tote. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /lifecycle: Show creation, use, aging, and end of life.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Four-panel lifecycle storyboard of cream tote brown handles: 1 fabric cut and sewn into tote on workbench; 2 fresh finished tote used for groceries; 3 visibly worn frayed tote after years of use; 4 worn tote repurposed as plant-pot cover. Print only MAKE, USE, AGE, REPURPOSE left to right. End of original carrying use shown through reuse, no recycling or sustainability statistics, coherent same tote.",
+        "effect": "手提袋生命週期",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:42:16.843Z",
+        "source_instruction": "Show creation, use, aging, and end of life.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "804b4e9a06c7dc6b2efb3679e14804d9e6be1dcb17ca4ba0e6216a07c294353d",
+        "applied_prompt_sha256": "f4ef63e445135be3ceb7f716efd1ed56eb10cd8a38396cfcc30a9c5fd6ce3420",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "各階段為同款米白棕把手提袋",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Four-panel lifecycle storyboard of cream tote brown handles: 1 fabric cut and sewn into tote on workbench; 2 fresh finished tote used for groceries; 3 visibly worn frayed tote after years of use; 4 worn tote repurposed as plant-pot cover. Print only MAKE, USE, AGE, REPURPOSE left to right. End of original carrying use shown through reuse, no recycling or sustainability statistics, coherent same tote.",
+            "observed": "製作工作台、購物、磨損與盆套場景",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋生命週期",
+            "observed": "製作、使用、老化、原用途終了後改作盆套呈生命週期",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "四格從左至右依序，第三與第四磨損一致",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "MAKE USE AGE REPURPOSE文字正確，未虛構回收效率",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-home-30-01",
+      "prompt_id": "src-visual642-597",
+      "command": "/homeuse",
+      "title": "家中使用桌扇",
+      "description": "家中使用桌扇（AI案例示範）",
+      "result_text": "家中使用桌扇",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-30/home-30.png",
+      "applied_prompt": "Create a square web-quality website example. Realistic cozy living room, reference cream desk fan with teal blades placed safely on side table and directed toward adult reading on sofa nearby, black USB power cord visibly connected to small power adapter. Relaxed domestic use, coherent furniture scale, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /homeuse: Show the item being used at home.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Realistic cozy living room, reference cream desk fan with teal blades placed safely on side table and directed toward adult reading on sofa nearby, black USB power cord visibly connected to small power adapter. Relaxed domestic use, coherent furniture scale, no text.",
+        "effect": "家中使用桌扇",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:43:08.340Z",
+        "source_instruction": "Show the item being used at home.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "9817815a5e7016c2d332db8a9605a461d213e8f2862c7e1d1fa53f542a6ad4c1",
+        "applied_prompt_sha256": "c3b522e19c6e94deb4ace6f28e9f699548aba5959bd13cf581ddb4dfb3af862b",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油桌扇與青綠扇葉保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Realistic cozy living room, reference cream desk fan with teal blades placed safely on side table and directed toward adult reading on sofa nearby, black USB power cord visibly connected to small power adapter. Relaxed domestic use, coherent furniture scale, no text.",
+            "observed": "成人在客廳沙發閱讀，桌扇置側桌",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "家中使用桌扇",
+            "observed": "明確居家使用而非孤立產品擺拍",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "桌扇朝向閱讀區，USB線接電源，家具比例合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，人物手部與電線連接自然",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-desk-30-01",
+      "prompt_id": "src-visual642-598",
+      "command": "/deskuse",
+      "title": "行動電源工作桌配置",
+      "description": "行動電源工作桌配置（AI案例示範）",
+      "result_text": "行動電源工作桌配置",
+      "reference": "output/imagegen/batch-20-24/bank-reference.png",
+      "result": "output/imagegen/batch-20-30/desk-30.png",
+      "applied_prompt": "Create a square web-quality website example. Realistic tidy workstation with laptop, notebook, smartphone and reference slate-blue power bank with four tiny white LEDs. USB-C cable visibly connects power bank USB-C port to phone bottom charging port, both plugs seated correctly, phone shows only simple battery icon. Practical desk setup, no text or capacity claims. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /deskuse: Show a practical workstation setup.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-24/bank-reference.png",
+        "sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio reference photo of one fictional unbranded compact power bank, matte slate blue rounded rectangular body, short end facing camera shows exactly two visible ports: one USB-C oval socket and one USB-A rectangular socket. Four small white charge indicator dots on top near edge. No screen no text no symbols no brand. Beside it one short black USB-C to USB-C cable neatly looped. Three-quarter view clean pale gray background, realistic consumer product web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Realistic tidy workstation with laptop, notebook, smartphone and reference slate-blue power bank with four tiny white LEDs. USB-C cable visibly connects power bank USB-C port to phone bottom charging port, both plugs seated correctly, phone shows only simple battery icon. Practical desk setup, no text or capacity claims.",
+        "effect": "行動電源工作桌配置",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:44:05.084Z",
+        "source_instruction": "Show a practical workstation setup.",
+        "reference_sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "result_sha256": "f1da8562e08ab516dcdb70be46c7774176deeadcc4c010737e392e3b48cc3a2a",
+        "applied_prompt_sha256": "bb6886c159cfbbb8a6189c271019925ebd2b4d10b5bb47b3fe3f3f6b0345f66f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍色四燈行動電源保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Realistic tidy workstation with laptop, notebook, smartphone and reference slate-blue power bank with four tiny white LEDs. USB-C cable visibly connects power bank USB-C port to phone bottom charging port, both plugs seated correctly, phone shows only simple battery icon. Practical desk setup, no text or capacity claims.",
+            "observed": "筆電、筆記本與手機構成實用工作站",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "行動電源工作桌配置",
+            "observed": "手機透過行動電源連接使用，桌面功能明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "C線兩端接行動電源左端口與手機底部，插頭就位",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "電池圖示清楚，無容量或速度宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-kitchen-30-01",
+      "prompt_id": "src-visual642-599",
+      "command": "/kitchenuse",
+      "title": "廚房水瓶倒水使用",
+      "description": "廚房水瓶倒水使用（AI案例示範）",
+      "result_text": "廚房水瓶倒水使用",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-30/kitchen-30.png",
+      "applied_prompt": "Create a square web-quality website example. Realistic kitchen counter close-up, adult hand holding open reference sage bottle tilted at natural angle to pour clear water from uncapped bottle neck directly into drinking glass. Black loop cap rests separately on counter, olive bottle base retained. Water stream connects opening to glass, no spills through sealed lid, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /kitchenuse: Show a realistic kitchen application.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Realistic kitchen counter close-up, adult hand holding open reference sage bottle tilted at natural angle to pour clear water from uncapped bottle neck directly into drinking glass. Black loop cap rests separately on counter, olive bottle base retained. Water stream connects opening to glass, no spills through sealed lid, no text.",
+        "effect": "廚房水瓶倒水使用",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:45:04.776Z",
+        "source_instruction": "Show a realistic kitchen application.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "4aec6262947afc575ca107f980d946c20f614638bc2e536695aba43a72aa1535",
+        "applied_prompt_sha256": "d64219d512b2e95514a6d3a2284dd0afb2aabdaff632f9c8c2f533c6342cea87",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色水瓶及分離黑色提環蓋可辨",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Realistic kitchen counter close-up, adult hand holding open reference sage bottle tilted at natural angle to pour clear water from uncapped bottle neck directly into drinking glass. Black loop cap rests separately on counter, olive bottle base retained. Water stream connects opening to glass, no spills through sealed lid, no text.",
+            "observed": "廚房檯面與飲水杯形成真實用途",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "廚房水瓶倒水使用",
+            "observed": "手持開蓋瓶口向杯內倒水，使用行為明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "水流由開口連續進入杯中，蓋子另放檯面",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，握持手指與杯水互動合理",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-travel-30-01",
+      "prompt_id": "src-visual642-600",
+      "command": "/traveluse",
+      "title": "旅行中行動電源充電",
+      "description": "旅行中行動電源充電（AI案例示範）",
+      "result_text": "旅行中行動電源充電",
+      "reference": "output/imagegen/batch-20-24/bank-reference.png",
+      "result": "output/imagegen/batch-20-30/travel-30.png",
+      "applied_prompt": "Create a square web-quality website example. Realistic train-seat travel scene, reference slate-blue power bank and smartphone on small tray table, short USB-C cable correctly plugged into power bank C port and phone bottom port, simple battery icon on phone. Window shows softly passing countryside, bag in background, no text or false specs. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /traveluse: Show how the item works while traveling.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-24/bank-reference.png",
+        "sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "generator": "built-in imagegen",
+        "prompt": "Square studio reference photo of one fictional unbranded compact power bank, matte slate blue rounded rectangular body, short end facing camera shows exactly two visible ports: one USB-C oval socket and one USB-A rectangular socket. Four small white charge indicator dots on top near edge. No screen no text no symbols no brand. Beside it one short black USB-C to USB-C cable neatly looped. Three-quarter view clean pale gray background, realistic consumer product web quality."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Realistic train-seat travel scene, reference slate-blue power bank and smartphone on small tray table, short USB-C cable correctly plugged into power bank C port and phone bottom port, simple battery icon on phone. Window shows softly passing countryside, bag in background, no text or false specs.",
+        "effect": "旅行中行動電源充電",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:46:01.349Z",
+        "source_instruction": "Show how the item works while traveling.",
+        "reference_sha256": "c8d0f50893c3006ddfb710eb9144cab38958931bca323f62ce8346850ffc5cd7",
+        "result_sha256": "15fdfda45c07d4cd3832fa3f7d19d24df4127486fa59543b0ab22b433a2ee943",
+        "applied_prompt_sha256": "06e599049a9745c6ff0ec4d22248e85e97179273bb87f659a12c6b4be8c70e3d",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "藍色四燈行動電源身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Realistic train-seat travel scene, reference slate-blue power bank and smartphone on small tray table, short USB-C cable correctly plugged into power bank C port and phone bottom port, simple battery icon on phone. Window shows softly passing countryside, bag in background, no text or false specs.",
+            "observed": "列車座椅、托盤、行李與窗外移動景色",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "旅行中行動電源充電",
+            "observed": "旅行時手機充電使用明確",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "USB-C連接左側電源端口與手機底部，線材連續",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "電池圖示清楚，無容量或快速充電宣稱",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-hand-30-01",
+      "prompt_id": "src-visual642-601",
+      "command": "/inhandscale",
+      "title": "手持水瓶比例示範",
+      "description": "手持水瓶比例示範（AI案例示範）",
+      "result_text": "手持水瓶比例示範",
+      "reference": "output/imagegen/replacement-01/reference.png",
+      "result": "output/imagegen/batch-20-30/hand-30.png",
+      "applied_prompt": "Create a square web-quality website example. Natural product photograph of adult left hand gripping reference medium reusable bottle upright around lower body, black loop cap and sage body recognizable, realistic human hand and plausible handheld bottle scale. Plain background, one anatomically correct hand with five fingers, no printed dimensions or text. Not a measured size claim. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /inhandscale: Show the real size in a person's hand.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/replacement-01/reference.png",
+        "sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Create a photorealistic reference photograph of one fictional unbranded reusable insulated water bottle. Sage green matte powder-coated cylindrical metal body, rounded shoulder, short neck, charcoal screw cap with a small rigid loop integrated in its top. No logo, no text, no measurement marks. Entire bottle visible upright on an ordinary warm wooden table against a softly blurred neutral home wall, modest natural window light. Simple plausible product geometry, no extra objects. Square web-quality image. This is a neutral reference asset for later studio photography and subway advertisement examples."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Natural product photograph of adult left hand gripping reference medium reusable bottle upright around lower body, black loop cap and sage body recognizable, realistic human hand and plausible handheld bottle scale. Plain background, one anatomically correct hand with five fingers, no printed dimensions or text. Not a measured size claim.",
+        "effect": "手持水瓶比例示範",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:46:57.412Z",
+        "source_instruction": "Show the real size in a person's hand.",
+        "reference_sha256": "27b2246555d5b890e2ff08069af968d7abdafdf3b05dec11c213e3dc8cd1db1e",
+        "result_sha256": "0aed1d0ff35ceb062b1ba17ee3f622dbd2ff444e9aa93c2cdb65a05c5bbec70c",
+        "applied_prompt_sha256": "0c2b319690eb771d6abdcabc2046db696e072f107100b3992be789fb703ad524",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "綠色提環水瓶身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Natural product photograph of adult left hand gripping reference medium reusable bottle upright around lower body, black loop cap and sage body recognizable, realistic human hand and plausible handheld bottle scale. Plain background, one anatomically correct hand with five fingers, no printed dimensions or text. Not a measured size claim.",
+            "observed": "單手與素背景產品比例展示",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手持水瓶比例示範",
+            "observed": "手掌握持瓶身形成直觀尺寸參照",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "拇指與四指握持自然，瓶子為合理手持大小",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無尺寸文字或實測宣稱；原英文僅要求人在手中，未限定左右手",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-begin-30-01",
+      "prompt_id": "src-visual642-602",
+      "command": "/beginnerfriendly",
+      "title": "新手桌扇入門圖解",
+      "description": "新手桌扇入門圖解（AI案例示範）",
+      "result_text": "新手桌扇入門圖解",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-30/begin-30.png",
+      "applied_prompt": "Create a square web-quality website example. Simple approachable illustrated guide using reference cream fan teal blades. Three large panels: USB plug inserted into adapter; index finger presses single round base button; fan stands on desk facing seated user with gentle airflow curves. Print only 1 CONNECT, 2 PRESS, 3 ENJOY. Minimal clutter, coherent generic concept usage, no safety or specification claims. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /beginnerfriendly: Make the explanation simple and approachable.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Simple approachable illustrated guide using reference cream fan teal blades. Three large panels: USB plug inserted into adapter; index finger presses single round base button; fan stands on desk facing seated user with gentle airflow curves. Print only 1 CONNECT, 2 PRESS, 3 ENJOY. Minimal clutter, coherent generic concept usage, no safety or specification claims.",
+        "effect": "新手桌扇入門圖解",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:48:06.410Z",
+        "source_instruction": "Make the explanation simple and approachable.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "be78ed8b81ba3e039416a940e8c7d6cc55238b231540ded7d48115df57785310",
+        "applied_prompt_sha256": "d697507ef03ef8c9af9157d882eee45d5d91cdd3b087ced48fa370b61428cc09",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "桌扇及底座單按鈕保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Simple approachable illustrated guide using reference cream fan teal blades. Three large panels: USB plug inserted into adapter; index finger presses single round base button; fan stands on desk facing seated user with gentle airflow curves. Print only 1 CONNECT, 2 PRESS, 3 ENJOY. Minimal clutter, coherent generic concept usage, no safety or specification claims.",
+            "observed": "三格簡潔入門圖解",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "新手桌扇入門圖解",
+            "observed": "連接、按鈕、享用三步容易理解",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "插頭對準插座、手指按下底座按鈕、風向使用者順序清楚",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "1 CONNECT 2 PRESS 3 ENJOY文字正確，無多餘技術資訊",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-left-30-01",
+      "prompt_id": "src-visual642-603",
+      "command": "/lefthanded",
+      "title": "左手操作桌扇",
+      "description": "左手操作桌扇（AI案例示範）",
+      "result_text": "左手操作桌扇",
+      "reference": "output/imagegen/batch-20-17/fan-reference.png",
+      "result": "output/imagegen/batch-20-30/left-30.png",
+      "applied_prompt": "Create a square web-quality website example. Realistic close photograph from front of adult standing BEHIND reference fan on tabletop. Show both forearms so anatomical side is unambiguous: person LEFT arm is on VIEWER RIGHT and extends to round button on fan base, LEFT index fingertip pressing button; person right arm at viewer left rests on table and does not operate. Five fingers coherent, cream fan teal blades, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /lefthanded: Show the item operated left-handed.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/batch-20-17/fan-reference.png",
+        "sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "generator": "built-in imagegen",
+        "prompt": "Create a neutral reference product studio photo of a simple unbranded compact desk fan, cream plastic round safety grille surrounding three teal blades, short tilting support and round base, a simple push switch on base and a black USB power cable emerging from back of base. Three quarter front view. Plain white studio, whole object visible, no labels no logo no watermark, square web quality. Concept product."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Realistic close photograph from front of adult standing BEHIND reference fan on tabletop. Show both forearms so anatomical side is unambiguous: person LEFT arm is on VIEWER RIGHT and extends to round button on fan base, LEFT index fingertip pressing button; person right arm at viewer left rests on table and does not operate. Five fingers coherent, cream fan teal blades, no text.",
+        "effect": "左手操作桌扇",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:49:14.620Z",
+        "source_instruction": "Show the item operated left-handed.",
+        "reference_sha256": "6e7f4017e2ce7051fe3962d0d3504ecbbb056f912c000be864137418872e96f8",
+        "result_sha256": "c5f9986e1d8685c9d052171f89f4e17b8e518aa6a3293ca4e38a2e6dbdf69d4f",
+        "applied_prompt_sha256": "dc9c0f0024f716dd431c80482fc18e840a386033706f6191b6fafa53abbd8c3f",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "奶油桌扇與青綠三扇葉保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Realistic close photograph from front of adult standing BEHIND reference fan on tabletop. Show both forearms so anatomical side is unambiguous: person LEFT arm is on VIEWER RIGHT and extends to round button on fan base, LEFT index fingertip pressing button; person right arm at viewer left rests on table and does not operate. Five fingers coherent, cream fan teal blades, no text.",
+            "observed": "人物站在桌扇後方，兩前臂同框",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "左手操作桌扇",
+            "observed": "人物左手食指按下底座按鈕符合左手操作",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "人物面向鏡頭，左臂在觀者右側，右手在觀者左側休息",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，左右解剖位置與手指結構清楚",
+            "status": "passed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "case-store-30-01",
+      "prompt_id": "src-visual642-604",
+      "command": "/storageplan",
+      "title": "手提袋收納配置",
+      "description": "手提袋收納配置（AI案例示範）",
+      "result_text": "手提袋收納配置",
+      "reference": "output/imagegen/stage-1-02/reference.png",
+      "result": "output/imagegen/batch-20-30/store-30.png",
+      "applied_prompt": "Create a square web-quality website example. Practical home storage arrangement showing reference cream tote with brown handles hanging from one wall hook next to shallow shelf with neatly folded similar totes and small tray for wallet and keys. Calm entryway, hooks and shelves aligned, tote easy to reach, realistic proportions, no text. Use reference for product identity; do not print these directions. Print only requested title and labels. Preserve coherent structure. Original instruction /storageplan: Show a practical storage arrangement.",
+      "generation_status": "done",
+      "source": {
+        "provided_by": "assistant",
+        "kind": "ai_generated",
+        "path": "output/imagegen/stage-1-02/reference.png",
+        "sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "generator": "built-in imagegen",
+        "prompt": "Use case: product-mockup. Asset type: neutral reference photograph for a website transformation example. Create one fictional unbranded everyday tote handbag, natural cream woven canvas rectangular body, two medium-width caramel-brown flat handles attached with simple square stitched tabs, a softly squared bottom and an open top with a subtle narrow rim. No shoulder strap, no hardware, no logos, no words, no patterns. Photograph the complete bag standing upright on a plain light wood table in a neutral home interior, three-quarter view, soft natural daylight, realistic woven fabric and plausible seams. Exactly one bag, entirely visible with breathing room. Square web-quality photo. This is the original modest everyday product, before any luxury transformation."
+      },
+      "acceptance": {
+        "subject": "保留參考素材身份或指定主題",
+        "scene": "Practical home storage arrangement showing reference cream tote with brown handles hanging from one wall hook next to shallow shelf with neatly folded similar totes and small tray for wallet and keys. Calm entryway, hooks and shelves aligned, tote easy to reach, realistic proportions, no text.",
+        "effect": "手提袋收納配置",
+        "relations": "位置、比例、箭頭、步驟與視角符合原指令",
+        "details": "指定文字、數字及物件數正確，無多餘水印或宣稱"
+      },
+      "review": {
+        "status": "passed",
+        "reviewer": "Codex single direct visual review",
+        "checked_at": "2026-10-10T06:50:06.101Z",
+        "source_instruction": "Show a practical storage arrangement.",
+        "reference_sha256": "a976b8a6f2e07aa459ff14814d243d4e2822d3145ed17ce69c739a8bb5a5c641",
+        "result_sha256": "f20771d4613a0b878422b0cb8a3e3c38fb0af811a98bf344158658ec432dd471",
+        "applied_prompt_sha256": "ec4484f7e65b72608631c3c1d01b5387e2cbd314ac3ca90197ad2a3924a689cc",
+        "requires_factual_check": false,
+        "criteria": [
+          {
+            "dimension": "subject",
+            "expected": "保留參考素材身份或指定主題",
+            "observed": "米白棕把手提袋身份保留",
+            "status": "passed"
+          },
+          {
+            "dimension": "scene",
+            "expected": "Practical home storage arrangement showing reference cream tote with brown handles hanging from one wall hook next to shallow shelf with neatly folded similar totes and small tray for wallet and keys. Calm entryway, hooks and shelves aligned, tote easy to reach, realistic proportions, no text.",
+            "observed": "門口玄關牆面與層架",
+            "status": "passed"
+          },
+          {
+            "dimension": "effect",
+            "expected": "手提袋收納配置",
+            "observed": "掛鉤吊袋、折疊備用袋與鑰匙錢包托盤構成實用收納",
+            "status": "passed"
+          },
+          {
+            "dimension": "relations",
+            "expected": "位置、比例、箭頭、步驟與視角符合原指令",
+            "observed": "提把掛在固定鉤上，層架排列與可取用位置合理",
+            "status": "passed"
+          },
+          {
+            "dimension": "details",
+            "expected": "指定文字、數字及物件數正確，無多餘水印或宣稱",
+            "observed": "無文字要求，收納物件比例與懸掛結構完整",
+            "status": "passed"
+          }
+        ]
+      }
+    }
+  ]
+}
