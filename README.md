@@ -49,7 +49,7 @@ artifacts/               舊部署包及匯出結果，不納入 Git
 
 詳細資料規則見 [database/README.md](database/README.md)，日常維護見 [docs/MAINTENANCE.md](docs/MAINTENANCE.md)，GitHub 與部署操作見 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)。原始資料的權利與來源說明見 [docs/SOURCES.md](docs/SOURCES.md)。
 
-已包含 GitHub Pages 手動部署流程。上傳後，將 Settings → Pages 的來源設為 GitHub Actions，再執行 Actions → Deploy to GitHub Pages → Run workflow。
+已包含 GitHub Pages 自動部署流程：推送到 main 分支即自動驗證並發布（也可在 Actions → Deploy to GitHub Pages 手動執行）。首次使用需將 Settings → Pages 的來源設為 GitHub Actions。
 
 ## Cloudinary 圖片案例
 

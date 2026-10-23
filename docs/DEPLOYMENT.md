@@ -12,7 +12,7 @@ npm run export:github
 
 將該匯出資料夾複製至目前既有儲存庫以外的獨立位置，再建立自己的 Git 儲存庫及 GitHub repository。可使用 GitHub Desktop 發布，或在那個獨立資料夾執行 `git init`、提交後加入自己的 remote 並推送。此整理工作沒有建立或上傳 GitHub repository。
 
-GitHub Actions 在 push 或 pull request 時驗證資料、執行測試並產生網站資料；不會自動發布網站。
+GitHub Actions 在 push 或 pull request 時驗證資料、執行測試並產生網站資料；推送到 `main` 分支時會自動部署到 GitHub Pages。
 
 ## 部署網站
 
@@ -20,14 +20,14 @@ GitHub Actions 在 push 或 pull request 時驗證資料、執行測試並產生
 
 ## 使用 GitHub Pages
 
-已提供 `.github/workflows/pages.yml`，手動執行時會建置、驗證並部署 `website/dist/`。
+已提供 `.github/workflows/pages.yml`，推送到 `main` 時自動建置、驗證並部署 `website/dist/`，也可手動執行。
 
 1. 將乾淨匯出專案上傳到 GitHub 儲存庫的預設分支，保留 `.github/` 目錄。
 2. 在儲存庫的 **Settings → Pages → Build and deployment → Source** 選擇 **GitHub Actions**。
-3. 在 **Actions → Deploy to GitHub Pages → Run workflow** 選擇預設分支並執行。
+3. 推送到 `main` 即自動部署；需要重新部署時，也可在 **Actions → Deploy to GitHub Pages → Run workflow** 手動執行。
 4. 成功後從部署結果或 Settings → Pages 開啟網站，通常為 `https://你的帳號.github.io/儲存庫名稱/`。
 
-每次更新後再手動執行部署流程；push 本身只執行檢查。網站資源及 JSON 使用相對路徑，可在儲存庫名稱的子路徑正常載入。搜尋與詳情在同一頁運作，不需要後端路由或 SPA 轉址設定。
+每次推送到 `main` 都會自動重新部署；驗證或測試失敗時不會發布。網站資源及 JSON 使用相對路徑，可在儲存庫名稱的子路徑正常載入。搜尋與詳情在同一頁運作，不需要後端路由或 SPA 轉址設定。
 
 不要選擇「Deploy from a branch」並把本專案的根目錄或 `docs/` 作為網站來源；真正的網站入口在 `website/dist/index.html`。
 
